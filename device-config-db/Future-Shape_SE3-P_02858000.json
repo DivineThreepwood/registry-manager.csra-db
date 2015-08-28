@@ -28,23 +28,11 @@
   "inventory_state": {
     "value": "INSTALLED",
     "timestamp": {
-      "time": 1436364363087
+      "time": 1440771271472
     },
     "owner": {}
   },
-  "device_class": {
-    "id": "Future-Shape_SE3-P",
-    "label": "SenseFloorUSBReceiver",
-    "product_number": "SE3-P",
-    "description": "SenseFloor USB Receiver",
-    "binding_config": {
-      "type": "FLOOR_BASE",
-      "openhab_binding_config": {},
-      "miele_at_home_binding_config": {},
-      "floor_base_binding_config": {}
-    },
-    "company": "Future-Shape"
-  },
+  "device_class_id": "Future-Shape_SE3-P",
   "meta_config": {
     "entry": [
       {

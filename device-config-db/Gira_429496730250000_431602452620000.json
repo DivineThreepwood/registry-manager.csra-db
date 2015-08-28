@@ -27,68 +27,84 @@
   "serial_number": "431602452620000",
   "inventory_state": {
     "value": "INSTALLED",
+    "location_id": "Living",
     "timestamp": {
-      "time": 1432734256192
+      "time": 1440775860799
     },
     "owner": {}
   },
-  "device_class": {
-    "id": "Gira_429496730250000",
-    "label": "Gira_5142",
-    "product_number": "429496730250000",
-    "description": "4 knx buttons and a temperature controller by Gira.",
-    "binding_config": {
-      "type": "OPENHAB",
-      "openhab_binding_config": {
-        "openhab_config": "Gira_5142"
-      },
-      "miele_at_home_binding_config": {}
-    },
-    "company": "Gira",
-    "unit_template": [
-      {
-        "type": "BUTTON",
-        "service_type": [
-          "BUTTON_PROVIDER"
-        ]
-      },
-      {
-        "type": "BUTTON",
-        "service_type": [
-          "BUTTON_PROVIDER"
-        ]
-      },
-      {
-        "type": "BUTTON",
-        "service_type": [
-          "BUTTON_PROVIDER"
-        ]
-      },
-      {
-        "type": "BUTTON",
-        "service_type": [
-          "BUTTON_PROVIDER"
-        ]
-      },
-      {
-        "type": "TEMPERATURE_CONTROLLER",
-        "service_type": [
-          "TEMPERATURE_PROVIDER"
-        ]
-      }
-    ]
-  },
+  "device_class_id": "Gira_429496730250000",
   "unit_config": [
+    {
+      "id": "/home/living/temperaturecontroller/control/",
+      "label": "Control",
+      "device_id": "Gira_429496730250000_431602452620000",
+      "type": "TEMPERATURE_CONTROLLER",
+      "placement_config": {
+        "location_id": "Living",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "living",
+          "temperaturecontroller",
+          "control"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Gira_5142__home_living__TemperatureController__Control__TemperatureProvider"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/living/temperaturecontroller/control/",
+          "type": "TEMPERATURE_PROVIDER",
+          "meta_config": {}
+        },
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Gira_5142__home_living__TemperatureController__Control__Unknown"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/living/temperaturecontroller/control/",
+          "type": "UNKNOWN",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
     {
       "id": "/home/living/button/button1/",
       "label": "Button1",
       "device_id": "Gira_429496730250000_431602452620000",
-      "template": {
-        "type": "BUTTON",
-        "service_type": [
-          "BUTTON_PROVIDER"
-        ]
-      },
+      "type": "BUTTON",
       "placement_config": {
         "location_id": "Living",
         "position": {
@@ -117,27 +133,31 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "openhab_binding_service_config": {
-              "item_id": "Gira_5142__home_living__Button__Button1__ButtonProvider",
-              "item_hardware_config": "knx\u003d\"2/3/0\""
-            },
-            "miele_at_home_binding_service_config": {}
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "2/3/0"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Gira_5142__home_living__Button__Button1__ButtonProvider"
+                }
+              ]
+            }
           },
           "unit_id": "/home/living/button/button1/",
-          "type": "BUTTON_PROVIDER"
+          "type": "BUTTON_PROVIDER",
+          "meta_config": {}
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
       "id": "/home/living/button/button2/",
       "label": "Button2",
       "device_id": "Gira_429496730250000_431602452620000",
-      "template": {
-        "type": "BUTTON",
-        "service_type": [
-          "BUTTON_PROVIDER"
-        ]
-      },
+      "type": "BUTTON",
       "placement_config": {
         "location_id": "Living",
         "position": {
@@ -166,27 +186,31 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "openhab_binding_service_config": {
-              "item_id": "Gira_5142__home_living__Button__Button2__ButtonProvider",
-              "item_hardware_config": "knx\u003d\"2/3/1\""
-            },
-            "miele_at_home_binding_service_config": {}
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "2/3/1"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Gira_5142__home_living__Button__Button2__ButtonProvider"
+                }
+              ]
+            }
           },
           "unit_id": "/home/living/button/button2/",
-          "type": "BUTTON_PROVIDER"
+          "type": "BUTTON_PROVIDER",
+          "meta_config": {}
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
       "id": "/home/living/button/button3/",
       "label": "Button3",
       "device_id": "Gira_429496730250000_431602452620000",
-      "template": {
-        "type": "BUTTON",
-        "service_type": [
-          "BUTTON_PROVIDER"
-        ]
-      },
+      "type": "BUTTON",
       "placement_config": {
         "location_id": "Living",
         "position": {
@@ -215,27 +239,31 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "openhab_binding_service_config": {
-              "item_id": "Gira_5142__home_living__Button__Button3__ButtonProvider",
-              "item_hardware_config": "knx\u003d\"2/3/2\""
-            },
-            "miele_at_home_binding_service_config": {}
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "2/3/2"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Gira_5142__home_living__Button__Button3__ButtonProvider"
+                }
+              ]
+            }
           },
           "unit_id": "/home/living/button/button3/",
-          "type": "BUTTON_PROVIDER"
+          "type": "BUTTON_PROVIDER",
+          "meta_config": {}
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
       "id": "/home/living/button/button4/",
       "label": "Button4",
       "device_id": "Gira_429496730250000_431602452620000",
-      "template": {
-        "type": "BUTTON",
-        "service_type": [
-          "BUTTON_PROVIDER"
-        ]
-      },
+      "type": "BUTTON",
       "placement_config": {
         "location_id": "Living",
         "position": {
@@ -264,64 +292,26 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "openhab_binding_service_config": {
-              "item_id": "Gira_5142__home_living__Button__Button4__ButtonProvider",
-              "item_hardware_config": "knx\u003d\"2/3/3\""
-            },
-            "miele_at_home_binding_service_config": {}
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "2/3/3"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Gira_5142__home_living__Button__Button4__ButtonProvider"
+                }
+              ]
+            }
           },
           "unit_id": "/home/living/button/button4/",
-          "type": "BUTTON_PROVIDER"
+          "type": "BUTTON_PROVIDER",
+          "meta_config": {}
         }
-      ]
-    },
-    {
-      "id": "/home/living/temperaturecontroller/temperaturecontroller/",
-      "label": "TemperatureController",
-      "device_id": "Gira_429496730250000_431602452620000",
-      "template": {
-        "type": "TEMPERATURE_CONTROLLER",
-        "service_type": [
-          "TEMPERATURE_PROVIDER"
-        ]
-      },
-      "placement_config": {
-        "location_id": "Living",
-        "position": {
-          "translation": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "rotation": {
-            "qw": 1.0,
-            "qx": 0.0,
-            "qy": 0.0,
-            "qz": 0.0
-          }
-        }
-      },
-      "scope": {
-        "component": [
-          "home",
-          "living",
-          "temperaturecontroller",
-          "temperaturecontroller"
-        ]
-      },
-      "service_config": [
-        {
-          "binding_service_config": {
-            "type": "OPENHAB",
-            "openhab_binding_service_config": {
-              "item_id": "Gira_5142__home_living__TemperatureController__TemperatureController__TemperatureProvider"
-            },
-            "miele_at_home_binding_service_config": {}
-          },
-          "unit_id": "/home/living/temperaturecontroller/temperaturecontroller/",
-          "type": "TEMPERATURE_PROVIDER"
-        }
-      ]
+      ],
+      "meta_config": {}
     }
-  ]
+  ],
+  "meta_config": {}
 }

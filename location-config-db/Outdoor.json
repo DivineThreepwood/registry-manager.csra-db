@@ -4,11 +4,11 @@
   "root": false,
   "parent_id": "Home",
   "unit_id": [
-    "/home/outdoor/motionsensor/entrance/",
-    "/home/outdoor/battery/entrance/",
     "/home/outdoor/tamperswitch/entrance/",
     "/home/outdoor/temperaturesensor/entrance/",
-    "/home/outdoor/brightnesssensor/entrance/"
+    "/home/outdoor/motionsensor/entrance/",
+    "/home/outdoor/brightnesssensor/entrance/",
+    "/home/outdoor/battery/entrance/"
   ],
   "scope": {
     "component": [

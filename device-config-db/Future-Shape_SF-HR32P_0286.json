@@ -27,35 +27,12 @@
   "serial_number": "0286",
   "inventory_state": {
     "value": "INSTALLED",
+    "location_id": "Sports",
     "timestamp": {
-      "time": 1436365395111
+      "time": 1440772114884
     },
     "owner": {}
   },
-  "device_class": {
-    "id": "Future-Shape_SF-HR32P",
-    "label": "SensFloor",
-    "product_number": "SF-HR32P",
-    "description": "Capacitive sensor patches for person detection.",
-    "binding_config": {
-      "type": "FLOOR_BASE",
-      "openhab_binding_config": {},
-      "miele_at_home_binding_config": {},
-      "floor_base_binding_config": {
-        "usb_port": "/dev/ttyUSB0",
-        "serial_hardware_entry": [
-          {
-            "serial_number": "00001",
-            "hardware_id": "0284"
-          },
-          {
-            "serial_number": "00002",
-            "hardware_id": "0286"
-          }
-        ]
-      }
-    },
-    "company": "Future-Shape"
-  },
+  "device_class_id": "Future-Shape_SF-HR32P",
   "meta_config": {}
 }

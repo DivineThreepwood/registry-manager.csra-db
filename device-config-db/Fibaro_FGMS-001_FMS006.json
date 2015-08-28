@@ -27,249 +27,19 @@
   "serial_number": "FMS006",
   "inventory_state": {
     "value": "INSTALLED",
-    "location_config": {
-      "id": "Bath",
-      "label": "Bath",
-      "root": false,
-      "parent_id": "Home",
-      "scope": {
-        "component": [
-          "home",
-          "bath"
-        ]
-      }
-    },
+    "location_id": "Bath",
     "timestamp": {
-      "time": 1431703990285
+      "time": 1440770415627
     },
     "owner": {}
   },
-  "device_class": {
-    "id": "Fibaro_FGMS-001",
-    "label": "F_MotionSensor",
-    "product_number": "FGMS-001",
-    "description": "Wireless sensor for motion, temperature, brightness and tamper with a battery by Fibaro.",
-    "binding_config": {
-      "type": "OPENHAB",
-      "openhab_binding_config": {
-        "openhab_config": "F_MotionSensor"
-      },
-      "miele_at_home_binding_config": {},
-      "floor_base_binding_config": {}
-    },
-    "company": "Fibaro",
-    "unit_template": [
-      {
-        "type": "MOTION_SENSOR",
-        "service_type": [
-          "MOTION_PROVIDER"
-        ],
-        "service_template": [
-          {
-            "service_type": "MOTION_PROVIDER",
-            "meta_config": {
-              "entry": [
-                {
-                  "key": "OPENHAB_BINDING_TYPE",
-                  "value": "zwave"
-                },
-                {
-                  "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_binary"
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "type": "BATTERY",
-        "service_type": [
-          "BATTERY_PROVIDER"
-        ],
-        "service_template": [
-          {
-            "service_type": "BATTERY_PROVIDER",
-            "meta_config": {
-              "entry": [
-                {
-                  "key": "OPENHAB_BINDING_TYPE",
-                  "value": "zwave"
-                },
-                {
-                  "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dbattery"
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "type": "TAMPER_SWITCH",
-        "service_type": [
-          "TAMPER_PROVIDER"
-        ],
-        "service_template": [
-          {
-            "service_type": "TAMPER_PROVIDER",
-            "meta_config": {
-              "entry": [
-                {
-                  "key": "OPENHAB_BINDING_TYPE",
-                  "value": "zwave"
-                },
-                {
-                  "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_alarm"
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "type": "TEMPERATURE_SENSOR",
-        "service_type": [
-          "TEMPERATURE_PROVIDER"
-        ],
-        "service_template": [
-          {
-            "service_type": "TEMPERATURE_PROVIDER",
-            "meta_config": {
-              "entry": [
-                {
-                  "key": "OPENHAB_BINDING_TYPE",
-                  "value": "zwave"
-                },
-                {
-                  "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_multilevel,sensor_type\u003d1"
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "type": "BRIGHTNESS_SENSOR",
-        "service_type": [
-          "BRIGHTNESS_PROVIDER"
-        ],
-        "service_template": [
-          {
-            "service_type": "BRIGHTNESS_PROVIDER",
-            "meta_config": {
-              "entry": [
-                {
-                  "key": "OPENHAB_BINDING_TYPE",
-                  "value": "zwave"
-                },
-                {
-                  "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_multilevel,sensor_type\u003d3"
-                }
-              ]
-            }
-          }
-        ]
-      }
-    ]
-  },
+  "device_class_id": "Fibaro_FGMS-001",
   "unit_config": [
-    {
-      "id": "/home/bath/motionsensor/global/",
-      "label": "Global",
-      "device_id": "Fibaro_FGMS-001_FMS006",
-      "template": {
-        "type": "MOTION_SENSOR",
-        "service_type": [
-          "MOTION_PROVIDER"
-        ],
-        "service_template": [
-          {
-            "service_type": "MOTION_PROVIDER",
-            "meta_config": {
-              "entry": [
-                {
-                  "key": "OPENHAB_BINDING_TYPE",
-                  "value": "zwave"
-                },
-                {
-                  "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_binary"
-                }
-              ]
-            }
-          }
-        ]
-      },
-      "placement_config": {
-        "location_id": "Bath",
-        "position": {
-          "translation": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "rotation": {
-            "qw": 1.0,
-            "qx": 0.0,
-            "qy": 0.0,
-            "qz": 0.0
-          }
-        }
-      },
-      "scope": {
-        "component": [
-          "home",
-          "bath",
-          "motionsensor",
-          "global"
-        ]
-      },
-      "service_config": [
-        {
-          "binding_service_config": {
-            "type": "OPENHAB",
-            "openhab_binding_service_config": {
-              "item_id": "F_MotionSensor__home_bath__MotionSensor__Global__MotionProvider",
-              "item_hardware_config": "zwave\u003d\"36:command\u003dsensor_binary\""
-            },
-            "miele_at_home_binding_service_config": {}
-          },
-          "unit_id": "/home/bath/motionsensor/global/",
-          "type": "MOTION_PROVIDER"
-        }
-      ]
-    },
     {
       "id": "/home/bath/battery/global/",
       "label": "Global",
       "device_id": "Fibaro_FGMS-001_FMS006",
-      "template": {
-        "type": "BATTERY",
-        "service_type": [
-          "BATTERY_PROVIDER"
-        ],
-        "service_template": [
-          {
-            "service_type": "BATTERY_PROVIDER",
-            "meta_config": {
-              "entry": [
-                {
-                  "key": "OPENHAB_BINDING_TYPE",
-                  "value": "zwave"
-                },
-                {
-                  "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dbattery"
-                }
-              ]
-            }
-          }
-        ]
-      },
+      "type": "BATTERY",
       "placement_config": {
         "location_id": "Bath",
         "position": {
@@ -298,176 +68,27 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "openhab_binding_service_config": {
-              "item_id": "F_MotionSensor__home_bath__Battery__Global__BatteryProvider",
-              "item_hardware_config": "zwave\u003d\"36:command\u003dbattery\""
-            },
-            "miele_at_home_binding_service_config": {}
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "F_MotionSensor__home_bath__Battery__Global__BatteryProvider"
+                }
+              ]
+            }
           },
           "unit_id": "/home/bath/battery/global/",
-          "type": "BATTERY_PROVIDER"
+          "type": "BATTERY_PROVIDER",
+          "meta_config": {}
         }
-      ]
-    },
-    {
-      "id": "/home/bath/tamperswitch/global/",
-      "label": "Global",
-      "device_id": "Fibaro_FGMS-001_FMS006",
-      "template": {
-        "type": "TAMPER_SWITCH",
-        "service_type": [
-          "TAMPER_PROVIDER"
-        ],
-        "service_template": [
-          {
-            "service_type": "TAMPER_PROVIDER",
-            "meta_config": {
-              "entry": [
-                {
-                  "key": "OPENHAB_BINDING_TYPE",
-                  "value": "zwave"
-                },
-                {
-                  "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_alarm"
-                }
-              ]
-            }
-          }
-        ]
-      },
-      "placement_config": {
-        "location_id": "Bath",
-        "position": {
-          "translation": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "rotation": {
-            "qw": 1.0,
-            "qx": 0.0,
-            "qy": 0.0,
-            "qz": 0.0
-          }
-        }
-      },
-      "scope": {
-        "component": [
-          "home",
-          "bath",
-          "tamperswitch",
-          "global"
-        ]
-      },
-      "service_config": [
-        {
-          "binding_service_config": {
-            "type": "OPENHAB",
-            "openhab_binding_service_config": {
-              "item_id": "F_MotionSensor__home_bath__TamperSwitch__Global__TamperProvider",
-              "item_hardware_config": "zwave\u003d\"36:command\u003dsensor_alarm\""
-            },
-            "miele_at_home_binding_service_config": {}
-          },
-          "unit_id": "/home/bath/tamperswitch/global/",
-          "type": "TAMPER_PROVIDER"
-        }
-      ]
-    },
-    {
-      "id": "/home/bath/temperaturesensor/global/",
-      "label": "Global",
-      "device_id": "Fibaro_FGMS-001_FMS006",
-      "template": {
-        "type": "TEMPERATURE_SENSOR",
-        "service_type": [
-          "TEMPERATURE_PROVIDER"
-        ],
-        "service_template": [
-          {
-            "service_type": "TEMPERATURE_PROVIDER",
-            "meta_config": {
-              "entry": [
-                {
-                  "key": "OPENHAB_BINDING_TYPE",
-                  "value": "zwave"
-                },
-                {
-                  "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_multilevel,sensor_type\u003d1"
-                }
-              ]
-            }
-          }
-        ]
-      },
-      "placement_config": {
-        "location_id": "Bath",
-        "position": {
-          "translation": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "rotation": {
-            "qw": 1.0,
-            "qx": 0.0,
-            "qy": 0.0,
-            "qz": 0.0
-          }
-        }
-      },
-      "scope": {
-        "component": [
-          "home",
-          "bath",
-          "temperaturesensor",
-          "global"
-        ]
-      },
-      "service_config": [
-        {
-          "binding_service_config": {
-            "type": "OPENHAB",
-            "openhab_binding_service_config": {
-              "item_id": "F_MotionSensor__home_bath__TemperatureSensor__Global__TemperatureProvider",
-              "item_hardware_config": "zwave\u003d\"36:command\u003dsensor_multilevel,sensor_type\u003d1\""
-            },
-            "miele_at_home_binding_service_config": {}
-          },
-          "unit_id": "/home/bath/temperaturesensor/global/",
-          "type": "TEMPERATURE_PROVIDER"
-        }
-      ]
+      ],
+      "meta_config": {}
     },
     {
       "id": "/home/bath/brightnesssensor/global/",
       "label": "Global",
       "device_id": "Fibaro_FGMS-001_FMS006",
-      "template": {
-        "type": "BRIGHTNESS_SENSOR",
-        "service_type": [
-          "BRIGHTNESS_PROVIDER"
-        ],
-        "service_template": [
-          {
-            "service_type": "BRIGHTNESS_PROVIDER",
-            "meta_config": {
-              "entry": [
-                {
-                  "key": "OPENHAB_BINDING_TYPE",
-                  "value": "zwave"
-                },
-                {
-                  "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_multilevel,sensor_type\u003d3"
-                }
-              ]
-            }
-          }
-        ]
-      },
+      "type": "BRIGHTNESS_SENSOR",
       "placement_config": {
         "location_id": "Bath",
         "position": {
@@ -496,16 +117,176 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "openhab_binding_service_config": {
-              "item_id": "F_MotionSensor__home_bath__BrightnessSensor__Global__BrightnessProvider",
-              "item_hardware_config": "zwave\u003d\"36:command\u003dsensor_multilevel,sensor_type\u003d3\""
-            },
-            "miele_at_home_binding_service_config": {}
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "F_MotionSensor__home_bath__BrightnessSensor__Global__BrightnessProvider"
+                }
+              ]
+            }
           },
           "unit_id": "/home/bath/brightnesssensor/global/",
-          "type": "BRIGHTNESS_PROVIDER"
+          "type": "BRIGHTNESS_PROVIDER",
+          "meta_config": {}
         }
-      ]
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/bath/motionsensor/global/",
+      "label": "Global",
+      "device_id": "Fibaro_FGMS-001_FMS006",
+      "type": "MOTION_SENSOR",
+      "placement_config": {
+        "location_id": "Bath",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "bath",
+          "motionsensor",
+          "global"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "F_MotionSensor__home_bath__MotionSensor__Global__MotionProvider"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/bath/motionsensor/global/",
+          "type": "MOTION_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/bath/tamperswitch/global/",
+      "label": "Global",
+      "device_id": "Fibaro_FGMS-001_FMS006",
+      "type": "TAMPER_SWITCH",
+      "placement_config": {
+        "location_id": "Bath",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "bath",
+          "tamperswitch",
+          "global"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "F_MotionSensor__home_bath__TamperSwitch__Global__TamperProvider"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/bath/tamperswitch/global/",
+          "type": "TAMPER_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/bath/temperaturesensor/global/",
+      "label": "Global",
+      "device_id": "Fibaro_FGMS-001_FMS006",
+      "type": "TEMPERATURE_SENSOR",
+      "placement_config": {
+        "location_id": "Bath",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "bath",
+          "temperaturesensor",
+          "global"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "F_MotionSensor__home_bath__TemperatureSensor__Global__TemperatureProvider"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/bath/temperaturesensor/global/",
+          "type": "TEMPERATURE_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
     }
-  ]
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "36"
+      }
+    ]
+  }
 }

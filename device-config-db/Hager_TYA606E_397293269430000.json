@@ -27,244 +27,19 @@
   "serial_number": "397293269430000",
   "inventory_state": {
     "value": "INSTALLED",
-    "location_config": {
-      "id": "Control",
-      "label": "Control",
-      "root": false,
-      "parent_id": "Home",
-      "unit_id": [
-        "/home/control/powerplug/a5c5/",
-        "/home/control/powerplug/a6c1/",
-        "/home/control/brightnesssensor/testunit_1/",
-        "/home/control/powerplug/a4c2/",
-        "/home/control/powerconsumptionsensor/a1c4consumption/",
-        "/home/control/powerplug/a3c6/",
-        "/home/control/powerconsumptionsensor/a11c5consumption/",
-        "/home/control/powerplug/a2c6/",
-        "/home/control/motionsensor/entrance/",
-        "/home/control/powerplug/a1c6/",
-        "/home/control/powerconsumptionsensor/a7c2consumption/",
-        "/home/control/powerplug/a11c4/",
-        "/home/control/powerplug/a7c5/",
-        "/home/control/powerconsumptionsensor/a6c4comsumption/",
-        "/home/control/powerconsumptionsensor/a4c1consumption/",
-        "/home/control/powerplug/a5c6/",
-        "/home/control/powerplug/a3c5/",
-        "/home/control/powerplug/a7c6/",
-        "/home/control/powerconsumptionsensor/a1c6consumption/",
-        "/home/control/powerplug/a4c3/",
-        "/home/control/temperaturesensor/entrance/",
-        "/home/control/tamperswitch/testunit_1/",
-        "/home/control/powerconsumptionsensor/a11c2consumption/",
-        "/home/control/powerplug/a1c5/",
-        "/home/control/tamperswitch/entrance/",
-        "/home/control/powerplug/a11c5/",
-        "/home/control/powerconsumptionsensor/a5c5consumption/",
-        "/home/control/powerconsumptionsensor/a6c5comsumption/",
-        "/home/control/battery/entrance/",
-        "/home/control/powerconsumptionsensor/a7c5consumption/",
-        "/home/control/powerplug/a3c4/",
-        "/home/control/powerplug/a7c3/",
-        "/home/control/powerplug/a11c6/",
-        "/home/control/ambientlight/testunit_0/",
-        "/home/control/powerconsumptionsensor/a11c6consumption/",
-        "/home/control/powerconsumptionsensor/a7c6consumption/",
-        "/home/control/powerconsumptionsensor/a6c2comsumption/",
-        "/home/control/powerconsumptionsensor/a11c4consumption/",
-        "/home/control/powerconsumptionsensor/a6c1comsumption/",
-        "/home/control/powerplug/a4c1/",
-        "/home/control/powerconsumptionsensor/a1c3consumption/",
-        "/home/control/battery/testunit_1/",
-        "/home/control/powerplug/a3c3/",
-        "/home/control/powerconsumptionsensor/a3c6consumption/",
-        "/home/control/powerconsumptionsensor/a1c2consumption/",
-        "/home/control/powerplug/a7c4/",
-        "/home/control/powerplug/a6c6/",
-        "/home/control/powerconsumptionsensor/a6c6comsumption/",
-        "/home/control/powerconsumptionsensor/a2c2consumption/",
-        "/home/control/powerconsumptionsensor/a4c6consumption/",
-        "/home/control/powerconsumptionsensor/a4c2consumption/",
-        "/home/control/powerconsumptionsensor/a3c2consumption/",
-        "/home/control/powerconsumptionsensor/a6c3comsumption/",
-        "/home/control/powerplug/a2c1/",
-        "/home/control/powerplug/a7c1/",
-        "/home/control/powerplug/a6c5/",
-        "/home/control/powerplug/a3c1/",
-        "/home/control/powerconsumptionsensor/a7c4consumption/",
-        "/home/control/powerconsumptionsensor/a1c5consumption/",
-        "/home/control/powerconsumptionsensor/a2c3consumption/",
-        "/home/control/powerplug/a5c1/",
-        "/home/control/powerconsumptionsensor/a4c3consumption/",
-        "/home/control/brightnesssensor/entrance/",
-        "/home/control/powerplug/a3c2/",
-        "/home/control/temperaturesensor/testunit_1/",
-        "/home/control/powerplug/a1c1/",
-        "/home/control/powerplug/a2c2/",
-        "/home/control/powerplug/a7c2/",
-        "/home/control/powerplug/a6c4/",
-        "/home/control/powerconsumptionsensor/a2c1consumption/",
-        "/home/control/motionsensor/testunit_1/",
-        "/home/control/powerplug/a4c6/",
-        "/home/control/powerplug/a5c2/",
-        "/home/control/powerconsumptionsensor/a5c1consumption/",
-        "/home/control/powerplug/a11c1/",
-        "/home/control/powerconsumptionsensor/a11c3consumption/",
-        "/home/control/powerconsumptionsensor/a3c5consumption/",
-        "/home/control/powerconsumptionsensor/a3c4consumption/",
-        "/home/control/powerplug/a2c3/",
-        "/home/control/powerconsumptionsensor/a4c4consumption/",
-        "/home/control/powerplug/a6c3/",
-        "/home/control/powerplug/a1c4/",
-        "/home/control/powerplug/a4c5/",
-        "/home/control/powerplug/a5c3/",
-        "/home/control/powerconsumptionsensor/a4c5consumption/",
-        "/home/control/powerconsumptionsensor/a2c4consumption/",
-        "/home/control/powerconsumptionsensor/a7c3consumption/",
-        "/home/control/powerconsumptionsensor/a11c1consumption/",
-        "/home/control/powerplug/a11c2/",
-        "/home/control/powerconsumptionsensor/a1c1consumption/",
-        "/home/control/powerplug/a2c4/",
-        "/home/control/powerplug/a1c3/",
-        "/home/control/powerconsumptionsensor/a2c5consumption/",
-        "/home/control/powerconsumptionsensor/a5c2consumption/",
-        "/home/control/powerplug/a6c2/",
-        "/home/control/powerconsumptionsensor/a5c6consumption/",
-        "/home/control/powerplug/a4c4/",
-        "/home/control/powerplug/a5c4/",
-        "/home/control/powerconsumptionsensor/a3c1consumption/",
-        "/home/control/powerconsumptionsensor/a7c1consumption/",
-        "/home/control/powerconsumptionsensor/a2c6consumption/",
-        "/home/control/powerconsumptionsensor/a5c4consumption/",
-        "/home/control/powerplug/a11c3/",
-        "/home/control/powerconsumptionsensor/a5c3consumption/",
-        "/home/control/powerplug/a1c2/",
-        "/home/control/powerplug/a2c5/",
-        "/home/control/powerconsumptionsensor/a3c3consumption/"
-      ],
-      "scope": {
-        "component": [
-          "home",
-          "control"
-        ]
-      },
-      "position": {
-        "translation": {
-          "x": 6.7393,
-          "y": 0.0,
-          "z": 0.0
-        },
-        "rotation": {
-          "qw": 1.0,
-          "qx": 0.0,
-          "qy": 0.0,
-          "qz": 0.0
-        }
-      }
-    },
+    "location_id": "Control",
     "timestamp": {
-      "time": 1434717989071
+      "time": 1440778245978
     },
     "owner": {}
   },
-  "device_class": {
-    "id": "Hager_TYA606E",
-    "label": "Hager_TYA606E",
-    "product_number": "TYA606E",
-    "description": "Hager power plug actuator with 6 power switches and related power consumption sensors.",
-    "binding_config": {
-      "type": "OPENHAB",
-      "openhab_binding_config": {
-        "openhab_config": "Hager_TYA606E"
-      },
-      "miele_at_home_binding_config": {}
-    },
-    "company": "Hager",
-    "unit_template": [
-      {
-        "type": "POWER_PLUG",
-        "service_type": [
-          "POWER_SERVICE"
-        ]
-      },
-      {
-        "type": "POWER_CONSUMPTION_SENSOR",
-        "service_type": [
-          "POWER_CONSUMPTION_PROVIDER"
-        ]
-      },
-      {
-        "type": "POWER_PLUG",
-        "service_type": [
-          "POWER_SERVICE"
-        ]
-      },
-      {
-        "type": "POWER_CONSUMPTION_SENSOR",
-        "service_type": [
-          "POWER_CONSUMPTION_PROVIDER"
-        ]
-      },
-      {
-        "type": "POWER_PLUG",
-        "service_type": [
-          "POWER_SERVICE"
-        ]
-      },
-      {
-        "type": "POWER_CONSUMPTION_SENSOR",
-        "service_type": [
-          "POWER_CONSUMPTION_PROVIDER"
-        ]
-      },
-      {
-        "type": "POWER_PLUG",
-        "service_type": [
-          "POWER_SERVICE"
-        ]
-      },
-      {
-        "type": "POWER_CONSUMPTION_SENSOR",
-        "service_type": [
-          "POWER_CONSUMPTION_PROVIDER"
-        ]
-      },
-      {
-        "type": "POWER_PLUG",
-        "service_type": [
-          "POWER_SERVICE"
-        ]
-      },
-      {
-        "type": "POWER_CONSUMPTION_SENSOR",
-        "service_type": [
-          "POWER_CONSUMPTION_PROVIDER"
-        ]
-      },
-      {
-        "type": "POWER_PLUG",
-        "service_type": [
-          "POWER_SERVICE"
-        ]
-      },
-      {
-        "type": "POWER_CONSUMPTION_SENSOR",
-        "service_type": [
-          "POWER_CONSUMPTION_PROVIDER"
-        ]
-      }
-    ]
-  },
+  "device_class_id": "Hager_TYA606E",
   "unit_config": [
     {
       "id": "/home/control/powerplug/a9c1/",
       "label": "A9C1",
       "device_id": "Hager_TYA606E_397293269430000",
-      "template": {
-        "type": "POWER_PLUG",
-        "service_type": [
-          "POWER_SERVICE"
-        ]
-      },
+      "type": "POWER_PLUG",
       "placement_config": {
         "location_id": "Control",
         "position": {
@@ -293,27 +68,31 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "openhab_binding_service_config": {
-              "item_id": "Hager_TYA606E__home_control__PowerPlug__A9C1__PowerService",
-              "item_hardware_config": "knx\u003d\"5/1/97+5/1/103\""
-            },
-            "miele_at_home_binding_service_config": {}
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/97+5/1/103"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA606E__home_control__PowerPlug__A9C1__PowerService"
+                }
+              ]
+            }
           },
           "unit_id": "/home/control/powerplug/a9c1/",
-          "type": "POWER_SERVICE"
+          "type": "POWER_SERVICE",
+          "meta_config": {}
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
       "id": "/home/control/powerconsumptionsensor/a9c1consumption/",
       "label": "A9C1Consumption",
       "device_id": "Hager_TYA606E_397293269430000",
-      "template": {
-        "type": "POWER_CONSUMPTION_SENSOR",
-        "service_type": [
-          "POWER_CONSUMPTION_PROVIDER"
-        ]
-      },
+      "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
         "location_id": "Control",
         "position": {
@@ -342,27 +121,31 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "openhab_binding_service_config": {
-              "item_id": "Hager_TYA606E__home_control__PowerConsumptionSensor__A9C1Consumption__PowerConsumptionProvider",
-              "item_hardware_config": "knx\u003d\"5/1/181\""
-            },
-            "miele_at_home_binding_service_config": {}
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/181"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA606E__home_control__PowerConsumptionSensor__A9C1Consumption__PowerConsumptionProvider"
+                }
+              ]
+            }
           },
           "unit_id": "/home/control/powerconsumptionsensor/a9c1consumption/",
-          "type": "POWER_CONSUMPTION_PROVIDER"
+          "type": "POWER_CONSUMPTION_PROVIDER",
+          "meta_config": {}
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
       "id": "/home/control/powerplug/a9c2/",
       "label": "A9C2",
       "device_id": "Hager_TYA606E_397293269430000",
-      "template": {
-        "type": "POWER_PLUG",
-        "service_type": [
-          "POWER_SERVICE"
-        ]
-      },
+      "type": "POWER_PLUG",
       "placement_config": {
         "location_id": "Control",
         "position": {
@@ -391,27 +174,31 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "openhab_binding_service_config": {
-              "item_id": "Hager_TYA606E__home_control__PowerPlug__A9C2__PowerService",
-              "item_hardware_config": "knx\u003d\"5/1/98+5/1/104\""
-            },
-            "miele_at_home_binding_service_config": {}
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/98+5/1/104"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA606E__home_control__PowerPlug__A9C2__PowerService"
+                }
+              ]
+            }
           },
           "unit_id": "/home/control/powerplug/a9c2/",
-          "type": "POWER_SERVICE"
+          "type": "POWER_SERVICE",
+          "meta_config": {}
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
       "id": "/home/control/powerconsumptionsensor/a9c2consumption/",
       "label": "A9C2Consumption",
       "device_id": "Hager_TYA606E_397293269430000",
-      "template": {
-        "type": "POWER_CONSUMPTION_SENSOR",
-        "service_type": [
-          "POWER_CONSUMPTION_PROVIDER"
-        ]
-      },
+      "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
         "location_id": "Control",
         "position": {
@@ -440,27 +227,31 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "openhab_binding_service_config": {
-              "item_id": "Hager_TYA606E__home_control__PowerConsumptionSensor__A9C2Consumption__PowerConsumptionProvider",
-              "item_hardware_config": "knx\u003d\"5/1/182\""
-            },
-            "miele_at_home_binding_service_config": {}
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/182"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA606E__home_control__PowerConsumptionSensor__A9C2Consumption__PowerConsumptionProvider"
+                }
+              ]
+            }
           },
           "unit_id": "/home/control/powerconsumptionsensor/a9c2consumption/",
-          "type": "POWER_CONSUMPTION_PROVIDER"
+          "type": "POWER_CONSUMPTION_PROVIDER",
+          "meta_config": {}
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
       "id": "/home/control/powerplug/a9c3/",
       "label": "A9C3",
       "device_id": "Hager_TYA606E_397293269430000",
-      "template": {
-        "type": "POWER_PLUG",
-        "service_type": [
-          "POWER_SERVICE"
-        ]
-      },
+      "type": "POWER_PLUG",
       "placement_config": {
         "location_id": "Control",
         "position": {
@@ -489,27 +280,31 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "openhab_binding_service_config": {
-              "item_id": "Hager_TYA606E__home_control__PowerPlug__A9C3__PowerService",
-              "item_hardware_config": "knx\u003d\"5/1/99+5/1/105\""
-            },
-            "miele_at_home_binding_service_config": {}
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/99+5/1/105"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA606E__home_control__PowerPlug__A9C3__PowerService"
+                }
+              ]
+            }
           },
           "unit_id": "/home/control/powerplug/a9c3/",
-          "type": "POWER_SERVICE"
+          "type": "POWER_SERVICE",
+          "meta_config": {}
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
       "id": "/home/control/powerconsumptionsensor/a9c3consumption/",
       "label": "A9C3Consumption",
       "device_id": "Hager_TYA606E_397293269430000",
-      "template": {
-        "type": "POWER_CONSUMPTION_SENSOR",
-        "service_type": [
-          "POWER_CONSUMPTION_PROVIDER"
-        ]
-      },
+      "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
         "location_id": "Control",
         "position": {
@@ -538,27 +333,31 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "openhab_binding_service_config": {
-              "item_id": "Hager_TYA606E__home_control__PowerConsumptionSensor__A9C3Consumption__PowerConsumptionProvider",
-              "item_hardware_config": "knx\u003d\"5/1/183\""
-            },
-            "miele_at_home_binding_service_config": {}
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/183"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA606E__home_control__PowerConsumptionSensor__A9C3Consumption__PowerConsumptionProvider"
+                }
+              ]
+            }
           },
           "unit_id": "/home/control/powerconsumptionsensor/a9c3consumption/",
-          "type": "POWER_CONSUMPTION_PROVIDER"
+          "type": "POWER_CONSUMPTION_PROVIDER",
+          "meta_config": {}
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
       "id": "/home/control/powerplug/a9c4/",
       "label": "A9C4",
       "device_id": "Hager_TYA606E_397293269430000",
-      "template": {
-        "type": "POWER_PLUG",
-        "service_type": [
-          "POWER_SERVICE"
-        ]
-      },
+      "type": "POWER_PLUG",
       "placement_config": {
         "location_id": "Control",
         "position": {
@@ -587,27 +386,31 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "openhab_binding_service_config": {
-              "item_id": "Hager_TYA606E__home_control__PowerPlug__A9C4__PowerService",
-              "item_hardware_config": "knx\u003d\"5/1/100+5/1/106\""
-            },
-            "miele_at_home_binding_service_config": {}
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/100+5/1/106"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA606E__home_control__PowerPlug__A9C4__PowerService"
+                }
+              ]
+            }
           },
           "unit_id": "/home/control/powerplug/a9c4/",
-          "type": "POWER_SERVICE"
+          "type": "POWER_SERVICE",
+          "meta_config": {}
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
       "id": "/home/control/powerconsumptionsensor/a9c4consumption/",
       "label": "A9C4Consumption",
       "device_id": "Hager_TYA606E_397293269430000",
-      "template": {
-        "type": "POWER_CONSUMPTION_SENSOR",
-        "service_type": [
-          "POWER_CONSUMPTION_PROVIDER"
-        ]
-      },
+      "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
         "location_id": "Control",
         "position": {
@@ -636,27 +439,31 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "openhab_binding_service_config": {
-              "item_id": "Hager_TYA606E__home_control__PowerConsumptionSensor__A9C4Consumption__PowerConsumptionProvider",
-              "item_hardware_config": "knx\u003d\"5/1/184\""
-            },
-            "miele_at_home_binding_service_config": {}
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/184"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA606E__home_control__PowerConsumptionSensor__A9C4Consumption__PowerConsumptionProvider"
+                }
+              ]
+            }
           },
           "unit_id": "/home/control/powerconsumptionsensor/a9c4consumption/",
-          "type": "POWER_CONSUMPTION_PROVIDER"
+          "type": "POWER_CONSUMPTION_PROVIDER",
+          "meta_config": {}
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
       "id": "/home/control/powerplug/a9c5/",
       "label": "A9C5",
       "device_id": "Hager_TYA606E_397293269430000",
-      "template": {
-        "type": "POWER_PLUG",
-        "service_type": [
-          "POWER_SERVICE"
-        ]
-      },
+      "type": "POWER_PLUG",
       "placement_config": {
         "location_id": "Control",
         "position": {
@@ -685,27 +492,31 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "openhab_binding_service_config": {
-              "item_id": "Hager_TYA606E__home_control__PowerPlug__A9C5__PowerService",
-              "item_hardware_config": "knx\u003d\"5/1/101+5/1/107\""
-            },
-            "miele_at_home_binding_service_config": {}
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/101+5/1/107"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA606E__home_control__PowerPlug__A9C5__PowerService"
+                }
+              ]
+            }
           },
           "unit_id": "/home/control/powerplug/a9c5/",
-          "type": "POWER_SERVICE"
+          "type": "POWER_SERVICE",
+          "meta_config": {}
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
       "id": "/home/control/powerconsumptionsensor/a9c5consumption/",
       "label": "A9C5Consumption",
       "device_id": "Hager_TYA606E_397293269430000",
-      "template": {
-        "type": "POWER_CONSUMPTION_SENSOR",
-        "service_type": [
-          "POWER_CONSUMPTION_PROVIDER"
-        ]
-      },
+      "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
         "location_id": "Control",
         "position": {
@@ -734,27 +545,34 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "openhab_binding_service_config": {
-              "item_id": "Hager_TYA606E__home_control__PowerConsumptionSensor__A9C5Consumption__PowerConsumptionProvider",
-              "item_hardware_config": "knx\u003d\"5/1/185\""
-            },
-            "miele_at_home_binding_service_config": {}
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA606E__home_control__PowerConsumptionSensor__A9C5Consumption__PowerConsumptionProvider"
+                }
+              ]
+            }
           },
           "unit_id": "/home/control/powerconsumptionsensor/a9c5consumption/",
-          "type": "POWER_CONSUMPTION_PROVIDER"
+          "type": "POWER_CONSUMPTION_PROVIDER",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_BINDING_CONFIG",
+                "value": "5/1/185"
+              }
+            ]
+          }
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
       "id": "/home/control/powerplug/a9c6/",
       "label": "A9C6",
       "device_id": "Hager_TYA606E_397293269430000",
-      "template": {
-        "type": "POWER_PLUG",
-        "service_type": [
-          "POWER_SERVICE"
-        ]
-      },
+      "type": "POWER_PLUG",
       "placement_config": {
         "location_id": "Control",
         "position": {
@@ -783,27 +601,34 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "openhab_binding_service_config": {
-              "item_id": "Hager_TYA606E__home_control__PowerPlug__A9C6__PowerService",
-              "item_hardware_config": "knx\u003d\"5/1/102+5/1/108\""
-            },
-            "miele_at_home_binding_service_config": {}
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA606E__home_control__PowerPlug__A9C6__PowerService"
+                }
+              ]
+            }
           },
           "unit_id": "/home/control/powerplug/a9c6/",
-          "type": "POWER_SERVICE"
+          "type": "POWER_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_BINDING_CONFIG",
+                "value": "5/1/102+5/1/108"
+              }
+            ]
+          }
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
       "id": "/home/control/powerconsumptionsensor/a9c6consumption/",
       "label": "A9C6Consumption",
       "device_id": "Hager_TYA606E_397293269430000",
-      "template": {
-        "type": "POWER_CONSUMPTION_SENSOR",
-        "service_type": [
-          "POWER_CONSUMPTION_PROVIDER"
-        ]
-      },
+      "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
         "location_id": "Control",
         "position": {
@@ -832,16 +657,26 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "openhab_binding_service_config": {
-              "item_id": "Hager_TYA606E__home_control__PowerConsumptionSensor__A9C6Consumption__PowerConsumptionProvider",
-              "item_hardware_config": "knx\u003d\"5/1/186\""
-            },
-            "miele_at_home_binding_service_config": {}
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/186"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA606E__home_control__PowerConsumptionSensor__A9C6Consumption__PowerConsumptionProvider"
+                }
+              ]
+            }
           },
           "unit_id": "/home/control/powerconsumptionsensor/a9c6consumption/",
-          "type": "POWER_CONSUMPTION_PROVIDER"
+          "type": "POWER_CONSUMPTION_PROVIDER",
+          "meta_config": {}
         }
-      ]
+      ],
+      "meta_config": {}
     }
-  ]
+  ],
+  "meta_config": {}
 }

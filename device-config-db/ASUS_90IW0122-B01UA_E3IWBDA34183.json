@@ -1,5 +1,5 @@
 {
-  "id": "ASUS_90IW0122-B01UA_E3IWBDA35183",
+  "id": "ASUS_90IW0122-B01UA_E3IWBDA34183",
   "label": "asus_cam1",
   "placement_config": {
     "location_id": "Living",
@@ -25,7 +25,6 @@
     ]
   },
   "serial_number": "E3IWBDA34183",
-  "description": "Cam Person Tracking Living 1",
   "inventory_state": {
     "value": "INSTALLED",
     "timestamp": {
@@ -33,16 +32,6 @@
     },
     "owner": {}
   },
-  "device_class": {
-    "id": "ASUS_90IW0122-B01UA",
-    "label": "Xtion Pro Live",
-    "product_number": "90IW0122-B01UA",
-    "description": "USB 2.0 3D/RGB Sensor",
-    "binding_config": {
-      "openhab_binding_config": {},
-      "miele_at_home_binding_config": {}
-    },
-    "company": "ASUS"
-  },
+  "device_class_id": "ASUS_90IW0122-B01UA",
   "meta_config": {}
 }

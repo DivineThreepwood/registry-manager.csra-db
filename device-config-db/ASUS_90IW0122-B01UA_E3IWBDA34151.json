@@ -1,19 +1,19 @@
 {
-  "id": "ASUS_90IW0122-B01UA_E3IWBDA34152",
-  "label": "asus_door_entrance",
+  "id": "ASUS_90IW0122-B01UA_E3IWBDA34151",
+  "label": "asus_door_bath",
   "placement_config": {
     "location_id": "Wardrobe",
     "position": {
       "translation": {
-        "x": 0.525,
-        "y": 1.0,
-        "z": 2.725
+        "x": 0.6,
+        "y": 2.7,
+        "z": 2.83
       },
       "rotation": {
-        "qw": 6.122301397540665E-17,
-        "qx": 6.123233995736766E-17,
+        "qw": 6.123233995736766E-17,
+        "qx": 0.0,
         "qy": 1.0,
-        "qz": 6.123233995736766E-17
+        "qz": 0.0
       }
     }
   },
@@ -21,15 +21,15 @@
     "component": [
       "home",
       "wardrobe",
-      "asus_door_entrance"
+      "asus_door_bath"
     ]
   },
-  "serial_number": "E3IWBDA34152",
+  "serial_number": "E3IWBDA34151",
   "inventory_state": {
     "value": "INSTALLED",
     "location_id": "Wardrobe",
     "timestamp": {
-      "time": 1437744788946
+      "time": 1433776984190
     },
     "owner": {}
   },

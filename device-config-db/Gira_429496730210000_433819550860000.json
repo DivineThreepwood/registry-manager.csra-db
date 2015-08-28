@@ -27,134 +27,19 @@
   "serial_number": "433819550860000",
   "inventory_state": {
     "value": "INSTALLED",
-    "location_config": {
-      "id": "Living",
-      "label": "Living",
-      "root": false,
-      "parent_id": "Home",
-      "unit_id": [
-        "/home/living/battery/control/",
-        "/home/living/ambientlight/llamp6/",
-        "/home/living/button/sportsdoorbutton3/",
-        "/home/living/ambientlight/table_1/",
-        "/home/living/ambientlight/slampleft1/",
-        "/home/living/brightnesssensor/control/",
-        "/home/living/button/sportsdoorbutton5/",
-        "/home/living/motionsensor/control/",
-        "/home/living/temperaturesensor/control/",
-        "/home/living/ambientlight/couch/",
-        "/home/living/battery/table/",
-        "/home/living/ambientlight/floorlamp/",
-        "/home/living/button/button2/",
-        "/home/living/temperaturesensor/table/",
-        "/home/living/temperaturesensor/couch/",
-        "/home/living/ambientlight/slampright1/",
-        "/home/living/motionsensor/couch/",
-        "/home/living/button/button4/",
-        "/home/living/brightnesssensor/media/",
-        "/home/living/ambientlight/llamp4/",
-        "/home/living/ambientlight/llamp2/",
-        "/home/living/motionsensor/table/",
-        "/home/living/brightnesssensor/table/",
-        "/home/living/button/sportsdoorbutton4/",
-        "/home/living/ambientlight/slampleft2/",
-        "/home/living/ambientlight/media/",
-        "/home/living/button/sportsdoorbutton2/",
-        "/home/living/tamperswitch/couch/",
-        "/home/living/button/sportsdoorbutton6/",
-        "/home/living/ambientlight/table_0/",
-        "/home/living/battery/media/",
-        "/home/living/temperaturesensor/media/",
-        "/home/living/temperaturecontroller/temperaturecontroller/",
-        "/home/living/tamperswitch/control/",
-        "/home/living/brightnesssensor/couch/",
-        "/home/living/tamperswitch/table/",
-        "/home/living/ambientlight/llamp1/",
-        "/home/living/ambientlight/slampright2/",
-        "/home/living/battery/couch/",
-        "/home/living/button/button1/",
-        "/home/living/button/button3/",
-        "/home/living/tamperswitch/media/",
-        "/home/living/motionsensor/media/",
-        "/home/living/ambientlight/llamp3/",
-        "/home/living/ambientlight/llamp5/",
-        "/home/living/button/sportsdoorbutton1/"
-      ],
-      "scope": {
-        "component": [
-          "home",
-          "living"
-        ]
-      }
-    },
+    "location_id": "Living",
     "timestamp": {
-      "time": 1432741579705
+      "time": 1440772632159
     },
     "owner": {}
   },
-  "device_class": {
-    "id": "Gira_429496730210000",
-    "label": "Gira_5133",
-    "product_number": "429496730210000",
-    "description": "6 knx buttons by Gira.",
-    "binding_config": {
-      "type": "OPENHAB",
-      "openhab_binding_config": {
-        "openhab_config": "Gira_5133"
-      },
-      "miele_at_home_binding_config": {}
-    },
-    "company": "Gira",
-    "unit_template": [
-      {
-        "type": "BUTTON",
-        "service_type": [
-          "BUTTON_PROVIDER"
-        ]
-      },
-      {
-        "type": "BUTTON",
-        "service_type": [
-          "BUTTON_PROVIDER"
-        ]
-      },
-      {
-        "type": "BUTTON",
-        "service_type": [
-          "BUTTON_PROVIDER"
-        ]
-      },
-      {
-        "type": "BUTTON",
-        "service_type": [
-          "BUTTON_PROVIDER"
-        ]
-      },
-      {
-        "type": "BUTTON",
-        "service_type": [
-          "BUTTON_PROVIDER"
-        ]
-      },
-      {
-        "type": "BUTTON",
-        "service_type": [
-          "BUTTON_PROVIDER"
-        ]
-      }
-    ]
-  },
+  "device_class_id": "Gira_429496730210000",
   "unit_config": [
     {
       "id": "/home/living/button/controlbelowbutton1/",
       "label": "ControlBelowButton1",
       "device_id": "Gira_429496730210000_433819550860000",
-      "template": {
-        "type": "BUTTON",
-        "service_type": [
-          "BUTTON_PROVIDER"
-        ]
-      },
+      "type": "BUTTON",
       "placement_config": {
         "location_id": "Living",
         "position": {
@@ -183,27 +68,31 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "openhab_binding_service_config": {
-              "item_id": "Gira_5133__home_living__Button__ControlBelowButton1__ButtonProvider",
-              "item_hardware_config": "knx\u003d\"2/3/4\""
-            },
-            "miele_at_home_binding_service_config": {}
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "2/3/4"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Gira_5133__home_living__Button__ControlBelowButton1__ButtonProvider"
+                }
+              ]
+            }
           },
           "unit_id": "/home/living/button/controlbelowbutton1/",
-          "type": "BUTTON_PROVIDER"
+          "type": "BUTTON_PROVIDER",
+          "meta_config": {}
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
       "id": "/home/living/button/controlbelowbutton2/",
       "label": "ControlBelowButton2",
       "device_id": "Gira_429496730210000_433819550860000",
-      "template": {
-        "type": "BUTTON",
-        "service_type": [
-          "BUTTON_PROVIDER"
-        ]
-      },
+      "type": "BUTTON",
       "placement_config": {
         "location_id": "Living",
         "position": {
@@ -232,27 +121,31 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "openhab_binding_service_config": {
-              "item_id": "Gira_5133__home_living__Button__ControlBelowButton2__ButtonProvider",
-              "item_hardware_config": "knx\u003d\"2/3/5\""
-            },
-            "miele_at_home_binding_service_config": {}
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "2/3/5"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Gira_5133__home_living__Button__ControlBelowButton2__ButtonProvider"
+                }
+              ]
+            }
           },
           "unit_id": "/home/living/button/controlbelowbutton2/",
-          "type": "BUTTON_PROVIDER"
+          "type": "BUTTON_PROVIDER",
+          "meta_config": {}
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
       "id": "/home/living/button/controlbelowbutton3/",
       "label": "ControlBelowButton3",
       "device_id": "Gira_429496730210000_433819550860000",
-      "template": {
-        "type": "BUTTON",
-        "service_type": [
-          "BUTTON_PROVIDER"
-        ]
-      },
+      "type": "BUTTON",
       "placement_config": {
         "location_id": "Living",
         "position": {
@@ -281,27 +174,31 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "openhab_binding_service_config": {
-              "item_id": "Gira_5133__home_living__Button__ControlBelowButton3__ButtonProvider",
-              "item_hardware_config": "knx\u003d\"2/3/6\""
-            },
-            "miele_at_home_binding_service_config": {}
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "2/3/6"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Gira_5133__home_living__Button__ControlBelowButton3__ButtonProvider"
+                }
+              ]
+            }
           },
           "unit_id": "/home/living/button/controlbelowbutton3/",
-          "type": "BUTTON_PROVIDER"
+          "type": "BUTTON_PROVIDER",
+          "meta_config": {}
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
       "id": "/home/living/button/controlbelowbutton4/",
       "label": "ControlBelowButton4",
       "device_id": "Gira_429496730210000_433819550860000",
-      "template": {
-        "type": "BUTTON",
-        "service_type": [
-          "BUTTON_PROVIDER"
-        ]
-      },
+      "type": "BUTTON",
       "placement_config": {
         "location_id": "Living",
         "position": {
@@ -330,27 +227,31 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "openhab_binding_service_config": {
-              "item_id": "Gira_5133__home_living__Button__ControlBelowButton4__ButtonProvider",
-              "item_hardware_config": "knx\u003d\"2/3/7\""
-            },
-            "miele_at_home_binding_service_config": {}
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "2/3/7"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Gira_5133__home_living__Button__ControlBelowButton4__ButtonProvider"
+                }
+              ]
+            }
           },
           "unit_id": "/home/living/button/controlbelowbutton4/",
-          "type": "BUTTON_PROVIDER"
+          "type": "BUTTON_PROVIDER",
+          "meta_config": {}
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
       "id": "/home/living/button/controlbelowbutton5/",
       "label": "ControlBelowButton5",
       "device_id": "Gira_429496730210000_433819550860000",
-      "template": {
-        "type": "BUTTON",
-        "service_type": [
-          "BUTTON_PROVIDER"
-        ]
-      },
+      "type": "BUTTON",
       "placement_config": {
         "location_id": "Living",
         "position": {
@@ -379,27 +280,31 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "openhab_binding_service_config": {
-              "item_id": "Gira_5133__home_living__Button__ControlBelowButton5__ButtonProvider",
-              "item_hardware_config": "knx\u003d\"2/3/8\""
-            },
-            "miele_at_home_binding_service_config": {}
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "2/3/8"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Gira_5133__home_living__Button__ControlBelowButton5__ButtonProvider"
+                }
+              ]
+            }
           },
           "unit_id": "/home/living/button/controlbelowbutton5/",
-          "type": "BUTTON_PROVIDER"
+          "type": "BUTTON_PROVIDER",
+          "meta_config": {}
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
       "id": "/home/living/button/controlbelowbutton6/",
       "label": "ControlBelowButton6",
       "device_id": "Gira_429496730210000_433819550860000",
-      "template": {
-        "type": "BUTTON",
-        "service_type": [
-          "BUTTON_PROVIDER"
-        ]
-      },
+      "type": "BUTTON",
       "placement_config": {
         "location_id": "Living",
         "position": {
@@ -428,16 +333,26 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "openhab_binding_service_config": {
-              "item_id": "Gira_5133__home_living__Button__ControlBelowButton6__ButtonProvider",
-              "item_hardware_config": "knx\u003d\"2/3/9\""
-            },
-            "miele_at_home_binding_service_config": {}
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "2/3/9"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Gira_5133__home_living__Button__ControlBelowButton6__ButtonProvider"
+                }
+              ]
+            }
           },
           "unit_id": "/home/living/button/controlbelowbutton6/",
-          "type": "BUTTON_PROVIDER"
+          "type": "BUTTON_PROVIDER",
+          "meta_config": {}
         }
-      ]
+      ],
+      "meta_config": {}
     }
-  ]
+  ],
+  "meta_config": {}
 }

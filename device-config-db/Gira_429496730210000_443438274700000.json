@@ -27,113 +27,19 @@
   "serial_number": "443438274700000",
   "inventory_state": {
     "value": "INSTALLED",
-    "location_config": {
-      "id": "Sports",
-      "label": "Sports",
-      "root": false,
-      "parent_id": "Home",
-      "unit_id": [
-        "/home/sports/temperaturesensor/interaction/",
-        "/home/sports/motionsensor/interaction/",
-        "/home/sports/ambientlight/llampentrance2/",
-        "/home/sports/button/button4/",
-        "/home/sports/ambientlight/llampentrance4/",
-        "/home/sports/button/button2/",
-        "/home/sports/tamperswitch/pathway/",
-        "/home/sports/ambientlight/slampwindow2/",
-        "/home/sports/brightnesssensor/pathway/",
-        "/home/sports/ambientlight/llampentrance6/",
-        "/home/sports/temperaturesensor/pathway/",
-        "/home/sports/motionsensor/pathway/",
-        "/home/sports/ambientlight/slampright2/",
-        "/home/sports/tamperswitch/interaction/",
-        "/home/sports/brightnesssensor/interaction/",
-        "/home/sports/button/button1/",
-        "/home/sports/battery/interaction/",
-        "/home/sports/button/button3/",
-        "/home/sports/temperaturecontroller/temperaturecontroller/",
-        "/home/sports/ambientlight/llampentrance3/",
-        "/home/sports/ambientlight/slampwindow1/",
-        "/home/sports/ambientlight/llampentrance7/",
-        "/home/sports/ambientlight/slampright1/",
-        "/home/sports/battery/pathway/",
-        "/home/sports/ambientlight/llampentrance5/"
-      ],
-      "scope": {
-        "component": [
-          "home",
-          "sports"
-        ]
-      }
-    },
+    "location_id": "Sports",
     "timestamp": {
-      "time": 1432741143815
+      "time": 1440775049019
     },
     "owner": {}
   },
-  "device_class": {
-    "id": "Gira_429496730210000",
-    "label": "Gira_5133",
-    "product_number": "429496730210000",
-    "description": "6 knx buttons by Gira.",
-    "binding_config": {
-      "type": "OPENHAB",
-      "openhab_binding_config": {
-        "openhab_config": "Gira_5133"
-      },
-      "miele_at_home_binding_config": {}
-    },
-    "company": "Gira",
-    "unit_template": [
-      {
-        "type": "BUTTON",
-        "service_type": [
-          "BUTTON_PROVIDER"
-        ]
-      },
-      {
-        "type": "BUTTON",
-        "service_type": [
-          "BUTTON_PROVIDER"
-        ]
-      },
-      {
-        "type": "BUTTON",
-        "service_type": [
-          "BUTTON_PROVIDER"
-        ]
-      },
-      {
-        "type": "BUTTON",
-        "service_type": [
-          "BUTTON_PROVIDER"
-        ]
-      },
-      {
-        "type": "BUTTON",
-        "service_type": [
-          "BUTTON_PROVIDER"
-        ]
-      },
-      {
-        "type": "BUTTON",
-        "service_type": [
-          "BUTTON_PROVIDER"
-        ]
-      }
-    ]
-  },
+  "device_class_id": "Gira_429496730210000",
   "unit_config": [
     {
       "id": "/home/sports/button/pathwaybelowbutton1/",
       "label": "PathwayBelowButton1",
       "device_id": "Gira_429496730210000_443438274700000",
-      "template": {
-        "type": "BUTTON",
-        "service_type": [
-          "BUTTON_PROVIDER"
-        ]
-      },
+      "type": "BUTTON",
       "placement_config": {
         "location_id": "Sports",
         "position": {
@@ -162,27 +68,31 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "openhab_binding_service_config": {
-              "item_id": "Gira_5133__home_sports__Button__PathwayBelowButton1__ButtonProvider",
-              "item_hardware_config": "knx\u003d\"4/3/4\""
-            },
-            "miele_at_home_binding_service_config": {}
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "4/3/4"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Gira_5133__home_sports__Button__PathwayBelowButton1__ButtonProvider"
+                }
+              ]
+            }
           },
           "unit_id": "/home/sports/button/pathwaybelowbutton1/",
-          "type": "BUTTON_PROVIDER"
+          "type": "BUTTON_PROVIDER",
+          "meta_config": {}
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
       "id": "/home/sports/button/pathwaybelowbutton2/",
       "label": "PathwayBelowButton2",
       "device_id": "Gira_429496730210000_443438274700000",
-      "template": {
-        "type": "BUTTON",
-        "service_type": [
-          "BUTTON_PROVIDER"
-        ]
-      },
+      "type": "BUTTON",
       "placement_config": {
         "location_id": "Sports",
         "position": {
@@ -211,27 +121,31 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "openhab_binding_service_config": {
-              "item_id": "Gira_5133__home_sports__Button__PathwayBelowButton2__ButtonProvider",
-              "item_hardware_config": "knx\u003d\"4/3/5\""
-            },
-            "miele_at_home_binding_service_config": {}
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "4/3/5"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Gira_5133__home_sports__Button__PathwayBelowButton2__ButtonProvider"
+                }
+              ]
+            }
           },
           "unit_id": "/home/sports/button/pathwaybelowbutton2/",
-          "type": "BUTTON_PROVIDER"
+          "type": "BUTTON_PROVIDER",
+          "meta_config": {}
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
       "id": "/home/sports/button/pathwaybelowbutton3/",
       "label": "PathwayBelowButton3",
       "device_id": "Gira_429496730210000_443438274700000",
-      "template": {
-        "type": "BUTTON",
-        "service_type": [
-          "BUTTON_PROVIDER"
-        ]
-      },
+      "type": "BUTTON",
       "placement_config": {
         "location_id": "Sports",
         "position": {
@@ -260,27 +174,31 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "openhab_binding_service_config": {
-              "item_id": "Gira_5133__home_sports__Button__PathwayBelowButton3__ButtonProvider",
-              "item_hardware_config": "knx\u003d\"4/3/6\""
-            },
-            "miele_at_home_binding_service_config": {}
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "4/3/6"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Gira_5133__home_sports__Button__PathwayBelowButton3__ButtonProvider"
+                }
+              ]
+            }
           },
           "unit_id": "/home/sports/button/pathwaybelowbutton3/",
-          "type": "BUTTON_PROVIDER"
+          "type": "BUTTON_PROVIDER",
+          "meta_config": {}
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
       "id": "/home/sports/button/pathwaybelowbutton4/",
       "label": "PathwayBelowButton4",
       "device_id": "Gira_429496730210000_443438274700000",
-      "template": {
-        "type": "BUTTON",
-        "service_type": [
-          "BUTTON_PROVIDER"
-        ]
-      },
+      "type": "BUTTON",
       "placement_config": {
         "location_id": "Sports",
         "position": {
@@ -309,27 +227,31 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "openhab_binding_service_config": {
-              "item_id": "Gira_5133__home_sports__Button__PathwayBelowButton4__ButtonProvider",
-              "item_hardware_config": "knx\u003d\"4/3/7\""
-            },
-            "miele_at_home_binding_service_config": {}
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "4/3/7"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Gira_5133__home_sports__Button__PathwayBelowButton4__ButtonProvider"
+                }
+              ]
+            }
           },
           "unit_id": "/home/sports/button/pathwaybelowbutton4/",
-          "type": "BUTTON_PROVIDER"
+          "type": "BUTTON_PROVIDER",
+          "meta_config": {}
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
       "id": "/home/sports/button/pathwaybelowbutton5/",
       "label": "PathwayBelowButton5",
       "device_id": "Gira_429496730210000_443438274700000",
-      "template": {
-        "type": "BUTTON",
-        "service_type": [
-          "BUTTON_PROVIDER"
-        ]
-      },
+      "type": "BUTTON",
       "placement_config": {
         "location_id": "Sports",
         "position": {
@@ -358,27 +280,31 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "openhab_binding_service_config": {
-              "item_id": "Gira_5133__home_sports__Button__PathwayBelowButton5__ButtonProvider",
-              "item_hardware_config": "knx\u003d\"4/3/8\""
-            },
-            "miele_at_home_binding_service_config": {}
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "4/3/8"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Gira_5133__home_sports__Button__PathwayBelowButton5__ButtonProvider"
+                }
+              ]
+            }
           },
           "unit_id": "/home/sports/button/pathwaybelowbutton5/",
-          "type": "BUTTON_PROVIDER"
+          "type": "BUTTON_PROVIDER",
+          "meta_config": {}
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
       "id": "/home/sports/button/pathwaybelowbutton6/",
       "label": "PathwayBelowButton6",
       "device_id": "Gira_429496730210000_443438274700000",
-      "template": {
-        "type": "BUTTON",
-        "service_type": [
-          "BUTTON_PROVIDER"
-        ]
-      },
+      "type": "BUTTON",
       "placement_config": {
         "location_id": "Sports",
         "position": {
@@ -407,16 +333,26 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "openhab_binding_service_config": {
-              "item_id": "Gira_5133__home_sports__Button__PathwayBelowButton6__ButtonProvider",
-              "item_hardware_config": "knx\u003d\"4/3/9\""
-            },
-            "miele_at_home_binding_service_config": {}
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "4/3/9"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Gira_5133__home_sports__Button__PathwayBelowButton6__ButtonProvider"
+                }
+              ]
+            }
           },
           "unit_id": "/home/sports/button/pathwaybelowbutton6/",
-          "type": "BUTTON_PROVIDER"
+          "type": "BUTTON_PROVIDER",
+          "meta_config": {}
         }
-      ]
+      ],
+      "meta_config": {}
     }
-  ]
+  ],
+  "meta_config": {}
 }
