@@ -1,0 +1,37 @@
+{
+  "id": "Control",
+  "label": "Control",
+  "root": false,
+  "parent_id": "Home",
+  "unit_id": [
+    "/home/control/brightnesssensor/testunit_1/",
+    "/home/control/motionsensor/entrance/",
+    "/home/control/battery/testunit_1/",
+    "/home/control/temperaturesensor/entrance/",
+    "/home/control/battery/entrance/",
+    "/home/control/motionsensor/testunit_1/",
+    "/home/control/brightnesssensor/entrance/",
+    "/home/control/temperaturesensor/testunit_1/",
+    "/home/control/tamperswitch/testunit_1/",
+    "/home/control/tamperswitch/entrance/"
+  ],
+  "scope": {
+    "component": [
+      "home",
+      "control"
+    ]
+  },
+  "position": {
+    "translation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "rotation": {
+      "qw": 1.0,
+      "qx": 0.0,
+      "qy": 0.0,
+      "qz": 0.0
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "Future-Shape_SE3-P_02858000",
+  "label": "Future-Shape_SE3-P_02858000",
+  "placement_config": {
+    "location_id": "Control",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "control",
+      "future-shape_se3-p_02858000"
+    ]
+  },
+  "serial_number": "02858000",
+  "inventory_state": {
+    "value": "INSTALLED",
+    "timestamp": {
+      "time": 1436364363087
+    },
+    "owner": {}
+  },
+  "device_class": {
+    "id": "Future-Shape_SE3-P",
+    "label": "SenseFloorUSBReceiver",
+    "product_number": "SE3-P",
+    "description": "SenseFloor USB Receiver",
+    "binding_config": {
+      "type": "FLOOR_BASE",
+      "openhab_binding_config": {},
+      "miele_at_home_binding_config": {},
+      "floor_base_binding_config": {}
+    },
+    "company": "Future-Shape"
+  },
+  "meta_config": {
+    "entry": [
+      {
+        "key": "USB_PORT",
+        "value": "/dev/ttyUSB0"
+      }
+    ]
+  }
+}

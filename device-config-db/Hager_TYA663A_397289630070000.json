@@ -1,0 +1,285 @@
+{
+  "id": "Hager_TYA663A_397289630070000",
+  "label": "DimmActuator3",
+  "placement_config": {
+    "location_id": "Control",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "control",
+      "dimmactuator3"
+    ]
+  },
+  "serial_number": "397289630070000",
+  "inventory_state": {
+    "value": "INSTALLED",
+    "location_config": {
+      "id": "Control",
+      "label": "Control",
+      "root": false,
+      "parent_id": "Home",
+      "unit_id": [
+        "/home/control/motionsensor/entrance/",
+        "/home/control/battery/entrance/",
+        "/home/control/tamperswitch/entrance/",
+        "/home/control/temperaturesensor/entrance/",
+        "/home/control/brightnesssensor/entrance/",
+        "/home/control/ambientlight/testunit_0/",
+        "/home/control/motionsensor/testunit_1/",
+        "/home/control/battery/testunit_1/",
+        "/home/control/tamperswitch/testunit_1/",
+        "/home/control/temperaturesensor/testunit_1/",
+        "/home/control/brightnesssensor/testunit_1/"
+      ],
+      "scope": {
+        "component": [
+          "home",
+          "control"
+        ]
+      }
+    },
+    "timestamp": {
+      "time": 1432894869663
+    },
+    "owner": {}
+  },
+  "device_class": {
+    "id": "Hager_TYA663A",
+    "label": "Hager_TYA663A",
+    "product_number": "TYA663A",
+    "description": "Hager dimmer actuator with 3 dimmers.",
+    "binding_config": {
+      "type": "OPENHAB",
+      "openhab_binding_config": {
+        "openhab_config": "Hager_TYA663A"
+      },
+      "miele_at_home_binding_config": {}
+    },
+    "company": "Hager",
+    "unit_template": [
+      {
+        "type": "DIMMER",
+        "service_type": [
+          "DIM_SERVICE",
+          "POWER_SERVICE"
+        ]
+      },
+      {
+        "type": "DIMMER",
+        "service_type": [
+          "DIM_SERVICE",
+          "POWER_SERVICE"
+        ]
+      },
+      {
+        "type": "DIMMER",
+        "service_type": [
+          "DIM_SERVICE",
+          "POWER_SERVICE"
+        ]
+      }
+    ]
+  },
+  "unit_config": [
+    {
+      "id": "/home/wardrobe/dimmer/entrancedimmer/",
+      "label": "EntranceDimmer",
+      "device_id": "Hager_TYA663A_397289630070000",
+      "template": {
+        "type": "DIMMER",
+        "service_type": [
+          "DIM_SERVICE",
+          "POWER_SERVICE"
+        ]
+      },
+      "placement_config": {
+        "location_id": "Wardrobe",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "wardrobe",
+          "dimmer",
+          "entrancedimmer"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "Hager_TYA663A__home_control__Dimmer__EntranceDimmer__DimService",
+              "item_hardware_config": "knx\u003d\"1/0/1+1/0/11\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/wardrobe/dimmer/entrancedimmer/",
+          "type": "DIM_SERVICE"
+        },
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "Hager_TYA663A__home_control__Dimmer__EntranceDimmer__PowerService",
+              "item_hardware_config": "knx\u003d\"1/0/1+1/0/11\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/wardrobe/dimmer/entrancedimmer/",
+          "type": "POWER_SERVICE"
+        }
+      ]
+    },
+    {
+      "id": "/home/wardrobe/dimmer/pathwaydimmer/",
+      "label": "PathwayDimmer",
+      "device_id": "Hager_TYA663A_397289630070000",
+      "template": {
+        "type": "DIMMER",
+        "service_type": [
+          "DIM_SERVICE",
+          "POWER_SERVICE"
+        ]
+      },
+      "placement_config": {
+        "location_id": "Wardrobe",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "wardrobe",
+          "dimmer",
+          "pathwaydimmer"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "Hager_TYA663A__home_control__Dimmer__PathwayDimmer__DimService",
+              "item_hardware_config": "knx\u003d\"1/0/2+1/0/13\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/wardrobe/dimmer/pathwaydimmer/",
+          "type": "DIM_SERVICE"
+        },
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "Hager_TYA663A__home_control__Dimmer__PathwayDimmer__PowerService",
+              "item_hardware_config": "knx\u003d\"1/0/2+1/0/13\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/wardrobe/dimmer/pathwaydimmer/",
+          "type": "POWER_SERVICE"
+        }
+      ]
+    },
+    {
+      "id": "/home/bath/dimmer/dimmer/",
+      "label": "Dimmer",
+      "device_id": "Hager_TYA663A_397289630070000",
+      "template": {
+        "type": "DIMMER",
+        "service_type": [
+          "DIM_SERVICE",
+          "POWER_SERVICE"
+        ]
+      },
+      "placement_config": {
+        "location_id": "Bath",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "bath",
+          "dimmer",
+          "dimmer"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "Hager_TYA663A__home_control__Dimmer__Dimmer__DimService",
+              "item_hardware_config": "knx\u003d\"3/0/0+3/0/3\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/bath/dimmer/dimmer/",
+          "type": "DIM_SERVICE"
+        },
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "Hager_TYA663A__home_control__Dimmer__Dimmer__PowerService",
+              "item_hardware_config": "knx\u003d\"3/0/0+3/0/3\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/bath/dimmer/dimmer/",
+          "type": "POWER_SERVICE"
+        }
+      ]
+    }
+  ]
+}

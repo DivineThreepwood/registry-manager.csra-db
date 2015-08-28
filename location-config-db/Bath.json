@@ -1,0 +1,60 @@
+{
+  "id": "Bath",
+  "label": "Bath",
+  "root": false,
+  "parent_id": "Home",
+  "unit_id": [
+    "/home/bath/battery/shower/",
+    "/home/bath/ambientlight/llamp3/",
+    "/home/bath/brightnesssensor/shower/",
+    "/home/bath/ambientlight/llamp5/",
+    "/home/bath/temperaturesensor/global/",
+    "/home/bath/temperaturesensor/sink/",
+    "/home/bath/temperaturecontroller/temperaturecontroller/",
+    "/home/bath/ambientlight/llamp1/",
+    "/home/bath/motionsensor/global/",
+    "/home/bath/tamperswitch/global/",
+    "/home/bath/brightnesssensor/global/",
+    "/home/bath/button/button1/",
+    "/home/bath/button/button3/",
+    "/home/bath/motionsensor/sink/",
+    "/home/bath/ambientlight/slamp1/",
+    "/home/bath/brightnesssensor/entrance/",
+    "/home/bath/tamperswitch/sink/",
+    "/home/bath/battery/global/",
+    "/home/bath/ambientlight/llamp6/",
+    "/home/bath/brightnesssensor/sink/",
+    "/home/bath/ambientlight/llamp2/",
+    "/home/bath/button/button4/",
+    "/home/bath/ambientlight/llamp4/",
+    "/home/bath/tamperswitch/entrance/",
+    "/home/bath/battery/entrance/",
+    "/home/bath/temperaturesensor/shower/",
+    "/home/bath/temperaturesensor/entrance/",
+    "/home/bath/button/button2/",
+    "/home/bath/battery/sink/",
+    "/home/bath/motionsensor/shower/",
+    "/home/bath/ambientlight/slamp2/",
+    "/home/bath/tamperswitch/shower/",
+    "/home/bath/motionsensor/entrance/"
+  ],
+  "scope": {
+    "component": [
+      "home",
+      "bath"
+    ]
+  },
+  "position": {
+    "translation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "rotation": {
+      "qw": 1.0,
+      "qx": 0.0,
+      "qy": 0.0,
+      "qz": 0.0
+    }
+  }
+}

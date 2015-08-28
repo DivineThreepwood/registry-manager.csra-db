@@ -1,0 +1,511 @@
+{
+  "id": "Fibaro_FGMS-001_FMS002",
+  "label": "Control",
+  "placement_config": {
+    "location_id": "Living",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "control"
+    ]
+  },
+  "serial_number": "FMS002",
+  "inventory_state": {
+    "value": "INSTALLED",
+    "location_config": {
+      "id": "Living",
+      "label": "Living",
+      "root": false,
+      "parent_id": "Home",
+      "scope": {
+        "component": [
+          "home",
+          "living"
+        ]
+      }
+    },
+    "timestamp": {
+      "time": 1431702825846
+    },
+    "owner": {}
+  },
+  "device_class": {
+    "id": "Fibaro_FGMS-001",
+    "label": "F_MotionSensor",
+    "product_number": "FGMS-001",
+    "description": "Wireless sensor for motion, temperature, brightness and tamper with a battery by Fibaro.",
+    "binding_config": {
+      "type": "OPENHAB",
+      "openhab_binding_config": {
+        "openhab_config": "F_MotionSensor"
+      },
+      "miele_at_home_binding_config": {},
+      "floor_base_binding_config": {}
+    },
+    "company": "Fibaro",
+    "unit_template": [
+      {
+        "type": "MOTION_SENSOR",
+        "service_type": [
+          "MOTION_PROVIDER"
+        ],
+        "service_template": [
+          {
+            "service_type": "MOTION_PROVIDER",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_TYPE",
+                  "value": "zwave"
+                },
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_binary"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "BATTERY",
+        "service_type": [
+          "BATTERY_PROVIDER"
+        ],
+        "service_template": [
+          {
+            "service_type": "BATTERY_PROVIDER",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_TYPE",
+                  "value": "zwave"
+                },
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dbattery"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "TAMPER_SWITCH",
+        "service_type": [
+          "TAMPER_PROVIDER"
+        ],
+        "service_template": [
+          {
+            "service_type": "TAMPER_PROVIDER",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_TYPE",
+                  "value": "zwave"
+                },
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_alarm"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "TEMPERATURE_SENSOR",
+        "service_type": [
+          "TEMPERATURE_PROVIDER"
+        ],
+        "service_template": [
+          {
+            "service_type": "TEMPERATURE_PROVIDER",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_TYPE",
+                  "value": "zwave"
+                },
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_multilevel,sensor_type\u003d1"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "BRIGHTNESS_SENSOR",
+        "service_type": [
+          "BRIGHTNESS_PROVIDER"
+        ],
+        "service_template": [
+          {
+            "service_type": "BRIGHTNESS_PROVIDER",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_TYPE",
+                  "value": "zwave"
+                },
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_multilevel,sensor_type\u003d3"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "unit_config": [
+    {
+      "id": "/home/living/motionsensor/control/",
+      "label": "Control",
+      "device_id": "Fibaro_FGMS-001_FMS002",
+      "template": {
+        "type": "MOTION_SENSOR",
+        "service_type": [
+          "MOTION_PROVIDER"
+        ],
+        "service_template": [
+          {
+            "service_type": "MOTION_PROVIDER",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_TYPE",
+                  "value": "zwave"
+                },
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_binary"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "placement_config": {
+        "location_id": "Living",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "living",
+          "motionsensor",
+          "control"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "F_MotionSensor__home_living__MotionSensor__Control__MotionProvider",
+              "item_hardware_config": "zwave\u003d\"34:command\u003dsensor_binary\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/living/motionsensor/control/",
+          "type": "MOTION_PROVIDER"
+        }
+      ]
+    },
+    {
+      "id": "/home/living/battery/control/",
+      "label": "Control",
+      "device_id": "Fibaro_FGMS-001_FMS002",
+      "template": {
+        "type": "BATTERY",
+        "service_type": [
+          "BATTERY_PROVIDER"
+        ],
+        "service_template": [
+          {
+            "service_type": "BATTERY_PROVIDER",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_TYPE",
+                  "value": "zwave"
+                },
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dbattery"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "placement_config": {
+        "location_id": "Living",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "living",
+          "battery",
+          "control"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "F_MotionSensor__home_living__Battery__Control__BatteryProvider",
+              "item_hardware_config": "zwave\u003d\"34:command\u003dbattery\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/living/battery/control/",
+          "type": "BATTERY_PROVIDER"
+        }
+      ]
+    },
+    {
+      "id": "/home/living/tamperswitch/control/",
+      "label": "Control",
+      "device_id": "Fibaro_FGMS-001_FMS002",
+      "template": {
+        "type": "TAMPER_SWITCH",
+        "service_type": [
+          "TAMPER_PROVIDER"
+        ],
+        "service_template": [
+          {
+            "service_type": "TAMPER_PROVIDER",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_TYPE",
+                  "value": "zwave"
+                },
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_alarm"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "placement_config": {
+        "location_id": "Living",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "living",
+          "tamperswitch",
+          "control"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "F_MotionSensor__home_living__TamperSwitch__Control__TamperProvider",
+              "item_hardware_config": "zwave\u003d\"34:command\u003dsensor_alarm\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/living/tamperswitch/control/",
+          "type": "TAMPER_PROVIDER"
+        }
+      ]
+    },
+    {
+      "id": "/home/living/temperaturesensor/control/",
+      "label": "Control",
+      "device_id": "Fibaro_FGMS-001_FMS002",
+      "template": {
+        "type": "TEMPERATURE_SENSOR",
+        "service_type": [
+          "TEMPERATURE_PROVIDER"
+        ],
+        "service_template": [
+          {
+            "service_type": "TEMPERATURE_PROVIDER",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_TYPE",
+                  "value": "zwave"
+                },
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_multilevel,sensor_type\u003d1"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "placement_config": {
+        "location_id": "Living",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "living",
+          "temperaturesensor",
+          "control"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "F_MotionSensor__home_living__TemperatureSensor__Control__TemperatureProvider",
+              "item_hardware_config": "zwave\u003d\"34:command\u003dsensor_multilevel,sensor_type\u003d1\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/living/temperaturesensor/control/",
+          "type": "TEMPERATURE_PROVIDER"
+        }
+      ]
+    },
+    {
+      "id": "/home/living/brightnesssensor/control/",
+      "label": "Control",
+      "device_id": "Fibaro_FGMS-001_FMS002",
+      "template": {
+        "type": "BRIGHTNESS_SENSOR",
+        "service_type": [
+          "BRIGHTNESS_PROVIDER"
+        ],
+        "service_template": [
+          {
+            "service_type": "BRIGHTNESS_PROVIDER",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_TYPE",
+                  "value": "zwave"
+                },
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_multilevel,sensor_type\u003d3"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "placement_config": {
+        "location_id": "Living",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "living",
+          "brightnesssensor",
+          "control"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "F_MotionSensor__home_living__BrightnessSensor__Control__BrightnessProvider",
+              "item_hardware_config": "zwave\u003d\"34:command\u003dsensor_multilevel,sensor_type\u003d3\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/living/brightnesssensor/control/",
+          "type": "BRIGHTNESS_PROVIDER"
+        }
+      ]
+    }
+  ]
+}

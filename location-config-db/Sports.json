@@ -1,0 +1,52 @@
+{
+  "id": "Sports",
+  "label": "Sports",
+  "root": false,
+  "parent_id": "Home",
+  "unit_id": [
+    "/home/sports/temperaturesensor/interaction/",
+    "/home/sports/motionsensor/interaction/",
+    "/home/sports/ambientlight/llampentrance2/",
+    "/home/sports/button/button4/",
+    "/home/sports/ambientlight/llampentrance4/",
+    "/home/sports/button/button2/",
+    "/home/sports/tamperswitch/pathway/",
+    "/home/sports/ambientlight/slampwindow2/",
+    "/home/sports/brightnesssensor/pathway/",
+    "/home/sports/ambientlight/llampentrance6/",
+    "/home/sports/temperaturesensor/pathway/",
+    "/home/sports/motionsensor/pathway/",
+    "/home/sports/ambientlight/slampright2/",
+    "/home/sports/tamperswitch/interaction/",
+    "/home/sports/brightnesssensor/interaction/",
+    "/home/sports/button/button1/",
+    "/home/sports/battery/interaction/",
+    "/home/sports/button/button3/",
+    "/home/sports/temperaturecontroller/temperaturecontroller/",
+    "/home/sports/ambientlight/llampentrance3/",
+    "/home/sports/ambientlight/slampwindow1/",
+    "/home/sports/ambientlight/llampentrance7/",
+    "/home/sports/ambientlight/slampright1/",
+    "/home/sports/battery/pathway/",
+    "/home/sports/ambientlight/llampentrance5/"
+  ],
+  "scope": {
+    "component": [
+      "home",
+      "sports"
+    ]
+  },
+  "position": {
+    "translation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "rotation": {
+      "qw": 1.0,
+      "qx": 0.0,
+      "qy": 0.0,
+      "qz": 0.0
+    }
+  }
+}

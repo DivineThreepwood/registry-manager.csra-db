@@ -1,0 +1,192 @@
+{
+  "id": "Homematic_Sec_SC_2_LEQ0174339",
+  "label": "DoorOpen",
+  "placement_config": {
+    "location_id": "SlidingDoor",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "kitchen",
+      "slidingdoor",
+      "dooropen"
+    ]
+  },
+  "serial_number": "LEQ0174339",
+  "inventory_state": {
+    "value": "INSTALLED",
+    "location_config": {
+      "id": "SlidingDoor",
+      "label": "SlidingDoor",
+      "root": false,
+      "parent_id": "Kitchen",
+      "scope": {
+        "component": [
+          "home",
+          "kitchen",
+          "slidingdoor"
+        ]
+      },
+      "position": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "qw": 1.0,
+          "qx": 0.0,
+          "qy": 0.0,
+          "qz": 0.0
+        }
+      }
+    },
+    "timestamp": {
+      "time": 1434125479063
+    },
+    "owner": {}
+  },
+  "device_class": {
+    "id": "Homematic_Sec_SC_2",
+    "label": "Homematic_HM_Sec_SC_2",
+    "product_number": "Sec_SC_2",
+    "description": "Reed switch by Homematic.",
+    "binding_config": {
+      "type": "OPENHAB",
+      "openhab_binding_config": {
+        "openhab_config": "Homematic_HM_Sec_SC_2"
+      },
+      "miele_at_home_binding_config": {}
+    },
+    "company": "Homematic",
+    "unit_template": [
+      {
+        "type": "REED_SWITCH",
+        "service_type": [
+          "REED_SWITCH_PROVIDER"
+        ]
+      },
+      {
+        "type": "BATTERY",
+        "service_type": [
+          "BATTERY_PROVIDER"
+        ]
+      }
+    ]
+  },
+  "unit_config": [
+    {
+      "id": "/home/kitchen/slidingdoor/reedswitch/dooropen/",
+      "label": "DoorOpen",
+      "device_id": "Homematic_Sec_SC_2_LEQ0174339",
+      "template": {
+        "type": "REED_SWITCH",
+        "service_type": [
+          "REED_SWITCH_PROVIDER"
+        ]
+      },
+      "placement_config": {
+        "location_id": "SlidingDoor",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "kitchen",
+          "slidingdoor",
+          "reedswitch",
+          "dooropen"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "Homematic_HM_Sec_SC_2__home_kitchen_slidingdoor__ReedSwitch__DoorOpen__ReedSwitchProvider",
+              "item_hardware_config": "homematic\u003d\"address\u003dLEQ0174339, channel\u003d1, parameter\u003dSTATE\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/kitchen/slidingdoor/reedswitch/dooropen/",
+          "type": "REED_SWITCH_PROVIDER"
+        }
+      ]
+    },
+    {
+      "id": "/home/kitchen/slidingdoor/battery/dooropen/",
+      "label": "DoorOpen",
+      "device_id": "Homematic_Sec_SC_2_LEQ0174339",
+      "template": {
+        "type": "BATTERY",
+        "service_type": [
+          "BATTERY_PROVIDER"
+        ]
+      },
+      "placement_config": {
+        "location_id": "SlidingDoor",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "kitchen",
+          "slidingdoor",
+          "battery",
+          "dooropen"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "Homematic_HM_Sec_SC_2__home_kitchen_slidingdoor__Battery__DoorOpen__BatteryProvider",
+              "item_hardware_config": "homematic\u003d\"address\u003dLEQ0174339, channel\u003d0, parameter\u003dBATTERY_TYPE\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/kitchen/slidingdoor/battery/dooropen/",
+          "type": "BATTERY_PROVIDER"
+        }
+      ]
+    }
+  ]
+}

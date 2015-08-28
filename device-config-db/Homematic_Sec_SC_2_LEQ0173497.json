@@ -1,0 +1,229 @@
+{
+  "id": "Homematic_Sec_SC_2_LEQ0173497",
+  "label": "WindowReedSwitch",
+  "placement_config": {
+    "location_id": "Sports",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "sports",
+      "windowreedswitch"
+    ]
+  },
+  "serial_number": "LEQ0173497",
+  "inventory_state": {
+    "value": "INSTALLED",
+    "location_config": {
+      "id": "Sports",
+      "label": "Sports",
+      "root": false,
+      "parent_id": "Home",
+      "unit_id": [
+        "/home/sports/button/pathwaybelowbutton4/",
+        "/home/sports/dimmer/leftdimmer/",
+        "/home/sports/button/pathwaybelowbutton2/",
+        "/home/sports/rollershutter/inside/",
+        "/home/sports/temperaturesensor/interaction/",
+        "/home/sports/motionsensor/interaction/",
+        "/home/sports/ambientlight/llampentrance2/",
+        "/home/sports/button/button4/",
+        "/home/sports/dimmer/rightdimmer/",
+        "/home/sports/button/button2/",
+        "/home/sports/ambientlight/llampentrance4/",
+        "/home/sports/reedswitch/sportstolivingreedswitch/",
+        "/home/sports/button/pathwaybelowbutton6/",
+        "/home/sports/ambientlight/slampwindow2/",
+        "/home/sports/tamperswitch/pathway/",
+        "/home/sports/brightnesssensor/pathway/",
+        "/home/sports/ambientlight/llampentrance6/",
+        "/home/sports/temperaturesensor/pathway/",
+        "/home/sports/motionsensor/pathway/",
+        "/home/sports/ambientlight/slampright2/",
+        "/home/sports/battery/sportstocontrolreedswitch/",
+        "/home/sports/tamperswitch/interaction/",
+        "/home/sports/button/pathwaybelowbutton5/",
+        "/home/sports/brightnesssensor/interaction/",
+        "/home/sports/button/pathwaybelowbutton1/",
+        "/home/sports/reedswitch/sportstocontrolreedswitch/",
+        "/home/sports/button/pathwaybelowbutton3/",
+        "/home/sports/button/button1/",
+        "/home/sports/battery/interaction/",
+        "/home/sports/button/button3/",
+        "/home/sports/temperaturecontroller/temperaturecontroller/",
+        "/home/sports/rollershutter/outside/",
+        "/home/sports/ambientlight/llampentrance3/",
+        "/home/sports/ambientlight/slampwindow1/",
+        "/home/sports/ambientlight/llampentrance7/",
+        "/home/sports/ambientlight/slampright1/",
+        "/home/sports/battery/pathway/",
+        "/home/sports/ambientlight/llampentrance5/",
+        "/home/sports/battery/sportstolivingreedswitch/"
+      ],
+      "scope": {
+        "component": [
+          "home",
+          "sports"
+        ]
+      },
+      "position": {
+        "translation": {
+          "x": 7.9275,
+          "y": 8.6583,
+          "z": 0.0
+        },
+        "rotation": {
+          "qw": 6.123233995736766E-17,
+          "qx": 0.0,
+          "qy": 1.0,
+          "qz": 0.0
+        }
+      }
+    },
+    "timestamp": {
+      "time": 1434125982703
+    },
+    "owner": {}
+  },
+  "device_class": {
+    "id": "Homematic_Sec_SC_2",
+    "label": "Homematic_HM_Sec_SC_2",
+    "product_number": "Sec_SC_2",
+    "description": "Reed switch by Homematic.",
+    "binding_config": {
+      "type": "OPENHAB",
+      "openhab_binding_config": {
+        "openhab_config": "Homematic_HM_Sec_SC_2"
+      },
+      "miele_at_home_binding_config": {}
+    },
+    "company": "Homematic",
+    "unit_template": [
+      {
+        "type": "REED_SWITCH",
+        "service_type": [
+          "REED_SWITCH_PROVIDER"
+        ]
+      },
+      {
+        "type": "BATTERY",
+        "service_type": [
+          "BATTERY_PROVIDER"
+        ]
+      }
+    ]
+  },
+  "unit_config": [
+    {
+      "id": "/home/sports/reedswitch/windowreedswitch/",
+      "label": "WindowReedSwitch",
+      "device_id": "Homematic_Sec_SC_2_LEQ0173497",
+      "template": {
+        "type": "REED_SWITCH",
+        "service_type": [
+          "REED_SWITCH_PROVIDER"
+        ]
+      },
+      "placement_config": {
+        "location_id": "Sports",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "sports",
+          "reedswitch",
+          "windowreedswitch"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "Homematic_HM_Sec_SC_2__home_sports__ReedSwitch__WindowReedSwitch__ReedSwitchProvider",
+              "item_hardware_config": "homematic\u003d\"address\u003dLEQ0173497, channel\u003d1, parameter\u003dSTATE\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/sports/reedswitch/windowreedswitch/",
+          "type": "REED_SWITCH_PROVIDER"
+        }
+      ]
+    },
+    {
+      "id": "/home/sports/battery/windowreedswitch/",
+      "label": "WindowReedSwitch",
+      "device_id": "Homematic_Sec_SC_2_LEQ0173497",
+      "template": {
+        "type": "BATTERY",
+        "service_type": [
+          "BATTERY_PROVIDER"
+        ]
+      },
+      "placement_config": {
+        "location_id": "Sports",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "sports",
+          "battery",
+          "windowreedswitch"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "Homematic_HM_Sec_SC_2__home_sports__Battery__WindowReedSwitch__BatteryProvider",
+              "item_hardware_config": "homematic\u003d\"address\u003dLEQ0173497, channel\u003d0, parameter\u003dBATTERY_TYPE\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/sports/battery/windowreedswitch/",
+          "type": "BATTERY_PROVIDER"
+        }
+      ]
+    }
+  ]
+}

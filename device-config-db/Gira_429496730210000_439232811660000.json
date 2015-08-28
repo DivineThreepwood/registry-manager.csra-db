@@ -1,0 +1,411 @@
+{
+  "id": "Gira_429496730210000_439232811660000",
+  "label": "DoorButtons",
+  "placement_config": {
+    "location_id": "Kitchen",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "kitchen",
+      "doorbuttons"
+    ]
+  },
+  "serial_number": "439232811660000",
+  "inventory_state": {
+    "value": "INSTALLED",
+    "location_config": {
+      "id": "Kitchen",
+      "label": "Kitchen",
+      "root": false,
+      "parent_id": "Home",
+      "unit_id": [
+        "/home/kitchen/ambientlight/global_3/",
+        "/home/kitchen/ambientlight/505/",
+        "/home/kitchen/ambientlight/507/",
+        "/home/kitchen/ambientlight/506/",
+        "/home/kitchen/ambientlight/503/",
+        "/home/kitchen/ambientlight/502/",
+        "/home/kitchen/ambientlight/global_1/",
+        "/home/kitchen/ambientlight/global_2/",
+        "/home/kitchen/ambientlight/global_0/",
+        "/home/kitchen/motionsensor/global/",
+        "/home/kitchen/battery/global/",
+        "/home/kitchen/tamperswitch/global/",
+        "/home/kitchen/temperaturesensor/global/",
+        "/home/kitchen/brightnesssensor/global/"
+      ],
+      "scope": {
+        "component": [
+          "home",
+          "kitchen"
+        ]
+      }
+    },
+    "timestamp": {
+      "time": 1432739996959
+    },
+    "owner": {}
+  },
+  "device_class": {
+    "id": "Gira_429496730210000",
+    "label": "Gira_5133",
+    "product_number": "429496730210000",
+    "description": "6 knx buttons by Gira.",
+    "binding_config": {
+      "type": "OPENHAB",
+      "openhab_binding_config": {
+        "openhab_config": "Gira_5133"
+      },
+      "miele_at_home_binding_config": {}
+    },
+    "company": "Gira",
+    "unit_template": [
+      {
+        "type": "BUTTON",
+        "service_type": [
+          "BUTTON_PROVIDER"
+        ]
+      },
+      {
+        "type": "BUTTON",
+        "service_type": [
+          "BUTTON_PROVIDER"
+        ]
+      },
+      {
+        "type": "BUTTON",
+        "service_type": [
+          "BUTTON_PROVIDER"
+        ]
+      },
+      {
+        "type": "BUTTON",
+        "service_type": [
+          "BUTTON_PROVIDER"
+        ]
+      },
+      {
+        "type": "BUTTON",
+        "service_type": [
+          "BUTTON_PROVIDER"
+        ]
+      },
+      {
+        "type": "BUTTON",
+        "service_type": [
+          "BUTTON_PROVIDER"
+        ]
+      }
+    ]
+  },
+  "unit_config": [
+    {
+      "id": "/home/kitchen/button/doorbutton1/",
+      "label": "DoorButton1",
+      "device_id": "Gira_429496730210000_439232811660000",
+      "template": {
+        "type": "BUTTON",
+        "service_type": [
+          "BUTTON_PROVIDER"
+        ]
+      },
+      "placement_config": {
+        "location_id": "Kitchen",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "kitchen",
+          "button",
+          "doorbutton1"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "Gira_5133__home_kitchen__Button__DoorButton1__ButtonProvider",
+              "item_hardware_config": "knx\u003d\"0/2/0\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/kitchen/button/doorbutton1/",
+          "type": "BUTTON_PROVIDER"
+        }
+      ]
+    },
+    {
+      "id": "/home/kitchen/button/doorbutton2/",
+      "label": "DoorButton2",
+      "device_id": "Gira_429496730210000_439232811660000",
+      "template": {
+        "type": "BUTTON",
+        "service_type": [
+          "BUTTON_PROVIDER"
+        ]
+      },
+      "placement_config": {
+        "location_id": "Kitchen",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "kitchen",
+          "button",
+          "doorbutton2"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "Gira_5133__home_kitchen__Button__DoorButton2__ButtonProvider",
+              "item_hardware_config": "knx\u003d\"0/2/1\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/kitchen/button/doorbutton2/",
+          "type": "BUTTON_PROVIDER"
+        }
+      ]
+    },
+    {
+      "id": "/home/kitchen/button/doorbutton3/",
+      "label": "DoorButton3",
+      "device_id": "Gira_429496730210000_439232811660000",
+      "template": {
+        "type": "BUTTON",
+        "service_type": [
+          "BUTTON_PROVIDER"
+        ]
+      },
+      "placement_config": {
+        "location_id": "Kitchen",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "kitchen",
+          "button",
+          "doorbutton3"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "Gira_5133__home_kitchen__Button__DoorButton3__ButtonProvider",
+              "item_hardware_config": "knx\u003d\"0/2/2\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/kitchen/button/doorbutton3/",
+          "type": "BUTTON_PROVIDER"
+        }
+      ]
+    },
+    {
+      "id": "/home/kitchen/button/doorbutton4/",
+      "label": "DoorButton4",
+      "device_id": "Gira_429496730210000_439232811660000",
+      "template": {
+        "type": "BUTTON",
+        "service_type": [
+          "BUTTON_PROVIDER"
+        ]
+      },
+      "placement_config": {
+        "location_id": "Kitchen",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "kitchen",
+          "button",
+          "doorbutton4"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "Gira_5133__home_kitchen__Button__DoorButton4__ButtonProvider",
+              "item_hardware_config": "knx\u003d\"0/2/4\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/kitchen/button/doorbutton4/",
+          "type": "BUTTON_PROVIDER"
+        }
+      ]
+    },
+    {
+      "id": "/home/kitchen/button/doorbutton5/",
+      "label": "DoorButton5",
+      "device_id": "Gira_429496730210000_439232811660000",
+      "template": {
+        "type": "BUTTON",
+        "service_type": [
+          "BUTTON_PROVIDER"
+        ]
+      },
+      "placement_config": {
+        "location_id": "Kitchen",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "kitchen",
+          "button",
+          "doorbutton5"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "Gira_5133__home_kitchen__Button__DoorButton5__ButtonProvider",
+              "item_hardware_config": "knx\u003d\"0/2/5\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/kitchen/button/doorbutton5/",
+          "type": "BUTTON_PROVIDER"
+        }
+      ]
+    },
+    {
+      "id": "/home/kitchen/button/doorbutton6/",
+      "label": "DoorButton6",
+      "device_id": "Gira_429496730210000_439232811660000",
+      "template": {
+        "type": "BUTTON",
+        "service_type": [
+          "BUTTON_PROVIDER"
+        ]
+      },
+      "placement_config": {
+        "location_id": "Kitchen",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "kitchen",
+          "button",
+          "doorbutton6"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "Gira_5133__home_kitchen__Button__DoorButton6__ButtonProvider",
+              "item_hardware_config": "knx\u003d\"0/2/6\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/kitchen/button/doorbutton6/",
+          "type": "BUTTON_PROVIDER"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,505 @@
+{
+  "id": "Home",
+  "label": "Home",
+  "root": true,
+  "child": [
+    {
+      "id": "Sports",
+      "label": "Sports",
+      "root": false,
+      "parent_id": "Home",
+      "unit_id": [
+        "/home/sports/temperaturesensor/interaction/",
+        "/home/sports/motionsensor/interaction/",
+        "/home/sports/ambientlight/llampentrance2/",
+        "/home/sports/button/button4/",
+        "/home/sports/ambientlight/llampentrance4/",
+        "/home/sports/button/button2/",
+        "/home/sports/tamperswitch/pathway/",
+        "/home/sports/ambientlight/slampwindow2/",
+        "/home/sports/brightnesssensor/pathway/",
+        "/home/sports/ambientlight/llampentrance6/",
+        "/home/sports/temperaturesensor/pathway/",
+        "/home/sports/motionsensor/pathway/",
+        "/home/sports/ambientlight/slampright2/",
+        "/home/sports/tamperswitch/interaction/",
+        "/home/sports/brightnesssensor/interaction/",
+        "/home/sports/button/button1/",
+        "/home/sports/battery/interaction/",
+        "/home/sports/button/button3/",
+        "/home/sports/temperaturecontroller/temperaturecontroller/",
+        "/home/sports/ambientlight/llampentrance3/",
+        "/home/sports/ambientlight/slampwindow1/",
+        "/home/sports/ambientlight/llampentrance7/",
+        "/home/sports/ambientlight/slampright1/",
+        "/home/sports/battery/pathway/",
+        "/home/sports/ambientlight/llampentrance5/"
+      ],
+      "scope": {
+        "component": [
+          "home",
+          "sports"
+        ]
+      },
+      "position": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "qw": 1.0,
+          "qx": 0.0,
+          "qy": 0.0,
+          "qz": 0.0
+        }
+      }
+    },
+    {
+      "id": "Wardrobe",
+      "label": "Wardrobe",
+      "root": false,
+      "parent_id": "Home",
+      "unit_id": [
+        "/home/wardrobe/tamperswitch/entrance/",
+        "/home/wardrobe/brightnesssensor/entrance/",
+        "/home/wardrobe/motionsensor/entrance/",
+        "/home/wardrobe/battery/entrance/",
+        "/home/wardrobe/temperaturesensor/hallway/",
+        "/home/wardrobe/brightnesssensor/hallway/",
+        "/home/wardrobe/battery/hallway/",
+        "/home/wardrobe/temperaturesensor/entrance/",
+        "/home/wardrobe/tamperswitch/hallway/",
+        "/home/wardrobe/motionsensor/hallway/"
+      ],
+      "scope": {
+        "component": [
+          "home",
+          "wardrobe"
+        ]
+      },
+      "position": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "qw": 1.0,
+          "qx": 0.0,
+          "qy": 0.0,
+          "qz": 0.0
+        }
+      }
+    },
+    {
+      "id": "Bath",
+      "label": "Bath",
+      "root": false,
+      "parent_id": "Home",
+      "unit_id": [
+        "/home/bath/battery/shower/",
+        "/home/bath/ambientlight/llamp3/",
+        "/home/bath/brightnesssensor/shower/",
+        "/home/bath/ambientlight/llamp5/",
+        "/home/bath/temperaturesensor/global/",
+        "/home/bath/temperaturesensor/sink/",
+        "/home/bath/temperaturecontroller/temperaturecontroller/",
+        "/home/bath/ambientlight/llamp1/",
+        "/home/bath/motionsensor/global/",
+        "/home/bath/tamperswitch/global/",
+        "/home/bath/brightnesssensor/global/",
+        "/home/bath/button/button1/",
+        "/home/bath/button/button3/",
+        "/home/bath/motionsensor/sink/",
+        "/home/bath/ambientlight/slamp1/",
+        "/home/bath/brightnesssensor/entrance/",
+        "/home/bath/tamperswitch/sink/",
+        "/home/bath/battery/global/",
+        "/home/bath/ambientlight/llamp6/",
+        "/home/bath/brightnesssensor/sink/",
+        "/home/bath/ambientlight/llamp2/",
+        "/home/bath/button/button4/",
+        "/home/bath/ambientlight/llamp4/",
+        "/home/bath/tamperswitch/entrance/",
+        "/home/bath/battery/entrance/",
+        "/home/bath/temperaturesensor/shower/",
+        "/home/bath/temperaturesensor/entrance/",
+        "/home/bath/button/button2/",
+        "/home/bath/battery/sink/",
+        "/home/bath/motionsensor/shower/",
+        "/home/bath/ambientlight/slamp2/",
+        "/home/bath/tamperswitch/shower/",
+        "/home/bath/motionsensor/entrance/"
+      ],
+      "scope": {
+        "component": [
+          "home",
+          "bath"
+        ]
+      },
+      "position": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "qw": 1.0,
+          "qx": 0.0,
+          "qy": 0.0,
+          "qz": 0.0
+        }
+      }
+    },
+    {
+      "id": "Living",
+      "label": "Living",
+      "root": false,
+      "parent_id": "Home",
+      "unit_id": [
+        "/home/living/motionsensor/table/",
+        "/home/living/brightnesssensor/couch/",
+        "/home/living/ambientlight/slampleft2/",
+        "/home/living/battery/media/",
+        "/home/living/battery/control/",
+        "/home/living/battery/couch/",
+        "/home/living/temperaturecontroller/temperaturecontroller/",
+        "/home/living/ambientlight/floorlamp/",
+        "/home/living/ambientlight/llamp4/",
+        "/home/living/ambientlight/llamp6/",
+        "/home/living/brightnesssensor/table/",
+        "/home/living/temperaturesensor/table/",
+        "/home/living/ambientlight/llamp2/",
+        "/home/living/button/button4/",
+        "/home/living/tamperswitch/control/",
+        "/home/living/button/button2/",
+        "/home/living/brightnesssensor/control/",
+        "/home/living/motionsensor/couch/",
+        "/home/living/ambientlight/slampright2/",
+        "/home/living/temperaturesensor/control/",
+        "/home/living/ambientlight/slampleft1/",
+        "/home/living/battery/table/",
+        "/home/living/motionsensor/media/",
+        "/home/living/temperaturesensor/media/",
+        "/home/living/tamperswitch/table/",
+        "/home/living/ambientlight/llamp5/",
+        "/home/living/motionsensor/control/",
+        "/home/living/ambientlight/llamp1/",
+        "/home/living/button/button1/",
+        "/home/living/ambientlight/llamp3/",
+        "/home/living/brightnesssensor/media/",
+        "/home/living/tamperswitch/media/",
+        "/home/living/tamperswitch/couch/",
+        "/home/living/button/button3/",
+        "/home/living/temperaturesensor/couch/",
+        "/home/living/ambientlight/slampright1/"
+      ],
+      "scope": {
+        "component": [
+          "home",
+          "living"
+        ]
+      },
+      "position": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "qw": 1.0,
+          "qx": 0.0,
+          "qy": 0.0,
+          "qz": 0.0
+        }
+      }
+    },
+    {
+      "id": "Kitchen",
+      "label": "Kitchen",
+      "root": false,
+      "parent_id": "Home",
+      "unit_id": [
+        "/home/kitchen/brightnesssensor/global/",
+        "/home/kitchen/battery/global/",
+        "/home/kitchen/ambientlight/global_0/",
+        "/home/kitchen/ambientlight/global_2/",
+        "/home/kitchen/ambientlight/global_1/",
+        "/home/kitchen/ambientlight/global_3/",
+        "/home/kitchen/motionsensor/global/",
+        "/home/kitchen/ambientlight/503/",
+        "/home/kitchen/ambientlight/505/",
+        "/home/kitchen/tamperswitch/global/",
+        "/home/kitchen/ambientlight/506/",
+        "/home/kitchen/ambientlight/507/",
+        "/home/kitchen/temperaturesensor/global/"
+      ],
+      "scope": {
+        "component": [
+          "home",
+          "kitchen"
+        ]
+      },
+      "position": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "qw": 1.0,
+          "qx": 0.0,
+          "qy": 0.0,
+          "qz": 0.0
+        }
+      }
+    },
+    {
+      "id": "Control",
+      "label": "Control",
+      "root": false,
+      "parent_id": "Home",
+      "unit_id": [
+        "/home/control/brightnesssensor/testunit_1/",
+        "/home/control/motionsensor/entrance/",
+        "/home/control/battery/testunit_1/",
+        "/home/control/temperaturesensor/entrance/",
+        "/home/control/battery/entrance/",
+        "/home/control/motionsensor/testunit_1/",
+        "/home/control/brightnesssensor/entrance/",
+        "/home/control/temperaturesensor/testunit_1/",
+        "/home/control/tamperswitch/testunit_1/",
+        "/home/control/tamperswitch/entrance/"
+      ],
+      "scope": {
+        "component": [
+          "home",
+          "control"
+        ]
+      },
+      "position": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "qw": 1.0,
+          "qx": 0.0,
+          "qy": 0.0,
+          "qz": 0.0
+        }
+      }
+    },
+    {
+      "id": "Outdoor",
+      "label": "Outdoor",
+      "root": false,
+      "parent_id": "Home",
+      "unit_id": [
+        "/home/outdoor/motionsensor/entrance/",
+        "/home/outdoor/battery/entrance/",
+        "/home/outdoor/tamperswitch/entrance/",
+        "/home/outdoor/temperaturesensor/entrance/",
+        "/home/outdoor/brightnesssensor/entrance/"
+      ],
+      "scope": {
+        "component": [
+          "home",
+          "outdoor"
+        ]
+      },
+      "position": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "qw": 1.0,
+          "qx": 0.0,
+          "qy": 0.0,
+          "qz": 0.0
+        }
+      }
+    },
+    {
+      "id": "Flur",
+      "label": "Flur",
+      "root": false,
+      "parent_id": "Home",
+      "scope": {
+        "component": [
+          "home",
+          "flur"
+        ]
+      },
+      "position": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "qw": 1.0,
+          "qx": 0.0,
+          "qy": 0.0,
+          "qz": 0.0
+        }
+      }
+    }
+  ],
+  "unit_id": [
+    "/home/living/motionsensor/table/",
+    "/home/sports/brightnesssensor/pathway/",
+    "/home/bath/ambientlight/llamp3/",
+    "/home/bath/brightnesssensor/shower/",
+    "/home/control/motionsensor/testunit_1/",
+    "/home/bath/temperaturesensor/global/",
+    "/home/wardrobe/battery/hallway/",
+    "/home/sports/ambientlight/slampright2/",
+    "/home/bath/temperaturecontroller/temperaturecontroller/",
+    "/home/sports/ambientlight/llampentrance4/",
+    "/home/kitchen/motionsensor/global/",
+    "/home/living/ambientlight/llamp6/",
+    "/home/bath/brightnesssensor/global/",
+    "/home/living/brightnesssensor/table/",
+    "/home/kitchen/tamperswitch/global/",
+    "/home/bath/button/button3/",
+    "/home/living/button/button4/",
+    "/home/living/tamperswitch/control/",
+    "/home/control/battery/entrance/",
+    "/home/bath/motionsensor/sink/",
+    "/home/living/ambientlight/slampright2/",
+    "/home/sports/brightnesssensor/interaction/",
+    "/home/bath/brightnesssensor/sink/",
+    "/home/bath/ambientlight/llamp2/",
+    "/home/bath/button/button4/",
+    "/home/kitchen/ambientlight/global_0/",
+    "/home/living/temperaturesensor/media/",
+    "/home/wardrobe/temperaturesensor/entrance/",
+    "/home/control/tamperswitch/testunit_1/",
+    "/home/sports/ambientlight/slampright1/",
+    "/home/control/brightnesssensor/testunit_1/",
+    "/home/bath/battery/entrance/",
+    "/home/bath/temperaturesensor/shower/",
+    "/home/sports/temperaturecontroller/temperaturecontroller/",
+    "/home/sports/ambientlight/llampentrance3/",
+    "/home/kitchen/ambientlight/505/",
+    "/home/sports/tamperswitch/pathway/",
+    "/home/living/tamperswitch/media/",
+    "/home/living/tamperswitch/couch/",
+    "/home/living/button/button3/",
+    "/home/living/temperaturesensor/couch/",
+    "/home/living/brightnesssensor/couch/",
+    "/home/kitchen/ambientlight/global_1/",
+    "/home/bath/ambientlight/llamp1/",
+    "/home/sports/ambientlight/llampentrance2/",
+    "/home/kitchen/temperaturesensor/global/",
+    "/home/control/brightnesssensor/entrance/",
+    "/home/outdoor/brightnesssensor/entrance/",
+    "/home/bath/ambientlight/slamp1/",
+    "/home/living/motionsensor/couch/",
+    "/home/bath/brightnesssensor/entrance/",
+    "/home/wardrobe/tamperswitch/entrance/",
+    "/home/kitchen/ambientlight/global_2/",
+    "/home/wardrobe/tamperswitch/hallway/",
+    "/home/kitchen/ambientlight/503/",
+    "/home/living/ambientlight/llamp1/",
+    "/home/sports/motionsensor/interaction/",
+    "/home/bath/temperaturesensor/entrance/",
+    "/home/bath/battery/sink/",
+    "/home/bath/motionsensor/entrance/",
+    "/home/bath/battery/shower/",
+    "/home/living/ambientlight/slampleft2/",
+    "/home/sports/motionsensor/pathway/",
+    "/home/kitchen/ambientlight/global_3/",
+    "/home/bath/temperaturesensor/sink/",
+    "/home/outdoor/battery/entrance/",
+    "/home/living/ambientlight/floorlamp/",
+    "/home/control/motionsensor/entrance/",
+    "/home/bath/motionsensor/global/",
+    "/home/bath/tamperswitch/global/",
+    "/home/control/battery/testunit_1/",
+    "/home/living/ambientlight/llamp2/",
+    "/home/outdoor/temperaturesensor/entrance/",
+    "/home/control/temperaturesensor/entrance/",
+    "/home/sports/button/button1/",
+    "/home/sports/ambientlight/slampwindow2/",
+    "/home/wardrobe/motionsensor/hallway/",
+    "/home/kitchen/brightnesssensor/global/",
+    "/home/living/ambientlight/slampleft1/",
+    "/home/kitchen/battery/global/",
+    "/home/bath/ambientlight/llamp6/",
+    "/home/living/battery/table/",
+    "/home/living/motionsensor/media/",
+    "/home/outdoor/motionsensor/entrance/",
+    "/home/living/tamperswitch/table/",
+    "/home/sports/ambientlight/llampentrance7/",
+    "/home/outdoor/tamperswitch/entrance/",
+    "/home/living/ambientlight/llamp3/",
+    "/home/living/brightnesssensor/media/",
+    "/home/sports/button/button2/",
+    "/home/sports/temperaturesensor/interaction/",
+    "/home/bath/ambientlight/slamp2/",
+    "/home/sports/ambientlight/slampwindow1/",
+    "/home/living/battery/media/",
+    "/home/living/battery/control/",
+    "/home/bath/ambientlight/llamp5/",
+    "/home/sports/tamperswitch/interaction/",
+    "/home/sports/ambientlight/llampentrance6/",
+    "/home/living/battery/couch/",
+    "/home/living/temperaturecontroller/temperaturecontroller/",
+    "/home/living/ambientlight/llamp4/",
+    "/home/sports/temperaturesensor/pathway/",
+    "/home/sports/battery/interaction/",
+    "/home/wardrobe/brightnesssensor/entrance/",
+    "/home/bath/button/button1/",
+    "/home/wardrobe/motionsensor/entrance/",
+    "/home/living/temperaturesensor/table/",
+    "/home/kitchen/ambientlight/506/",
+    "/home/sports/button/button3/",
+    "/home/wardrobe/temperaturesensor/hallway/",
+    "/home/wardrobe/brightnesssensor/hallway/",
+    "/home/living/button/button2/",
+    "/home/living/brightnesssensor/control/",
+    "/home/living/temperaturesensor/control/",
+    "/home/bath/tamperswitch/sink/",
+    "/home/bath/battery/global/",
+    "/home/wardrobe/battery/entrance/",
+    "/home/bath/ambientlight/llamp4/",
+    "/home/bath/tamperswitch/entrance/",
+    "/home/sports/battery/pathway/",
+    "/home/living/ambientlight/llamp5/",
+    "/home/sports/ambientlight/llampentrance5/",
+    "/home/living/motionsensor/control/",
+    "/home/living/button/button1/",
+    "/home/bath/button/button2/",
+    "/home/kitchen/ambientlight/507/",
+    "/home/bath/motionsensor/shower/",
+    "/home/bath/tamperswitch/shower/",
+    "/home/control/temperaturesensor/testunit_1/",
+    "/home/sports/button/button4/",
+    "/home/living/ambientlight/slampright1/",
+    "/home/control/tamperswitch/entrance/"
+  ],
+  "scope": {
+    "component": [
+      "home"
+    ]
+  },
+  "position": {
+    "translation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "rotation": {
+      "qw": 1.0,
+      "qx": 0.0,
+      "qy": 0.0,
+      "qz": 0.0
+    }
+  }
+}

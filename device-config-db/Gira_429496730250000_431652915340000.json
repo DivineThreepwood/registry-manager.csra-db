@@ -1,0 +1,327 @@
+{
+  "id": "Gira_429496730250000_431652915340000",
+  "label": "PathwayButtons1",
+  "placement_config": {
+    "location_id": "Sports",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "sports",
+      "pathwaybuttons1"
+    ]
+  },
+  "serial_number": "431652915340000",
+  "inventory_state": {
+    "value": "INSTALLED",
+    "timestamp": {
+      "time": 1432734085991
+    },
+    "owner": {}
+  },
+  "device_class": {
+    "id": "Gira_429496730250000",
+    "label": "Gira_5142",
+    "product_number": "429496730250000",
+    "description": "4 knx buttons and a temperature controller by Gira.",
+    "binding_config": {
+      "type": "OPENHAB",
+      "openhab_binding_config": {
+        "openhab_config": "Gira_5142"
+      },
+      "miele_at_home_binding_config": {}
+    },
+    "company": "Gira",
+    "unit_template": [
+      {
+        "type": "BUTTON",
+        "service_type": [
+          "BUTTON_PROVIDER"
+        ]
+      },
+      {
+        "type": "BUTTON",
+        "service_type": [
+          "BUTTON_PROVIDER"
+        ]
+      },
+      {
+        "type": "BUTTON",
+        "service_type": [
+          "BUTTON_PROVIDER"
+        ]
+      },
+      {
+        "type": "BUTTON",
+        "service_type": [
+          "BUTTON_PROVIDER"
+        ]
+      },
+      {
+        "type": "TEMPERATURE_CONTROLLER",
+        "service_type": [
+          "TEMPERATURE_PROVIDER"
+        ]
+      }
+    ]
+  },
+  "unit_config": [
+    {
+      "id": "/home/sports/button/button1/",
+      "label": "Button1",
+      "device_id": "Gira_429496730250000_431652915340000",
+      "template": {
+        "type": "BUTTON",
+        "service_type": [
+          "BUTTON_PROVIDER"
+        ]
+      },
+      "placement_config": {
+        "location_id": "Sports",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "sports",
+          "button",
+          "button1"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "Gira_5142__home_sports__Button__Button1__ButtonProvider",
+              "item_hardware_config": "knx\u003d\"4/3/0\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/sports/button/button1/",
+          "type": "BUTTON_PROVIDER"
+        }
+      ]
+    },
+    {
+      "id": "/home/sports/button/button2/",
+      "label": "Button2",
+      "device_id": "Gira_429496730250000_431652915340000",
+      "template": {
+        "type": "BUTTON",
+        "service_type": [
+          "BUTTON_PROVIDER"
+        ]
+      },
+      "placement_config": {
+        "location_id": "Sports",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "sports",
+          "button",
+          "button2"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "Gira_5142__home_sports__Button__Button2__ButtonProvider",
+              "item_hardware_config": "knx\u003d\"4/3/1\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/sports/button/button2/",
+          "type": "BUTTON_PROVIDER"
+        }
+      ]
+    },
+    {
+      "id": "/home/sports/button/button3/",
+      "label": "Button3",
+      "device_id": "Gira_429496730250000_431652915340000",
+      "template": {
+        "type": "BUTTON",
+        "service_type": [
+          "BUTTON_PROVIDER"
+        ]
+      },
+      "placement_config": {
+        "location_id": "Sports",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "sports",
+          "button",
+          "button3"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "Gira_5142__home_sports__Button__Button3__ButtonProvider",
+              "item_hardware_config": "knx\u003d\"4/3/2\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/sports/button/button3/",
+          "type": "BUTTON_PROVIDER"
+        }
+      ]
+    },
+    {
+      "id": "/home/sports/button/button4/",
+      "label": "Button4",
+      "device_id": "Gira_429496730250000_431652915340000",
+      "template": {
+        "type": "BUTTON",
+        "service_type": [
+          "BUTTON_PROVIDER"
+        ]
+      },
+      "placement_config": {
+        "location_id": "Sports",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "sports",
+          "button",
+          "button4"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "Gira_5142__home_sports__Button__Button4__ButtonProvider",
+              "item_hardware_config": "knx\u003d\"4/3/3\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/sports/button/button4/",
+          "type": "BUTTON_PROVIDER"
+        }
+      ]
+    },
+    {
+      "id": "/home/sports/temperaturecontroller/temperaturecontroller/",
+      "label": "TemperatureController",
+      "device_id": "Gira_429496730250000_431652915340000",
+      "template": {
+        "type": "TEMPERATURE_CONTROLLER",
+        "service_type": [
+          "TEMPERATURE_PROVIDER"
+        ]
+      },
+      "placement_config": {
+        "location_id": "Sports",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "sports",
+          "temperaturecontroller",
+          "temperaturecontroller"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "Gira_5142__home_sports__TemperatureController__TemperatureController__TemperatureProvider"
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/sports/temperaturecontroller/temperaturecontroller/",
+          "type": "TEMPERATURE_PROVIDER"
+        }
+      ]
+    }
+  ]
+}

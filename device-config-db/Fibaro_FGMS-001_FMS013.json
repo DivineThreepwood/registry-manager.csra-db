@@ -1,0 +1,511 @@
+{
+  "id": "Fibaro_FGMS-001_FMS013",
+  "label": "Interaction",
+  "placement_config": {
+    "location_id": "Sports",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "sports",
+      "interaction"
+    ]
+  },
+  "serial_number": "FMS013",
+  "inventory_state": {
+    "value": "INSTALLED",
+    "location_config": {
+      "id": "Sports",
+      "label": "Sports",
+      "root": false,
+      "parent_id": "Home",
+      "scope": {
+        "component": [
+          "home",
+          "sports"
+        ]
+      }
+    },
+    "timestamp": {
+      "time": 1431705654726
+    },
+    "owner": {}
+  },
+  "device_class": {
+    "id": "Fibaro_FGMS-001",
+    "label": "F_MotionSensor",
+    "product_number": "FGMS-001",
+    "description": "Wireless sensor for motion, temperature, brightness and tamper with a battery by Fibaro.",
+    "binding_config": {
+      "type": "OPENHAB",
+      "openhab_binding_config": {
+        "openhab_config": "F_MotionSensor"
+      },
+      "miele_at_home_binding_config": {},
+      "floor_base_binding_config": {}
+    },
+    "company": "Fibaro",
+    "unit_template": [
+      {
+        "type": "MOTION_SENSOR",
+        "service_type": [
+          "MOTION_PROVIDER"
+        ],
+        "service_template": [
+          {
+            "service_type": "MOTION_PROVIDER",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_TYPE",
+                  "value": "zwave"
+                },
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_binary"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "BATTERY",
+        "service_type": [
+          "BATTERY_PROVIDER"
+        ],
+        "service_template": [
+          {
+            "service_type": "BATTERY_PROVIDER",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_TYPE",
+                  "value": "zwave"
+                },
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dbattery"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "TAMPER_SWITCH",
+        "service_type": [
+          "TAMPER_PROVIDER"
+        ],
+        "service_template": [
+          {
+            "service_type": "TAMPER_PROVIDER",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_TYPE",
+                  "value": "zwave"
+                },
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_alarm"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "TEMPERATURE_SENSOR",
+        "service_type": [
+          "TEMPERATURE_PROVIDER"
+        ],
+        "service_template": [
+          {
+            "service_type": "TEMPERATURE_PROVIDER",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_TYPE",
+                  "value": "zwave"
+                },
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_multilevel,sensor_type\u003d1"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "BRIGHTNESS_SENSOR",
+        "service_type": [
+          "BRIGHTNESS_PROVIDER"
+        ],
+        "service_template": [
+          {
+            "service_type": "BRIGHTNESS_PROVIDER",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_TYPE",
+                  "value": "zwave"
+                },
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_multilevel,sensor_type\u003d3"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "unit_config": [
+    {
+      "id": "/home/sports/motionsensor/interaction/",
+      "label": "Interaction",
+      "device_id": "Fibaro_FGMS-001_FMS013",
+      "template": {
+        "type": "MOTION_SENSOR",
+        "service_type": [
+          "MOTION_PROVIDER"
+        ],
+        "service_template": [
+          {
+            "service_type": "MOTION_PROVIDER",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_TYPE",
+                  "value": "zwave"
+                },
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_binary"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "placement_config": {
+        "location_id": "Sports",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "sports",
+          "motionsensor",
+          "interaction"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "F_MotionSensor__home_sports__MotionSensor__Interaction__MotionProvider",
+              "item_hardware_config": "zwave\u003d\"40:command\u003dsensor_binary\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/sports/motionsensor/interaction/",
+          "type": "MOTION_PROVIDER"
+        }
+      ]
+    },
+    {
+      "id": "/home/sports/battery/interaction/",
+      "label": "Interaction",
+      "device_id": "Fibaro_FGMS-001_FMS013",
+      "template": {
+        "type": "BATTERY",
+        "service_type": [
+          "BATTERY_PROVIDER"
+        ],
+        "service_template": [
+          {
+            "service_type": "BATTERY_PROVIDER",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_TYPE",
+                  "value": "zwave"
+                },
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dbattery"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "placement_config": {
+        "location_id": "Sports",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "sports",
+          "battery",
+          "interaction"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "F_MotionSensor__home_sports__Battery__Interaction__BatteryProvider",
+              "item_hardware_config": "zwave\u003d\"40:command\u003dbattery\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/sports/battery/interaction/",
+          "type": "BATTERY_PROVIDER"
+        }
+      ]
+    },
+    {
+      "id": "/home/sports/tamperswitch/interaction/",
+      "label": "Interaction",
+      "device_id": "Fibaro_FGMS-001_FMS013",
+      "template": {
+        "type": "TAMPER_SWITCH",
+        "service_type": [
+          "TAMPER_PROVIDER"
+        ],
+        "service_template": [
+          {
+            "service_type": "TAMPER_PROVIDER",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_TYPE",
+                  "value": "zwave"
+                },
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_alarm"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "placement_config": {
+        "location_id": "Sports",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "sports",
+          "tamperswitch",
+          "interaction"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "F_MotionSensor__home_sports__TamperSwitch__Interaction__TamperProvider",
+              "item_hardware_config": "zwave\u003d\"40:command\u003dsensor_alarm\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/sports/tamperswitch/interaction/",
+          "type": "TAMPER_PROVIDER"
+        }
+      ]
+    },
+    {
+      "id": "/home/sports/temperaturesensor/interaction/",
+      "label": "Interaction",
+      "device_id": "Fibaro_FGMS-001_FMS013",
+      "template": {
+        "type": "TEMPERATURE_SENSOR",
+        "service_type": [
+          "TEMPERATURE_PROVIDER"
+        ],
+        "service_template": [
+          {
+            "service_type": "TEMPERATURE_PROVIDER",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_TYPE",
+                  "value": "zwave"
+                },
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_multilevel,sensor_type\u003d1"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "placement_config": {
+        "location_id": "Sports",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "sports",
+          "temperaturesensor",
+          "interaction"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "F_MotionSensor__home_sports__TemperatureSensor__Interaction__TemperatureProvider",
+              "item_hardware_config": "zwave\u003d\"40:command\u003dsensor_multilevel,sensor_type\u003d1\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/sports/temperaturesensor/interaction/",
+          "type": "TEMPERATURE_PROVIDER"
+        }
+      ]
+    },
+    {
+      "id": "/home/sports/brightnesssensor/interaction/",
+      "label": "Interaction",
+      "device_id": "Fibaro_FGMS-001_FMS013",
+      "template": {
+        "type": "BRIGHTNESS_SENSOR",
+        "service_type": [
+          "BRIGHTNESS_PROVIDER"
+        ],
+        "service_template": [
+          {
+            "service_type": "BRIGHTNESS_PROVIDER",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_TYPE",
+                  "value": "zwave"
+                },
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_multilevel,sensor_type\u003d3"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "placement_config": {
+        "location_id": "Sports",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "sports",
+          "brightnesssensor",
+          "interaction"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "F_MotionSensor__home_sports__BrightnessSensor__Interaction__BrightnessProvider",
+              "item_hardware_config": "zwave\u003d\"40:command\u003dsensor_multilevel,sensor_type\u003d3\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/sports/brightnesssensor/interaction/",
+          "type": "BRIGHTNESS_PROVIDER"
+        }
+      ]
+    }
+  ]
+}

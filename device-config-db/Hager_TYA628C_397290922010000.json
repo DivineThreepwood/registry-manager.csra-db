@@ -1,0 +1,638 @@
+{
+  "id": "Hager_TYA628C_397290922010000",
+  "label": "Hager_TYA628C_397290922010000",
+  "placement_config": {
+    "location_id": "Control",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "control",
+      "hager_tya628c_397290922010000"
+    ]
+  },
+  "serial_number": "397290922010000",
+  "inventory_state": {
+    "value": "INSTALLED",
+    "location_config": {
+      "id": "Control",
+      "label": "Control",
+      "root": false,
+      "parent_id": "Home",
+      "unit_id": [
+        "/home/control/motionsensor/entrance/",
+        "/home/control/battery/entrance/",
+        "/home/control/tamperswitch/entrance/",
+        "/home/control/temperaturesensor/entrance/",
+        "/home/control/brightnesssensor/entrance/",
+        "/home/control/ambientlight/testunit_0/",
+        "/home/control/motionsensor/testunit_1/",
+        "/home/control/battery/testunit_1/",
+        "/home/control/tamperswitch/testunit_1/",
+        "/home/control/temperaturesensor/testunit_1/",
+        "/home/control/brightnesssensor/testunit_1/"
+      ],
+      "scope": {
+        "component": [
+          "home",
+          "control"
+        ]
+      }
+    },
+    "timestamp": {
+      "time": 1432892471916
+    },
+    "owner": {}
+  },
+  "device_class": {
+    "id": "Hager_TYA628C",
+    "label": "Hager_TYA628C",
+    "product_number": "TYA628C",
+    "description": "Hager rollershutter actuator with up to 8 rollershuters.",
+    "binding_config": {
+      "type": "OPENHAB",
+      "openhab_binding_config": {
+        "openhab_config": "Hager_TYA628C"
+      },
+      "miele_at_home_binding_config": {}
+    },
+    "company": "Hager",
+    "unit_template": [
+      {
+        "type": "ROLLERSHUTTER",
+        "service_type": [
+          "SHUTTER_SERVICE",
+          "OPENING_RATIO_PROVIDER"
+        ]
+      },
+      {
+        "type": "ROLLERSHUTTER",
+        "service_type": [
+          "SHUTTER_SERVICE",
+          "OPENING_RATIO_PROVIDER"
+        ]
+      },
+      {
+        "type": "ROLLERSHUTTER",
+        "service_type": [
+          "SHUTTER_SERVICE",
+          "OPENING_RATIO_PROVIDER"
+        ]
+      },
+      {
+        "type": "ROLLERSHUTTER",
+        "service_type": [
+          "SHUTTER_SERVICE",
+          "OPENING_RATIO_PROVIDER"
+        ]
+      },
+      {
+        "type": "ROLLERSHUTTER",
+        "service_type": [
+          "SHUTTER_SERVICE",
+          "OPENING_RATIO_PROVIDER"
+        ]
+      },
+      {
+        "type": "ROLLERSHUTTER",
+        "service_type": [
+          "SHUTTER_SERVICE",
+          "OPENING_RATIO_PROVIDER"
+        ]
+      },
+      {
+        "type": "ROLLERSHUTTER",
+        "service_type": [
+          "SHUTTER_SERVICE",
+          "OPENING_RATIO_PROVIDER"
+        ]
+      },
+      {
+        "type": "ROLLERSHUTTER",
+        "service_type": [
+          "SHUTTER_SERVICE",
+          "OPENING_RATIO_PROVIDER"
+        ]
+      }
+    ]
+  },
+  "unit_config": [
+    {
+      "id": "/home/sports/rollershutter/inside/",
+      "label": "Inside",
+      "device_id": "Hager_TYA628C_397290922010000",
+      "template": {
+        "type": "ROLLERSHUTTER",
+        "service_type": [
+          "SHUTTER_SERVICE",
+          "OPENING_RATIO_PROVIDER"
+        ]
+      },
+      "placement_config": {
+        "location_id": "Sports",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "sports",
+          "rollershutter",
+          "inside"
+        ]
+      },
+      "description": "The inside rollershutter of the sports room.",
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "Hager_TYA628C__home_control__Rollershutter__Inside__ShutterService",
+              "item_hardware_config": "knx\u003d\"4/2/0, 4/2/1, 4/2/2+4/2/3\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/sports/rollershutter/inside/",
+          "type": "SHUTTER_SERVICE"
+        },
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "Hager_TYA628C__home_control__Rollershutter__Inside__OpeningRatioProvider",
+              "item_hardware_config": "knx\u003d\"4/2/0, 4/2/1, 4/2/2+4/2/3\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/sports/rollershutter/inside/",
+          "type": "OPENING_RATIO_PROVIDER"
+        }
+      ]
+    },
+    {
+      "id": "/home/sports/rollershutter/outside/",
+      "label": "Outside",
+      "device_id": "Hager_TYA628C_397290922010000",
+      "template": {
+        "type": "ROLLERSHUTTER",
+        "service_type": [
+          "SHUTTER_SERVICE",
+          "OPENING_RATIO_PROVIDER"
+        ]
+      },
+      "placement_config": {
+        "location_id": "Sports",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "sports",
+          "rollershutter",
+          "outside"
+        ]
+      },
+      "description": "The outside rollershutter of the sports room.",
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "Hager_TYA628C__home_control__Rollershutter__Outside__ShutterService",
+              "item_hardware_config": "knx\u003d\"4/2/4, 4/2/5, 4/2/6+4/2/7\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/sports/rollershutter/outside/",
+          "type": "SHUTTER_SERVICE"
+        },
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "Hager_TYA628C__home_control__Rollershutter__Outside__OpeningRatioProvider",
+              "item_hardware_config": "knx\u003d\"4/2/4, 4/2/5, 4/2/6+4/2/7\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/sports/rollershutter/outside/",
+          "type": "OPENING_RATIO_PROVIDER"
+        }
+      ]
+    },
+    {
+      "id": "/home/living/rollershutter/leftinside/",
+      "label": "LeftInside",
+      "device_id": "Hager_TYA628C_397290922010000",
+      "template": {
+        "type": "ROLLERSHUTTER",
+        "service_type": [
+          "SHUTTER_SERVICE",
+          "OPENING_RATIO_PROVIDER"
+        ]
+      },
+      "placement_config": {
+        "location_id": "Living",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "living",
+          "rollershutter",
+          "leftinside"
+        ]
+      },
+      "description": "The left inside rollershutter of the living room.",
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "Hager_TYA628C__home_control__Rollershutter__LeftInside__ShutterService",
+              "item_hardware_config": "knx\u003d\"2/2/0, 2/2/1, 2/2/2+2/2/3\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/living/rollershutter/leftinside/",
+          "type": "SHUTTER_SERVICE"
+        },
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "Hager_TYA628C__home_control__Rollershutter__LeftInside__OpeningRatioProvider",
+              "item_hardware_config": "knx\u003d\"2/2/0, 2/2/1, 2/2/2+2/2/3\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/living/rollershutter/leftinside/",
+          "type": "OPENING_RATIO_PROVIDER"
+        }
+      ]
+    },
+    {
+      "id": "/home/living/rollershutter/leftoutside/",
+      "label": "LeftOutside",
+      "device_id": "Hager_TYA628C_397290922010000",
+      "template": {
+        "type": "ROLLERSHUTTER",
+        "service_type": [
+          "SHUTTER_SERVICE",
+          "OPENING_RATIO_PROVIDER"
+        ]
+      },
+      "placement_config": {
+        "location_id": "Living",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "living",
+          "rollershutter",
+          "leftoutside"
+        ]
+      },
+      "description": "The left outside rollershutter of the living room.",
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "Hager_TYA628C__home_control__Rollershutter__LeftOutside__ShutterService",
+              "item_hardware_config": "knx\u003d\"2/2/4, 2/2/5, 2/2/6+2/2/7\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/living/rollershutter/leftoutside/",
+          "type": "SHUTTER_SERVICE"
+        },
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "Hager_TYA628C__home_control__Rollershutter__LeftOutside__OpeningRatioProvider",
+              "item_hardware_config": "knx\u003d\"2/2/4, 2/2/5, 2/2/6+2/2/7\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/living/rollershutter/leftoutside/",
+          "type": "OPENING_RATIO_PROVIDER"
+        }
+      ]
+    },
+    {
+      "id": "/home/living/rollershutter/middleinside/",
+      "label": "MiddleInside",
+      "device_id": "Hager_TYA628C_397290922010000",
+      "template": {
+        "type": "ROLLERSHUTTER",
+        "service_type": [
+          "SHUTTER_SERVICE",
+          "OPENING_RATIO_PROVIDER"
+        ]
+      },
+      "placement_config": {
+        "location_id": "Living",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "living",
+          "rollershutter",
+          "middleinside"
+        ]
+      },
+      "description": "The middle inside rollershutter of the living room.",
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "Hager_TYA628C__home_control__Rollershutter__MiddleInside__ShutterService",
+              "item_hardware_config": "knx\u003d\"2/2/8, 2/2/9, 2/2/10+2/2/11\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/living/rollershutter/middleinside/",
+          "type": "SHUTTER_SERVICE"
+        },
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "Hager_TYA628C__home_control__Rollershutter__MiddleInside__OpeningRatioProvider",
+              "item_hardware_config": "knx\u003d\"2/2/8, 2/2/9, 2/2/10+2/2/11\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/living/rollershutter/middleinside/",
+          "type": "OPENING_RATIO_PROVIDER"
+        }
+      ]
+    },
+    {
+      "id": "/home/living/rollershutter/middleoutside/",
+      "label": "MiddleOutside",
+      "device_id": "Hager_TYA628C_397290922010000",
+      "template": {
+        "type": "ROLLERSHUTTER",
+        "service_type": [
+          "SHUTTER_SERVICE",
+          "OPENING_RATIO_PROVIDER"
+        ]
+      },
+      "placement_config": {
+        "location_id": "Living",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "living",
+          "rollershutter",
+          "middleoutside"
+        ]
+      },
+      "description": "The middle outisde rollertshutter of the living room.",
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "Hager_TYA628C__home_control__Rollershutter__MiddleOutside__ShutterService",
+              "item_hardware_config": "knx\u003d\"2/2/12, 2/2/13, 2/2/14+2/2/15\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/living/rollershutter/middleoutside/",
+          "type": "SHUTTER_SERVICE"
+        },
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "Hager_TYA628C__home_control__Rollershutter__MiddleOutside__OpeningRatioProvider",
+              "item_hardware_config": "knx\u003d\"2/2/12, 2/2/13, 2/2/14+2/2/15\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/living/rollershutter/middleoutside/",
+          "type": "OPENING_RATIO_PROVIDER"
+        }
+      ]
+    },
+    {
+      "id": "/home/living/rollershutter/rightinside/",
+      "label": "RightInside",
+      "device_id": "Hager_TYA628C_397290922010000",
+      "template": {
+        "type": "ROLLERSHUTTER",
+        "service_type": [
+          "SHUTTER_SERVICE",
+          "OPENING_RATIO_PROVIDER"
+        ]
+      },
+      "placement_config": {
+        "location_id": "Living",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "living",
+          "rollershutter",
+          "rightinside"
+        ]
+      },
+      "description": "The right inside rollershutter of the living room",
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "Hager_TYA628C__home_control__Rollershutter__RightInside__ShutterService",
+              "item_hardware_config": "knx\u003d\"2/2/16, 2/2/17, 2/2/18+2/2/19\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/living/rollershutter/rightinside/",
+          "type": "SHUTTER_SERVICE"
+        },
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "Hager_TYA628C__home_control__Rollershutter__RightInside__OpeningRatioProvider",
+              "item_hardware_config": "knx\u003d\"2/2/16, 2/2/17, 2/2/18+2/2/19\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/living/rollershutter/rightinside/",
+          "type": "OPENING_RATIO_PROVIDER"
+        }
+      ]
+    },
+    {
+      "id": "/home/living/rollershutter/rightoutside/",
+      "label": "RightOutside",
+      "device_id": "Hager_TYA628C_397290922010000",
+      "template": {
+        "type": "ROLLERSHUTTER",
+        "service_type": [
+          "SHUTTER_SERVICE",
+          "OPENING_RATIO_PROVIDER"
+        ]
+      },
+      "placement_config": {
+        "location_id": "Living",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "living",
+          "rollershutter",
+          "rightoutside"
+        ]
+      },
+      "description": "The right outside rollershutter of the living room.",
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "Hager_TYA628C__home_control__Rollershutter__RightOutside__ShutterService",
+              "item_hardware_config": "knx\u003d\"2/2/20, 2/2/21, 2/2/22+2/2/23\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/living/rollershutter/rightoutside/",
+          "type": "SHUTTER_SERVICE"
+        },
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "openhab_binding_service_config": {
+              "item_id": "Hager_TYA628C__home_control__Rollershutter__RightOutside__OpeningRatioProvider",
+              "item_hardware_config": "knx\u003d\"2/2/20, 2/2/21, 2/2/22+2/2/23\""
+            },
+            "miele_at_home_binding_service_config": {}
+          },
+          "unit_id": "/home/living/rollershutter/rightoutside/",
+          "type": "OPENING_RATIO_PROVIDER"
+        }
+      ]
+    }
+  ]
+}

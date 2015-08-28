@@ -1,0 +1,51 @@
+{
+  "id": "ASUS_90IW0122-B01UA_E3IWBDA34180",
+  "label": "asus_cam2",
+  "placement_config": {
+    "location_id": "Living",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "asus_cam2"
+    ]
+  },
+  "serial_number": "E3IWBDA34180",
+  "inventory_state": {
+    "value": "BORROWED",
+    "timestamp": {
+      "time": 1437665647239
+    },
+    "owner": {
+      "first_name": "Kai",
+      "last_name": "Konen",
+      "user_name": "kkonen"
+    }
+  },
+  "device_class": {
+    "id": "ASUS_90IW0122-B01UA",
+    "label": "Xtion Pro Live",
+    "product_number": "90IW0122-B01UA",
+    "description": "USB 2.0 3D/RGB Sensor",
+    "binding_config": {
+      "openhab_binding_config": {},
+      "miele_at_home_binding_config": {}
+    },
+    "company": "ASUS"
+  },
+  "meta_config": {}
+}
