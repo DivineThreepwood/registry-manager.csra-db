@@ -74,6 +74,10 @@
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
                   "value": "Gira_5142__home_living__TemperatureController__Control__TemperatureProvider"
+                },
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "2/4/4"
                 }
               ]
             }
@@ -90,6 +94,10 @@
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
                   "value": "Gira_5142__home_living__TemperatureController__Control__Unknown"
+                },
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "2/4/0"
                 }
               ]
             }
