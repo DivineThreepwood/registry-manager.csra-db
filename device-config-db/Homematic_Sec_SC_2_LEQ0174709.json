@@ -1,0 +1,140 @@
+{
+  "id": "Homematic_Sec_SC_2_LEQ0174709",
+  "label": "SportsToControlReedSwitch",
+  "placement_config": {
+    "location_id": "Sports",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "sports",
+      "sportstocontrolreedswitch"
+    ]
+  },
+  "serial_number": "LEQ0174709",
+  "inventory_state": {
+    "value": "INSTALLED",
+    "location_id": "Sports",
+    "timestamp": {
+      "time": 1441014159577
+    },
+    "owner": {}
+  },
+  "device_class_id": "Homematic_Sec_SC_2",
+  "unit_config": [
+    {
+      "id": "/home/sports/battery/sportstocontrolreedswitch/",
+      "label": "SportsToControlReedSwitch",
+      "device_id": "Homematic_Sec_SC_2_LEQ0174709",
+      "type": "BATTERY",
+      "placement_config": {
+        "location_id": "Sports",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "sports",
+          "battery",
+          "sportstocontrolreedswitch"
+        ]
+      },
+      "bound_to_device": true,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Homematic_HM_Sec_SC_2__home_sports__Battery__SportsToControlReedSwitch__BatteryProvider"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/sports/battery/sportstocontrolreedswitch/",
+          "type": "BATTERY_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/sports/reedswitch/sportstocontrolreedswitch/",
+      "label": "SportsToControlReedSwitch",
+      "device_id": "Homematic_Sec_SC_2_LEQ0174709",
+      "type": "REED_SWITCH",
+      "placement_config": {
+        "location_id": "Sports",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "sports",
+          "reedswitch",
+          "sportstocontrolreedswitch"
+        ]
+      },
+      "bound_to_device": true,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Homematic_HM_Sec_SC_2__home_sports__ReedSwitch__SportsToControlReedSwitch__ReedSwitchProvider"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/sports/reedswitch/sportstocontrolreedswitch/",
+          "type": "REED_SWITCH_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {}
+}

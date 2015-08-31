@@ -1,0 +1,140 @@
+{
+  "id": "Homematic_Sec_SC_2_LEQ0174341",
+  "label": "DoorReedSwitch",
+  "placement_config": {
+    "location_id": "Bath",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "bath",
+      "doorreedswitch"
+    ]
+  },
+  "serial_number": "LEQ0174341",
+  "inventory_state": {
+    "value": "INSTALLED",
+    "location_id": "Bath",
+    "timestamp": {
+      "time": 1441013960569
+    },
+    "owner": {}
+  },
+  "device_class_id": "Homematic_Sec_SC_2",
+  "unit_config": [
+    {
+      "id": "/home/bath/battery/doorreedswitch/",
+      "label": "DoorReedSwitch",
+      "device_id": "Homematic_Sec_SC_2_LEQ0174341",
+      "type": "BATTERY",
+      "placement_config": {
+        "location_id": "Bath",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "bath",
+          "battery",
+          "doorreedswitch"
+        ]
+      },
+      "bound_to_device": true,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Homematic_HM_Sec_SC_2__home_bath__Battery__DoorReedSwitch__BatteryProvider"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/bath/battery/doorreedswitch/",
+          "type": "BATTERY_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/bath/reedswitch/doorreedswitch/",
+      "label": "DoorReedSwitch",
+      "device_id": "Homematic_Sec_SC_2_LEQ0174341",
+      "type": "REED_SWITCH",
+      "placement_config": {
+        "location_id": "Bath",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "bath",
+          "reedswitch",
+          "doorreedswitch"
+        ]
+      },
+      "bound_to_device": true,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Homematic_HM_Sec_SC_2__home_bath__ReedSwitch__DoorReedSwitch__ReedSwitchProvider"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/bath/reedswitch/doorreedswitch/",
+          "type": "REED_SWITCH_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {}
+}

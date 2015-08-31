@@ -1,0 +1,129 @@
+{
+  "id": "Philips_KV01-18Y_D61613",
+  "label": "Global_3",
+  "placement_config": {
+    "location_id": "Kitchen",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "kitchen",
+      "global_3"
+    ]
+  },
+  "serial_number": "D61613",
+  "inventory_state": {
+    "value": "INSTALLED",
+    "location_id": "Kitchen",
+    "timestamp": {
+      "time": 1441017275627
+    },
+    "owner": {}
+  },
+  "device_class_id": "Philips_KV01-18Y",
+  "unit_config": [
+    {
+      "id": "/home/kitchen/ambientlight/global_3/",
+      "label": "Global_3",
+      "device_id": "Philips_KV01-18Y_D61613",
+      "type": "AMBIENT_LIGHT",
+      "placement_config": {
+        "location_id": "Kitchen",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "kitchen",
+          "ambientlight",
+          "global_3"
+        ]
+      },
+      "bound_to_device": true,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Philips_Hue_GU10__home_kitchen__AmbientLight__Global_3__BrightnessService"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/kitchen/ambientlight/global_3/",
+          "type": "BRIGHTNESS_SERVICE",
+          "meta_config": {}
+        },
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Philips_Hue_GU10__home_kitchen__AmbientLight__Global_3__ColorService"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/kitchen/ambientlight/global_3/",
+          "type": "COLOR_SERVICE",
+          "meta_config": {}
+        },
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Philips_Hue_GU10__home_kitchen__AmbientLight__Global_3__PowerService"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/kitchen/ambientlight/global_3/",
+          "type": "POWER_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "14"
+      }
+    ]
+  }
+}

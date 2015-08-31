@@ -1,0 +1,676 @@
+{
+  "id": "Hager_TYA606E_397293269670000",
+  "label": "PowerActuator6",
+  "placement_config": {
+    "location_id": "Control",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "control",
+      "poweractuator6"
+    ]
+  },
+  "serial_number": "397293269670000",
+  "inventory_state": {
+    "value": "INSTALLED",
+    "location_id": "Control",
+    "timestamp": {
+      "time": 1441008983465
+    },
+    "owner": {}
+  },
+  "device_class_id": "Hager_TYA606E",
+  "unit_config": [
+    {
+      "id": "/home/control/powerplug/a6c1/",
+      "label": "A6C1",
+      "device_id": "Hager_TYA606E_397293269670000",
+      "type": "POWER_PLUG",
+      "placement_config": {
+        "location_id": "Control",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "control",
+          "powerplug",
+          "a6c1"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/61+5/1/67"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA606E__home_control__PowerPlug__A6C1__PowerService"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/control/powerplug/a6c1/",
+          "type": "POWER_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/control/powerconsumptionsensor/a6c1comsumption/",
+      "label": "A6C1Comsumption",
+      "device_id": "Hager_TYA606E_397293269670000",
+      "type": "POWER_CONSUMPTION_SENSOR",
+      "placement_config": {
+        "location_id": "Control",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "control",
+          "powerconsumptionsensor",
+          "a6c1comsumption"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/163"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA606E__home_control__PowerConsumptionSensor__A6C1Comsumption__PowerConsumptionProvider"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/control/powerconsumptionsensor/a6c1comsumption/",
+          "type": "POWER_CONSUMPTION_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/control/powerplug/a6c2/",
+      "label": "A6C2",
+      "device_id": "Hager_TYA606E_397293269670000",
+      "type": "POWER_PLUG",
+      "placement_config": {
+        "location_id": "Control",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "control",
+          "powerplug",
+          "a6c2"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/62+5/1/68"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA606E__home_control__PowerPlug__A6C2__PowerService"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/control/powerplug/a6c2/",
+          "type": "POWER_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/control/powerconsumptionsensor/a6c2comsumption/",
+      "label": "A6C2Comsumption",
+      "device_id": "Hager_TYA606E_397293269670000",
+      "type": "POWER_CONSUMPTION_SENSOR",
+      "placement_config": {
+        "location_id": "Control",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "control",
+          "powerconsumptionsensor",
+          "a6c2comsumption"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/164"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA606E__home_control__PowerConsumptionSensor__A6C2Comsumption__PowerConsumptionProvider"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/control/powerconsumptionsensor/a6c2comsumption/",
+          "type": "POWER_CONSUMPTION_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/control/powerplug/a6c3/",
+      "label": "A6C3",
+      "device_id": "Hager_TYA606E_397293269670000",
+      "type": "POWER_PLUG",
+      "placement_config": {
+        "location_id": "Control",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "control",
+          "powerplug",
+          "a6c3"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/63+5/1/69"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA606E__home_control__PowerPlug__A6C3__PowerService"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/control/powerplug/a6c3/",
+          "type": "POWER_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/control/powerconsumptionsensor/a6c3comsumption/",
+      "label": "A6C3Comsumption",
+      "device_id": "Hager_TYA606E_397293269670000",
+      "type": "POWER_CONSUMPTION_SENSOR",
+      "placement_config": {
+        "location_id": "Control",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "control",
+          "powerconsumptionsensor",
+          "a6c3comsumption"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/165"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA606E__home_control__PowerConsumptionSensor__A6C3Comsumption__PowerConsumptionProvider"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/control/powerconsumptionsensor/a6c3comsumption/",
+          "type": "POWER_CONSUMPTION_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/control/powerplug/a6c4/",
+      "label": "A6C4",
+      "device_id": "Hager_TYA606E_397293269670000",
+      "type": "POWER_PLUG",
+      "placement_config": {
+        "location_id": "Control",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "control",
+          "powerplug",
+          "a6c4"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/64+5/1/70"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA606E__home_control__PowerPlug__A6C4__PowerService"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/control/powerplug/a6c4/",
+          "type": "POWER_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/control/powerconsumptionsensor/a6c4comsumption/",
+      "label": "A6C4Comsumption",
+      "device_id": "Hager_TYA606E_397293269670000",
+      "type": "POWER_CONSUMPTION_SENSOR",
+      "placement_config": {
+        "location_id": "Control",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "control",
+          "powerconsumptionsensor",
+          "a6c4comsumption"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/166"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA606E__home_control__PowerConsumptionSensor__A6C4Comsumption__PowerConsumptionProvider"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/control/powerconsumptionsensor/a6c4comsumption/",
+          "type": "POWER_CONSUMPTION_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/control/powerplug/a6c5/",
+      "label": "A6C5",
+      "device_id": "Hager_TYA606E_397293269670000",
+      "type": "POWER_PLUG",
+      "placement_config": {
+        "location_id": "Control",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "control",
+          "powerplug",
+          "a6c5"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/65+5/1/71"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA606E__home_control__PowerPlug__A6C5__PowerService"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/control/powerplug/a6c5/",
+          "type": "POWER_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/control/powerconsumptionsensor/a6c5comsumption/",
+      "label": "A6C5Comsumption",
+      "device_id": "Hager_TYA606E_397293269670000",
+      "type": "POWER_CONSUMPTION_SENSOR",
+      "placement_config": {
+        "location_id": "Control",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "control",
+          "powerconsumptionsensor",
+          "a6c5comsumption"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/167"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA606E__home_control__PowerConsumptionSensor__A6C5Comsumption__PowerConsumptionProvider"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/control/powerconsumptionsensor/a6c5comsumption/",
+          "type": "POWER_CONSUMPTION_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/control/powerplug/a6c6/",
+      "label": "A6C6",
+      "device_id": "Hager_TYA606E_397293269670000",
+      "type": "POWER_PLUG",
+      "placement_config": {
+        "location_id": "Control",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "control",
+          "powerplug",
+          "a6c6"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/66+5/1/72"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA606E__home_control__PowerPlug__A6C6__PowerService"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/control/powerplug/a6c6/",
+          "type": "POWER_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/control/powerconsumptionsensor/a6c6comsumption/",
+      "label": "A6C6Comsumption",
+      "device_id": "Hager_TYA606E_397293269670000",
+      "type": "POWER_CONSUMPTION_SENSOR",
+      "placement_config": {
+        "location_id": "Control",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "control",
+          "powerconsumptionsensor",
+          "a6c6comsumption"
+        ]
+      },
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/168"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA606E__home_control__PowerConsumptionSensor__A6C6Comsumption__PowerConsumptionProvider"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/control/powerconsumptionsensor/a6c6comsumption/",
+          "type": "POWER_CONSUMPTION_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {}
+}

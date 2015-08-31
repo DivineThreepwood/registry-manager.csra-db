@@ -1,0 +1,129 @@
+{
+  "id": "Philips_KV01-18U_66FAC8",
+  "label": "LLampEntrance4",
+  "placement_config": {
+    "location_id": "Sports",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "sports",
+      "llampentrance4"
+    ]
+  },
+  "serial_number": "66FAC8",
+  "inventory_state": {
+    "value": "INSTALLED",
+    "location_id": "Sports",
+    "timestamp": {
+      "time": 1441014955951
+    },
+    "owner": {}
+  },
+  "device_class_id": "Philips_KV01-18U",
+  "unit_config": [
+    {
+      "id": "/home/sports/ambientlight/llampentrance4/",
+      "label": "LLampEntrance4",
+      "device_id": "Philips_KV01-18U_66FAC8",
+      "type": "AMBIENT_LIGHT",
+      "placement_config": {
+        "location_id": "Sports",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "sports",
+          "ambientlight",
+          "llampentrance4"
+        ]
+      },
+      "bound_to_device": true,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Philps_Hue_E27__home_sports__AmbientLight__LLampEntrance4__BrightnessService"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/sports/ambientlight/llampentrance4/",
+          "type": "BRIGHTNESS_SERVICE",
+          "meta_config": {}
+        },
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Philps_Hue_E27__home_sports__AmbientLight__LLampEntrance4__ColorService"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/sports/ambientlight/llampentrance4/",
+          "type": "COLOR_SERVICE",
+          "meta_config": {}
+        },
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Philps_Hue_E27__home_sports__AmbientLight__LLampEntrance4__PowerService"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/sports/ambientlight/llampentrance4/",
+          "type": "POWER_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "32"
+      }
+    ]
+  }
+}

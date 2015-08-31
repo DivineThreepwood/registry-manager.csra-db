@@ -1,0 +1,129 @@
+{
+  "id": "Philips_KV01-18U_DF9598",
+  "label": "MediaHue",
+  "placement_config": {
+    "location_id": "Living",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "mediahue"
+    ]
+  },
+  "serial_number": "DF9598",
+  "inventory_state": {
+    "value": "INSTALLED",
+    "location_id": "Living",
+    "timestamp": {
+      "time": 1441016284790
+    },
+    "owner": {}
+  },
+  "device_class_id": "Philips_KV01-18U",
+  "unit_config": [
+    {
+      "id": "/home/living/ambientlight/mediahue/",
+      "label": "MediaHue",
+      "device_id": "Philips_KV01-18U_DF9598",
+      "type": "AMBIENT_LIGHT",
+      "placement_config": {
+        "location_id": "Living",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "living",
+          "ambientlight",
+          "mediahue"
+        ]
+      },
+      "bound_to_device": true,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Philps_Hue_E27__home_living__AmbientLight__MediaHue__BrightnessService"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/living/ambientlight/mediahue/",
+          "type": "BRIGHTNESS_SERVICE",
+          "meta_config": {}
+        },
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Philps_Hue_E27__home_living__AmbientLight__MediaHue__ColorService"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/living/ambientlight/mediahue/",
+          "type": "COLOR_SERVICE",
+          "meta_config": {}
+        },
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Philps_Hue_E27__home_living__AmbientLight__MediaHue__PowerService"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/living/ambientlight/mediahue/",
+          "type": "POWER_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "6"
+      }
+    ]
+  }
+}

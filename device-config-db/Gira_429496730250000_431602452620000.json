@@ -64,6 +64,7 @@
           "control"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -129,6 +130,7 @@
           "button1"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -182,6 +184,7 @@
           "button2"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -235,6 +238,7 @@
           "button3"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -288,6 +292,7 @@
           "button4"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {

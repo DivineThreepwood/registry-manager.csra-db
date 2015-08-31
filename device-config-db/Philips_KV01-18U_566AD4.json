@@ -1,0 +1,129 @@
+{
+  "id": "Philips_KV01-18U_566AD4",
+  "label": "LLamp5",
+  "placement_config": {
+    "location_id": "Living",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "llamp5"
+    ]
+  },
+  "serial_number": "566AD4",
+  "inventory_state": {
+    "value": "INSTALLED",
+    "location_id": "Living",
+    "timestamp": {
+      "time": 1441014752527
+    },
+    "owner": {}
+  },
+  "device_class_id": "Philips_KV01-18U",
+  "unit_config": [
+    {
+      "id": "/home/living/ambientlight/llamp5/",
+      "label": "LLamp5",
+      "device_id": "Philips_KV01-18U_566AD4",
+      "type": "AMBIENT_LIGHT",
+      "placement_config": {
+        "location_id": "Living",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "living",
+          "ambientlight",
+          "llamp5"
+        ]
+      },
+      "bound_to_device": true,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Philps_Hue_E27__home_living__AmbientLight__LLamp5__BrightnessService"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/living/ambientlight/llamp5/",
+          "type": "BRIGHTNESS_SERVICE",
+          "meta_config": {}
+        },
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Philps_Hue_E27__home_living__AmbientLight__LLamp5__ColorService"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/living/ambientlight/llamp5/",
+          "type": "COLOR_SERVICE",
+          "meta_config": {}
+        },
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Philps_Hue_E27__home_living__AmbientLight__LLamp5__PowerService"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/living/ambientlight/llamp5/",
+          "type": "POWER_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "45"
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "Samsung_SM-P9000ZWADBT_RF2F90V641R",
+  "label": "ControlTablet1",
+  "placement_config": {
+    "location_id": "Home",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "controltablet1"
+    ]
+  },
+  "serial_number": "RF2F90V641R",
+  "inventory_state": {
+    "value": "IN_STOCK",
+    "timestamp": {
+      "time": 1441017363523
+    },
+    "owner": {}
+  },
+  "device_class_id": "Samsung_SM-P9000ZWADBT",
+  "meta_config": {}
+}

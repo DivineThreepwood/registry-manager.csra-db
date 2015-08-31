@@ -1,0 +1,140 @@
+{
+  "id": "Homematic_Sec_SC_2_LEQ0174339",
+  "label": "DoorOpen",
+  "placement_config": {
+    "location_id": "Kitchen",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "kitchen",
+      "dooropen"
+    ]
+  },
+  "serial_number": "LEQ0174339",
+  "inventory_state": {
+    "value": "INSTALLED",
+    "location_id": "Kitchen",
+    "timestamp": {
+      "time": 1441013918017
+    },
+    "owner": {}
+  },
+  "device_class_id": "Homematic_Sec_SC_2",
+  "unit_config": [
+    {
+      "id": "/home/kitchen/battery/dooropen/",
+      "label": "DoorOpen",
+      "device_id": "Homematic_Sec_SC_2_LEQ0174339",
+      "type": "BATTERY",
+      "placement_config": {
+        "location_id": "Kitchen",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "kitchen",
+          "battery",
+          "dooropen"
+        ]
+      },
+      "bound_to_device": true,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Homematic_HM_Sec_SC_2__home_kitchen__Battery__DoorOpen__BatteryProvider"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/kitchen/battery/dooropen/",
+          "type": "BATTERY_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/kitchen/reedswitch/dooropen/",
+      "label": "DoorOpen",
+      "device_id": "Homematic_Sec_SC_2_LEQ0174339",
+      "type": "REED_SWITCH",
+      "placement_config": {
+        "location_id": "Kitchen",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "kitchen",
+          "reedswitch",
+          "dooropen"
+        ]
+      },
+      "bound_to_device": true,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Homematic_HM_Sec_SC_2__home_kitchen__ReedSwitch__DoorOpen__ReedSwitchProvider"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/kitchen/reedswitch/dooropen/",
+          "type": "REED_SWITCH_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {}
+}

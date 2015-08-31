@@ -1,0 +1,265 @@
+{
+  "id": "Hager_TYA663A_397289630070000",
+  "label": "DimmActuator3",
+  "placement_config": {
+    "location_id": "Control",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "control",
+      "dimmactuator3"
+    ]
+  },
+  "serial_number": "397289630070000",
+  "inventory_state": {
+    "value": "INSTALLED",
+    "location_id": "Control",
+    "timestamp": {
+      "time": 1441012440251
+    },
+    "owner": {}
+  },
+  "device_class_id": "Hager_TYA663A",
+  "unit_config": [
+    {
+      "id": "/home/wardrobe/dimmer/entrancedimmer/",
+      "label": "EntranceDimmer",
+      "device_id": "Hager_TYA663A_397289630070000",
+      "type": "DIMMER",
+      "placement_config": {
+        "location_id": "Wardrobe",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "wardrobe",
+          "dimmer",
+          "entrancedimmer"
+        ]
+      },
+      "bound_to_device": false,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA663A__home_control__Dimmer__EntranceDimmer__DimService"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/wardrobe/dimmer/entrancedimmer/",
+          "type": "DIM_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_BINDING_CONFIG",
+                "value": "1/0/5+1/0/12"
+              }
+            ]
+          }
+        },
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "1/0/1+1/0/11"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA663A__home_control__Dimmer__EntranceDimmer__PowerService"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/wardrobe/dimmer/entrancedimmer/",
+          "type": "POWER_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/wardrobe/dimmer/pathwaydimmer/",
+      "label": "PathwayDimmer",
+      "device_id": "Hager_TYA663A_397289630070000",
+      "type": "DIMMER",
+      "placement_config": {
+        "location_id": "Wardrobe",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "wardrobe",
+          "dimmer",
+          "pathwaydimmer"
+        ]
+      },
+      "bound_to_device": false,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "1/0/6+1/0/14"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA663A__home_control__Dimmer__PathwayDimmer__DimService"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/wardrobe/dimmer/pathwaydimmer/",
+          "type": "DIM_SERVICE",
+          "meta_config": {}
+        },
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "1/0/2+1/0/13"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA663A__home_control__Dimmer__PathwayDimmer__PowerService"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/wardrobe/dimmer/pathwaydimmer/",
+          "type": "POWER_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/bath/dimmer/dimmer/",
+      "label": "Dimmer",
+      "device_id": "Hager_TYA663A_397289630070000",
+      "type": "DIMMER",
+      "placement_config": {
+        "location_id": "Bath",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "bath",
+          "dimmer",
+          "dimmer"
+        ]
+      },
+      "bound_to_device": false,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "3/0/1+3/0/4"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA663A__home_control__Dimmer__Dimmer__DimService"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/bath/dimmer/dimmer/",
+          "type": "DIM_SERVICE",
+          "meta_config": {}
+        },
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "3/0/0+3/0/3"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA663A__home_control__Dimmer__Dimmer__PowerService"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/bath/dimmer/dimmer/",
+          "type": "POWER_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {}
+}

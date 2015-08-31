@@ -64,6 +64,7 @@
           "sportsdoorbutton1"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -117,6 +118,7 @@
           "sportsdoorbutton2"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -170,6 +172,7 @@
           "sportsdoorbutton3"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -223,6 +226,7 @@
           "sportsdoorbutton4"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -276,6 +280,7 @@
           "sportsdoorbutton5"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -329,6 +334,7 @@
           "sportsdoorbutton6"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {

@@ -1,0 +1,100 @@
+{
+  "id": "SimonProduction_HandleRev1_Handle503",
+  "label": "503",
+  "placement_config": {
+    "location_id": "Kitchen",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "kitchen",
+      "503"
+    ]
+  },
+  "serial_number": "Handle503",
+  "inventory_state": {
+    "value": "INSTALLED",
+    "timestamp": {
+      "time": 1441020159228
+    },
+    "owner": {}
+  },
+  "device_class_id": "SimonProduction_HandleRev1",
+  "unit_config": [
+    {
+      "id": "/home/kitchen/ambientlight/503/",
+      "label": "503",
+      "device_id": "SimonProduction_HandleRev1_Handle503",
+      "type": "AMBIENT_LIGHT",
+      "placement_config": {
+        "location_id": "Kitchen",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "kitchen",
+          "ambientlight",
+          "503"
+        ]
+      },
+      "bound_to_device": true,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "HANDLES",
+            "meta_config": {}
+          },
+          "unit_id": "/home/kitchen/ambientlight/503/",
+          "type": "BRIGHTNESS_SERVICE",
+          "meta_config": {}
+        },
+        {
+          "binding_service_config": {
+            "type": "HANDLES",
+            "meta_config": {}
+          },
+          "unit_id": "/home/kitchen/ambientlight/503/",
+          "type": "COLOR_SERVICE",
+          "meta_config": {}
+        },
+        {
+          "binding_service_config": {
+            "type": "HANDLES",
+            "meta_config": {}
+          },
+          "unit_id": "/home/kitchen/ambientlight/503/",
+          "type": "POWER_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {}
+}

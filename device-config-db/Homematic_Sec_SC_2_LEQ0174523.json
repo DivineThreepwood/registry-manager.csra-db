@@ -1,0 +1,140 @@
+{
+  "id": "Homematic_Sec_SC_2_LEQ0174523",
+  "label": "DoorClosed",
+  "placement_config": {
+    "location_id": "Kitchen",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "kitchen",
+      "doorclosed"
+    ]
+  },
+  "serial_number": "LEQ0174523",
+  "inventory_state": {
+    "value": "INSTALLED",
+    "location_id": "Kitchen",
+    "timestamp": {
+      "time": 1441014086145
+    },
+    "owner": {}
+  },
+  "device_class_id": "Homematic_Sec_SC_2",
+  "unit_config": [
+    {
+      "id": "/home/kitchen/battery/doorclosed/",
+      "label": "DoorClosed",
+      "device_id": "Homematic_Sec_SC_2_LEQ0174523",
+      "type": "BATTERY",
+      "placement_config": {
+        "location_id": "Kitchen",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "kitchen",
+          "battery",
+          "doorclosed"
+        ]
+      },
+      "bound_to_device": true,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Homematic_HM_Sec_SC_2__home_kitchen__Battery__DoorClosed__BatteryProvider"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/kitchen/battery/doorclosed/",
+          "type": "BATTERY_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/kitchen/reedswitch/doorclosed/",
+      "label": "DoorClosed",
+      "device_id": "Homematic_Sec_SC_2_LEQ0174523",
+      "type": "REED_SWITCH",
+      "placement_config": {
+        "location_id": "Kitchen",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "kitchen",
+          "reedswitch",
+          "doorclosed"
+        ]
+      },
+      "bound_to_device": true,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Homematic_HM_Sec_SC_2__home_kitchen__ReedSwitch__DoorClosed__ReedSwitchProvider"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/kitchen/reedswitch/doorclosed/",
+          "type": "REED_SWITCH_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {}
+}

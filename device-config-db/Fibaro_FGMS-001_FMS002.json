@@ -64,6 +64,7 @@
           "control"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -113,6 +114,7 @@
           "control"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -162,6 +164,7 @@
           "control"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -211,6 +214,7 @@
           "control"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -260,6 +264,7 @@
           "control"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {

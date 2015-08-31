@@ -1,0 +1,140 @@
+{
+  "id": "Homematic_Sec_SC_2_LEQ0173727",
+  "label": "EntranceDoorReedSwitch",
+  "placement_config": {
+    "location_id": "Wardrobe",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "wardrobe",
+      "entrancedoorreedswitch"
+    ]
+  },
+  "serial_number": "LEQ0173727",
+  "inventory_state": {
+    "value": "INSTALLED",
+    "location_id": "Wardrobe",
+    "timestamp": {
+      "time": 1441013828977
+    },
+    "owner": {}
+  },
+  "device_class_id": "Homematic_Sec_SC_2",
+  "unit_config": [
+    {
+      "id": "/home/wardrobe/battery/entrancedoorreedswitch/",
+      "label": "EntranceDoorReedSwitch",
+      "device_id": "Homematic_Sec_SC_2_LEQ0173727",
+      "type": "BATTERY",
+      "placement_config": {
+        "location_id": "Wardrobe",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "wardrobe",
+          "battery",
+          "entrancedoorreedswitch"
+        ]
+      },
+      "bound_to_device": true,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Homematic_HM_Sec_SC_2__home_wardrobe__Battery__EntranceDoorReedSwitch__BatteryProvider"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/wardrobe/battery/entrancedoorreedswitch/",
+          "type": "BATTERY_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/wardrobe/reedswitch/entrancedoorreedswitch/",
+      "label": "EntranceDoorReedSwitch",
+      "device_id": "Homematic_Sec_SC_2_LEQ0173727",
+      "type": "REED_SWITCH",
+      "placement_config": {
+        "location_id": "Wardrobe",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "wardrobe",
+          "reedswitch",
+          "entrancedoorreedswitch"
+        ]
+      },
+      "bound_to_device": true,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Homematic_HM_Sec_SC_2__home_wardrobe__ReedSwitch__EntranceDoorReedSwitch__ReedSwitchProvider"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/wardrobe/reedswitch/entrancedoorreedswitch/",
+          "type": "REED_SWITCH_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {}
+}
