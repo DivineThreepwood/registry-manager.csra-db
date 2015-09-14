@@ -1,0 +1,39 @@
+{
+  "id": "ASUS_90IW0122-B01UA_E3IWBDA33550",
+  "label": "ASUS_90IW0122-B01UA_E3IWBDA33550",
+  "placement_config": {
+    "location_id": "Sports",
+    "position": {
+      "translation": {
+        "x": 2.53,
+        "y": 1.39,
+        "z": 2.78
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "sports",
+      "asus_90iw0122-b01ua_e3iwbda33550"
+    ]
+  },
+  "serial_number": "E3IWBDA33550",
+  "description": "NUC:PC_ATL",
+  "inventory_state": {
+    "value": "INSTALLED",
+    "location_id": "Sports",
+    "timestamp": {
+      "time": 1441983806915
+    },
+    "owner": {}
+  },
+  "device_class_id": "ASUS_90IW0122-B01UA",
+  "meta_config": {}
+}

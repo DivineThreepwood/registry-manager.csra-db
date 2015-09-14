@@ -3,6 +3,13 @@
   "label": "Living",
   "root": false,
   "parent_id": "Home",
+  "child_id": [
+    "Hometheater",
+    "Lounge",
+    "Living_bottom_tank_surface_",
+    "Living_cable_trench_window_",
+    "Living_cable_trench_beamer_"
+  ],
   "unit_id": [
     "/home/living/motionsensor/table/",
     "/home/living/button/controlbelowbutton6/",
@@ -20,7 +27,6 @@
     "/home/living/ambientlight/llamp6/",
     "/home/living/brightnesssensor/table/",
     "/home/living/ambientlight/llamp2/",
-    "/home/living/button/button4/",
     "/home/living/tamperswitch/control/",
     "/home/living/rollershutter/leftoutside/",
     "/home/living/ambientlight/slampright2/",
@@ -41,7 +47,6 @@
     "/home/living/tamperswitch/media/",
     "/home/living/battery/leftwindowreedswitch/",
     "/home/living/tamperswitch/couch/",
-    "/home/living/button/button3/",
     "/home/living/temperaturesensor/couch/",
     "/home/living/brightnesssensor/couch/",
     "/home/living/reedswitch/rightwindowreedswitch/",
@@ -55,7 +60,6 @@
     "/home/living/battery/couch/",
     "/home/living/ambientlight/llamp4/",
     "/home/living/temperaturesensor/table/",
-    "/home/living/button/button2/",
     "/home/living/brightnesssensor/control/",
     "/home/living/motionsensor/couch/",
     "/home/living/temperaturesensor/control/",
@@ -69,9 +73,7 @@
     "/home/living/ambientlight/llamp5/",
     "/home/living/motionsensor/control/",
     "/home/living/ambientlight/llamp1/",
-    "/home/living/button/button1/",
     "/home/living/rollershutter/middleoutside/",
-    "/home/living/temperaturecontroller/control/",
     "/home/living/ambientlight/slampright1/"
   ],
   "scope": {

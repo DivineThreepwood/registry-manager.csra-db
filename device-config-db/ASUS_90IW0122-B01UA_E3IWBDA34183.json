@@ -1,13 +1,13 @@
 {
   "id": "ASUS_90IW0122-B01UA_E3IWBDA34183",
-  "label": "asus_cam1",
+  "label": "ASUS_90IW0122-B01UA_E3IWBDA34183",
   "placement_config": {
     "location_id": "Living",
     "position": {
       "translation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
+        "x": 1.26,
+        "y": 3.15,
+        "z": 2.83
       },
       "rotation": {
         "qw": 5.657130561438501E-17,
@@ -21,14 +21,16 @@
     "component": [
       "home",
       "living",
-      "asus_cam1"
+      "asus_90iw0122-b01ua_e3iwbda34183"
     ]
   },
   "serial_number": "E3IWBDA34183",
+  "description": "NUC:PC_BFE",
   "inventory_state": {
     "value": "INSTALLED",
+    "location_id": "Living",
     "timestamp": {
-      "time": 1433777272485
+      "time": 1441984581560
     },
     "owner": {}
   },

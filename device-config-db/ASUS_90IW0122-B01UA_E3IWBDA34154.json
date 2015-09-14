@@ -1,19 +1,19 @@
 {
-  "id": "ASUS_90IW0122-B01UA_E3IWBDA34146",
-  "label": "ASUS_90IW0122-B01UA_E3IWBDA34146",
+  "id": "ASUS_90IW0122-B01UA_E3IWBDA34154",
+  "label": "ASUS_90IW0122-B01UA_E3IWBDA34154",
   "placement_config": {
     "location_id": "Kitchen",
     "position": {
       "translation": {
-        "x": 1.3,
-        "y": 1.5,
-        "z": 2.8
+        "x": 1.36,
+        "y": 3.95,
+        "z": 2.81
       },
       "rotation": {
-        "qw": 6.123233995736766E-17,
-        "qx": 1.0,
-        "qy": 6.123233995736766E-17,
-        "qz": 6.123233995736766E-17
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
       }
     }
   },
@@ -21,16 +21,16 @@
     "component": [
       "home",
       "kitchen",
-      "asus_90iw0122-b01ua_e3iwbda34146"
+      "asus_90iw0122-b01ua_e3iwbda34154"
     ]
   },
-  "serial_number": "E3IWBDA34146",
-  "description": "NUC:PC_MPC",
+  "serial_number": "E3IWBDA34154",
+  "description": "NUC:PC_LXR",
   "inventory_state": {
     "value": "INSTALLED",
     "location_id": "Kitchen",
     "timestamp": {
-      "time": 1441984269626
+      "time": 1441984376977
     },
     "owner": {}
   },

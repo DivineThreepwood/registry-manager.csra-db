@@ -1,0 +1,29 @@
+{
+  "id": "Dining",
+  "label": "Dining",
+  "parent_id": "Home",
+  "child_id": [
+    "Dining_cable_trench_",
+    "Dining_bottom_tank_couch_"
+  ],
+  "scope": {
+    "component": [
+      "home",
+      "dining"
+    ]
+  },
+  "position": {
+    "translation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "rotation": {
+      "qw": 1.0,
+      "qx": 0.0,
+      "qy": 0.0,
+      "qz": 0.0
+    }
+  },
+  "meta_config": {}
+}

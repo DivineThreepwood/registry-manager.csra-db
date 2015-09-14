@@ -2,7 +2,7 @@
   "id": "ASUS_90IW0122-B01UA_E3IWBDA34180",
   "label": "asus_cam2",
   "placement_config": {
-    "location_id": "Living",
+    "location_id": "Home",
     "position": {
       "translation": {
         "x": 0.0,
@@ -20,7 +20,6 @@
   "scope": {
     "component": [
       "home",
-      "living",
       "asus_cam2"
     ]
   },

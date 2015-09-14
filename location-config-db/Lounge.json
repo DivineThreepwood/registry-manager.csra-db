@@ -1,0 +1,29 @@
+{
+  "id": "Lounge",
+  "label": "Lounge",
+  "parent_id": "Living",
+  "child_id": [
+    "Lounge_corner_"
+  ],
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "lounge"
+    ]
+  },
+  "position": {
+    "translation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "rotation": {
+      "qw": 1.0,
+      "qx": 0.0,
+      "qy": 0.0,
+      "qz": 0.0
+    }
+  },
+  "meta_config": {}
+}

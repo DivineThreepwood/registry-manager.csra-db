@@ -1,0 +1,39 @@
+{
+  "id": "ASUS_90IW0122-B01UA_E3IWBDA34150",
+  "label": "ASUS_90IW0122-B01UA_E3IWBDA34150",
+  "placement_config": {
+    "location_id": "Sports",
+    "position": {
+      "translation": {
+        "x": 1.51,
+        "y": 3.1,
+        "z": 2.78
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "sports",
+      "asus_90iw0122-b01ua_e3iwbda34150"
+    ]
+  },
+  "serial_number": "E3IWBDA34150",
+  "description": "NUC:PC_PUG",
+  "inventory_state": {
+    "value": "INSTALLED",
+    "location_id": "Sports",
+    "timestamp": {
+      "time": 1441984103634
+    },
+    "owner": {}
+  },
+  "device_class_id": "ASUS_90IW0122-B01UA",
+  "meta_config": {}
+}

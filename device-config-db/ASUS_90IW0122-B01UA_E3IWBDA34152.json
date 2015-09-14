@@ -1,13 +1,13 @@
 {
   "id": "ASUS_90IW0122-B01UA_E3IWBDA34152",
-  "label": "asus_door_entrance",
+  "label": "ASUS_90IW0122-B01UA_E3IWBDA34152",
   "placement_config": {
-    "location_id": "Wardrobe",
+    "location_id": "Living",
     "position": {
       "translation": {
-        "x": 0.525,
-        "y": 1.0,
-        "z": 2.725
+        "x": 2.5,
+        "y": 3.22,
+        "z": 2.79
       },
       "rotation": {
         "qw": 6.122301397540665E-17,
@@ -20,16 +20,17 @@
   "scope": {
     "component": [
       "home",
-      "wardrobe",
-      "asus_door_entrance"
+      "living",
+      "asus_90iw0122-b01ua_e3iwbda34152"
     ]
   },
   "serial_number": "E3IWBDA34152",
+  "description": "NUC:PC_BOS",
   "inventory_state": {
     "value": "INSTALLED",
-    "location_id": "Wardrobe",
+    "location_id": "Living",
     "timestamp": {
-      "time": 1437744788946
+      "time": 1441984892871
     },
     "owner": {}
   },

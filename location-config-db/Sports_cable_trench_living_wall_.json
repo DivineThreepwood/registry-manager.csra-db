@@ -1,0 +1,26 @@
+{
+  "id": "Sports_cable_trench_living_wall_",
+  "label": "Sports (cable trench living wall)",
+  "parent_id": "Sports",
+  "scope": {
+    "component": [
+      "home",
+      "sports",
+      "sports_cable_trench_living_wall_"
+    ]
+  },
+  "position": {
+    "translation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "rotation": {
+      "qw": 1.0,
+      "qx": 0.0,
+      "qy": 0.0,
+      "qz": 0.0
+    }
+  },
+  "meta_config": {}
+}

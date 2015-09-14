@@ -27,9 +27,12 @@
   "inventory_state": {
     "value": "IN_STOCK",
     "timestamp": {
-      "time": 1441017363523
+      "time": 1441979257396
     },
-    "owner": {}
+    "owner": {
+      "first_name": "Alexander",
+      "last_name": "Neumann"
+    }
   },
   "device_class_id": "Samsung_SM-P9000ZWADBT",
   "meta_config": {}

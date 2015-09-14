@@ -26,10 +26,10 @@
   },
   "serial_number": "431652915340000",
   "inventory_state": {
-    "value": "INSTALLED",
+    "value": "IN_STOCK",
     "location_id": "Sports",
     "timestamp": {
-      "time": 1440776086168
+      "time": 1441903329584
     },
     "owner": {}
   },

@@ -26,10 +26,10 @@
   },
   "serial_number": "431593932940000",
   "inventory_state": {
-    "value": "INSTALLED",
+    "value": "IN_STOCK",
     "location_id": "Bath",
     "timestamp": {
-      "time": 1440775667622
+      "time": 1441903340150
     },
     "owner": {}
   },
