@@ -4,8 +4,7 @@
   "root": false,
   "parent_id": "Home",
   "child_id": [
-    "Wardrobe_door_",
-    "Wardrobe_cable_trench_"
+    "Wardrobe_door_"
   ],
   "unit_id": [
     "/home/wardrobe/button/entrancebutton3/",
