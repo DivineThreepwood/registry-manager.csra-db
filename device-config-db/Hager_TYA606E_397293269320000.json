@@ -36,7 +36,7 @@
   "device_class_id": "Hager_TYA606E",
   "unit_config": [
     {
-      "id": "/home/control/powerplug/a11c1/",
+      "id": "/home/sports/powerplug/a11c1/",
       "label": "A11C1",
       "device_id": "Hager_TYA606E_397293269320000",
       "type": "POWER_PLUG",
@@ -89,7 +89,7 @@
       "meta_config": {}
     },
     {
-      "id": "/home/control/powerconsumptionsensor/a11c1consumption/",
+      "id": "/home/sports/powerconsumptionsensor/a11c1consumption/",
       "label": "A11C1Consumption",
       "device_id": "Hager_TYA606E_397293269320000",
       "type": "POWER_CONSUMPTION_SENSOR",
