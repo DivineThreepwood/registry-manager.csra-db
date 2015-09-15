@@ -5,8 +5,7 @@
   "parent_id": "Home",
   "child_id": [
     "Hometheater",
-    "Lounge",
-    "Living_cable_trench_window_"
+    "Lounge"
   ],
   "unit_id": [
     "/home/living/motionsensor/table/",
