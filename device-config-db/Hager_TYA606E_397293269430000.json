@@ -134,7 +134,7 @@
               ]
             }
           },
-          "unit_id": "/home/control/powerconsumptionsensor/a9c1consumption/",
+          "unit_id": "/home/sports/powerconsumptionsensor/a9c1consumption/",
           "type": "POWER_CONSUMPTION_PROVIDER",
           "meta_config": {}
         }
@@ -187,7 +187,7 @@
               ]
             }
           },
-          "unit_id": "/home/control/powerplug/a9c2/",
+          "unit_id": "/home/sports/powerplug/a9c2/",
           "type": "POWER_SERVICE",
           "meta_config": {}
         }
@@ -240,7 +240,7 @@
               ]
             }
           },
-          "unit_id": "/home/control/powerconsumptionsensor/a9c2consumption/",
+          "unit_id": "/home/sports/powerconsumptionsensor/a9c2consumption/",
           "type": "POWER_CONSUMPTION_PROVIDER",
           "meta_config": {}
         }
@@ -293,7 +293,7 @@
               ]
             }
           },
-          "unit_id": "/home/control/powerplug/a9c3/",
+          "unit_id": "/home/sports/powerplug/a9c3/",
           "type": "POWER_SERVICE",
           "meta_config": {}
         }
@@ -346,7 +346,7 @@
               ]
             }
           },
-          "unit_id": "/home/control/powerconsumptionsensor/a9c3consumption/",
+          "unit_id": "/home/sports/powerconsumptionsensor/a9c3consumption/",
           "type": "POWER_CONSUMPTION_PROVIDER",
           "meta_config": {}
         }
@@ -399,7 +399,7 @@
               ]
             }
           },
-          "unit_id": "/home/control/powerplug/a9c4/",
+          "unit_id": "/home/living/powerplug/a9c4/",
           "type": "POWER_SERVICE",
           "meta_config": {}
         }
@@ -452,7 +452,7 @@
               ]
             }
           },
-          "unit_id": "/home/control/powerconsumptionsensor/a9c4consumption/",
+          "unit_id": "/home/living/powerconsumptionsensor/a9c4consumption/",
           "type": "POWER_CONSUMPTION_PROVIDER",
           "meta_config": {}
         }
@@ -505,7 +505,7 @@
               ]
             }
           },
-          "unit_id": "/home/control/powerplug/a9c5/",
+          "unit_id": "/home/sports/powerplug/a9c5/",
           "type": "POWER_SERVICE",
           "meta_config": {}
         }
@@ -554,7 +554,7 @@
               ]
             }
           },
-          "unit_id": "/home/control/powerconsumptionsensor/a9c5consumption/",
+          "unit_id": "/home/sports/powerconsumptionsensor/a9c5consumption/",
           "type": "POWER_CONSUMPTION_PROVIDER",
           "meta_config": {
             "entry": [
@@ -610,7 +610,7 @@
               ]
             }
           },
-          "unit_id": "/home/control/powerplug/a9c6/",
+          "unit_id": "/home/dining/powerplug/a9c6/",
           "type": "POWER_SERVICE",
           "meta_config": {
             "entry": [
@@ -670,7 +670,7 @@
               ]
             }
           },
-          "unit_id": "/home/control/powerconsumptionsensor/a9c6consumption/",
+          "unit_id": "/home/dining/powerconsumptionsensor/a9c6consumption/",
           "type": "POWER_CONSUMPTION_PROVIDER",
           "meta_config": {}
         }
