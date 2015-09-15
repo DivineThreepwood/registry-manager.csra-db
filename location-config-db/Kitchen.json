@@ -9,6 +9,7 @@
     "/home/kitchen/powerplug/a3c2/",
     "/home/kitchen/powerconsumptionsensor/a3c5consumption/",
     "/home/kitchen/powerconsumptionsensor/a3c6consumption/",
+    "/home/kitchen/powerplug/a4c1/",
     "/home/kitchen/powerplug/a3c4/",
     "/home/kitchen/ambientlight/global_1/",
     "/home/kitchen/powerplug/a3c6/",
@@ -17,13 +18,13 @@
     "/home/kitchen/ambientlight/506/",
     "/home/kitchen/reedswitch/doorclosed/",
     "/home/kitchen/button/doorbutton6/",
+    "/home/kitchen/powerconsumptionsensor/a4c1consumption/",
     "/home/kitchen/reedswitch/dooropen/",
     "/home/kitchen/button/doorbutton2/",
     "/home/kitchen/button/doorbutton4/",
     "/home/kitchen/dimmer/dimmer/",
     "/home/kitchen/ambientlight/global_0/",
     "/home/kitchen/ambientlight/global_2/",
-    "/home/control/powerplug/a4c1/",
     "/home/kitchen/powerplug/a3c3/",
     "/home/kitchen/powerplug/a3c5/",
     "/home/kitchen/powerconsumptionsensor/a3c2consumption/",
@@ -34,8 +35,7 @@
     "/home/kitchen/ambientlight/507/",
     "/home/kitchen/button/doorbutton5/",
     "/home/kitchen/button/doorbutton1/",
-    "/home/kitchen/button/doorbutton3/",
-    "/home/control/powerconsumptionsensor/a4c1consumption/"
+    "/home/kitchen/button/doorbutton3/"
   ],
   "scope": {
     "component": [
