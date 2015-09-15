@@ -2,9 +2,6 @@
   "id": "Dining",
   "label": "Dining",
   "parent_id": "Home",
-  "child_id": [
-    "Dining_bottom_tank_couch_"
-  ],
   "scope": {
     "component": [
       "home",
