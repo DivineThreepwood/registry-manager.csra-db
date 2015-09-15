@@ -3,9 +3,6 @@
   "label": "Bath",
   "root": false,
   "parent_id": "Home",
-  "child_id": [
-    "Bath_door_"
-  ],
   "unit_id": [
     "/home/bath/battery/shower/",
     "/home/bath/ambientlight/llamp3/",
