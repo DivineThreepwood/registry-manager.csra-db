@@ -2,9 +2,6 @@
   "id": "Hometheater",
   "label": "Hometheater",
   "parent_id": "Living",
-  "child_id": [
-    "Hometheater_cable_trench_"
-  ],
   "scope": {
     "component": [
       "home",
