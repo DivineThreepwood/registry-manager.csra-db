@@ -8,8 +8,11 @@
     "/home/dining/powerconsumptionsensor/a6c6comsumption/",
     "/home/dining/powerconsumptionsensor/a9c6consumption/",
     "/home/dining/powerplug/a3c1/",
+    "/home/control/powerplug/a5c2/",
     "/home/dining/powerplug/a9c6/",
-    "/home/dining/powerplug/a5c1/"
+    "/home/dining/powerplug/a5c1/",
+    "/home/control/powerconsumptionsensor/a5c1consumption/",
+    "/home/control/powerconsumptionsensor/a5c2consumption/"
   ],
   "scope": {
     "component": [

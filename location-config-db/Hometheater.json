@@ -4,9 +4,13 @@
   "parent_id": "Living",
   "unit_id": [
     "/home/living/hometheater/powerconsumptionsensor/a4c2consumption/",
+    "/home/control/powerconsumptionsensor/a5c4consumption/",
     "/home/living/hometheater/powerplug/a4c3/",
     "/home/living/hometheater/powerplug/a4c2/",
-    "/home/living/hometheater/powerconsumptionsensor/a4c3consumption/"
+    "/home/control/powerplug/a5c3/",
+    "/home/control/powerconsumptionsensor/a5c3consumption/",
+    "/home/living/hometheater/powerconsumptionsensor/a4c3consumption/",
+    "/home/control/powerplug/a5c4/"
   ],
   "scope": {
     "component": [
