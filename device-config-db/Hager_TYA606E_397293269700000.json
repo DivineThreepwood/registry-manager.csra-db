@@ -36,7 +36,7 @@
   "device_class_id": "Hager_TYA606E",
   "unit_config": [
     {
-      "id": "/home/control/powerplug/a5c1/",
+      "id": "/home/dining/powerplug/a5c1/",
       "label": "A5C1",
       "device_id": "Hager_TYA606E_397293269700000",
       "type": "POWER_PLUG",
