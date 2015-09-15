@@ -81,7 +81,7 @@
               ]
             }
           },
-          "unit_id": "/home/control/powerplug/a6c1/",
+          "unit_id": "/home/sports/powerplug/a6c1/",
           "type": "POWER_SERVICE",
           "meta_config": {}
         }
@@ -134,7 +134,7 @@
               ]
             }
           },
-          "unit_id": "/home/control/powerconsumptionsensor/a6c1comsumption/",
+          "unit_id": "/home/sports/powerconsumptionsensor/a6c1comsumption/",
           "type": "POWER_CONSUMPTION_PROVIDER",
           "meta_config": {}
         }
@@ -187,7 +187,7 @@
               ]
             }
           },
-          "unit_id": "/home/control/powerplug/a6c2/",
+          "unit_id": "/home/sports/powerplug/a6c2/",
           "type": "POWER_SERVICE",
           "meta_config": {}
         }
@@ -240,7 +240,7 @@
               ]
             }
           },
-          "unit_id": "/home/control/powerconsumptionsensor/a6c2comsumption/",
+          "unit_id": "/home/sports/powerconsumptionsensor/a6c2comsumption/",
           "type": "POWER_CONSUMPTION_PROVIDER",
           "meta_config": {}
         }
@@ -293,7 +293,7 @@
               ]
             }
           },
-          "unit_id": "/home/control/powerplug/a6c3/",
+          "unit_id": "/home/sports/powerplug/a6c3/",
           "type": "POWER_SERVICE",
           "meta_config": {}
         }
@@ -346,7 +346,7 @@
               ]
             }
           },
-          "unit_id": "/home/control/powerconsumptionsensor/a6c3comsumption/",
+          "unit_id": "/home/sports/powerconsumptionsensor/a6c3comsumption/",
           "type": "POWER_CONSUMPTION_PROVIDER",
           "meta_config": {}
         }
@@ -399,7 +399,7 @@
               ]
             }
           },
-          "unit_id": "/home/control/powerplug/a6c4/",
+          "unit_id": "/home/sports/powerplug/a6c4/",
           "type": "POWER_SERVICE",
           "meta_config": {}
         }
@@ -452,7 +452,7 @@
               ]
             }
           },
-          "unit_id": "/home/control/powerconsumptionsensor/a6c4comsumption/",
+          "unit_id": "/home/sports/powerconsumptionsensor/a6c4comsumption/",
           "type": "POWER_CONSUMPTION_PROVIDER",
           "meta_config": {}
         }
@@ -505,7 +505,7 @@
               ]
             }
           },
-          "unit_id": "/home/control/powerplug/a6c5/",
+          "unit_id": "/home/living/powerplug/a6c5/",
           "type": "POWER_SERVICE",
           "meta_config": {}
         }
@@ -558,7 +558,7 @@
               ]
             }
           },
-          "unit_id": "/home/control/powerconsumptionsensor/a6c5comsumption/",
+          "unit_id": "/home/living/powerconsumptionsensor/a6c5comsumption/",
           "type": "POWER_CONSUMPTION_PROVIDER",
           "meta_config": {}
         }
@@ -611,7 +611,7 @@
               ]
             }
           },
-          "unit_id": "/home/control/powerplug/a6c6/",
+          "unit_id": "/home/dining/powerplug/a6c6/",
           "type": "POWER_SERVICE",
           "meta_config": {}
         }
@@ -664,7 +664,7 @@
               ]
             }
           },
-          "unit_id": "/home/control/powerconsumptionsensor/a6c6comsumption/",
+          "unit_id": "/home/dining/powerconsumptionsensor/a6c6comsumption/",
           "type": "POWER_CONSUMPTION_PROVIDER",
           "meta_config": {}
         }
