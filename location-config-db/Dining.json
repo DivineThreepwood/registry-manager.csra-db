@@ -3,7 +3,6 @@
   "label": "Dining",
   "parent_id": "Home",
   "child_id": [
-    "Dining_cable_trench_",
     "Dining_bottom_tank_couch_"
   ],
   "scope": {
