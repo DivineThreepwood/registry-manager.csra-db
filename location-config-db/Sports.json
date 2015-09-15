@@ -4,8 +4,7 @@
   "root": false,
   "parent_id": "Home",
   "child_id": [
-    "Sports_cable_trench_living_wall_",
-    "Sports_cable_trench_outwall_"
+    "Sports_cable_trench_living_wall_"
   ],
   "unit_id": [
     "/home/sports/reedswitch/sportstocontrolreedswitch/",
