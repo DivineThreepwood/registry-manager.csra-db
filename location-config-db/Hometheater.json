@@ -2,6 +2,12 @@
   "id": "Hometheater",
   "label": "Hometheater",
   "parent_id": "Living",
+  "unit_id": [
+    "/home/control/powerconsumptionsensor/a4c2consumption/",
+    "/home/control/powerconsumptionsensor/a4c3consumption/",
+    "/home/control/powerplug/a4c3/",
+    "/home/control/powerplug/a4c2/"
+  ],
   "scope": {
     "component": [
       "home",
