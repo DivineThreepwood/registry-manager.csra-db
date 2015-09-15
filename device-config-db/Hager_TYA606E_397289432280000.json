@@ -39,7 +39,7 @@
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "Kitchen",
         "position": {
           "translation": {
             "x": 0.0,
@@ -57,7 +57,7 @@
       "scope": {
         "component": [
           "home",
-          "control",
+          "kitchen",
           "powerplug",
           "a2c1"
         ]
@@ -92,7 +92,7 @@
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "Kitchen",
         "position": {
           "translation": {
             "x": 0.0,
@@ -110,7 +110,7 @@
       "scope": {
         "component": [
           "home",
-          "control",
+          "kitchen",
           "powerconsumptionsensor",
           "a2c1consumption"
         ]
@@ -148,7 +148,7 @@
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "Kitchen",
         "position": {
           "translation": {
             "x": 0.0,
@@ -166,7 +166,7 @@
       "scope": {
         "component": [
           "home",
-          "control",
+          "kitchen",
           "powerplug",
           "a2c2"
         ]
@@ -201,7 +201,7 @@
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "Kitchen",
         "position": {
           "translation": {
             "x": 0.0,
@@ -219,7 +219,7 @@
       "scope": {
         "component": [
           "home",
-          "control",
+          "kitchen",
           "powerconsumptionsensor",
           "a2c2consumption"
         ]
@@ -254,7 +254,7 @@
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "Lounge",
         "position": {
           "translation": {
             "x": 0.0,
@@ -272,7 +272,8 @@
       "scope": {
         "component": [
           "home",
-          "control",
+          "living",
+          "lounge",
           "powerplug",
           "a2c3"
         ]
@@ -307,7 +308,7 @@
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "Lounge",
         "position": {
           "translation": {
             "x": 0.0,
@@ -325,7 +326,8 @@
       "scope": {
         "component": [
           "home",
-          "control",
+          "living",
+          "lounge",
           "powerconsumptionsensor",
           "a2c3consumption"
         ]
@@ -360,7 +362,7 @@
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "Lounge",
         "position": {
           "translation": {
             "x": 0.0,
@@ -378,7 +380,8 @@
       "scope": {
         "component": [
           "home",
-          "control",
+          "living",
+          "lounge",
           "powerplug",
           "a2c4"
         ]
@@ -413,7 +416,7 @@
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "Lounge",
         "position": {
           "translation": {
             "x": 0.0,
@@ -431,7 +434,8 @@
       "scope": {
         "component": [
           "home",
-          "control",
+          "living",
+          "lounge",
           "powerconsumptionsensor",
           "a2c4consumption"
         ]
@@ -469,7 +473,7 @@
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "Lounge",
         "position": {
           "translation": {
             "x": 0.0,
@@ -487,7 +491,8 @@
       "scope": {
         "component": [
           "home",
-          "control",
+          "living",
+          "lounge",
           "powerplug",
           "a2c5"
         ]
@@ -525,7 +530,7 @@
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "Lounge",
         "position": {
           "translation": {
             "x": 0.0,
@@ -543,7 +548,8 @@
       "scope": {
         "component": [
           "home",
-          "control",
+          "living",
+          "lounge",
           "powerconsumptionsensor",
           "a2c5consumption"
         ]
@@ -581,7 +587,7 @@
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "Dining",
         "position": {
           "translation": {
             "x": 0.0,
@@ -599,7 +605,7 @@
       "scope": {
         "component": [
           "home",
-          "control",
+          "dining",
           "powerplug",
           "a2c6"
         ]
@@ -634,7 +640,7 @@
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "Dining",
         "position": {
           "translation": {
             "x": 0.0,
@@ -652,7 +658,7 @@
       "scope": {
         "component": [
           "home",
-          "control",
+          "dining",
           "powerconsumptionsensor",
           "a2c6consumption"
         ]
