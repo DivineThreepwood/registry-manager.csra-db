@@ -81,7 +81,7 @@
               ]
             }
           },
-          "unit_id": "/home/control/powerplug/a11c1/",
+          "unit_id": "/home/sports/powerplug/a11c1/",
           "type": "POWER_SERVICE",
           "meta_config": {}
         }
@@ -134,7 +134,7 @@
               ]
             }
           },
-          "unit_id": "/home/control/powerconsumptionsensor/a11c1consumption/",
+          "unit_id": "/home/sports/powerconsumptionsensor/a11c1consumption/",
           "type": "POWER_CONSUMPTION_PROVIDER",
           "meta_config": {}
         }

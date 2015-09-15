@@ -11,6 +11,7 @@
     "/home/sports/tamperswitch/interaction/",
     "/home/sports/ambientlight/slampright2/",
     "/home/sports/ambientlight/llampentrance6/",
+    "/home/sports/powerconsumptionsensor/a11c1consumption/",
     "/home/sports/ambientlight/llampentrance4/",
     "/home/sports/dimmer/leftdimmer/",
     "/home/sports/ambientlight/llampentrance2/",
@@ -21,10 +22,10 @@
     "/home/sports/button/pathwaybelowbutton3/",
     "/home/sports/button/pathwaybelowbutton5/",
     "/home/sports/ambientlight/slampwindow2/",
-    "/home/control/powerconsumptionsensor/a11c1consumption/",
     "/home/sports/button/pathwaybelowbutton1/",
     "/home/sports/brightnesssensor/interaction/",
     "/home/sports/battery/windowreedswitch/",
+    "/home/sports/powerplug/a11c1/",
     "/home/sports/handlesensor/windowhandlesensor/",
     "/home/sports/battery/sportstocontrolreedswitch/",
     "/home/sports/dimmer/rightdimmer/",
@@ -42,7 +43,6 @@
     "/home/sports/reedswitch/windowreedswitch/",
     "/home/sports/ambientlight/slampwindow1/",
     "/home/sports/button/pathwaybelowbutton2/",
-    "/home/control/powerplug/a11c1/",
     "/home/sports/rollershutter/outside/"
   ],
   "scope": {
