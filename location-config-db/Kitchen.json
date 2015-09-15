@@ -3,9 +3,6 @@
   "label": "Kitchen",
   "root": false,
   "parent_id": "Home",
-  "child_id": [
-    "Kitchen_window_"
-  ],
   "unit_id": [
     "/home/kitchen/dimmer/dimmer/",
     "/home/kitchen/battery/dooropen/",
