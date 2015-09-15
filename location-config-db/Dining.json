@@ -3,8 +3,8 @@
   "label": "Dining",
   "parent_id": "Home",
   "unit_id": [
-    "/home/control/powerplug/a9c6/",
-    "/home/control/powerconsumptionsensor/a9c6consumption/"
+    "/home/dining/powerconsumptionsensor/a9c6consumption/",
+    "/home/dining/powerplug/a9c6/"
   ],
   "scope": {
     "component": [
