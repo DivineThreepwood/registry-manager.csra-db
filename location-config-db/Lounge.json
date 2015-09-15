@@ -2,9 +2,6 @@
   "id": "Lounge",
   "label": "Lounge",
   "parent_id": "Living",
-  "child_id": [
-    "Lounge_corner_"
-  ],
   "scope": {
     "component": [
       "home",
