@@ -4,8 +4,7 @@
   "root": false,
   "parent_id": "Home",
   "child_id": [
-    "Kitchen_window_",
-    "Kitchen_concealed_"
+    "Kitchen_window_"
   ],
   "unit_id": [
     "/home/kitchen/dimmer/dimmer/",
