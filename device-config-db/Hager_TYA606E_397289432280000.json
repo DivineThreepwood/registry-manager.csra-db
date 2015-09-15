@@ -79,7 +79,7 @@
               ]
             }
           },
-          "unit_id": "/home/control/powerplug/a2c1/",
+          "unit_id": "/home/kitchen/powerplug/a2c1/",
           "type": "POWER_SERVICE",
           "meta_config": {}
         }
@@ -128,7 +128,7 @@
               ]
             }
           },
-          "unit_id": "/home/control/powerconsumptionsensor/a2c1consumption/",
+          "unit_id": "/home/kitchen/powerconsumptionsensor/a2c1consumption/",
           "type": "POWER_CONSUMPTION_PROVIDER",
           "meta_config": {
             "entry": [
@@ -188,7 +188,7 @@
               ]
             }
           },
-          "unit_id": "/home/control/powerplug/a2c2/",
+          "unit_id": "/home/kitchen/powerplug/a2c2/",
           "type": "POWER_SERVICE",
           "meta_config": {}
         }
@@ -241,7 +241,7 @@
               ]
             }
           },
-          "unit_id": "/home/control/powerconsumptionsensor/a2c2consumption/",
+          "unit_id": "/home/kitchen/powerconsumptionsensor/a2c2consumption/",
           "type": "POWER_CONSUMPTION_PROVIDER",
           "meta_config": {}
         }
@@ -295,7 +295,7 @@
               ]
             }
           },
-          "unit_id": "/home/control/powerplug/a2c3/",
+          "unit_id": "/home/living/lounge/powerplug/a2c3/",
           "type": "POWER_SERVICE",
           "meta_config": {}
         }
@@ -349,7 +349,7 @@
               ]
             }
           },
-          "unit_id": "/home/control/powerconsumptionsensor/a2c3consumption/",
+          "unit_id": "/home/living/lounge/powerconsumptionsensor/a2c3consumption/",
           "type": "POWER_CONSUMPTION_PROVIDER",
           "meta_config": {}
         }
@@ -403,7 +403,7 @@
               ]
             }
           },
-          "unit_id": "/home/control/powerplug/a2c4/",
+          "unit_id": "/home/living/lounge/powerplug/a2c4/",
           "type": "POWER_SERVICE",
           "meta_config": {}
         }
@@ -453,7 +453,7 @@
               ]
             }
           },
-          "unit_id": "/home/control/powerconsumptionsensor/a2c4consumption/",
+          "unit_id": "/home/living/lounge/powerconsumptionsensor/a2c4consumption/",
           "type": "POWER_CONSUMPTION_PROVIDER",
           "meta_config": {}
         }
@@ -510,7 +510,7 @@
               ]
             }
           },
-          "unit_id": "/home/control/powerplug/a2c5/",
+          "unit_id": "/home/living/lounge/powerplug/a2c5/",
           "type": "POWER_SERVICE",
           "meta_config": {
             "entry": [
@@ -567,7 +567,7 @@
               ]
             }
           },
-          "unit_id": "/home/control/powerconsumptionsensor/a2c5consumption/",
+          "unit_id": "/home/living/lounge/powerconsumptionsensor/a2c5consumption/",
           "type": "POWER_CONSUMPTION_PROVIDER",
           "meta_config": {
             "entry": [
@@ -627,7 +627,7 @@
               ]
             }
           },
-          "unit_id": "/home/control/powerplug/a2c6/",
+          "unit_id": "/home/dining/powerplug/a2c6/",
           "type": "POWER_SERVICE",
           "meta_config": {}
         }
@@ -680,7 +680,7 @@
               ]
             }
           },
-          "unit_id": "/home/control/powerconsumptionsensor/a2c6consumption/",
+          "unit_id": "/home/dining/powerconsumptionsensor/a2c6consumption/",
           "type": "POWER_CONSUMPTION_PROVIDER",
           "meta_config": {}
         }
