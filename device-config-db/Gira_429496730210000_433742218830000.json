@@ -37,7 +37,7 @@
   "unit_config": [
     {
       "id": "/home/living/button/sportsdoorbutton1/",
-      "label": "SportsDoorButton1",
+      "label": "SportsDoorButtons",
       "device_id": "Gira_429496730210000_433742218830000",
       "type": "BUTTON",
       "placement_config": {
@@ -91,7 +91,7 @@
     },
     {
       "id": "/home/living/button/sportsdoorbutton2/",
-      "label": "SportsDoorButton2",
+      "label": "SportsDoorButtons",
       "device_id": "Gira_429496730210000_433742218830000",
       "type": "BUTTON",
       "placement_config": {
