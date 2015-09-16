@@ -37,7 +37,7 @@
   "unit_config": [
     {
       "id": "/home/wardrobe/button/entrancebutton1/",
-      "label": "EntranceButton1",
+      "label": "EntranceButtons",
       "device_id": "Gira_429496730210000_433826759820000",
       "type": "BUTTON",
       "placement_config": {
@@ -91,7 +91,7 @@
     },
     {
       "id": "/home/wardrobe/button/entrancebutton2/",
-      "label": "EntranceButton2",
+      "label": "EntranceButtons",
       "device_id": "Gira_429496730210000_433826759820000",
       "type": "BUTTON",
       "placement_config": {
