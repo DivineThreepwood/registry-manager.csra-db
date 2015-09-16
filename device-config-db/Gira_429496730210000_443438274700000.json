@@ -61,7 +61,7 @@
           "home",
           "sports",
           "button",
-          "pathwaybelowbutton1"
+          "pathwaybelowbuttons"
         ]
       },
       "bound_to_device": true,
@@ -115,7 +115,7 @@
           "home",
           "sports",
           "button",
-          "pathwaybelowbutton2"
+          "pathwaybelowbuttons"
         ]
       },
       "bound_to_device": true,
