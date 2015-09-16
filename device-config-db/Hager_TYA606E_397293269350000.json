@@ -59,9 +59,9 @@
       "scope": {
         "component": [
           "home",
-          "dining",
+          "control",
           "powerplug",
-          "a3c1"
+          "poweractuator3"
         ]
       },
       "bound_to_device": true,
@@ -113,9 +113,9 @@
       "scope": {
         "component": [
           "home",
-          "dining",
+          "control",
           "powerconsumptionsensor",
-          "a3c1consumption"
+          "poweractuator3"
         ]
       },
       "bound_to_device": true,
@@ -170,9 +170,9 @@
       "scope": {
         "component": [
           "home",
-          "kitchen",
+          "control",
           "powerplug",
-          "a3c2"
+          "poweractuator3"
         ]
       },
       "bound_to_device": true,
@@ -224,7 +224,7 @@
       "scope": {
         "component": [
           "home",
-          "kitchen",
+          "control",
           "powerconsumptionsensor",
           "a3c2consumption"
         ]
@@ -278,7 +278,7 @@
       "scope": {
         "component": [
           "home",
-          "kitchen",
+          "control",
           "powerplug",
           "a3c3"
         ]
@@ -332,7 +332,7 @@
       "scope": {
         "component": [
           "home",
-          "kitchen",
+          "control",
           "powerconsumptionsensor",
           "a3c3consumption"
         ]
@@ -386,7 +386,7 @@
       "scope": {
         "component": [
           "home",
-          "kitchen",
+          "control",
           "powerplug",
           "a3c4"
         ]
@@ -440,7 +440,7 @@
       "scope": {
         "component": [
           "home",
-          "kitchen",
+          "control",
           "powerconsumptionsensor",
           "a3c4consumption"
         ]
@@ -494,7 +494,7 @@
       "scope": {
         "component": [
           "home",
-          "kitchen",
+          "control",
           "powerplug",
           "a3c5"
         ]
@@ -548,7 +548,7 @@
       "scope": {
         "component": [
           "home",
-          "kitchen",
+          "control",
           "powerconsumptionsensor",
           "a3c5consumption"
         ]
@@ -602,7 +602,7 @@
       "scope": {
         "component": [
           "home",
-          "kitchen",
+          "control",
           "powerplug",
           "a3c6"
         ]
@@ -659,7 +659,7 @@
       "scope": {
         "component": [
           "home",
-          "kitchen",
+          "control",
           "powerconsumptionsensor",
           "a3c6consumption"
         ]
