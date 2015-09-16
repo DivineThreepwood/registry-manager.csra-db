@@ -1,6 +1,6 @@
 {
   "id": "Philips_KV01-18Y_BCCDEE",
-  "label": "FloorLamp",
+  "label": "CouchLamp",
   "placement_config": {
     "location_id": "Living",
     "position": {
@@ -21,7 +21,7 @@
     "component": [
       "home",
       "living",
-      "floorlamp"
+      "couchlamp"
     ]
   },
   "serial_number": "BCCDEE",
