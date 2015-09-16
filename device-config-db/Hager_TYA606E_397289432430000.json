@@ -59,9 +59,9 @@
       "scope": {
         "component": [
           "home",
-          "sports",
+          "control",
           "powerplug",
-          "a7c1"
+          "poweractuator7"
         ]
       },
       "bound_to_device": true,
@@ -113,9 +113,9 @@
       "scope": {
         "component": [
           "home",
-          "sports",
+          "control",
           "powerconsumptionsensor",
-          "a7c1consumption"
+          "poweractuator7"
         ]
       },
       "bound_to_device": true,
@@ -167,9 +167,9 @@
       "scope": {
         "component": [
           "home",
-          "sports",
+          "control",
           "powerplug",
-          "a7c2"
+          "poweractuator7"
         ]
       },
       "bound_to_device": true,
@@ -221,7 +221,7 @@
       "scope": {
         "component": [
           "home",
-          "sports",
+          "control",
           "powerconsumptionsensor",
           "a7c2consumption"
         ]
@@ -275,7 +275,7 @@
       "scope": {
         "component": [
           "home",
-          "sports",
+          "control",
           "powerplug",
           "a7c3"
         ]
@@ -329,7 +329,7 @@
       "scope": {
         "component": [
           "home",
-          "sports",
+          "control",
           "powerconsumptionsensor",
           "a7c3consumption"
         ]
@@ -383,7 +383,7 @@
       "scope": {
         "component": [
           "home",
-          "sports",
+          "control",
           "powerplug",
           "a7c4"
         ]
@@ -437,7 +437,7 @@
       "scope": {
         "component": [
           "home",
-          "sports",
+          "control",
           "powerconsumptionsensor",
           "a7c4consumption"
         ]
@@ -491,7 +491,7 @@
       "scope": {
         "component": [
           "home",
-          "sports",
+          "control",
           "powerplug",
           "a7c5"
         ]
@@ -545,7 +545,7 @@
       "scope": {
         "component": [
           "home",
-          "sports",
+          "control",
           "powerconsumptionsensor",
           "a7c5consumption"
         ]
@@ -599,7 +599,7 @@
       "scope": {
         "component": [
           "home",
-          "living",
+          "control",
           "powerplug",
           "a7c6"
         ]
@@ -653,7 +653,7 @@
       "scope": {
         "component": [
           "home",
-          "living",
+          "control",
           "powerconsumptionsensor",
           "a7c6consumption"
         ]
