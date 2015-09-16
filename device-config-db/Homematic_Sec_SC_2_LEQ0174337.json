@@ -73,7 +73,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Homematic_HM_Sec_SC_2__home_living__Battery__RightWindowReedSwitch__BatteryProvider"
+                  "value": "Homematic_Sec_SC_2__home_living__Battery__RightWindowReedSwitch__BatteryProvider"
                 }
               ]
             }
@@ -123,7 +123,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Homematic_HM_Sec_SC_2__home_living__ReedSwitch__RightWindowReedSwitch__ReedSwitchProvider"
+                  "value": "Homematic_Sec_SC_2__home_living__ReedSwitch__RightWindowReedSwitch__ReedSwitchProvider"
                 }
               ]
             }
