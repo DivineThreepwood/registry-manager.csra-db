@@ -61,7 +61,7 @@
           "home",
           "living",
           "temperaturecontroller",
-          "control"
+          "controlbuttons"
         ]
       },
       "bound_to_device": true,
@@ -135,7 +135,7 @@
           "home",
           "living",
           "button",
-          "button1"
+          "controlbuttons"
         ]
       },
       "bound_to_device": true,
@@ -189,7 +189,7 @@
           "home",
           "living",
           "button",
-          "button2"
+          "controlbuttons"
         ]
       },
       "bound_to_device": true,
