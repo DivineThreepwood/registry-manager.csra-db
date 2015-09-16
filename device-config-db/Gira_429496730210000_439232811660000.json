@@ -77,7 +77,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_kitchen__Button__DoorButton1__ButtonProvider"
+                  "value": "Gira_5133__home_kitchen__Button__DoorButtons__ButtonProvider"
                 }
               ]
             }
@@ -131,7 +131,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_kitchen__Button__DoorButton2__ButtonProvider"
+                  "value": "Gira_5133__home_kitchen__Button__DoorButtons__ButtonProvider"
                 }
               ]
             }
