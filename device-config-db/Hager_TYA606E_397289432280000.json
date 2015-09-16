@@ -35,11 +35,11 @@
   "unit_config": [
     {
       "id": "/home/kitchen/powerplug/a2c1/",
-      "label": "A2C1",
+      "label": "PowerActuator2",
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Kitchen",
+        "location_id": "Control",
         "position": {
           "translation": {
             "x": 0.0,
@@ -62,6 +62,7 @@
           "a2c1"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -88,11 +89,11 @@
     },
     {
       "id": "/home/kitchen/powerconsumptionsensor/a2c1consumption/",
-      "label": "A2C1Consumption",
+      "label": "PowerActuator2",
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Kitchen",
+        "location_id": "Control",
         "position": {
           "translation": {
             "x": 0.0,
@@ -115,6 +116,7 @@
           "a2c1consumption"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -144,11 +146,11 @@
     },
     {
       "id": "/home/kitchen/powerplug/a2c2/",
-      "label": "A2C2",
+      "label": "PowerActuator2",
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Kitchen",
+        "location_id": "Control",
         "position": {
           "translation": {
             "x": 0.0,
@@ -171,6 +173,7 @@
           "a2c2"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -201,7 +204,7 @@
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Kitchen",
+        "location_id": "Control",
         "position": {
           "translation": {
             "x": 0.0,
@@ -224,6 +227,7 @@
           "a2c2consumption"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -254,7 +258,7 @@
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Lounge",
+        "location_id": "Control",
         "position": {
           "translation": {
             "x": 0.0,
@@ -278,6 +282,7 @@
           "a2c3"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -308,7 +313,7 @@
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Lounge",
+        "location_id": "Control",
         "position": {
           "translation": {
             "x": 0.0,
@@ -332,6 +337,7 @@
           "a2c3consumption"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -362,7 +368,7 @@
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Lounge",
+        "location_id": "Control",
         "position": {
           "translation": {
             "x": 0.0,
@@ -386,6 +392,7 @@
           "a2c4"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -416,7 +423,7 @@
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Lounge",
+        "location_id": "Control",
         "position": {
           "translation": {
             "x": 0.0,
@@ -440,6 +447,7 @@
           "a2c4consumption"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -473,7 +481,7 @@
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Lounge",
+        "location_id": "Control",
         "position": {
           "translation": {
             "x": 0.0,
@@ -497,6 +505,7 @@
           "a2c5"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -530,7 +539,7 @@
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Lounge",
+        "location_id": "Control",
         "position": {
           "translation": {
             "x": 0.0,
@@ -554,6 +563,7 @@
           "a2c5consumption"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -587,7 +597,7 @@
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Dining",
+        "location_id": "Control",
         "position": {
           "translation": {
             "x": 0.0,
@@ -610,6 +620,7 @@
           "a2c6"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -640,7 +651,7 @@
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Dining",
+        "location_id": "Control",
         "position": {
           "translation": {
             "x": 0.0,
@@ -663,6 +674,7 @@
           "a2c6consumption"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -675,18 +687,4 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA606E__home_control__PowerConsumptionSensor__A2C6Consumption__PowerConsumptionProvider"
-                }
-              ]
-            }
-          },
-          "unit_id": "/home/dining/powerconsumptionsensor/a2c6consumption/",
-          "type": "POWER_CONSUMPTION_PROVIDER",
-          "meta_config": {}
-        }
-      ],
-      "meta_config": {}
-    }
-  ],
-  "meta_config": {}
-}
+              
