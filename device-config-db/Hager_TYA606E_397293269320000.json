@@ -59,9 +59,9 @@
       "scope": {
         "component": [
           "home",
-          "sports",
+          "control",
           "powerplug",
-          "a11c1"
+          "poweractuator11"
         ]
       },
       "bound_to_device": true,
@@ -113,9 +113,9 @@
       "scope": {
         "component": [
           "home",
-          "sports",
+          "control",
           "powerconsumptionsensor",
-          "a11c1consumption"
+          "poweractuator11"
         ]
       },
       "bound_to_device": true,
@@ -169,7 +169,7 @@
           "home",
           "control",
           "powerplug",
-          "a11c2"
+          "poweractuator11"
         ]
       },
       "bound_to_device": true,
