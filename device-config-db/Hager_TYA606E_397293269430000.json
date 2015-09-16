@@ -37,7 +37,7 @@
   "unit_config": [
     {
       "id": "/home/control/powerplug/a9c1/",
-      "label": "A9C1",
+      "label": "PowerActuator9",
       "device_id": "Hager_TYA606E_397293269430000",
       "type": "POWER_PLUG",
       "placement_config": {
@@ -64,6 +64,7 @@
           "a9c1"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -90,11 +91,11 @@
     },
     {
       "id": "/home/sports/powerconsumptionsensor/a9c1consumption/",
-      "label": "A9C1Consumption",
+      "label": "PowerActuator9",
       "device_id": "Hager_TYA606E_397293269430000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Sports",
+        "location_id": "Control",
         "position": {
           "translation": {
             "x": 0.0,
@@ -117,6 +118,7 @@
           "a9c1consumption"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -143,11 +145,11 @@
     },
     {
       "id": "/home/sports/powerplug/a9c2/",
-      "label": "A9C2",
+      "label": "PowerActuator9",
       "device_id": "Hager_TYA606E_397293269430000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Sports",
+        "location_id": "Control",
         "position": {
           "translation": {
             "x": 0.0,
@@ -170,6 +172,7 @@
           "a9c2"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -200,7 +203,7 @@
       "device_id": "Hager_TYA606E_397293269430000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Sports",
+        "location_id": "Control",
         "position": {
           "translation": {
             "x": 0.0,
@@ -223,6 +226,7 @@
           "a9c2consumption"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -253,7 +257,7 @@
       "device_id": "Hager_TYA606E_397293269430000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Sports",
+        "location_id": "Control",
         "position": {
           "translation": {
             "x": 0.0,
@@ -276,6 +280,7 @@
           "a9c3"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -306,7 +311,7 @@
       "device_id": "Hager_TYA606E_397293269430000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Sports",
+        "location_id": "Control",
         "position": {
           "translation": {
             "x": 0.0,
@@ -329,6 +334,7 @@
           "a9c3consumption"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -359,7 +365,7 @@
       "device_id": "Hager_TYA606E_397293269430000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Living",
+        "location_id": "Control",
         "position": {
           "translation": {
             "x": 0.0,
@@ -382,6 +388,7 @@
           "a9c4"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -412,7 +419,7 @@
       "device_id": "Hager_TYA606E_397293269430000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Living",
+        "location_id": "Control",
         "position": {
           "translation": {
             "x": 0.0,
@@ -435,6 +442,7 @@
           "a9c4consumption"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -465,7 +473,7 @@
       "device_id": "Hager_TYA606E_397293269430000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Sports",
+        "location_id": "Control",
         "position": {
           "translation": {
             "x": 0.0,
@@ -488,6 +496,7 @@
           "a9c5"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -518,7 +527,7 @@
       "device_id": "Hager_TYA606E_397293269430000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Sports",
+        "location_id": "Control",
         "position": {
           "translation": {
             "x": 0.0,
@@ -541,6 +550,7 @@
           "a9c5consumption"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -574,7 +584,7 @@
       "device_id": "Hager_TYA606E_397293269430000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Dining",
+        "location_id": "Control",
         "position": {
           "translation": {
             "x": 0.0,
@@ -597,6 +607,7 @@
           "a9c6"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -630,7 +641,7 @@
       "device_id": "Hager_TYA606E_397293269430000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Dining",
+        "location_id": "Control",
         "position": {
           "translation": {
             "x": 0.0,
@@ -653,6 +664,7 @@
           "a9c6consumption"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
