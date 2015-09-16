@@ -61,7 +61,7 @@
           "home",
           "bath",
           "temperaturecontroller",
-          "entrance"
+          "entrancebuttons"
         ]
       },
       "bound_to_device": true,
@@ -135,7 +135,7 @@
           "home",
           "bath",
           "button",
-          "button1"
+          "entrancebuttons"
         ]
       },
       "bound_to_device": true,
@@ -189,7 +189,7 @@
           "home",
           "bath",
           "button",
-          "button2"
+          "entrancebuttons"
         ]
       },
       "bound_to_device": true,

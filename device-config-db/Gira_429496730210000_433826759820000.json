@@ -61,7 +61,7 @@
           "home",
           "wardrobe",
           "button",
-          "entrancebutton1"
+          "entrancebuttons"
         ]
       },
       "bound_to_device": true,
@@ -115,7 +115,7 @@
           "home",
           "wardrobe",
           "button",
-          "entrancebutton2"
+          "entrancebuttons"
         ]
       },
       "bound_to_device": true,
