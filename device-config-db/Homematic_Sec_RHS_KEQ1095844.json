@@ -1,5 +1,5 @@
 {
-  "id": "Homematic_HM_Sec_RHS_KEQ1095844",
+  "id": "Homematic_Sec_RHS_KEQ1095844",
   "label": "WindowHandleSensor",
   "placement_config": {
     "location_id": "Sports",
@@ -33,12 +33,12 @@
     },
     "owner": {}
   },
-  "device_class_id": "Homematic_HM_Sec_RHS",
+  "device_class_id": "Homematic_Sec_RHS",
   "unit_config": [
     {
       "id": "/home/sports/battery/windowhandlesensor/",
       "label": "WindowHandleSensor",
-      "device_id": "Homematic_HM_Sec_RHS_KEQ1095844",
+      "device_id": "Homematic_Sec_RHS_KEQ1095844",
       "type": "BATTERY",
       "placement_config": {
         "location_id": "Sports",
@@ -88,7 +88,7 @@
     {
       "id": "/home/sports/handlesensor/windowhandlesensor/",
       "label": "WindowHandleSensor",
-      "device_id": "Homematic_HM_Sec_RHS_KEQ1095844",
+      "device_id": "Homematic_Sec_RHS_KEQ1095844",
       "type": "HANDLE_SENSOR",
       "placement_config": {
         "location_id": "Sports",

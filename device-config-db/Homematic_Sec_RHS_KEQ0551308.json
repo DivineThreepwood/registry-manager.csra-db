@@ -1,5 +1,5 @@
 {
-  "id": "Homematic_HM_Sec_RHS_KEQ0551308",
+  "id": "Homematic_Sec_RHS_KEQ0551308",
   "label": "LeftWindowHandleSensor",
   "placement_config": {
     "location_id": "Living",
@@ -33,12 +33,12 @@
     },
     "owner": {}
   },
-  "device_class_id": "Homematic_HM_Sec_RHS",
+  "device_class_id": "Homematic_Sec_RHS",
   "unit_config": [
     {
       "id": "/home/living/battery/leftwindowhandlesensor/",
       "label": "LeftWindowHandleSensor",
-      "device_id": "Homematic_HM_Sec_RHS_KEQ0551308",
+      "device_id": "Homematic_Sec_RHS_KEQ0551308",
       "type": "BATTERY",
       "placement_config": {
         "location_id": "Living",
@@ -88,7 +88,7 @@
     {
       "id": "/home/living/handlesensor/leftwindowhandlesensor/",
       "label": "LeftWindowHandleSensor",
-      "device_id": "Homematic_HM_Sec_RHS_KEQ0551308",
+      "device_id": "Homematic_Sec_RHS_KEQ0551308",
       "type": "HANDLE_SENSOR",
       "placement_config": {
         "location_id": "Living",
