@@ -61,7 +61,7 @@
           "home",
           "sports",
           "temperaturecontroller",
-          "pathway"
+          "pathwaybuttons1"
         ]
       },
       "bound_to_device": true,
@@ -135,7 +135,7 @@
           "home",
           "sports",
           "button",
-          "button1"
+          "pathwaybuttons1"
         ]
       },
       "bound_to_device": true,
@@ -189,7 +189,7 @@
           "home",
           "sports",
           "button",
-          "button2"
+          "pathwaybuttons1"
         ]
       },
       "bound_to_device": true,
