@@ -37,7 +37,7 @@
   "unit_config": [
     {
       "id": "/home/kitchen/button/doorbutton1/",
-      "label": "DoorButton1",
+      "label": "DoorButtons",
       "device_id": "Gira_429496730210000_439232811660000",
       "type": "BUTTON",
       "placement_config": {
@@ -91,7 +91,7 @@
     },
     {
       "id": "/home/kitchen/button/doorbutton2/",
-      "label": "DoorButton2",
+      "label": "DoorButtons",
       "device_id": "Gira_429496730210000_439232811660000",
       "type": "BUTTON",
       "placement_config": {
