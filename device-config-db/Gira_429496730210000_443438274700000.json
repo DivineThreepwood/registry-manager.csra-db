@@ -77,7 +77,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_sports__Button__PathwayBelowButton1__ButtonProvider"
+                  "value": "Gira_5133__home_sports__Button__PathwayBelowButtons__ButtonProvider"
                 }
               ]
             }
@@ -131,7 +131,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_sports__Button__PathwayBelowButton2__ButtonProvider"
+                  "value": "Gira_5133__home_sports__Button__PathwayBelowButtons__ButtonProvider"
                 }
               ]
             }
