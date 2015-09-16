@@ -37,7 +37,7 @@
   "unit_config": [
     {
       "id": "/home/wardrobe/button/hallwayabovebutton1/",
-      "label": "HallwayAboveButton1",
+      "label": "HallwayAboveButtons",
       "device_id": "Gira_429496730210000_439315387020000",
       "type": "BUTTON",
       "placement_config": {
@@ -91,7 +91,7 @@
     },
     {
       "id": "/home/wardrobe/button/hallwayabovebutton2/",
-      "label": "HallwayAboveButton2",
+      "label": "HallwayAboveButtons",
       "device_id": "Gira_429496730210000_439315387020000",
       "type": "BUTTON",
       "placement_config": {
