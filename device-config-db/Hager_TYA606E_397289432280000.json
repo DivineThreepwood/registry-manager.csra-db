@@ -687,4 +687,18 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-              
+                  "value": "Hager_TYA606E__home_control__PowerConsumptionSensor__A2C6Consumption__PowerConsumptionProvider"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/dining/powerconsumptionsensor/a2c6consumption/",
+          "type": "POWER_CONSUMPTION_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {}
+}

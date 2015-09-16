@@ -37,7 +37,7 @@
   "unit_config": [
     {
       "id": "/home/living/temperaturecontroller/control/",
-      "label": "Control",
+      "label": "ControlButtons",
       "device_id": "Gira_429496730250000_431602452620000",
       "type": "TEMPERATURE_CONTROLLER",
       "placement_config": {
@@ -111,7 +111,7 @@
     },
     {
       "id": "/home/living/button/button1/",
-      "label": "Button1",
+      "label": "ControlButtons",
       "device_id": "Gira_429496730250000_431602452620000",
       "type": "BUTTON",
       "placement_config": {
@@ -165,7 +165,7 @@
     },
     {
       "id": "/home/living/button/button2/",
-      "label": "Button2",
+      "label": "ControlButtons",
       "device_id": "Gira_429496730250000_431602452620000",
       "type": "BUTTON",
       "placement_config": {
