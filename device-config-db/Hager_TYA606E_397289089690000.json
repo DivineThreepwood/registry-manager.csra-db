@@ -59,9 +59,9 @@
       "scope": {
         "component": [
           "home",
-          "kitchen",
+          "control",
           "powerplug",
-          "a4c1"
+          "poweractuator4"
         ]
       },
       "bound_to_device": true,
@@ -113,9 +113,9 @@
       "scope": {
         "component": [
           "home",
-          "kitchen",
+          "control",
           "powerconsumptionsensor",
-          "a4c1consumption"
+          "poweractuator4"
         ]
       },
       "bound_to_device": true,
@@ -167,10 +167,9 @@
       "scope": {
         "component": [
           "home",
-          "living",
-          "hometheater",
+          "control",
           "powerplug",
-          "a4c2"
+          "poweractuator4"
         ]
       },
       "bound_to_device": true,
@@ -222,8 +221,7 @@
       "scope": {
         "component": [
           "home",
-          "living",
-          "hometheater",
+          "control",
           "powerconsumptionsensor",
           "a4c2consumption"
         ]
@@ -277,8 +275,7 @@
       "scope": {
         "component": [
           "home",
-          "living",
-          "hometheater",
+          "control",
           "powerplug",
           "a4c3"
         ]
@@ -332,8 +329,7 @@
       "scope": {
         "component": [
           "home",
-          "living",
-          "hometheater",
+          "control",
           "powerconsumptionsensor",
           "a4c3consumption"
         ]
@@ -387,7 +383,7 @@
       "scope": {
         "component": [
           "home",
-          "bath",
+          "control",
           "powerplug",
           "a4c4"
         ]
@@ -441,7 +437,7 @@
       "scope": {
         "component": [
           "home",
-          "bath",
+          "control",
           "powerconsumptionsensor",
           "a4c4consumption"
         ]
@@ -495,7 +491,7 @@
       "scope": {
         "component": [
           "home",
-          "bath",
+          "control",
           "powerplug",
           "a4c5"
         ]
@@ -549,7 +545,7 @@
       "scope": {
         "component": [
           "home",
-          "bath",
+          "control",
           "powerconsumptionsensor",
           "a4c5consumption"
         ]
@@ -603,7 +599,7 @@
       "scope": {
         "component": [
           "home",
-          "bath",
+          "control",
           "powerplug",
           "a4c6"
         ]
@@ -657,7 +653,7 @@
       "scope": {
         "component": [
           "home",
-          "bath",
+          "control",
           "powerconsumptionsensor",
           "a4c6consumption"
         ]
