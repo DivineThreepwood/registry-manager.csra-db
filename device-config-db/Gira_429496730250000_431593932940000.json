@@ -72,12 +72,12 @@
             "meta_config": {
               "entry": [
                 {
-                  "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5142__home_bath__TemperatureController__Entrance__TemperatureProvider"
-                },
-                {
                   "key": "OPENHAB_BINDING_CONFIG",
                   "value": "3/3/0"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Gira_5142__home_bath__TemperatureController__EntranceButtons__TemperatureProvider"
                 }
               ]
             }
@@ -92,12 +92,12 @@
             "meta_config": {
               "entry": [
                 {
-                  "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5142__home_bath__TemperatureController__Entrance__Unknown"
-                },
-                {
                   "key": "OPENHAB_BINDING_CONFIG",
                   "value": "3/3/2"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Gira_5142__home_bath__TemperatureController__EntranceButtons__Unknown"
                 }
               ]
             }
@@ -151,7 +151,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5142__home_bath__Button__Button1__ButtonProvider"
+                  "value": "Gira_5142__home_bath__Button__EntranceButtons__ButtonProvider"
                 }
               ]
             }
@@ -205,7 +205,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5142__home_bath__Button__Button2__ButtonProvider"
+                  "value": "Gira_5142__home_bath__Button__EntranceButtons__ButtonProvider"
                 }
               ]
             }
