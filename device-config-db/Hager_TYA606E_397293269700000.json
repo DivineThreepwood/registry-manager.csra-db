@@ -59,9 +59,9 @@
       "scope": {
         "component": [
           "home",
-          "dining",
+          "control",
           "powerplug",
-          "a5c1"
+          "poweractuator5"
         ]
       },
       "bound_to_device": true,
@@ -113,9 +113,9 @@
       "scope": {
         "component": [
           "home",
-          "dining",
+          "control",
           "powerconsumptionsensor",
-          "a5c1consumption"
+          "poweractuator5"
         ]
       },
       "bound_to_device": true,
@@ -167,9 +167,9 @@
       "scope": {
         "component": [
           "home",
-          "dining",
+          "control",
           "powerplug",
-          "a5c2"
+          "poweractuator5"
         ]
       },
       "bound_to_device": true,
@@ -221,7 +221,7 @@
       "scope": {
         "component": [
           "home",
-          "dining",
+          "control",
           "powerconsumptionsensor",
           "a5c2consumption"
         ]
@@ -275,8 +275,7 @@
       "scope": {
         "component": [
           "home",
-          "living",
-          "hometheater",
+          "control",
           "powerplug",
           "a5c3"
         ]
@@ -330,8 +329,7 @@
       "scope": {
         "component": [
           "home",
-          "living",
-          "hometheater",
+          "control",
           "powerconsumptionsensor",
           "a5c3consumption"
         ]
@@ -385,8 +383,7 @@
       "scope": {
         "component": [
           "home",
-          "living",
-          "hometheater",
+          "control",
           "powerplug",
           "a5c4"
         ]
@@ -440,8 +437,7 @@
       "scope": {
         "component": [
           "home",
-          "living",
-          "hometheater",
+          "control",
           "powerconsumptionsensor",
           "a5c4consumption"
         ]
@@ -495,7 +491,7 @@
       "scope": {
         "component": [
           "home",
-          "sports",
+          "control",
           "powerplug",
           "a5c5"
         ]
@@ -549,7 +545,7 @@
       "scope": {
         "component": [
           "home",
-          "sports",
+          "control",
           "powerconsumptionsensor",
           "a5c5consumption"
         ]
@@ -603,7 +599,7 @@
       "scope": {
         "component": [
           "home",
-          "sports",
+          "control",
           "powerplug",
           "a5c6"
         ]
@@ -657,7 +653,7 @@
       "scope": {
         "component": [
           "home",
-          "sports",
+          "control",
           "powerconsumptionsensor",
           "poweractuator5"
         ]
