@@ -5,6 +5,7 @@
   "parent_id": "Home",
   "unit_id": [
     "/home/kitchen/battery/dooropen/",
+    "/home/kitchen/ambientlight/ceilinglamp_2/",
     "/home/kitchen/battery/doorclosed/",
     "/home/kitchen/powerplug/a3c2/",
     "/home/kitchen/powerconsumptionsensor/a3c5consumption/",
@@ -24,7 +25,6 @@
     "/home/kitchen/button/doorbutton4/",
     "/home/kitchen/dimmer/dimmer/",
     "/home/kitchen/ambientlight/global_0/",
-    "/home/kitchen/ambientlight/global_2/",
     "/home/kitchen/powerplug/a3c3/",
     "/home/kitchen/powerplug/a3c5/",
     "/home/kitchen/powerconsumptionsensor/a3c2consumption/",

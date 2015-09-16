@@ -73,7 +73,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philips_Hue_GU10__home_kitchen__AmbientLight__Global_2__BrightnessService"
+                  "value": "Philips_Hue_GU10__home_kitchen__AmbientLight__CeilingLamp_2__BrightnessService"
                 }
               ]
             }
@@ -89,7 +89,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philips_Hue_GU10__home_kitchen__AmbientLight__Global_2__ColorService"
+                  "value": "Philips_Hue_GU10__home_kitchen__AmbientLight__CeilingLamp_2__ColorService"
                 }
               ]
             }
@@ -105,7 +105,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philips_Hue_GU10__home_kitchen__AmbientLight__Global_2__PowerService"
+                  "value": "Philips_Hue_GU10__home_kitchen__AmbientLight__CeilingLamp_2__PowerService"
                 }
               ]
             }
