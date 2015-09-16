@@ -72,12 +72,12 @@
             "meta_config": {
               "entry": [
                 {
-                  "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5142__home_sports__TemperatureController__Pathway__TemperatureProvider"
-                },
-                {
                   "key": "OPENHAB_BINDING_CONFIG",
                   "value": "4/4/4"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Gira_5142__home_sports__TemperatureController__PathwayButtons1__TemperatureProvider"
                 }
               ]
             }
@@ -92,12 +92,12 @@
             "meta_config": {
               "entry": [
                 {
-                  "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5142__home_sports__TemperatureController__Pathway__Unknown"
-                },
-                {
                   "key": "OPENHAB_BINDING_CONFIG",
                   "value": "4/4/0"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Gira_5142__home_sports__TemperatureController__PathwayButtons1__Unknown"
                 }
               ]
             }
@@ -151,7 +151,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5142__home_sports__Button__Button1__ButtonProvider"
+                  "value": "Gira_5142__home_sports__Button__PathwayButtons1__ButtonProvider"
                 }
               ]
             }
@@ -205,7 +205,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5142__home_sports__Button__Button2__ButtonProvider"
+                  "value": "Gira_5142__home_sports__Button__PathwayButtons1__ButtonProvider"
                 }
               ]
             }
