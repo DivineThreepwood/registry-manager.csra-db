@@ -37,7 +37,7 @@
   "unit_config": [
     {
       "id": "/home/bath/temperaturecontroller/entrance/",
-      "label": "Entrance",
+      "label": "EntranceButtons",
       "device_id": "Gira_429496730250000_431593932940000",
       "type": "TEMPERATURE_CONTROLLER",
       "placement_config": {
@@ -111,7 +111,7 @@
     },
     {
       "id": "/home/bath/button/button1/",
-      "label": "Button1",
+      "label": "EntranceButtons",
       "device_id": "Gira_429496730250000_431593932940000",
       "type": "BUTTON",
       "placement_config": {
@@ -165,7 +165,7 @@
     },
     {
       "id": "/home/bath/button/button2/",
-      "label": "Button2",
+      "label": "EntranceButtons",
       "device_id": "Gira_429496730250000_431593932940000",
       "type": "BUTTON",
       "placement_config": {
