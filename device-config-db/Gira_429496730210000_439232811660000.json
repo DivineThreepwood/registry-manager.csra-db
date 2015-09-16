@@ -61,7 +61,7 @@
           "home",
           "kitchen",
           "button",
-          "doorbutton1"
+          "doorbuttons"
         ]
       },
       "bound_to_device": true,
@@ -115,7 +115,7 @@
           "home",
           "kitchen",
           "button",
-          "doorbutton2"
+          "doorbuttons"
         ]
       },
       "bound_to_device": true,
