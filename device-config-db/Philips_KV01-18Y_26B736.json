@@ -78,7 +78,7 @@
               ]
             }
           },
-          "unit_id": "/home/kitchen/ambientlight/global_2/",
+          "unit_id": "/home/kitchen/ambientlight/ceilinglamp_2/",
           "type": "BRIGHTNESS_SERVICE",
           "meta_config": {}
         },
@@ -94,7 +94,7 @@
               ]
             }
           },
-          "unit_id": "/home/kitchen/ambientlight/global_2/",
+          "unit_id": "/home/kitchen/ambientlight/ceilinglamp_2/",
           "type": "COLOR_SERVICE",
           "meta_config": {}
         },
@@ -110,7 +110,7 @@
               ]
             }
           },
-          "unit_id": "/home/kitchen/ambientlight/global_2/",
+          "unit_id": "/home/kitchen/ambientlight/ceilinglamp_2/",
           "type": "POWER_SERVICE",
           "meta_config": {}
         }
