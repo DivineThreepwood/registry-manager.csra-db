@@ -61,7 +61,7 @@
           "home",
           "living",
           "button",
-          "sportsdoorbutton1"
+          "sportsdoorbuttons"
         ]
       },
       "bound_to_device": true,
@@ -115,7 +115,7 @@
           "home",
           "living",
           "button",
-          "sportsdoorbutton2"
+          "sportsdoorbuttons"
         ]
       },
       "bound_to_device": true,
