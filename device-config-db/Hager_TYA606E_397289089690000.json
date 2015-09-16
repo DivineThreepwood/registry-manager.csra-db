@@ -37,11 +37,11 @@
   "unit_config": [
     {
       "id": "/home/kitchen/powerplug/a4c1/",
-      "label": "A4C1",
+      "label": "PowerActuator4",
       "device_id": "Hager_TYA606E_397289089690000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Kitchen",
+        "location_id": "Control",
         "position": {
           "translation": {
             "x": 0.0,
@@ -64,6 +64,7 @@
           "a4c1"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -90,11 +91,11 @@
     },
     {
       "id": "/home/kitchen/powerconsumptionsensor/a4c1consumption/",
-      "label": "A4C1Consumption",
+      "label": "PowerActuator4",
       "device_id": "Hager_TYA606E_397289089690000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Kitchen",
+        "location_id": "Control",
         "position": {
           "translation": {
             "x": 0.0,
@@ -117,6 +118,7 @@
           "a4c1consumption"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -143,11 +145,11 @@
     },
     {
       "id": "/home/living/hometheater/powerplug/a4c2/",
-      "label": "A4C2",
+      "label": "PowerActuator4",
       "device_id": "Hager_TYA606E_397289089690000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Hometheater",
+        "location_id": "Control",
         "position": {
           "translation": {
             "x": 0.0,
@@ -171,6 +173,7 @@
           "a4c2"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -201,7 +204,7 @@
       "device_id": "Hager_TYA606E_397289089690000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Hometheater",
+        "location_id": "Control",
         "position": {
           "translation": {
             "x": 0.0,
@@ -225,6 +228,7 @@
           "a4c2consumption"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -255,7 +259,7 @@
       "device_id": "Hager_TYA606E_397289089690000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Hometheater",
+        "location_id": "Control",
         "position": {
           "translation": {
             "x": 0.0,
@@ -279,6 +283,7 @@
           "a4c3"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -309,7 +314,7 @@
       "device_id": "Hager_TYA606E_397289089690000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Hometheater",
+        "location_id": "Control",
         "position": {
           "translation": {
             "x": 0.0,
@@ -333,6 +338,7 @@
           "a4c3consumption"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -363,7 +369,7 @@
       "device_id": "Hager_TYA606E_397289089690000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Bath",
+        "location_id": "Control",
         "position": {
           "translation": {
             "x": 0.0,
@@ -386,6 +392,7 @@
           "a4c4"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -416,7 +423,7 @@
       "device_id": "Hager_TYA606E_397289089690000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Bath",
+        "location_id": "Control",
         "position": {
           "translation": {
             "x": 0.0,
@@ -439,6 +446,7 @@
           "a4c4consumption"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -469,7 +477,7 @@
       "device_id": "Hager_TYA606E_397289089690000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Bath",
+        "location_id": "Control",
         "position": {
           "translation": {
             "x": 0.0,
@@ -492,6 +500,7 @@
           "a4c5"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -522,7 +531,7 @@
       "device_id": "Hager_TYA606E_397289089690000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Bath",
+        "location_id": "Control",
         "position": {
           "translation": {
             "x": 0.0,
@@ -545,6 +554,7 @@
           "a4c5consumption"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -575,7 +585,7 @@
       "device_id": "Hager_TYA606E_397289089690000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Bath",
+        "location_id": "Control",
         "position": {
           "translation": {
             "x": 0.0,
@@ -598,6 +608,7 @@
           "a4c6"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {
@@ -628,7 +639,7 @@
       "device_id": "Hager_TYA606E_397289089690000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Bath",
+        "location_id": "Control",
         "position": {
           "translation": {
             "x": 0.0,
@@ -651,6 +662,7 @@
           "a4c6consumption"
         ]
       },
+      "bound_to_device": true,
       "service_config": [
         {
           "binding_service_config": {

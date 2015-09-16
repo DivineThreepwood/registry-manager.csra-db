@@ -37,7 +37,7 @@
   "unit_config": [
     {
       "id": "/home/living/button/controlbelowbutton1/",
-      "label": "ControlBelowButton1",
+      "label": "ControlBelowButtons",
       "device_id": "Gira_429496730210000_433819550860000",
       "type": "BUTTON",
       "placement_config": {
@@ -91,7 +91,7 @@
     },
     {
       "id": "/home/living/button/controlbelowbutton2/",
-      "label": "ControlBelowButton2",
+      "label": "ControlBelowButtons",
       "device_id": "Gira_429496730210000_433819550860000",
       "type": "BUTTON",
       "placement_config": {
