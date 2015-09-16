@@ -37,7 +37,7 @@
   "unit_config": [
     {
       "id": "/home/living/ambientlight/couchhue/",
-      "label": "CouchHue",
+      "label": "LoungeLamp",
       "device_id": "Philips_KV01-18U_5D2FC2",
       "type": "AMBIENT_LIGHT",
       "placement_config": {
