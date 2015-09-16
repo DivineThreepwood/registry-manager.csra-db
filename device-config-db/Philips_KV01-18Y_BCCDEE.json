@@ -61,7 +61,7 @@
           "home",
           "living",
           "ambientlight",
-          "floorlamp"
+          "couchlamp"
         ]
       },
       "bound_to_device": true,

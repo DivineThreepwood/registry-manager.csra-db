@@ -61,7 +61,7 @@
           "home",
           "control",
           "powerplug",
-          "a9c1"
+          "poweractuator9"
         ]
       },
       "bound_to_device": true,
@@ -113,9 +113,9 @@
       "scope": {
         "component": [
           "home",
-          "sports",
+          "control",
           "powerconsumptionsensor",
-          "a9c1consumption"
+          "poweractuator9"
         ]
       },
       "bound_to_device": true,
@@ -167,9 +167,9 @@
       "scope": {
         "component": [
           "home",
-          "sports",
+          "control",
           "powerplug",
-          "a9c2"
+          "poweractuator9"
         ]
       },
       "bound_to_device": true,
@@ -221,7 +221,7 @@
       "scope": {
         "component": [
           "home",
-          "sports",
+          "control",
           "powerconsumptionsensor",
           "a9c2consumption"
         ]
@@ -275,7 +275,7 @@
       "scope": {
         "component": [
           "home",
-          "sports",
+          "control",
           "powerplug",
           "a9c3"
         ]
@@ -329,7 +329,7 @@
       "scope": {
         "component": [
           "home",
-          "sports",
+          "control",
           "powerconsumptionsensor",
           "a9c3consumption"
         ]
@@ -383,7 +383,7 @@
       "scope": {
         "component": [
           "home",
-          "living",
+          "control",
           "powerplug",
           "a9c4"
         ]
@@ -437,7 +437,7 @@
       "scope": {
         "component": [
           "home",
-          "living",
+          "control",
           "powerconsumptionsensor",
           "a9c4consumption"
         ]
@@ -491,7 +491,7 @@
       "scope": {
         "component": [
           "home",
-          "sports",
+          "control",
           "powerplug",
           "a9c5"
         ]
@@ -545,7 +545,7 @@
       "scope": {
         "component": [
           "home",
-          "sports",
+          "control",
           "powerconsumptionsensor",
           "a9c5consumption"
         ]
@@ -602,7 +602,7 @@
       "scope": {
         "component": [
           "home",
-          "dining",
+          "control",
           "powerplug",
           "a9c6"
         ]
@@ -659,7 +659,7 @@
       "scope": {
         "component": [
           "home",
-          "dining",
+          "control",
           "powerconsumptionsensor",
           "a9c6consumption"
         ]
