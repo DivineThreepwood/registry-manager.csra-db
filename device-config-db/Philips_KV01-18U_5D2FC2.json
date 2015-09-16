@@ -73,7 +73,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philps_Hue_E27__home_living__AmbientLight__CouchHue__BrightnessService"
+                  "value": "Philps_Hue_E27__home_living__AmbientLight__LoungeLamp__BrightnessService"
                 }
               ]
             }
@@ -89,7 +89,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philps_Hue_E27__home_living__AmbientLight__CouchHue__ColorService"
+                  "value": "Philps_Hue_E27__home_living__AmbientLight__LoungeLamp__ColorService"
                 }
               ]
             }
@@ -105,7 +105,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philps_Hue_E27__home_living__AmbientLight__CouchHue__PowerService"
+                  "value": "Philps_Hue_E27__home_living__AmbientLight__LoungeLamp__PowerService"
                 }
               ]
             }
