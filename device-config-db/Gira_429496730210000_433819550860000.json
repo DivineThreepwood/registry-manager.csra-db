@@ -61,7 +61,7 @@
           "home",
           "living",
           "button",
-          "controlbelowbutton1"
+          "controlbelowbuttons"
         ]
       },
       "bound_to_device": true,
@@ -115,7 +115,7 @@
           "home",
           "living",
           "button",
-          "controlbelowbutton2"
+          "controlbelowbuttons"
         ]
       },
       "bound_to_device": true,

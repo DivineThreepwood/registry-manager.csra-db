@@ -61,7 +61,7 @@
           "home",
           "wardrobe",
           "button",
-          "hallwayabovebutton1"
+          "hallwayabovebuttons"
         ]
       },
       "bound_to_device": true,
@@ -115,7 +115,7 @@
           "home",
           "wardrobe",
           "button",
-          "hallwayabovebutton2"
+          "hallwayabovebuttons"
         ]
       },
       "bound_to_device": true,
