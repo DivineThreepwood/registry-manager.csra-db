@@ -73,7 +73,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philips_Hue_GU10__home_living__AmbientLight__FloorLamp__BrightnessService"
+                  "value": "Philips_Hue_GU10__home_living__AmbientLight__CouchLamp__BrightnessService"
                 }
               ]
             }
@@ -89,7 +89,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philips_Hue_GU10__home_living__AmbientLight__FloorLamp__ColorService"
+                  "value": "Philips_Hue_GU10__home_living__AmbientLight__CouchLamp__ColorService"
                 }
               ]
             }
@@ -105,7 +105,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philips_Hue_GU10__home_living__AmbientLight__FloorLamp__PowerService"
+                  "value": "Philips_Hue_GU10__home_living__AmbientLight__CouchLamp__PowerService"
                 }
               ]
             }
