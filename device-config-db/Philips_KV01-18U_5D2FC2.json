@@ -1,6 +1,6 @@
 {
   "id": "Philips_KV01-18U_5D2FC2",
-  "label": "CouchHue",
+  "label": "LoungeLamp",
   "placement_config": {
     "location_id": "Living",
     "position": {
@@ -21,7 +21,7 @@
     "component": [
       "home",
       "living",
-      "couchhue"
+      "loungelamp"
     ]
   },
   "serial_number": "5D2FC2",
