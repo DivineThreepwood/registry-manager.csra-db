@@ -78,7 +78,7 @@
               ]
             }
           },
-          "unit_id": "/home/living/ambientlight/floorlamp/",
+          "unit_id": "/home/living/ambientlight/couchlamp/",
           "type": "BRIGHTNESS_SERVICE",
           "meta_config": {}
         },
@@ -94,7 +94,7 @@
               ]
             }
           },
-          "unit_id": "/home/living/ambientlight/floorlamp/",
+          "unit_id": "/home/living/ambientlight/couchlamp/",
           "type": "COLOR_SERVICE",
           "meta_config": {}
         },
@@ -110,7 +110,7 @@
               ]
             }
           },
-          "unit_id": "/home/living/ambientlight/floorlamp/",
+          "unit_id": "/home/living/ambientlight/couchlamp/",
           "type": "POWER_SERVICE",
           "meta_config": {}
         }
