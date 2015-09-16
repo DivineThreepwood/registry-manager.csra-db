@@ -77,7 +77,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA606E__home_control__PowerPlug__A6C1__PowerService"
+                  "value": "Hager_TYA606E__home_control__PowerPlug__PowerActuator6__PowerService"
                 }
               ]
             }
@@ -131,7 +131,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA606E__home_control__PowerConsumptionSensor__A6C1Comsumption__PowerConsumptionProvider"
+                  "value": "Hager_TYA606E__home_control__PowerConsumptionSensor__PowerActuator6__PowerConsumptionProvider"
                 }
               ]
             }
@@ -185,7 +185,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA606E__home_control__PowerPlug__A6C2__PowerService"
+                  "value": "Hager_TYA606E__home_control__PowerPlug__PowerActuator6__PowerService"
                 }
               ]
             }
