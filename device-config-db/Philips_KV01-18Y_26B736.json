@@ -61,7 +61,7 @@
           "home",
           "kitchen",
           "ambientlight",
-          "global_2"
+          "ceilinglamp_2"
         ]
       },
       "bound_to_device": true,
