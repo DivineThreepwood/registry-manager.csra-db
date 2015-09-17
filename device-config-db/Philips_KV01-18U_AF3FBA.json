@@ -26,10 +26,10 @@
   },
   "serial_number": "AF3FBA",
   "inventory_state": {
-    "value": "INSTALLED",
+    "value": "IN_STOCK",
     "location_id": "Living",
     "timestamp": {
-      "time": 1441015992221
+      "time": 1442493830531
     },
     "owner": {}
   },

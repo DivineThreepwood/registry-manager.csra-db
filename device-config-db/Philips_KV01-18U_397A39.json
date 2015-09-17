@@ -26,10 +26,10 @@
   },
   "serial_number": "397A39",
   "inventory_state": {
-    "value": "INSTALLED",
+    "value": "IN_STOCK",
     "location_id": "Bath",
     "timestamp": {
-      "time": 1441014607352
+      "time": 1442493619135
     },
     "owner": {}
   },

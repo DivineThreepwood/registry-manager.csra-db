@@ -37,11 +37,11 @@
   "unit_config": [
     {
       "id": "/home/sports/powerplug/a11c1/",
-      "label": "PowerActuator11",
+      "label": "A11C1",
       "device_id": "Hager_TYA606E_397293269320000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "Sports",
         "position": {
           "translation": {
             "x": 0.0,
@@ -59,12 +59,12 @@
       "scope": {
         "component": [
           "home",
-          "control",
+          "sports",
           "powerplug",
-          "poweractuator11"
+          "a11c1"
         ]
       },
-      "bound_to_device": true,
+      "bound_to_device": false,
       "service_config": [
         {
           "binding_service_config": {
@@ -77,7 +77,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA606E__home_control__PowerPlug__PowerActuator11__PowerService"
+                  "value": "Hager_TYA606E__home_control__PowerPlug__A11C1__PowerService"
                 }
               ]
             }
@@ -91,11 +91,11 @@
     },
     {
       "id": "/home/sports/powerconsumptionsensor/a11c1consumption/",
-      "label": "PowerActuator11",
+      "label": "A11C1Consumption",
       "device_id": "Hager_TYA606E_397293269320000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "Sports",
         "position": {
           "translation": {
             "x": 0.0,
@@ -113,12 +113,12 @@
       "scope": {
         "component": [
           "home",
-          "control",
+          "sports",
           "powerconsumptionsensor",
-          "poweractuator11"
+          "a11c1consumption"
         ]
       },
-      "bound_to_device": true,
+      "bound_to_device": false,
       "service_config": [
         {
           "binding_service_config": {
@@ -131,7 +131,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA606E__home_control__PowerConsumptionSensor__PowerActuator11__PowerConsumptionProvider"
+                  "value": "Hager_TYA606E__home_control__PowerConsumptionSensor__A11C1Consumption__PowerConsumptionProvider"
                 }
               ]
             }
@@ -145,7 +145,7 @@
     },
     {
       "id": "/home/control/powerplug/a11c2/",
-      "label": "PowerActuator11",
+      "label": "A11C2",
       "device_id": "Hager_TYA606E_397293269320000",
       "type": "POWER_PLUG",
       "placement_config": {
@@ -169,10 +169,10 @@
           "home",
           "control",
           "powerplug",
-          "poweractuator11"
+          "a11c2"
         ]
       },
-      "bound_to_device": true,
+      "bound_to_device": false,
       "service_config": [
         {
           "binding_service_config": {
@@ -185,7 +185,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA606E__home_control__PowerPlug__PowerActuator11__PowerService"
+                  "value": "Hager_TYA606E__home_control__PowerPlug__A11C2__PowerService"
                 }
               ]
             }
@@ -226,7 +226,7 @@
           "a11c2consumption"
         ]
       },
-      "bound_to_device": true,
+      "bound_to_device": false,
       "service_config": [
         {
           "binding_service_config": {
@@ -280,7 +280,7 @@
           "a11c3"
         ]
       },
-      "bound_to_device": true,
+      "bound_to_device": false,
       "service_config": [
         {
           "binding_service_config": {
@@ -334,7 +334,7 @@
           "a11c3consumption"
         ]
       },
-      "bound_to_device": true,
+      "bound_to_device": false,
       "service_config": [
         {
           "binding_service_config": {
@@ -388,7 +388,7 @@
           "a11c4"
         ]
       },
-      "bound_to_device": true,
+      "bound_to_device": false,
       "service_config": [
         {
           "binding_service_config": {
@@ -442,7 +442,7 @@
           "a11c4consumption"
         ]
       },
-      "bound_to_device": true,
+      "bound_to_device": false,
       "service_config": [
         {
           "binding_service_config": {
@@ -496,7 +496,7 @@
           "a11c5"
         ]
       },
-      "bound_to_device": true,
+      "bound_to_device": false,
       "service_config": [
         {
           "binding_service_config": {
@@ -550,7 +550,7 @@
           "a11c5consumption"
         ]
       },
-      "bound_to_device": true,
+      "bound_to_device": false,
       "service_config": [
         {
           "binding_service_config": {
@@ -604,7 +604,7 @@
           "a11c6"
         ]
       },
-      "bound_to_device": true,
+      "bound_to_device": false,
       "service_config": [
         {
           "binding_service_config": {
@@ -658,7 +658,7 @@
           "a11c6consumption"
         ]
       },
-      "bound_to_device": true,
+      "bound_to_device": false,
       "service_config": [
         {
           "binding_service_config": {

@@ -36,8 +36,8 @@
   "device_class_id": "Gira_429496730210000",
   "unit_config": [
     {
-      "id": "/home/living/button/sportsdoorbutton1/",
-      "label": "SportsDoorButtons",
+      "id": "/home/living/button/sportsdoorbutton_1/",
+      "label": "SportsDoorButton 1",
       "device_id": "Gira_429496730210000_433742218830000",
       "type": "BUTTON",
       "placement_config": {
@@ -61,7 +61,7 @@
           "home",
           "living",
           "button",
-          "sportsdoorbuttons"
+          "sportsdoorbutton_1"
         ]
       },
       "bound_to_device": true,
@@ -77,12 +77,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_living__Button__SportsDoorButtons__ButtonProvider"
+                  "value": "Gira_5133__home_living__Button__SportsDoorButton_1__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/living/button/sportsdoorbutton1/",
+          "unit_id": "/home/living/button/sportsdoorbutton_1/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }
@@ -90,8 +90,8 @@
       "meta_config": {}
     },
     {
-      "id": "/home/living/button/sportsdoorbutton2/",
-      "label": "SportsDoorButtons",
+      "id": "/home/living/button/sportsdoorbutton_2/",
+      "label": "SportsDoorButton 2",
       "device_id": "Gira_429496730210000_433742218830000",
       "type": "BUTTON",
       "placement_config": {
@@ -115,7 +115,7 @@
           "home",
           "living",
           "button",
-          "sportsdoorbuttons"
+          "sportsdoorbutton_2"
         ]
       },
       "bound_to_device": true,
@@ -131,12 +131,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_living__Button__SportsDoorButtons__ButtonProvider"
+                  "value": "Gira_5133__home_living__Button__SportsDoorButton_2__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/living/button/sportsdoorbutton2/",
+          "unit_id": "/home/living/button/sportsdoorbutton_2/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }
@@ -144,8 +144,8 @@
       "meta_config": {}
     },
     {
-      "id": "/home/living/button/sportsdoorbutton3/",
-      "label": "SportsDoorButton3",
+      "id": "/home/living/button/sportsdoorbutton_3/",
+      "label": "SportsDoorButton 3",
       "device_id": "Gira_429496730210000_433742218830000",
       "type": "BUTTON",
       "placement_config": {
@@ -169,7 +169,7 @@
           "home",
           "living",
           "button",
-          "sportsdoorbutton3"
+          "sportsdoorbutton_3"
         ]
       },
       "bound_to_device": true,
@@ -185,12 +185,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_living__Button__SportsDoorButton3__ButtonProvider"
+                  "value": "Gira_5133__home_living__Button__SportsDoorButton_3__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/living/button/sportsdoorbutton3/",
+          "unit_id": "/home/living/button/sportsdoorbutton_3/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }
@@ -198,8 +198,8 @@
       "meta_config": {}
     },
     {
-      "id": "/home/living/button/sportsdoorbutton4/",
-      "label": "SportsDoorButton4",
+      "id": "/home/living/button/sportsdoorbutton_4/",
+      "label": "SportsDoorButton 4",
       "device_id": "Gira_429496730210000_433742218830000",
       "type": "BUTTON",
       "placement_config": {
@@ -223,7 +223,7 @@
           "home",
           "living",
           "button",
-          "sportsdoorbutton4"
+          "sportsdoorbutton_4"
         ]
       },
       "bound_to_device": true,
@@ -239,12 +239,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_living__Button__SportsDoorButton4__ButtonProvider"
+                  "value": "Gira_5133__home_living__Button__SportsDoorButton_4__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/living/button/sportsdoorbutton4/",
+          "unit_id": "/home/living/button/sportsdoorbutton_4/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }
@@ -252,8 +252,8 @@
       "meta_config": {}
     },
     {
-      "id": "/home/living/button/sportsdoorbutton5/",
-      "label": "SportsDoorButton5",
+      "id": "/home/living/button/loungelight/",
+      "label": "LoungeLight",
       "device_id": "Gira_429496730210000_433742218830000",
       "type": "BUTTON",
       "placement_config": {
@@ -277,7 +277,7 @@
           "home",
           "living",
           "button",
-          "sportsdoorbutton5"
+          "loungelight"
         ]
       },
       "bound_to_device": true,
@@ -293,12 +293,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_living__Button__SportsDoorButton5__ButtonProvider"
+                  "value": "Gira_5133__home_living__Button__LoungeLight__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/living/button/sportsdoorbutton5/",
+          "unit_id": "/home/living/button/loungelight/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }
@@ -306,8 +306,8 @@
       "meta_config": {}
     },
     {
-      "id": "/home/living/button/sportsdoorbutton6/",
-      "label": "SportsDoorButton6",
+      "id": "/home/living/button/apartmentlight/",
+      "label": "ApartmentLight",
       "device_id": "Gira_429496730210000_433742218830000",
       "type": "BUTTON",
       "placement_config": {
@@ -331,7 +331,7 @@
           "home",
           "living",
           "button",
-          "sportsdoorbutton6"
+          "apartmentlight"
         ]
       },
       "bound_to_device": true,
@@ -347,12 +347,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_living__Button__SportsDoorButton6__ButtonProvider"
+                  "value": "Gira_5133__home_living__Button__ApartmentLight__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/living/button/sportsdoorbutton6/",
+          "unit_id": "/home/living/button/apartmentlight/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }

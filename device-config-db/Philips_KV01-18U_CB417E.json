@@ -26,10 +26,10 @@
   },
   "serial_number": "CB417E",
   "inventory_state": {
-    "value": "INSTALLED",
+    "value": "IN_STOCK",
     "location_id": "Living",
     "timestamp": {
-      "time": 1441016128437
+      "time": 1442493751277
     },
     "owner": {}
   },

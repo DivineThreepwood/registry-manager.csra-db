@@ -26,10 +26,10 @@
   },
   "serial_number": "E5FCD8",
   "inventory_state": {
-    "value": "INSTALLED",
+    "value": "IN_STOCK",
     "location_id": "Bath",
     "timestamp": {
-      "time": 1441016395812
+      "time": 1442493717891
     },
     "owner": {}
   },

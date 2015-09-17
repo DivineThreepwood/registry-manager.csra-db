@@ -36,8 +36,8 @@
   "device_class_id": "Gira_429496730250000",
   "unit_config": [
     {
-      "id": "/home/sports/temperaturecontroller/pathway/",
-      "label": "PathwayButtons1",
+      "id": "/home/sports/temperaturecontroller/temperaturecontrollersports/",
+      "label": "TemperatureControllerSports",
       "device_id": "Gira_429496730250000_431652915340000",
       "type": "TEMPERATURE_CONTROLLER",
       "placement_config": {
@@ -61,7 +61,7 @@
           "home",
           "sports",
           "temperaturecontroller",
-          "pathwaybuttons1"
+          "temperaturecontrollersports"
         ]
       },
       "bound_to_device": true,
@@ -77,12 +77,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5142__home_sports__TemperatureController__PathwayButtons1__TemperatureProvider"
+                  "value": "Gira_5142__home_sports__TemperatureController__TemperatureControllerSports__TemperatureProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/sports/temperaturecontroller/pathway/",
+          "unit_id": "/home/sports/temperaturecontroller/temperaturecontrollersports/",
           "type": "TEMPERATURE_PROVIDER",
           "meta_config": {}
         },
@@ -97,12 +97,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5142__home_sports__TemperatureController__PathwayButtons1__Unknown"
+                  "value": "Gira_5142__home_sports__TemperatureController__TemperatureControllerSports__Unknown"
                 }
               ]
             }
           },
-          "unit_id": "/home/sports/temperaturecontroller/pathway/",
+          "unit_id": "/home/sports/temperaturecontroller/temperaturecontrollersports/",
           "type": "UNKNOWN",
           "meta_config": {}
         }
@@ -110,8 +110,8 @@
       "meta_config": {}
     },
     {
-      "id": "/home/sports/button/button1/",
-      "label": "PathwayButtons1",
+      "id": "/home/sports/button/button_1/",
+      "label": "Button 1",
       "device_id": "Gira_429496730250000_431652915340000",
       "type": "BUTTON",
       "placement_config": {
@@ -135,7 +135,7 @@
           "home",
           "sports",
           "button",
-          "pathwaybuttons1"
+          "button_1"
         ]
       },
       "bound_to_device": true,
@@ -151,12 +151,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5142__home_sports__Button__PathwayButtons1__ButtonProvider"
+                  "value": "Gira_5142__home_sports__Button__Button_1__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/sports/button/button1/",
+          "unit_id": "/home/sports/button/button_1/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }
@@ -164,8 +164,8 @@
       "meta_config": {}
     },
     {
-      "id": "/home/sports/button/button2/",
-      "label": "PathwayButtons1",
+      "id": "/home/sports/button/button_2/",
+      "label": "Button 2",
       "device_id": "Gira_429496730250000_431652915340000",
       "type": "BUTTON",
       "placement_config": {
@@ -189,7 +189,7 @@
           "home",
           "sports",
           "button",
-          "pathwaybuttons1"
+          "button_2"
         ]
       },
       "bound_to_device": true,
@@ -205,12 +205,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5142__home_sports__Button__PathwayButtons1__ButtonProvider"
+                  "value": "Gira_5142__home_sports__Button__Button_2__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/sports/button/button2/",
+          "unit_id": "/home/sports/button/button_2/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }
@@ -218,8 +218,8 @@
       "meta_config": {}
     },
     {
-      "id": "/home/sports/button/button3/",
-      "label": "Button3",
+      "id": "/home/sports/button/button_3/",
+      "label": "Button 3",
       "device_id": "Gira_429496730250000_431652915340000",
       "type": "BUTTON",
       "placement_config": {
@@ -243,7 +243,7 @@
           "home",
           "sports",
           "button",
-          "button3"
+          "button_3"
         ]
       },
       "bound_to_device": true,
@@ -259,12 +259,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5142__home_sports__Button__Button3__ButtonProvider"
+                  "value": "Gira_5142__home_sports__Button__Button_3__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/sports/button/button3/",
+          "unit_id": "/home/sports/button/button_3/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }

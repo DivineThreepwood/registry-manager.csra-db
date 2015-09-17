@@ -26,10 +26,10 @@
   },
   "serial_number": "635C62",
   "inventory_state": {
-    "value": "INSTALLED",
+    "value": "IN_STOCK",
     "location_id": "Living",
     "timestamp": {
-      "time": 1441014897471
+      "time": 1442493858803
     },
     "owner": {}
   },

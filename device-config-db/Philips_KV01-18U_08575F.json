@@ -26,10 +26,10 @@
   },
   "serial_number": "08575F",
   "inventory_state": {
-    "value": "INSTALLED",
+    "value": "IN_STOCK",
     "location_id": "Bath",
     "timestamp": {
-      "time": 1441014222744
+      "time": 1442493661850
     },
     "owner": {}
   },

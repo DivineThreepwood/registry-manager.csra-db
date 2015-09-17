@@ -37,7 +37,7 @@
   "unit_config": [
     {
       "id": "/home/wardrobe/button/entrancebutton1/",
-      "label": "EntranceButtons",
+      "label": "EntranceButton1",
       "device_id": "Gira_429496730210000_433826759820000",
       "type": "BUTTON",
       "placement_config": {
@@ -61,7 +61,7 @@
           "home",
           "wardrobe",
           "button",
-          "entrancebuttons"
+          "entrancebutton1"
         ]
       },
       "bound_to_device": true,
@@ -77,7 +77,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_wardrobe__Button__EntranceButtons__ButtonProvider"
+                  "value": "Gira_5133__home_wardrobe__Button__EntranceButton1__ButtonProvider"
                 }
               ]
             }
@@ -91,7 +91,7 @@
     },
     {
       "id": "/home/wardrobe/button/entrancebutton2/",
-      "label": "EntranceButtons",
+      "label": "EntranceButton2",
       "device_id": "Gira_429496730210000_433826759820000",
       "type": "BUTTON",
       "placement_config": {
@@ -115,7 +115,7 @@
           "home",
           "wardrobe",
           "button",
-          "entrancebuttons"
+          "entrancebutton2"
         ]
       },
       "bound_to_device": true,
@@ -131,7 +131,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_wardrobe__Button__EntranceButtons__ButtonProvider"
+                  "value": "Gira_5133__home_wardrobe__Button__EntranceButton2__ButtonProvider"
                 }
               ]
             }
@@ -252,8 +252,8 @@
       "meta_config": {}
     },
     {
-      "id": "/home/wardrobe/button/entrancebutton5/",
-      "label": "EntranceButton5",
+      "id": "/home/wardrobe/button/wardrobelight/",
+      "label": "WardrobeLight",
       "device_id": "Gira_429496730210000_433826759820000",
       "type": "BUTTON",
       "placement_config": {
@@ -277,7 +277,7 @@
           "home",
           "wardrobe",
           "button",
-          "entrancebutton5"
+          "wardrobelight"
         ]
       },
       "bound_to_device": true,
@@ -293,12 +293,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_wardrobe__Button__EntranceButton5__ButtonProvider"
+                  "value": "Gira_5133__home_wardrobe__Button__WardrobeLight__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/wardrobe/button/entrancebutton5/",
+          "unit_id": "/home/wardrobe/button/wardrobelight/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }
@@ -306,8 +306,8 @@
       "meta_config": {}
     },
     {
-      "id": "/home/wardrobe/button/entrancebutton6/",
-      "label": "EntranceButton6",
+      "id": "/home/wardrobe/button/apartmentlight/",
+      "label": "ApartmentLight",
       "device_id": "Gira_429496730210000_433826759820000",
       "type": "BUTTON",
       "placement_config": {
@@ -331,7 +331,7 @@
           "home",
           "wardrobe",
           "button",
-          "entrancebutton6"
+          "apartmentlight"
         ]
       },
       "bound_to_device": true,
@@ -347,12 +347,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_wardrobe__Button__EntranceButton6__ButtonProvider"
+                  "value": "Gira_5133__home_wardrobe__Button__ApartmentLight__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/wardrobe/button/entrancebutton6/",
+          "unit_id": "/home/wardrobe/button/apartmentlight/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }

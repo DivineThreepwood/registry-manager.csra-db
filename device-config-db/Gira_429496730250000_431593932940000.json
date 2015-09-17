@@ -36,8 +36,8 @@
   "device_class_id": "Gira_429496730250000",
   "unit_config": [
     {
-      "id": "/home/bath/temperaturecontroller/entrance/",
-      "label": "EntranceButtons",
+      "id": "/home/bath/temperaturecontroller/temperaturecontrollerbath/",
+      "label": "TemperatureControllerBath",
       "device_id": "Gira_429496730250000_431593932940000",
       "type": "TEMPERATURE_CONTROLLER",
       "placement_config": {
@@ -61,7 +61,7 @@
           "home",
           "bath",
           "temperaturecontroller",
-          "entrancebuttons"
+          "temperaturecontrollerbath"
         ]
       },
       "bound_to_device": true,
@@ -77,12 +77,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5142__home_bath__TemperatureController__EntranceButtons__TemperatureProvider"
+                  "value": "Gira_5142__home_bath__TemperatureController__TemperatureControllerBath__TemperatureProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/bath/temperaturecontroller/entrance/",
+          "unit_id": "/home/bath/temperaturecontroller/temperaturecontrollerbath/",
           "type": "TEMPERATURE_PROVIDER",
           "meta_config": {}
         },
@@ -97,12 +97,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5142__home_bath__TemperatureController__EntranceButtons__Unknown"
+                  "value": "Gira_5142__home_bath__TemperatureController__TemperatureControllerBath__Unknown"
                 }
               ]
             }
           },
-          "unit_id": "/home/bath/temperaturecontroller/entrance/",
+          "unit_id": "/home/bath/temperaturecontroller/temperaturecontrollerbath/",
           "type": "UNKNOWN",
           "meta_config": {}
         }
@@ -110,8 +110,8 @@
       "meta_config": {}
     },
     {
-      "id": "/home/bath/button/button1/",
-      "label": "EntranceButtons",
+      "id": "/home/bath/button/button_1/",
+      "label": "Button 1",
       "device_id": "Gira_429496730250000_431593932940000",
       "type": "BUTTON",
       "placement_config": {
@@ -135,7 +135,7 @@
           "home",
           "bath",
           "button",
-          "entrancebuttons"
+          "button_1"
         ]
       },
       "bound_to_device": true,
@@ -151,12 +151,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5142__home_bath__Button__EntranceButtons__ButtonProvider"
+                  "value": "Gira_5142__home_bath__Button__Button_1__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/bath/button/button1/",
+          "unit_id": "/home/bath/button/button_1/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }
@@ -164,8 +164,8 @@
       "meta_config": {}
     },
     {
-      "id": "/home/bath/button/button2/",
-      "label": "EntranceButtons",
+      "id": "/home/bath/button/button_2_/",
+      "label": "Button 2 ",
       "device_id": "Gira_429496730250000_431593932940000",
       "type": "BUTTON",
       "placement_config": {
@@ -189,7 +189,7 @@
           "home",
           "bath",
           "button",
-          "entrancebuttons"
+          "button_2_"
         ]
       },
       "bound_to_device": true,
@@ -205,12 +205,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5142__home_bath__Button__EntranceButtons__ButtonProvider"
+                  "value": "Gira_5142__home_bath__Button__Button_2___ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/bath/button/button2/",
+          "unit_id": "/home/bath/button/button_2_/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }
@@ -218,8 +218,8 @@
       "meta_config": {}
     },
     {
-      "id": "/home/bath/button/button3/",
-      "label": "Button3",
+      "id": "/home/bath/button/button_3/",
+      "label": "Button 3",
       "device_id": "Gira_429496730250000_431593932940000",
       "type": "BUTTON",
       "placement_config": {
@@ -243,7 +243,7 @@
           "home",
           "bath",
           "button",
-          "button3"
+          "button_3"
         ]
       },
       "bound_to_device": true,
@@ -259,12 +259,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5142__home_bath__Button__Button3__ButtonProvider"
+                  "value": "Gira_5142__home_bath__Button__Button_3__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/bath/button/button3/",
+          "unit_id": "/home/bath/button/button_3/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }
@@ -272,8 +272,8 @@
       "meta_config": {}
     },
     {
-      "id": "/home/bath/button/button4/",
-      "label": "Button4",
+      "id": "/home/bath/button/button_4/",
+      "label": "Button 4",
       "device_id": "Gira_429496730250000_431593932940000",
       "type": "BUTTON",
       "placement_config": {
@@ -297,7 +297,7 @@
           "home",
           "bath",
           "button",
-          "button4"
+          "button_4"
         ]
       },
       "bound_to_device": true,
@@ -313,12 +313,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5142__home_bath__Button__Button4__ButtonProvider"
+                  "value": "Gira_5142__home_bath__Button__Button_4__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/bath/button/button4/",
+          "unit_id": "/home/bath/button/button_4/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }

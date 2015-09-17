@@ -26,10 +26,10 @@
   },
   "serial_number": "27E533",
   "inventory_state": {
-    "value": "INSTALLED",
+    "value": "IN_STOCK",
     "location_id": "Living",
     "timestamp": {
-      "time": 1441014505648
+      "time": 1442493795611
     },
     "owner": {}
   },

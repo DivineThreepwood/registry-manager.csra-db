@@ -26,10 +26,10 @@
   },
   "serial_number": "F415A0",
   "inventory_state": {
-    "value": "INSTALLED",
+    "value": "IN_STOCK",
     "location_id": "Living",
     "timestamp": {
-      "time": 1441016598828
+      "time": 1442493887303
     },
     "owner": {}
   },

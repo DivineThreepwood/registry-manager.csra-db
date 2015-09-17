@@ -1,6 +1,6 @@
 {
   "id": "Philips_KV01-18Y_B44804",
-  "label": "Global_0",
+  "label": "CeilingLamp 4",
   "placement_config": {
     "location_id": "Kitchen",
     "position": {
@@ -21,7 +21,7 @@
     "component": [
       "home",
       "kitchen",
-      "global_0"
+      "ceilinglamp_4"
     ]
   },
   "serial_number": "B44804",
@@ -36,8 +36,8 @@
   "device_class_id": "Philips_KV01-18Y",
   "unit_config": [
     {
-      "id": "/home/kitchen/ambientlight/global_0/",
-      "label": "Global_0",
+      "id": "/home/kitchen/ambientlight/ceilinglamp_4/",
+      "label": "CeilingLamp 4",
       "device_id": "Philips_KV01-18Y_B44804",
       "type": "AMBIENT_LIGHT",
       "placement_config": {
@@ -61,7 +61,7 @@
           "home",
           "kitchen",
           "ambientlight",
-          "global_0"
+          "ceilinglamp_4"
         ]
       },
       "bound_to_device": true,
@@ -73,12 +73,12 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philips_Hue_GU10__home_kitchen__AmbientLight__Global_0__BrightnessService"
+                  "value": "Philips_Hue_GU10__home_kitchen__AmbientLight__CeilingLamp_4__BrightnessService"
                 }
               ]
             }
           },
-          "unit_id": "/home/kitchen/ambientlight/global_0/",
+          "unit_id": "/home/kitchen/ambientlight/ceilinglamp_4/",
           "type": "BRIGHTNESS_SERVICE",
           "meta_config": {}
         },
@@ -89,12 +89,12 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philips_Hue_GU10__home_kitchen__AmbientLight__Global_0__ColorService"
+                  "value": "Philips_Hue_GU10__home_kitchen__AmbientLight__CeilingLamp_4__ColorService"
                 }
               ]
             }
           },
-          "unit_id": "/home/kitchen/ambientlight/global_0/",
+          "unit_id": "/home/kitchen/ambientlight/ceilinglamp_4/",
           "type": "COLOR_SERVICE",
           "meta_config": {}
         },
@@ -105,12 +105,12 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philips_Hue_GU10__home_kitchen__AmbientLight__Global_0__PowerService"
+                  "value": "Philips_Hue_GU10__home_kitchen__AmbientLight__CeilingLamp_4__PowerService"
                 }
               ]
             }
           },
-          "unit_id": "/home/kitchen/ambientlight/global_0/",
+          "unit_id": "/home/kitchen/ambientlight/ceilinglamp_4/",
           "type": "POWER_SERVICE",
           "meta_config": {}
         }

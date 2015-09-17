@@ -26,10 +26,10 @@
   },
   "serial_number": "F2A5BE",
   "inventory_state": {
-    "value": "INSTALLED",
+    "value": "IN_STOCK",
     "location_id": "Bath",
     "timestamp": {
-      "time": 1441016556908
+      "time": 1442493728758
     },
     "owner": {}
   },

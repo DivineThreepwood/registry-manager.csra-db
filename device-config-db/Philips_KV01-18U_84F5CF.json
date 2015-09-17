@@ -26,10 +26,10 @@
   },
   "serial_number": "84F5CF",
   "inventory_state": {
-    "value": "INSTALLED",
+    "value": "IN_STOCK",
     "location_id": "Living",
     "timestamp": {
-      "time": 1441015729462
+      "time": 1442493764187
     },
     "owner": {}
   },

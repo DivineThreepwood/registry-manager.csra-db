@@ -37,11 +37,11 @@
   "unit_config": [
     {
       "id": "/home/dining/powerplug/a3c1/",
-      "label": "PowerActuator3",
+      "label": "A3C1",
       "device_id": "Hager_TYA606E_397293269350000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "Dining",
         "position": {
           "translation": {
             "x": 0.0,
@@ -59,12 +59,12 @@
       "scope": {
         "component": [
           "home",
-          "control",
+          "dining",
           "powerplug",
-          "poweractuator3"
+          "a3c1"
         ]
       },
-      "bound_to_device": true,
+      "bound_to_device": false,
       "service_config": [
         {
           "binding_service_config": {
@@ -77,7 +77,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA606E__home_control__PowerPlug__PowerActuator3__PowerService"
+                  "value": "Hager_TYA606E__home_control__PowerPlug__A3C1__PowerService"
                 }
               ]
             }
@@ -91,11 +91,11 @@
     },
     {
       "id": "/home/dining/powerconsumptionsensor/a3c1consumption/",
-      "label": "PowerActuator3",
+      "label": "A3C1Consumption",
       "device_id": "Hager_TYA606E_397293269350000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "Dining",
         "position": {
           "translation": {
             "x": 0.0,
@@ -113,12 +113,12 @@
       "scope": {
         "component": [
           "home",
-          "control",
+          "dining",
           "powerconsumptionsensor",
-          "poweractuator3"
+          "a3c1consumption"
         ]
       },
-      "bound_to_device": true,
+      "bound_to_device": false,
       "service_config": [
         {
           "binding_service_config": {
@@ -127,7 +127,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA606E__home_control__PowerConsumptionSensor__PowerActuator3__PowerConsumptionProvider"
+                  "value": "Hager_TYA606E__home_control__PowerConsumptionSensor__A3C1Consumption__PowerConsumptionProvider"
                 }
               ]
             }
@@ -148,11 +148,11 @@
     },
     {
       "id": "/home/kitchen/powerplug/a3c2/",
-      "label": "PowerActuator3",
+      "label": "A3C2",
       "device_id": "Hager_TYA606E_397293269350000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "Kitchen",
         "position": {
           "translation": {
             "x": 0.0,
@@ -170,12 +170,12 @@
       "scope": {
         "component": [
           "home",
-          "control",
+          "kitchen",
           "powerplug",
-          "poweractuator3"
+          "a3c2"
         ]
       },
-      "bound_to_device": true,
+      "bound_to_device": false,
       "service_config": [
         {
           "binding_service_config": {
@@ -188,7 +188,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA606E__home_control__PowerPlug__PowerActuator3__PowerService"
+                  "value": "Hager_TYA606E__home_control__PowerPlug__A3C2__PowerService"
                 }
               ]
             }
@@ -206,7 +206,7 @@
       "device_id": "Hager_TYA606E_397293269350000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "Kitchen",
         "position": {
           "translation": {
             "x": 0.0,
@@ -224,12 +224,12 @@
       "scope": {
         "component": [
           "home",
-          "control",
+          "kitchen",
           "powerconsumptionsensor",
           "a3c2consumption"
         ]
       },
-      "bound_to_device": true,
+      "bound_to_device": false,
       "service_config": [
         {
           "binding_service_config": {
@@ -260,7 +260,7 @@
       "device_id": "Hager_TYA606E_397293269350000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "Kitchen",
         "position": {
           "translation": {
             "x": 0.0,
@@ -278,12 +278,13 @@
       "scope": {
         "component": [
           "home",
-          "control",
+          "kitchen",
           "powerplug",
           "a3c3"
         ]
       },
-      "bound_to_device": true,
+      "description": "Kettle",
+      "bound_to_device": false,
       "service_config": [
         {
           "binding_service_config": {
@@ -314,7 +315,7 @@
       "device_id": "Hager_TYA606E_397293269350000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "Kitchen",
         "position": {
           "translation": {
             "x": 0.0,
@@ -332,12 +333,13 @@
       "scope": {
         "component": [
           "home",
-          "control",
+          "kitchen",
           "powerconsumptionsensor",
           "a3c3consumption"
         ]
       },
-      "bound_to_device": true,
+      "description": "Kettle",
+      "bound_to_device": false,
       "service_config": [
         {
           "binding_service_config": {
@@ -368,7 +370,7 @@
       "device_id": "Hager_TYA606E_397293269350000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "Kitchen",
         "position": {
           "translation": {
             "x": 0.0,
@@ -386,12 +388,12 @@
       "scope": {
         "component": [
           "home",
-          "control",
+          "kitchen",
           "powerplug",
           "a3c4"
         ]
       },
-      "bound_to_device": true,
+      "bound_to_device": false,
       "service_config": [
         {
           "binding_service_config": {
@@ -422,7 +424,7 @@
       "device_id": "Hager_TYA606E_397293269350000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "Kitchen",
         "position": {
           "translation": {
             "x": 0.0,
@@ -440,12 +442,12 @@
       "scope": {
         "component": [
           "home",
-          "control",
+          "kitchen",
           "powerconsumptionsensor",
           "a3c4consumption"
         ]
       },
-      "bound_to_device": true,
+      "bound_to_device": false,
       "service_config": [
         {
           "binding_service_config": {
@@ -476,7 +478,7 @@
       "device_id": "Hager_TYA606E_397293269350000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "Kitchen",
         "position": {
           "translation": {
             "x": 0.0,
@@ -494,12 +496,12 @@
       "scope": {
         "component": [
           "home",
-          "control",
+          "kitchen",
           "powerplug",
           "a3c5"
         ]
       },
-      "bound_to_device": true,
+      "bound_to_device": false,
       "service_config": [
         {
           "binding_service_config": {
@@ -530,7 +532,7 @@
       "device_id": "Hager_TYA606E_397293269350000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "Kitchen",
         "position": {
           "translation": {
             "x": 0.0,
@@ -548,12 +550,12 @@
       "scope": {
         "component": [
           "home",
-          "control",
+          "kitchen",
           "powerconsumptionsensor",
           "a3c5consumption"
         ]
       },
-      "bound_to_device": true,
+      "bound_to_device": false,
       "service_config": [
         {
           "binding_service_config": {
@@ -584,7 +586,7 @@
       "device_id": "Hager_TYA606E_397293269350000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "Kitchen",
         "position": {
           "translation": {
             "x": 0.0,
@@ -602,12 +604,12 @@
       "scope": {
         "component": [
           "home",
-          "control",
+          "kitchen",
           "powerplug",
           "a3c6"
         ]
       },
-      "bound_to_device": true,
+      "bound_to_device": false,
       "service_config": [
         {
           "binding_service_config": {
@@ -641,7 +643,7 @@
       "device_id": "Hager_TYA606E_397293269350000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "Kitchen",
         "position": {
           "translation": {
             "x": 0.0,
@@ -659,12 +661,12 @@
       "scope": {
         "component": [
           "home",
-          "control",
+          "kitchen",
           "powerconsumptionsensor",
           "a3c6consumption"
         ]
       },
-      "bound_to_device": true,
+      "bound_to_device": false,
       "service_config": [
         {
           "binding_service_config": {
