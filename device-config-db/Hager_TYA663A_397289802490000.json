@@ -77,7 +77,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA663A__home_control__Dimmer__Dimmer__DimService"
+                  "value": "Hager_TYA663A__home_kitchen__Dimmer__Dimmer__DimService"
                 }
               ]
             }
@@ -97,7 +97,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA663A__home_control__Dimmer__Dimmer__PowerService"
+                  "value": "Hager_TYA663A__home_kitchen__Dimmer__Dimmer__PowerService"
                 }
               ]
             }
@@ -151,7 +151,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA663A__home_control__Dimmer__TableDimmer__DimService"
+                  "value": "Hager_TYA663A__home_living__Dimmer__TableDimmer__DimService"
                 }
               ]
             }
@@ -171,7 +171,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA663A__home_control__Dimmer__TableDimmer__PowerService"
+                  "value": "Hager_TYA663A__home_living__Dimmer__TableDimmer__PowerService"
                 }
               ]
             }
@@ -225,7 +225,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA663A__home_control__Dimmer__LeftDimmer__DimService"
+                  "value": "Hager_TYA663A__home_living__Dimmer__LeftDimmer__DimService"
                 }
               ]
             }
@@ -245,7 +245,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA663A__home_control__Dimmer__LeftDimmer__PowerService"
+                  "value": "Hager_TYA663A__home_living__Dimmer__LeftDimmer__PowerService"
                 }
               ]
             }
