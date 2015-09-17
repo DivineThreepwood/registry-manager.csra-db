@@ -73,7 +73,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA663A__home_control__Dimmer__EntranceDimmer__DimService"
+                  "value": "Hager_TYA663A__home_wardrobe__Dimmer__EntranceDimmer__DimService"
                 }
               ]
             }
@@ -100,7 +100,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA663A__home_control__Dimmer__EntranceDimmer__PowerService"
+                  "value": "Hager_TYA663A__home_wardrobe__Dimmer__EntranceDimmer__PowerService"
                 }
               ]
             }
@@ -154,7 +154,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA663A__home_control__Dimmer__PathwayDimmer__DimService"
+                  "value": "Hager_TYA663A__home_wardrobe__Dimmer__PathwayDimmer__DimService"
                 }
               ]
             }
@@ -174,7 +174,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA663A__home_control__Dimmer__PathwayDimmer__PowerService"
+                  "value": "Hager_TYA663A__home_wardrobe__Dimmer__PathwayDimmer__PowerService"
                 }
               ]
             }
@@ -228,7 +228,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA663A__home_control__Dimmer__Dimmer__DimService"
+                  "value": "Hager_TYA663A__home_bath__Dimmer__Dimmer__DimService"
                 }
               ]
             }
@@ -248,7 +248,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA663A__home_control__Dimmer__Dimmer__PowerService"
+                  "value": "Hager_TYA663A__home_bath__Dimmer__Dimmer__PowerService"
                 }
               ]
             }
