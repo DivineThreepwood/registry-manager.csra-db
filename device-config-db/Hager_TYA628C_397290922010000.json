@@ -78,7 +78,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA628C__home_control__Rollershutter__Inside__OpeningRatioProvider"
+                  "value": "Hager_TYA628C__home_sports__Rollershutter__Inside__OpeningRatioProvider"
                 }
               ]
             }
@@ -98,7 +98,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA628C__home_control__Rollershutter__Inside__ShutterService"
+                  "value": "Hager_TYA628C__home_sports__Rollershutter__Inside__ShutterService"
                 }
               ]
             }
@@ -153,7 +153,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA628C__home_control__Rollershutter__Outside__OpeningRatioProvider"
+                  "value": "Hager_TYA628C__home_sports__Rollershutter__Outside__OpeningRatioProvider"
                 }
               ]
             }
@@ -173,7 +173,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA628C__home_control__Rollershutter__Outside__ShutterService"
+                  "value": "Hager_TYA628C__home_sports__Rollershutter__Outside__ShutterService"
                 }
               ]
             }
@@ -228,7 +228,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA628C__home_control__Rollershutter__LeftInside__OpeningRatioProvider"
+                  "value": "Hager_TYA628C__home_living__Rollershutter__LeftInside__OpeningRatioProvider"
                 }
               ]
             }
@@ -248,7 +248,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA628C__home_control__Rollershutter__LeftInside__ShutterService"
+                  "value": "Hager_TYA628C__home_living__Rollershutter__LeftInside__ShutterService"
                 }
               ]
             }
@@ -303,7 +303,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA628C__home_control__Rollershutter__LeftOutside__OpeningRatioProvider"
+                  "value": "Hager_TYA628C__home_living__Rollershutter__LeftOutside__OpeningRatioProvider"
                 }
               ]
             }
@@ -323,7 +323,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA628C__home_control__Rollershutter__LeftOutside__ShutterService"
+                  "value": "Hager_TYA628C__home_living__Rollershutter__LeftOutside__ShutterService"
                 }
               ]
             }
@@ -378,7 +378,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA628C__home_control__Rollershutter__MiddleInside__OpeningRatioProvider"
+                  "value": "Hager_TYA628C__home_living__Rollershutter__MiddleInside__OpeningRatioProvider"
                 }
               ]
             }
@@ -398,7 +398,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA628C__home_control__Rollershutter__MiddleInside__ShutterService"
+                  "value": "Hager_TYA628C__home_living__Rollershutter__MiddleInside__ShutterService"
                 }
               ]
             }
@@ -453,7 +453,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA628C__home_control__Rollershutter__MiddleOutside__OpeningRatioProvider"
+                  "value": "Hager_TYA628C__home_living__Rollershutter__MiddleOutside__OpeningRatioProvider"
                 }
               ]
             }
@@ -473,7 +473,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA628C__home_control__Rollershutter__MiddleOutside__ShutterService"
+                  "value": "Hager_TYA628C__home_living__Rollershutter__MiddleOutside__ShutterService"
                 }
               ]
             }
@@ -528,7 +528,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA628C__home_control__Rollershutter__RightInside__OpeningRatioProvider"
+                  "value": "Hager_TYA628C__home_living__Rollershutter__RightInside__OpeningRatioProvider"
                 }
               ]
             }
@@ -548,7 +548,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA628C__home_control__Rollershutter__RightInside__ShutterService"
+                  "value": "Hager_TYA628C__home_living__Rollershutter__RightInside__ShutterService"
                 }
               ]
             }
@@ -603,7 +603,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA628C__home_control__Rollershutter__RightOutside__OpeningRatioProvider"
+                  "value": "Hager_TYA628C__home_living__Rollershutter__RightOutside__OpeningRatioProvider"
                 }
               ]
             }
@@ -623,7 +623,7 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA628C__home_control__Rollershutter__RightOutside__ShutterService"
+                  "value": "Hager_TYA628C__home_living__Rollershutter__RightOutside__ShutterService"
                 }
               ]
             }
