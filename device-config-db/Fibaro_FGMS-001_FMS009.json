@@ -278,6 +278,7 @@
         },
         {
           "binding_service_config": {},
+          "unit_id": "/home/temperaturesensor/global/",
           "type": "TEMPERATURE_ALARM_STATE_PROVIDER"
         }
       ],
