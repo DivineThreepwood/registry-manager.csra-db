@@ -69,7 +69,10 @@
             "type": "OPENHAB",
             "meta_config": {
               "entry": [
-                {},
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/1+5/1/7"
+                },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
                   "value": "Hager_TYA606E__home_control__PowerPlug__A1C1__PowerService"
