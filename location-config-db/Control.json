@@ -6,7 +6,6 @@
   "unit_id": [
     "/home/control/ambientlight/testunit_0/",
     "/home/control/powerconsumptionsensor/a11c6consumption/",
-    "/home/control/battery/controldoorreedswitch/",
     "/home/control/powerconsumptionsensor/a11c3consumption/",
     "/home/control/powerconsumptionsensor/a11c4consumption/",
     "/home/control/motionsensor/testunit_1/",
@@ -14,7 +13,6 @@
     "/home/control/tamperswitch/testunit_1/",
     "/home/control/brightnesssensor/testunit_1/",
     "/home/control/motionsensor/entrance/",
-    "/home/control/reedswitch/controldoorreedswitch/",
     "/home/control/battery/testunit_1/",
     "/home/control/powerconsumptionsensor/a11c2consumption/",
     "/home/control/temperaturesensor/entrance/",
