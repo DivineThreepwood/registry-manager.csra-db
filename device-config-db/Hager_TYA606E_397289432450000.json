@@ -52,7 +52,11 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "meta_config": {}
+            "meta_config": {
+              "entry": [
+                {}
+              ]
+            }
           },
           "type": "POWER_SERVICE",
           "meta_config": {}
@@ -85,7 +89,11 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "meta_config": {}
+            "meta_config": {
+              "entry": [
+                {}
+              ]
+            }
           },
           "type": "POWER_CONSUMPTION_PROVIDER",
           "meta_config": {}
@@ -118,7 +126,11 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "meta_config": {}
+            "meta_config": {
+              "entry": [
+                {}
+              ]
+            }
           },
           "type": "POWER_SERVICE",
           "meta_config": {}
@@ -151,7 +163,11 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "meta_config": {}
+            "meta_config": {
+              "entry": [
+                {}
+              ]
+            }
           },
           "type": "POWER_CONSUMPTION_PROVIDER",
           "meta_config": {}
@@ -184,7 +200,11 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "meta_config": {}
+            "meta_config": {
+              "entry": [
+                {}
+              ]
+            }
           },
           "type": "POWER_SERVICE",
           "meta_config": {}
@@ -217,7 +237,11 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "meta_config": {}
+            "meta_config": {
+              "entry": [
+                {}
+              ]
+            }
           },
           "type": "POWER_CONSUMPTION_PROVIDER",
           "meta_config": {}
@@ -250,7 +274,11 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "meta_config": {}
+            "meta_config": {
+              "entry": [
+                {}
+              ]
+            }
           },
           "type": "POWER_SERVICE",
           "meta_config": {}
@@ -283,7 +311,11 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "meta_config": {}
+            "meta_config": {
+              "entry": [
+                {}
+              ]
+            }
           },
           "type": "POWER_CONSUMPTION_PROVIDER",
           "meta_config": {}
@@ -316,7 +348,11 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "meta_config": {}
+            "meta_config": {
+              "entry": [
+                {}
+              ]
+            }
           },
           "type": "POWER_SERVICE",
           "meta_config": {}
@@ -349,7 +385,11 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "meta_config": {}
+            "meta_config": {
+              "entry": [
+                {}
+              ]
+            }
           },
           "type": "POWER_CONSUMPTION_PROVIDER",
           "meta_config": {}
@@ -382,7 +422,11 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "meta_config": {}
+            "meta_config": {
+              "entry": [
+                {}
+              ]
+            }
           },
           "type": "POWER_SERVICE",
           "meta_config": {}
@@ -415,7 +459,11 @@
         {
           "binding_service_config": {
             "type": "OPENHAB",
-            "meta_config": {}
+            "meta_config": {
+              "entry": [
+                {}
+              ]
+            }
           },
           "type": "POWER_CONSUMPTION_PROVIDER",
           "meta_config": {}
