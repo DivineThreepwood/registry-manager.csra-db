@@ -284,6 +284,7 @@
         },
         {
           "binding_service_config": {},
+          "unit_id": "/home/sports/temperaturesensor/pathway/",
           "type": "TEMPERATURE_ALARM_STATE_PROVIDER"
         }
       ],
