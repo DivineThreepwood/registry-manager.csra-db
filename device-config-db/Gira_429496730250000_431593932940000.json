@@ -88,6 +88,7 @@
         },
         {
           "binding_service_config": {},
+          "unit_id": "/home/bath/temperaturecontroller/temperaturecontrollerbath/",
           "type": "TARGET_TEMPERATURE_SERVICE"
         }
       ],
