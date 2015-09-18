@@ -37,7 +37,7 @@
   "unit_config": [
     {
       "id": "/home/wardrobe/button/hallwaybelowbutton_1/",
-      "label": "HallwayBelowButton 1",
+      "label": "HallwayBelowButton1",
       "device_id": "Gira_429496730210000_443231836300000",
       "type": "BUTTON",
       "placement_config": {
@@ -61,7 +61,7 @@
           "home",
           "wardrobe",
           "button",
-          "hallwaybelowbutton_1"
+          "hallwaybelowbutton1"
         ]
       },
       "bound_to_device": true,
@@ -91,7 +91,7 @@
     },
     {
       "id": "/home/wardrobe/button/hallwaybelowbutton_2/",
-      "label": "HallwayBelowButton 2",
+      "label": "HallwayBelowButton2",
       "device_id": "Gira_429496730210000_443231836300000",
       "type": "BUTTON",
       "placement_config": {
@@ -115,7 +115,7 @@
           "home",
           "wardrobe",
           "button",
-          "hallwaybelowbutton_2"
+          "hallwaybelowbutton2"
         ]
       },
       "bound_to_device": true,
@@ -145,7 +145,7 @@
     },
     {
       "id": "/home/wardrobe/button/hallwaybelowbutton_3/",
-      "label": "HallwayBelowButton 3",
+      "label": "HallwayBelowButton3",
       "device_id": "Gira_429496730210000_443231836300000",
       "type": "BUTTON",
       "placement_config": {
@@ -169,7 +169,7 @@
           "home",
           "wardrobe",
           "button",
-          "hallwaybelowbutton_3"
+          "hallwaybelowbutton3"
         ]
       },
       "bound_to_device": true,
@@ -199,7 +199,7 @@
     },
     {
       "id": "/home/wardrobe/button/hallwaybelowbutton_4/",
-      "label": "HallwayBelowButton 4",
+      "label": "HallwayBelowButton4",
       "device_id": "Gira_429496730210000_443231836300000",
       "type": "BUTTON",
       "placement_config": {
@@ -223,7 +223,7 @@
           "home",
           "wardrobe",
           "button",
-          "hallwaybelowbutton_4"
+          "hallwaybelowbutton4"
         ]
       },
       "bound_to_device": true,
@@ -253,7 +253,7 @@
     },
     {
       "id": "/home/wardrobe/button/hallwaybelowbutton_5/",
-      "label": "HallwayBelowButton 5",
+      "label": "HallwayBelowButton5",
       "device_id": "Gira_429496730210000_443231836300000",
       "type": "BUTTON",
       "placement_config": {
@@ -277,7 +277,7 @@
           "home",
           "wardrobe",
           "button",
-          "hallwaybelowbutton_5"
+          "hallwaybelowbutton5"
         ]
       },
       "bound_to_device": true,
@@ -307,7 +307,7 @@
     },
     {
       "id": "/home/wardrobe/button/hallwaybelowbutton_6/",
-      "label": "HallwayBelowButton 6",
+      "label": "HallwayBelowButton6",
       "device_id": "Gira_429496730210000_443231836300000",
       "type": "BUTTON",
       "placement_config": {
@@ -331,7 +331,7 @@
           "home",
           "wardrobe",
           "button",
-          "hallwaybelowbutton_6"
+          "hallwaybelowbutton6"
         ]
       },
       "bound_to_device": true,
