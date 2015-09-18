@@ -13,14 +13,14 @@
     "/home/wardrobe/button/apartmentlight/",
     "/home/wardrobe/brightnesssensor/entrance/",
     "/home/wardrobe/motionsensor/entrance/",
-    "/home/wardrobe/button/hallwaybelowbutton_1/",
     "/home/wardrobe/temperaturesensor/hallway/",
+    "/home/wardrobe/button/hallwaybelowbutton5/",
     "/home/wardrobe/button/entrancebutton1/",
     "/home/wardrobe/brightnesssensor/hallway/",
-    "/home/wardrobe/button/hallwaybelowbutton_5/",
-    "/home/wardrobe/button/hallwaybelowbutton_3/",
+    "/home/wardrobe/button/hallwaybelowbutton1/",
     "/home/wardrobe/ambientlight/hallway_1/",
     "/home/wardrobe/motionsensor/hallway/",
+    "/home/wardrobe/button/hallwaybelowbutton3/",
     "/home/wardrobe/tamperswitch/entrance/",
     "/home/wardrobe/button/entrancebutton4/",
     "/home/wardrobe/battery/entrance/",
@@ -32,12 +32,12 @@
     "/home/wardrobe/battery/entrancedoorreedswitch/",
     "/home/wardrobe/button/hallwayabovebutton2/",
     "/home/wardrobe/button/wardrobelight/",
-    "/home/wardrobe/button/hallwaybelowbutton_2/",
+    "/home/wardrobe/button/hallwaybelowbutton4/",
+    "/home/wardrobe/button/hallwaybelowbutton6/",
     "/home/wardrobe/reedswitch/entrancedoorreedswitch/",
     "/home/wardrobe/button/entrancebutton2/",
-    "/home/wardrobe/button/hallwaybelowbutton_6/",
     "/home/wardrobe/ambientlight/hallway_0/",
-    "/home/wardrobe/button/hallwaybelowbutton_4/"
+    "/home/wardrobe/button/hallwaybelowbutton2/"
   ],
   "scope": {
     "component": [
