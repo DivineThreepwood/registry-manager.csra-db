@@ -284,7 +284,15 @@
         },
         {
           "binding_service_config": {
-            "type": "OPENHAB"
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "F_MotionSensor__home_sports__TemperatureSensor__Pathway__TemperatureAlarmStateProvider"
+                }
+              ]
+            }
           },
           "unit_id": "/home/sports/temperaturesensor/pathway/",
           "type": "TEMPERATURE_ALARM_STATE_PROVIDER"
