@@ -87,24 +87,8 @@
           "meta_config": {}
         },
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
-            "meta_config": {
-              "entry": [
-                {
-                  "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "2/4/5"
-                },
-                {
-                  "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5142__home_dining__TemperatureController__TemperatureControllerLiving__Unknown"
-                }
-              ]
-            }
-          },
-          "unit_id": "/home/dining/temperaturecontroller/temperaturecontrollerliving/",
-          "type": "UNKNOWN",
-          "meta_config": {}
+          "binding_service_config": {},
+          "type": "TARGET_TEMPERATURE_SERVICE"
         }
       ],
       "meta_config": {}
