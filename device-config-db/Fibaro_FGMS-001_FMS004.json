@@ -284,7 +284,15 @@
         },
         {
           "binding_service_config": {
-            "type": "OPENHAB"
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "F_MotionSensor__home_bath__TemperatureSensor__Entrance__TemperatureAlarmStateProvider"
+                }
+              ]
+            }
           },
           "unit_id": "/home/bath/temperaturesensor/entrance/",
           "type": "TEMPERATURE_ALARM_STATE_PROVIDER"
