@@ -123,7 +123,10 @@
             "type": "OPENHAB",
             "meta_config": {
               "entry": [
-                {},
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/133"
+                },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
                   "value": "Hager_TYA606E__home_control__PowerConsumptionSensor__A1C1Consumption__PowerConsumptionProvider"
@@ -174,7 +177,10 @@
             "type": "OPENHAB",
             "meta_config": {
               "entry": [
-                {},
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/2+5/1/8"
+                },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
                   "value": "Hager_TYA606E__home_control__PowerPlug__A1C2__PowerService"
@@ -225,7 +231,10 @@
             "type": "OPENHAB",
             "meta_config": {
               "entry": [
-                {},
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/134"
+                },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
                   "value": "Hager_TYA606E__home_control__PowerConsumptionSensor__A1C2Consumption__PowerConsumptionProvider"
@@ -276,7 +285,10 @@
             "type": "OPENHAB",
             "meta_config": {
               "entry": [
-                {},
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/3+5/1/9"
+                },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
                   "value": "Hager_TYA606E__home_control__PowerPlug__A1C3__PowerService"
@@ -327,7 +339,10 @@
             "type": "OPENHAB",
             "meta_config": {
               "entry": [
-                {},
+                {
+                  "key": "5/1/135",
+                  "value": "OPENHAB_BINDING_CONFIG"
+                },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
                   "value": "Hager_TYA606E__home_control__PowerConsumptionSensor__A1C3Consumption__PowerConsumptionProvider"
