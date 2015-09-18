@@ -284,6 +284,7 @@
         },
         {
           "binding_service_config": {},
+          "unit_id": "/home/control/temperaturesensor/testunit_1/",
           "type": "TEMPERATURE_ALARM_STATE_PROVIDER"
         }
       ],
