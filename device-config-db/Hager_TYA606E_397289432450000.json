@@ -54,7 +54,10 @@
             "type": "OPENHAB",
             "meta_config": {
               "entry": [
-                {}
+                {
+                  "key": "test",
+                  "value": "test"
+                }
               ]
             }
           },
