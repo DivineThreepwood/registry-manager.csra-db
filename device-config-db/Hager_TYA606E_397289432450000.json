@@ -174,7 +174,10 @@
             "type": "OPENHAB",
             "meta_config": {
               "entry": [
-                {}
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/188"
+                }
               ]
             }
           },
@@ -211,7 +214,10 @@
             "type": "OPENHAB",
             "meta_config": {
               "entry": [
-                {}
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/111+5/1/117"
+                }
               ]
             }
           },
@@ -248,7 +254,10 @@
             "type": "OPENHAB",
             "meta_config": {
               "entry": [
-                {}
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/189"
+                }
               ]
             }
           },
@@ -285,7 +294,10 @@
             "type": "OPENHAB",
             "meta_config": {
               "entry": [
-                {}
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/112+5/1/118"
+                }
               ]
             }
           },
@@ -322,7 +334,10 @@
             "type": "OPENHAB",
             "meta_config": {
               "entry": [
-                {}
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/190"
+                }
               ]
             }
           },
@@ -359,7 +374,10 @@
             "type": "OPENHAB",
             "meta_config": {
               "entry": [
-                {}
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/113+5/1/119"
+                }
               ]
             }
           },
@@ -396,7 +414,10 @@
             "type": "OPENHAB",
             "meta_config": {
               "entry": [
-                {}
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/191"
+                }
               ]
             }
           },
@@ -433,7 +454,10 @@
             "type": "OPENHAB",
             "meta_config": {
               "entry": [
-                {}
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/114+5/1/120"
+                }
               ]
             }
           },
@@ -470,7 +494,10 @@
             "type": "OPENHAB",
             "meta_config": {
               "entry": [
-                {}
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/192"
+                }
               ]
             }
           },
