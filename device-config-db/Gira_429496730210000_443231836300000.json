@@ -77,12 +77,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_wardrobe__Button__HallwayBelowButton_1__ButtonProvider"
+                  "value": "Gira_5133__home_wardrobe__Button__HallwayBelowButton1__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/wardrobe/button/hallwaybelowbutton_1/",
+          "unit_id": "/home/wardrobe/button/hallwaybelowbutton1/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }
@@ -131,12 +131,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_wardrobe__Button__HallwayBelowButton_2__ButtonProvider"
+                  "value": "Gira_5133__home_wardrobe__Button__HallwayBelowButton2__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/wardrobe/button/hallwaybelowbutton_2/",
+          "unit_id": "/home/wardrobe/button/hallwaybelowbutton2/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }
@@ -185,12 +185,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_wardrobe__Button__HallwayBelowButton_3__ButtonProvider"
+                  "value": "Gira_5133__home_wardrobe__Button__HallwayBelowButton3__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/wardrobe/button/hallwaybelowbutton_3/",
+          "unit_id": "/home/wardrobe/button/hallwaybelowbutton3/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }
@@ -239,12 +239,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_wardrobe__Button__HallwayBelowButton_4__ButtonProvider"
+                  "value": "Gira_5133__home_wardrobe__Button__HallwayBelowButton4__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/wardrobe/button/hallwaybelowbutton_4/",
+          "unit_id": "/home/wardrobe/button/hallwaybelowbutton4/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }
@@ -293,12 +293,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_wardrobe__Button__HallwayBelowButton_5__ButtonProvider"
+                  "value": "Gira_5133__home_wardrobe__Button__HallwayBelowButton5__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/wardrobe/button/hallwaybelowbutton_5/",
+          "unit_id": "/home/wardrobe/button/hallwaybelowbutton5/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }
@@ -347,12 +347,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_wardrobe__Button__HallwayBelowButton_6__ButtonProvider"
+                  "value": "Gira_5133__home_wardrobe__Button__HallwayBelowButton6__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/wardrobe/button/hallwaybelowbutton_6/",
+          "unit_id": "/home/wardrobe/button/hallwaybelowbutton6/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }
