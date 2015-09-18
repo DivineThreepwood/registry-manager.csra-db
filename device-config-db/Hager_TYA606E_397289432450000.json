@@ -1,0 +1,416 @@
+{
+  "id": "Hager_TYA606E_397289432450000",
+  "label": "PowerActuator10",
+  "placement_config": {
+    "location_id": "Control",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {},
+  "serial_number": "397289432450000",
+  "inventory_state": {
+    "timestamp": {
+      "time": 1442586918421
+    },
+    "owner": {}
+  },
+  "device_class_id": "Hager_TYA606E",
+  "unit_config": [
+    {
+      "label": "A10C1",
+      "type": "POWER_PLUG",
+      "placement_config": {
+        "location_id": "Control",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {},
+      "bound_to_device": false,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "meta_config": {}
+          },
+          "type": "POWER_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "label": "A10C1Consumption",
+      "type": "POWER_CONSUMPTION_SENSOR",
+      "placement_config": {
+        "location_id": "Control",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {},
+      "bound_to_device": false,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "meta_config": {}
+          },
+          "type": "POWER_CONSUMPTION_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "label": "A10C2",
+      "type": "POWER_PLUG",
+      "placement_config": {
+        "location_id": "Control",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {},
+      "bound_to_device": false,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "meta_config": {}
+          },
+          "type": "POWER_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "label": "A10C2Consumption",
+      "type": "POWER_CONSUMPTION_SENSOR",
+      "placement_config": {
+        "location_id": "Control",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {},
+      "bound_to_device": false,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "meta_config": {}
+          },
+          "type": "POWER_CONSUMPTION_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "label": "A10C3",
+      "type": "POWER_PLUG",
+      "placement_config": {
+        "location_id": "Control",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {},
+      "bound_to_device": false,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "meta_config": {}
+          },
+          "type": "POWER_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "label": "A10C3Consumption",
+      "type": "POWER_CONSUMPTION_SENSOR",
+      "placement_config": {
+        "location_id": "Control",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {},
+      "bound_to_device": false,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "meta_config": {}
+          },
+          "type": "POWER_CONSUMPTION_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "label": "A10C4",
+      "type": "POWER_PLUG",
+      "placement_config": {
+        "location_id": "Control",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {},
+      "bound_to_device": false,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "meta_config": {}
+          },
+          "type": "POWER_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "label": "A10C4Consumption",
+      "type": "POWER_CONSUMPTION_SENSOR",
+      "placement_config": {
+        "location_id": "Control",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {},
+      "bound_to_device": false,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "meta_config": {}
+          },
+          "type": "POWER_CONSUMPTION_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "label": "A10C5",
+      "type": "POWER_PLUG",
+      "placement_config": {
+        "location_id": "Control",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {},
+      "bound_to_device": false,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "meta_config": {}
+          },
+          "type": "POWER_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "label": "A10C5Consumption",
+      "type": "POWER_CONSUMPTION_SENSOR",
+      "placement_config": {
+        "location_id": "Control",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {},
+      "bound_to_device": false,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "meta_config": {}
+          },
+          "type": "POWER_CONSUMPTION_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "label": "A10C6",
+      "type": "POWER_PLUG",
+      "placement_config": {
+        "location_id": "Control",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {},
+      "bound_to_device": false,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "meta_config": {}
+          },
+          "type": "POWER_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "label": "A10C6Consumption",
+      "type": "POWER_CONSUMPTION_SENSOR",
+      "placement_config": {
+        "location_id": "Control",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {},
+      "bound_to_device": false,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "meta_config": {}
+          },
+          "type": "POWER_CONSUMPTION_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {}
+}
