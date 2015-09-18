@@ -94,12 +94,14 @@
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
                   "value": "Gira_5142__home_bath__TemperatureController__TemperatureControllerBath__TargetTemperatureService"
-                }
+                },
+                {}
               ]
             }
           },
           "unit_id": "/home/bath/temperaturecontroller/temperaturecontrollerbath/",
-          "type": "TARGET_TEMPERATURE_SERVICE"
+          "type": "TARGET_TEMPERATURE_SERVICE",
+          "meta_config": {}
         }
       ],
       "meta_config": {}
