@@ -21,14 +21,14 @@
   "serial_number": "397289432450000",
   "inventory_state": {
     "timestamp": {
-      "time": 1442586918421
+      "time": 1442587821928
     },
     "owner": {}
   },
   "device_class_id": "Hager_TYA606E",
   "unit_config": [
     {
-      "label": "A10C1",
+      "label": "A1C1",
       "type": "POWER_PLUG",
       "placement_config": {
         "location_id": "Control",
@@ -54,10 +54,7 @@
             "type": "OPENHAB",
             "meta_config": {
               "entry": [
-                {
-                  "key": "test",
-                  "value": "test"
-                }
+                {}
               ]
             }
           },
@@ -68,7 +65,7 @@
       "meta_config": {}
     },
     {
-      "label": "A10C1Consumption",
+      "label": "A1C1Consumption",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
         "location_id": "Control",
@@ -105,7 +102,7 @@
       "meta_config": {}
     },
     {
-      "label": "A10C2",
+      "label": "A1C2",
       "type": "POWER_PLUG",
       "placement_config": {
         "location_id": "Control",
@@ -142,7 +139,7 @@
       "meta_config": {}
     },
     {
-      "label": "A10C2Consumption",
+      "label": "A1C2Consumption",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
         "location_id": "Control",
@@ -179,7 +176,7 @@
       "meta_config": {}
     },
     {
-      "label": "A10C3",
+      "label": "A1C3",
       "type": "POWER_PLUG",
       "placement_config": {
         "location_id": "Control",
@@ -216,7 +213,7 @@
       "meta_config": {}
     },
     {
-      "label": "A10C3Consumption",
+      "label": "A1C3Consumption",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
         "location_id": "Control",
@@ -253,7 +250,7 @@
       "meta_config": {}
     },
     {
-      "label": "A10C4",
+      "label": "A1C4",
       "type": "POWER_PLUG",
       "placement_config": {
         "location_id": "Control",
@@ -290,7 +287,7 @@
       "meta_config": {}
     },
     {
-      "label": "A10C4Consumption",
+      "label": "A1C4Consumption",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
         "location_id": "Control",
@@ -327,7 +324,7 @@
       "meta_config": {}
     },
     {
-      "label": "A10C5",
+      "label": "A1C5",
       "type": "POWER_PLUG",
       "placement_config": {
         "location_id": "Control",
@@ -364,7 +361,7 @@
       "meta_config": {}
     },
     {
-      "label": "A10C5Consumption",
+      "label": "A1C5Consumption",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
         "location_id": "Control",
@@ -401,7 +398,7 @@
       "meta_config": {}
     },
     {
-      "label": "A10C6",
+      "label": "A1C6",
       "type": "POWER_PLUG",
       "placement_config": {
         "location_id": "Control",
@@ -438,7 +435,7 @@
       "meta_config": {}
     },
     {
-      "label": "A10C6Consumption",
+      "label": "A1C6Consumption",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
         "location_id": "Control",
