@@ -496,6 +496,7 @@
           "a6c5"
         ]
       },
+      "description": "4K TV",
       "bound_to_device": false,
       "service_config": [
         {
@@ -550,6 +551,7 @@
           "a6c5comsumption"
         ]
       },
+      "description": "4K TV",
       "bound_to_device": false,
       "service_config": [
         {
