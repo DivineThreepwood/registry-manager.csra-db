@@ -87,7 +87,9 @@
           "meta_config": {}
         },
         {
-          "binding_service_config": {},
+          "binding_service_config": {
+            "type": "OPENHAB"
+          },
           "unit_id": "/home/sports/temperaturecontroller/temperaturecontrollersports/",
           "type": "TARGET_TEMPERATURE_SERVICE"
         }
