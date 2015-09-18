@@ -87,24 +87,8 @@
           "meta_config": {}
         },
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
-            "meta_config": {
-              "entry": [
-                {
-                  "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "4/4/0"
-                },
-                {
-                  "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5142__home_sports__TemperatureController__TemperatureControllerSports__Unknown"
-                }
-              ]
-            }
-          },
-          "unit_id": "/home/sports/temperaturecontroller/temperaturecontrollersports/",
-          "type": "UNKNOWN",
-          "meta_config": {}
+          "binding_service_config": {},
+          "type": "TARGET_TEMPERATURE_SERVICE"
         }
       ],
       "meta_config": {}
