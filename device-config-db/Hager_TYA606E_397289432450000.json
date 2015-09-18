@@ -54,7 +54,10 @@
             "type": "OPENHAB",
             "meta_config": {
               "entry": [
-                {}
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/109+5/1/115"
+                }
               ]
             }
           },
