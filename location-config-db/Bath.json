@@ -13,13 +13,16 @@
     "/home/bath/powerconsumptionsensor/a4c5consumption/",
     "/home/bath/motionsensor/global/",
     "/home/bath/tamperswitch/global/",
+    "/home/bath/reedswitch/doorreedswitch/",
     "/home/bath/brightnesssensor/global/",
     "/home/bath/powerconsumptionsensor/a4c4consumption/",
     "/home/bath/motionsensor/sink/",
+    "/home/bath/ambientlight/global_2/",
     "/home/bath/brightnesssensor/entrance/",
     "/home/bath/ambientlight/global_4/",
     "/home/bath/tamperswitch/sink/",
     "/home/bath/battery/global/",
+    "/home/bath/ambientlight/llamp6/",
     "/home/bath/brightnesssensor/sink/",
     "/home/bath/powerplug/a4c4/",
     "/home/bath/tamperswitch/entrance/",
@@ -28,11 +31,14 @@
     "/home/bath/temperaturesensor/shower/",
     "/home/bath/temperaturesensor/entrance/",
     "/home/bath/battery/sink/",
+    "/home/bath/battery/doorreedswitch/",
     "/home/bath/motionsensor/shower/",
     "/home/bath/dimmer/dimmer/",
+    "/home/bath/ambientlight/global_1/",
     "/home/bath/tamperswitch/shower/",
     "/home/bath/motionsensor/entrance/",
-    "/home/bath/ambientlight/global_3/"
+    "/home/bath/ambientlight/global_3/",
+    "/home/bath/ambientlight/slamp2/"
   ],
   "scope": {
     "component": [
