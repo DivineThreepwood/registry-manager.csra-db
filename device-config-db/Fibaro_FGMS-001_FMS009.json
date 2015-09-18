@@ -278,7 +278,15 @@
         },
         {
           "binding_service_config": {
-            "type": "OPENHAB"
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "F_MotionSensor__home__TemperatureSensor__Global__TemperatureAlarmStateProvider"
+                }
+              ]
+            }
           },
           "unit_id": "/home/temperaturesensor/global/",
           "type": "TEMPERATURE_ALARM_STATE_PROVIDER"
