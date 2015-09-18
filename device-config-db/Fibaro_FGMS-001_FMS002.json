@@ -283,7 +283,9 @@
           "meta_config": {}
         },
         {
-          "binding_service_config": {},
+          "binding_service_config": {
+            "type": "OPENHAB"
+          },
           "unit_id": "/home/living/temperaturesensor/control/",
           "type": "TEMPERATURE_ALARM_STATE_PROVIDER"
         }
