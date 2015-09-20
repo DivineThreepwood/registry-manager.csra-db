@@ -4,17 +4,28 @@
   "parent_id": "Home",
   "unit_id": [
     "/home/dining/powerconsumptionsensor/a3c1consumption/",
-    "/home/dining/button/radioon/",
-    "/home/dining/button/radiooff/",
     "/home/dining/button/kitchenlight/",
     "/home/dining/powerplug/a6c6/",
-    "/home/dining/powerconsumptionsensor/a6c6comsumption/",
-    "/home/dining/powerconsumptionsensor/a9c6consumption/",
     "/home/dining/powerplug/a3c1/",
     "/home/dining/button/loungelight/",
     "/home/dining/powerplug/a9c6/",
+    "/home/dining/powerplug/a5c1/",
+    "/home/dining/powerplug/a5c2/",
+    "/home/dining/temperaturecontroller/temperaturecontrollerliving/",
+    "/home/dining/button/apartmentlight/",
+    "/home/dining/powerplug/a2c6/",
+    "/home/dining/button/radioon/",
+    "/home/dining/button/radiooff/",
+    "/home/dining/powerconsumptionsensor/a2c6consumption/",
+    "/home/dining/powerconsumptionsensor/a6c6comsumption/",
+    "/home/dining/powerconsumptionsensor/a5c1consumption/",
+    "/home/dining/powerconsumptionsensor/a9c6consumption/",
+    "/home/dining/powerconsumptionsensor/a5c2consumption/",
+    "/home/dining/button/button_4/",
+    "/home/dining/button/button_3/",
+    "/home/dining/button/button_2/",
     "/home/dining/button/dininglight/",
-    "/home/dining/button/apartmentlight/"
+    "/home/dining/button/button_1/"
   ],
   "scope": {
     "component": [
