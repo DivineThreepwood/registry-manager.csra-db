@@ -20,8 +20,9 @@
   "scope": {},
   "serial_number": "397289432450000",
   "inventory_state": {
+    "value": "INSTALLED",
     "timestamp": {
-      "time": 1442587821928
+      "time": 1442763950589
     },
     "owner": {}
   },
