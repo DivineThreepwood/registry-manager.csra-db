@@ -35,7 +35,7 @@
   "device_class_id": "Hager_TYA606E",
   "unit_config": [
     {
-      "label": "A1C1",
+      "label": "A10C1",
       "device_id": "Hager_TYA606E_397289432450000",
       "type": "POWER_PLUG",
       "placement_config": {
@@ -87,7 +87,7 @@
       "meta_config": {}
     },
     {
-      "label": "A1C1Consumption",
+      "label": "A10C1Consumption",
       "device_id": "Hager_TYA606E_397289432450000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
@@ -139,7 +139,7 @@
       "meta_config": {}
     },
     {
-      "label": "A1C2",
+      "label": "A10C2",
       "device_id": "Hager_TYA606E_397289432450000",
       "type": "POWER_PLUG",
       "placement_config": {
@@ -191,7 +191,7 @@
       "meta_config": {}
     },
     {
-      "label": "A1C2Consumption",
+      "label": "A10C2Consumption",
       "device_id": "Hager_TYA606E_397289432450000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
@@ -243,7 +243,7 @@
       "meta_config": {}
     },
     {
-      "label": "A1C3",
+      "label": "A10C3",
       "device_id": "Hager_TYA606E_397289432450000",
       "type": "POWER_PLUG",
       "placement_config": {
@@ -295,7 +295,7 @@
       "meta_config": {}
     },
     {
-      "label": "A1C3Consumption",
+      "label": "A10C3Consumption",
       "device_id": "Hager_TYA606E_397289432450000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
@@ -347,7 +347,7 @@
       "meta_config": {}
     },
     {
-      "label": "A1C4",
+      "label": "A10C4",
       "device_id": "Hager_TYA606E_397289432450000",
       "type": "POWER_PLUG",
       "placement_config": {
@@ -399,7 +399,7 @@
       "meta_config": {}
     },
     {
-      "label": "A1C4Consumption",
+      "label": "A10C4Consumption",
       "device_id": "Hager_TYA606E_397289432450000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
@@ -451,7 +451,7 @@
       "meta_config": {}
     },
     {
-      "label": "A1C5",
+      "label": "A10C5",
       "device_id": "Hager_TYA606E_397289432450000",
       "type": "POWER_PLUG",
       "placement_config": {
@@ -503,7 +503,7 @@
       "meta_config": {}
     },
     {
-      "label": "A1C5Consumption",
+      "label": "A10C5Consumption",
       "device_id": "Hager_TYA606E_397289432450000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
@@ -555,7 +555,7 @@
       "meta_config": {}
     },
     {
-      "label": "A1C6",
+      "label": "A10C6",
       "device_id": "Hager_TYA606E_397289432450000",
       "type": "POWER_PLUG",
       "placement_config": {
@@ -607,7 +607,7 @@
       "meta_config": {}
     },
     {
-      "label": "A1C6Consumption",
+      "label": "A10C6Consumption",
       "device_id": "Hager_TYA606E_397289432450000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
