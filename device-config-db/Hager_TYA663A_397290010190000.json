@@ -73,6 +73,7 @@
               ]
             }
           },
+          "unit_id": "/home/living/dimmer/rightdimmer/",
           "type": "DIM_SERVICE",
           "meta_config": {}
         },
@@ -85,6 +86,7 @@
               ]
             }
           },
+          "unit_id": "/home/living/dimmer/rightdimmer/",
           "type": "POWER_SERVICE",
           "meta_config": {}
         }
@@ -131,6 +133,7 @@
               ]
             }
           },
+          "unit_id": "/home/sports/dimmer/leftdimmer/",
           "type": "DIM_SERVICE",
           "meta_config": {}
         },
@@ -143,6 +146,7 @@
               ]
             }
           },
+          "unit_id": "/home/sports/dimmer/leftdimmer/",
           "type": "POWER_SERVICE",
           "meta_config": {}
         }
@@ -189,6 +193,7 @@
               ]
             }
           },
+          "unit_id": "/home/sports/dimmer/rightdimmer/",
           "type": "DIM_SERVICE",
           "meta_config": {}
         },
@@ -201,6 +206,7 @@
               ]
             }
           },
+          "unit_id": "/home/sports/dimmer/rightdimmer/",
           "type": "POWER_SERVICE",
           "meta_config": {}
         }
