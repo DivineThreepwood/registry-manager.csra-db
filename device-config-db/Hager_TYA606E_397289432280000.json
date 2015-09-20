@@ -26,8 +26,9 @@
   },
   "serial_number": "397289432280000",
   "inventory_state": {
+    "value": "INSTALLED",
     "timestamp": {
-      "time": 1440776802347
+      "time": 1442763993135
     },
     "owner": {}
   },
