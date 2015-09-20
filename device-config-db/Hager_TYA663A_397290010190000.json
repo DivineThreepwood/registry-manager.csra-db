@@ -53,7 +53,14 @@
           }
         }
       },
-      "scope": {},
+      "scope": {
+        "component": [
+          "home",
+          "living",
+          "dimmer",
+          "rightdimmer"
+        ]
+      },
       "bound_to_device": false,
       "service_config": [
         {
@@ -103,7 +110,14 @@
           }
         }
       },
-      "scope": {},
+      "scope": {
+        "component": [
+          "home",
+          "sports",
+          "dimmer",
+          "leftdimmer"
+        ]
+      },
       "bound_to_device": false,
       "service_config": [
         {
@@ -153,7 +167,14 @@
           }
         }
       },
-      "scope": {},
+      "scope": {
+        "component": [
+          "home",
+          "sports",
+          "dimmer",
+          "rightdimmer"
+        ]
+      },
       "bound_to_device": false,
       "service_config": [
         {
