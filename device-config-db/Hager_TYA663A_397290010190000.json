@@ -17,7 +17,13 @@
       }
     }
   },
-  "scope": {},
+  "scope": {
+    "component": [
+      "home",
+      "control",
+      "dimmactuator2"
+    ]
+  },
   "serial_number": "397290010190000",
   "inventory_state": {
     "timestamp": {
