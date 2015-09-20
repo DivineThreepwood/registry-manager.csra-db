@@ -26,10 +26,10 @@
   },
   "serial_number": "431602452620000",
   "inventory_state": {
-    "value": "IN_STOCK",
+    "value": "INSTALLED",
     "location_id": "Living",
     "timestamp": {
-      "time": 1441903348182
+      "time": 1442764130272
     },
     "owner": {}
   },
