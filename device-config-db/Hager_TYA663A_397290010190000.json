@@ -69,7 +69,11 @@
             "type": "OPENHAB",
             "meta_config": {
               "entry": [
-                {}
+                {},
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA663A__home_living__Dimmer__RightDimmer__DimService"
+                }
               ]
             }
           },
@@ -82,7 +86,11 @@
             "type": "OPENHAB",
             "meta_config": {
               "entry": [
-                {}
+                {},
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA663A__home_living__Dimmer__RightDimmer__PowerService"
+                }
               ]
             }
           },
@@ -129,7 +137,11 @@
             "type": "OPENHAB",
             "meta_config": {
               "entry": [
-                {}
+                {},
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA663A__home_sports__Dimmer__LeftDimmer__DimService"
+                }
               ]
             }
           },
@@ -142,7 +154,11 @@
             "type": "OPENHAB",
             "meta_config": {
               "entry": [
-                {}
+                {},
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA663A__home_sports__Dimmer__LeftDimmer__PowerService"
+                }
               ]
             }
           },
@@ -189,7 +205,11 @@
             "type": "OPENHAB",
             "meta_config": {
               "entry": [
-                {}
+                {},
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA663A__home_sports__Dimmer__RightDimmer__DimService"
+                }
               ]
             }
           },
@@ -202,7 +222,11 @@
             "type": "OPENHAB",
             "meta_config": {
               "entry": [
-                {}
+                {},
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA663A__home_sports__Dimmer__RightDimmer__PowerService"
+                }
               ]
             }
           },
