@@ -2,6 +2,14 @@
   "id": "Lounge",
   "label": "Lounge",
   "parent_id": "Living",
+  "unit_id": [
+    "/home/living/lounge/powerconsumptionsensor/a2c5consumption/",
+    "/home/living/lounge/powerplug/a2c3/",
+    "/home/living/lounge/powerconsumptionsensor/a2c4consumption/",
+    "/home/living/lounge/powerplug/a2c5/",
+    "/home/living/lounge/powerplug/a2c4/",
+    "/home/living/lounge/powerconsumptionsensor/a2c3consumption/"
+  ],
   "scope": {
     "component": [
       "home",
