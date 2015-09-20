@@ -17,7 +17,13 @@
       }
     }
   },
-  "scope": {},
+  "scope": {
+    "component": [
+      "home",
+      "control",
+      "poweractuator10"
+    ]
+  },
   "serial_number": "397289432450000",
   "inventory_state": {
     "value": "INSTALLED",
