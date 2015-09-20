@@ -29,6 +29,7 @@
   "unit_config": [
     {
       "label": "RightDimmer",
+      "device_id": "Hager_TYA663A_397290010190000",
       "type": "DIMMER",
       "placement_config": {
         "location_id": "Living",
@@ -78,6 +79,7 @@
     },
     {
       "label": "LeftDimmer",
+      "device_id": "Hager_TYA663A_397290010190000",
       "type": "DIMMER",
       "placement_config": {
         "location_id": "Sports",
@@ -127,6 +129,7 @@
     },
     {
       "label": "RightDimmer",
+      "device_id": "Hager_TYA663A_397290010190000",
       "type": "DIMMER",
       "placement_config": {
         "location_id": "Sports",
