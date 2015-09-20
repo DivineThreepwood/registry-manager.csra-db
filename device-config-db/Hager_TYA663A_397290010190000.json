@@ -34,6 +34,7 @@
   "device_class_id": "Hager_TYA663A",
   "unit_config": [
     {
+      "id": "/home/living/dimmer/rightdimmer/",
       "label": "RightDimmer",
       "device_id": "Hager_TYA663A_397290010190000",
       "type": "DIMMER",
@@ -91,6 +92,7 @@
       "meta_config": {}
     },
     {
+      "id": "/home/sports/dimmer/leftdimmer/",
       "label": "LeftDimmer",
       "device_id": "Hager_TYA663A_397290010190000",
       "type": "DIMMER",
@@ -148,6 +150,7 @@
       "meta_config": {}
     },
     {
+      "id": "/home/sports/dimmer/rightdimmer/",
       "label": "RightDimmer",
       "device_id": "Hager_TYA663A_397290010190000",
       "type": "DIMMER",
