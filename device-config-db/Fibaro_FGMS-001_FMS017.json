@@ -1,8 +1,8 @@
 {
-  "id": "Gira_429496730250000_431602452620000",
-  "label": "ControlButtons",
+  "id": "Fibaro_FGMS-001_FMS017",
+  "label": "BorrowdUnit-1",
   "placement_config": {
-    "location_id": "Dining",
+    "location_id": "Control",
     "position": {
       "translation": {
         "x": 0.0,
@@ -20,28 +20,31 @@
   "scope": {
     "component": [
       "home",
-      "dining",
-      "controlbuttons"
+      "control",
+      "borrowdunit-1"
     ]
   },
-  "serial_number": "431602452620000",
+  "serial_number": "FMS017",
   "inventory_state": {
-    "value": "INSTALLED",
-    "location_id": "Living",
+    "value": "BORROWED",
     "timestamp": {
-      "time": 1442764130272
+      "time": 1443201942883
     },
-    "owner": {}
+    "owner": {
+      "first_name": "Tamino",
+      "last_name": "Huxohl",
+      "user_name": "thuxohl"
+    }
   },
-  "device_class_id": "Gira_429496730250000",
+  "device_class_id": "Fibaro_FGMS-001",
   "unit_config": [
     {
-      "id": "/home/dining/temperaturecontroller/temperaturecontrollerliving/",
-      "label": "TemperatureControllerLiving",
-      "device_id": "Gira_429496730250000_431602452620000",
-      "type": "TEMPERATURE_CONTROLLER",
+      "id": "/home/control/battery/borrowdunit-1/",
+      "label": "BorrowdUnit-1",
+      "device_id": "Fibaro_FGMS-001_FMS017",
+      "type": "BATTERY",
       "placement_config": {
-        "location_id": "Dining",
+        "location_id": "Control",
         "position": {
           "translation": {
             "x": 0.0,
@@ -59,9 +62,9 @@
       "scope": {
         "component": [
           "home",
-          "dining",
-          "temperaturecontroller",
-          "temperaturecontrollerliving"
+          "control",
+          "battery",
+          "borrowdunit-1"
         ]
       },
       "bound_to_device": true,
@@ -72,17 +75,213 @@
             "meta_config": {
               "entry": [
                 {
-                  "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "2/4/4"
-                },
-                {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5142__home_dining__TemperatureController__TemperatureControllerLiving__TemperatureProvider"
+                  "value": "F_MotionSensor__home_control__Battery__BorrowdUnit-1__BatteryProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/dining/temperaturecontroller/temperaturecontrollerliving/",
+          "unit_id": "/home/control/battery/borrowdunit-1/",
+          "type": "BATTERY_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/control/brightnesssensor/borrowdunit-1/",
+      "label": "BorrowdUnit-1",
+      "device_id": "Fibaro_FGMS-001_FMS017",
+      "type": "BRIGHTNESS_SENSOR",
+      "placement_config": {
+        "location_id": "Control",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "control",
+          "brightnesssensor",
+          "borrowdunit-1"
+        ]
+      },
+      "bound_to_device": true,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "F_MotionSensor__home_control__BrightnessSensor__BorrowdUnit-1__BrightnessProvider"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/control/brightnesssensor/borrowdunit-1/",
+          "type": "BRIGHTNESS_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/control/motionsensor/borrowdunit-1/",
+      "label": "BorrowdUnit-1",
+      "device_id": "Fibaro_FGMS-001_FMS017",
+      "type": "MOTION_SENSOR",
+      "placement_config": {
+        "location_id": "Control",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "control",
+          "motionsensor",
+          "borrowdunit-1"
+        ]
+      },
+      "bound_to_device": true,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "F_MotionSensor__home_control__MotionSensor__BorrowdUnit-1__MotionProvider"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/control/motionsensor/borrowdunit-1/",
+          "type": "MOTION_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/control/tamperswitch/borrowdunit-1/",
+      "label": "BorrowdUnit-1",
+      "device_id": "Fibaro_FGMS-001_FMS017",
+      "type": "TAMPER_SWITCH",
+      "placement_config": {
+        "location_id": "Control",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "control",
+          "tamperswitch",
+          "borrowdunit-1"
+        ]
+      },
+      "bound_to_device": true,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "F_MotionSensor__home_control__TamperSwitch__BorrowdUnit-1__TamperProvider"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/control/tamperswitch/borrowdunit-1/",
+          "type": "TAMPER_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/control/temperaturesensor/borrowdunit-1/",
+      "label": "BorrowdUnit-1",
+      "device_id": "Fibaro_FGMS-001_FMS017",
+      "type": "TEMPERATURE_SENSOR",
+      "placement_config": {
+        "location_id": "Control",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "control",
+          "temperaturesensor",
+          "borrowdunit-1"
+        ]
+      },
+      "bound_to_device": true,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "F_MotionSensor__home_control__TemperatureSensor__BorrowdUnit-1__TemperatureProvider"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/control/temperaturesensor/borrowdunit-1/",
           "type": "TEMPERATURE_PROVIDER",
           "meta_config": {}
         },
@@ -93,238 +292,13 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5142__home_dining__TemperatureController__TemperatureControllerLiving__TargetTemperatureService"
-                },
-                {
-                  "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "2/4/5"
+                  "value": "F_MotionSensor__home_control__TemperatureSensor__BorrowdUnit-1__TemperatureAlarmStateProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/dining/temperaturecontroller/temperaturecontrollerliving/",
-          "type": "TARGET_TEMPERATURE_SERVICE",
-          "meta_config": {
-            "entry": [
-              {}
-            ]
-          }
-        }
-      ],
-      "meta_config": {}
-    },
-    {
-      "id": "/home/dining/button/button_1/",
-      "label": "Button 1",
-      "device_id": "Gira_429496730250000_431602452620000",
-      "type": "BUTTON",
-      "placement_config": {
-        "location_id": "Dining",
-        "position": {
-          "translation": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "rotation": {
-            "qw": 1.0,
-            "qx": 0.0,
-            "qy": 0.0,
-            "qz": 0.0
-          }
-        }
-      },
-      "scope": {
-        "component": [
-          "home",
-          "dining",
-          "button",
-          "button_1"
-        ]
-      },
-      "bound_to_device": true,
-      "service_config": [
-        {
-          "binding_service_config": {
-            "type": "OPENHAB",
-            "meta_config": {
-              "entry": [
-                {
-                  "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "2/3/0"
-                },
-                {
-                  "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5142__home_dining__Button__Button_1__ButtonProvider"
-                }
-              ]
-            }
-          },
-          "unit_id": "/home/dining/button/button_1/",
-          "type": "BUTTON_PROVIDER",
-          "meta_config": {}
-        }
-      ],
-      "meta_config": {}
-    },
-    {
-      "id": "/home/dining/button/button_2/",
-      "label": "Button 2",
-      "device_id": "Gira_429496730250000_431602452620000",
-      "type": "BUTTON",
-      "placement_config": {
-        "location_id": "Dining",
-        "position": {
-          "translation": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "rotation": {
-            "qw": 1.0,
-            "qx": 0.0,
-            "qy": 0.0,
-            "qz": 0.0
-          }
-        }
-      },
-      "scope": {
-        "component": [
-          "home",
-          "dining",
-          "button",
-          "button_2"
-        ]
-      },
-      "bound_to_device": true,
-      "service_config": [
-        {
-          "binding_service_config": {
-            "type": "OPENHAB",
-            "meta_config": {
-              "entry": [
-                {
-                  "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "2/3/1"
-                },
-                {
-                  "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5142__home_dining__Button__Button_2__ButtonProvider"
-                }
-              ]
-            }
-          },
-          "unit_id": "/home/dining/button/button_2/",
-          "type": "BUTTON_PROVIDER",
-          "meta_config": {}
-        }
-      ],
-      "meta_config": {}
-    },
-    {
-      "id": "/home/dining/button/button_3/",
-      "label": "Button 3",
-      "device_id": "Gira_429496730250000_431602452620000",
-      "type": "BUTTON",
-      "placement_config": {
-        "location_id": "Dining",
-        "position": {
-          "translation": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "rotation": {
-            "qw": 1.0,
-            "qx": 0.0,
-            "qy": 0.0,
-            "qz": 0.0
-          }
-        }
-      },
-      "scope": {
-        "component": [
-          "home",
-          "dining",
-          "button",
-          "button_3"
-        ]
-      },
-      "bound_to_device": true,
-      "service_config": [
-        {
-          "binding_service_config": {
-            "type": "OPENHAB",
-            "meta_config": {
-              "entry": [
-                {
-                  "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "2/3/2"
-                },
-                {
-                  "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5142__home_dining__Button__Button_3__ButtonProvider"
-                }
-              ]
-            }
-          },
-          "unit_id": "/home/dining/button/button_3/",
-          "type": "BUTTON_PROVIDER",
-          "meta_config": {}
-        }
-      ],
-      "meta_config": {}
-    },
-    {
-      "id": "/home/dining/button/button_4/",
-      "label": "Button 4",
-      "device_id": "Gira_429496730250000_431602452620000",
-      "type": "BUTTON",
-      "placement_config": {
-        "location_id": "Dining",
-        "position": {
-          "translation": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "rotation": {
-            "qw": 1.0,
-            "qx": 0.0,
-            "qy": 0.0,
-            "qz": 0.0
-          }
-        }
-      },
-      "scope": {
-        "component": [
-          "home",
-          "dining",
-          "button",
-          "button_4"
-        ]
-      },
-      "bound_to_device": true,
-      "service_config": [
-        {
-          "binding_service_config": {
-            "type": "OPENHAB",
-            "meta_config": {
-              "entry": [
-                {
-                  "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "2/3/3"
-                },
-                {
-                  "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5142__home_dining__Button__Button_4__ButtonProvider"
-                }
-              ]
-            }
-          },
-          "unit_id": "/home/dining/button/button_4/",
-          "type": "BUTTON_PROVIDER",
-          "meta_config": {}
+          "unit_id": "/home/control/temperaturesensor/borrowdunit-1/",
+          "type": "TEMPERATURE_ALARM_STATE_PROVIDER"
         }
       ],
       "meta_config": {}

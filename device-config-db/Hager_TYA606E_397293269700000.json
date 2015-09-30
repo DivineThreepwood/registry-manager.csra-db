@@ -391,6 +391,7 @@
           "a5c4"
         ]
       },
+      "description": "BOS, LXR",
       "bound_to_device": false,
       "service_config": [
         {
@@ -446,6 +447,7 @@
           "a5c4consumption"
         ]
       },
+      "description": "BOS, LXR",
       "bound_to_device": false,
       "service_config": [
         {
@@ -672,6 +674,10 @@
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
                   "value": "Hager_TYA606E__home_sports__PowerConsumptionSensor__A5C6Consumption__PowerConsumptionProvider"
+                },
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/162"
                 }
               ]
             }

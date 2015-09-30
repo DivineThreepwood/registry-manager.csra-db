@@ -35,6 +35,7 @@
   "device_class_id": "Hager_TYA606E",
   "unit_config": [
     {
+      "id": "/home/control/powerplug/a10c1/",
       "label": "A10C1",
       "device_id": "Hager_TYA606E_397289432450000",
       "type": "POWER_PLUG",
@@ -59,7 +60,7 @@
           "home",
           "control",
           "powerplug",
-          "a1c1"
+          "a10c1"
         ]
       },
       "bound_to_device": false,
@@ -75,11 +76,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA606E__home_control__PowerPlug__A1C1__PowerService"
+                  "value": "Hager_TYA606E__home_control__PowerPlug__A10C1__PowerService"
                 }
               ]
             }
           },
+          "unit_id": "/home/control/powerplug/a10c1/",
           "type": "POWER_SERVICE",
           "meta_config": {}
         }
@@ -87,6 +89,7 @@
       "meta_config": {}
     },
     {
+      "id": "/home/control/powerconsumptionsensor/a10c1consumption/",
       "label": "A10C1Consumption",
       "device_id": "Hager_TYA606E_397289432450000",
       "type": "POWER_CONSUMPTION_SENSOR",
@@ -111,7 +114,7 @@
           "home",
           "control",
           "powerconsumptionsensor",
-          "a1c1consumption"
+          "a10c1consumption"
         ]
       },
       "bound_to_device": false,
@@ -127,11 +130,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA606E__home_control__PowerConsumptionSensor__A1C1Consumption__PowerConsumptionProvider"
+                  "value": "Hager_TYA606E__home_control__PowerConsumptionSensor__A10C1Consumption__PowerConsumptionProvider"
                 }
               ]
             }
           },
+          "unit_id": "/home/control/powerconsumptionsensor/a10c1consumption/",
           "type": "POWER_CONSUMPTION_PROVIDER",
           "meta_config": {}
         }
@@ -139,6 +143,7 @@
       "meta_config": {}
     },
     {
+      "id": "/home/control/powerplug/a10c2/",
       "label": "A10C2",
       "device_id": "Hager_TYA606E_397289432450000",
       "type": "POWER_PLUG",
@@ -163,7 +168,7 @@
           "home",
           "control",
           "powerplug",
-          "a1c2"
+          "a10c2"
         ]
       },
       "bound_to_device": false,
@@ -179,11 +184,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA606E__home_control__PowerPlug__A1C2__PowerService"
+                  "value": "Hager_TYA606E__home_control__PowerPlug__A10C2__PowerService"
                 }
               ]
             }
           },
+          "unit_id": "/home/control/powerplug/a10c2/",
           "type": "POWER_SERVICE",
           "meta_config": {}
         }
@@ -191,6 +197,7 @@
       "meta_config": {}
     },
     {
+      "id": "/home/control/powerconsumptionsensor/a10c2consumption/",
       "label": "A10C2Consumption",
       "device_id": "Hager_TYA606E_397289432450000",
       "type": "POWER_CONSUMPTION_SENSOR",
@@ -215,7 +222,7 @@
           "home",
           "control",
           "powerconsumptionsensor",
-          "a1c2consumption"
+          "a10c2consumption"
         ]
       },
       "bound_to_device": false,
@@ -231,11 +238,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA606E__home_control__PowerConsumptionSensor__A1C2Consumption__PowerConsumptionProvider"
+                  "value": "Hager_TYA606E__home_control__PowerConsumptionSensor__A10C2Consumption__PowerConsumptionProvider"
                 }
               ]
             }
           },
+          "unit_id": "/home/control/powerconsumptionsensor/a10c2consumption/",
           "type": "POWER_CONSUMPTION_PROVIDER",
           "meta_config": {}
         }
@@ -243,6 +251,7 @@
       "meta_config": {}
     },
     {
+      "id": "/home/control/powerplug/a10c3/",
       "label": "A10C3",
       "device_id": "Hager_TYA606E_397289432450000",
       "type": "POWER_PLUG",
@@ -267,7 +276,7 @@
           "home",
           "control",
           "powerplug",
-          "a1c3"
+          "a10c3"
         ]
       },
       "bound_to_device": false,
@@ -283,11 +292,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA606E__home_control__PowerPlug__A1C3__PowerService"
+                  "value": "Hager_TYA606E__home_control__PowerPlug__A10C3__PowerService"
                 }
               ]
             }
           },
+          "unit_id": "/home/control/powerplug/a10c3/",
           "type": "POWER_SERVICE",
           "meta_config": {}
         }
@@ -295,6 +305,7 @@
       "meta_config": {}
     },
     {
+      "id": "/home/control/powerconsumptionsensor/a10c3consumption/",
       "label": "A10C3Consumption",
       "device_id": "Hager_TYA606E_397289432450000",
       "type": "POWER_CONSUMPTION_SENSOR",
@@ -319,7 +330,7 @@
           "home",
           "control",
           "powerconsumptionsensor",
-          "a1c3consumption"
+          "a10c3consumption"
         ]
       },
       "bound_to_device": false,
@@ -335,11 +346,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA606E__home_control__PowerConsumptionSensor__A1C3Consumption__PowerConsumptionProvider"
+                  "value": "Hager_TYA606E__home_control__PowerConsumptionSensor__A10C3Consumption__PowerConsumptionProvider"
                 }
               ]
             }
           },
+          "unit_id": "/home/control/powerconsumptionsensor/a10c3consumption/",
           "type": "POWER_CONSUMPTION_PROVIDER",
           "meta_config": {}
         }
@@ -347,6 +359,7 @@
       "meta_config": {}
     },
     {
+      "id": "/home/control/powerplug/a10c4/",
       "label": "A10C4",
       "device_id": "Hager_TYA606E_397289432450000",
       "type": "POWER_PLUG",
@@ -371,7 +384,7 @@
           "home",
           "control",
           "powerplug",
-          "a1c4"
+          "a10c4"
         ]
       },
       "bound_to_device": false,
@@ -387,11 +400,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA606E__home_control__PowerPlug__A1C4__PowerService"
+                  "value": "Hager_TYA606E__home_control__PowerPlug__A10C4__PowerService"
                 }
               ]
             }
           },
+          "unit_id": "/home/control/powerplug/a10c4/",
           "type": "POWER_SERVICE",
           "meta_config": {}
         }
@@ -399,6 +413,7 @@
       "meta_config": {}
     },
     {
+      "id": "/home/control/powerconsumptionsensor/a10c4consumption/",
       "label": "A10C4Consumption",
       "device_id": "Hager_TYA606E_397289432450000",
       "type": "POWER_CONSUMPTION_SENSOR",
@@ -423,7 +438,7 @@
           "home",
           "control",
           "powerconsumptionsensor",
-          "a1c4consumption"
+          "a10c4consumption"
         ]
       },
       "bound_to_device": false,
@@ -439,11 +454,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA606E__home_control__PowerConsumptionSensor__A1C4Consumption__PowerConsumptionProvider"
+                  "value": "Hager_TYA606E__home_control__PowerConsumptionSensor__A10C4Consumption__PowerConsumptionProvider"
                 }
               ]
             }
           },
+          "unit_id": "/home/control/powerconsumptionsensor/a10c4consumption/",
           "type": "POWER_CONSUMPTION_PROVIDER",
           "meta_config": {}
         }
@@ -451,6 +467,7 @@
       "meta_config": {}
     },
     {
+      "id": "/home/control/powerplug/a10c5/",
       "label": "A10C5",
       "device_id": "Hager_TYA606E_397289432450000",
       "type": "POWER_PLUG",
@@ -475,7 +492,7 @@
           "home",
           "control",
           "powerplug",
-          "a1c5"
+          "a10c5"
         ]
       },
       "bound_to_device": false,
@@ -491,11 +508,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA606E__home_control__PowerPlug__A1C5__PowerService"
+                  "value": "Hager_TYA606E__home_control__PowerPlug__A10C5__PowerService"
                 }
               ]
             }
           },
+          "unit_id": "/home/control/powerplug/a10c5/",
           "type": "POWER_SERVICE",
           "meta_config": {}
         }
@@ -503,6 +521,7 @@
       "meta_config": {}
     },
     {
+      "id": "/home/control/powerconsumptionsensor/a10c5consumption/",
       "label": "A10C5Consumption",
       "device_id": "Hager_TYA606E_397289432450000",
       "type": "POWER_CONSUMPTION_SENSOR",
@@ -527,7 +546,7 @@
           "home",
           "control",
           "powerconsumptionsensor",
-          "a1c5consumption"
+          "a10c5consumption"
         ]
       },
       "bound_to_device": false,
@@ -543,11 +562,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA606E__home_control__PowerConsumptionSensor__A1C5Consumption__PowerConsumptionProvider"
+                  "value": "Hager_TYA606E__home_control__PowerConsumptionSensor__A10C5Consumption__PowerConsumptionProvider"
                 }
               ]
             }
           },
+          "unit_id": "/home/control/powerconsumptionsensor/a10c5consumption/",
           "type": "POWER_CONSUMPTION_PROVIDER",
           "meta_config": {}
         }
@@ -555,6 +575,7 @@
       "meta_config": {}
     },
     {
+      "id": "/home/control/powerplug/a10c6/",
       "label": "A10C6",
       "device_id": "Hager_TYA606E_397289432450000",
       "type": "POWER_PLUG",
@@ -579,7 +600,7 @@
           "home",
           "control",
           "powerplug",
-          "a1c6"
+          "a10c6"
         ]
       },
       "bound_to_device": false,
@@ -595,11 +616,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA606E__home_control__PowerPlug__A1C6__PowerService"
+                  "value": "Hager_TYA606E__home_control__PowerPlug__A10C6__PowerService"
                 }
               ]
             }
           },
+          "unit_id": "/home/control/powerplug/a10c6/",
           "type": "POWER_SERVICE",
           "meta_config": {}
         }
@@ -607,6 +629,7 @@
       "meta_config": {}
     },
     {
+      "id": "/home/control/powerconsumptionsensor/a10c6consumption/",
       "label": "A10C6Consumption",
       "device_id": "Hager_TYA606E_397289432450000",
       "type": "POWER_CONSUMPTION_SENSOR",
@@ -631,7 +654,7 @@
           "home",
           "control",
           "powerconsumptionsensor",
-          "a1c6consumption"
+          "a10c6consumption"
         ]
       },
       "bound_to_device": false,
@@ -647,11 +670,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA606E__home_control__PowerConsumptionSensor__A1C6Consumption__PowerConsumptionProvider"
+                  "value": "Hager_TYA606E__home_control__PowerConsumptionSensor__A10C6Consumption__PowerConsumptionProvider"
                 }
               ]
             }
           },
+          "unit_id": "/home/control/powerconsumptionsensor/a10c6consumption/",
           "type": "POWER_CONSUMPTION_PROVIDER",
           "meta_config": {}
         }

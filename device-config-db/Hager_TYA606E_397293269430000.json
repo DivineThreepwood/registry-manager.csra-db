@@ -388,6 +388,7 @@
           "a9c4"
         ]
       },
+      "description": "4K TV Display",
       "bound_to_device": false,
       "service_config": [
         {
@@ -442,6 +443,7 @@
           "a9c4consumption"
         ]
       },
+      "description": "4K TV Display",
       "bound_to_device": false,
       "service_config": [
         {
@@ -496,6 +498,7 @@
           "a9c5"
         ]
       },
+      "description": "LOL",
       "bound_to_device": false,
       "service_config": [
         {
@@ -550,6 +553,7 @@
           "a9c5consumption"
         ]
       },
+      "description": "LOL",
       "bound_to_device": false,
       "service_config": [
         {

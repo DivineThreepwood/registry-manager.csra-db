@@ -26,10 +26,10 @@
   },
   "serial_number": "566AD4",
   "inventory_state": {
-    "value": "IN_STOCK",
+    "value": "INSTALLED",
     "location_id": "Living",
     "timestamp": {
-      "time": 1442493812644
+      "time": 1442907687888
     },
     "owner": {}
   },

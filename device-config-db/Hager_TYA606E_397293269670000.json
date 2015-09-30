@@ -198,8 +198,8 @@
       "meta_config": {}
     },
     {
-      "id": "/home/sports/powerconsumptionsensor/a6c2comsumption/",
-      "label": "A6C2Comsumption",
+      "id": "/home/sports/powerconsumptionsensor/a6c2consumption/",
+      "label": "A6C2Consumption",
       "device_id": "Hager_TYA606E_397293269670000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
@@ -223,7 +223,7 @@
           "home",
           "sports",
           "powerconsumptionsensor",
-          "a6c2comsumption"
+          "a6c2consumption"
         ]
       },
       "bound_to_device": false,
@@ -239,12 +239,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA606E__home_sports__PowerConsumptionSensor__A6C2Comsumption__PowerConsumptionProvider"
+                  "value": "Hager_TYA606E__home_sports__PowerConsumptionSensor__A6C2Consumption__PowerConsumptionProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/sports/powerconsumptionsensor/a6c2comsumption/",
+          "unit_id": "/home/sports/powerconsumptionsensor/a6c2consumption/",
           "type": "POWER_CONSUMPTION_PROVIDER",
           "meta_config": {}
         }
@@ -306,8 +306,8 @@
       "meta_config": {}
     },
     {
-      "id": "/home/sports/powerconsumptionsensor/a6c3comsumption/",
-      "label": "A6C3Comsumption",
+      "id": "/home/sports/powerconsumptionsensor/a6c3consumption/",
+      "label": "A6C3Consumption",
       "device_id": "Hager_TYA606E_397293269670000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
@@ -331,7 +331,7 @@
           "home",
           "sports",
           "powerconsumptionsensor",
-          "a6c3comsumption"
+          "a6c3consumption"
         ]
       },
       "bound_to_device": false,
@@ -347,12 +347,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA606E__home_sports__PowerConsumptionSensor__A6C3Comsumption__PowerConsumptionProvider"
+                  "value": "Hager_TYA606E__home_sports__PowerConsumptionSensor__A6C3Consumption__PowerConsumptionProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/sports/powerconsumptionsensor/a6c3comsumption/",
+          "unit_id": "/home/sports/powerconsumptionsensor/a6c3consumption/",
           "type": "POWER_CONSUMPTION_PROVIDER",
           "meta_config": {}
         }
@@ -414,8 +414,8 @@
       "meta_config": {}
     },
     {
-      "id": "/home/sports/powerconsumptionsensor/a6c4comsumption/",
-      "label": "A6C4Comsumption",
+      "id": "/home/sports/powerconsumptionsensor/a6c4consumption/",
+      "label": "A6C4Consumption",
       "device_id": "Hager_TYA606E_397293269670000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
@@ -439,7 +439,7 @@
           "home",
           "sports",
           "powerconsumptionsensor",
-          "a6c4comsumption"
+          "a6c4consumption"
         ]
       },
       "bound_to_device": false,
@@ -455,12 +455,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA606E__home_sports__PowerConsumptionSensor__A6C4Comsumption__PowerConsumptionProvider"
+                  "value": "Hager_TYA606E__home_sports__PowerConsumptionSensor__A6C4Consumption__PowerConsumptionProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/sports/powerconsumptionsensor/a6c4comsumption/",
+          "unit_id": "/home/sports/powerconsumptionsensor/a6c4consumption/",
           "type": "POWER_CONSUMPTION_PROVIDER",
           "meta_config": {}
         }
@@ -496,7 +496,7 @@
           "a6c5"
         ]
       },
-      "description": "4K TV",
+      "description": "surface table",
       "bound_to_device": false,
       "service_config": [
         {
@@ -523,8 +523,8 @@
       "meta_config": {}
     },
     {
-      "id": "/home/living/powerconsumptionsensor/a6c5comsumption/",
-      "label": "A6C5Comsumption",
+      "id": "/home/living/powerconsumptionsensor/a6c5consumption/",
+      "label": "A6C5Consumption",
       "device_id": "Hager_TYA606E_397293269670000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
@@ -548,10 +548,10 @@
           "home",
           "living",
           "powerconsumptionsensor",
-          "a6c5comsumption"
+          "a6c5consumption"
         ]
       },
-      "description": "4K TV",
+      "description": "surface table",
       "bound_to_device": false,
       "service_config": [
         {
@@ -565,12 +565,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA606E__home_living__PowerConsumptionSensor__A6C5Comsumption__PowerConsumptionProvider"
+                  "value": "Hager_TYA606E__home_living__PowerConsumptionSensor__A6C5Consumption__PowerConsumptionProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/living/powerconsumptionsensor/a6c5comsumption/",
+          "unit_id": "/home/living/powerconsumptionsensor/a6c5consumption/",
           "type": "POWER_CONSUMPTION_PROVIDER",
           "meta_config": {}
         }
@@ -632,8 +632,8 @@
       "meta_config": {}
     },
     {
-      "id": "/home/dining/powerconsumptionsensor/a6c6comsumption/",
-      "label": "A6C6Comsumption",
+      "id": "/home/dining/powerconsumptionsensor/a6c6consumption/",
+      "label": "A6C6Consumption",
       "device_id": "Hager_TYA606E_397293269670000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
@@ -657,7 +657,7 @@
           "home",
           "dining",
           "powerconsumptionsensor",
-          "a6c6comsumption"
+          "a6c6consumption"
         ]
       },
       "bound_to_device": false,
@@ -673,12 +673,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA606E__home_dining__PowerConsumptionSensor__A6C6Comsumption__PowerConsumptionProvider"
+                  "value": "Hager_TYA606E__home_dining__PowerConsumptionSensor__A6C6Consumption__PowerConsumptionProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/dining/powerconsumptionsensor/a6c6comsumption/",
+          "unit_id": "/home/dining/powerconsumptionsensor/a6c6consumption/",
           "type": "POWER_CONSUMPTION_PROVIDER",
           "meta_config": {}
         }
