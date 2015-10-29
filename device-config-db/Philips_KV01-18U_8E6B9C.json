@@ -37,6 +37,7 @@
   "unit_config": [
     {
       "id": "/home/bath/ambientlight/llamp2/",
+      "unit_template_config_id": "Philips_KV01-18U_AMBIENT_LIGHT_0",
       "label": "LLamp2",
       "device_id": "Philips_KV01-18U_8E6B9C",
       "type": "AMBIENT_LIGHT",

@@ -37,6 +37,7 @@
   "unit_config": [
     {
       "id": "/home/living/ambientlight/llamp6/",
+      "unit_template_config_id": "Philips_KV01-18U_AMBIENT_LIGHT_0",
       "label": "LLamp6",
       "device_id": "Philips_KV01-18U_3012DB",
       "type": "AMBIENT_LIGHT",

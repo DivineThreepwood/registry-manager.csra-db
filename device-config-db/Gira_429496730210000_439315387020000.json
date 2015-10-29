@@ -36,8 +36,9 @@
   "device_class_id": "Gira_429496730210000",
   "unit_config": [
     {
-      "id": "/home/wardrobe/button/hallwayabovebutton1/",
-      "label": "HallwayAboveButton1",
+      "id": "/home/wardrobe/button/greet/",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_0",
+      "label": "greet",
       "device_id": "Gira_429496730210000_439315387020000",
       "type": "BUTTON",
       "placement_config": {
@@ -61,7 +62,7 @@
           "home",
           "wardrobe",
           "button",
-          "hallwayabovebutton1"
+          "greet"
         ]
       },
       "bound_to_device": true,
@@ -77,12 +78,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_wardrobe__Button__HallwayAboveButton1__ButtonProvider"
+                  "value": "Gira_5133__home_wardrobe__Button__greet__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/wardrobe/button/hallwayabovebutton1/",
+          "unit_id": "/home/wardrobe/button/greet/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }
@@ -90,8 +91,9 @@
       "meta_config": {}
     },
     {
-      "id": "/home/wardrobe/button/hallwayabovebutton2/",
-      "label": "HallwayAboveButton2",
+      "id": "/home/wardrobe/button/goodbye/",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_1",
+      "label": "goodbye",
       "device_id": "Gira_429496730210000_439315387020000",
       "type": "BUTTON",
       "placement_config": {
@@ -115,7 +117,7 @@
           "home",
           "wardrobe",
           "button",
-          "hallwayabovebutton2"
+          "goodbye"
         ]
       },
       "bound_to_device": true,
@@ -131,12 +133,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_wardrobe__Button__HallwayAboveButton2__ButtonProvider"
+                  "value": "Gira_5133__home_wardrobe__Button__goodbye__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/wardrobe/button/hallwayabovebutton2/",
+          "unit_id": "/home/wardrobe/button/goodbye/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }
@@ -144,8 +146,9 @@
       "meta_config": {}
     },
     {
-      "id": "/home/wardrobe/button/hallwayabovebutton3/",
-      "label": "HallwayAboveButton3",
+      "id": "/home/wardrobe/button/list/",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_2",
+      "label": "list",
       "device_id": "Gira_429496730210000_439315387020000",
       "type": "BUTTON",
       "placement_config": {
@@ -169,7 +172,7 @@
           "home",
           "wardrobe",
           "button",
-          "hallwayabovebutton3"
+          "list"
         ]
       },
       "bound_to_device": true,
@@ -185,12 +188,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_wardrobe__Button__HallwayAboveButton3__ButtonProvider"
+                  "value": "Gira_5133__home_wardrobe__Button__list__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/wardrobe/button/hallwayabovebutton3/",
+          "unit_id": "/home/wardrobe/button/list/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }
@@ -198,8 +201,9 @@
       "meta_config": {}
     },
     {
-      "id": "/home/wardrobe/button/hallwayabovebutton4/",
-      "label": "HallwayAboveButton4",
+      "id": "/home/wardrobe/button/explain/",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_3",
+      "label": "explain",
       "device_id": "Gira_429496730210000_439315387020000",
       "type": "BUTTON",
       "placement_config": {
@@ -223,7 +227,7 @@
           "home",
           "wardrobe",
           "button",
-          "hallwayabovebutton4"
+          "explain"
         ]
       },
       "bound_to_device": true,
@@ -239,12 +243,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_wardrobe__Button__HallwayAboveButton4__ButtonProvider"
+                  "value": "Gira_5133__home_wardrobe__Button__explain__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/wardrobe/button/hallwayabovebutton4/",
+          "unit_id": "/home/wardrobe/button/explain/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }
@@ -252,8 +256,9 @@
       "meta_config": {}
     },
     {
-      "id": "/home/wardrobe/button/hallwayabovebutton5/",
-      "label": "HallwayAboveButton5",
+      "id": "/home/wardrobe/button/kitchen/",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_4",
+      "label": "kitchen",
       "device_id": "Gira_429496730210000_439315387020000",
       "type": "BUTTON",
       "placement_config": {
@@ -277,7 +282,7 @@
           "home",
           "wardrobe",
           "button",
-          "hallwayabovebutton5"
+          "kitchen"
         ]
       },
       "bound_to_device": true,
@@ -293,12 +298,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_wardrobe__Button__HallwayAboveButton5__ButtonProvider"
+                  "value": "Gira_5133__home_wardrobe__Button__kitchen__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/wardrobe/button/hallwayabovebutton5/",
+          "unit_id": "/home/wardrobe/button/kitchen/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }
@@ -306,8 +311,9 @@
       "meta_config": {}
     },
     {
-      "id": "/home/wardrobe/button/hallwayabovebutton6/",
-      "label": "HallwayAboveButton6",
+      "id": "/home/wardrobe/button/findkeys/",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_5",
+      "label": "findkeys",
       "device_id": "Gira_429496730210000_439315387020000",
       "type": "BUTTON",
       "placement_config": {
@@ -331,7 +337,7 @@
           "home",
           "wardrobe",
           "button",
-          "hallwayabovebutton6"
+          "findkeys"
         ]
       },
       "bound_to_device": true,
@@ -347,12 +353,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_wardrobe__Button__HallwayAboveButton6__ButtonProvider"
+                  "value": "Gira_5133__home_wardrobe__Button__findkeys__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/wardrobe/button/hallwayabovebutton6/",
+          "unit_id": "/home/wardrobe/button/findkeys/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }

@@ -37,6 +37,7 @@
   "unit_config": [
     {
       "id": "/home/living/ambientlight/mediahue/",
+      "unit_template_config_id": "Philips_KV01-18U_AMBIENT_LIGHT_0",
       "label": "MediaHue",
       "device_id": "Philips_KV01-18U_DF9598",
       "type": "AMBIENT_LIGHT",

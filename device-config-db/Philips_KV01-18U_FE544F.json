@@ -1,8 +1,8 @@
 {
-  "id": "Philips_KV01-18Y_B44804",
-  "label": "CeilingLamp 4",
+  "id": "Philips_KV01-18U_FE544F",
+  "label": "StudTestLamp",
   "placement_config": {
-    "location_id": "Kitchen",
+    "location_id": "Home",
     "position": {
       "translation": {
         "x": 0.0,
@@ -20,29 +20,27 @@
   "scope": {
     "component": [
       "home",
-      "kitchen",
-      "ceilinglamp_4"
+      "studtestlamp"
     ]
   },
-  "serial_number": "B44804",
+  "serial_number": "FE544F",
   "inventory_state": {
-    "value": "INSTALLED",
-    "location_id": "Kitchen",
+    "value": "IN_STOCK",
     "timestamp": {
-      "time": 1441017140147
+      "time": 1445609543043
     },
     "owner": {}
   },
-  "device_class_id": "Philips_KV01-18Y",
+  "device_class_id": "Philips_KV01-18U",
   "unit_config": [
     {
-      "id": "/home/kitchen/ambientlight/ceilinglamp_4/",
-      "unit_template_config_id": "Philips_KV01-18Y_AMBIENT_LIGHT_0",
-      "label": "CeilingLamp 4",
-      "device_id": "Philips_KV01-18Y_B44804",
+      "id": "/home/ambientlight/studtestlamp/",
+      "unit_template_config_id": "Philips_KV01-18U_AMBIENT_LIGHT_0",
+      "label": "StudTestLamp",
+      "device_id": "Philips_KV01-18U_FE544F",
       "type": "AMBIENT_LIGHT",
       "placement_config": {
-        "location_id": "Kitchen",
+        "location_id": "Home",
         "position": {
           "translation": {
             "x": 0.0,
@@ -60,9 +58,8 @@
       "scope": {
         "component": [
           "home",
-          "kitchen",
           "ambientlight",
-          "ceilinglamp_4"
+          "studtestlamp"
         ]
       },
       "bound_to_device": true,
@@ -74,12 +71,12 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philips_Hue_GU10__home_kitchen__AmbientLight__CeilingLamp_4__BrightnessService"
+                  "value": "Philps_Hue_E27__home__AmbientLight__StudTestLamp__BrightnessService"
                 }
               ]
             }
           },
-          "unit_id": "/home/kitchen/ambientlight/ceilinglamp_4/",
+          "unit_id": "/home/ambientlight/studtestlamp/",
           "type": "BRIGHTNESS_SERVICE",
           "meta_config": {}
         },
@@ -90,12 +87,12 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philips_Hue_GU10__home_kitchen__AmbientLight__CeilingLamp_4__ColorService"
+                  "value": "Philps_Hue_E27__home__AmbientLight__StudTestLamp__ColorService"
                 }
               ]
             }
           },
-          "unit_id": "/home/kitchen/ambientlight/ceilinglamp_4/",
+          "unit_id": "/home/ambientlight/studtestlamp/",
           "type": "COLOR_SERVICE",
           "meta_config": {}
         },
@@ -106,12 +103,12 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philips_Hue_GU10__home_kitchen__AmbientLight__CeilingLamp_4__PowerService"
+                  "value": "Philps_Hue_E27__home__AmbientLight__StudTestLamp__PowerService"
                 }
               ]
             }
           },
-          "unit_id": "/home/kitchen/ambientlight/ceilinglamp_4/",
+          "unit_id": "/home/ambientlight/studtestlamp/",
           "type": "POWER_SERVICE",
           "meta_config": {}
         }
@@ -119,12 +116,5 @@
       "meta_config": {}
     }
   ],
-  "meta_config": {
-    "entry": [
-      {
-        "key": "OPENHAB_BINDING_DEVICE_ID",
-        "value": "11"
-      }
-    ]
-  }
+  "meta_config": {}
 }

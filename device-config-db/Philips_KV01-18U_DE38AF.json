@@ -37,6 +37,7 @@
   "unit_config": [
     {
       "id": "/home/living/ambientlight/slampleft2/",
+      "unit_template_config_id": "Philips_KV01-18U_AMBIENT_LIGHT_0",
       "label": "SLampLeft2",
       "device_id": "Philips_KV01-18U_DE38AF",
       "type": "AMBIENT_LIGHT",

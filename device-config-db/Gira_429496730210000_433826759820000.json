@@ -37,6 +37,7 @@
   "unit_config": [
     {
       "id": "/home/wardrobe/button/entrancebutton1/",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_0",
       "label": "EntranceButton1",
       "device_id": "Gira_429496730210000_433826759820000",
       "type": "BUTTON",
@@ -91,6 +92,7 @@
     },
     {
       "id": "/home/wardrobe/button/entrancebutton2/",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_1",
       "label": "EntranceButton2",
       "device_id": "Gira_429496730210000_433826759820000",
       "type": "BUTTON",
@@ -145,6 +147,7 @@
     },
     {
       "id": "/home/wardrobe/button/entrancebutton3/",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_2",
       "label": "EntranceButton3",
       "device_id": "Gira_429496730210000_433826759820000",
       "type": "BUTTON",
@@ -199,6 +202,7 @@
     },
     {
       "id": "/home/wardrobe/button/entrancebutton4/",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_3",
       "label": "EntranceButton4",
       "device_id": "Gira_429496730210000_433826759820000",
       "type": "BUTTON",
@@ -253,6 +257,7 @@
     },
     {
       "id": "/home/wardrobe/button/wardrobelight/",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_4",
       "label": "WardrobeLight",
       "device_id": "Gira_429496730210000_433826759820000",
       "type": "BUTTON",
@@ -307,6 +312,7 @@
     },
     {
       "id": "/home/wardrobe/button/apartmentlight/",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_5",
       "label": "ApartmentLight",
       "device_id": "Gira_429496730210000_433826759820000",
       "type": "BUTTON",

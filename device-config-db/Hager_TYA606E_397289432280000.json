@@ -36,6 +36,7 @@
   "unit_config": [
     {
       "id": "/home/kitchen/powerplug/a2c1/",
+      "unit_template_config_id": "Hager_TYA606E_POWER_PLUG_0",
       "label": "A2C1",
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_PLUG",
@@ -90,6 +91,7 @@
     },
     {
       "id": "/home/kitchen/powerconsumptionsensor/a2c1consumption/",
+      "unit_template_config_id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_0",
       "label": "A2C1Consumption",
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_CONSUMPTION_SENSOR",
@@ -147,6 +149,7 @@
     },
     {
       "id": "/home/kitchen/powerplug/a2c2/",
+      "unit_template_config_id": "Hager_TYA606E_POWER_PLUG_1",
       "label": "A2C2",
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_PLUG",
@@ -201,6 +204,7 @@
     },
     {
       "id": "/home/kitchen/powerconsumptionsensor/a2c2consumption/",
+      "unit_template_config_id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_1",
       "label": "A2C2Consumption",
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_CONSUMPTION_SENSOR",
@@ -255,6 +259,7 @@
     },
     {
       "id": "/home/living/lounge/powerplug/a2c3/",
+      "unit_template_config_id": "Hager_TYA606E_POWER_PLUG_2",
       "label": "A2C3",
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_PLUG",
@@ -310,6 +315,7 @@
     },
     {
       "id": "/home/living/lounge/powerconsumptionsensor/a2c3consumption/",
+      "unit_template_config_id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_2",
       "label": "A2C3Consumption",
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_CONSUMPTION_SENSOR",
@@ -365,6 +371,7 @@
     },
     {
       "id": "/home/living/lounge/powerplug/a2c4/",
+      "unit_template_config_id": "Hager_TYA606E_POWER_PLUG_3",
       "label": "A2C4",
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_PLUG",
@@ -420,6 +427,7 @@
     },
     {
       "id": "/home/living/lounge/powerconsumptionsensor/a2c4consumption/",
+      "unit_template_config_id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_3",
       "label": "A2C4Consumption",
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_CONSUMPTION_SENSOR",
@@ -478,6 +486,7 @@
     },
     {
       "id": "/home/living/lounge/powerplug/a2c5/",
+      "unit_template_config_id": "Hager_TYA606E_POWER_PLUG_4",
       "label": "A2C5",
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_PLUG",
@@ -536,6 +545,7 @@
     },
     {
       "id": "/home/living/lounge/powerconsumptionsensor/a2c5consumption/",
+      "unit_template_config_id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_4",
       "label": "A2C5Consumption",
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_CONSUMPTION_SENSOR",
@@ -594,6 +604,7 @@
     },
     {
       "id": "/home/dining/powerplug/a2c6/",
+      "unit_template_config_id": "Hager_TYA606E_POWER_PLUG_5",
       "label": "A2C6",
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_PLUG",
@@ -648,6 +659,7 @@
     },
     {
       "id": "/home/dining/powerconsumptionsensor/a2c6consumption/",
+      "unit_template_config_id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_5",
       "label": "A2C6Consumption",
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_CONSUMPTION_SENSOR",

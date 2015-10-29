@@ -37,6 +37,7 @@
   "unit_config": [
     {
       "id": "/home/outdoor/battery/entrance/",
+      "unit_template_config_id": "Fibaro_FGMS-001_BATTERY_0",
       "label": "Entrance",
       "device_id": "Fibaro_FGMS-001_FMS016",
       "type": "BATTERY",
@@ -87,6 +88,7 @@
     },
     {
       "id": "/home/outdoor/brightnesssensor/entrance/",
+      "unit_template_config_id": "Fibaro_FGMS-001_BRIGHTNESS_SENSOR_0",
       "label": "Entrance",
       "device_id": "Fibaro_FGMS-001_FMS016",
       "type": "BRIGHTNESS_SENSOR",
@@ -137,6 +139,7 @@
     },
     {
       "id": "/home/outdoor/motionsensor/entrance/",
+      "unit_template_config_id": "Fibaro_FGMS-001_MOTION_SENSOR_0",
       "label": "Entrance",
       "device_id": "Fibaro_FGMS-001_FMS016",
       "type": "MOTION_SENSOR",
@@ -187,6 +190,7 @@
     },
     {
       "id": "/home/outdoor/tamperswitch/entrance/",
+      "unit_template_config_id": "Fibaro_FGMS-001_TAMPER_SWITCH_0",
       "label": "Entrance",
       "device_id": "Fibaro_FGMS-001_FMS016",
       "type": "TAMPER_SWITCH",
@@ -237,6 +241,7 @@
     },
     {
       "id": "/home/outdoor/temperaturesensor/entrance/",
+      "unit_template_config_id": "Fibaro_FGMS-001_TEMPERATURE_SENSOR_0",
       "label": "Entrance",
       "device_id": "Fibaro_FGMS-001_FMS016",
       "type": "TEMPERATURE_SENSOR",

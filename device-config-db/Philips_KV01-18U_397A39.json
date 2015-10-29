@@ -37,6 +37,7 @@
   "unit_config": [
     {
       "id": "/home/bath/ambientlight/llamp3/",
+      "unit_template_config_id": "Philips_KV01-18U_AMBIENT_LIGHT_0",
       "label": "LLamp3",
       "device_id": "Philips_KV01-18U_397A39",
       "type": "AMBIENT_LIGHT",

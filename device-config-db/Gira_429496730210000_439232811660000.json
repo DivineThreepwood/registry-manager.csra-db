@@ -37,6 +37,7 @@
   "unit_config": [
     {
       "id": "/home/kitchen/button/doorbutton_1/",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_0",
       "label": "DoorButton 1",
       "device_id": "Gira_429496730210000_439232811660000",
       "type": "BUTTON",
@@ -91,6 +92,7 @@
     },
     {
       "id": "/home/kitchen/button/doorbutton_2/",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_1",
       "label": "DoorButton 2",
       "device_id": "Gira_429496730210000_439232811660000",
       "type": "BUTTON",
@@ -145,6 +147,7 @@
     },
     {
       "id": "/home/kitchen/button/doorbutton_3/",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_2",
       "label": "DoorButton 3",
       "device_id": "Gira_429496730210000_439232811660000",
       "type": "BUTTON",
@@ -199,6 +202,7 @@
     },
     {
       "id": "/home/kitchen/button/doorbutton_4/",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_3",
       "label": "DoorButton 4",
       "device_id": "Gira_429496730210000_439232811660000",
       "type": "BUTTON",
@@ -253,6 +257,7 @@
     },
     {
       "id": "/home/kitchen/button/kitchenlight/",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_4",
       "label": "KitchenLight",
       "device_id": "Gira_429496730210000_439232811660000",
       "type": "BUTTON",
@@ -307,6 +312,7 @@
     },
     {
       "id": "/home/kitchen/button/apartmentlight/",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_5",
       "label": "ApartmentLight",
       "device_id": "Gira_429496730210000_439232811660000",
       "type": "BUTTON",

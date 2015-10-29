@@ -40,6 +40,7 @@
   "unit_config": [
     {
       "id": "/home/control/battery/borrowdunit-1/",
+      "unit_template_config_id": "Fibaro_FGMS-001_BATTERY_0",
       "label": "BorrowdUnit-1",
       "device_id": "Fibaro_FGMS-001_FMS017",
       "type": "BATTERY",
@@ -90,6 +91,7 @@
     },
     {
       "id": "/home/control/brightnesssensor/borrowdunit-1/",
+      "unit_template_config_id": "Fibaro_FGMS-001_BRIGHTNESS_SENSOR_0",
       "label": "BorrowdUnit-1",
       "device_id": "Fibaro_FGMS-001_FMS017",
       "type": "BRIGHTNESS_SENSOR",
@@ -140,6 +142,7 @@
     },
     {
       "id": "/home/control/motionsensor/borrowdunit-1/",
+      "unit_template_config_id": "Fibaro_FGMS-001_MOTION_SENSOR_0",
       "label": "BorrowdUnit-1",
       "device_id": "Fibaro_FGMS-001_FMS017",
       "type": "MOTION_SENSOR",
@@ -190,6 +193,7 @@
     },
     {
       "id": "/home/control/tamperswitch/borrowdunit-1/",
+      "unit_template_config_id": "Fibaro_FGMS-001_TAMPER_SWITCH_0",
       "label": "BorrowdUnit-1",
       "device_id": "Fibaro_FGMS-001_FMS017",
       "type": "TAMPER_SWITCH",
@@ -240,6 +244,7 @@
     },
     {
       "id": "/home/control/temperaturesensor/borrowdunit-1/",
+      "unit_template_config_id": "Fibaro_FGMS-001_TEMPERATURE_SENSOR_0",
       "label": "BorrowdUnit-1",
       "device_id": "Fibaro_FGMS-001_FMS017",
       "type": "TEMPERATURE_SENSOR",

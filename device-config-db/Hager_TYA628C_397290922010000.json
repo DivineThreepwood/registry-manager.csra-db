@@ -37,6 +37,7 @@
   "unit_config": [
     {
       "id": "/home/sports/rollershutter/inside/",
+      "unit_template_config_id": "Hager_TYA628C_ROLLERSHUTTER_0",
       "label": "Inside",
       "device_id": "Hager_TYA628C_397290922010000",
       "type": "ROLLERSHUTTER",
@@ -112,6 +113,7 @@
     },
     {
       "id": "/home/sports/rollershutter/outside/",
+      "unit_template_config_id": "Hager_TYA628C_ROLLERSHUTTER_1",
       "label": "Outside",
       "device_id": "Hager_TYA628C_397290922010000",
       "type": "ROLLERSHUTTER",
@@ -187,6 +189,7 @@
     },
     {
       "id": "/home/living/rollershutter/leftinside/",
+      "unit_template_config_id": "Hager_TYA628C_ROLLERSHUTTER_2",
       "label": "LeftInside",
       "device_id": "Hager_TYA628C_397290922010000",
       "type": "ROLLERSHUTTER",
@@ -262,6 +265,7 @@
     },
     {
       "id": "/home/living/rollershutter/leftoutside/",
+      "unit_template_config_id": "Hager_TYA628C_ROLLERSHUTTER_3",
       "label": "LeftOutside",
       "device_id": "Hager_TYA628C_397290922010000",
       "type": "ROLLERSHUTTER",
@@ -337,6 +341,7 @@
     },
     {
       "id": "/home/living/rollershutter/middleinside/",
+      "unit_template_config_id": "Hager_TYA628C_ROLLERSHUTTER_4",
       "label": "MiddleInside",
       "device_id": "Hager_TYA628C_397290922010000",
       "type": "ROLLERSHUTTER",
@@ -412,6 +417,7 @@
     },
     {
       "id": "/home/living/rollershutter/middleoutside/",
+      "unit_template_config_id": "Hager_TYA628C_ROLLERSHUTTER_5",
       "label": "MiddleOutside",
       "device_id": "Hager_TYA628C_397290922010000",
       "type": "ROLLERSHUTTER",
@@ -487,6 +493,7 @@
     },
     {
       "id": "/home/living/rollershutter/rightinside/",
+      "unit_template_config_id": "Hager_TYA628C_ROLLERSHUTTER_6",
       "label": "RightInside",
       "device_id": "Hager_TYA628C_397290922010000",
       "type": "ROLLERSHUTTER",
@@ -562,6 +569,7 @@
     },
     {
       "id": "/home/living/rollershutter/rightoutside/",
+      "unit_template_config_id": "Hager_TYA628C_ROLLERSHUTTER_7",
       "label": "RightOutside",
       "device_id": "Hager_TYA628C_397290922010000",
       "type": "ROLLERSHUTTER",

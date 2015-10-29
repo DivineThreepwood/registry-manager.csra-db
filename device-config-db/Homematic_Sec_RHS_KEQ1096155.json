@@ -37,6 +37,7 @@
   "unit_config": [
     {
       "id": "/home/living/battery/rightwindowhandlesensor/",
+      "unit_template_config_id": "Homematic_Sec_RHS_BATTERY_0",
       "label": "RightWindowHandleSensor",
       "device_id": "Homematic_Sec_RHS_KEQ1096155",
       "type": "BATTERY",
@@ -87,6 +88,7 @@
     },
     {
       "id": "/home/living/handlesensor/rightwindowhandlesensor/",
+      "unit_template_config_id": "Homematic_Sec_RHS_HANDLE_SENSOR_0",
       "label": "RightWindowHandleSensor",
       "device_id": "Homematic_Sec_RHS_KEQ1096155",
       "type": "HANDLE_SENSOR",

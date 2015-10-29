@@ -37,6 +37,7 @@
   "unit_config": [
     {
       "id": "/home/sports/button/pathwaybelowbutton_1/",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_0",
       "label": "PathwayBelowButton 1",
       "device_id": "Gira_429496730210000_443438274700000",
       "type": "BUTTON",
@@ -91,6 +92,7 @@
     },
     {
       "id": "/home/sports/button/pathwaybelowbuttons_2/",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_1",
       "label": "PathwayBelowButtons 2",
       "device_id": "Gira_429496730210000_443438274700000",
       "type": "BUTTON",
@@ -145,6 +147,7 @@
     },
     {
       "id": "/home/sports/button/pathwaybelowbutton_3/",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_2",
       "label": "PathwayBelowButton 3",
       "device_id": "Gira_429496730210000_443438274700000",
       "type": "BUTTON",
@@ -199,6 +202,7 @@
     },
     {
       "id": "/home/sports/button/pathwaybelowbutton_4/",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_3",
       "label": "PathwayBelowButton 4",
       "device_id": "Gira_429496730210000_443438274700000",
       "type": "BUTTON",
@@ -253,6 +257,7 @@
     },
     {
       "id": "/home/sports/button/pathwaybelowbutton_5/",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_4",
       "label": "PathwayBelowButton 5",
       "device_id": "Gira_429496730210000_443438274700000",
       "type": "BUTTON",
@@ -307,6 +312,7 @@
     },
     {
       "id": "/home/sports/button/pathwaybelowbutton_6/",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_5",
       "label": "PathwayBelowButton 6",
       "device_id": "Gira_429496730210000_443438274700000",
       "type": "BUTTON",

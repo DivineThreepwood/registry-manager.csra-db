@@ -37,6 +37,7 @@
   "unit_config": [
     {
       "id": "/home/bath/ambientlight/llamp5/",
+      "unit_template_config_id": "Philips_KV01-18U_AMBIENT_LIGHT_0",
       "label": "LLamp5",
       "device_id": "Philips_KV01-18U_F2A5BE",
       "type": "AMBIENT_LIGHT",

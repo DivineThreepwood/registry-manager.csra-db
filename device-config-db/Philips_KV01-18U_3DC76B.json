@@ -37,6 +37,7 @@
   "unit_config": [
     {
       "id": "/home/control/ambientlight/testunit_0/",
+      "unit_template_config_id": "Philips_KV01-18U_AMBIENT_LIGHT_0",
       "label": "TestUnit_0",
       "device_id": "Philips_KV01-18U_3DC76B",
       "type": "AMBIENT_LIGHT",

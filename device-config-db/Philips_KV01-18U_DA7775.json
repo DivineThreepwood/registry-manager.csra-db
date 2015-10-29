@@ -37,6 +37,7 @@
   "unit_config": [
     {
       "id": "/home/living/ambientlight/slampright2/",
+      "unit_template_config_id": "Philips_KV01-18U_AMBIENT_LIGHT_0",
       "label": "SLampRight2",
       "device_id": "Philips_KV01-18U_DA7775",
       "type": "AMBIENT_LIGHT",

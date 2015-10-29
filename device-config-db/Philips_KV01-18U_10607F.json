@@ -37,6 +37,7 @@
   "unit_config": [
     {
       "id": "/home/sports/ambientlight/slampwindow1/",
+      "unit_template_config_id": "Philips_KV01-18U_AMBIENT_LIGHT_0",
       "label": "SLampWindow1",
       "device_id": "Philips_KV01-18U_10607F",
       "type": "AMBIENT_LIGHT",

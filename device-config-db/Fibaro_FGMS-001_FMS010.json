@@ -37,6 +37,7 @@
   "unit_config": [
     {
       "id": "/home/living/battery/couch/",
+      "unit_template_config_id": "Fibaro_FGMS-001_BATTERY_0",
       "label": "Couch",
       "device_id": "Fibaro_FGMS-001_FMS010",
       "type": "BATTERY",
@@ -87,6 +88,7 @@
     },
     {
       "id": "/home/living/brightnesssensor/couch/",
+      "unit_template_config_id": "Fibaro_FGMS-001_BRIGHTNESS_SENSOR_0",
       "label": "Couch",
       "device_id": "Fibaro_FGMS-001_FMS010",
       "type": "BRIGHTNESS_SENSOR",
@@ -137,6 +139,7 @@
     },
     {
       "id": "/home/living/motionsensor/couch/",
+      "unit_template_config_id": "Fibaro_FGMS-001_MOTION_SENSOR_0",
       "label": "Couch",
       "device_id": "Fibaro_FGMS-001_FMS010",
       "type": "MOTION_SENSOR",
@@ -187,6 +190,7 @@
     },
     {
       "id": "/home/living/tamperswitch/couch/",
+      "unit_template_config_id": "Fibaro_FGMS-001_TAMPER_SWITCH_0",
       "label": "Couch",
       "device_id": "Fibaro_FGMS-001_FMS010",
       "type": "TAMPER_SWITCH",
@@ -237,6 +241,7 @@
     },
     {
       "id": "/home/living/temperaturesensor/couch/",
+      "unit_template_config_id": "Fibaro_FGMS-001_TEMPERATURE_SENSOR_0",
       "label": "Couch",
       "device_id": "Fibaro_FGMS-001_FMS010",
       "type": "TEMPERATURE_SENSOR",

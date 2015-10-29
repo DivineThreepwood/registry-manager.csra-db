@@ -37,6 +37,7 @@
   "unit_config": [
     {
       "id": "/home/wardrobe/ambientlight/hallway_1/",
+      "unit_template_config_id": "Philips_KV01-18U_AMBIENT_LIGHT_0",
       "label": "Hallway_1",
       "device_id": "Philips_KV01-18U_73EA9C",
       "type": "AMBIENT_LIGHT",

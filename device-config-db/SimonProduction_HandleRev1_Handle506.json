@@ -36,6 +36,7 @@
   "unit_config": [
     {
       "id": "/home/kitchen/ambientlight/506/",
+      "unit_template_config_id": "SimonProduction_HandleRev1_AMBIENT_LIGHT_0",
       "label": "506",
       "device_id": "SimonProduction_HandleRev1_Handle506",
       "type": "AMBIENT_LIGHT",

@@ -37,6 +37,7 @@
   "unit_config": [
     {
       "id": "/home/sports/battery/sportstocontrolreedswitch/",
+      "unit_template_config_id": "Homematic_Sec_SC_2_BATTERY_0",
       "label": "SportsToControlReedSwitch",
       "device_id": "Homematic_Sec_SC_2_LEQ0174709",
       "type": "BATTERY",
@@ -87,6 +88,7 @@
     },
     {
       "id": "/home/sports/reedswitch/sportstocontrolreedswitch/",
+      "unit_template_config_id": "Homematic_Sec_SC_2_REED_SWITCH_0",
       "label": "SportsToControlReedSwitch",
       "device_id": "Homematic_Sec_SC_2_LEQ0174709",
       "type": "REED_SWITCH",

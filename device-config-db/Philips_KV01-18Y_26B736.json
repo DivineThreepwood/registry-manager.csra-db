@@ -37,6 +37,7 @@
   "unit_config": [
     {
       "id": "/home/kitchen/ambientlight/ceilinglamp_2/",
+      "unit_template_config_id": "Philips_KV01-18Y_AMBIENT_LIGHT_0",
       "label": "CeilingLamp 2",
       "device_id": "Philips_KV01-18Y_26B736",
       "type": "AMBIENT_LIGHT",

@@ -37,6 +37,7 @@
   "unit_config": [
     {
       "id": "/home/living/ambientlight/table_1/",
+      "unit_template_config_id": "Philips_KV01-18U_AMBIENT_LIGHT_0",
       "label": "Table_1",
       "device_id": "Philips_KV01-18U_87120C",
       "type": "AMBIENT_LIGHT",

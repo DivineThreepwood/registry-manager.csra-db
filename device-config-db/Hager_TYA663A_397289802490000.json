@@ -37,6 +37,7 @@
   "unit_config": [
     {
       "id": "/home/kitchen/dimmer/dimmer/",
+      "unit_template_config_id": "Hager_TYA663A_DIMMER_0",
       "label": "Dimmer",
       "device_id": "Hager_TYA663A_397289802490000",
       "type": "DIMMER",
@@ -111,6 +112,7 @@
     },
     {
       "id": "/home/living/dimmer/tabledimmer/",
+      "unit_template_config_id": "Hager_TYA663A_DIMMER_1",
       "label": "TableDimmer",
       "device_id": "Hager_TYA663A_397289802490000",
       "type": "DIMMER",
@@ -185,6 +187,7 @@
     },
     {
       "id": "/home/living/dimmer/leftdimmer/",
+      "unit_template_config_id": "Hager_TYA663A_DIMMER_2",
       "label": "LeftDimmer",
       "device_id": "Hager_TYA663A_397289802490000",
       "type": "DIMMER",

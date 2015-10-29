@@ -37,6 +37,7 @@
   "unit_config": [
     {
       "id": "/home/living/ambientlight/couchlamp/",
+      "unit_template_config_id": "Philips_KV01-18Y_AMBIENT_LIGHT_0",
       "label": "CouchLamp",
       "device_id": "Philips_KV01-18Y_BCCDEE",
       "type": "AMBIENT_LIGHT",

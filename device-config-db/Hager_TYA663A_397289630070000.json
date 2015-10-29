@@ -37,6 +37,7 @@
   "unit_config": [
     {
       "id": "/home/wardrobe/dimmer/entrancedimmer/",
+      "unit_template_config_id": "Hager_TYA663A_DIMMER_0",
       "label": "EntranceDimmer",
       "device_id": "Hager_TYA663A_397289630070000",
       "type": "DIMMER",
@@ -114,6 +115,7 @@
     },
     {
       "id": "/home/wardrobe/dimmer/pathwaydimmer/",
+      "unit_template_config_id": "Hager_TYA663A_DIMMER_1",
       "label": "PathwayDimmer",
       "device_id": "Hager_TYA663A_397289630070000",
       "type": "DIMMER",
@@ -188,6 +190,7 @@
     },
     {
       "id": "/home/bath/dimmer/dimmer/",
+      "unit_template_config_id": "Hager_TYA663A_DIMMER_2",
       "label": "Dimmer",
       "device_id": "Hager_TYA663A_397289630070000",
       "type": "DIMMER",

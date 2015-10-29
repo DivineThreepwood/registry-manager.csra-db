@@ -37,6 +37,7 @@
   "unit_config": [
     {
       "id": "/home/bath/ambientlight/global_2/",
+      "unit_template_config_id": "Philips_KV01-18Y_AMBIENT_LIGHT_0",
       "label": "Global_2",
       "device_id": "Philips_KV01-18Y_F32BB3",
       "type": "AMBIENT_LIGHT",

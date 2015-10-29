@@ -37,6 +37,7 @@
   "unit_config": [
     {
       "id": "/home/bath/battery/doorreedswitch/",
+      "unit_template_config_id": "Homematic_Sec_SC_2_BATTERY_0",
       "label": "DoorReedSwitch",
       "device_id": "Homematic_Sec_SC_2_LEQ0174341",
       "type": "BATTERY",
@@ -87,6 +88,7 @@
     },
     {
       "id": "/home/bath/reedswitch/doorreedswitch/",
+      "unit_template_config_id": "Homematic_Sec_SC_2_REED_SWITCH_0",
       "label": "DoorReedSwitch",
       "device_id": "Homematic_Sec_SC_2_LEQ0174341",
       "type": "REED_SWITCH",
