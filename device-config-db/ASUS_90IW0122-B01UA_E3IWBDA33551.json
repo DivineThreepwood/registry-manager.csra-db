@@ -13,7 +13,7 @@
         "qw": 6.123233995736766E-17,
         "qx": 1.0,
         "qy": -6.123233995736766E-17,
-        "qz": -6.123233995736766E-17
+        "qz": 3.749399456654644E-33
       }
     }
   },
@@ -25,7 +25,7 @@
     ]
   },
   "serial_number": "E3IWBDA33551",
-  "description": "NUC:PC_DME",
+  "description": "FLOOR1 @ DME",
   "inventory_state": {
     "value": "INSTALLED",
     "location_id": "Wardrobe",

@@ -25,14 +25,14 @@
   },
   "serial_number": "E3IWBDA34148",
   "inventory_state": {
-    "value": "BORROWED",
+    "value": "IN_STOCK",
     "timestamp": {
-      "time": 1435746360721
+      "time": 1446476200366
     },
     "owner": {
-      "first_name": "Sebastian",
-      "last_name": "MZB",
-      "user_name": "semeyerz"
+      "first_name": "",
+      "last_name": "",
+      "user_name": ""
     }
   },
   "device_class_id": "ASUS_90IW0122-B01UA",

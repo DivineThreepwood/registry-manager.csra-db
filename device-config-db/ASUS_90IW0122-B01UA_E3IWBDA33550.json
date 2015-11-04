@@ -10,10 +10,10 @@
         "z": 2.78
       },
       "rotation": {
-        "qw": 1.0,
-        "qx": 0.0,
-        "qy": 0.0,
-        "qz": 0.0
+        "qw": 6.123233995736766E-17,
+        "qx": 1.0,
+        "qy": 3.749399456654644E-33,
+        "qz": 6.123233995736766E-17
       }
     }
   },
@@ -25,7 +25,7 @@
     ]
   },
   "serial_number": "E3IWBDA33550",
-  "description": "NUC:PC_ATL",
+  "description": "SPORT2 @ ATL",
   "inventory_state": {
     "value": "INSTALLED",
     "location_id": "Sports",

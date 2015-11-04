@@ -1,0 +1,33 @@
+{
+  "id": "TableDimmerPowerStateSynchroniser",
+  "label": "TableDimmerPowerStateSynchroniser",
+  "scope": {},
+  "meta_config": {
+    "entry": [
+      {
+        "key": "SOURCE",
+        "value": "/home/living/dimmer/tabledimmer/"
+      },
+      {
+        "key": "TARGET_1",
+        "value": "/home/living/ambientlight/table_0/"
+      },
+      {
+        "key": "TARGET_2",
+        "value": "/home/living/ambientlight/table_1/"
+      },
+      {
+        "key": "SOURCE_BEHAVIOUR",
+        "value": "OFF"
+      },
+      {
+        "key": "TARGET_BEHAVIOUR",
+        "value": "ON"
+      }
+    ]
+  },
+  "activation_state": {
+    "value": "ACTIVE"
+  },
+  "type": "POWER_STATE_SYNCHRONISER"
+}

@@ -7,13 +7,13 @@
       "translation": {
         "x": 1.26,
         "y": 3.15,
-        "z": 2.83
+        "z": 0.47
       },
       "rotation": {
-        "qw": 5.657130561438501E-17,
-        "qx": -0.3826834323650898,
-        "qy": 0.9238795325112867,
-        "qz": -2.3432602026631493E-17
+        "qw": -1.0,
+        "qx": 6.123233995736766E-17,
+        "qy": -6.123233995736766E-17,
+        "qz": 6.123233995736766E-17
       }
     }
   },
@@ -25,7 +25,7 @@
     ]
   },
   "serial_number": "E3IWBDA34183",
-  "description": "NUC:PC_BFE",
+  "description": "LIVING1 @ BFE",
   "inventory_state": {
     "value": "INSTALLED",
     "location_id": "Living",

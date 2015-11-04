@@ -7,12 +7,12 @@
       "translation": {
         "x": 2.5,
         "y": 3.22,
-        "z": 2.79
+        "z": 0.51
       },
       "rotation": {
-        "qw": 6.122301397540665E-17,
+        "qw": -1.0,
         "qx": 6.123233995736766E-17,
-        "qy": 1.0,
+        "qy": -6.123233995736766E-17,
         "qz": 6.123233995736766E-17
       }
     }
@@ -25,7 +25,7 @@
     ]
   },
   "serial_number": "E3IWBDA34152",
-  "description": "NUC:PC_BOS",
+  "description": "LIVING2 @ BOS",
   "inventory_state": {
     "value": "INSTALLED",
     "location_id": "Living",

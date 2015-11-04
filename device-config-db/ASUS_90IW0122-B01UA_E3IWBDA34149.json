@@ -10,8 +10,8 @@
         "z": 2.78
       },
       "rotation": {
-        "qw": 1.0,
-        "qx": 0.0,
+        "qw": 6.123233995736766E-17,
+        "qx": 1.0,
         "qy": 0.0,
         "qz": 0.0
       }
@@ -25,7 +25,7 @@
     ]
   },
   "serial_number": "E3IWBDA34149",
-  "description": "NUC:PC_BCN",
+  "description": "SPORT4 @ BCN",
   "inventory_state": {
     "value": "INSTALLED",
     "location_id": "Sports",

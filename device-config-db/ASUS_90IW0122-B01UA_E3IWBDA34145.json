@@ -7,13 +7,13 @@
       "translation": {
         "x": 2.41,
         "y": 1.29,
-        "z": 2.78
+        "z": 0.52
       },
       "rotation": {
-        "qw": 1.0,
-        "qx": 0.0,
-        "qy": 0.0,
-        "qz": 0.0
+        "qw": -1.0,
+        "qx": 6.123233995736766E-17,
+        "qy": -6.123233995736766E-17,
+        "qz": 6.123233995736766E-17
       }
     }
   },
@@ -25,7 +25,7 @@
     ]
   },
   "serial_number": "E3IWBDA34145",
-  "description": "NUC:PC_ADL",
+  "description": "LIVING3 @ ADL",
   "inventory_state": {
     "value": "INSTALLED",
     "location_id": "Living",

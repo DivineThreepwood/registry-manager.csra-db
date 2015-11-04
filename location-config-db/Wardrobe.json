@@ -5,7 +5,6 @@
   "parent_id": "Home",
   "unit_id": [
     "/home/wardrobe/button/lighthereon/",
-    "/home/wardrobe/button/entrancebutton3/",
     "/home/wardrobe/button/learnperson/",
     "/home/wardrobe/battery/hallway/",
     "/home/wardrobe/button/lighthereoff/",
@@ -16,11 +15,11 @@
     "/home/wardrobe/temperaturesensor/hallway/",
     "/home/wardrobe/button/entrancebutton1/",
     "/home/wardrobe/brightnesssensor/hallway/",
+    "/home/wardrobe/button/reset/",
     "/home/wardrobe/ambientlight/hallway_1/",
     "/home/wardrobe/motionsensor/hallway/",
     "/home/wardrobe/button/kitchen/",
     "/home/wardrobe/tamperswitch/entrance/",
-    "/home/wardrobe/button/entrancebutton4/",
     "/home/wardrobe/battery/entrance/",
     "/home/wardrobe/dimmer/pathwaydimmer/",
     "/home/wardrobe/button/lightotheroff/",
@@ -35,6 +34,7 @@
     "/home/wardrobe/button/wardrobelight/",
     "/home/wardrobe/reedswitch/entrancedoorreedswitch/",
     "/home/wardrobe/button/entrancebutton2/",
+    "/home/wardrobe/button/introduction/",
     "/home/wardrobe/button/lightalloff/",
     "/home/wardrobe/ambientlight/hallway_0/",
     "/home/wardrobe/button/lightallon/"

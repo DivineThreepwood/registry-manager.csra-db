@@ -1,0 +1,29 @@
+{
+  "id": "LoungeDimmerPowerStateSynchroniser",
+  "label": "LoungeDimmerPowerStateSynchroniser",
+  "scope": {},
+  "meta_config": {
+    "entry": [
+      {
+        "key": "SOURCE",
+        "value": "/home/living/dimmer/leftdimmer/"
+      },
+      {
+        "key": "TARGET_1",
+        "value": "/home/living/ambientlight/loungelamp/"
+      },
+      {
+        "key": "SOURCE_BEHAVIOUR",
+        "value": "OFF"
+      },
+      {
+        "key": "TARGET_BEHAVIOUR",
+        "value": "ON"
+      }
+    ]
+  },
+  "activation_state": {
+    "value": "ACTIVE"
+  },
+  "type": "POWER_STATE_SYNCHRONISER"
+}

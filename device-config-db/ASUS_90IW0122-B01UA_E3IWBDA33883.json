@@ -7,13 +7,13 @@
       "translation": {
         "x": 1.17,
         "y": 1.26,
-        "z": 2.83
+        "z": 0.47
       },
       "rotation": {
-        "qw": 1.0,
-        "qx": 0.0,
-        "qy": 0.0,
-        "qz": 0.0
+        "qw": -1.0,
+        "qx": 6.123233995736766E-17,
+        "qy": -6.123233995736766E-17,
+        "qz": 6.123233995736766E-17
       }
     }
   },
@@ -25,7 +25,7 @@
     ]
   },
   "serial_number": "E3IWBDA33883",
-  "description": "NUC:PC_BKK",
+  "description": "LIVING4 @ BKK",
   "inventory_state": {
     "value": "INSTALLED",
     "location_id": "Living",

@@ -1,0 +1,41 @@
+{
+  "id": "BathDimmerPowerStateSynchroniser",
+  "label": "BathDimmerPowerStateSynchroniser",
+  "scope": {},
+  "meta_config": {
+    "entry": [
+      {
+        "key": "SOURCE",
+        "value": "/home/bath/dimmer/dimmer/"
+      },
+      {
+        "key": "TARGET_1",
+        "value": "/home/bath/ambientlight/global_1/"
+      },
+      {
+        "key": "TARGET_2",
+        "value": "/home/bath/ambientlight/global_2/"
+      },
+      {
+        "key": "TARGET_3",
+        "value": "/home/bath/ambientlight/global_3/"
+      },
+      {
+        "key": "TARGET_4",
+        "value": "/home/bath/ambientlight/global_4/"
+      },
+      {
+        "key": "SOURCE_BEHAVIOUR",
+        "value": "OFF"
+      },
+      {
+        "key": "TARGET_BEHAVIOUR",
+        "value": "ON"
+      }
+    ]
+  },
+  "activation_state": {
+    "value": "ACTIVE"
+  },
+  "type": "POWER_STATE_SYNCHRONISER"
+}

@@ -146,9 +146,9 @@
       "meta_config": {}
     },
     {
-      "id": "/home/living/button/sportsdoorbutton_3/",
+      "id": "/home/living/button/introduction/",
       "unit_template_config_id": "Gira_429496730210000_BUTTON_2",
-      "label": "SportsDoorButton 3",
+      "label": "introduction",
       "device_id": "Gira_429496730210000_433742218830000",
       "type": "BUTTON",
       "placement_config": {
@@ -172,7 +172,7 @@
           "home",
           "living",
           "button",
-          "sportsdoorbutton_3"
+          "introduction"
         ]
       },
       "bound_to_device": true,
@@ -188,12 +188,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_living__Button__SportsDoorButton_3__ButtonProvider"
+                  "value": "Gira_5133__home_living__Button__introduction__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/living/button/sportsdoorbutton_3/",
+          "unit_id": "/home/living/button/introduction/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }
@@ -201,9 +201,9 @@
       "meta_config": {}
     },
     {
-      "id": "/home/living/button/sportsdoorbutton_4/",
+      "id": "/home/living/button/reset/",
       "unit_template_config_id": "Gira_429496730210000_BUTTON_3",
-      "label": "SportsDoorButton 4",
+      "label": "reset",
       "device_id": "Gira_429496730210000_433742218830000",
       "type": "BUTTON",
       "placement_config": {
@@ -227,7 +227,7 @@
           "home",
           "living",
           "button",
-          "sportsdoorbutton_4"
+          "reset"
         ]
       },
       "bound_to_device": true,
@@ -243,12 +243,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_living__Button__SportsDoorButton_4__ButtonProvider"
+                  "value": "Gira_5133__home_living__Button__reset__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/living/button/sportsdoorbutton_4/",
+          "unit_id": "/home/living/button/reset/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }

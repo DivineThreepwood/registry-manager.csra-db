@@ -146,9 +146,9 @@
       "meta_config": {}
     },
     {
-      "id": "/home/wardrobe/button/entrancebutton3/",
+      "id": "/home/wardrobe/button/introduction/",
       "unit_template_config_id": "Gira_429496730210000_BUTTON_2",
-      "label": "EntranceButton3",
+      "label": "introduction",
       "device_id": "Gira_429496730210000_433826759820000",
       "type": "BUTTON",
       "placement_config": {
@@ -172,7 +172,7 @@
           "home",
           "wardrobe",
           "button",
-          "entrancebutton3"
+          "introduction"
         ]
       },
       "bound_to_device": true,
@@ -188,12 +188,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_wardrobe__Button__EntranceButton3__ButtonProvider"
+                  "value": "Gira_5133__home_wardrobe__Button__introduction__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/wardrobe/button/entrancebutton3/",
+          "unit_id": "/home/wardrobe/button/introduction/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }
@@ -201,9 +201,9 @@
       "meta_config": {}
     },
     {
-      "id": "/home/wardrobe/button/entrancebutton4/",
+      "id": "/home/wardrobe/button/reset/",
       "unit_template_config_id": "Gira_429496730210000_BUTTON_3",
-      "label": "EntranceButton4",
+      "label": "reset",
       "device_id": "Gira_429496730210000_433826759820000",
       "type": "BUTTON",
       "placement_config": {
@@ -227,7 +227,7 @@
           "home",
           "wardrobe",
           "button",
-          "entrancebutton4"
+          "reset"
         ]
       },
       "bound_to_device": true,
@@ -243,12 +243,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_wardrobe__Button__EntranceButton4__ButtonProvider"
+                  "value": "Gira_5133__home_wardrobe__Button__reset__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/wardrobe/button/entrancebutton4/",
+          "unit_id": "/home/wardrobe/button/reset/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }
