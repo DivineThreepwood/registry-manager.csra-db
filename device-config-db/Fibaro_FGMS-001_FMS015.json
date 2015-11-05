@@ -311,6 +311,10 @@
       {
         "key": "OPENHAB_BINDING_CONFIG",
         "value": "42"
+      },
+      {
+        "key": "SENSOR_BOUNDINGBOX",
+        "value": "2.0,6.8,1.9,1.3"
       }
     ]
   }

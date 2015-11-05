@@ -311,6 +311,10 @@
       {
         "key": "OPENHAB_BINDING_DEVICE_ID",
         "value": "40"
+      },
+      {
+        "key": "SENSOR_BOUNDINGBOX",
+        "value": "5.6,3.9,2.9,4.0"
       }
     ]
   }
