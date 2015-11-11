@@ -36,118 +36,8 @@
   "device_class_id": "Gira_429496730210000",
   "unit_config": [
     {
-      "id": "/home/wardrobe/button/entrancebutton1/",
-      "unit_template_config_id": "Gira_429496730210000_BUTTON_0",
-      "label": "EntranceButton1",
-      "device_id": "Gira_429496730210000_433826759820000",
-      "type": "BUTTON",
-      "placement_config": {
-        "location_id": "Wardrobe",
-        "position": {
-          "translation": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "rotation": {
-            "qw": 1.0,
-            "qx": 0.0,
-            "qy": 0.0,
-            "qz": 0.0
-          }
-        }
-      },
-      "scope": {
-        "component": [
-          "home",
-          "wardrobe",
-          "button",
-          "entrancebutton1"
-        ]
-      },
-      "bound_to_device": true,
-      "service_config": [
-        {
-          "binding_service_config": {
-            "type": "OPENHAB",
-            "meta_config": {
-              "entry": [
-                {
-                  "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "1/2/0"
-                },
-                {
-                  "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_wardrobe__Button__EntranceButton1__ButtonProvider"
-                }
-              ]
-            }
-          },
-          "unit_id": "/home/wardrobe/button/entrancebutton1/",
-          "type": "BUTTON_PROVIDER",
-          "meta_config": {}
-        }
-      ],
-      "meta_config": {}
-    },
-    {
-      "id": "/home/wardrobe/button/entrancebutton2/",
-      "unit_template_config_id": "Gira_429496730210000_BUTTON_1",
-      "label": "EntranceButton2",
-      "device_id": "Gira_429496730210000_433826759820000",
-      "type": "BUTTON",
-      "placement_config": {
-        "location_id": "Wardrobe",
-        "position": {
-          "translation": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "rotation": {
-            "qw": 1.0,
-            "qx": 0.0,
-            "qy": 0.0,
-            "qz": 0.0
-          }
-        }
-      },
-      "scope": {
-        "component": [
-          "home",
-          "wardrobe",
-          "button",
-          "entrancebutton2"
-        ]
-      },
-      "bound_to_device": true,
-      "service_config": [
-        {
-          "binding_service_config": {
-            "type": "OPENHAB",
-            "meta_config": {
-              "entry": [
-                {
-                  "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "1/2/1"
-                },
-                {
-                  "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_wardrobe__Button__EntranceButton2__ButtonProvider"
-                }
-              ]
-            }
-          },
-          "unit_id": "/home/wardrobe/button/entrancebutton2/",
-          "type": "BUTTON_PROVIDER",
-          "meta_config": {}
-        }
-      ],
-      "meta_config": {}
-    },
-    {
       "id": "/home/wardrobe/button/introduction/",
-      "unit_template_config_id": "Gira_429496730210000_BUTTON_2",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_0",
       "label": "introduction",
       "device_id": "Gira_429496730210000_433826759820000",
       "type": "BUTTON",
@@ -184,7 +74,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "1/2/2"
+                  "value": "1/2/0"
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
@@ -202,7 +92,7 @@
     },
     {
       "id": "/home/wardrobe/button/reset/",
-      "unit_template_config_id": "Gira_429496730210000_BUTTON_3",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_1",
       "label": "reset",
       "device_id": "Gira_429496730210000_433826759820000",
       "type": "BUTTON",
@@ -239,7 +129,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "1/2/3"
+                  "value": "1/2/1"
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
@@ -249,6 +139,116 @@
             }
           },
           "unit_id": "/home/wardrobe/button/reset/",
+          "type": "BUTTON_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/wardrobe/button/learnpersontwo/",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_2",
+      "label": "learnpersontwo",
+      "device_id": "Gira_429496730210000_433826759820000",
+      "type": "BUTTON",
+      "placement_config": {
+        "location_id": "Wardrobe",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "wardrobe",
+          "button",
+          "learnpersontwo"
+        ]
+      },
+      "bound_to_device": true,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "1/2/2"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Gira_5133__home_wardrobe__Button__learnpersontwo__ButtonProvider"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/wardrobe/button/learnpersontwo/",
+          "type": "BUTTON_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/wardrobe/button/lighthereonly/",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_3",
+      "label": "lighthereonly",
+      "device_id": "Gira_429496730210000_433826759820000",
+      "type": "BUTTON",
+      "placement_config": {
+        "location_id": "Wardrobe",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "wardrobe",
+          "button",
+          "lighthereonly"
+        ]
+      },
+      "bound_to_device": true,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "1/2/3"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Gira_5133__home_wardrobe__Button__lighthereonly__ButtonProvider"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/wardrobe/button/lighthereonly/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }

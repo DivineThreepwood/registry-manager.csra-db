@@ -36,63 +36,8 @@
   "device_class_id": "Gira_429496730210000",
   "unit_config": [
     {
-      "id": "/home/living/button/suspend/",
-      "unit_template_config_id": "Gira_429496730210000_BUTTON_0",
-      "label": "suspend",
-      "device_id": "Gira_429496730210000_433742218830000",
-      "type": "BUTTON",
-      "placement_config": {
-        "location_id": "Living",
-        "position": {
-          "translation": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "rotation": {
-            "qw": 1.0,
-            "qx": 0.0,
-            "qy": 0.0,
-            "qz": 0.0
-          }
-        }
-      },
-      "scope": {
-        "component": [
-          "home",
-          "living",
-          "button",
-          "suspend"
-        ]
-      },
-      "bound_to_device": true,
-      "service_config": [
-        {
-          "binding_service_config": {
-            "type": "OPENHAB",
-            "meta_config": {
-              "entry": [
-                {
-                  "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "2/3/10"
-                },
-                {
-                  "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_living__Button__suspend__ButtonProvider"
-                }
-              ]
-            }
-          },
-          "unit_id": "/home/living/button/suspend/",
-          "type": "BUTTON_PROVIDER",
-          "meta_config": {}
-        }
-      ],
-      "meta_config": {}
-    },
-    {
       "id": "/home/living/button/resume/",
-      "unit_template_config_id": "Gira_429496730210000_BUTTON_1",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_0",
       "label": "resume",
       "device_id": "Gira_429496730210000_433742218830000",
       "type": "BUTTON",
@@ -129,7 +74,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "2/3/11"
+                  "value": "2/3/10"
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
@@ -139,6 +84,61 @@
             }
           },
           "unit_id": "/home/living/button/resume/",
+          "type": "BUTTON_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/living/button/suspend/",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_1",
+      "label": "suspend",
+      "device_id": "Gira_429496730210000_433742218830000",
+      "type": "BUTTON",
+      "placement_config": {
+        "location_id": "Living",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "living",
+          "button",
+          "suspend"
+        ]
+      },
+      "bound_to_device": true,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "2/3/11"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Gira_5133__home_living__Button__suspend__ButtonProvider"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/living/button/suspend/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }

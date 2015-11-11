@@ -75,6 +75,10 @@
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
                   "value": "Hager_TYA663A__home_wardrobe__Dimmer__EntranceDimmer__DimService"
+                },
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "1/0/5+1/0/12"
                 }
               ]
             }
