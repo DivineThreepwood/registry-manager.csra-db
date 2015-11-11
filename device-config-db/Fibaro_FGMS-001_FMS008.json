@@ -74,7 +74,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_wardrobe__Battery__Hallway__BatteryProvider"
+                  "value": "Fibaro_MotionSensor__home_wardrobe__Battery__Hallway__BatteryProvider"
                 }
               ]
             }
@@ -125,7 +125,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_wardrobe__BrightnessSensor__Hallway__BrightnessProvider"
+                  "value": "Fibaro_MotionSensor__home_wardrobe__BrightnessSensor__Hallway__BrightnessProvider"
                 }
               ]
             }
@@ -176,7 +176,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_wardrobe__MotionSensor__Hallway__MotionProvider"
+                  "value": "Fibaro_MotionSensor__home_wardrobe__MotionSensor__Hallway__MotionProvider"
                 }
               ]
             }
@@ -227,7 +227,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_wardrobe__TamperSwitch__Hallway__TamperProvider"
+                  "value": "Fibaro_MotionSensor__home_wardrobe__TamperSwitch__Hallway__TamperProvider"
                 }
               ]
             }
@@ -278,7 +278,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_wardrobe__TemperatureSensor__Hallway__TemperatureProvider"
+                  "value": "Fibaro_MotionSensor__home_wardrobe__TemperatureSensor__Hallway__TemperatureProvider"
                 }
               ]
             }
@@ -294,7 +294,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_wardrobe__TemperatureSensor__Hallway__TemperatureAlarmStateProvider"
+                  "value": "Fibaro_MotionSensor__home_wardrobe__TemperatureSensor__Hallway__TemperatureAlarmStateProvider"
                 }
               ]
             }

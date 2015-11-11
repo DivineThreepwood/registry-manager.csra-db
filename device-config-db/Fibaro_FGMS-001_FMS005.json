@@ -74,7 +74,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_bath__Battery__Sink__BatteryProvider"
+                  "value": "Fibaro_MotionSensor__home_bath__Battery__Sink__BatteryProvider"
                 }
               ]
             }
@@ -125,7 +125,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_bath__BrightnessSensor__Sink__BrightnessProvider"
+                  "value": "Fibaro_MotionSensor__home_bath__BrightnessSensor__Sink__BrightnessProvider"
                 }
               ]
             }
@@ -176,7 +176,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_bath__MotionSensor__Sink__MotionProvider"
+                  "value": "Fibaro_MotionSensor__home_bath__MotionSensor__Sink__MotionProvider"
                 }
               ]
             }
@@ -227,7 +227,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_bath__TamperSwitch__Sink__TamperProvider"
+                  "value": "Fibaro_MotionSensor__home_bath__TamperSwitch__Sink__TamperProvider"
                 }
               ]
             }
@@ -278,7 +278,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_bath__TemperatureSensor__Sink__TemperatureProvider"
+                  "value": "Fibaro_MotionSensor__home_bath__TemperatureSensor__Sink__TemperatureProvider"
                 }
               ]
             }
@@ -294,7 +294,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_bath__TemperatureSensor__Sink__TemperatureAlarmStateProvider"
+                  "value": "Fibaro_MotionSensor__home_bath__TemperatureSensor__Sink__TemperatureAlarmStateProvider"
                 }
               ]
             }

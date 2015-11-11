@@ -74,7 +74,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_wardrobe__Battery__Entrance__BatteryProvider"
+                  "value": "Fibaro_MotionSensor__home_wardrobe__Battery__Entrance__BatteryProvider"
                 }
               ]
             }
@@ -125,7 +125,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_wardrobe__BrightnessSensor__Entrance__BrightnessProvider"
+                  "value": "Fibaro_MotionSensor__home_wardrobe__BrightnessSensor__Entrance__BrightnessProvider"
                 }
               ]
             }
@@ -176,7 +176,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_wardrobe__MotionSensor__Entrance__MotionProvider"
+                  "value": "Fibaro_MotionSensor__home_wardrobe__MotionSensor__Entrance__MotionProvider"
                 }
               ]
             }
@@ -227,7 +227,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_wardrobe__TamperSwitch__Entrance__TamperProvider"
+                  "value": "Fibaro_MotionSensor__home_wardrobe__TamperSwitch__Entrance__TamperProvider"
                 }
               ]
             }
@@ -278,7 +278,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_wardrobe__TemperatureSensor__Entrance__TemperatureProvider"
+                  "value": "Fibaro_MotionSensor__home_wardrobe__TemperatureSensor__Entrance__TemperatureProvider"
                 }
               ]
             }
@@ -294,7 +294,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_wardrobe__TemperatureSensor__Entrance__TemperatureAlarmStateProvider"
+                  "value": "Fibaro_MotionSensor__home_wardrobe__TemperatureSensor__Entrance__TemperatureAlarmStateProvider"
                 }
               ]
             }

@@ -74,7 +74,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_sports__Battery__Interaction__BatteryProvider"
+                  "value": "Fibaro_MotionSensor__home_sports__Battery__Interaction__BatteryProvider"
                 }
               ]
             }
@@ -125,7 +125,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_sports__BrightnessSensor__Interaction__BrightnessProvider"
+                  "value": "Fibaro_MotionSensor__home_sports__BrightnessSensor__Interaction__BrightnessProvider"
                 }
               ]
             }
@@ -176,7 +176,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_sports__MotionSensor__Interaction__MotionProvider"
+                  "value": "Fibaro_MotionSensor__home_sports__MotionSensor__Interaction__MotionProvider"
                 }
               ]
             }
@@ -227,7 +227,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_sports__TamperSwitch__Interaction__TamperProvider"
+                  "value": "Fibaro_MotionSensor__home_sports__TamperSwitch__Interaction__TamperProvider"
                 }
               ]
             }
@@ -278,7 +278,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_sports__TemperatureSensor__Interaction__TemperatureProvider"
+                  "value": "Fibaro_MotionSensor__home_sports__TemperatureSensor__Interaction__TemperatureProvider"
                 }
               ]
             }
@@ -294,7 +294,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_sports__TemperatureSensor__Interaction__TemperatureAlarmStateProvider"
+                  "value": "Fibaro_MotionSensor__home_sports__TemperatureSensor__Interaction__TemperatureAlarmStateProvider"
                 }
               ]
             }

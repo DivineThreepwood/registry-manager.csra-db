@@ -74,7 +74,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_bath__Battery__Shower__BatteryProvider"
+                  "value": "Fibaro_MotionSensor__home_bath__Battery__Shower__BatteryProvider"
                 }
               ]
             }
@@ -125,7 +125,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_bath__BrightnessSensor__Shower__BrightnessProvider"
+                  "value": "Fibaro_MotionSensor__home_bath__BrightnessSensor__Shower__BrightnessProvider"
                 }
               ]
             }
@@ -176,7 +176,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_bath__MotionSensor__Shower__MotionProvider"
+                  "value": "Fibaro_MotionSensor__home_bath__MotionSensor__Shower__MotionProvider"
                 }
               ]
             }
@@ -227,7 +227,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_bath__TamperSwitch__Shower__TamperProvider"
+                  "value": "Fibaro_MotionSensor__home_bath__TamperSwitch__Shower__TamperProvider"
                 }
               ]
             }
@@ -278,7 +278,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_bath__TemperatureSensor__Shower__TemperatureProvider"
+                  "value": "Fibaro_MotionSensor__home_bath__TemperatureSensor__Shower__TemperatureProvider"
                 }
               ]
             }
@@ -294,7 +294,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_bath__TemperatureSensor__Shower__TemperatureAlarmStateProvider"
+                  "value": "Fibaro_MotionSensor__home_bath__TemperatureSensor__Shower__TemperatureAlarmStateProvider"
                 }
               ]
             }

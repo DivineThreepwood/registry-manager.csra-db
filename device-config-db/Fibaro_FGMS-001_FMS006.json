@@ -74,7 +74,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_bath__Battery__Global__BatteryProvider"
+                  "value": "Fibaro_MotionSensor__home_bath__Battery__Global__BatteryProvider"
                 }
               ]
             }
@@ -125,7 +125,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_bath__BrightnessSensor__Global__BrightnessProvider"
+                  "value": "Fibaro_MotionSensor__home_bath__BrightnessSensor__Global__BrightnessProvider"
                 }
               ]
             }
@@ -176,7 +176,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_bath__MotionSensor__Global__MotionProvider"
+                  "value": "Fibaro_MotionSensor__home_bath__MotionSensor__Global__MotionProvider"
                 }
               ]
             }
@@ -227,7 +227,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_bath__TamperSwitch__Global__TamperProvider"
+                  "value": "Fibaro_MotionSensor__home_bath__TamperSwitch__Global__TamperProvider"
                 }
               ]
             }
@@ -278,7 +278,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_bath__TemperatureSensor__Global__TemperatureProvider"
+                  "value": "Fibaro_MotionSensor__home_bath__TemperatureSensor__Global__TemperatureProvider"
                 }
               ]
             }
@@ -294,7 +294,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_bath__TemperatureSensor__Global__TemperatureAlarmStateProvider"
+                  "value": "Fibaro_MotionSensor__home_bath__TemperatureSensor__Global__TemperatureAlarmStateProvider"
                 }
               ]
             }

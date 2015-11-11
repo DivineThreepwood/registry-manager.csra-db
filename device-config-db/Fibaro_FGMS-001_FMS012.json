@@ -74,7 +74,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_living__Battery__Table__BatteryProvider"
+                  "value": "Fibaro_MotionSensor__home_living__Battery__Table__BatteryProvider"
                 }
               ]
             }
@@ -125,7 +125,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_living__BrightnessSensor__Table__BrightnessProvider"
+                  "value": "Fibaro_MotionSensor__home_living__BrightnessSensor__Table__BrightnessProvider"
                 }
               ]
             }
@@ -176,7 +176,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_living__MotionSensor__Table__MotionProvider"
+                  "value": "Fibaro_MotionSensor__home_living__MotionSensor__Table__MotionProvider"
                 }
               ]
             }
@@ -227,7 +227,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_living__TamperSwitch__Table__TamperProvider"
+                  "value": "Fibaro_MotionSensor__home_living__TamperSwitch__Table__TamperProvider"
                 }
               ]
             }
@@ -278,7 +278,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_living__TemperatureSensor__Table__TemperatureProvider"
+                  "value": "Fibaro_MotionSensor__home_living__TemperatureSensor__Table__TemperatureProvider"
                 }
               ]
             }
@@ -294,7 +294,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_living__TemperatureSensor__Table__TemperatureAlarmStateProvider"
+                  "value": "Fibaro_MotionSensor__home_living__TemperatureSensor__Table__TemperatureAlarmStateProvider"
                 }
               ]
             }

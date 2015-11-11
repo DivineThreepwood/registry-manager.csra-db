@@ -74,7 +74,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_sports__Battery__Pathway__BatteryProvider"
+                  "value": "Fibaro_MotionSensor__home_sports__Battery__Pathway__BatteryProvider"
                 }
               ]
             }
@@ -125,7 +125,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_sports__BrightnessSensor__Pathway__BrightnessProvider"
+                  "value": "Fibaro_MotionSensor__home_sports__BrightnessSensor__Pathway__BrightnessProvider"
                 }
               ]
             }
@@ -176,7 +176,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_sports__MotionSensor__Pathway__MotionProvider"
+                  "value": "Fibaro_MotionSensor__home_sports__MotionSensor__Pathway__MotionProvider"
                 }
               ]
             }
@@ -227,7 +227,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_sports__TamperSwitch__Pathway__TamperProvider"
+                  "value": "Fibaro_MotionSensor__home_sports__TamperSwitch__Pathway__TamperProvider"
                 }
               ]
             }
@@ -278,7 +278,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_sports__TemperatureSensor__Pathway__TemperatureProvider"
+                  "value": "Fibaro_MotionSensor__home_sports__TemperatureSensor__Pathway__TemperatureProvider"
                 }
               ]
             }
@@ -294,7 +294,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_sports__TemperatureSensor__Pathway__TemperatureAlarmStateProvider"
+                  "value": "Fibaro_MotionSensor__home_sports__TemperatureSensor__Pathway__TemperatureAlarmStateProvider"
                 }
               ]
             }

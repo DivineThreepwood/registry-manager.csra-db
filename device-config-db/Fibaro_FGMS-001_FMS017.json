@@ -77,7 +77,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_control__Battery__BorrowdUnit-1__BatteryProvider"
+                  "value": "Fibaro_MotionSensor__home_control__Battery__BorrowdUnit-1__BatteryProvider"
                 }
               ]
             }
@@ -128,7 +128,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_control__BrightnessSensor__BorrowdUnit-1__BrightnessProvider"
+                  "value": "Fibaro_MotionSensor__home_control__BrightnessSensor__BorrowdUnit-1__BrightnessProvider"
                 }
               ]
             }
@@ -179,7 +179,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_control__MotionSensor__BorrowdUnit-1__MotionProvider"
+                  "value": "Fibaro_MotionSensor__home_control__MotionSensor__BorrowdUnit-1__MotionProvider"
                 }
               ]
             }
@@ -230,7 +230,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_control__TamperSwitch__BorrowdUnit-1__TamperProvider"
+                  "value": "Fibaro_MotionSensor__home_control__TamperSwitch__BorrowdUnit-1__TamperProvider"
                 }
               ]
             }
@@ -281,7 +281,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_control__TemperatureSensor__BorrowdUnit-1__TemperatureProvider"
+                  "value": "Fibaro_MotionSensor__home_control__TemperatureSensor__BorrowdUnit-1__TemperatureProvider"
                 }
               ]
             }
@@ -297,7 +297,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "F_MotionSensor__home_control__TemperatureSensor__BorrowdUnit-1__TemperatureAlarmStateProvider"
+                  "value": "Fibaro_MotionSensor__home_control__TemperatureSensor__BorrowdUnit-1__TemperatureAlarmStateProvider"
                 }
               ]
             }
