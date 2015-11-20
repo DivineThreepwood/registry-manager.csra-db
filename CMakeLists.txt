@@ -18,10 +18,17 @@ ELSE ()
     MESSAGE("---- Set -DCMAKE_INSTALL_PREFIX for using a custom prefix.")
 ENDIF()
 
-IF (NOT EXISTS ${INSTALL_PREFIX}/${CSRA-DB_HOME})
-    FILE(MAKE_DIRECTORY ${INSTALL_PREFIX}/${CSRA-DB_HOME})
+IF (EXISTS ${INSTALL_PREFIX}/${CSRA-DB_HOME})
+    IF(${FORCE})
+        FILE(REMOVE_RECURSE ${INSTALL_PREFIX}/${CSRA-DB_HOME})
+    ELSE()
+        MESSAGE( SEND_ERROR "Abort installation! Database cannot be overwritten. Set -DFORCE=true to overwrite the database." )
+    ENDIF()
 ENDIF()
- 
+
+### Create db folder ###
+FILE(MAKE_DIRECTORY ${INSTALL_PREFIX}/${CSRA-DB_HOME})
+
 ### Install data into volume ###
 INSTALL(DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/" DESTINATION ${INSTALL_PREFIX}/${CSRA-DB_HOME})
 

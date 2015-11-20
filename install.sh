@@ -6,12 +6,14 @@ echo Start installation routine...
 mkdir -p build &&
 cd build &&
 if [ -z "$prefix" ]; then
-    cmake ..
+    cmake .. $@
 else
-    cmake .. -DCMAKE_INSTALL_PREFIX=$prefix
+    cmake .. -DCMAKE_INSTALL_PREFIX=$prefix $@
 fi
 
 if [ $? != 0 ]; then
+    cd ..
+    rm -rf build
     exit
 fi
 
