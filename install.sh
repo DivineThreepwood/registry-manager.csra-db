@@ -5,7 +5,16 @@ git pull
 echo Start installation routine...
 mkdir -p build &&
 cd build &&
-cmake .. -DCMAKE_INSTALL_PREFIX=$prefix &&
+if [ -z "$prefix" ]; then
+    cmake ..
+else
+    cmake .. -DCMAKE_INSTALL_PREFIX=$prefix
+fi
+
+if [ $? != 0 ]; then
+    exit
+fi
+
 make install &&
 cd .. &&
 rm -rf build &&
