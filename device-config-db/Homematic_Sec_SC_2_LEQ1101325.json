@@ -1,0 +1,141 @@
+{
+  "id": "Homematic_Sec_SC_2_LEQ1101325",
+  "label": "RightWindowReedSwitch",
+  "placement_config": {
+    "location_id": "Control",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "control",
+      "rightwindowreedswitch"
+    ]
+  },
+  "serial_number": "LEQ1101325",
+  "inventory_state": {
+    "value": "INSTALLED",
+    "timestamp": {
+      "time": 1447242849247
+    },
+    "owner": {}
+  },
+  "device_class_id": "Homematic_Sec_SC_2",
+  "unit_config": [
+    {
+      "id": "/home/control/battery/rightwindowreedswitch/",
+      "unit_template_config_id": "Homematic_Sec_SC_2_BATTERY_0",
+      "label": "RightWindowReedSwitch",
+      "device_id": "Homematic_Sec_SC_2_LEQ1101325",
+      "type": "BATTERY",
+      "placement_config": {
+        "location_id": "Control",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "control",
+          "battery",
+          "rightwindowreedswitch"
+        ]
+      },
+      "bound_to_device": true,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Homematic_Sec_SC_2__home_control__Battery__RightWindowReedSwitch__BatteryProvider"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/control/battery/rightwindowreedswitch/",
+          "type": "BATTERY_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/control/reedswitch/rightwindowreedswitch/",
+      "unit_template_config_id": "Homematic_Sec_SC_2_REED_SWITCH_0",
+      "label": "RightWindowReedSwitch",
+      "device_id": "Homematic_Sec_SC_2_LEQ1101325",
+      "type": "REED_SWITCH",
+      "placement_config": {
+        "location_id": "Control",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "control",
+          "reedswitch",
+          "rightwindowreedswitch"
+        ]
+      },
+      "bound_to_device": true,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Homematic_Sec_SC_2__home_control__ReedSwitch__RightWindowReedSwitch__ReedSwitchProvider"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/control/reedswitch/rightwindowreedswitch/",
+          "type": "REED_SWITCH_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {}
+}

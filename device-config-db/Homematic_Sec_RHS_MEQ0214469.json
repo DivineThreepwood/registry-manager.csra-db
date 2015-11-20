@@ -1,0 +1,141 @@
+{
+  "id": "Homematic_Sec_RHS_MEQ0214469",
+  "label": "LeftWindowHandleSensor",
+  "placement_config": {
+    "location_id": "Control",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "control",
+      "leftwindowhandlesensor"
+    ]
+  },
+  "serial_number": "MEQ0214469",
+  "inventory_state": {
+    "value": "INSTALLED",
+    "timestamp": {
+      "time": 1447243098630
+    },
+    "owner": {}
+  },
+  "device_class_id": "Homematic_Sec_RHS",
+  "unit_config": [
+    {
+      "id": "/home/control/battery/leftwindowhandlesensor/",
+      "unit_template_config_id": "Homematic_Sec_RHS_BATTERY_0",
+      "label": "LeftWindowHandleSensor",
+      "device_id": "Homematic_Sec_RHS_MEQ0214469",
+      "type": "BATTERY",
+      "placement_config": {
+        "location_id": "Control",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "control",
+          "battery",
+          "leftwindowhandlesensor"
+        ]
+      },
+      "bound_to_device": true,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Homematic_Sec_RHS__home_control__Battery__LeftWindowHandleSensor__BatteryProvider"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/control/battery/leftwindowhandlesensor/",
+          "type": "BATTERY_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/control/handlesensor/leftwindowhandlesensor/",
+      "unit_template_config_id": "Homematic_Sec_RHS_HANDLE_SENSOR_0",
+      "label": "LeftWindowHandleSensor",
+      "device_id": "Homematic_Sec_RHS_MEQ0214469",
+      "type": "HANDLE_SENSOR",
+      "placement_config": {
+        "location_id": "Control",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "control",
+          "handlesensor",
+          "leftwindowhandlesensor"
+        ]
+      },
+      "bound_to_device": true,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Homematic_Sec_RHS__home_control__HandleSensor__LeftWindowHandleSensor__HandleProvider"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/control/handlesensor/leftwindowhandlesensor/",
+          "type": "HANDLE_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {}
+}

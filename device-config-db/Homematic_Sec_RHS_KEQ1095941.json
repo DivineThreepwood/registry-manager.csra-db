@@ -1,0 +1,141 @@
+{
+  "id": "Homematic_Sec_RHS_KEQ1095941",
+  "label": "RightWindowHandleSensor",
+  "placement_config": {
+    "location_id": "Control",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "control",
+      "rightwindowhandlesensor"
+    ]
+  },
+  "serial_number": "KEQ1095941",
+  "inventory_state": {
+    "value": "INSTALLED",
+    "timestamp": {
+      "time": 1447242974902
+    },
+    "owner": {}
+  },
+  "device_class_id": "Homematic_Sec_RHS",
+  "unit_config": [
+    {
+      "id": "/home/control/battery/rightwindowhandlesensor/",
+      "unit_template_config_id": "Homematic_Sec_RHS_BATTERY_0",
+      "label": "RightWindowHandleSensor",
+      "device_id": "Homematic_Sec_RHS_KEQ1095941",
+      "type": "BATTERY",
+      "placement_config": {
+        "location_id": "Control",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "control",
+          "battery",
+          "rightwindowhandlesensor"
+        ]
+      },
+      "bound_to_device": true,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Homematic_Sec_RHS__home_control__Battery__RightWindowHandleSensor__BatteryProvider"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/control/battery/rightwindowhandlesensor/",
+          "type": "BATTERY_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/control/handlesensor/rightwindowhandlesensor/",
+      "unit_template_config_id": "Homematic_Sec_RHS_HANDLE_SENSOR_0",
+      "label": "RightWindowHandleSensor",
+      "device_id": "Homematic_Sec_RHS_KEQ1095941",
+      "type": "HANDLE_SENSOR",
+      "placement_config": {
+        "location_id": "Control",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "control",
+          "handlesensor",
+          "rightwindowhandlesensor"
+        ]
+      },
+      "bound_to_device": true,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Homematic_Sec_RHS__home_control__HandleSensor__RightWindowHandleSensor__HandleProvider"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/control/handlesensor/rightwindowhandlesensor/",
+          "type": "HANDLE_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {}
+}

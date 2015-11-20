@@ -2,7 +2,7 @@
   "id": "Fibaro_FGMS-001_FMS009",
   "label": "Global",
   "placement_config": {
-    "location_id": "Home",
+    "location_id": "Kitchen",
     "position": {
       "translation": {
         "x": 0.0,
@@ -20,6 +20,7 @@
   "scope": {
     "component": [
       "home",
+      "kitchen",
       "global"
     ]
   },
@@ -294,7 +295,8 @@
             }
           },
           "unit_id": "/home/temperaturesensor/global/",
-          "type": "TEMPERATURE_ALARM_STATE_PROVIDER"
+          "type": "TEMPERATURE_ALARM_STATE_PROVIDER",
+          "meta_config": {}
         }
       ],
       "meta_config": {}
