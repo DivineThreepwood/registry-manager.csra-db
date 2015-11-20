@@ -22,7 +22,7 @@ IF (EXISTS ${INSTALL_PREFIX}/${CSRA-DB_HOME})
     IF(${FORCE})
         FILE(REMOVE_RECURSE ${INSTALL_PREFIX}/${CSRA-DB_HOME})
     ELSE()
-        MESSAGE( SEND_ERROR "Abort installation! Database cannot be overwritten. Set -DFORCE=true to overwrite the database." )
+        MESSAGE(SEND_ERROR "Abort installation! Database cannot be overwritten. Set -DFORCE=true to overwrite the database.")
     ENDIF()
 ENDIF()
 
@@ -31,4 +31,5 @@ FILE(MAKE_DIRECTORY ${INSTALL_PREFIX}/${CSRA-DB_HOME})
 
 ### Install data into volume ###
 INSTALL(DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/" DESTINATION ${INSTALL_PREFIX}/${CSRA-DB_HOME})
+INSTALL(PROGRAMS "${CMAKE_CURRENT_SOURCE_DIR}/install.sh" DESTINATION ${INSTALL_PREFIX}/${CSRA-DB_HOME})
 
