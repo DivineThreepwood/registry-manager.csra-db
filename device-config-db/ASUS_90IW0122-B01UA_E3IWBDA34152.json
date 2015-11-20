@@ -35,5 +35,103 @@
     "owner": {}
   },
   "device_class_id": "ASUS_90IW0122-B01UA",
+  "unit_config": [
+    {
+      "id": "/home/living/rgbcamera/asus_90iw0122-b01ua_e3iwbda34152/",
+      "unit_template_config_id": "ASUS_90IW0122-B01UA_RGB_CAMERA_0",
+      "label": "ASUS_90IW0122-B01UA_E3IWBDA34152",
+      "device_id": "ASUS_90IW0122-B01UA_E3IWBDA34152",
+      "type": "RGB_CAMERA",
+      "placement_config": {
+        "location_id": "Living",
+        "position": {
+          "translation": {
+            "x": 2.5,
+            "y": 3.22,
+            "z": 0.51
+          },
+          "rotation": {
+            "qw": -1.0,
+            "qx": 6.123233995736766E-17,
+            "qy": -6.123233995736766E-17,
+            "qz": 6.123233995736766E-17
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "living",
+          "rgbcamera",
+          "asus_90iw0122-b01ua_e3iwbda34152"
+        ]
+      },
+      "bound_to_device": true
+    },
+    {
+      "id": "/home/living/depthcamera/asus_90iw0122-b01ua_e3iwbda34152/",
+      "unit_template_config_id": "ASUS_90IW0122-B01UA_DEPTH_CAMERA_0",
+      "label": "ASUS_90IW0122-B01UA_E3IWBDA34152",
+      "device_id": "ASUS_90IW0122-B01UA_E3IWBDA34152",
+      "type": "DEPTH_CAMERA",
+      "placement_config": {
+        "location_id": "Living",
+        "position": {
+          "translation": {
+            "x": 2.5,
+            "y": 3.22,
+            "z": 0.51
+          },
+          "rotation": {
+            "qw": -1.0,
+            "qx": 6.123233995736766E-17,
+            "qy": -6.123233995736766E-17,
+            "qz": 6.123233995736766E-17
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "living",
+          "depthcamera",
+          "asus_90iw0122-b01ua_e3iwbda34152"
+        ]
+      },
+      "bound_to_device": true
+    },
+    {
+      "id": "/home/living/audiosource/asus_90iw0122-b01ua_e3iwbda34152/",
+      "unit_template_config_id": "ASUS_90IW0122-B01UA_AUDIO_SOURCE_0",
+      "label": "ASUS_90IW0122-B01UA_E3IWBDA34152",
+      "device_id": "ASUS_90IW0122-B01UA_E3IWBDA34152",
+      "type": "AUDIO_SOURCE",
+      "placement_config": {
+        "location_id": "Living",
+        "position": {
+          "translation": {
+            "x": 2.5,
+            "y": 3.22,
+            "z": 0.51
+          },
+          "rotation": {
+            "qw": -1.0,
+            "qx": 6.123233995736766E-17,
+            "qy": -6.123233995736766E-17,
+            "qz": 6.123233995736766E-17
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "living",
+          "audiosource",
+          "asus_90iw0122-b01ua_e3iwbda34152"
+        ]
+      },
+      "bound_to_device": true
+    }
+  ],
   "meta_config": {}
 }

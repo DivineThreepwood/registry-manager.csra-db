@@ -4,7 +4,9 @@
   "root": false,
   "parent_id": "Home",
   "unit_id": [
+    "/home/kitchen/rgbcamera/asus_90iw0122-b01ua_e3iwbda34154/",
     "/home/kitchen/ambientlight/ceilinglamp_4/",
+    "/home/kitchen/audiosource/asus_90iw0122-b01ua_e3iwbda34154/",
     "/home/kitchen/battery/dooropen/",
     "/home/kitchen/ambientlight/ceilinglamp_2/",
     "/home/kitchen/battery/doorclosed/",
@@ -25,6 +27,8 @@
     "/home/kitchen/powerconsumptionsensor/a2c2consumption/",
     "/home/kitchen/reedswitch/dooropen/",
     "/home/kitchen/powerconsumptionsensor/a2c1consumption/",
+    "/home/kitchen/rgbcamera/asus_90iw0122-b01ua_e3iwbda34146/",
+    "/home/kitchen/audiosource/asus_90iw0122-b01ua_e3iwbda34146/",
     "/home/kitchen/ambientlight/ceilinglamp_3/",
     "/home/kitchen/dimmer/dimmer/",
     "/home/kitchen/ambientlight/ceilinglamp_1/",
@@ -39,6 +43,8 @@
     "/home/kitchen/powerconsumptionsensor/a3c4consumption/",
     "/home/kitchen/ambientlight/505/",
     "/home/kitchen/ambientlight/507/",
+    "/home/kitchen/depthcamera/asus_90iw0122-b01ua_e3iwbda34154/",
+    "/home/kitchen/depthcamera/asus_90iw0122-b01ua_e3iwbda34146/",
     "/home/kitchen/button/kitchenlight/"
   ],
   "scope": {
