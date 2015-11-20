@@ -2,6 +2,8 @@
 
 echo Update...
 git pull
+git submodule init
+git submodule update
 echo Start installation routine...
 mkdir -p build &&
 cd build &&
