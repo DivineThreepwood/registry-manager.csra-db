@@ -1,0 +1,127 @@
+{
+  "id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+  "label": "Wardrobe",
+  "root": false,
+  "parent_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+  "unit_id": [
+    "/home/wardrobe/button/lighthereon/",
+    "/home/wardrobe/audiosource/asus_90iw0122-b01ua_e3iwbda33551/",
+    "/home/wardrobe/button/learnperson/",
+    "/home/wardrobe/rgbcamera/asus_90iw0122-b01ua_e3iwbda34151/",
+    "/home/wardrobe/battery/hallway/",
+    "/home/wardrobe/depthcamera/asus_90iw0122-b01ua_e3iwbda34151/",
+    "/home/wardrobe/button/lighthereonly/",
+    "/home/wardrobe/button/lighthereoff/",
+    "/home/wardrobe/button/goodbye/",
+    "/home/wardrobe/button/apartmentlight/",
+    "/home/wardrobe/brightnesssensor/entrance/",
+    "/home/wardrobe/motionsensor/entrance/",
+    "/home/wardrobe/audiosource/asus_90iw0122-b01ua_e3iwbda34151/",
+    "/home/wardrobe/temperaturesensor/hallway/",
+    "/home/wardrobe/brightnesssensor/hallway/",
+    "/home/wardrobe/button/reset/",
+    "/home/wardrobe/ambientlight/hallway_1/",
+    "/home/wardrobe/motionsensor/hallway/",
+    "/home/wardrobe/button/kitchen/",
+    "/home/wardrobe/tamperswitch/entrance/",
+    "/home/wardrobe/battery/entrance/",
+    "/home/wardrobe/dimmer/pathwaydimmer/",
+    "/home/wardrobe/button/lightotheroff/",
+    "/home/wardrobe/button/findkeys/",
+    "/home/wardrobe/dimmer/entrancedimmer/",
+    "/home/wardrobe/button/greet/",
+    "/home/wardrobe/temperaturesensor/entrance/",
+    "/home/wardrobe/tamperswitch/hallway/",
+    "/home/wardrobe/battery/entrancedoorreedswitch/",
+    "/home/wardrobe/button/list/",
+    "/home/wardrobe/button/learnpersontwo/",
+    "/home/wardrobe/rgbcamera/asus_90iw0122-b01ua_e3iwbda33551/",
+    "/home/wardrobe/button/explain/",
+    "/home/wardrobe/button/wardrobelight/",
+    "/home/wardrobe/reedswitch/entrancedoorreedswitch/",
+    "/home/wardrobe/depthcamera/asus_90iw0122-b01ua_e3iwbda33551/",
+    "/home/wardrobe/button/introduction/",
+    "/home/wardrobe/button/lightalloff/",
+    "/home/wardrobe/ambientlight/hallway_0/",
+    "/home/wardrobe/button/lightallon/"
+  ],
+  "scope": {
+    "component": [
+      "home",
+      "wardrobe"
+    ]
+  },
+  "position": {
+    "translation": {
+      "x": 2.543,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "rotation": {
+      "qw": 1.0,
+      "qx": 0.0,
+      "qy": 0.0,
+      "qz": 0.0
+    }
+  },
+  "placement_config": {
+    "position": {
+      "translation": {
+        "x": 2.543,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {
+      "floor": [
+        {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "x": 0.0,
+          "y": 4.3383,
+          "z": 0.0
+        },
+        {
+          "x": 1.24,
+          "y": 4.3383,
+          "z": 0.0
+        },
+        {
+          "x": 1.24,
+          "y": 3.9402,
+          "z": 0.0
+        },
+        {
+          "x": 1.65,
+          "y": 3.9402,
+          "z": 0.0
+        },
+        {
+          "x": 1.65,
+          "y": 0.3,
+          "z": 0.0
+        },
+        {
+          "x": 1.24,
+          "y": 0.3,
+          "z": 0.0
+        },
+        {
+          "x": 1.24,
+          "y": 0.0,
+          "z": 0.0
+        }
+      ]
+    }
+  },
+  "meta_config": {}
+}

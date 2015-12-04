@@ -1,0 +1,122 @@
+{
+  "id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+  "label": "Bath",
+  "root": false,
+  "parent_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+  "unit_id": [
+    "/home/bath/battery/shower/",
+    "/home/bath/brightnesssensor/shower/",
+    "/home/bath/temperaturesensor/global/",
+    "/home/bath/powerplug/a4c5/",
+    "/home/bath/temperaturesensor/sink/",
+    "/home/bath/powerconsumptionsensor/a4c6consumption/",
+    "/home/bath/powerconsumptionsensor/a4c5consumption/",
+    "/home/bath/motionsensor/global/",
+    "/home/bath/tamperswitch/global/",
+    "/home/bath/reedswitch/doorreedswitch/",
+    "/home/bath/brightnesssensor/global/",
+    "/home/bath/powerconsumptionsensor/a4c4consumption/",
+    "/home/bath/motionsensor/sink/",
+    "/home/bath/ambientlight/global_2/",
+    "/home/bath/brightnesssensor/entrance/",
+    "/home/bath/ambientlight/global_4/",
+    "/home/bath/tamperswitch/sink/",
+    "/home/bath/battery/global/",
+    "/home/bath/ambientlight/llamp6/",
+    "/home/bath/brightnesssensor/sink/",
+    "/home/bath/powerplug/a4c4/",
+    "/home/bath/tamperswitch/entrance/",
+    "/home/bath/powerplug/a4c6/",
+    "/home/bath/battery/entrance/",
+    "/home/bath/temperaturesensor/shower/",
+    "/home/bath/temperaturesensor/entrance/",
+    "/home/bath/battery/sink/",
+    "/home/bath/battery/doorreedswitch/",
+    "/home/bath/motionsensor/shower/",
+    "/home/bath/dimmer/dimmer/",
+    "/home/bath/ambientlight/global_1/",
+    "/home/bath/tamperswitch/shower/",
+    "/home/bath/motionsensor/entrance/",
+    "/home/bath/ambientlight/global_3/",
+    "/home/bath/ambientlight/slamp2/"
+  ],
+  "scope": {
+    "component": [
+      "home",
+      "bath"
+    ]
+  },
+  "position": {
+    "translation": {
+      "x": 4.3256,
+      "y": 0.2522,
+      "z": 0.0
+    },
+    "rotation": {
+      "qw": 1.0,
+      "qx": 0.0,
+      "qy": 0.0,
+      "qz": 0.0
+    }
+  },
+  "placement_config": {
+    "position": {
+      "translation": {
+        "x": 4.3256,
+        "y": 0.2522,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {
+      "floor": [
+        {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "x": 0.0,
+          "y": 3.688,
+          "z": 0.0
+        },
+        {
+          "x": 1.25,
+          "y": 3.688,
+          "z": 0.0
+        },
+        {
+          "x": 1.25,
+          "y": 2.232,
+          "z": 0.0
+        },
+        {
+          "x": 1.375,
+          "y": 2.232,
+          "z": 0.0
+        },
+        {
+          "x": 1.375,
+          "y": 3.688,
+          "z": 0.0
+        },
+        {
+          "x": 2.302,
+          "y": 3.688,
+          "z": 0.0
+        },
+        {
+          "x": 2.302,
+          "y": 0.0,
+          "z": 0.0
+        }
+      ]
+    }
+  },
+  "meta_config": {}
+}

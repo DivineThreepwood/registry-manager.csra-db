@@ -1,0 +1,114 @@
+{
+  "id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+  "label": "Kitchen",
+  "root": false,
+  "parent_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+  "unit_id": [
+    "/home/kitchen/rgbcamera/asus_90iw0122-b01ua_e3iwbda34154/",
+    "/home/kitchen/ambientlight/ceilinglamp_4/",
+    "/home/kitchen/audiosource/asus_90iw0122-b01ua_e3iwbda34154/",
+    "/home/kitchen/battery/dooropen/",
+    "/home/kitchen/ambientlight/ceilinglamp_2/",
+    "/home/kitchen/battery/doorclosed/",
+    "/home/kitchen/powerplug/a2c1/",
+    "/home/kitchen/powerplug/a3c2/",
+    "/home/kitchen/powerconsumptionsensor/a3c5consumption/",
+    "/home/kitchen/powerconsumptionsensor/a3c6consumption/",
+    "/home/kitchen/powerplug/a4c1/",
+    "/home/kitchen/powerplug/a3c4/",
+    "/home/kitchen/powerplug/a3c6/",
+    "/home/kitchen/motionsensor/global/",
+    "/home/kitchen/ambientlight/502/",
+    "/home/kitchen/button/doorbutton_3/",
+    "/home/kitchen/button/doorbutton_1/",
+    "/home/kitchen/tamperswitch/global/",
+    "/home/kitchen/ambientlight/506/",
+    "/home/kitchen/reedswitch/doorclosed/",
+    "/home/kitchen/button/apartmentlight/",
+    "/home/kitchen/powerconsumptionsensor/a4c1consumption/",
+    "/home/kitchen/temperaturesensor/global/",
+    "/home/kitchen/powerconsumptionsensor/a2c2consumption/",
+    "/home/kitchen/reedswitch/dooropen/",
+    "/home/kitchen/powerconsumptionsensor/a2c1consumption/",
+    "/home/kitchen/rgbcamera/asus_90iw0122-b01ua_e3iwbda34146/",
+    "/home/kitchen/audiosource/asus_90iw0122-b01ua_e3iwbda34146/",
+    "/home/kitchen/brightnesssensor/global/",
+    "/home/kitchen/ambientlight/ceilinglamp_3/",
+    "/home/kitchen/battery/global/",
+    "/home/kitchen/dimmer/dimmer/",
+    "/home/kitchen/ambientlight/ceilinglamp_1/",
+    "/home/kitchen/powerplug/a2c2/",
+    "/home/kitchen/powerplug/a3c3/",
+    "/home/kitchen/powerplug/a3c5/",
+    "/home/kitchen/button/doorbutton_4/",
+    "/home/kitchen/powerconsumptionsensor/a3c2consumption/",
+    "/home/kitchen/button/doorbutton_2/",
+    "/home/kitchen/ambientlight/503/",
+    "/home/kitchen/powerconsumptionsensor/a3c3consumption/",
+    "/home/kitchen/powerconsumptionsensor/a3c4consumption/",
+    "/home/kitchen/ambientlight/505/",
+    "/home/kitchen/ambientlight/507/",
+    "/home/kitchen/depthcamera/asus_90iw0122-b01ua_e3iwbda34154/",
+    "/home/kitchen/depthcamera/asus_90iw0122-b01ua_e3iwbda34146/",
+    "/home/kitchen/button/kitchenlight/"
+  ],
+  "scope": {
+    "component": [
+      "home",
+      "kitchen"
+    ]
+  },
+  "position": {
+    "translation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "rotation": {
+      "qw": 1.0,
+      "qx": 0.0,
+      "qy": 0.0,
+      "qz": 0.0
+    }
+  },
+  "placement_config": {
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {
+      "floor": [
+        {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "x": 0.0,
+          "y": 3.1,
+          "z": 0.0
+        },
+        {
+          "x": 2.45,
+          "y": 3.1,
+          "z": 0.0
+        },
+        {
+          "x": 2.45,
+          "y": 0.0,
+          "z": 0.0
+        }
+      ]
+    }
+  },
+  "meta_config": {}
+}

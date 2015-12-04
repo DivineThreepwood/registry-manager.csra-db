@@ -1,0 +1,98 @@
+{
+  "id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+  "label": "Control",
+  "root": false,
+  "parent_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+  "unit_id": [
+    "/home/control/powerplug/a10c1/",
+    "/home/control/powerconsumptionsensor/a11c6consumption/",
+    "/home/control/powerconsumptionsensor/a11c3consumption/",
+    "/home/control/powerconsumptionsensor/a11c4consumption/",
+    "/home/control/motionsensor/testunit_1/",
+    "/home/control/powerconsumptionsensor/a11c5consumption/",
+    "/home/control/powerplug/a1c5/",
+    "/home/control/battery/leftwindowreedswitch/",
+    "/home/control/reedswitch/rightwindowreedswitch/",
+    "/home/control/powerconsumptionsensor/a1c2consumption/",
+    "/home/control/motionsensor/entrance/",
+    "/home/control/powerconsumptionsensor/a1c1consumption/",
+    "/home/control/battery/testunit_1/",
+    "/home/control/powerconsumptionsensor/a11c2consumption/",
+    "/home/control/temperaturesensor/entrance/",
+    "/home/control/battery/rightwindowreedswitch/",
+    "/home/control/battery/entrance/",
+    "/home/control/battery/leftwindowhandlesensor/",
+    "/home/control/powerplug/a11c6/",
+    "/home/control/powerplug/a10c5/",
+    "/home/control/powerplug/a11c2/",
+    "/home/control/battery/rightwindowhandlesensor/",
+    "/home/control/tamperswitch/testunit_1/",
+    "/home/control/powerplug/a1c6/",
+    "/home/control/brightnesssensor/testunit_1/",
+    "/home/control/powerplug/a1c1/",
+    "/home/control/reedswitch/leftwindowreedswitch/",
+    "/home/control/powerconsumptionsensor/a1c3consumption/",
+    "/home/control/reedswitch/controldoorreedswitch/",
+    "/home/control/powerconsumptionsensor/a1c4consumption/",
+    "/home/control/powerconsumptionsensor/a1c6consumption/",
+    "/home/control/powerconsumptionsensor/a1c5consumption/",
+    "/home/control/powerplug/a10c6/",
+    "/home/control/powerplug/a11c3/",
+    "/home/control/powerplug/a10c2/",
+    "/home/control/battery/controldoorreedswitch/",
+    "/home/control/handlesensor/leftwindowhandlesensor/",
+    "/home/control/handlesensor/rightwindowhandlesensor/",
+    "/home/control/powerplug/a1c2/",
+    "/home/control/brightnesssensor/entrance/",
+    "/home/control/powerplug/a11c4/",
+    "/home/control/powerplug/a10c3/",
+    "/home/control/ambientlight/testunit_0/",
+    "/home/control/powerconsumptionsensor/a10c4consumption/",
+    "/home/control/powerconsumptionsensor/a10c5consumption/",
+    "/home/control/powerconsumptionsensor/a10c2consumption/",
+    "/home/control/powerconsumptionsensor/a10c6consumption/",
+    "/home/control/powerplug/a1c4/",
+    "/home/control/powerconsumptionsensor/a10c3consumption/",
+    "/home/control/powerplug/a1c3/",
+    "/home/control/powerconsumptionsensor/a10c1consumption/",
+    "/home/control/powerplug/a11c5/",
+    "/home/control/powerplug/a10c4/",
+    "/home/control/temperaturesensor/testunit_1/",
+    "/home/control/tamperswitch/entrance/"
+  ],
+  "scope": {
+    "component": [
+      "home",
+      "control"
+    ]
+  },
+  "position": {
+    "translation": {
+      "x": 6.7393,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "rotation": {
+      "qw": 1.0,
+      "qx": 0.0,
+      "qy": 0.0,
+      "qz": 0.0
+    }
+  },
+  "placement_config": {
+    "position": {
+      "translation": {
+        "x": 6.7393,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "meta_config": {}
+}

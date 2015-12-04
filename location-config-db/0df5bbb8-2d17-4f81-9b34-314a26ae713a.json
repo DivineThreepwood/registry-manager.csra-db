@@ -1,0 +1,49 @@
+{
+  "id": "0df5bbb8-2d17-4f81-9b34-314a26ae713a",
+  "label": "Lounge",
+  "parent_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+  "unit_id": [
+    "/home/living/lounge/powerconsumptionsensor/a2c5consumption/",
+    "/home/living/lounge/powerplug/a2c3/",
+    "/home/living/lounge/powerconsumptionsensor/a2c4consumption/",
+    "/home/living/lounge/powerplug/a2c5/",
+    "/home/living/lounge/powerplug/a2c4/",
+    "/home/living/lounge/powerconsumptionsensor/a2c3consumption/"
+  ],
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "lounge"
+    ]
+  },
+  "position": {
+    "translation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "rotation": {
+      "qw": 1.0,
+      "qx": 0.0,
+      "qy": 0.0,
+      "qz": 0.0
+    }
+  },
+  "placement_config": {
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "meta_config": {}
+}
