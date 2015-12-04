@@ -2,7 +2,7 @@
   "id": "Philips_KV01-18U_FE544F",
   "label": "StudTestLamp",
   "placement_config": {
-    "location_id": "Home",
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
     "position": {
       "translation": {
         "x": 0.0,
@@ -40,7 +40,7 @@
       "device_id": "Philips_KV01-18U_FE544F",
       "type": "AMBIENT_LIGHT",
       "placement_config": {
-        "location_id": "Home",
+        "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
         "position": {
           "translation": {
             "x": 0.0,

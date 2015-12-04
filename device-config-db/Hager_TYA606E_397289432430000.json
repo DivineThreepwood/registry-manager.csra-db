@@ -2,7 +2,7 @@
   "id": "Hager_TYA606E_397289432430000",
   "label": "PowerActuator7",
   "placement_config": {
-    "location_id": "Control",
+    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
     "position": {
       "translation": {
         "x": 0.0,
@@ -42,7 +42,7 @@
       "device_id": "Hager_TYA606E_397289432430000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Sports",
+        "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "position": {
           "translation": {
             "x": 0.0,
@@ -97,7 +97,7 @@
       "device_id": "Hager_TYA606E_397289432430000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Sports",
+        "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "position": {
           "translation": {
             "x": 0.0,
@@ -152,7 +152,7 @@
       "device_id": "Hager_TYA606E_397289432430000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Sports",
+        "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "position": {
           "translation": {
             "x": 0.0,
@@ -207,7 +207,7 @@
       "device_id": "Hager_TYA606E_397289432430000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Sports",
+        "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "position": {
           "translation": {
             "x": 0.0,
@@ -262,7 +262,7 @@
       "device_id": "Hager_TYA606E_397289432430000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Sports",
+        "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "position": {
           "translation": {
             "x": 0.0,
@@ -317,7 +317,7 @@
       "device_id": "Hager_TYA606E_397289432430000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Sports",
+        "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "position": {
           "translation": {
             "x": 0.0,
@@ -372,7 +372,7 @@
       "device_id": "Hager_TYA606E_397289432430000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Sports",
+        "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "position": {
           "translation": {
             "x": 0.0,
@@ -427,7 +427,7 @@
       "device_id": "Hager_TYA606E_397289432430000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Sports",
+        "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "position": {
           "translation": {
             "x": 0.0,
@@ -482,7 +482,7 @@
       "device_id": "Hager_TYA606E_397289432430000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Sports",
+        "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "position": {
           "translation": {
             "x": 0.0,
@@ -537,7 +537,7 @@
       "device_id": "Hager_TYA606E_397289432430000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Sports",
+        "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "position": {
           "translation": {
             "x": 0.0,
@@ -592,7 +592,7 @@
       "device_id": "Hager_TYA606E_397289432430000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Living",
+        "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "position": {
           "translation": {
             "x": 0.0,
@@ -647,7 +647,7 @@
       "device_id": "Hager_TYA606E_397289432430000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Living",
+        "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "position": {
           "translation": {
             "x": 0.0,

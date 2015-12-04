@@ -2,7 +2,7 @@
   "id": "Gira_429496730210000_439232811660000",
   "label": "DoorButtons",
   "placement_config": {
-    "location_id": "Kitchen",
+    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
     "position": {
       "translation": {
         "x": 0.0,
@@ -42,7 +42,7 @@
       "device_id": "Gira_429496730210000_439232811660000",
       "type": "BUTTON",
       "placement_config": {
-        "location_id": "Kitchen",
+        "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
         "position": {
           "translation": {
             "x": 0.0,
@@ -97,7 +97,7 @@
       "device_id": "Gira_429496730210000_439232811660000",
       "type": "BUTTON",
       "placement_config": {
-        "location_id": "Kitchen",
+        "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
         "position": {
           "translation": {
             "x": 0.0,
@@ -152,7 +152,7 @@
       "device_id": "Gira_429496730210000_439232811660000",
       "type": "BUTTON",
       "placement_config": {
-        "location_id": "Kitchen",
+        "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
         "position": {
           "translation": {
             "x": 0.0,
@@ -207,7 +207,7 @@
       "device_id": "Gira_429496730210000_439232811660000",
       "type": "BUTTON",
       "placement_config": {
-        "location_id": "Kitchen",
+        "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
         "position": {
           "translation": {
             "x": 0.0,
@@ -262,7 +262,7 @@
       "device_id": "Gira_429496730210000_439232811660000",
       "type": "BUTTON",
       "placement_config": {
-        "location_id": "Kitchen",
+        "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
         "position": {
           "translation": {
             "x": 0.0,
@@ -317,7 +317,7 @@
       "device_id": "Gira_429496730210000_439232811660000",
       "type": "BUTTON",
       "placement_config": {
-        "location_id": "Kitchen",
+        "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
         "position": {
           "translation": {
             "x": 0.0,

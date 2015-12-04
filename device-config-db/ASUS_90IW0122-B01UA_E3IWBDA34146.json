@@ -2,7 +2,7 @@
   "id": "ASUS_90IW0122-B01UA_E3IWBDA34146",
   "label": "ASUS_90IW0122-B01UA_E3IWBDA34146",
   "placement_config": {
-    "location_id": "Kitchen",
+    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
     "position": {
       "translation": {
         "x": 1.39,
@@ -43,7 +43,7 @@
       "device_id": "ASUS_90IW0122-B01UA_E3IWBDA34146",
       "type": "RGB_CAMERA",
       "placement_config": {
-        "location_id": "Kitchen",
+        "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
         "position": {
           "translation": {
             "x": 1.39,
@@ -75,7 +75,7 @@
       "device_id": "ASUS_90IW0122-B01UA_E3IWBDA34146",
       "type": "DEPTH_CAMERA",
       "placement_config": {
-        "location_id": "Kitchen",
+        "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
         "position": {
           "translation": {
             "x": 1.39,
@@ -107,7 +107,7 @@
       "device_id": "ASUS_90IW0122-B01UA_E3IWBDA34146",
       "type": "AUDIO_SOURCE",
       "placement_config": {
-        "location_id": "Kitchen",
+        "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
         "position": {
           "translation": {
             "x": 1.39,

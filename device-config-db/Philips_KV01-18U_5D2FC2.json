@@ -2,7 +2,7 @@
   "id": "Philips_KV01-18U_5D2FC2",
   "label": "LoungeLamp",
   "placement_config": {
-    "location_id": "Living",
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
     "position": {
       "translation": {
         "x": 0.0,
@@ -42,7 +42,7 @@
       "device_id": "Philips_KV01-18U_5D2FC2",
       "type": "AMBIENT_LIGHT",
       "placement_config": {
-        "location_id": "Living",
+        "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "position": {
           "translation": {
             "x": 0.0,
