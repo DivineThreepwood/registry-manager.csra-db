@@ -2,7 +2,7 @@
   "id": "Fibaro_FGMS-001_FMS013",
   "label": "Interaction",
   "placement_config": {
-    "location_id": "Sports",
+    "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
     "position": {
       "translation": {
         "x": 0.0,
@@ -42,7 +42,7 @@
       "device_id": "Fibaro_FGMS-001_FMS013",
       "type": "BATTERY",
       "placement_config": {
-        "location_id": "Sports",
+        "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "position": {
           "translation": {
             "x": 0.0,
@@ -93,7 +93,7 @@
       "device_id": "Fibaro_FGMS-001_FMS013",
       "type": "BRIGHTNESS_SENSOR",
       "placement_config": {
-        "location_id": "Sports",
+        "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "position": {
           "translation": {
             "x": 0.0,
@@ -144,7 +144,7 @@
       "device_id": "Fibaro_FGMS-001_FMS013",
       "type": "MOTION_SENSOR",
       "placement_config": {
-        "location_id": "Sports",
+        "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "position": {
           "translation": {
             "x": 0.0,
@@ -195,7 +195,7 @@
       "device_id": "Fibaro_FGMS-001_FMS013",
       "type": "TAMPER_SWITCH",
       "placement_config": {
-        "location_id": "Sports",
+        "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "position": {
           "translation": {
             "x": 0.0,
@@ -246,7 +246,7 @@
       "device_id": "Fibaro_FGMS-001_FMS013",
       "type": "TEMPERATURE_SENSOR",
       "placement_config": {
-        "location_id": "Sports",
+        "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "position": {
           "translation": {
             "x": 0.0,

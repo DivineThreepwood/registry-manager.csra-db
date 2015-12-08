@@ -2,7 +2,7 @@
   "id": "Fibaro_FGMS-001_FMS017",
   "label": "BorrowdUnit-1",
   "placement_config": {
-    "location_id": "Control",
+    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
     "position": {
       "translation": {
         "x": 0.0,
@@ -45,7 +45,7 @@
       "device_id": "Fibaro_FGMS-001_FMS017",
       "type": "BATTERY",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
         "position": {
           "translation": {
             "x": 0.0,
@@ -96,7 +96,7 @@
       "device_id": "Fibaro_FGMS-001_FMS017",
       "type": "BRIGHTNESS_SENSOR",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
         "position": {
           "translation": {
             "x": 0.0,
@@ -147,7 +147,7 @@
       "device_id": "Fibaro_FGMS-001_FMS017",
       "type": "MOTION_SENSOR",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
         "position": {
           "translation": {
             "x": 0.0,
@@ -198,7 +198,7 @@
       "device_id": "Fibaro_FGMS-001_FMS017",
       "type": "TAMPER_SWITCH",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
         "position": {
           "translation": {
             "x": 0.0,
@@ -249,7 +249,7 @@
       "device_id": "Fibaro_FGMS-001_FMS017",
       "type": "TEMPERATURE_SENSOR",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
         "position": {
           "translation": {
             "x": 0.0,

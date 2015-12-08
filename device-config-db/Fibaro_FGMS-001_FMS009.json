@@ -2,7 +2,7 @@
   "id": "Fibaro_FGMS-001_FMS009",
   "label": "Global",
   "placement_config": {
-    "location_id": "Kitchen",
+    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
     "position": {
       "translation": {
         "x": 0.0,
@@ -15,7 +15,8 @@
         "qy": 0.0,
         "qz": 0.0
       }
-    }
+    },
+    "shape": {}
   },
   "scope": {
     "component": [
@@ -25,6 +26,7 @@
     ]
   },
   "serial_number": "FMS009",
+  "description": "",
   "inventory_state": {
     "value": "INSTALLED",
     "location_id": "Kitchen",
@@ -36,13 +38,13 @@
   "device_class_id": "Fibaro_FGMS-001",
   "unit_config": [
     {
-      "id": "/home/battery/global/",
+      "id": "/home/kitchen/battery/global/",
       "unit_template_config_id": "Fibaro_FGMS-001_BATTERY_0",
       "label": "Global",
       "device_id": "Fibaro_FGMS-001_FMS009",
       "type": "BATTERY",
       "placement_config": {
-        "location_id": "Home",
+        "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
         "position": {
           "translation": {
             "x": 0.0,
@@ -55,11 +57,13 @@
             "qy": 0.0,
             "qz": 0.0
           }
-        }
+        },
+        "shape": {}
       },
       "scope": {
         "component": [
           "home",
+          "kitchen",
           "battery",
           "global"
         ]
@@ -73,12 +77,12 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Fibaro_MotionSensor__home__Battery__Global__BatteryProvider"
+                  "value": "Fibaro_MotionSensor__home_kitchen__Battery__Global__BatteryProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/battery/global/",
+          "unit_id": "/home/kitchen/battery/global/",
           "type": "BATTERY_PROVIDER",
           "meta_config": {}
         }
@@ -86,13 +90,13 @@
       "meta_config": {}
     },
     {
-      "id": "/home/brightnesssensor/global/",
+      "id": "/home/kitchen/brightnesssensor/global/",
       "unit_template_config_id": "Fibaro_FGMS-001_BRIGHTNESS_SENSOR_0",
       "label": "Global",
       "device_id": "Fibaro_FGMS-001_FMS009",
       "type": "BRIGHTNESS_SENSOR",
       "placement_config": {
-        "location_id": "Home",
+        "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
         "position": {
           "translation": {
             "x": 0.0,
@@ -105,11 +109,13 @@
             "qy": 0.0,
             "qz": 0.0
           }
-        }
+        },
+        "shape": {}
       },
       "scope": {
         "component": [
           "home",
+          "kitchen",
           "brightnesssensor",
           "global"
         ]
@@ -123,12 +129,12 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Fibaro_MotionSensor__home__BrightnessSensor__Global__BrightnessProvider"
+                  "value": "Fibaro_MotionSensor__home_kitchen__BrightnessSensor__Global__BrightnessProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/brightnesssensor/global/",
+          "unit_id": "/home/kitchen/brightnesssensor/global/",
           "type": "BRIGHTNESS_PROVIDER",
           "meta_config": {}
         }
@@ -136,13 +142,13 @@
       "meta_config": {}
     },
     {
-      "id": "/home/motionsensor/global/",
+      "id": "/home/kitchen/motionsensor/global/",
       "unit_template_config_id": "Fibaro_FGMS-001_MOTION_SENSOR_0",
       "label": "Global",
       "device_id": "Fibaro_FGMS-001_FMS009",
       "type": "MOTION_SENSOR",
       "placement_config": {
-        "location_id": "Home",
+        "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
         "position": {
           "translation": {
             "x": 0.0,
@@ -155,11 +161,13 @@
             "qy": 0.0,
             "qz": 0.0
           }
-        }
+        },
+        "shape": {}
       },
       "scope": {
         "component": [
           "home",
+          "kitchen",
           "motionsensor",
           "global"
         ]
@@ -173,12 +181,12 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Fibaro_MotionSensor__home__MotionSensor__Global__MotionProvider"
+                  "value": "Fibaro_MotionSensor__home_kitchen__MotionSensor__Global__MotionProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/motionsensor/global/",
+          "unit_id": "/home/kitchen/motionsensor/global/",
           "type": "MOTION_PROVIDER",
           "meta_config": {}
         }
@@ -186,13 +194,13 @@
       "meta_config": {}
     },
     {
-      "id": "/home/tamperswitch/global/",
+      "id": "/home/kitchen/tamperswitch/global/",
       "unit_template_config_id": "Fibaro_FGMS-001_TAMPER_SWITCH_0",
       "label": "Global",
       "device_id": "Fibaro_FGMS-001_FMS009",
       "type": "TAMPER_SWITCH",
       "placement_config": {
-        "location_id": "Home",
+        "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
         "position": {
           "translation": {
             "x": 0.0,
@@ -205,11 +213,13 @@
             "qy": 0.0,
             "qz": 0.0
           }
-        }
+        },
+        "shape": {}
       },
       "scope": {
         "component": [
           "home",
+          "kitchen",
           "tamperswitch",
           "global"
         ]
@@ -223,12 +233,12 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Fibaro_MotionSensor__home__TamperSwitch__Global__TamperProvider"
+                  "value": "Fibaro_MotionSensor__home_kitchen__TamperSwitch__Global__TamperProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/tamperswitch/global/",
+          "unit_id": "/home/kitchen/tamperswitch/global/",
           "type": "TAMPER_PROVIDER",
           "meta_config": {}
         }
@@ -236,13 +246,13 @@
       "meta_config": {}
     },
     {
-      "id": "/home/temperaturesensor/global/",
+      "id": "/home/kitchen/temperaturesensor/global/",
       "unit_template_config_id": "Fibaro_FGMS-001_TEMPERATURE_SENSOR_0",
       "label": "Global",
       "device_id": "Fibaro_FGMS-001_FMS009",
       "type": "TEMPERATURE_SENSOR",
       "placement_config": {
-        "location_id": "Home",
+        "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
         "position": {
           "translation": {
             "x": 0.0,
@@ -255,11 +265,13 @@
             "qy": 0.0,
             "qz": 0.0
           }
-        }
+        },
+        "shape": {}
       },
       "scope": {
         "component": [
           "home",
+          "kitchen",
           "temperaturesensor",
           "global"
         ]
@@ -273,12 +285,12 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Fibaro_MotionSensor__home__TemperatureSensor__Global__TemperatureProvider"
+                  "value": "Fibaro_MotionSensor__home_kitchen__TemperatureSensor__Global__TemperatureProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/temperaturesensor/global/",
+          "unit_id": "/home/kitchen/temperaturesensor/global/",
           "type": "TEMPERATURE_PROVIDER",
           "meta_config": {}
         },
@@ -289,12 +301,12 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Fibaro_MotionSensor__home__TemperatureSensor__Global__TemperatureAlarmStateProvider"
+                  "value": "Fibaro_MotionSensor__home_kitchen__TemperatureSensor__Global__TemperatureAlarmStateProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/temperaturesensor/global/",
+          "unit_id": "/home/kitchen/temperaturesensor/global/",
           "type": "TEMPERATURE_ALARM_STATE_PROVIDER",
           "meta_config": {}
         }

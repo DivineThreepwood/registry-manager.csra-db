@@ -2,7 +2,7 @@
   "id": "Homematic_Sec_SC_2_LEQ0174341",
   "label": "DoorReedSwitch",
   "placement_config": {
-    "location_id": "Bath",
+    "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
     "position": {
       "translation": {
         "x": 0.0,
@@ -42,7 +42,7 @@
       "device_id": "Homematic_Sec_SC_2_LEQ0174341",
       "type": "BATTERY",
       "placement_config": {
-        "location_id": "Bath",
+        "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
         "position": {
           "translation": {
             "x": 0.0,
@@ -93,7 +93,7 @@
       "device_id": "Homematic_Sec_SC_2_LEQ0174341",
       "type": "REED_SWITCH",
       "placement_config": {
-        "location_id": "Bath",
+        "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
         "position": {
           "translation": {
             "x": 0.0,

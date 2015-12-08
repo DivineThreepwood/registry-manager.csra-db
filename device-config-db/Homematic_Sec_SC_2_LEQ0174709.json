@@ -2,7 +2,7 @@
   "id": "Homematic_Sec_SC_2_LEQ0174709",
   "label": "SportsToControlReedSwitch",
   "placement_config": {
-    "location_id": "Sports",
+    "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
     "position": {
       "translation": {
         "x": 0.0,
@@ -42,7 +42,7 @@
       "device_id": "Homematic_Sec_SC_2_LEQ0174709",
       "type": "BATTERY",
       "placement_config": {
-        "location_id": "Sports",
+        "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "position": {
           "translation": {
             "x": 0.0,
@@ -93,7 +93,7 @@
       "device_id": "Homematic_Sec_SC_2_LEQ0174709",
       "type": "REED_SWITCH",
       "placement_config": {
-        "location_id": "Sports",
+        "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "position": {
           "translation": {
             "x": 0.0,

@@ -2,7 +2,7 @@
   "id": "Hager_TYA606E_397289432280000",
   "label": "PowerActuator2",
   "placement_config": {
-    "location_id": "Control",
+    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
     "position": {
       "translation": {
         "x": 0.0,
@@ -41,7 +41,7 @@
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Kitchen",
+        "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
         "position": {
           "translation": {
             "x": 0.0,
@@ -96,7 +96,7 @@
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Kitchen",
+        "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
         "position": {
           "translation": {
             "x": 0.0,
@@ -154,7 +154,7 @@
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Kitchen",
+        "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
         "position": {
           "translation": {
             "x": 0.0,
@@ -209,7 +209,7 @@
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Kitchen",
+        "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
         "position": {
           "translation": {
             "x": 0.0,
@@ -264,7 +264,7 @@
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Lounge",
+        "location_id": "0df5bbb8-2d17-4f81-9b34-314a26ae713a",
         "position": {
           "translation": {
             "x": 0.0,
@@ -320,7 +320,7 @@
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Lounge",
+        "location_id": "0df5bbb8-2d17-4f81-9b34-314a26ae713a",
         "position": {
           "translation": {
             "x": 0.0,
@@ -376,7 +376,7 @@
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Lounge",
+        "location_id": "0df5bbb8-2d17-4f81-9b34-314a26ae713a",
         "position": {
           "translation": {
             "x": 0.0,
@@ -432,7 +432,7 @@
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Lounge",
+        "location_id": "0df5bbb8-2d17-4f81-9b34-314a26ae713a",
         "position": {
           "translation": {
             "x": 0.0,
@@ -491,7 +491,7 @@
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Lounge",
+        "location_id": "0df5bbb8-2d17-4f81-9b34-314a26ae713a",
         "position": {
           "translation": {
             "x": 0.0,
@@ -550,7 +550,7 @@
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Lounge",
+        "location_id": "0df5bbb8-2d17-4f81-9b34-314a26ae713a",
         "position": {
           "translation": {
             "x": 0.0,
@@ -609,7 +609,7 @@
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Dining",
+        "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
         "position": {
           "translation": {
             "x": 0.0,
@@ -664,7 +664,7 @@
       "device_id": "Hager_TYA606E_397289432280000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Dining",
+        "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
         "position": {
           "translation": {
             "x": 0.0,

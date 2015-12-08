@@ -1,11 +1,11 @@
 {
-  "id": "Living",
+  "id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
   "label": "Living",
   "root": false,
-  "parent_id": "Home",
+  "parent_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
   "child_id": [
-    "Hometheater",
-    "Lounge"
+    "eb89de19-36db-4f26-b8a5-a75df850892e",
+    "0df5bbb8-2d17-4f81-9b34-314a26ae713a"
   ],
   "unit_id": [
     "/home/living/motionsensor/table/",

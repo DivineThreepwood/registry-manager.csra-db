@@ -2,7 +2,7 @@
   "id": "Gira_429496730250000_431602452620000",
   "label": "ControlButtons",
   "placement_config": {
-    "location_id": "Dining",
+    "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
     "position": {
       "translation": {
         "x": 0.0,
@@ -42,7 +42,7 @@
       "device_id": "Gira_429496730250000_431602452620000",
       "type": "TEMPERATURE_CONTROLLER",
       "placement_config": {
-        "location_id": "Dining",
+        "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
         "position": {
           "translation": {
             "x": 0.0,
@@ -121,7 +121,7 @@
       "device_id": "Gira_429496730250000_431602452620000",
       "type": "BUTTON",
       "placement_config": {
-        "location_id": "Dining",
+        "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
         "position": {
           "translation": {
             "x": 0.0,
@@ -176,7 +176,7 @@
       "device_id": "Gira_429496730250000_431602452620000",
       "type": "BUTTON",
       "placement_config": {
-        "location_id": "Dining",
+        "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
         "position": {
           "translation": {
             "x": 0.0,
@@ -231,7 +231,7 @@
       "device_id": "Gira_429496730250000_431602452620000",
       "type": "BUTTON",
       "placement_config": {
-        "location_id": "Dining",
+        "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
         "position": {
           "translation": {
             "x": 0.0,
@@ -286,7 +286,7 @@
       "device_id": "Gira_429496730250000_431602452620000",
       "type": "BUTTON",
       "placement_config": {
-        "location_id": "Dining",
+        "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
         "position": {
           "translation": {
             "x": 0.0,

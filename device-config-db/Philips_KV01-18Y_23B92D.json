@@ -2,7 +2,7 @@
   "id": "Philips_KV01-18Y_23B92D",
   "label": "CeilingLamp 3",
   "placement_config": {
-    "location_id": "Kitchen",
+    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
     "position": {
       "translation": {
         "x": 0.0,
@@ -42,7 +42,7 @@
       "device_id": "Philips_KV01-18Y_23B92D",
       "type": "AMBIENT_LIGHT",
       "placement_config": {
-        "location_id": "Kitchen",
+        "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
         "position": {
           "translation": {
             "x": 0.0,

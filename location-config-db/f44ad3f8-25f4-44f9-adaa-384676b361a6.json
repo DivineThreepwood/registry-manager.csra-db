@@ -1,8 +1,8 @@
 {
-  "id": "Bath",
+  "id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
   "label": "Bath",
   "root": false,
-  "parent_id": "Home",
+  "parent_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
   "unit_id": [
     "/home/bath/battery/shower/",
     "/home/bath/brightnesssensor/shower/",

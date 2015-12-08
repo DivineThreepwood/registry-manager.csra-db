@@ -2,7 +2,7 @@
   "id": "Fibaro_FGMS-001_FMS003",
   "label": "Shower",
   "placement_config": {
-    "location_id": "Bath",
+    "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
     "position": {
       "translation": {
         "x": 0.0,
@@ -42,7 +42,7 @@
       "device_id": "Fibaro_FGMS-001_FMS003",
       "type": "BATTERY",
       "placement_config": {
-        "location_id": "Bath",
+        "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
         "position": {
           "translation": {
             "x": 0.0,
@@ -93,7 +93,7 @@
       "device_id": "Fibaro_FGMS-001_FMS003",
       "type": "BRIGHTNESS_SENSOR",
       "placement_config": {
-        "location_id": "Bath",
+        "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
         "position": {
           "translation": {
             "x": 0.0,
@@ -144,7 +144,7 @@
       "device_id": "Fibaro_FGMS-001_FMS003",
       "type": "MOTION_SENSOR",
       "placement_config": {
-        "location_id": "Bath",
+        "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
         "position": {
           "translation": {
             "x": 0.0,
@@ -195,7 +195,7 @@
       "device_id": "Fibaro_FGMS-001_FMS003",
       "type": "TAMPER_SWITCH",
       "placement_config": {
-        "location_id": "Bath",
+        "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
         "position": {
           "translation": {
             "x": 0.0,
@@ -246,7 +246,7 @@
       "device_id": "Fibaro_FGMS-001_FMS003",
       "type": "TEMPERATURE_SENSOR",
       "placement_config": {
-        "location_id": "Bath",
+        "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
         "position": {
           "translation": {
             "x": 0.0,

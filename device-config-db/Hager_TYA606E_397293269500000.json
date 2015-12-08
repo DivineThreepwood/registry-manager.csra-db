@@ -2,7 +2,7 @@
   "id": "Hager_TYA606E_397293269500000",
   "label": "PowerActuator1",
   "placement_config": {
-    "location_id": "Control",
+    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
     "position": {
       "translation": {
         "x": 0.0,
@@ -41,7 +41,7 @@
       "device_id": "Hager_TYA606E_397293269500000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
         "position": {
           "translation": {
             "x": 0.0,
@@ -96,7 +96,7 @@
       "device_id": "Hager_TYA606E_397293269500000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
         "position": {
           "translation": {
             "x": 0.0,
@@ -151,7 +151,7 @@
       "device_id": "Hager_TYA606E_397293269500000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
         "position": {
           "translation": {
             "x": 0.0,
@@ -206,7 +206,7 @@
       "device_id": "Hager_TYA606E_397293269500000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
         "position": {
           "translation": {
             "x": 0.0,
@@ -261,7 +261,7 @@
       "device_id": "Hager_TYA606E_397293269500000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
         "position": {
           "translation": {
             "x": 0.0,
@@ -316,7 +316,7 @@
       "device_id": "Hager_TYA606E_397293269500000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
         "position": {
           "translation": {
             "x": 0.0,
@@ -371,7 +371,7 @@
       "device_id": "Hager_TYA606E_397293269500000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
         "position": {
           "translation": {
             "x": 0.0,
@@ -426,7 +426,7 @@
       "device_id": "Hager_TYA606E_397293269500000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
         "position": {
           "translation": {
             "x": 0.0,
@@ -481,7 +481,7 @@
       "device_id": "Hager_TYA606E_397293269500000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
         "position": {
           "translation": {
             "x": 0.0,
@@ -536,7 +536,7 @@
       "device_id": "Hager_TYA606E_397293269500000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
         "position": {
           "translation": {
             "x": 0.0,
@@ -591,7 +591,7 @@
       "device_id": "Hager_TYA606E_397293269500000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
         "position": {
           "translation": {
             "x": 0.0,
@@ -646,7 +646,7 @@
       "device_id": "Hager_TYA606E_397293269500000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
         "position": {
           "translation": {
             "x": 0.0,
