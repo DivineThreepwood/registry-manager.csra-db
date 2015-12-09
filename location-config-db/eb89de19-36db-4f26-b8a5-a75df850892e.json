@@ -1,6 +1,7 @@
 {
   "id": "eb89de19-36db-4f26-b8a5-a75df850892e",
   "label": "Hometheater",
+  "type": "REGION",
   "parent_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
   "unit_id": [
     "/home/living/hometheater/powerconsumptionsensor/a5c3consumption/",
@@ -45,6 +46,30 @@
         "qy": 0.0,
         "qz": 0.0
       }
+    },
+    "shape": {
+      "floor": [
+        {
+          "x": 3.01,
+          "y": 0.741,
+          "z": 3.3
+        },
+        {
+          "x": 3.783,
+          "y": 0.741,
+          "z": 3.3
+        },
+        {
+          "x": 3.783,
+          "y": 2.907,
+          "z": 3.3
+        },
+        {
+          "x": 3.01,
+          "y": 2.907,
+          "z": 3.3
+        }
+      ]
     }
   },
   "meta_config": {}

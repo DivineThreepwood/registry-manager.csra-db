@@ -1,6 +1,7 @@
 {
   "id": "7ad72d61-e398-414b-9c5a-173242912ce6",
   "label": "Sports",
+  "type": "TILE",
   "root": false,
   "parent_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
   "unit_id": [
