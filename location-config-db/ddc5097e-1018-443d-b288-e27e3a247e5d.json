@@ -1,6 +1,7 @@
 {
   "id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
   "label": "Home",
+  "type": "ZONE",
   "root": true,
   "child_id": [
     "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",

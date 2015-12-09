@@ -1,6 +1,7 @@
 {
   "id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
   "label": "Dining",
+  "type": "REGION",
   "parent_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
   "unit_id": [
     "/home/dining/powerconsumptionsensor/a3c1consumption/",
@@ -59,6 +60,30 @@
         "qy": 0.0,
         "qz": 0.0
       }
+    },
+    "shape": {
+      "floor": [
+        {
+          "x": 0.0,
+          "y": 3.787,
+          "z": 3.3
+        },
+        {
+          "x": 1.523,
+          "y": 3.787,
+          "z": 3.3
+        },
+        {
+          "x": 1.523,
+          "y": 5.202,
+          "z": 3.3
+        },
+        {
+          "x": 0.0,
+          "y": 5.202,
+          "z": 3.3
+        }
+      ]
     }
   },
   "meta_config": {}

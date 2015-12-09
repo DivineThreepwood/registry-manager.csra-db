@@ -1,6 +1,7 @@
 {
   "id": "0df5bbb8-2d17-4f81-9b34-314a26ae713a",
   "label": "Lounge",
+  "type": "REGION",
   "parent_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
   "unit_id": [
     "/home/living/lounge/powerconsumptionsensor/a2c5consumption/",
@@ -43,6 +44,30 @@
         "qy": 0.0,
         "qz": 0.0
       }
+    },
+    "shape": {
+      "floor": [
+        {
+          "x": 0.0,
+          "y": 0.496,
+          "z": 3.3
+        },
+        {
+          "x": 2.395,
+          "y": 0.496,
+          "z": 3.3
+        },
+        {
+          "x": 2.395,
+          "y": 3.004,
+          "z": 3.3
+        },
+        {
+          "x": 0.0,
+          "y": 3.004,
+          "z": 3.3
+        }
+      ]
     }
   },
   "meta_config": {}
