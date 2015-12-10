@@ -36,7 +36,7 @@
   "device_class_id": "Hager_TYA606E",
   "unit_config": [
     {
-      "id": "/home/dining/powerplug/a3c1/",
+      "id": "/home/living/dining/powerplug/a3c1/",
       "unit_template_config_id": "Hager_TYA606E_POWER_PLUG_0",
       "label": "A3C1",
       "device_id": "Hager_TYA606E_397293269350000",
@@ -60,6 +60,7 @@
       "scope": {
         "component": [
           "home",
+          "living",
           "dining",
           "powerplug",
           "a3c1"
@@ -78,12 +79,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA606E__home_dining__PowerPlug__A3C1__PowerService"
+                  "value": "Hager_TYA606E__home_living_dining__PowerPlug__A3C1__PowerService"
                 }
               ]
             }
           },
-          "unit_id": "/home/dining/powerplug/a3c1/",
+          "unit_id": "/home/living/dining/powerplug/a3c1/",
           "type": "POWER_SERVICE",
           "meta_config": {}
         }
@@ -91,7 +92,7 @@
       "meta_config": {}
     },
     {
-      "id": "/home/dining/powerconsumptionsensor/a3c1consumption/",
+      "id": "/home/living/dining/powerconsumptionsensor/a3c1consumption/",
       "unit_template_config_id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_0",
       "label": "A3C1Consumption",
       "device_id": "Hager_TYA606E_397293269350000",
@@ -115,6 +116,7 @@
       "scope": {
         "component": [
           "home",
+          "living",
           "dining",
           "powerconsumptionsensor",
           "a3c1consumption"
@@ -129,12 +131,12 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA606E__home_dining__PowerConsumptionSensor__A3C1Consumption__PowerConsumptionProvider"
+                  "value": "Hager_TYA606E__home_living_dining__PowerConsumptionSensor__A3C1Consumption__PowerConsumptionProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/dining/powerconsumptionsensor/a3c1consumption/",
+          "unit_id": "/home/living/dining/powerconsumptionsensor/a3c1consumption/",
           "type": "POWER_CONSUMPTION_PROVIDER",
           "meta_config": {
             "entry": [

@@ -20,6 +20,7 @@
   "scope": {
     "component": [
       "home",
+      "living",
       "dining",
       "controlbelowbuttons"
     ]
@@ -36,7 +37,7 @@
   "device_class_id": "Gira_429496730210000",
   "unit_config": [
     {
-      "id": "/home/dining/button/radioon/",
+      "id": "/home/living/dining/button/radioon/",
       "unit_template_config_id": "Gira_429496730210000_BUTTON_0",
       "label": "RadioOn",
       "device_id": "Gira_429496730210000_433819550860000",
@@ -60,6 +61,7 @@
       "scope": {
         "component": [
           "home",
+          "living",
           "dining",
           "button",
           "radioon"
@@ -78,12 +80,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_dining__Button__RadioOn__ButtonProvider"
+                  "value": "Gira_5133__home_living_dining__Button__RadioOn__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/dining/button/radioon/",
+          "unit_id": "/home/living/dining/button/radioon/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }
@@ -91,7 +93,7 @@
       "meta_config": {}
     },
     {
-      "id": "/home/dining/button/radiooff/",
+      "id": "/home/living/dining/button/radiooff/",
       "unit_template_config_id": "Gira_429496730210000_BUTTON_1",
       "label": "RadioOff",
       "device_id": "Gira_429496730210000_433819550860000",
@@ -115,6 +117,7 @@
       "scope": {
         "component": [
           "home",
+          "living",
           "dining",
           "button",
           "radiooff"
@@ -133,12 +136,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_dining__Button__RadioOff__ButtonProvider"
+                  "value": "Gira_5133__home_living_dining__Button__RadioOff__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/dining/button/radiooff/",
+          "unit_id": "/home/living/dining/button/radiooff/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }
@@ -146,7 +149,7 @@
       "meta_config": {}
     },
     {
-      "id": "/home/dining/button/kitchenlight/",
+      "id": "/home/living/dining/button/kitchenlight/",
       "unit_template_config_id": "Gira_429496730210000_BUTTON_2",
       "label": "KitchenLight",
       "device_id": "Gira_429496730210000_433819550860000",
@@ -170,6 +173,7 @@
       "scope": {
         "component": [
           "home",
+          "living",
           "dining",
           "button",
           "kitchenlight"
@@ -188,12 +192,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_dining__Button__KitchenLight__ButtonProvider"
+                  "value": "Gira_5133__home_living_dining__Button__KitchenLight__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/dining/button/kitchenlight/",
+          "unit_id": "/home/living/dining/button/kitchenlight/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }
@@ -201,7 +205,7 @@
       "meta_config": {}
     },
     {
-      "id": "/home/dining/button/dininglight/",
+      "id": "/home/living/dining/button/dininglight/",
       "unit_template_config_id": "Gira_429496730210000_BUTTON_3",
       "label": "DiningLight",
       "device_id": "Gira_429496730210000_433819550860000",
@@ -225,6 +229,7 @@
       "scope": {
         "component": [
           "home",
+          "living",
           "dining",
           "button",
           "dininglight"
@@ -243,12 +248,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_dining__Button__DiningLight__ButtonProvider"
+                  "value": "Gira_5133__home_living_dining__Button__DiningLight__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/dining/button/dininglight/",
+          "unit_id": "/home/living/dining/button/dininglight/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }
@@ -256,7 +261,7 @@
       "meta_config": {}
     },
     {
-      "id": "/home/dining/button/loungelight/",
+      "id": "/home/living/dining/button/loungelight/",
       "unit_template_config_id": "Gira_429496730210000_BUTTON_4",
       "label": "LoungeLight",
       "device_id": "Gira_429496730210000_433819550860000",
@@ -280,6 +285,7 @@
       "scope": {
         "component": [
           "home",
+          "living",
           "dining",
           "button",
           "loungelight"
@@ -298,12 +304,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_dining__Button__LoungeLight__ButtonProvider"
+                  "value": "Gira_5133__home_living_dining__Button__LoungeLight__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/dining/button/loungelight/",
+          "unit_id": "/home/living/dining/button/loungelight/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }
@@ -311,7 +317,7 @@
       "meta_config": {}
     },
     {
-      "id": "/home/dining/button/apartmentlight/",
+      "id": "/home/living/dining/button/apartmentlight/",
       "unit_template_config_id": "Gira_429496730210000_BUTTON_5",
       "label": "ApartmentLight",
       "device_id": "Gira_429496730210000_433819550860000",
@@ -335,6 +341,7 @@
       "scope": {
         "component": [
           "home",
+          "living",
           "dining",
           "button",
           "apartmentlight"
@@ -353,12 +360,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_dining__Button__ApartmentLight__ButtonProvider"
+                  "value": "Gira_5133__home_living_dining__Button__ApartmentLight__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/dining/button/apartmentlight/",
+          "unit_id": "/home/living/dining/button/apartmentlight/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }

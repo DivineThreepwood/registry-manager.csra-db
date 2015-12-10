@@ -20,6 +20,7 @@
   "scope": {
     "component": [
       "home",
+      "living",
       "dining",
       "controlbuttons"
     ]
@@ -36,7 +37,7 @@
   "device_class_id": "Gira_429496730250000",
   "unit_config": [
     {
-      "id": "/home/dining/temperaturecontroller/temperaturecontrollerliving/",
+      "id": "/home/living/dining/temperaturecontroller/temperaturecontrollerliving/",
       "unit_template_config_id": "Gira_429496730250000_TEMPERATURE_CONTROLLER_0",
       "label": "TemperatureControllerLiving",
       "device_id": "Gira_429496730250000_431602452620000",
@@ -60,6 +61,7 @@
       "scope": {
         "component": [
           "home",
+          "living",
           "dining",
           "temperaturecontroller",
           "temperaturecontrollerliving"
@@ -78,12 +80,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5142__home_dining__TemperatureController__TemperatureControllerLiving__TemperatureProvider"
+                  "value": "Gira_5142__home_living_dining__TemperatureController__TemperatureControllerLiving__TemperatureProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/dining/temperaturecontroller/temperaturecontrollerliving/",
+          "unit_id": "/home/living/dining/temperaturecontroller/temperaturecontrollerliving/",
           "type": "TEMPERATURE_PROVIDER",
           "meta_config": {}
         },
@@ -93,17 +95,17 @@
             "meta_config": {
               "entry": [
                 {
-                  "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5142__home_dining__TemperatureController__TemperatureControllerLiving__TargetTemperatureService"
-                },
-                {
                   "key": "OPENHAB_BINDING_CONFIG",
                   "value": "2/4/5"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Gira_5142__home_living_dining__TemperatureController__TemperatureControllerLiving__TargetTemperatureService"
                 }
               ]
             }
           },
-          "unit_id": "/home/dining/temperaturecontroller/temperaturecontrollerliving/",
+          "unit_id": "/home/living/dining/temperaturecontroller/temperaturecontrollerliving/",
           "type": "TARGET_TEMPERATURE_SERVICE",
           "meta_config": {
             "entry": [
@@ -115,7 +117,7 @@
       "meta_config": {}
     },
     {
-      "id": "/home/dining/button/button_1/",
+      "id": "/home/living/dining/button/button_1/",
       "unit_template_config_id": "Gira_429496730250000_BUTTON_0",
       "label": "Button 1",
       "device_id": "Gira_429496730250000_431602452620000",
@@ -139,6 +141,7 @@
       "scope": {
         "component": [
           "home",
+          "living",
           "dining",
           "button",
           "button_1"
@@ -157,12 +160,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5142__home_dining__Button__Button_1__ButtonProvider"
+                  "value": "Gira_5142__home_living_dining__Button__Button_1__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/dining/button/button_1/",
+          "unit_id": "/home/living/dining/button/button_1/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }
@@ -170,7 +173,7 @@
       "meta_config": {}
     },
     {
-      "id": "/home/dining/button/button_2/",
+      "id": "/home/living/dining/button/button_2/",
       "unit_template_config_id": "Gira_429496730250000_BUTTON_1",
       "label": "Button 2",
       "device_id": "Gira_429496730250000_431602452620000",
@@ -194,6 +197,7 @@
       "scope": {
         "component": [
           "home",
+          "living",
           "dining",
           "button",
           "button_2"
@@ -212,12 +216,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5142__home_dining__Button__Button_2__ButtonProvider"
+                  "value": "Gira_5142__home_living_dining__Button__Button_2__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/dining/button/button_2/",
+          "unit_id": "/home/living/dining/button/button_2/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }
@@ -225,7 +229,7 @@
       "meta_config": {}
     },
     {
-      "id": "/home/dining/button/button_3/",
+      "id": "/home/living/dining/button/button_3/",
       "unit_template_config_id": "Gira_429496730250000_BUTTON_2",
       "label": "Button 3",
       "device_id": "Gira_429496730250000_431602452620000",
@@ -249,6 +253,7 @@
       "scope": {
         "component": [
           "home",
+          "living",
           "dining",
           "button",
           "button_3"
@@ -267,12 +272,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5142__home_dining__Button__Button_3__ButtonProvider"
+                  "value": "Gira_5142__home_living_dining__Button__Button_3__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/dining/button/button_3/",
+          "unit_id": "/home/living/dining/button/button_3/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }
@@ -280,7 +285,7 @@
       "meta_config": {}
     },
     {
-      "id": "/home/dining/button/button_4/",
+      "id": "/home/living/dining/button/button_4/",
       "unit_template_config_id": "Gira_429496730250000_BUTTON_3",
       "label": "Button 4",
       "device_id": "Gira_429496730250000_431602452620000",
@@ -304,6 +309,7 @@
       "scope": {
         "component": [
           "home",
+          "living",
           "dining",
           "button",
           "button_4"
@@ -322,12 +328,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5142__home_dining__Button__Button_4__ButtonProvider"
+                  "value": "Gira_5142__home_living_dining__Button__Button_4__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/dining/button/button_4/",
+          "unit_id": "/home/living/dining/button/button_4/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }
