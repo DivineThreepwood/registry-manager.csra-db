@@ -19,18 +19,16 @@ ELSE ()
 ENDIF()
 
 IF (EXISTS ${INSTALL_PREFIX}/${CSRA-DB_HOME})
-    IF(DEFINED ${registry-manager.db.overwrite})
-        IF(${registry-manager.db.overwrite})
-            FILE(REMOVE_RECURSE ${INSTALL_PREFIX}/${CSRA-DB_HOME})
-        ELSE()
-            MESSAGE(SEND_ERROR "Abort installation! Global overwrite flag registry-manager.db.overwrite is set to ${registry-manager.db.overwrite} which is not TRUE.")
-        ENDIF()
-    ELSEIF(${FORCE})
+    IF(${FORCE})
         FILE(REMOVE_RECURSE ${INSTALL_PREFIX}/${CSRA-DB_HOME})
     ELSE()
-        MESSAGE(SEND_ERROR "Abort installation! Database cannot be overwritten. Set -DFORCE=true to overwrite the database. Or set the global overwrite flag registry-manager.db.overwrite to true")
+        MESSAGE(SEND_ERROR "Abort installation! Database cannot be overwritten. Set -DFORCE=true to overwrite the database.")
     ENDIF()
 ENDIF()
+
+### Init and update submodules ###
+MESSAGE("Init & update submodules...")
+EXECUTE_PROCESS(COMMAND "../init_update.sh")
 
 ### Create db folder ###
 FILE(MAKE_DIRECTORY ${INSTALL_PREFIX}/${CSRA-DB_HOME})
@@ -38,4 +36,5 @@ FILE(MAKE_DIRECTORY ${INSTALL_PREFIX}/${CSRA-DB_HOME})
 ### Install data into volume ###
 INSTALL(DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/" DESTINATION ${INSTALL_PREFIX}/${CSRA-DB_HOME})
 INSTALL(PROGRAMS "${CMAKE_CURRENT_SOURCE_DIR}/install.sh" DESTINATION ${INSTALL_PREFIX}/${CSRA-DB_HOME})
+INSTALL(PROGRAMS "${CMAKE_CURRENT_SOURCE_DIR}/init_update.sh" DESTINATION ${INSTALL_PREFIX}/${CSRA-DB_HOME})
 
