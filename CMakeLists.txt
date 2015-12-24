@@ -53,7 +53,7 @@ ENDIF()
 
 ### Init and update submodules ###
 MESSAGE("Init & update submodules...")
-EXECUTE_PROCESS(COMMAND ${DB_DOWNLOAD_FOLDER}/init_update.sh -C ${DB_DOWNLOAD_FOLDER})
+EXECUTE_PROCESS(COMMAND ../init_update.sh -C ${DB_DOWNLOAD_FOLDER})
 
 ### Create db folder ###
 FILE(MAKE_DIRECTORY ${INSTALL_PREFIX}/${REM_DB_HOME})
