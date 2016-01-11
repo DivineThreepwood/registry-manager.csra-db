@@ -15,7 +15,8 @@
         "qy": 0.0,
         "qz": 0.0
       }
-    }
+    },
+    "shape": {}
   },
   "scope": {
     "component": [
@@ -26,10 +27,10 @@
   },
   "serial_number": "431593932940000",
   "inventory_state": {
-    "value": "IN_STOCK",
+    "value": "INSTALLED",
     "location_id": "Bath",
     "timestamp": {
-      "time": 1441903340150
+      "time": 1449246977912
     },
     "owner": {}
   },
@@ -55,7 +56,8 @@
             "qy": 0.0,
             "qz": 0.0
           }
-        }
+        },
+        "shape": {}
       },
       "scope": {
         "component": [
@@ -127,7 +129,8 @@
             "qy": 0.0,
             "qz": 0.0
           }
-        }
+        },
+        "shape": {}
       },
       "scope": {
         "component": [
@@ -182,7 +185,8 @@
             "qy": 0.0,
             "qz": 0.0
           }
-        }
+        },
+        "shape": {}
       },
       "scope": {
         "component": [
@@ -237,7 +241,8 @@
             "qy": 0.0,
             "qz": 0.0
           }
-        }
+        },
+        "shape": {}
       },
       "scope": {
         "component": [
@@ -256,7 +261,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "3/2/2"
+                  "value": "3/0/5"
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
@@ -292,7 +297,8 @@
             "qy": 0.0,
             "qz": 0.0
           }
-        }
+        },
+        "shape": {}
       },
       "scope": {
         "component": [
@@ -311,7 +317,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "3/2/3"
+                  "value": "3/0/5"
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",

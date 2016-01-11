@@ -15,7 +15,8 @@
         "qy": 0.0,
         "qz": 0.0
       }
-    }
+    },
+    "shape": {}
   },
   "scope": {
     "component": [
@@ -25,12 +26,12 @@
   },
   "serial_number": "E3IWBDA34182",
   "inventory_state": {
-    "value": "IN_STOCK",
+    "value": "BORROWED",
     "timestamp": {
-      "time": 1442496529702
+      "time": 1449590316755
     },
     "owner": {
-      "first_name": "Sebastian",
+      "first_name": "Norman",
       "last_name": "",
       "user_name": ""
     }
@@ -57,7 +58,8 @@
             "qy": 0.0,
             "qz": 0.0
           }
-        }
+        },
+        "shape": {}
       },
       "scope": {
         "component": [
@@ -66,7 +68,8 @@
           "asus0"
         ]
       },
-      "bound_to_device": true
+      "bound_to_device": true,
+      "meta_config": {}
     },
     {
       "id": "/home/depthcamera/asus0/",
@@ -88,7 +91,8 @@
             "qy": 0.0,
             "qz": 0.0
           }
-        }
+        },
+        "shape": {}
       },
       "scope": {
         "component": [
@@ -97,7 +101,8 @@
           "asus0"
         ]
       },
-      "bound_to_device": true
+      "bound_to_device": true,
+      "meta_config": {}
     },
     {
       "id": "/home/audiosource/asus0/",
@@ -119,7 +124,8 @@
             "qy": 0.0,
             "qz": 0.0
           }
-        }
+        },
+        "shape": {}
       },
       "scope": {
         "component": [
@@ -128,7 +134,8 @@
           "asus0"
         ]
       },
-      "bound_to_device": true
+      "bound_to_device": true,
+      "meta_config": {}
     }
   ],
   "meta_config": {}

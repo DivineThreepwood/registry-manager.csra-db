@@ -15,7 +15,8 @@
         "qy": 0.0,
         "qz": 0.0
       }
-    }
+    },
+    "shape": {}
   },
   "scope": {
     "component": [
@@ -55,7 +56,8 @@
             "qy": 0.0,
             "qz": 0.0
           }
-        }
+        },
+        "shape": {}
       },
       "scope": {
         "component": [
@@ -91,9 +93,9 @@
       "meta_config": {}
     },
     {
-      "id": "/home/sports/button/pathwaybelowbuttons_2/",
+      "id": "/home/sports/button/pathwaybelowbutton_2/",
       "unit_template_config_id": "Gira_429496730210000_BUTTON_1",
-      "label": "PathwayBelowButtons 2",
+      "label": "PathwayBelowButton 2",
       "device_id": "Gira_429496730210000_443438274700000",
       "type": "BUTTON",
       "placement_config": {
@@ -110,14 +112,15 @@
             "qy": 0.0,
             "qz": 0.0
           }
-        }
+        },
+        "shape": {}
       },
       "scope": {
         "component": [
           "home",
           "sports",
           "button",
-          "pathwaybelowbuttons_2"
+          "pathwaybelowbutton_2"
         ]
       },
       "bound_to_device": true,
@@ -133,12 +136,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_sports__Button__PathwayBelowButtons_2__ButtonProvider"
+                  "value": "Gira_5133__home_sports__Button__PathwayBelowButton_2__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/sports/button/pathwaybelowbuttons_2/",
+          "unit_id": "/home/sports/button/pathwaybelowbutton_2/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }
@@ -165,7 +168,8 @@
             "qy": 0.0,
             "qz": 0.0
           }
-        }
+        },
+        "shape": {}
       },
       "scope": {
         "component": [
@@ -184,7 +188,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "4/3/6"
+                  "value": "4/0/15"
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
@@ -220,7 +224,8 @@
             "qy": 0.0,
             "qz": 0.0
           }
-        }
+        },
+        "shape": {}
       },
       "scope": {
         "component": [
@@ -239,7 +244,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "4/3/7"
+                  "value": "4/0/15"
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
@@ -275,7 +280,8 @@
             "qy": 0.0,
             "qz": 0.0
           }
-        }
+        },
+        "shape": {}
       },
       "scope": {
         "component": [
@@ -294,7 +300,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "4/3/8"
+                  "value": "5/0/5"
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
@@ -330,7 +336,8 @@
             "qy": 0.0,
             "qz": 0.0
           }
-        }
+        },
+        "shape": {}
       },
       "scope": {
         "component": [
@@ -349,7 +356,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "4/3/9"
+                  "value": "5/0/5"
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
