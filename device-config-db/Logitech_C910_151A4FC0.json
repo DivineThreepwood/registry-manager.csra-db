@@ -1,0 +1,75 @@
+{
+  "id": "Logitech_C910_151A4FC0",
+  "label": "FlobiCam",
+  "placement_config": {
+    "location_id": "Kitchen",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "kitchen",
+      "flobicam"
+    ]
+  },
+  "serial_number": "151A4FC0",
+  "description": "The face detection cam of the kitchen flobi instance.",
+  "inventory_state": {
+    "value": "INSTALLED",
+    "timestamp": {
+      "time": 1449766569842
+    },
+    "owner": {}
+  },
+  "device_class_id": "Logitech_C910",
+  "unit_config": [
+    {
+      "id": "/home/kitchen/rgbcamera/flobicam/",
+      "unit_template_config_id": "Logitech_C910_RGB_CAMERA_0",
+      "label": "FlobiCam",
+      "device_id": "Logitech_C910_151A4FC0",
+      "type": "RGB_CAMERA",
+      "placement_config": {
+        "location_id": "Kitchen",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        },
+        "shape": {}
+      },
+      "scope": {
+        "component": [
+          "home",
+          "kitchen",
+          "rgbcamera",
+          "flobicam"
+        ]
+      },
+      "bound_to_device": true,
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {}
+}
