@@ -2,7 +2,7 @@
   "id": "Gira_429496730210000_443438274700000",
   "label": "PathwayBelowButtons",
   "placement_config": {
-    "location_id": "Sports",
+    "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
     "position": {
       "translation": {
         "x": 0.0,
@@ -43,7 +43,7 @@
       "device_id": "Gira_429496730210000_443438274700000",
       "type": "BUTTON",
       "placement_config": {
-        "location_id": "Sports",
+        "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "position": {
           "translation": {
             "x": 0.0,
@@ -99,7 +99,7 @@
       "device_id": "Gira_429496730210000_443438274700000",
       "type": "BUTTON",
       "placement_config": {
-        "location_id": "Sports",
+        "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "position": {
           "translation": {
             "x": 0.0,
@@ -155,7 +155,7 @@
       "device_id": "Gira_429496730210000_443438274700000",
       "type": "BUTTON",
       "placement_config": {
-        "location_id": "Sports",
+        "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "position": {
           "translation": {
             "x": 0.0,
@@ -211,7 +211,7 @@
       "device_id": "Gira_429496730210000_443438274700000",
       "type": "BUTTON",
       "placement_config": {
-        "location_id": "Sports",
+        "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "position": {
           "translation": {
             "x": 0.0,
@@ -267,7 +267,7 @@
       "device_id": "Gira_429496730210000_443438274700000",
       "type": "BUTTON",
       "placement_config": {
-        "location_id": "Sports",
+        "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "position": {
           "translation": {
             "x": 0.0,
@@ -323,7 +323,7 @@
       "device_id": "Gira_429496730210000_443438274700000",
       "type": "BUTTON",
       "placement_config": {
-        "location_id": "Sports",
+        "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "position": {
           "translation": {
             "x": 0.0,

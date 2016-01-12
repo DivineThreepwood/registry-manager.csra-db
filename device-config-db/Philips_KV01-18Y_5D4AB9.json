@@ -2,7 +2,7 @@
   "id": "Philips_KV01-18Y_5D4AB9",
   "label": "Global_3",
   "placement_config": {
-    "location_id": "Bath",
+    "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
     "position": {
       "translation": {
         "x": 0.0,
@@ -42,7 +42,7 @@
       "device_id": "Philips_KV01-18Y_5D4AB9",
       "type": "AMBIENT_LIGHT",
       "placement_config": {
-        "location_id": "Bath",
+        "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
         "position": {
           "translation": {
             "x": 0.0,

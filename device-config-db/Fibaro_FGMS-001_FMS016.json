@@ -2,7 +2,7 @@
   "id": "Fibaro_FGMS-001_FMS016",
   "label": "Entrance",
   "placement_config": {
-    "location_id": "Outdoor",
+    "location_id": "9be1344a-41f1-406b-bdae-41bfd5368f13",
     "position": {
       "translation": {
         "x": 0.0,
@@ -42,7 +42,7 @@
       "device_id": "Fibaro_FGMS-001_FMS016",
       "type": "BATTERY",
       "placement_config": {
-        "location_id": "Outdoor",
+        "location_id": "9be1344a-41f1-406b-bdae-41bfd5368f13",
         "position": {
           "translation": {
             "x": 0.0,
@@ -93,7 +93,7 @@
       "device_id": "Fibaro_FGMS-001_FMS016",
       "type": "BRIGHTNESS_SENSOR",
       "placement_config": {
-        "location_id": "Outdoor",
+        "location_id": "9be1344a-41f1-406b-bdae-41bfd5368f13",
         "position": {
           "translation": {
             "x": 0.0,
@@ -144,7 +144,7 @@
       "device_id": "Fibaro_FGMS-001_FMS016",
       "type": "MOTION_SENSOR",
       "placement_config": {
-        "location_id": "Outdoor",
+        "location_id": "9be1344a-41f1-406b-bdae-41bfd5368f13",
         "position": {
           "translation": {
             "x": 0.0,
@@ -195,7 +195,7 @@
       "device_id": "Fibaro_FGMS-001_FMS016",
       "type": "TAMPER_SWITCH",
       "placement_config": {
-        "location_id": "Outdoor",
+        "location_id": "9be1344a-41f1-406b-bdae-41bfd5368f13",
         "position": {
           "translation": {
             "x": 0.0,
@@ -246,7 +246,7 @@
       "device_id": "Fibaro_FGMS-001_FMS016",
       "type": "TEMPERATURE_SENSOR",
       "placement_config": {
-        "location_id": "Outdoor",
+        "location_id": "9be1344a-41f1-406b-bdae-41bfd5368f13",
         "position": {
           "translation": {
             "x": 0.0,

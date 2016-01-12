@@ -2,7 +2,7 @@
   "id": "Gira_429496730210000_443231836300000",
   "label": "HallwayBelowButtons",
   "placement_config": {
-    "location_id": "Wardrobe",
+    "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
     "position": {
       "translation": {
         "x": 0.0,
@@ -42,7 +42,7 @@
       "device_id": "Gira_429496730210000_443231836300000",
       "type": "BUTTON",
       "placement_config": {
-        "location_id": "Wardrobe",
+        "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
         "position": {
           "translation": {
             "x": 0.0,
@@ -97,7 +97,7 @@
       "device_id": "Gira_429496730210000_443231836300000",
       "type": "BUTTON",
       "placement_config": {
-        "location_id": "Wardrobe",
+        "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
         "position": {
           "translation": {
             "x": 0.0,
@@ -152,7 +152,7 @@
       "device_id": "Gira_429496730210000_443231836300000",
       "type": "BUTTON",
       "placement_config": {
-        "location_id": "Wardrobe",
+        "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
         "position": {
           "translation": {
             "x": 0.0,
@@ -207,7 +207,7 @@
       "device_id": "Gira_429496730210000_443231836300000",
       "type": "BUTTON",
       "placement_config": {
-        "location_id": "Wardrobe",
+        "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
         "position": {
           "translation": {
             "x": 0.0,
@@ -262,7 +262,7 @@
       "device_id": "Gira_429496730210000_443231836300000",
       "type": "BUTTON",
       "placement_config": {
-        "location_id": "Wardrobe",
+        "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
         "position": {
           "translation": {
             "x": 0.0,
@@ -317,7 +317,7 @@
       "device_id": "Gira_429496730210000_443231836300000",
       "type": "BUTTON",
       "placement_config": {
-        "location_id": "Wardrobe",
+        "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
         "position": {
           "translation": {
             "x": 0.0,

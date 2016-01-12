@@ -2,7 +2,7 @@
   "id": "Gira_429496730250000_431593932940000",
   "label": "EntranceButtons",
   "placement_config": {
-    "location_id": "Bath",
+    "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
     "position": {
       "translation": {
         "x": 0.0,
@@ -43,7 +43,7 @@
       "device_id": "Gira_429496730250000_431593932940000",
       "type": "TEMPERATURE_CONTROLLER",
       "placement_config": {
-        "location_id": "Bath",
+        "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
         "position": {
           "translation": {
             "x": 0.0,
@@ -116,7 +116,7 @@
       "device_id": "Gira_429496730250000_431593932940000",
       "type": "BUTTON",
       "placement_config": {
-        "location_id": "Bath",
+        "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
         "position": {
           "translation": {
             "x": 0.0,
@@ -172,7 +172,7 @@
       "device_id": "Gira_429496730250000_431593932940000",
       "type": "BUTTON",
       "placement_config": {
-        "location_id": "Bath",
+        "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
         "position": {
           "translation": {
             "x": 0.0,
@@ -228,7 +228,7 @@
       "device_id": "Gira_429496730250000_431593932940000",
       "type": "BUTTON",
       "placement_config": {
-        "location_id": "Bath",
+        "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
         "position": {
           "translation": {
             "x": 0.0,
@@ -284,7 +284,7 @@
       "device_id": "Gira_429496730250000_431593932940000",
       "type": "BUTTON",
       "placement_config": {
-        "location_id": "Bath",
+        "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
         "position": {
           "translation": {
             "x": 0.0,

@@ -1,8 +1,8 @@
 {
-  "id": "Control",
+  "id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
   "label": "Control",
   "root": false,
-  "parent_id": "Home",
+  "parent_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
   "unit_id": [
     "/home/control/powerplug/a10c1/",
     "/home/control/powerconsumptionsensor/a11c6consumption/",
@@ -79,7 +79,6 @@
       "qz": 0.0
     }
   },
-  "meta_config": {},
   "placement_config": {
     "position": {
       "translation": {
@@ -94,5 +93,6 @@
         "qz": 0.0
       }
     }
-  }
+  },
+  "meta_config": {}
 }

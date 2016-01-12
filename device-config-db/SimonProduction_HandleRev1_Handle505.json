@@ -2,7 +2,7 @@
   "id": "SimonProduction_HandleRev1_Handle505",
   "label": "505",
   "placement_config": {
-    "location_id": "Kitchen",
+    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
     "position": {
       "translation": {
         "x": 0.0,
@@ -41,7 +41,7 @@
       "device_id": "SimonProduction_HandleRev1_Handle505",
       "type": "AMBIENT_LIGHT",
       "placement_config": {
-        "location_id": "Kitchen",
+        "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
         "position": {
           "translation": {
             "x": 0.0,

@@ -2,7 +2,7 @@
   "id": "Gira_429496730210000_433742218830000",
   "label": "SportsDoorButtons",
   "placement_config": {
-    "location_id": "Living",
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
     "position": {
       "translation": {
         "x": 0.0,
@@ -43,7 +43,7 @@
       "device_id": "Gira_429496730210000_433742218830000",
       "type": "BUTTON",
       "placement_config": {
-        "location_id": "Living",
+        "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "position": {
           "translation": {
             "x": 0.0,
@@ -99,7 +99,7 @@
       "device_id": "Gira_429496730210000_433742218830000",
       "type": "BUTTON",
       "placement_config": {
-        "location_id": "Living",
+        "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "position": {
           "translation": {
             "x": 0.0,
@@ -155,7 +155,7 @@
       "device_id": "Gira_429496730210000_433742218830000",
       "type": "BUTTON",
       "placement_config": {
-        "location_id": "Living",
+        "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "position": {
           "translation": {
             "x": 0.0,
@@ -211,7 +211,7 @@
       "device_id": "Gira_429496730210000_433742218830000",
       "type": "BUTTON",
       "placement_config": {
-        "location_id": "Living",
+        "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "position": {
           "translation": {
             "x": 0.0,
@@ -267,7 +267,7 @@
       "device_id": "Gira_429496730210000_433742218830000",
       "type": "BUTTON",
       "placement_config": {
-        "location_id": "Living",
+        "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "position": {
           "translation": {
             "x": 0.0,
@@ -323,7 +323,7 @@
       "device_id": "Gira_429496730210000_433742218830000",
       "type": "BUTTON",
       "placement_config": {
-        "location_id": "Living",
+        "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "position": {
           "translation": {
             "x": 0.0,

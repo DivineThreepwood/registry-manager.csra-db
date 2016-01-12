@@ -2,7 +2,7 @@
   "id": "Philips_KV01-18U_73EA9C",
   "label": "Hallway_1",
   "placement_config": {
-    "location_id": "Wardrobe",
+    "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
     "position": {
       "translation": {
         "x": 0.0,
@@ -42,7 +42,7 @@
       "device_id": "Philips_KV01-18U_73EA9C",
       "type": "AMBIENT_LIGHT",
       "placement_config": {
-        "location_id": "Wardrobe",
+        "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
         "position": {
           "translation": {
             "x": 0.0,

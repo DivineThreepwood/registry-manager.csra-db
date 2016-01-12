@@ -2,7 +2,7 @@
   "id": "Homematic_Sec_RHS_MEQ0214469",
   "label": "LeftWindowHandleSensor",
   "placement_config": {
-    "location_id": "Control",
+    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
     "position": {
       "translation": {
         "x": 0.0,
@@ -41,7 +41,7 @@
       "device_id": "Homematic_Sec_RHS_MEQ0214469",
       "type": "BATTERY",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
         "position": {
           "translation": {
             "x": 0.0,
@@ -92,7 +92,7 @@
       "device_id": "Homematic_Sec_RHS_MEQ0214469",
       "type": "HANDLE_SENSOR",
       "placement_config": {
-        "location_id": "Control",
+        "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
         "position": {
           "translation": {
             "x": 0.0,

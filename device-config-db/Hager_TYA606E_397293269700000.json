@@ -2,7 +2,7 @@
   "id": "Hager_TYA606E_397293269700000",
   "label": "PowerActuator5",
   "placement_config": {
-    "location_id": "Control",
+    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
     "position": {
       "translation": {
         "x": 0.0,
@@ -36,13 +36,13 @@
   "device_class_id": "Hager_TYA606E",
   "unit_config": [
     {
-      "id": "/home/dining/powerplug/a5c1/",
+      "id": "/home/living/dining/powerplug/a5c1/",
       "unit_template_config_id": "Hager_TYA606E_POWER_PLUG_0",
       "label": "A5C1",
       "device_id": "Hager_TYA606E_397293269700000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Dining",
+        "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
         "position": {
           "translation": {
             "x": 0.0,
@@ -60,6 +60,7 @@
       "scope": {
         "component": [
           "home",
+          "living",
           "dining",
           "powerplug",
           "a5c1"
@@ -78,12 +79,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA606E__home_dining__PowerPlug__A5C1__PowerService"
+                  "value": "Hager_TYA606E__home_living_dining__PowerPlug__A5C1__PowerService"
                 }
               ]
             }
           },
-          "unit_id": "/home/dining/powerplug/a5c1/",
+          "unit_id": "/home/living/dining/powerplug/a5c1/",
           "type": "POWER_SERVICE",
           "meta_config": {}
         }
@@ -91,13 +92,13 @@
       "meta_config": {}
     },
     {
-      "id": "/home/dining/powerconsumptionsensor/a5c1consumption/",
+      "id": "/home/living/dining/powerconsumptionsensor/a5c1consumption/",
       "unit_template_config_id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_0",
       "label": "A5C1Consumption",
       "device_id": "Hager_TYA606E_397293269700000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Dining",
+        "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
         "position": {
           "translation": {
             "x": 0.0,
@@ -115,6 +116,7 @@
       "scope": {
         "component": [
           "home",
+          "living",
           "dining",
           "powerconsumptionsensor",
           "a5c1consumption"
@@ -133,12 +135,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA606E__home_dining__PowerConsumptionSensor__A5C1Consumption__PowerConsumptionProvider"
+                  "value": "Hager_TYA606E__home_living_dining__PowerConsumptionSensor__A5C1Consumption__PowerConsumptionProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/dining/powerconsumptionsensor/a5c1consumption/",
+          "unit_id": "/home/living/dining/powerconsumptionsensor/a5c1consumption/",
           "type": "POWER_CONSUMPTION_PROVIDER",
           "meta_config": {}
         }
@@ -146,13 +148,13 @@
       "meta_config": {}
     },
     {
-      "id": "/home/dining/powerplug/a5c2/",
+      "id": "/home/living/dining/powerplug/a5c2/",
       "unit_template_config_id": "Hager_TYA606E_POWER_PLUG_1",
       "label": "A5C2",
       "device_id": "Hager_TYA606E_397293269700000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Dining",
+        "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
         "position": {
           "translation": {
             "x": 0.0,
@@ -170,6 +172,7 @@
       "scope": {
         "component": [
           "home",
+          "living",
           "dining",
           "powerplug",
           "a5c2"
@@ -188,12 +191,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA606E__home_dining__PowerPlug__A5C2__PowerService"
+                  "value": "Hager_TYA606E__home_living_dining__PowerPlug__A5C2__PowerService"
                 }
               ]
             }
           },
-          "unit_id": "/home/dining/powerplug/a5c2/",
+          "unit_id": "/home/living/dining/powerplug/a5c2/",
           "type": "POWER_SERVICE",
           "meta_config": {}
         }
@@ -201,13 +204,13 @@
       "meta_config": {}
     },
     {
-      "id": "/home/dining/powerconsumptionsensor/a5c2consumption/",
+      "id": "/home/living/dining/powerconsumptionsensor/a5c2consumption/",
       "unit_template_config_id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_1",
       "label": "A5C2Consumption",
       "device_id": "Hager_TYA606E_397293269700000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Dining",
+        "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
         "position": {
           "translation": {
             "x": 0.0,
@@ -225,6 +228,7 @@
       "scope": {
         "component": [
           "home",
+          "living",
           "dining",
           "powerconsumptionsensor",
           "a5c2consumption"
@@ -243,12 +247,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA606E__home_dining__PowerConsumptionSensor__A5C2Consumption__PowerConsumptionProvider"
+                  "value": "Hager_TYA606E__home_living_dining__PowerConsumptionSensor__A5C2Consumption__PowerConsumptionProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/dining/powerconsumptionsensor/a5c2consumption/",
+          "unit_id": "/home/living/dining/powerconsumptionsensor/a5c2consumption/",
           "type": "POWER_CONSUMPTION_PROVIDER",
           "meta_config": {}
         }
@@ -262,7 +266,7 @@
       "device_id": "Hager_TYA606E_397293269700000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Hometheater",
+        "location_id": "eb89de19-36db-4f26-b8a5-a75df850892e",
         "position": {
           "translation": {
             "x": 0.0,
@@ -318,7 +322,7 @@
       "device_id": "Hager_TYA606E_397293269700000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Hometheater",
+        "location_id": "eb89de19-36db-4f26-b8a5-a75df850892e",
         "position": {
           "translation": {
             "x": 0.0,
@@ -374,7 +378,7 @@
       "device_id": "Hager_TYA606E_397293269700000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Hometheater",
+        "location_id": "eb89de19-36db-4f26-b8a5-a75df850892e",
         "position": {
           "translation": {
             "x": 0.0,
@@ -431,7 +435,7 @@
       "device_id": "Hager_TYA606E_397293269700000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Hometheater",
+        "location_id": "eb89de19-36db-4f26-b8a5-a75df850892e",
         "position": {
           "translation": {
             "x": 0.0,
@@ -488,7 +492,7 @@
       "device_id": "Hager_TYA606E_397293269700000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Sports",
+        "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "position": {
           "translation": {
             "x": 0.0,
@@ -543,7 +547,7 @@
       "device_id": "Hager_TYA606E_397293269700000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Sports",
+        "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "position": {
           "translation": {
             "x": 0.0,
@@ -598,7 +602,7 @@
       "device_id": "Hager_TYA606E_397293269700000",
       "type": "POWER_PLUG",
       "placement_config": {
-        "location_id": "Sports",
+        "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "position": {
           "translation": {
             "x": 0.0,
@@ -653,7 +657,7 @@
       "device_id": "Hager_TYA606E_397293269700000",
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
-        "location_id": "Sports",
+        "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "position": {
           "translation": {
             "x": 0.0,

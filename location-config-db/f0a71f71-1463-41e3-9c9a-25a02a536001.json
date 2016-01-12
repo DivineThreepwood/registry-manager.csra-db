@@ -1,8 +1,9 @@
 {
-  "id": "Kitchen",
+  "id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
   "label": "Kitchen",
+  "type": "TILE",
   "root": false,
-  "parent_id": "Home",
+  "parent_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
   "unit_id": [
     "/home/kitchen/rgbcamera/asus_90iw0122-b01ua_e3iwbda34154/",
     "/home/kitchen/ambientlight/ceilinglamp_4/",
