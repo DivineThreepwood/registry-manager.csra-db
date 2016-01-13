@@ -1,0 +1,721 @@
+{
+  "id": "Hager_TYA606E_397289432250000",
+  "label": "PowerActuator8",
+  "placement_config": {
+    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "control",
+      "poweractuator8"
+    ]
+  },
+  "serial_number": "397289432250000",
+  "inventory_state": {
+    "value": "INSTALLED",
+    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+    "timestamp": {
+      "time": 1452679092853
+    },
+    "owner": {}
+  },
+  "device_class_id": "Hager_TYA606E",
+  "unit_config": [
+    {
+      "id": "/home/living/powerplug/a8c1/",
+      "unit_template_config_id": "Hager_TYA606E_POWER_PLUG_0",
+      "label": "A8C1",
+      "device_id": "Hager_TYA606E_397289432250000",
+      "type": "POWER_PLUG",
+      "placement_config": {
+        "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        },
+        "shape": {}
+      },
+      "scope": {
+        "component": [
+          "home",
+          "living",
+          "powerplug",
+          "a8c1"
+        ]
+      },
+      "bound_to_device": false,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/85+5/1/91"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA606E__home_living__PowerPlug__A8C1__PowerService"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/living/powerplug/a8c1/",
+          "type": "POWER_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/living/powerconsumptionsensor/a8c1consumption/",
+      "unit_template_config_id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_0",
+      "label": "A8C1Consumption",
+      "device_id": "Hager_TYA606E_397289432250000",
+      "type": "POWER_CONSUMPTION_SENSOR",
+      "placement_config": {
+        "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        },
+        "shape": {}
+      },
+      "scope": {
+        "component": [
+          "home",
+          "living",
+          "powerconsumptionsensor",
+          "a8c1consumption"
+        ]
+      },
+      "bound_to_device": false,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/175"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA606E__home_living__PowerConsumptionSensor__A8C1Consumption__PowerConsumptionProvider"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/living/powerconsumptionsensor/a8c1consumption/",
+          "type": "POWER_CONSUMPTION_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/living/powerplug/a8c2/",
+      "unit_template_config_id": "Hager_TYA606E_POWER_PLUG_1",
+      "label": "A8C2",
+      "device_id": "Hager_TYA606E_397289432250000",
+      "type": "POWER_PLUG",
+      "placement_config": {
+        "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        },
+        "shape": {}
+      },
+      "scope": {
+        "component": [
+          "home",
+          "living",
+          "powerplug",
+          "a8c2"
+        ]
+      },
+      "description": "bfe",
+      "bound_to_device": false,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/86+5/1/92"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA606E__home_living__PowerPlug__A8C2__PowerService"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/living/powerplug/a8c2/",
+          "type": "POWER_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/living/powerconsumptionsensor/a8c2consumption/",
+      "unit_template_config_id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_1",
+      "label": "A8C2Consumption",
+      "device_id": "Hager_TYA606E_397289432250000",
+      "type": "POWER_CONSUMPTION_SENSOR",
+      "placement_config": {
+        "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        },
+        "shape": {}
+      },
+      "scope": {
+        "component": [
+          "home",
+          "living",
+          "powerconsumptionsensor",
+          "a8c2consumption"
+        ]
+      },
+      "description": "bfe",
+      "bound_to_device": false,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/176"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA606E__home_living__PowerConsumptionSensor__A8C2Consumption__PowerConsumptionProvider"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/living/powerconsumptionsensor/a8c2consumption/",
+          "type": "POWER_CONSUMPTION_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/living/powerplug/a8c3/",
+      "unit_template_config_id": "Hager_TYA606E_POWER_PLUG_2",
+      "label": "A8C3",
+      "device_id": "Hager_TYA606E_397289432250000",
+      "type": "POWER_PLUG",
+      "placement_config": {
+        "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        },
+        "shape": {}
+      },
+      "scope": {
+        "component": [
+          "home",
+          "living",
+          "powerplug",
+          "a8c3"
+        ]
+      },
+      "description": "Beamer, Speakers above couch",
+      "bound_to_device": false,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/87+5/1/93"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA606E__home_living__PowerPlug__A8C3__PowerService"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/living/powerplug/a8c3/",
+          "type": "POWER_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/living/powerconsumptionsensor/a8c3consumption/",
+      "unit_template_config_id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_2",
+      "label": "A8C3Consumption",
+      "device_id": "Hager_TYA606E_397289432250000",
+      "type": "POWER_CONSUMPTION_SENSOR",
+      "placement_config": {
+        "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        },
+        "shape": {}
+      },
+      "scope": {
+        "component": [
+          "home",
+          "living",
+          "powerconsumptionsensor",
+          "a8c3consumption"
+        ]
+      },
+      "description": "Beamer, Speakers above couch",
+      "bound_to_device": false,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/177"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA606E__home_living__PowerConsumptionSensor__A8C3Consumption__PowerConsumptionProvider"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/living/powerconsumptionsensor/a8c3consumption/",
+          "type": "POWER_CONSUMPTION_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/wardrobe/powerplug/a8c4/",
+      "unit_template_config_id": "Hager_TYA606E_POWER_PLUG_3",
+      "label": "A8C4",
+      "device_id": "Hager_TYA606E_397289432250000",
+      "type": "POWER_PLUG",
+      "placement_config": {
+        "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        },
+        "shape": {}
+      },
+      "scope": {
+        "component": [
+          "home",
+          "wardrobe",
+          "powerplug",
+          "a8c4"
+        ]
+      },
+      "description": "iom",
+      "bound_to_device": false,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/88+5/1/94"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA606E__home_wardrobe__PowerPlug__A8C4__PowerService"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/wardrobe/powerplug/a8c4/",
+          "type": "POWER_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/wardrobe/powerconsumptionsensor/a8c4consumption/",
+      "unit_template_config_id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_3",
+      "label": "A8C4Consumption",
+      "device_id": "Hager_TYA606E_397289432250000",
+      "type": "POWER_CONSUMPTION_SENSOR",
+      "placement_config": {
+        "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        },
+        "shape": {}
+      },
+      "scope": {
+        "component": [
+          "home",
+          "wardrobe",
+          "powerconsumptionsensor",
+          "a8c4consumption"
+        ]
+      },
+      "description": "iom",
+      "bound_to_device": false,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/178"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA606E__home_wardrobe__PowerConsumptionSensor__A8C4Consumption__PowerConsumptionProvider"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/wardrobe/powerconsumptionsensor/a8c4consumption/",
+          "type": "POWER_CONSUMPTION_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/wardrobe/powerplug/a8c5/",
+      "unit_template_config_id": "Hager_TYA606E_POWER_PLUG_4",
+      "label": "A8C5",
+      "device_id": "Hager_TYA606E_397289432250000",
+      "type": "POWER_PLUG",
+      "placement_config": {
+        "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        },
+        "shape": {}
+      },
+      "scope": {
+        "component": [
+          "home",
+          "wardrobe",
+          "powerplug",
+          "a8c5"
+        ]
+      },
+      "description": "Speakers right of 4K",
+      "bound_to_device": false,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/89+5/1/95"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA606E__home_wardrobe__PowerPlug__A8C5__PowerService"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/wardrobe/powerplug/a8c5/",
+          "type": "POWER_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/wardrobe/powerconsumptionsensor/a8c5consumption/",
+      "unit_template_config_id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_4",
+      "label": "A8C5Consumption",
+      "device_id": "Hager_TYA606E_397289432250000",
+      "type": "POWER_CONSUMPTION_SENSOR",
+      "placement_config": {
+        "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        },
+        "shape": {}
+      },
+      "scope": {
+        "component": [
+          "home",
+          "wardrobe",
+          "powerconsumptionsensor",
+          "a8c5consumption"
+        ]
+      },
+      "description": "Speakers right of 4K",
+      "bound_to_device": false,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/179"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA606E__home_wardrobe__PowerConsumptionSensor__A8C5Consumption__PowerConsumptionProvider"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/wardrobe/powerconsumptionsensor/a8c5consumption/",
+          "type": "POWER_CONSUMPTION_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/sports/powerplug/a8c6/",
+      "unit_template_config_id": "Hager_TYA606E_POWER_PLUG_5",
+      "label": "A8C6",
+      "device_id": "Hager_TYA606E_397289432250000",
+      "type": "POWER_PLUG",
+      "placement_config": {
+        "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        },
+        "shape": {}
+      },
+      "scope": {
+        "component": [
+          "home",
+          "sports",
+          "powerplug",
+          "a8c6"
+        ]
+      },
+      "bound_to_device": false,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/90+5/1/96"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA606E__home_sports__PowerPlug__A8C6__PowerService"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/sports/powerplug/a8c6/",
+          "type": "POWER_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "/home/sports/powerconsumptionsensor/a8c6consumption/",
+      "unit_template_config_id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_5",
+      "label": "A8C6Consumption",
+      "device_id": "Hager_TYA606E_397289432250000",
+      "type": "POWER_CONSUMPTION_SENSOR",
+      "placement_config": {
+        "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        },
+        "shape": {}
+      },
+      "scope": {
+        "component": [
+          "home",
+          "sports",
+          "powerconsumptionsensor",
+          "a8c6consumption"
+        ]
+      },
+      "bound_to_device": false,
+      "service_config": [
+        {
+          "binding_service_config": {
+            "type": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_CONFIG",
+                  "value": "5/1/180"
+                },
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA606E__home_sports__PowerConsumptionSensor__A8C6Consumption__PowerConsumptionProvider"
+                }
+              ]
+            }
+          },
+          "unit_id": "/home/sports/powerconsumptionsensor/a8c6consumption/",
+          "type": "POWER_CONSUMPTION_PROVIDER",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {}
+}
