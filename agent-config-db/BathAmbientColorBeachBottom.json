@@ -1,0 +1,106 @@
+{
+  "id": "BathAmbientColorBeachBottom",
+  "label": "BathAmbientColorBeachBottom",
+  "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+  "scope": {},
+  "meta_config": {
+    "entry": [
+      {
+        "key": "HOLDING_TIME",
+        "value": "500"
+      },
+      {
+        "key": "UNIT_1",
+        "value": "/home/bath/ambientlight/llamp1/"
+      },
+      {
+        "key": "UNIT_2",
+        "value": "/home/bath/ambientlight/llamp2/"
+      },
+      {
+        "key": "UNIT_3",
+        "value": "/home/bath/ambientlight/llamp3/"
+      },
+      {
+        "key": "UNIT_4",
+        "value": "/home/bath/ambientlight/llamp4/"
+      },
+      {
+        "key": "UNIT_5",
+        "value": "/home/bath/ambientlight/llamp5/"
+      },
+      {
+        "key": "UNIT_6",
+        "value": "/home/bath/ambientlight/llamp6/"
+      },
+      {
+        "key": "UNIT_7",
+        "value": "/home/bath/ambientlight/slamp1/"
+      },
+      {
+        "key": "UNIT_8",
+        "value": "/home/bath/ambientlight/slamp2/"
+      },
+      {
+        "key": "COLOR_1",
+        "value": "218;100;100"
+      },
+      {
+        "key": "COLOR_2",
+        "value": "221;100;100"
+      },
+      {
+        "key": "COLOR_3",
+        "value": "224;100;100"
+      },
+      {
+        "key": "COLOR_4",
+        "value": "227;100;100"
+      },
+      {
+        "key": "STRATEGY",
+        "value": "ONE"
+      },
+      {
+        "key": "COLOR_5",
+        "value": "218;75;100"
+      },
+      {
+        "key": "COLOR_6",
+        "value": "218;50;100"
+      },
+      {
+        "key": "COLOR_7",
+        "value": "218;25;100"
+      },
+      {
+        "key": "COLOR_8",
+        "value": "227;75;100"
+      },
+      {
+        "key": "COLOR_9",
+        "value": "227;50;100"
+      },
+      {
+        "key": "COLOR_10",
+        "value": "227;25;100"
+      },
+      {
+        "key": "COLOR_11",
+        "value": "224;75;100"
+      },
+      {
+        "key": "COLOR_12",
+        "value": "224;50;100"
+      },
+      {
+        "key": "COLOR_13",
+        "value": "224;25;100"
+      }
+    ]
+  },
+  "activation_state": {
+    "value": "DEACTIVE"
+  },
+  "type": "AMBIENT_COLOR"
+}

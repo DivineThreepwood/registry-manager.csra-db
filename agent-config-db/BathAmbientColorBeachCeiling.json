@@ -1,0 +1,82 @@
+{
+  "id": "BathAmbientColorBeachCeiling",
+  "label": "BathAmbientColorBeachCeiling",
+  "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+  "scope": {},
+  "meta_config": {
+    "entry": [
+      {
+        "key": "HOLDING_TIME",
+        "value": "500"
+      },
+      {
+        "key": "UNIT_1",
+        "value": "/home/bath/ambientlight/global_1/"
+      },
+      {
+        "key": "UNIT_2",
+        "value": "/home/bath/ambientlight/global_2/"
+      },
+      {
+        "key": "UNIT_3",
+        "value": "/home/bath/ambientlight/global_3/"
+      },
+      {
+        "key": "UNIT_4",
+        "value": "/home/bath/ambientlight/global_4/"
+      },
+      {
+        "key": "COLOR_1",
+        "value": "58;100;100"
+      },
+      {
+        "key": "COLOR_2",
+        "value": "55;100;100"
+      },
+      {
+        "key": "COLOR_3",
+        "value": "52;100;100"
+      },
+      {
+        "key": "COLOR_4",
+        "value": "49;100;100"
+      },
+      {
+        "key": "STRATEGY",
+        "value": "ONE"
+      },
+      {
+        "key": "COLOR_5",
+        "value": "46;100;100"
+      },
+      {
+        "key": "COLOR_6",
+        "value": "43;100;100"
+      },
+      {
+        "key": "COLOR_7",
+        "value": "40;100;100"
+      },
+      {
+        "key": "COLOR_8",
+        "value": "37;100;100"
+      },
+      {
+        "key": "COLOR_9",
+        "value": "34;100;100"
+      },
+      {
+        "key": "COLOR_10",
+        "value": "31;100;100"
+      },
+      {
+        "key": "COLOR_11",
+        "value": "100;100;100"
+      }
+    ]
+  },
+  "activation_state": {
+    "value": "DEACTIVE"
+  },
+  "type": "AMBIENT_COLOR"
+}

@@ -1,0 +1,110 @@
+{
+  "id": "BathAmbientColorForest",
+  "label": "BathAmbientColorForest",
+  "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+  "scope": {},
+  "meta_config": {
+    "entry": [
+      {
+        "key": "HOLDING_TIME",
+        "value": "500"
+      },
+      {
+        "key": "STRATEGY",
+        "value": "ONE"
+      },
+      {
+        "key": "UNIT_1",
+        "value": "/home/bath/ambientlight/global_1/"
+      },
+      {
+        "key": "UNIT_2",
+        "value": "/home/bath/ambientlight/global_2/"
+      },
+      {
+        "key": "UNIT_3",
+        "value": "/home/bath/ambientlight/global_3/"
+      },
+      {
+        "key": "UNIT_4",
+        "value": "/home/bath/ambientlight/global_4/"
+      },
+      {
+        "key": "UNIT_5",
+        "value": "/home/bath/ambientlight/llamp1/"
+      },
+      {
+        "key": "UNIT_6",
+        "value": "/home/bath/ambientlight/llamp2/"
+      },
+      {
+        "key": "UNIT_7",
+        "value": "/home/bath/ambientlight/llamp3/"
+      },
+      {
+        "key": "UNIT_8",
+        "value": "/home/bath/ambientlight/llamp4/"
+      },
+      {
+        "key": "UNIT_9",
+        "value": "/home/bath/ambientlight/llamp5/"
+      },
+      {
+        "key": "UNIT_10",
+        "value": "/home/bath/ambientlight/llamp6/"
+      },
+      {
+        "key": "UNIT_11",
+        "value": "/home/bath/ambientlight/slamp1/"
+      },
+      {
+        "key": "UNIT_12",
+        "value": "/home/bath/ambientlight/slamp2/"
+      },
+      {
+        "key": "COLOR_1",
+        "value": "113;100;50"
+      },
+      {
+        "key": "COLOR_2",
+        "value": "113;100;75"
+      },
+      {
+        "key": "COLOR_3",
+        "value": "113;100;100"
+      },
+      {
+        "key": "COLOR_4",
+        "value": "36;100;40"
+      },
+      {
+        "key": "COLOR_5",
+        "value": "40;100;50"
+      },
+      {
+        "key": "COLOR_6",
+        "value": "70;100;50"
+      },
+      {
+        "key": "COLOR_7",
+        "value": "70;100;75"
+      },
+      {
+        "key": "COLOR_8",
+        "value": "70;100;100"
+      },
+      {
+        "key": "COLOR_9",
+        "value": "150;100;50"
+      },
+      {
+        "key": "COLOR_10",
+        "value": "150;100;100"
+      }
+    ]
+  },
+  "activation_state": {
+    "value": "DEACTIVE"
+  },
+  "type": "AMBIENT_COLOR"
+}
