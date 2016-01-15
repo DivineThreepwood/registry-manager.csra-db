@@ -1,0 +1,50 @@
+{
+  "id": "78ded5dd-20b5-4953-bec4-1bae76ef9bec",
+  "label": "Sports Door",
+  "type": "DOOR",
+  "tile_id": [
+    "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "7ad72d61-e398-414b-9c5a-173242912ce6"
+  ],
+  "placement": {
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+    "position": {
+      "translation": {
+        "x": 3.783,
+        "y": 4.4483,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {
+      "floor": [
+        {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "x": 0.0,
+          "y": 0.889,
+          "z": 0.0
+        },
+        {
+          "x": 0.11,
+          "y": 0.889,
+          "z": 0.0
+        },
+        {
+          "x": 0.11,
+          "y": 0.0,
+          "z": 0.0
+        }
+      ]
+    }
+  },
+  "meta_config": {}
+}
