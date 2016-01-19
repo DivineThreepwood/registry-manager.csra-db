@@ -6,6 +6,13 @@
     "f0a71f71-1463-41e3-9c9a-25a02a536001",
     "81b9efa4-2dc9-432e-b47c-1d73021ff0f3"
   ],
+  "scope": {
+    "component": [
+      "home",
+      "passage",
+      "kitchen_passage"
+    ]
+  },
   "placement": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
     "position": {

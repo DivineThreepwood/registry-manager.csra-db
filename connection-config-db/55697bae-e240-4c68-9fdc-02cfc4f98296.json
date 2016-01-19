@@ -6,6 +6,13 @@
     "4a1d3474-7322-48d5-859f-8d9f50f479b9",
     "81b9efa4-2dc9-432e-b47c-1d73021ff0f3"
   ],
+  "scope": {
+    "component": [
+      "home",
+      "passage",
+      "wardrobe_passage"
+    ]
+  },
   "placement": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
     "position": {

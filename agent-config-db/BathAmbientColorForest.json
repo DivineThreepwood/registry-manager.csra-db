@@ -2,7 +2,14 @@
   "id": "BathAmbientColorForest",
   "label": "BathAmbientColorForest",
   "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
-  "scope": {},
+  "scope": {
+    "component": [
+      "home",
+      "bath",
+      "ambientcolor",
+      "bathambientcolorforest"
+    ]
+  },
   "meta_config": {
     "entry": [
       {
