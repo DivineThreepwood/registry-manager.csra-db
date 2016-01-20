@@ -3,7 +3,8 @@
   "label": "Apartement Door",
   "type": "DOOR",
   "tile_id": [
-    "4a1d3474-7322-48d5-859f-8d9f50f479b9"
+    "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+    "9be1344a-41f1-406b-bdae-41bfd5368f13"
   ],
   "scope": {
     "component": [

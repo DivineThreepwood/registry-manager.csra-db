@@ -1,6 +1,7 @@
 {
   "id": "9be1344a-41f1-406b-bdae-41bfd5368f13",
   "label": "Outdoor",
+  "type": "TILE",
   "root": false,
   "parent_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
   "unit_id": [
@@ -43,6 +44,12 @@
         "qy": 0.0,
         "qz": 0.0
       }
-    }
+    },
+    "shape": {}
+  },
+  "meta_config": {},
+  "tile_config": {
+    "type": "OUTDOOR",
+    "meta_config": {}
   }
 }
