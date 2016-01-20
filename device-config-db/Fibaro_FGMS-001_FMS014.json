@@ -3,6 +3,7 @@
   "label": "Pathway",
   "placement_config": {
     "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+    "transformation_frame_id": "pathway",
     "position": {
       "translation": {
         "x": 0.0,
@@ -43,6 +44,7 @@
       "type": "BATTERY",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+        "transformation_frame_id": "pathway",
         "position": {
           "translation": {
             "x": 0.0,
@@ -94,6 +96,7 @@
       "type": "BRIGHTNESS_SENSOR",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+        "transformation_frame_id": "sports_pathway",
         "position": {
           "translation": {
             "x": 0.0,
@@ -145,6 +148,7 @@
       "type": "MOTION_SENSOR",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+        "transformation_frame_id": "sports_pathway",
         "position": {
           "translation": {
             "x": 0.0,
@@ -196,6 +200,7 @@
       "type": "TAMPER_SWITCH",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+        "transformation_frame_id": "sports_pathway",
         "position": {
           "translation": {
             "x": 0.0,
@@ -247,6 +252,7 @@
       "type": "TEMPERATURE_SENSOR",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+        "transformation_frame_id": "sports_pathway",
         "position": {
           "translation": {
             "x": 0.0,

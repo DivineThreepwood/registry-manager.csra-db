@@ -3,6 +3,7 @@
   "label": "ControlBelowButtons",
   "placement_config": {
     "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
+    "transformation_frame_id": "controlbelowbuttons",
     "position": {
       "translation": {
         "x": 0.0,
@@ -45,6 +46,7 @@
       "type": "BUTTON",
       "placement_config": {
         "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
+        "transformation_frame_id": "radioon",
         "position": {
           "translation": {
             "x": 0.0,
@@ -102,6 +104,7 @@
       "type": "BUTTON",
       "placement_config": {
         "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
+        "transformation_frame_id": "radiooff",
         "position": {
           "translation": {
             "x": 0.0,
@@ -159,6 +162,7 @@
       "type": "BUTTON",
       "placement_config": {
         "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
+        "transformation_frame_id": "dining_kitchenlight",
         "position": {
           "translation": {
             "x": 0.0,
@@ -216,6 +220,7 @@
       "type": "BUTTON",
       "placement_config": {
         "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
+        "transformation_frame_id": "dininglight",
         "position": {
           "translation": {
             "x": 0.0,
@@ -273,6 +278,7 @@
       "type": "BUTTON",
       "placement_config": {
         "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
+        "transformation_frame_id": "dining_loungelight",
         "position": {
           "translation": {
             "x": 0.0,
@@ -330,6 +336,7 @@
       "type": "BUTTON",
       "placement_config": {
         "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
+        "transformation_frame_id": "dining_apartmentlight",
         "position": {
           "translation": {
             "x": 0.0,

@@ -3,6 +3,7 @@
   "label": "MediaHue",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "transformation_frame_id": "mediahue",
     "position": {
       "translation": {
         "x": 0.0,
@@ -43,6 +44,7 @@
       "type": "AMBIENT_LIGHT",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+        "transformation_frame_id": "mediahue",
         "position": {
           "translation": {
             "x": 0.0,

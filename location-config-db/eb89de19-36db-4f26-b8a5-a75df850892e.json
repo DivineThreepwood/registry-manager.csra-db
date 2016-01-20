@@ -34,6 +34,7 @@
     }
   },
   "placement_config": {
+    "transformation_frame_id": "hometheater",
     "position": {
       "translation": {
         "x": 0.0,

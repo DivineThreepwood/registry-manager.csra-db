@@ -80,6 +80,7 @@
     }
   },
   "placement_config": {
+    "transformation_frame_id": "control",
     "position": {
       "translation": {
         "x": 6.7393,

@@ -3,6 +3,7 @@
   "label": "Shower",
   "placement_config": {
     "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+    "transformation_frame_id": "shower",
     "position": {
       "translation": {
         "x": 0.0,
@@ -43,6 +44,7 @@
       "type": "BATTERY",
       "placement_config": {
         "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+        "transformation_frame_id": "shower",
         "position": {
           "translation": {
             "x": 0.0,
@@ -94,6 +96,7 @@
       "type": "BRIGHTNESS_SENSOR",
       "placement_config": {
         "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+        "transformation_frame_id": "bath_shower",
         "position": {
           "translation": {
             "x": 0.0,
@@ -145,6 +148,7 @@
       "type": "MOTION_SENSOR",
       "placement_config": {
         "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+        "transformation_frame_id": "bath_shower",
         "position": {
           "translation": {
             "x": 0.0,
@@ -196,6 +200,7 @@
       "type": "TAMPER_SWITCH",
       "placement_config": {
         "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+        "transformation_frame_id": "bath_shower",
         "position": {
           "translation": {
             "x": 0.0,
@@ -247,6 +252,7 @@
       "type": "TEMPERATURE_SENSOR",
       "placement_config": {
         "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+        "transformation_frame_id": "bath_shower",
         "position": {
           "translation": {
             "x": 0.0,

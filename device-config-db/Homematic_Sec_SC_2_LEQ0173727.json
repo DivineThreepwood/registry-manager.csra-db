@@ -3,6 +3,7 @@
   "label": "EntranceDoorReedSwitch",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+    "transformation_frame_id": "entrancedoorreedswitch",
     "position": {
       "translation": {
         "x": 0.0,
@@ -43,6 +44,7 @@
       "type": "BATTERY",
       "placement_config": {
         "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+        "transformation_frame_id": "entrancedoorreedswitch",
         "position": {
           "translation": {
             "x": 0.0,
@@ -94,6 +96,7 @@
       "type": "REED_SWITCH",
       "placement_config": {
         "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+        "transformation_frame_id": "wardrobe_entrancedoorreedswitch",
         "position": {
           "translation": {
             "x": 0.0,

@@ -3,6 +3,7 @@
   "label": "PathwayButtons1",
   "placement_config": {
     "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+    "transformation_frame_id": "pathwaybuttons1",
     "position": {
       "translation": {
         "x": 0.0,
@@ -43,6 +44,7 @@
       "type": "TEMPERATURE_CONTROLLER",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+        "transformation_frame_id": "temperaturecontrollersports",
         "position": {
           "translation": {
             "x": 0.0,
@@ -115,6 +117,7 @@
       "type": "BUTTON",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+        "transformation_frame_id": "button_1",
         "position": {
           "translation": {
             "x": 0.0,
@@ -170,6 +173,7 @@
       "type": "BUTTON",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+        "transformation_frame_id": "button_2",
         "position": {
           "translation": {
             "x": 0.0,
@@ -225,6 +229,7 @@
       "type": "BUTTON",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+        "transformation_frame_id": "button_3",
         "position": {
           "translation": {
             "x": 0.0,
@@ -280,6 +285,7 @@
       "type": "BUTTON",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+        "transformation_frame_id": "button4",
         "position": {
           "translation": {
             "x": 0.0,

@@ -3,6 +3,7 @@
   "label": "LeftWindowHandleSensor",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "transformation_frame_id": "living_leftwindowhandlesensor",
     "position": {
       "translation": {
         "x": 0.0,
@@ -43,6 +44,7 @@
       "type": "BATTERY",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+        "transformation_frame_id": "living_leftwindowhandlesensor",
         "position": {
           "translation": {
             "x": 0.0,
@@ -94,6 +96,7 @@
       "type": "HANDLE_SENSOR",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+        "transformation_frame_id": "living_leftwindowhandlesensor",
         "position": {
           "translation": {
             "x": 0.0,

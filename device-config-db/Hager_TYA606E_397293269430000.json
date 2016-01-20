@@ -3,6 +3,7 @@
   "label": "PowerActuator9",
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+    "transformation_frame_id": "poweractuator9",
     "position": {
       "translation": {
         "x": 0.0,
@@ -43,6 +44,7 @@
       "type": "POWER_PLUG",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+        "transformation_frame_id": "a9c1",
         "position": {
           "translation": {
             "x": 0.0,
@@ -98,6 +100,7 @@
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+        "transformation_frame_id": "a9c1consumption",
         "position": {
           "translation": {
             "x": 0.0,
@@ -153,6 +156,7 @@
       "type": "POWER_PLUG",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+        "transformation_frame_id": "a9c2",
         "position": {
           "translation": {
             "x": 0.0,
@@ -208,6 +212,7 @@
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+        "transformation_frame_id": "a9c2consumption",
         "position": {
           "translation": {
             "x": 0.0,
@@ -263,6 +268,7 @@
       "type": "POWER_PLUG",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+        "transformation_frame_id": "a9c3",
         "position": {
           "translation": {
             "x": 0.0,
@@ -318,6 +324,7 @@
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+        "transformation_frame_id": "a9c3consumption",
         "position": {
           "translation": {
             "x": 0.0,
@@ -373,6 +380,7 @@
       "type": "POWER_PLUG",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+        "transformation_frame_id": "a9c4",
         "position": {
           "translation": {
             "x": 0.0,
@@ -429,6 +437,7 @@
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+        "transformation_frame_id": "a9c4consumption",
         "position": {
           "translation": {
             "x": 0.0,
@@ -485,6 +494,7 @@
       "type": "POWER_PLUG",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+        "transformation_frame_id": "a9c5",
         "position": {
           "translation": {
             "x": 0.0,
@@ -541,6 +551,7 @@
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+        "transformation_frame_id": "a9c5consumption",
         "position": {
           "translation": {
             "x": 0.0,
@@ -600,6 +611,7 @@
       "type": "POWER_PLUG",
       "placement_config": {
         "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
+        "transformation_frame_id": "a9c6",
         "position": {
           "translation": {
             "x": 0.0,
@@ -659,6 +671,7 @@
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
         "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
+        "transformation_frame_id": "a9c6consumption",
         "position": {
           "translation": {
             "x": 0.0,

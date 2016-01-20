@@ -30,6 +30,7 @@
     }
   },
   "placement_config": {
+    "transformation_frame_id": "outdoor",
     "position": {
       "translation": {
         "x": 0.0,

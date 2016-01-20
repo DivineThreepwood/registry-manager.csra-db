@@ -3,6 +3,7 @@
   "label": "Hager_TYA628C_397290922010000",
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+    "transformation_frame_id": "hager_tya628c_397290922010000",
     "position": {
       "translation": {
         "x": 0.0,
@@ -43,6 +44,7 @@
       "type": "ROLLERSHUTTER",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+        "transformation_frame_id": "inside",
         "position": {
           "translation": {
             "x": 0.0,
@@ -119,6 +121,7 @@
       "type": "ROLLERSHUTTER",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+        "transformation_frame_id": "outside",
         "position": {
           "translation": {
             "x": 0.0,
@@ -195,6 +198,7 @@
       "type": "ROLLERSHUTTER",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+        "transformation_frame_id": "leftinside",
         "position": {
           "translation": {
             "x": 0.0,
@@ -271,6 +275,7 @@
       "type": "ROLLERSHUTTER",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+        "transformation_frame_id": "leftoutside",
         "position": {
           "translation": {
             "x": 0.0,
@@ -347,6 +352,7 @@
       "type": "ROLLERSHUTTER",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+        "transformation_frame_id": "middleinside",
         "position": {
           "translation": {
             "x": 0.0,
@@ -423,6 +429,7 @@
       "type": "ROLLERSHUTTER",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+        "transformation_frame_id": "middleoutside",
         "position": {
           "translation": {
             "x": 0.0,
@@ -499,6 +506,7 @@
       "type": "ROLLERSHUTTER",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+        "transformation_frame_id": "rightinside",
         "position": {
           "translation": {
             "x": 0.0,
@@ -575,6 +583,7 @@
       "type": "ROLLERSHUTTER",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+        "transformation_frame_id": "rightoutside",
         "position": {
           "translation": {
             "x": 0.0,

@@ -3,6 +3,7 @@
   "label": "DimmActuator3",
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+    "transformation_frame_id": "dimmactuator3",
     "position": {
       "translation": {
         "x": 0.0,
@@ -43,6 +44,7 @@
       "type": "DIMMER",
       "placement_config": {
         "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+        "transformation_frame_id": "entrancedimmer",
         "position": {
           "translation": {
             "x": 0.0,
@@ -125,6 +127,7 @@
       "type": "DIMMER",
       "placement_config": {
         "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+        "transformation_frame_id": "pathwaydimmer",
         "position": {
           "translation": {
             "x": 0.0,
@@ -200,6 +203,7 @@
       "type": "DIMMER",
       "placement_config": {
         "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+        "transformation_frame_id": "dimmer",
         "position": {
           "translation": {
             "x": 0.0,

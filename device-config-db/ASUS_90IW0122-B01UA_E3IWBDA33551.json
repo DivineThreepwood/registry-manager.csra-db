@@ -3,6 +3,7 @@
   "label": "ASUS_90IW0122-B01UA_E3IWBDA33551",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+    "transformation_frame_id": "asus_90iw0122-b01ua_e3iwbda33551",
     "position": {
       "translation": {
         "x": 0.62,
@@ -44,6 +45,7 @@
       "type": "RGB_CAMERA",
       "placement_config": {
         "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+        "transformation_frame_id": "asus_90iw0122-b01ua_e3iwbda33551",
         "position": {
           "translation": {
             "x": 0.62,
@@ -76,6 +78,7 @@
       "type": "DEPTH_CAMERA",
       "placement_config": {
         "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+        "transformation_frame_id": "wardrobe_asus_90iw0122-b01ua_e3iwbda33551",
         "position": {
           "translation": {
             "x": 0.62,
@@ -108,6 +111,7 @@
       "type": "AUDIO_SOURCE",
       "placement_config": {
         "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+        "transformation_frame_id": "wardrobe_asus_90iw0122-b01ua_e3iwbda33551",
         "position": {
           "translation": {
             "x": 0.62,

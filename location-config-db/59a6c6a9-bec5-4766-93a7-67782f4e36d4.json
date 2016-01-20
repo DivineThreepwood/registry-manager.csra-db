@@ -49,6 +49,7 @@
     }
   },
   "placement_config": {
+    "transformation_frame_id": "dining",
     "position": {
       "translation": {
         "x": 0.0,
