@@ -32,7 +32,7 @@
     }
   },
   "placement_config": {
-    "transformation_frame_id": "lounge",
+    "transformation_frame_id": "Lounge",
     "position": {
       "translation": {
         "x": 0.0,

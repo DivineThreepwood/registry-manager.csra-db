@@ -3,7 +3,7 @@
   "label": "EntranceButtons",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-    "transformation_frame_id": "entrancebuttons",
+    "transformation_frame_id": "EntranceButtons",
     "position": {
       "translation": {
         "x": 0.0,
@@ -102,7 +102,7 @@
       "type": "BUTTON",
       "placement_config": {
         "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-        "transformation_frame_id": "wardrobe_reset",
+        "transformation_frame_id": "Wardrobe_reset",
         "position": {
           "translation": {
             "x": 0.0,
@@ -273,7 +273,7 @@
       "type": "BUTTON",
       "placement_config": {
         "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-        "transformation_frame_id": "wardrobelight",
+        "transformation_frame_id": "WardrobeLight",
         "position": {
           "translation": {
             "x": 0.0,
@@ -330,7 +330,7 @@
       "type": "BUTTON",
       "placement_config": {
         "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-        "transformation_frame_id": "wardrobe_apartmentlight",
+        "transformation_frame_id": "Wardrobe_ApartmentLight",
         "position": {
           "translation": {
             "x": 0.0,

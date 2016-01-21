@@ -3,7 +3,7 @@
   "label": "DoorReedSwitch",
   "placement_config": {
     "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
-    "transformation_frame_id": "doorreedswitch",
+    "transformation_frame_id": "DoorReedSwitch",
     "position": {
       "translation": {
         "x": 0.0,
@@ -44,7 +44,7 @@
       "type": "BATTERY",
       "placement_config": {
         "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
-        "transformation_frame_id": "doorreedswitch",
+        "transformation_frame_id": "DoorReedSwitch",
         "position": {
           "translation": {
             "x": 0.0,
@@ -96,7 +96,7 @@
       "type": "REED_SWITCH",
       "placement_config": {
         "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
-        "transformation_frame_id": "bath_doorreedswitch",
+        "transformation_frame_id": "Bath_DoorReedSwitch",
         "position": {
           "translation": {
             "x": 0.0,

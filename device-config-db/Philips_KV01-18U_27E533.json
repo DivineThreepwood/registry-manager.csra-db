@@ -3,7 +3,7 @@
   "label": "SLampLeft1",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "slampleft1",
+    "transformation_frame_id": "SLampLeft1",
     "position": {
       "translation": {
         "x": 0.0,
@@ -44,7 +44,7 @@
       "type": "AMBIENT_LIGHT",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-        "transformation_frame_id": "slampleft1",
+        "transformation_frame_id": "SLampLeft1",
         "position": {
           "translation": {
             "x": 0.0,

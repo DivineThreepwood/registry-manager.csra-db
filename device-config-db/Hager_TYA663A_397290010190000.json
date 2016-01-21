@@ -3,7 +3,7 @@
   "label": "DimmActuator2",
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
-    "transformation_frame_id": "dimmactuator2",
+    "transformation_frame_id": "DimmActuator2",
     "position": {
       "translation": {
         "x": 0.0,
@@ -43,7 +43,7 @@
       "type": "DIMMER",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-        "transformation_frame_id": "rightdimmer",
+        "transformation_frame_id": "RightDimmer",
         "position": {
           "translation": {
             "x": 0.0,
@@ -119,7 +119,7 @@
       "type": "DIMMER",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
-        "transformation_frame_id": "sports_leftdimmer",
+        "transformation_frame_id": "Sports_LeftDimmer",
         "position": {
           "translation": {
             "x": 0.0,
@@ -195,7 +195,7 @@
       "type": "DIMMER",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
-        "transformation_frame_id": "sports_rightdimmer",
+        "transformation_frame_id": "Sports_RightDimmer",
         "position": {
           "translation": {
             "x": 0.0,

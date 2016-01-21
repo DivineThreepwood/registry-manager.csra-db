@@ -3,7 +3,7 @@
   "label": "PathwayBelowButtons",
   "placement_config": {
     "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
-    "transformation_frame_id": "pathwaybelowbuttons",
+    "transformation_frame_id": "PathwayBelowButtons",
     "position": {
       "translation": {
         "x": 0.0,
@@ -45,7 +45,7 @@
       "type": "BUTTON",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
-        "transformation_frame_id": "pathwaybelowbutton_1",
+        "transformation_frame_id": "PathwayBelowButton_1",
         "position": {
           "translation": {
             "x": 0.0,
@@ -102,7 +102,7 @@
       "type": "BUTTON",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
-        "transformation_frame_id": "pathwaybelowbutton_2",
+        "transformation_frame_id": "PathwayBelowButton_2",
         "position": {
           "translation": {
             "x": 0.0,
@@ -159,7 +159,7 @@
       "type": "BUTTON",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
-        "transformation_frame_id": "pathwaybelowbutton_3",
+        "transformation_frame_id": "PathwayBelowButton_3",
         "position": {
           "translation": {
             "x": 0.0,
@@ -216,7 +216,7 @@
       "type": "BUTTON",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
-        "transformation_frame_id": "pathwaybelowbutton_4",
+        "transformation_frame_id": "PathwayBelowButton_4",
         "position": {
           "translation": {
             "x": 0.0,
@@ -273,7 +273,7 @@
       "type": "BUTTON",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
-        "transformation_frame_id": "pathwaybelowbutton_5",
+        "transformation_frame_id": "PathwayBelowButton_5",
         "position": {
           "translation": {
             "x": 0.0,
@@ -330,7 +330,7 @@
       "type": "BUTTON",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
-        "transformation_frame_id": "pathwaybelowbutton_6",
+        "transformation_frame_id": "PathwayBelowButton_6",
         "position": {
           "translation": {
             "x": 0.0,

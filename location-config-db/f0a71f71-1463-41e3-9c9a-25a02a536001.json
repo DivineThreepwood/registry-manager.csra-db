@@ -74,7 +74,7 @@
     }
   },
   "placement_config": {
-    "transformation_frame_id": "kitchen",
+    "transformation_frame_id": "Kitchen",
     "position": {
       "translation": {
         "x": 0.0,

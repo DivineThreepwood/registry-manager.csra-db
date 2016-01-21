@@ -3,7 +3,7 @@
   "label": "Global",
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-    "transformation_frame_id": "kitchen_global",
+    "transformation_frame_id": "Kitchen_Global",
     "position": {
       "translation": {
         "x": 0.0,
@@ -46,7 +46,7 @@
       "type": "BATTERY",
       "placement_config": {
         "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-        "transformation_frame_id": "kitchen_global",
+        "transformation_frame_id": "Kitchen_Global",
         "position": {
           "translation": {
             "x": 0.0,
@@ -99,7 +99,7 @@
       "type": "BRIGHTNESS_SENSOR",
       "placement_config": {
         "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-        "transformation_frame_id": "kitchen_global",
+        "transformation_frame_id": "Kitchen_Global",
         "position": {
           "translation": {
             "x": 0.0,
@@ -152,7 +152,7 @@
       "type": "MOTION_SENSOR",
       "placement_config": {
         "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-        "transformation_frame_id": "kitchen_global",
+        "transformation_frame_id": "Kitchen_Global",
         "position": {
           "translation": {
             "x": 0.0,
@@ -205,7 +205,7 @@
       "type": "TAMPER_SWITCH",
       "placement_config": {
         "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-        "transformation_frame_id": "kitchen_global",
+        "transformation_frame_id": "Kitchen_Global",
         "position": {
           "translation": {
             "x": 0.0,
@@ -258,7 +258,7 @@
       "type": "TEMPERATURE_SENSOR",
       "placement_config": {
         "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-        "transformation_frame_id": "kitchen_global",
+        "transformation_frame_id": "Kitchen_Global",
         "position": {
           "translation": {
             "x": 0.0,

@@ -3,7 +3,7 @@
   "label": "LeftWindowReedSwitch",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "living_leftwindowreedswitch",
+    "transformation_frame_id": "Living_LeftWindowReedSwitch",
     "position": {
       "translation": {
         "x": 0.0,
@@ -44,7 +44,7 @@
       "type": "BATTERY",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-        "transformation_frame_id": "living_leftwindowreedswitch",
+        "transformation_frame_id": "Living_LeftWindowReedSwitch",
         "position": {
           "translation": {
             "x": 0.0,
@@ -96,7 +96,7 @@
       "type": "REED_SWITCH",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-        "transformation_frame_id": "living_leftwindowreedswitch",
+        "transformation_frame_id": "Living_LeftWindowReedSwitch",
         "position": {
           "translation": {
             "x": 0.0,

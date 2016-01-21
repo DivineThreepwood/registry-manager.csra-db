@@ -3,7 +3,7 @@
   "label": "SportsDoorButtons",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "sportsdoorbuttons",
+    "transformation_frame_id": "SportsDoorButtons",
     "position": {
       "translation": {
         "x": 0.0,
@@ -273,7 +273,7 @@
       "type": "BUTTON",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-        "transformation_frame_id": "loungelight",
+        "transformation_frame_id": "LoungeLight",
         "position": {
           "translation": {
             "x": 0.0,
@@ -330,7 +330,7 @@
       "type": "BUTTON",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-        "transformation_frame_id": "living_apartmentlight",
+        "transformation_frame_id": "Living_ApartmentLight",
         "position": {
           "translation": {
             "x": 0.0,

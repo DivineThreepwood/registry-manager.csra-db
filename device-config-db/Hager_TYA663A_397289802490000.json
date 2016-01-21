@@ -3,7 +3,7 @@
   "label": "DimmActuator1",
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
-    "transformation_frame_id": "dimmactuator1",
+    "transformation_frame_id": "DimmActuator1",
     "position": {
       "translation": {
         "x": 0.0,
@@ -44,7 +44,7 @@
       "type": "DIMMER",
       "placement_config": {
         "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-        "transformation_frame_id": "kitchen_dimmer",
+        "transformation_frame_id": "Kitchen_Dimmer",
         "position": {
           "translation": {
             "x": 0.0,
@@ -120,7 +120,7 @@
       "type": "DIMMER",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-        "transformation_frame_id": "tabledimmer",
+        "transformation_frame_id": "TableDimmer",
         "position": {
           "translation": {
             "x": 0.0,
@@ -196,7 +196,7 @@
       "type": "DIMMER",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-        "transformation_frame_id": "leftdimmer",
+        "transformation_frame_id": "LeftDimmer",
         "position": {
           "translation": {
             "x": 0.0,

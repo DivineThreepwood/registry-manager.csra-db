@@ -3,7 +3,7 @@
   "label": "Couch",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "couch",
+    "transformation_frame_id": "Couch",
     "position": {
       "translation": {
         "x": 0.0,
@@ -44,7 +44,7 @@
       "type": "BATTERY",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-        "transformation_frame_id": "couch",
+        "transformation_frame_id": "Couch",
         "position": {
           "translation": {
             "x": 0.0,
@@ -96,7 +96,7 @@
       "type": "BRIGHTNESS_SENSOR",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-        "transformation_frame_id": "living_couch",
+        "transformation_frame_id": "Living_Couch",
         "position": {
           "translation": {
             "x": 0.0,
@@ -148,7 +148,7 @@
       "type": "MOTION_SENSOR",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-        "transformation_frame_id": "living_couch",
+        "transformation_frame_id": "Living_Couch",
         "position": {
           "translation": {
             "x": 0.0,
@@ -200,7 +200,7 @@
       "type": "TAMPER_SWITCH",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-        "transformation_frame_id": "living_couch",
+        "transformation_frame_id": "Living_Couch",
         "position": {
           "translation": {
             "x": 0.0,
@@ -252,7 +252,7 @@
       "type": "TEMPERATURE_SENSOR",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-        "transformation_frame_id": "living_couch",
+        "transformation_frame_id": "Living_Couch",
         "position": {
           "translation": {
             "x": 0.0,

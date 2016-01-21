@@ -3,7 +3,7 @@
   "label": "HallwayBelowButtons",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-    "transformation_frame_id": "hallwaybelowbuttons",
+    "transformation_frame_id": "HallwayBelowButtons",
     "position": {
       "translation": {
         "x": 0.0,

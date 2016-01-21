@@ -66,7 +66,7 @@
     }
   },
   "placement_config": {
-    "transformation_frame_id": "bath",
+    "transformation_frame_id": "Bath",
     "position": {
       "translation": {
         "x": 4.3256,

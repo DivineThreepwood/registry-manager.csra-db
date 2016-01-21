@@ -3,7 +3,7 @@
   "label": "BorrowdUnit-1",
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
-    "transformation_frame_id": "borrowdunit-1",
+    "transformation_frame_id": "BorrowdUnit-1",
     "position": {
       "translation": {
         "x": 0.0,
@@ -47,7 +47,7 @@
       "type": "BATTERY",
       "placement_config": {
         "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
-        "transformation_frame_id": "borrowdunit-1",
+        "transformation_frame_id": "BorrowdUnit-1",
         "position": {
           "translation": {
             "x": 0.0,
@@ -99,7 +99,7 @@
       "type": "BRIGHTNESS_SENSOR",
       "placement_config": {
         "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
-        "transformation_frame_id": "control_borrowdunit-1",
+        "transformation_frame_id": "Control_BorrowdUnit-1",
         "position": {
           "translation": {
             "x": 0.0,
@@ -151,7 +151,7 @@
       "type": "MOTION_SENSOR",
       "placement_config": {
         "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
-        "transformation_frame_id": "control_borrowdunit-1",
+        "transformation_frame_id": "Control_BorrowdUnit-1",
         "position": {
           "translation": {
             "x": 0.0,
@@ -203,7 +203,7 @@
       "type": "TAMPER_SWITCH",
       "placement_config": {
         "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
-        "transformation_frame_id": "control_borrowdunit-1",
+        "transformation_frame_id": "Control_BorrowdUnit-1",
         "position": {
           "translation": {
             "x": 0.0,
@@ -255,7 +255,7 @@
       "type": "TEMPERATURE_SENSOR",
       "placement_config": {
         "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
-        "transformation_frame_id": "control_borrowdunit-1",
+        "transformation_frame_id": "Control_BorrowdUnit-1",
         "position": {
           "translation": {
             "x": 0.0,

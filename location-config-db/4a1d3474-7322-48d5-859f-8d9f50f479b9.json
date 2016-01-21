@@ -70,7 +70,7 @@
     }
   },
   "placement_config": {
-    "transformation_frame_id": "wardrobe",
+    "transformation_frame_id": "Wardrobe",
     "position": {
       "translation": {
         "x": 2.543,

@@ -15,7 +15,7 @@
   },
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
-    "transformation_frame_id": "sports_door",
+    "transformation_frame_id": "Sports_Door",
     "position": {
       "translation": {
         "x": 3.783,

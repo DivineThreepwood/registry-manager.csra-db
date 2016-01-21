@@ -3,7 +3,7 @@
   "label": "DoorOpen",
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-    "transformation_frame_id": "dooropen",
+    "transformation_frame_id": "DoorOpen",
     "position": {
       "translation": {
         "x": 0.0,
@@ -44,7 +44,7 @@
       "type": "BATTERY",
       "placement_config": {
         "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-        "transformation_frame_id": "dooropen",
+        "transformation_frame_id": "DoorOpen",
         "position": {
           "translation": {
             "x": 0.0,
@@ -96,7 +96,7 @@
       "type": "REED_SWITCH",
       "placement_config": {
         "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-        "transformation_frame_id": "kitchen_dooropen",
+        "transformation_frame_id": "Kitchen_DoorOpen",
         "position": {
           "translation": {
             "x": 0.0,

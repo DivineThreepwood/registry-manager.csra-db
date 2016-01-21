@@ -423,7 +423,7 @@
     }
   },
   "placement_config": {
-    "transformation_frame_id": "home",
+    "transformation_frame_id": "Home",
     "position": {
       "translation": {
         "x": 0.0,

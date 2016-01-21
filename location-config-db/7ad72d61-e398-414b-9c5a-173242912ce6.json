@@ -108,7 +108,7 @@
     }
   },
   "placement_config": {
-    "transformation_frame_id": "sports",
+    "transformation_frame_id": "Sports",
     "position": {
       "translation": {
         "x": 7.9275,

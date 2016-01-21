@@ -147,7 +147,7 @@
     }
   },
   "placement_config": {
-    "transformation_frame_id": "living",
+    "transformation_frame_id": "Living",
     "position": {
       "translation": {
         "x": 0.0,
