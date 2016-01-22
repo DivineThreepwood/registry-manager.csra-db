@@ -3,7 +3,6 @@
   "label": "Sports",
   "type": "TILE",
   "root": false,
-  "parent_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
   "unit_id": [
     "/home/sports/powerplug/a7c2/",
     "/home/sports/reedswitch/sportstocontrolreedswitch/",
@@ -94,19 +93,7 @@
       "sports"
     ]
   },
-  "position": {
-    "translation": {
-      "x": 7.9275,
-      "y": 8.6583,
-      "z": 0.0
-    },
-    "rotation": {
-      "qw": 6.123233995736766E-17,
-      "qx": 0.0,
-      "qy": 0.0,
-      "qz": 1.0
-    }
-  },
+  "meta_config": {},
   "placement_config": {
     "transformation_frame_id": "Sports",
     "position": {
@@ -175,7 +162,7 @@
           "z": 0.0
         }
       ]
-    }
-  },
-  "meta_config": {}
+    },
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d"
+  }
 }

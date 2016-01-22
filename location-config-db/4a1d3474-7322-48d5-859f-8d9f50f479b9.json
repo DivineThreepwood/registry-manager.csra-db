@@ -3,7 +3,6 @@
   "label": "Wardrobe",
   "type": "TILE",
   "root": false,
-  "parent_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
   "unit_id": [
     "/home/wardrobe/button/lighthereon/",
     "/home/wardrobe/audiosource/asus_90iw0122-b01ua_e3iwbda33551/",
@@ -56,19 +55,7 @@
       "wardrobe"
     ]
   },
-  "position": {
-    "translation": {
-      "x": 2.543,
-      "y": 0.0,
-      "z": 0.0
-    },
-    "rotation": {
-      "qw": 1.0,
-      "qx": 0.0,
-      "qy": 0.0,
-      "qz": 0.0
-    }
-  },
+  "meta_config": {},
   "placement_config": {
     "transformation_frame_id": "Wardrobe",
     "position": {
@@ -127,7 +114,7 @@
           "z": 0.0
         }
       ]
-    }
-  },
-  "meta_config": {}
+    },
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d"
+  }
 }

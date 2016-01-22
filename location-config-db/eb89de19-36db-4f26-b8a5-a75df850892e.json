@@ -2,7 +2,6 @@
   "id": "eb89de19-36db-4f26-b8a5-a75df850892e",
   "label": "Hometheater",
   "type": "REGION",
-  "parent_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
   "unit_id": [
     "/home/living/hometheater/powerconsumptionsensor/a5c3consumption/",
     "/home/living/hometheater/powerconsumptionsensor/a4c2consumption/",
@@ -20,19 +19,7 @@
       "hometheater"
     ]
   },
-  "position": {
-    "translation": {
-      "x": 0.0,
-      "y": 0.0,
-      "z": 0.0
-    },
-    "rotation": {
-      "qw": 1.0,
-      "qx": 0.0,
-      "qy": 0.0,
-      "qz": 0.0
-    }
-  },
+  "meta_config": {},
   "placement_config": {
     "transformation_frame_id": "Hometheater",
     "position": {
@@ -71,7 +58,7 @@
           "z": 3.3
         }
       ]
-    }
-  },
-  "meta_config": {}
+    },
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3"
+  }
 }

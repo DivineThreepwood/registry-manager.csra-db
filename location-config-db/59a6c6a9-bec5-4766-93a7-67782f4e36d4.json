@@ -2,7 +2,6 @@
   "id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
   "label": "Dining",
   "type": "REGION",
-  "parent_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
   "unit_id": [
     "/home/living/dining/powerconsumptionsensor/a6c6consumption/",
     "/home/living/dining/powerplug/a3c1/",
@@ -35,19 +34,7 @@
       "dining"
     ]
   },
-  "position": {
-    "translation": {
-      "x": 0.0,
-      "y": 0.0,
-      "z": 0.0
-    },
-    "rotation": {
-      "qw": 1.0,
-      "qx": 0.0,
-      "qy": 0.0,
-      "qz": 0.0
-    }
-  },
+  "meta_config": {},
   "placement_config": {
     "transformation_frame_id": "Dining",
     "position": {
@@ -86,7 +73,7 @@
           "z": 3.3
         }
       ]
-    }
-  },
-  "meta_config": {}
+    },
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3"
+  }
 }
