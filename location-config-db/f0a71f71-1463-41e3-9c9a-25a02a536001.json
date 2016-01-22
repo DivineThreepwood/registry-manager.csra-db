@@ -59,8 +59,8 @@
       "kitchen"
     ]
   },
-  "meta_config": {},
   "placement_config": {
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
     "transformation_frame_id": "Kitchen",
     "position": {
       "translation": {
@@ -98,7 +98,7 @@
           "z": 0.0
         }
       ]
-    },
-    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d"
-  }
+    }
+  },
+  "meta_config": {}
 }

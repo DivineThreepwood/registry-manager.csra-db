@@ -19,8 +19,8 @@
       "hometheater"
     ]
   },
-  "meta_config": {},
   "placement_config": {
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
     "transformation_frame_id": "Hometheater",
     "position": {
       "translation": {
@@ -58,7 +58,7 @@
           "z": 3.3
         }
       ]
-    },
-    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3"
-  }
+    }
+  },
+  "meta_config": {}
 }

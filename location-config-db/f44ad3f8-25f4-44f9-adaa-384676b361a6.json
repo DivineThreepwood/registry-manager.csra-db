@@ -11,6 +11,7 @@
     "/home/bath/powerplug/a4c5/",
     "/home/bath/temperaturesensor/sink/",
     "/home/bath/powerconsumptionsensor/a4c6consumption/",
+    "/home/bath/ambientlight/llamp1/",
     "/home/bath/powerconsumptionsensor/a4c5consumption/",
     "/home/bath/motionsensor/global/",
     "/home/bath/tamperswitch/global/",
@@ -18,6 +19,7 @@
     "/home/bath/brightnesssensor/global/",
     "/home/bath/powerconsumptionsensor/a4c4consumption/",
     "/home/bath/motionsensor/sink/",
+    "/home/bath/ambientlight/slamp1/",
     "/home/bath/ambientlight/global_2/",
     "/home/bath/brightnesssensor/entrance/",
     "/home/bath/ambientlight/global_4/",
@@ -51,8 +53,8 @@
       "bath"
     ]
   },
-  "meta_config": {},
   "placement_config": {
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
     "transformation_frame_id": "Bath",
     "position": {
       "translation": {
@@ -110,7 +112,7 @@
           "z": 0.0
         }
       ]
-    },
-    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d"
-  }
+    }
+  },
+  "meta_config": {}
 }

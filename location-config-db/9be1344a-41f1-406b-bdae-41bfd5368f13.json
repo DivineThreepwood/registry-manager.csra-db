@@ -16,12 +16,8 @@
       "outdoor"
     ]
   },
-  "meta_config": {},
-  "tile_config": {
-    "type": "OUTDOOR",
-    "meta_config": {}
-  },
   "placement_config": {
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
     "transformation_frame_id": "Outdoor",
     "position": {
       "translation": {
@@ -36,7 +32,11 @@
         "qz": 0.0
       }
     },
-    "shape": {},
-    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d"
+    "shape": {}
+  },
+  "meta_config": {},
+  "tile_config": {
+    "type": "OUTDOOR",
+    "meta_config": {}
   }
 }
