@@ -1,6 +1,7 @@
 {
   "id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
   "label": "Control",
+  "type": "TILE",
   "root": false,
   "unit_id": [
     "/home/control/powerplug/a10c1/",
@@ -82,5 +83,9 @@
       }
     }
   },
-  "meta_config": {}
+  "meta_config": {},
+  "tile_config": {
+    "type": "ROOM",
+    "meta_config": {}
+  }
 }

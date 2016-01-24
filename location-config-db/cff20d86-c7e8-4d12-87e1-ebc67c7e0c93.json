@@ -1,0 +1,57 @@
+{
+  "id": "cff20d86-c7e8-4d12-87e1-ebc67c7e0c93",
+  "label": "Entrance",
+  "type": "REGION",
+  "scope": {
+    "component": [
+      "home",
+      "wardrobe",
+      "entrance"
+    ]
+  },
+  "placement_config": {
+    "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+    "transformation_frame_id": "Entrance",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.094,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {
+      "floor": [
+        {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "x": 0.0,
+          "y": 1.026,
+          "z": 0.0
+        },
+        {
+          "x": 0.556,
+          "y": 1.026,
+          "z": 0.0
+        },
+        {
+          "x": 0.556,
+          "y": 0.0,
+          "z": 0.0
+        }
+      ]
+    }
+  },
+  "meta_config": {},
+  "tile_config": {
+    "meta_config": {}
+  }
+}

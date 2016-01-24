@@ -3,6 +3,9 @@
   "label": "Sports",
   "type": "TILE",
   "root": false,
+  "child_id": [
+    "dae2ee74-5748-46bb-a95a-1054ce40ea0a"
+  ],
   "unit_id": [
     "/home/sports/powerplug/a7c2/",
     "/home/sports/reedswitch/sportstocontrolreedswitch/",
@@ -164,5 +167,9 @@
       ]
     }
   },
-  "meta_config": {}
+  "meta_config": {},
+  "tile_config": {
+    "type": "ROOM",
+    "meta_config": {}
+  }
 }

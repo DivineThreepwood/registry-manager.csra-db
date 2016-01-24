@@ -3,6 +3,10 @@
   "label": "Bath",
   "type": "TILE",
   "root": false,
+  "child_id": [
+    "f5dd3070-a8fc-46ae-9a18-e0adc7130c73",
+    "cd696027-fb4f-497c-af30-144859a462da"
+  ],
   "unit_id": [
     "/home/bath/battery/shower/",
     "/home/bath/button/button_4/",
@@ -114,5 +118,9 @@
       ]
     }
   },
-  "meta_config": {}
+  "meta_config": {},
+  "tile_config": {
+    "type": "ROOM",
+    "meta_config": {}
+  }
 }

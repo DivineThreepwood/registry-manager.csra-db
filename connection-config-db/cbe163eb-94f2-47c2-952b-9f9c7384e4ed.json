@@ -1,0 +1,58 @@
+{
+  "id": "cbe163eb-94f2-47c2-952b-9f9c7384e4ed",
+  "label": "Control Door",
+  "type": "DOOR",
+  "tile_id": [
+    "7ad72d61-e398-414b-9c5a-173242912ce6",
+    "511adfec-43ed-47f5-bd4d-28f46dc1b5a4"
+  ],
+  "scope": {
+    "component": [
+      "home",
+      "door",
+      "control_door"
+    ]
+  },
+  "placement_config": {
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+    "transformation_frame_id": "Control_Door",
+    "position": {
+      "translation": {
+        "x": 6.9036,
+        "y": 3.9402,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {
+      "floor": [
+        {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "x": 0.0,
+          "y": 0.1291,
+          "z": 0.0
+        },
+        {
+          "x": 0.888,
+          "y": 0.1291,
+          "z": 0.0
+        },
+        {
+          "x": 0.888,
+          "y": 0.0,
+          "z": 0.0
+        }
+      ]
+    }
+  },
+  "meta_config": {}
+}
