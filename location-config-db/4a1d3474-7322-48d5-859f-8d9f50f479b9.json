@@ -3,6 +3,9 @@
   "label": "Wardrobe",
   "type": "TILE",
   "root": false,
+  "child_id": [
+    "cff20d86-c7e8-4d12-87e1-ebc67c7e0c93"
+  ],
   "unit_id": [
     "/home/wardrobe/button/lighthereon/",
     "/home/wardrobe/button/resetconfig/",
@@ -116,5 +119,9 @@
       ]
     }
   },
-  "meta_config": {}
+  "meta_config": {},
+  "tile_config": {
+    "type": "ROOM",
+    "meta_config": {}
+  }
 }

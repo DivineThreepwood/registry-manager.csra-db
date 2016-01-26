@@ -1,0 +1,58 @@
+{
+  "id": "461a85e4-a688-4cc9-b7ae-3634caf1169c",
+  "label": "Control Window",
+  "type": "WINDOW",
+  "tile_id": [
+    "7ad72d61-e398-414b-9c5a-173242912ce6",
+    "511adfec-43ed-47f5-bd4d-28f46dc1b5a4"
+  ],
+  "scope": {
+    "component": [
+      "home",
+      "window",
+      "control_window"
+    ]
+  },
+  "placement_config": {
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+    "transformation_frame_id": "Control_Window",
+    "position": {
+      "translation": {
+        "x": 7.9275,
+        "y": 5.5542,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {
+      "floor": [
+        {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "x": 0.0,
+          "y": 2.578,
+          "z": 0.0
+        },
+        {
+          "x": 0.125,
+          "y": 2.578,
+          "z": 0.0
+        },
+        {
+          "x": 0.125,
+          "y": 0.0,
+          "z": 0.0
+        }
+      ]
+    }
+  },
+  "meta_config": {}
+}
