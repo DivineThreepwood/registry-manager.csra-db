@@ -1,9 +1,9 @@
 {
-  "id": "Future-Shape_SE3-P_02858000",
-  "label": "Future-Shape_SE3-P_02858000",
+  "id": "Future-Shape_SE3-P_02848000",
+  "label": "Future-Shape_SE3-P_02848000",
   "placement_config": {
-    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-    "transformation_frame_id": "Future-Shape_SE3-P_02858000",
+    "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+    "transformation_frame_id": "Future-Shape_SE3-P_02848000",
     "position": {
       "translation": {
         "x": 0.0,
@@ -22,15 +22,15 @@
   "scope": {
     "component": [
       "home",
-      "kitchen",
-      "future-shape_se3-p_02858000"
+      "sports",
+      "future-shape_se3-p_02848000"
     ]
   },
-  "serial_number": "02858000",
+  "serial_number": "02848000",
   "inventory_state": {
     "value": "INSTALLED",
     "timestamp": {
-      "time": 1440771271472
+      "time": 1453746128180
     },
     "owner": {}
   },

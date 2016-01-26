@@ -76,7 +76,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philps_Hue_E27__home_living__AmbientLight__LLamp4__BrightnessService"
+                  "value": "Philips_Hue_E27__home_living__AmbientLight__LLamp4__BrightnessService"
                 }
               ]
             }
@@ -92,7 +92,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philps_Hue_E27__home_living__AmbientLight__LLamp4__ColorService"
+                  "value": "Philips_Hue_E27__home_living__AmbientLight__LLamp4__ColorService"
                 }
               ]
             }
@@ -108,7 +108,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philps_Hue_E27__home_living__AmbientLight__LLamp4__PowerService"
+                  "value": "Philips_Hue_E27__home_living__AmbientLight__LLamp4__PowerService"
                 }
               ]
             }

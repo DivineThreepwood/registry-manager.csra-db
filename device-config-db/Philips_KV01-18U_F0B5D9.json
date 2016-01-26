@@ -28,10 +28,10 @@
   },
   "serial_number": "F0B5D9",
   "inventory_state": {
-    "value": "INSTALLED",
+    "value": "IN_STOCK",
     "location_id": "Bath",
     "timestamp": {
-      "time": 1453486305761
+      "time": 1453713820928
     },
     "owner": {}
   },
@@ -78,7 +78,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philps_Hue_E27__home_bath__AmbientLight__LLamp1__BrightnessService"
+                  "value": "Philips_Hue_E27__home_bath__AmbientLight__LLamp1__BrightnessService"
                 }
               ]
             }
@@ -94,7 +94,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philps_Hue_E27__home_bath__AmbientLight__LLamp1__ColorService"
+                  "value": "Philips_Hue_E27__home_bath__AmbientLight__LLamp1__ColorService"
                 }
               ]
             }
@@ -110,7 +110,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philps_Hue_E27__home_bath__AmbientLight__LLamp1__PowerService"
+                  "value": "Philips_Hue_E27__home_bath__AmbientLight__LLamp1__PowerService"
                 }
               ]
             }

@@ -73,7 +73,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philps_Hue_E27__home__AmbientLight__StudTestLamp__BrightnessService"
+                  "value": "Philips_Hue_E27__home__AmbientLight__StudTestLamp__BrightnessService"
                 }
               ]
             }
@@ -89,7 +89,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philps_Hue_E27__home__AmbientLight__StudTestLamp__ColorService"
+                  "value": "Philips_Hue_E27__home__AmbientLight__StudTestLamp__ColorService"
                 }
               ]
             }
@@ -105,7 +105,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philps_Hue_E27__home__AmbientLight__StudTestLamp__PowerService"
+                  "value": "Philips_Hue_E27__home__AmbientLight__StudTestLamp__PowerService"
                 }
               ]
             }
