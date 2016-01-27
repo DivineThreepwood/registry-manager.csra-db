@@ -2,12 +2,12 @@
   "id": "Philips_KV01-18U_5D2FC2",
   "label": "LoungeLamp",
   "placement_config": {
-    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "location_id": "0df5bbb8-2d17-4f81-9b34-314a26ae713a",
     "transformation_frame_id": "LoungeLamp",
     "position": {
       "translation": {
-        "x": 0.0,
-        "y": 0.0,
+        "x": 1.1975,
+        "y": 1.254,
         "z": 0.0
       },
       "rotation": {
@@ -22,6 +22,7 @@
     "component": [
       "home",
       "living",
+      "lounge",
       "loungelamp"
     ]
   },
@@ -37,18 +38,18 @@
   "device_class_id": "Philips_KV01-18U",
   "unit_config": [
     {
-      "id": "/home/living/ambientlight/loungelamp/",
+      "id": "/home/living/lounge/ambientlight/loungelamp/",
       "unit_template_config_id": "Philips_KV01-18U_AMBIENT_LIGHT_0",
       "label": "LoungeLamp",
       "device_id": "Philips_KV01-18U_5D2FC2",
       "type": "AMBIENT_LIGHT",
       "placement_config": {
-        "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+        "location_id": "0df5bbb8-2d17-4f81-9b34-314a26ae713a",
         "transformation_frame_id": "LoungeLamp",
         "position": {
           "translation": {
-            "x": 0.0,
-            "y": 0.0,
+            "x": 1.1975,
+            "y": 1.254,
             "z": 0.0
           },
           "rotation": {
@@ -63,6 +64,7 @@
         "component": [
           "home",
           "living",
+          "lounge",
           "ambientlight",
           "loungelamp"
         ]
@@ -76,12 +78,12 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philips_Hue_E27__home_living__AmbientLight__LoungeLamp__BrightnessService"
+                  "value": "Philips_Hue_E27__home_living_lounge__AmbientLight__LoungeLamp__BrightnessService"
                 }
               ]
             }
           },
-          "unit_id": "/home/living/ambientlight/loungelamp/",
+          "unit_id": "/home/living/lounge/ambientlight/loungelamp/",
           "type": "BRIGHTNESS_SERVICE",
           "meta_config": {}
         },
@@ -92,12 +94,12 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philips_Hue_E27__home_living__AmbientLight__LoungeLamp__ColorService"
+                  "value": "Philips_Hue_E27__home_living_lounge__AmbientLight__LoungeLamp__ColorService"
                 }
               ]
             }
           },
-          "unit_id": "/home/living/ambientlight/loungelamp/",
+          "unit_id": "/home/living/lounge/ambientlight/loungelamp/",
           "type": "COLOR_SERVICE",
           "meta_config": {}
         },
@@ -108,12 +110,12 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philips_Hue_E27__home_living__AmbientLight__LoungeLamp__PowerService"
+                  "value": "Philips_Hue_E27__home_living_lounge__AmbientLight__LoungeLamp__PowerService"
                 }
               ]
             }
           },
-          "unit_id": "/home/living/ambientlight/loungelamp/",
+          "unit_id": "/home/living/lounge/ambientlight/loungelamp/",
           "type": "POWER_SERVICE",
           "meta_config": {}
         }

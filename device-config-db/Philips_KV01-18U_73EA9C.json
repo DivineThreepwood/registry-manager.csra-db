@@ -6,8 +6,8 @@
     "transformation_frame_id": "Hallway_1",
     "position": {
       "translation": {
-        "x": 0.0,
-        "y": 0.0,
+        "x": 0.574,
+        "y": 3.981,
         "z": 0.0
       },
       "rotation": {
@@ -47,8 +47,8 @@
         "transformation_frame_id": "Hallway_1",
         "position": {
           "translation": {
-            "x": 0.0,
-            "y": 0.0,
+            "x": 0.574,
+            "y": 3.981,
             "z": 0.0
           },
           "rotation": {
