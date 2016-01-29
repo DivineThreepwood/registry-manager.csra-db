@@ -3,11 +3,14 @@
   "label": "Sports",
   "type": "TILE",
   "root": false,
-  "parent_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+  "child_id": [
+    "dae2ee74-5748-46bb-a95a-1054ce40ea0a"
+  ],
   "unit_id": [
     "/home/sports/powerplug/a7c2/",
     "/home/sports/reedswitch/sportstocontrolreedswitch/",
     "/home/sports/brightnesssensor/pathway/",
+    "/home/sports/button/debug/",
     "/home/sports/motionsensor/pathway/",
     "/home/sports/ambientlight/slampright2/",
     "/home/sports/button/pathwaybelowbutton_4/",
@@ -58,13 +61,13 @@
     "/home/sports/ambientlight/llampentrance2/",
     "/home/sports/temperaturesensor/pathway/",
     "/home/sports/battery/interaction/",
-    "/home/sports/button/pathwaybelowbutton_2/",
     "/home/sports/powerconsumptionsensor/a6c1consumption/",
     "/home/sports/rgbcamera/asus_90iw0122-b01ua_e3iwbda34150/",
     "/home/sports/powerconsumptionsensor/a6c2consumption/",
     "/home/sports/powerplug/a6c2/",
     "/home/sports/powerconsumptionsensor/a6c3consumption/",
     "/home/sports/powerplug/a9c1/",
+    "/home/sports/button/elan/",
     "/home/sports/battery/windowreedswitch/",
     "/home/sports/powerplug/a5c5/",
     "/home/sports/powerplug/a7c3/",
@@ -79,7 +82,6 @@
     "/home/sports/button/pathwaybelowbutton_5/",
     "/home/sports/depthcamera/asus_90iw0122-b01ua_e3iwbda33550/",
     "/home/sports/ambientlight/llampentrance5/",
-    "/home/sports/button/pathwaybelowbutton_1/",
     "/home/sports/motionsensor/interaction/",
     "/home/sports/rgbcamera/asus_90iw0122-b01ua_e3iwbda33550/",
     "/home/sports/ambientlight/llampentrance1/",
@@ -94,21 +96,9 @@
       "sports"
     ]
   },
-  "position": {
-    "translation": {
-      "x": 7.9275,
-      "y": 8.6583,
-      "z": 0.0
-    },
-    "rotation": {
-      "qw": 6.123233995736766E-17,
-      "qx": 0.0,
-      "qy": 0.0,
-      "qz": 1.0
-    }
-  },
   "placement_config": {
-    "transformation_frame_id": "sports",
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+    "transformation_frame_id": "Sports",
     "position": {
       "translation": {
         "x": 7.9275,
@@ -177,5 +167,9 @@
       ]
     }
   },
-  "meta_config": {}
+  "meta_config": {},
+  "tile_config": {
+    "type": "ROOM",
+    "meta_config": {}
+  }
 }

@@ -3,7 +3,7 @@
   "label": "EntranceButtons",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-    "transformation_frame_id": "entrancebuttons",
+    "transformation_frame_id": "EntranceButtons",
     "position": {
       "translation": {
         "x": 0.0,
@@ -102,7 +102,7 @@
       "type": "BUTTON",
       "placement_config": {
         "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-        "transformation_frame_id": "wardrobe_reset",
+        "transformation_frame_id": "Wardrobe_reset",
         "position": {
           "translation": {
             "x": 0.0,
@@ -209,14 +209,14 @@
       "meta_config": {}
     },
     {
-      "id": "/home/wardrobe/button/lighthereonly/",
+      "id": "/home/wardrobe/button/resetconfig/",
       "unit_template_config_id": "Gira_429496730210000_BUTTON_3",
-      "label": "lighthereonly",
+      "label": "resetconfig",
       "device_id": "Gira_429496730210000_433826759820000",
       "type": "BUTTON",
       "placement_config": {
         "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-        "transformation_frame_id": "lighthereonly",
+        "transformation_frame_id": "resetconfig",
         "position": {
           "translation": {
             "x": 0.0,
@@ -237,7 +237,7 @@
           "home",
           "wardrobe",
           "button",
-          "lighthereonly"
+          "resetconfig"
         ]
       },
       "bound_to_device": true,
@@ -253,12 +253,12 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_wardrobe__Button__lighthereonly__ButtonProvider"
+                  "value": "Gira_5133__home_wardrobe__Button__resetconfig__ButtonProvider"
                 }
               ]
             }
           },
-          "unit_id": "/home/wardrobe/button/lighthereonly/",
+          "unit_id": "/home/wardrobe/button/resetconfig/",
           "type": "BUTTON_PROVIDER",
           "meta_config": {}
         }
@@ -273,7 +273,7 @@
       "type": "BUTTON",
       "placement_config": {
         "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-        "transformation_frame_id": "wardrobelight",
+        "transformation_frame_id": "WardrobeLight",
         "position": {
           "translation": {
             "x": 0.0,
@@ -330,7 +330,7 @@
       "type": "BUTTON",
       "placement_config": {
         "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-        "transformation_frame_id": "wardrobe_apartmentlight",
+        "transformation_frame_id": "Wardrobe_ApartmentLight",
         "position": {
           "translation": {
             "x": 0.0,

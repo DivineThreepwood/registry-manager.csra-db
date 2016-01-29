@@ -1,8 +1,8 @@
 {
   "id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
   "label": "Control",
+  "type": "TILE",
   "root": false,
-  "parent_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
   "unit_id": [
     "/home/control/powerplug/a10c1/",
     "/home/control/powerconsumptionsensor/a11c6consumption/",
@@ -66,21 +66,9 @@
       "control"
     ]
   },
-  "position": {
-    "translation": {
-      "x": 6.7393,
-      "y": 0.0,
-      "z": 0.0
-    },
-    "rotation": {
-      "qw": 1.0,
-      "qx": 0.0,
-      "qy": 0.0,
-      "qz": 0.0
-    }
-  },
   "placement_config": {
-    "transformation_frame_id": "control",
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+    "transformation_frame_id": "Control",
     "position": {
       "translation": {
         "x": 6.7393,
@@ -95,5 +83,9 @@
       }
     }
   },
-  "meta_config": {}
+  "meta_config": {},
+  "tile_config": {
+    "type": "ROOM",
+    "meta_config": {}
+  }
 }

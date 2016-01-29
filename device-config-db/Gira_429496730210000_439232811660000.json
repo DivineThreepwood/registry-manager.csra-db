@@ -3,7 +3,7 @@
   "label": "DoorButtons",
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-    "transformation_frame_id": "doorbuttons",
+    "transformation_frame_id": "DoorButtons",
     "position": {
       "translation": {
         "x": 0.0,
@@ -45,7 +45,7 @@
       "type": "BUTTON",
       "placement_config": {
         "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-        "transformation_frame_id": "doorbutton_1",
+        "transformation_frame_id": "DoorButton_1",
         "position": {
           "translation": {
             "x": 0.0,
@@ -102,7 +102,7 @@
       "type": "BUTTON",
       "placement_config": {
         "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-        "transformation_frame_id": "doorbutton_2",
+        "transformation_frame_id": "DoorButton_2",
         "position": {
           "translation": {
             "x": 0.0,
@@ -159,7 +159,7 @@
       "type": "BUTTON",
       "placement_config": {
         "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-        "transformation_frame_id": "doorbutton_3",
+        "transformation_frame_id": "DoorButton_3",
         "position": {
           "translation": {
             "x": 0.0,
@@ -216,7 +216,7 @@
       "type": "BUTTON",
       "placement_config": {
         "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-        "transformation_frame_id": "doorbutton_4",
+        "transformation_frame_id": "DoorButton_4",
         "position": {
           "translation": {
             "x": 0.0,
@@ -273,7 +273,7 @@
       "type": "BUTTON",
       "placement_config": {
         "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-        "transformation_frame_id": "kitchenlight",
+        "transformation_frame_id": "KitchenLight",
         "position": {
           "translation": {
             "x": 0.0,
@@ -330,7 +330,7 @@
       "type": "BUTTON",
       "placement_config": {
         "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-        "transformation_frame_id": "apartmentlight",
+        "transformation_frame_id": "ApartmentLight",
         "position": {
           "translation": {
             "x": 0.0,

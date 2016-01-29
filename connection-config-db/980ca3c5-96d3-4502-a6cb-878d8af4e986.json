@@ -1,0 +1,58 @@
+{
+  "id": "980ca3c5-96d3-4502-a6cb-878d8af4e986",
+  "label": "Living Window Center",
+  "type": "WINDOW",
+  "tile_id": [
+    "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "9be1344a-41f1-406b-bdae-41bfd5368f13"
+  ],
+  "scope": {
+    "component": [
+      "home",
+      "window",
+      "living_window_center"
+    ]
+  },
+  "placement_config": {
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+    "transformation_frame_id": "Living_Window_Center",
+    "position": {
+      "translation": {
+        "x": 1.32,
+        "y": 8.6583,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {
+      "floor": [
+        {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "x": 0.0,
+          "y": 0.2,
+          "z": 0.0
+        },
+        {
+          "x": 1.14,
+          "y": 0.2,
+          "z": 0.0
+        },
+        {
+          "x": 1.14,
+          "y": 0.0,
+          "z": 0.0
+        }
+      ]
+    }
+  },
+  "meta_config": {}
+}

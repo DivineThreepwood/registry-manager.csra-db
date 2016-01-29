@@ -3,7 +3,6 @@
   "label": "Living",
   "type": "TILE",
   "root": false,
-  "parent_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
   "child_id": [
     "eb89de19-36db-4f26-b8a5-a75df850892e",
     "0df5bbb8-2d17-4f81-9b34-314a26ae713a",
@@ -59,6 +58,7 @@
     "/home/living/depthcamera/asus_90iw0122-b01ua_e3iwbda34145/",
     "/home/living/dining/powerplug/a5c2/",
     "/home/living/motionsensor/couch/",
+    "/home/living/lounge/ambientlight/loungelamp/",
     "/home/living/dining/powerconsumptionsensor/a5c1consumption/",
     "/home/living/ambientlight/table_0/",
     "/home/living/dining/powerconsumptionsensor/a5c2consumption/",
@@ -84,7 +84,6 @@
     "/home/living/audiosource/asus_90iw0122-b01ua_e3iwbda34152/",
     "/home/living/dining/button/button_4/",
     "/home/living/hometheater/powerconsumptionsensor/a5c3consumption/",
-    "/home/living/ambientlight/loungelamp/",
     "/home/living/handlesensor/rightwindowhandlesensor/",
     "/home/living/battery/table/",
     "/home/living/motionsensor/media/",
@@ -133,21 +132,9 @@
       "living"
     ]
   },
-  "position": {
-    "translation": {
-      "x": 0.0,
-      "y": 8.6583,
-      "z": 3.3
-    },
-    "rotation": {
-      "qw": 6.123233995736766E-17,
-      "qx": 1.0,
-      "qy": 0.0,
-      "qz": 0.0
-    }
-  },
   "placement_config": {
-    "transformation_frame_id": "living",
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+    "transformation_frame_id": "Living",
     "position": {
       "translation": {
         "x": 0.0,
@@ -206,5 +193,9 @@
       ]
     }
   },
-  "meta_config": {}
+  "meta_config": {},
+  "tile_config": {
+    "type": "ROOM",
+    "meta_config": {}
+  }
 }

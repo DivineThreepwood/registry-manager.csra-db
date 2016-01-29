@@ -51,6 +51,7 @@
     "/home/kitchen/ambientlight/502/",
     "/home/sports/button/pathwaybelowbutton_6/",
     "/home/living/motionsensor/couch/",
+    "/home/sports/button/elan/",
     "/home/living/ambientlight/table_0/",
     "/home/living/dimmer/rightdimmer/",
     "/home/sports/handlesensor/windowhandlesensor/",
@@ -110,6 +111,7 @@
     "/home/kitchen/depthcamera/asus_90iw0122-b01ua_e3iwbda34154/",
     "/home/bath/ambientlight/global_1/",
     "/home/living/dining/powerplug/a2c6/",
+    "/home/wardrobe/button/resetconfig/",
     "/home/sports/powerplug/a7c2/",
     "/home/living/hometheater/powerconsumptionsensor/a4c2consumption/",
     "/home/control/powerconsumptionsensor/a11c6consumption/",
@@ -140,6 +142,7 @@
     "/home/kitchen/audiosource/asus_90iw0122-b01ua_e3iwbda34146/",
     "/home/control/ambientlight/testunit_0/",
     "/home/sports/powerplug/a7c3/",
+    "/home/living/lounge/ambientlight/loungelamp/",
     "/home/control/powerconsumptionsensor/a10c2consumption/",
     "/home/control/powerconsumptionsensor/a10c6consumption/",
     "/home/sports/powerconsumptionsensor/a9c3consumption/",
@@ -311,6 +314,7 @@
     "/home/living/depthcamera/asus_90iw0122-b01ua_e3iwbda34183/",
     "/home/control/powerconsumptionsensor/a11c4consumption/",
     "/home/living/battery/rightwindowhandlesensor/",
+    "/home/sports/button/debug/",
     "/home/living/lounge/powerconsumptionsensor/a2c3consumption/",
     "/home/bath/brightnesssensor/shower/",
     "/home/control/powerconsumptionsensor/a11c5consumption/",
@@ -362,7 +366,6 @@
     "/home/sports/rgbcamera/asus_90iw0122-b01ua_e3iwbda33878/",
     "/home/living/hometheater/powerconsumptionsensor/a5c3consumption/",
     "/home/kitchen/battery/global/",
-    "/home/living/ambientlight/loungelamp/",
     "/home/living/battery/table/",
     "/home/wardrobe/button/findkeys/",
     "/home/control/powerplug/a1c6/",
@@ -382,12 +385,10 @@
     "/home/living/dining/button/apartmentlight/",
     "/home/kitchen/powerplug/a3c4/",
     "/home/living/rollershutter/middleinside/",
-    "/home/wardrobe/button/lighthereonly/",
     "/home/living/battery/couch/",
     "/home/sports/ambientlight/llampentrance6/",
     "/home/living/rgbcamera/asus_90iw0122-b01ua_e3iwbda34145/",
     "/home/wardrobe/motionsensor/entrance/",
-    "/home/sports/button/pathwaybelowbutton_2/",
     "/home/sports/powerconsumptionsensor/a6c1consumption/",
     "/home/kitchen/powerconsumptionsensor/a4c1consumption/",
     "/home/wardrobe/temperaturesensor/hallway/",
@@ -399,7 +400,6 @@
     "/home/sports/depthcamera/asus_90iw0122-b01ua_e3iwbda33878/",
     "/home/kitchen/powerplug/a3c5/",
     "/home/sports/ambientlight/llampentrance5/",
-    "/home/sports/button/pathwaybelowbutton_1/",
     "/home/sports/audiosource/asus_90iw0122-b01ua_e3iwbda34149/",
     "/home/bath/tamperswitch/shower/",
     "/home/sports/rollershutter/outside/"
@@ -409,21 +409,9 @@
       "home"
     ]
   },
-  "position": {
-    "translation": {
-      "x": 0.0,
-      "y": 0.0,
-      "z": 0.0
-    },
-    "rotation": {
-      "qw": 1.0,
-      "qx": 0.0,
-      "qy": 0.0,
-      "qz": 0.0
-    }
-  },
   "placement_config": {
-    "transformation_frame_id": "home",
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+    "transformation_frame_id": "Home",
     "position": {
       "translation": {
         "x": 0.0,

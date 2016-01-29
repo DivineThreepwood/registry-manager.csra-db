@@ -3,7 +3,7 @@
   "label": "Entrance",
   "placement_config": {
     "location_id": "9be1344a-41f1-406b-bdae-41bfd5368f13",
-    "transformation_frame_id": "outdoor_entrance",
+    "transformation_frame_id": "Outdoor_Entrance",
     "position": {
       "translation": {
         "x": 0.0,
@@ -44,7 +44,7 @@
       "type": "BATTERY",
       "placement_config": {
         "location_id": "9be1344a-41f1-406b-bdae-41bfd5368f13",
-        "transformation_frame_id": "outdoor_entrance",
+        "transformation_frame_id": "Outdoor_Entrance",
         "position": {
           "translation": {
             "x": 0.0,
@@ -96,7 +96,7 @@
       "type": "BRIGHTNESS_SENSOR",
       "placement_config": {
         "location_id": "9be1344a-41f1-406b-bdae-41bfd5368f13",
-        "transformation_frame_id": "outdoor_entrance",
+        "transformation_frame_id": "Outdoor_Entrance",
         "position": {
           "translation": {
             "x": 0.0,
@@ -148,7 +148,7 @@
       "type": "MOTION_SENSOR",
       "placement_config": {
         "location_id": "9be1344a-41f1-406b-bdae-41bfd5368f13",
-        "transformation_frame_id": "outdoor_entrance",
+        "transformation_frame_id": "Outdoor_Entrance",
         "position": {
           "translation": {
             "x": 0.0,
@@ -200,7 +200,7 @@
       "type": "TAMPER_SWITCH",
       "placement_config": {
         "location_id": "9be1344a-41f1-406b-bdae-41bfd5368f13",
-        "transformation_frame_id": "outdoor_entrance",
+        "transformation_frame_id": "Outdoor_Entrance",
         "position": {
           "translation": {
             "x": 0.0,
@@ -252,7 +252,7 @@
       "type": "TEMPERATURE_SENSOR",
       "placement_config": {
         "location_id": "9be1344a-41f1-406b-bdae-41bfd5368f13",
-        "transformation_frame_id": "outdoor_entrance",
+        "transformation_frame_id": "Outdoor_Entrance",
         "position": {
           "translation": {
             "x": 0.0,

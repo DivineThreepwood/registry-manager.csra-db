@@ -3,7 +3,7 @@
   "label": "ControlButtons",
   "placement_config": {
     "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
-    "transformation_frame_id": "controlbuttons",
+    "transformation_frame_id": "ControlButtons",
     "position": {
       "translation": {
         "x": 0.0,
@@ -45,7 +45,7 @@
       "type": "TEMPERATURE_CONTROLLER",
       "placement_config": {
         "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
-        "transformation_frame_id": "temperaturecontrollerliving",
+        "transformation_frame_id": "TemperatureControllerLiving",
         "position": {
           "translation": {
             "x": 0.0,
@@ -126,7 +126,7 @@
       "type": "BUTTON",
       "placement_config": {
         "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
-        "transformation_frame_id": "dining_button_1",
+        "transformation_frame_id": "Dining_Button_1",
         "position": {
           "translation": {
             "x": 0.0,
@@ -183,7 +183,7 @@
       "type": "BUTTON",
       "placement_config": {
         "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
-        "transformation_frame_id": "dining_button_2",
+        "transformation_frame_id": "Dining_Button_2",
         "position": {
           "translation": {
             "x": 0.0,
@@ -240,7 +240,7 @@
       "type": "BUTTON",
       "placement_config": {
         "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
-        "transformation_frame_id": "dining_button_3",
+        "transformation_frame_id": "Dining_Button_3",
         "position": {
           "translation": {
             "x": 0.0,
@@ -297,7 +297,7 @@
       "type": "BUTTON",
       "placement_config": {
         "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
-        "transformation_frame_id": "dining_button_4",
+        "transformation_frame_id": "Dining_Button_4",
         "position": {
           "translation": {
             "x": 0.0,

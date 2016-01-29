@@ -3,7 +3,7 @@
   "label": "SportsToControlReedSwitch",
   "placement_config": {
     "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
-    "transformation_frame_id": "sportstocontrolreedswitch",
+    "transformation_frame_id": "SportsToControlReedSwitch",
     "position": {
       "translation": {
         "x": 0.0,
@@ -44,7 +44,7 @@
       "type": "BATTERY",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
-        "transformation_frame_id": "sportstocontrolreedswitch",
+        "transformation_frame_id": "SportsToControlReedSwitch",
         "position": {
           "translation": {
             "x": 0.0,
@@ -96,7 +96,7 @@
       "type": "REED_SWITCH",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
-        "transformation_frame_id": "sports_sportstocontrolreedswitch",
+        "transformation_frame_id": "Sports_SportsToControlReedSwitch",
         "position": {
           "translation": {
             "x": 0.0,

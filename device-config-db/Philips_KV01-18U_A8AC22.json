@@ -3,7 +3,7 @@
   "label": "LLampEntrance2",
   "placement_config": {
     "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
-    "transformation_frame_id": "llampentrance2",
+    "transformation_frame_id": "LLampEntrance2",
     "position": {
       "translation": {
         "x": 0.0,
@@ -44,7 +44,7 @@
       "type": "AMBIENT_LIGHT",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
-        "transformation_frame_id": "llampentrance2",
+        "transformation_frame_id": "LLampEntrance2",
         "position": {
           "translation": {
             "x": 0.0,
@@ -76,7 +76,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philps_Hue_E27__home_sports__AmbientLight__LLampEntrance2__BrightnessService"
+                  "value": "Philips_Hue_E27__home_sports__AmbientLight__LLampEntrance2__BrightnessService"
                 }
               ]
             }
@@ -92,7 +92,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philps_Hue_E27__home_sports__AmbientLight__LLampEntrance2__ColorService"
+                  "value": "Philips_Hue_E27__home_sports__AmbientLight__LLampEntrance2__ColorService"
                 }
               ]
             }
@@ -108,7 +108,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philps_Hue_E27__home_sports__AmbientLight__LLampEntrance2__PowerService"
+                  "value": "Philips_Hue_E27__home_sports__AmbientLight__LLampEntrance2__PowerService"
                 }
               ]
             }

@@ -3,11 +3,11 @@
   "label": "Hallway_1",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-    "transformation_frame_id": "hallway_1",
+    "transformation_frame_id": "Hallway_1",
     "position": {
       "translation": {
-        "x": 0.0,
-        "y": 0.0,
+        "x": 0.574,
+        "y": 3.981,
         "z": 0.0
       },
       "rotation": {
@@ -44,11 +44,11 @@
       "type": "AMBIENT_LIGHT",
       "placement_config": {
         "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-        "transformation_frame_id": "hallway_1",
+        "transformation_frame_id": "Hallway_1",
         "position": {
           "translation": {
-            "x": 0.0,
-            "y": 0.0,
+            "x": 0.574,
+            "y": 3.981,
             "z": 0.0
           },
           "rotation": {
@@ -76,7 +76,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philps_Hue_E27__home_wardrobe__AmbientLight__Hallway_1__BrightnessService"
+                  "value": "Philips_Hue_E27__home_wardrobe__AmbientLight__Hallway_1__BrightnessService"
                 }
               ]
             }
@@ -92,7 +92,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philps_Hue_E27__home_wardrobe__AmbientLight__Hallway_1__ColorService"
+                  "value": "Philips_Hue_E27__home_wardrobe__AmbientLight__Hallway_1__ColorService"
                 }
               ]
             }
@@ -108,7 +108,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philps_Hue_E27__home_wardrobe__AmbientLight__Hallway_1__PowerService"
+                  "value": "Philips_Hue_E27__home_wardrobe__AmbientLight__Hallway_1__PowerService"
                 }
               ]
             }

@@ -3,7 +3,7 @@
   "label": "LLamp5",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "llamp5",
+    "transformation_frame_id": "LLamp5",
     "position": {
       "translation": {
         "x": 0.0,
@@ -44,7 +44,7 @@
       "type": "AMBIENT_LIGHT",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-        "transformation_frame_id": "llamp5",
+        "transformation_frame_id": "LLamp5",
         "position": {
           "translation": {
             "x": 0.0,
@@ -76,7 +76,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philps_Hue_E27__home_living__AmbientLight__LLamp5__BrightnessService"
+                  "value": "Philips_Hue_E27__home_living__AmbientLight__LLamp5__BrightnessService"
                 }
               ]
             }
@@ -92,7 +92,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philps_Hue_E27__home_living__AmbientLight__LLamp5__ColorService"
+                  "value": "Philips_Hue_E27__home_living__AmbientLight__LLamp5__ColorService"
                 }
               ]
             }
@@ -108,7 +108,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philps_Hue_E27__home_living__AmbientLight__LLamp5__PowerService"
+                  "value": "Philips_Hue_E27__home_living__AmbientLight__LLamp5__PowerService"
                 }
               ]
             }

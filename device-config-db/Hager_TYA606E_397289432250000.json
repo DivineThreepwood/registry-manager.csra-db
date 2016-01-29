@@ -3,7 +3,7 @@
   "label": "PowerActuator8",
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
-    "transformation_frame_id": "poweractuator8",
+    "transformation_frame_id": "PowerActuator8",
     "position": {
       "translation": {
         "x": 0.0,
@@ -45,7 +45,7 @@
       "type": "POWER_PLUG",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-        "transformation_frame_id": "a8c1",
+        "transformation_frame_id": "A8C1",
         "position": {
           "translation": {
             "x": 0.0,
@@ -102,7 +102,7 @@
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-        "transformation_frame_id": "a8c1consumption",
+        "transformation_frame_id": "A8C1Consumption",
         "position": {
           "translation": {
             "x": 0.0,
@@ -159,7 +159,7 @@
       "type": "POWER_PLUG",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-        "transformation_frame_id": "a8c2",
+        "transformation_frame_id": "A8C2",
         "position": {
           "translation": {
             "x": 0.0,
@@ -217,7 +217,7 @@
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-        "transformation_frame_id": "a8c2consumption",
+        "transformation_frame_id": "A8C2Consumption",
         "position": {
           "translation": {
             "x": 0.0,
@@ -275,7 +275,7 @@
       "type": "POWER_PLUG",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-        "transformation_frame_id": "a8c3",
+        "transformation_frame_id": "A8C3",
         "position": {
           "translation": {
             "x": 0.0,
@@ -333,7 +333,7 @@
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-        "transformation_frame_id": "a8c3consumption",
+        "transformation_frame_id": "A8C3Consumption",
         "position": {
           "translation": {
             "x": 0.0,
@@ -391,7 +391,7 @@
       "type": "POWER_PLUG",
       "placement_config": {
         "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-        "transformation_frame_id": "a8c4",
+        "transformation_frame_id": "A8C4",
         "position": {
           "translation": {
             "x": 0.0,
@@ -449,7 +449,7 @@
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
         "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-        "transformation_frame_id": "a8c4consumption",
+        "transformation_frame_id": "A8C4Consumption",
         "position": {
           "translation": {
             "x": 0.0,
@@ -507,7 +507,7 @@
       "type": "POWER_PLUG",
       "placement_config": {
         "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-        "transformation_frame_id": "a8c5",
+        "transformation_frame_id": "A8C5",
         "position": {
           "translation": {
             "x": 0.0,
@@ -565,7 +565,7 @@
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
         "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-        "transformation_frame_id": "a8c5consumption",
+        "transformation_frame_id": "A8C5Consumption",
         "position": {
           "translation": {
             "x": 0.0,
@@ -623,7 +623,7 @@
       "type": "POWER_PLUG",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
-        "transformation_frame_id": "a8c6",
+        "transformation_frame_id": "A8C6",
         "position": {
           "translation": {
             "x": 0.0,
@@ -680,7 +680,7 @@
       "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
-        "transformation_frame_id": "a8c6consumption",
+        "transformation_frame_id": "A8C6Consumption",
         "position": {
           "translation": {
             "x": 0.0,

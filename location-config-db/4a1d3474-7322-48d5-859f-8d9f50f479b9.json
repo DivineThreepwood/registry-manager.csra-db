@@ -3,15 +3,17 @@
   "label": "Wardrobe",
   "type": "TILE",
   "root": false,
-  "parent_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+  "child_id": [
+    "cff20d86-c7e8-4d12-87e1-ebc67c7e0c93"
+  ],
   "unit_id": [
     "/home/wardrobe/button/lighthereon/",
+    "/home/wardrobe/button/resetconfig/",
     "/home/wardrobe/audiosource/asus_90iw0122-b01ua_e3iwbda33551/",
     "/home/wardrobe/button/learnperson/",
     "/home/wardrobe/rgbcamera/asus_90iw0122-b01ua_e3iwbda34151/",
     "/home/wardrobe/battery/hallway/",
     "/home/wardrobe/depthcamera/asus_90iw0122-b01ua_e3iwbda34151/",
-    "/home/wardrobe/button/lighthereonly/",
     "/home/wardrobe/button/lighthereoff/",
     "/home/wardrobe/powerconsumptionsensor/a8c4consumption/",
     "/home/wardrobe/button/goodbye/",
@@ -56,21 +58,9 @@
       "wardrobe"
     ]
   },
-  "position": {
-    "translation": {
-      "x": 2.543,
-      "y": 0.0,
-      "z": 0.0
-    },
-    "rotation": {
-      "qw": 1.0,
-      "qx": 0.0,
-      "qy": 0.0,
-      "qz": 0.0
-    }
-  },
   "placement_config": {
-    "transformation_frame_id": "wardrobe",
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+    "transformation_frame_id": "Wardrobe",
     "position": {
       "translation": {
         "x": 2.543,
@@ -129,5 +119,9 @@
       ]
     }
   },
-  "meta_config": {}
+  "meta_config": {},
+  "tile_config": {
+    "type": "ROOM",
+    "meta_config": {}
+  }
 }

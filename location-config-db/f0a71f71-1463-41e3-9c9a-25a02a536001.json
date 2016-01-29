@@ -3,7 +3,6 @@
   "label": "Kitchen",
   "type": "TILE",
   "root": false,
-  "parent_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
   "unit_id": [
     "/home/kitchen/rgbcamera/asus_90iw0122-b01ua_e3iwbda34154/",
     "/home/kitchen/ambientlight/ceilinglamp_4/",
@@ -60,21 +59,9 @@
       "kitchen"
     ]
   },
-  "position": {
-    "translation": {
-      "x": 0.0,
-      "y": 0.0,
-      "z": 0.0
-    },
-    "rotation": {
-      "qw": 1.0,
-      "qx": 0.0,
-      "qy": 0.0,
-      "qz": 0.0
-    }
-  },
   "placement_config": {
-    "transformation_frame_id": "kitchen",
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+    "transformation_frame_id": "Kitchen",
     "position": {
       "translation": {
         "x": 0.0,
@@ -113,5 +100,9 @@
       ]
     }
   },
-  "meta_config": {}
+  "meta_config": {},
+  "tile_config": {
+    "type": "ROOM",
+    "meta_config": {}
+  }
 }

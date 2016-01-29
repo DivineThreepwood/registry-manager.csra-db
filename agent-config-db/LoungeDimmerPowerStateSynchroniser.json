@@ -1,7 +1,14 @@
 {
   "id": "LoungeDimmerPowerStateSynchroniser",
   "label": "LoungeDimmerPowerStateSynchroniser",
-  "scope": {},
+  "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+  "scope": {
+    "component": [
+      "home",
+      "powerstatesynchroniser",
+      "loungedimmerpowerstatesynchroniser"
+    ]
+  },
   "meta_config": {
     "entry": [
       {

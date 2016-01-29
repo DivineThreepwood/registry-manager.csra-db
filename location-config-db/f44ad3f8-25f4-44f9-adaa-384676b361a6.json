@@ -3,7 +3,10 @@
   "label": "Bath",
   "type": "TILE",
   "root": false,
-  "parent_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+  "child_id": [
+    "f5dd3070-a8fc-46ae-9a18-e0adc7130c73",
+    "cd696027-fb4f-497c-af30-144859a462da"
+  ],
   "unit_id": [
     "/home/bath/battery/shower/",
     "/home/bath/button/button_4/",
@@ -52,21 +55,9 @@
       "bath"
     ]
   },
-  "position": {
-    "translation": {
-      "x": 4.3256,
-      "y": 0.2522,
-      "z": 0.0
-    },
-    "rotation": {
-      "qw": 1.0,
-      "qx": 0.0,
-      "qy": 0.0,
-      "qz": 0.0
-    }
-  },
   "placement_config": {
-    "transformation_frame_id": "bath",
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+    "transformation_frame_id": "Bath",
     "position": {
       "translation": {
         "x": 4.3256,
@@ -125,5 +116,9 @@
       ]
     }
   },
-  "meta_config": {}
+  "meta_config": {},
+  "tile_config": {
+    "type": "ROOM",
+    "meta_config": {}
+  }
 }

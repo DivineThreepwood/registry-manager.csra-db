@@ -3,7 +3,7 @@
   "label": "TestUnit_0",
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
-    "transformation_frame_id": "testunit_0",
+    "transformation_frame_id": "TestUnit_0",
     "position": {
       "translation": {
         "x": 0.0,
@@ -44,7 +44,7 @@
       "type": "AMBIENT_LIGHT",
       "placement_config": {
         "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
-        "transformation_frame_id": "testunit_0",
+        "transformation_frame_id": "TestUnit_0",
         "position": {
           "translation": {
             "x": 0.0,
@@ -76,7 +76,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philps_Hue_E27__home_control__AmbientLight__TestUnit_0__BrightnessService"
+                  "value": "Philips_Hue_E27__home_control__AmbientLight__TestUnit_0__BrightnessService"
                 }
               ]
             }
@@ -92,7 +92,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philps_Hue_E27__home_control__AmbientLight__TestUnit_0__ColorService"
+                  "value": "Philips_Hue_E27__home_control__AmbientLight__TestUnit_0__ColorService"
                 }
               ]
             }
@@ -108,7 +108,7 @@
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philps_Hue_E27__home_control__AmbientLight__TestUnit_0__PowerService"
+                  "value": "Philips_Hue_E27__home_control__AmbientLight__TestUnit_0__PowerService"
                 }
               ]
             }

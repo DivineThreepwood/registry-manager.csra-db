@@ -1,0 +1,18 @@
+{
+  "id": "SoundScape",
+  "label": "SoundScape",
+  "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+  "scope": {
+    "component": [
+      "home",
+      "bath",
+      "soundscape",
+      "soundscape"
+    ]
+  },
+  "meta_config": {},
+  "activation_state": {
+    "value": "DEACTIVE"
+  },
+  "type": "SOUND_SCAPE"
+}
