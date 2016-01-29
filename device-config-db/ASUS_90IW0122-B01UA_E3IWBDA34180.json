@@ -16,7 +16,8 @@
         "qy": 0.0,
         "qz": 0.0
       }
-    }
+    },
+    "shape": {}
   },
   "scope": {
     "component": [
@@ -28,12 +29,12 @@
   "inventory_state": {
     "value": "BORROWED",
     "timestamp": {
-      "time": 1437665647239
+      "time": 1453816251443
     },
     "owner": {
-      "first_name": "Kai",
-      "last_name": "Konen",
-      "user_name": "kkonen"
+      "first_name": "Timo",
+      "last_name": "Korthals",
+      "user_name": "tkorthals"
     }
   },
   "device_class_id": "ASUS_90IW0122-B01UA",
@@ -59,7 +60,8 @@
             "qy": 0.0,
             "qz": 0.0
           }
-        }
+        },
+        "shape": {}
       },
       "scope": {
         "component": [
@@ -68,7 +70,8 @@
           "asus_90iw0122-b01ua_e3iwbda34180"
         ]
       },
-      "bound_to_device": true
+      "bound_to_device": true,
+      "meta_config": {}
     },
     {
       "id": "/home/depthcamera/asus_90iw0122-b01ua_e3iwbda34180/",
@@ -91,7 +94,8 @@
             "qy": 0.0,
             "qz": 0.0
           }
-        }
+        },
+        "shape": {}
       },
       "scope": {
         "component": [
@@ -100,7 +104,8 @@
           "asus_90iw0122-b01ua_e3iwbda34180"
         ]
       },
-      "bound_to_device": true
+      "bound_to_device": true,
+      "meta_config": {}
     },
     {
       "id": "/home/audiosource/asus_90iw0122-b01ua_e3iwbda34180/",
@@ -123,7 +128,8 @@
             "qy": 0.0,
             "qz": 0.0
           }
-        }
+        },
+        "shape": {}
       },
       "scope": {
         "component": [
@@ -132,7 +138,8 @@
           "asus_90iw0122-b01ua_e3iwbda34180"
         ]
       },
-      "bound_to_device": true
+      "bound_to_device": true,
+      "meta_config": {}
     }
   ],
   "meta_config": {}
