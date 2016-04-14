@@ -87,7 +87,7 @@
             }
           },
           "unit_id": "/home/sports/rollershutter/inside/",
-          "type": "OPENING_RATIO_PROVIDER",
+          "type": "OPENING_RATIO_SERVICE",
           "meta_config": {}
         },
         {
@@ -164,7 +164,7 @@
             }
           },
           "unit_id": "/home/sports/rollershutter/outside/",
-          "type": "OPENING_RATIO_PROVIDER",
+          "type": "OPENING_RATIO_SERVICE",
           "meta_config": {}
         },
         {
@@ -241,7 +241,7 @@
             }
           },
           "unit_id": "/home/living/rollershutter/leftinside/",
-          "type": "OPENING_RATIO_PROVIDER",
+          "type": "OPENING_RATIO_SERVICE",
           "meta_config": {}
         },
         {
@@ -318,7 +318,7 @@
             }
           },
           "unit_id": "/home/living/rollershutter/leftoutside/",
-          "type": "OPENING_RATIO_PROVIDER",
+          "type": "OPENING_RATIO_SERVICE",
           "meta_config": {}
         },
         {
@@ -395,7 +395,7 @@
             }
           },
           "unit_id": "/home/living/rollershutter/middleinside/",
-          "type": "OPENING_RATIO_PROVIDER",
+          "type": "OPENING_RATIO_SERVICE",
           "meta_config": {}
         },
         {
@@ -472,7 +472,7 @@
             }
           },
           "unit_id": "/home/living/rollershutter/middleoutside/",
-          "type": "OPENING_RATIO_PROVIDER",
+          "type": "OPENING_RATIO_SERVICE",
           "meta_config": {}
         },
         {
@@ -549,7 +549,7 @@
             }
           },
           "unit_id": "/home/living/rollershutter/rightinside/",
-          "type": "OPENING_RATIO_PROVIDER",
+          "type": "OPENING_RATIO_SERVICE",
           "meta_config": {}
         },
         {
@@ -626,7 +626,7 @@
             }
           },
           "unit_id": "/home/living/rollershutter/rightoutside/",
-          "type": "OPENING_RATIO_PROVIDER",
+          "type": "OPENING_RATIO_SERVICE",
           "meta_config": {}
         },
         {
