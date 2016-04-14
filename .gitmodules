@@ -1,6 +1,6 @@
 [submodule "device-class-db"]
 	path = device-class-db
-	url = https://github.com/DivineThreepwood/registry-manager.device-class-db.git
+	url = https://github.com/divinecooperation/bco.registry.device-class-db.git
 [submodule "unit-template-db"]
 	path = unit-template-db
-	url = https://github.com/DivineThreepwood/registry-manager.unit-template-db.git
+	url = https://github.com/divinecooperation/bco.registry.unit-template-db.git
