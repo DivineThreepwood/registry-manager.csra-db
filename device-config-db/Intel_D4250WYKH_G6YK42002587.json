@@ -27,17 +27,13 @@
   },
   "serial_number": "G6YK42002587",
   "description": "\"Windows NUC\"",
+  "device_class_id": "Intel_D4250WYKH",
+  "meta_config": {},
   "inventory_state": {
     "value": "BORROWED",
     "timestamp": {
       "time": 1442512262253
     },
-    "owner": {
-      "first_name": "Michael",
-      "last_name": "Goerlich",
-      "user_name": "mgoerlic"
-    }
-  },
-  "device_class_id": "Intel_D4250WYKH",
-  "meta_config": {}
+    "owner_id": ""
+  }
 }

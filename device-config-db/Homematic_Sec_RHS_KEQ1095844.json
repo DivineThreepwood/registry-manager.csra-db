@@ -26,22 +26,21 @@
     ]
   },
   "serial_number": "KEQ1095844",
+  "device_class_id": "Homematic_Sec_RHS",
+  "meta_config": {},
   "inventory_state": {
     "value": "INSTALLED",
     "location_id": "Sports",
     "timestamp": {
       "time": 1441013659585
     },
-    "owner": {}
+    "owner_id": ""
   },
-  "device_class_id": "Homematic_Sec_RHS",
   "unit_config": [
     {
       "id": "/home/sports/battery/windowhandlesensor/",
-      "unit_template_config_id": "Homematic_Sec_RHS_BATTERY_0",
       "label": "WindowHandleSensor",
       "device_id": "Homematic_Sec_RHS_KEQ1095844",
-      "type": "BATTERY",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "transformation_frame_id": "WindowHandleSensor",
@@ -67,11 +66,16 @@
           "windowhandlesensor"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "BATTERY",
+      "unit_template_config_id": "Homematic_Sec_RHS_BATTERY_0",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/sports/battery/windowhandlesensor/",
+          "meta_config": {},
+          "type": "BATTERY_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -79,21 +83,16 @@
                   "value": "Homematic_Sec_RHS__home_sports__Battery__WindowHandleSensor__BatteryProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/sports/battery/windowhandlesensor/",
-          "type": "BATTERY_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/sports/handlesensor/windowhandlesensor/",
-      "unit_template_config_id": "Homematic_Sec_RHS_HANDLE_SENSOR_0",
       "label": "WindowHandleSensor",
       "device_id": "Homematic_Sec_RHS_KEQ1095844",
-      "type": "HANDLE_SENSOR",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "transformation_frame_id": "Sports_WindowHandleSensor",
@@ -119,11 +118,16 @@
           "windowhandlesensor"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "HANDLE",
+      "unit_template_config_id": "Homematic_Sec_RHS_HANDLE_0",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/sports/handlesensor/windowhandlesensor/",
+          "meta_config": {},
+          "type": "HANDLE_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -131,15 +135,11 @@
                   "value": "Homematic_Sec_RHS__home_sports__HandleSensor__WindowHandleSensor__HandleProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/sports/handlesensor/windowhandlesensor/",
-          "type": "HANDLE_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     }
-  ],
-  "meta_config": {}
+  ]
 }

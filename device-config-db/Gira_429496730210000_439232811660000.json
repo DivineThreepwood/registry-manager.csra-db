@@ -27,22 +27,21 @@
     ]
   },
   "serial_number": "439232811660000",
+  "device_class_id": "Gira_429496730210000",
+  "meta_config": {},
   "inventory_state": {
     "value": "INSTALLED",
     "location_id": "Kitchen",
     "timestamp": {
       "time": 1440773979205
     },
-    "owner": {}
+    "owner_id": ""
   },
-  "device_class_id": "Gira_429496730210000",
   "unit_config": [
     {
       "id": "/home/kitchen/button/doorbutton_1/",
-      "unit_template_config_id": "Gira_429496730210000_BUTTON_0",
       "label": "DoorButton 1",
       "device_id": "Gira_429496730210000_439232811660000",
-      "type": "BUTTON",
       "placement_config": {
         "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
         "transformation_frame_id": "DoorButton_1",
@@ -69,11 +68,16 @@
           "doorbutton_1"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "BUTTON",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_0",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/kitchen/button/doorbutton_1/",
+          "meta_config": {},
+          "type": "BUTTON_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -85,21 +89,16 @@
                   "value": "Gira_5133__home_kitchen__Button__DoorButton_1__ButtonProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/kitchen/button/doorbutton_1/",
-          "type": "BUTTON_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/kitchen/button/doorbutton_2/",
-      "unit_template_config_id": "Gira_429496730210000_BUTTON_1",
       "label": "DoorButton 2",
       "device_id": "Gira_429496730210000_439232811660000",
-      "type": "BUTTON",
       "placement_config": {
         "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
         "transformation_frame_id": "DoorButton_2",
@@ -126,11 +125,16 @@
           "doorbutton_2"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "BUTTON",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_1",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/kitchen/button/doorbutton_2/",
+          "meta_config": {},
+          "type": "BUTTON_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -142,21 +146,16 @@
                   "value": "Gira_5133__home_kitchen__Button__DoorButton_2__ButtonProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/kitchen/button/doorbutton_2/",
-          "type": "BUTTON_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/kitchen/button/doorbutton_3/",
-      "unit_template_config_id": "Gira_429496730210000_BUTTON_2",
       "label": "DoorButton 3",
       "device_id": "Gira_429496730210000_439232811660000",
-      "type": "BUTTON",
       "placement_config": {
         "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
         "transformation_frame_id": "DoorButton_3",
@@ -183,11 +182,16 @@
           "doorbutton_3"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "BUTTON",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_2",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/kitchen/button/doorbutton_3/",
+          "meta_config": {},
+          "type": "BUTTON_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -199,21 +203,16 @@
                   "value": "Gira_5133__home_kitchen__Button__DoorButton_3__ButtonProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/kitchen/button/doorbutton_3/",
-          "type": "BUTTON_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/kitchen/button/doorbutton_4/",
-      "unit_template_config_id": "Gira_429496730210000_BUTTON_3",
       "label": "DoorButton 4",
       "device_id": "Gira_429496730210000_439232811660000",
-      "type": "BUTTON",
       "placement_config": {
         "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
         "transformation_frame_id": "DoorButton_4",
@@ -240,11 +239,16 @@
           "doorbutton_4"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "BUTTON",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_3",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/kitchen/button/doorbutton_4/",
+          "meta_config": {},
+          "type": "BUTTON_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -256,21 +260,16 @@
                   "value": "Gira_5133__home_kitchen__Button__DoorButton_4__ButtonProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/kitchen/button/doorbutton_4/",
-          "type": "BUTTON_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/kitchen/button/kitchenlight/",
-      "unit_template_config_id": "Gira_429496730210000_BUTTON_4",
       "label": "KitchenLight",
       "device_id": "Gira_429496730210000_439232811660000",
-      "type": "BUTTON",
       "placement_config": {
         "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
         "transformation_frame_id": "KitchenLight",
@@ -297,11 +296,16 @@
           "kitchenlight"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "BUTTON",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_4",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/kitchen/button/kitchenlight/",
+          "meta_config": {},
+          "type": "BUTTON_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -313,21 +317,16 @@
                   "value": "Gira_5133__home_kitchen__Button__KitchenLight__ButtonProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/kitchen/button/kitchenlight/",
-          "type": "BUTTON_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/kitchen/button/apartmentlight/",
-      "unit_template_config_id": "Gira_429496730210000_BUTTON_5",
       "label": "ApartmentLight",
       "device_id": "Gira_429496730210000_439232811660000",
-      "type": "BUTTON",
       "placement_config": {
         "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
         "transformation_frame_id": "ApartmentLight",
@@ -354,11 +353,16 @@
           "apartmentlight"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "BUTTON",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_5",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/kitchen/button/apartmentlight/",
+          "meta_config": {},
+          "type": "BUTTON_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -370,15 +374,11 @@
                   "value": "Gira_5133__home_kitchen__Button__ApartmentLight__ButtonProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/kitchen/button/apartmentlight/",
-          "type": "BUTTON_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     }
-  ],
-  "meta_config": {}
+  ]
 }

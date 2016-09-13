@@ -25,21 +25,20 @@
     ]
   },
   "serial_number": "FE544F",
+  "device_class_id": "Philips_KV01-18U",
+  "meta_config": {},
   "inventory_state": {
     "value": "IN_STOCK",
     "timestamp": {
       "time": 1445609543043
     },
-    "owner": {}
+    "owner_id": ""
   },
-  "device_class_id": "Philips_KV01-18U",
   "unit_config": [
     {
       "id": "/home/ambientlight/studtestlamp/",
-      "unit_template_config_id": "Philips_KV01-18U_AMBIENT_LIGHT_0",
       "label": "StudTestLamp",
       "device_id": "Philips_KV01-18U_FE544F",
-      "type": "AMBIENT_LIGHT",
       "placement_config": {
         "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
         "transformation_frame_id": "StudTestLamp",
@@ -64,11 +63,16 @@
           "studtestlamp"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "COLORABLE_LIGHT",
+      "unit_template_config_id": "Philips_KV01-18U_COLORABLE_LIGHT_0",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/ambientlight/studtestlamp/",
+          "meta_config": {},
+          "type": "BRIGHTNESS_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -76,15 +80,15 @@
                   "value": "Philips_Hue_E27__home__AmbientLight__StudTestLamp__BrightnessService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/ambientlight/studtestlamp/",
-          "type": "BRIGHTNESS_SERVICE",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         },
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/ambientlight/studtestlamp/",
+          "meta_config": {},
+          "type": "COLOR_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -92,15 +96,15 @@
                   "value": "Philips_Hue_E27__home__AmbientLight__StudTestLamp__ColorService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/ambientlight/studtestlamp/",
-          "type": "COLOR_SERVICE",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         },
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/ambientlight/studtestlamp/",
+          "meta_config": {},
+          "type": "POWER_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -108,15 +112,11 @@
                   "value": "Philips_Hue_E27__home__AmbientLight__StudTestLamp__PowerService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/ambientlight/studtestlamp/",
-          "type": "POWER_SERVICE",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     }
-  ],
-  "meta_config": {}
+  ]
 }

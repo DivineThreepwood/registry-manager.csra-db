@@ -26,22 +26,32 @@
     ]
   },
   "serial_number": "FMS001",
+  "device_class_id": "Fibaro_FGMS-001",
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "43"
+      },
+      {
+        "key": "SENSOR_BOUNDINGBOX",
+        "value": "0.0,6.8,2.0,1.3"
+      }
+    ]
+  },
   "inventory_state": {
     "value": "INSTALLED",
     "location_id": "Control",
     "timestamp": {
       "time": 1440769843840
     },
-    "owner": {}
+    "owner_id": ""
   },
-  "device_class_id": "Fibaro_FGMS-001",
   "unit_config": [
     {
       "id": "/home/control/battery/testunit_1/",
-      "unit_template_config_id": "Fibaro_FGMS-001_BATTERY_0",
       "label": "TestUnit_1",
       "device_id": "Fibaro_FGMS-001_FMS001",
-      "type": "BATTERY",
       "placement_config": {
         "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
         "transformation_frame_id": "TestUnit_1",
@@ -67,11 +77,16 @@
           "testunit_1"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "BATTERY",
+      "unit_template_config_id": "Fibaro_FGMS-001_BATTERY_0",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/control/battery/testunit_1/",
+          "meta_config": {},
+          "type": "BATTERY_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -79,21 +94,16 @@
                   "value": "Fibaro_MotionSensor__home_control__Battery__TestUnit_1__BatteryProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/control/battery/testunit_1/",
-          "type": "BATTERY_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/control/brightnesssensor/testunit_1/",
-      "unit_template_config_id": "Fibaro_FGMS-001_BRIGHTNESS_SENSOR_0",
       "label": "TestUnit_1",
       "device_id": "Fibaro_FGMS-001_FMS001",
-      "type": "BRIGHTNESS_SENSOR",
       "placement_config": {
         "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
         "transformation_frame_id": "Control_TestUnit_1",
@@ -119,11 +129,16 @@
           "testunit_1"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "BRIGHTNESS_SENSOR",
+      "unit_template_config_id": "Fibaro_FGMS-001_BRIGHTNESS_SENSOR_0",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/control/brightnesssensor/testunit_1/",
+          "meta_config": {},
+          "type": "BRIGHTNESS_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -131,21 +146,16 @@
                   "value": "Fibaro_MotionSensor__home_control__BrightnessSensor__TestUnit_1__BrightnessProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/control/brightnesssensor/testunit_1/",
-          "type": "BRIGHTNESS_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/control/motionsensor/testunit_1/",
-      "unit_template_config_id": "Fibaro_FGMS-001_MOTION_SENSOR_0",
       "label": "TestUnit_1",
       "device_id": "Fibaro_FGMS-001_FMS001",
-      "type": "MOTION_SENSOR",
       "placement_config": {
         "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
         "transformation_frame_id": "Control_TestUnit_1",
@@ -171,11 +181,16 @@
           "testunit_1"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "MOTION_DETECTOR",
+      "unit_template_config_id": "Fibaro_FGMS-001_MOTION_DETECTOR_0",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/control/motionsensor/testunit_1/",
+          "meta_config": {},
+          "type": "MOTION_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -183,21 +198,16 @@
                   "value": "Fibaro_MotionSensor__home_control__MotionSensor__TestUnit_1__MotionProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/control/motionsensor/testunit_1/",
-          "type": "MOTION_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/control/tamperswitch/testunit_1/",
-      "unit_template_config_id": "Fibaro_FGMS-001_TAMPER_SWITCH_0",
       "label": "TestUnit_1",
       "device_id": "Fibaro_FGMS-001_FMS001",
-      "type": "TAMPER_SWITCH",
       "placement_config": {
         "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
         "transformation_frame_id": "Control_TestUnit_1",
@@ -223,11 +233,16 @@
           "testunit_1"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "TAMPER_DETECTOR",
+      "unit_template_config_id": "Fibaro_FGMS-001_TAMPER_DETECTOR_0",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/control/tamperswitch/testunit_1/",
+          "meta_config": {},
+          "type": "TAMPER_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -235,21 +250,16 @@
                   "value": "Fibaro_MotionSensor__home_control__TamperSwitch__TestUnit_1__TamperProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/control/tamperswitch/testunit_1/",
-          "type": "TAMPER_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/control/temperaturesensor/testunit_1/",
-      "unit_template_config_id": "Fibaro_FGMS-001_TEMPERATURE_SENSOR_0",
       "label": "TestUnit_1",
       "device_id": "Fibaro_FGMS-001_FMS001",
-      "type": "TEMPERATURE_SENSOR",
       "placement_config": {
         "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
         "transformation_frame_id": "Control_TestUnit_1",
@@ -275,11 +285,16 @@
           "testunit_1"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "TEMPERATURE_SENSOR",
+      "unit_template_config_id": "Fibaro_FGMS-001_TEMPERATURE_SENSOR_0",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/control/temperaturesensor/testunit_1/",
+          "meta_config": {},
+          "type": "TEMPERATURE_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -287,15 +302,15 @@
                   "value": "Fibaro_MotionSensor__home_control__TemperatureSensor__TestUnit_1__TemperatureProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/control/temperaturesensor/testunit_1/",
-          "type": "TEMPERATURE_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         },
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/control/temperaturesensor/testunit_1/",
+          "meta_config": {},
+          "type": "TEMPERATURE_ALARM_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -303,26 +318,11 @@
                   "value": "Fibaro_MotionSensor__home_control__TemperatureSensor__TestUnit_1__TemperatureAlarmStateProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/control/temperaturesensor/testunit_1/",
-          "type": "TEMPERATURE_ALARM_STATE_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     }
-  ],
-  "meta_config": {
-    "entry": [
-      {
-        "key": "OPENHAB_BINDING_DEVICE_ID",
-        "value": "43"
-      },
-      {
-        "key": "SENSOR_BOUNDINGBOX",
-        "value": "0.0,6.8,2.0,1.3"
-      }
-    ]
-  }
+  ]
 }

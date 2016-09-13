@@ -26,25 +26,20 @@
     ]
   },
   "serial_number": "E3IWBDA34180",
+  "device_class_id": "ASUS_90IW0122-B01UA",
+  "meta_config": {},
   "inventory_state": {
     "value": "BORROWED",
     "timestamp": {
       "time": 1453816251443
     },
-    "owner": {
-      "first_name": "Timo",
-      "last_name": "Korthals",
-      "user_name": "tkorthals"
-    }
+    "owner_id": ""
   },
-  "device_class_id": "ASUS_90IW0122-B01UA",
   "unit_config": [
     {
       "id": "/home/rgbcamera/asus_90iw0122-b01ua_e3iwbda34180/",
-      "unit_template_config_id": "ASUS_90IW0122-B01UA_RGB_CAMERA_0",
       "label": "ASUS_90IW0122-B01UA_E3IWBDA34180",
       "device_id": "ASUS_90IW0122-B01UA_E3IWBDA34180",
-      "type": "RGB_CAMERA",
       "placement_config": {
         "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
         "transformation_frame_id": "ASUS_90IW0122-B01UA_E3IWBDA34180",
@@ -70,15 +65,15 @@
           "asus_90iw0122-b01ua_e3iwbda34180"
         ]
       },
-      "bound_to_device": true,
-      "meta_config": {}
+      "meta_config": {},
+      "type": "VIDEO_RGB_SOURCE",
+      "unit_template_config_id": "ASUS_90IW0122-B01UA_VIDEO_RGB_SOURCE_0",
+      "bound_to_system_unit": true
     },
     {
       "id": "/home/depthcamera/asus_90iw0122-b01ua_e3iwbda34180/",
-      "unit_template_config_id": "ASUS_90IW0122-B01UA_DEPTH_CAMERA_0",
       "label": "ASUS_90IW0122-B01UA_E3IWBDA34180",
       "device_id": "ASUS_90IW0122-B01UA_E3IWBDA34180",
-      "type": "DEPTH_CAMERA",
       "placement_config": {
         "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
         "transformation_frame_id": "Home_ASUS_90IW0122-B01UA_E3IWBDA34180",
@@ -104,15 +99,15 @@
           "asus_90iw0122-b01ua_e3iwbda34180"
         ]
       },
-      "bound_to_device": true,
-      "meta_config": {}
+      "meta_config": {},
+      "type": "VIDEO_DEPTH_SOURCE",
+      "unit_template_config_id": "ASUS_90IW0122-B01UA_VIDEO_DEPTH_SOURCE_0",
+      "bound_to_system_unit": true
     },
     {
       "id": "/home/audiosource/asus_90iw0122-b01ua_e3iwbda34180/",
-      "unit_template_config_id": "ASUS_90IW0122-B01UA_AUDIO_SOURCE_0",
       "label": "ASUS_90IW0122-B01UA_E3IWBDA34180",
       "device_id": "ASUS_90IW0122-B01UA_E3IWBDA34180",
-      "type": "AUDIO_SOURCE",
       "placement_config": {
         "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
         "transformation_frame_id": "Home_ASUS_90IW0122-B01UA_E3IWBDA34180",
@@ -138,9 +133,10 @@
           "asus_90iw0122-b01ua_e3iwbda34180"
         ]
       },
-      "bound_to_device": true,
-      "meta_config": {}
+      "meta_config": {},
+      "type": "AUDIO_SOURCE",
+      "unit_template_config_id": "ASUS_90IW0122-B01UA_AUDIO_SOURCE_0",
+      "bound_to_system_unit": true
     }
-  ],
-  "meta_config": {}
+  ]
 }

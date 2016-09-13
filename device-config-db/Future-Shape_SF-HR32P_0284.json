@@ -27,14 +27,6 @@
     ]
   },
   "serial_number": "0284",
-  "inventory_state": {
-    "value": "INSTALLED",
-    "location_id": "Kitchen",
-    "timestamp": {
-      "time": 1440771353784
-    },
-    "owner": {}
-  },
   "device_class_id": "Future-Shape_SF-HR32P",
   "meta_config": {
     "entry": [
@@ -43,5 +35,13 @@
         "value": "Future-Shape_SE3-P_02858000"
       }
     ]
+  },
+  "inventory_state": {
+    "value": "INSTALLED",
+    "location_id": "Kitchen",
+    "timestamp": {
+      "time": 1440771353784
+    },
+    "owner_id": ""
   }
 }

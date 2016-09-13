@@ -26,22 +26,21 @@
     ]
   },
   "serial_number": "431652915340000",
+  "device_class_id": "Gira_429496730250000",
+  "meta_config": {},
   "inventory_state": {
     "value": "IN_STOCK",
     "location_id": "Sports",
     "timestamp": {
       "time": 1441903329584
     },
-    "owner": {}
+    "owner_id": ""
   },
-  "device_class_id": "Gira_429496730250000",
   "unit_config": [
     {
       "id": "/home/sports/temperaturecontroller/temperaturecontrollersports/",
-      "unit_template_config_id": "Gira_429496730250000_TEMPERATURE_CONTROLLER_0",
       "label": "TemperatureControllerSports",
       "device_id": "Gira_429496730250000_431652915340000",
-      "type": "TEMPERATURE_CONTROLLER",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "transformation_frame_id": "TemperatureControllerSports",
@@ -67,11 +66,16 @@
           "temperaturecontrollersports"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "TEMPERATURE_CONTROLLER",
+      "unit_template_config_id": "Gira_429496730250000_TEMPERATURE_CONTROLLER_0",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/sports/temperaturecontroller/temperaturecontrollersports/",
+          "meta_config": {},
+          "type": "TEMPERATURE_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -83,15 +87,15 @@
                   "value": "Gira_5142__home_sports__TemperatureController__TemperatureControllerSports__TemperatureProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/sports/temperaturecontroller/temperaturecontrollersports/",
-          "type": "TEMPERATURE_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         },
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/sports/temperaturecontroller/temperaturecontrollersports/",
+          "meta_config": {},
+          "type": "TARGET_TEMPERATURE_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -100,21 +104,16 @@
                 },
                 {}
               ]
-            }
-          },
-          "unit_id": "/home/sports/temperaturecontroller/temperaturecontrollersports/",
-          "type": "TARGET_TEMPERATURE_SERVICE",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/sports/button/button_1/",
-      "unit_template_config_id": "Gira_429496730250000_BUTTON_0",
       "label": "Button 1",
       "device_id": "Gira_429496730250000_431652915340000",
-      "type": "BUTTON",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "transformation_frame_id": "Button_1",
@@ -140,11 +139,16 @@
           "button_1"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "BUTTON",
+      "unit_template_config_id": "Gira_429496730250000_BUTTON_0",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/sports/button/button_1/",
+          "meta_config": {},
+          "type": "BUTTON_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -156,21 +160,16 @@
                   "value": "Gira_5142__home_sports__Button__Button_1__ButtonProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/sports/button/button_1/",
-          "type": "BUTTON_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/sports/button/button_2/",
-      "unit_template_config_id": "Gira_429496730250000_BUTTON_1",
       "label": "Button 2",
       "device_id": "Gira_429496730250000_431652915340000",
-      "type": "BUTTON",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "transformation_frame_id": "Button_2",
@@ -196,11 +195,16 @@
           "button_2"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "BUTTON",
+      "unit_template_config_id": "Gira_429496730250000_BUTTON_1",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/sports/button/button_2/",
+          "meta_config": {},
+          "type": "BUTTON_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -212,21 +216,16 @@
                   "value": "Gira_5142__home_sports__Button__Button_2__ButtonProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/sports/button/button_2/",
-          "type": "BUTTON_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/sports/button/button_3/",
-      "unit_template_config_id": "Gira_429496730250000_BUTTON_2",
       "label": "Button 3",
       "device_id": "Gira_429496730250000_431652915340000",
-      "type": "BUTTON",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "transformation_frame_id": "Button_3",
@@ -252,11 +251,16 @@
           "button_3"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "BUTTON",
+      "unit_template_config_id": "Gira_429496730250000_BUTTON_2",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/sports/button/button_3/",
+          "meta_config": {},
+          "type": "BUTTON_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -268,21 +272,16 @@
                   "value": "Gira_5142__home_sports__Button__Button_3__ButtonProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/sports/button/button_3/",
-          "type": "BUTTON_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/sports/button/button4/",
-      "unit_template_config_id": "Gira_429496730250000_BUTTON_3",
       "label": "Button4",
       "device_id": "Gira_429496730250000_431652915340000",
-      "type": "BUTTON",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "transformation_frame_id": "Button4",
@@ -308,11 +307,16 @@
           "button4"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "BUTTON",
+      "unit_template_config_id": "Gira_429496730250000_BUTTON_3",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/sports/button/button4/",
+          "meta_config": {},
+          "type": "BUTTON_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -324,15 +328,11 @@
                   "value": "Gira_5142__home_sports__Button__Button4__ButtonProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/sports/button/button4/",
-          "type": "BUTTON_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     }
-  ],
-  "meta_config": {}
+  ]
 }

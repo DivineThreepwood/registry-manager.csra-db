@@ -26,25 +26,20 @@
     ]
   },
   "serial_number": "FMS017",
+  "device_class_id": "Fibaro_FGMS-001",
+  "meta_config": {},
   "inventory_state": {
     "value": "BORROWED",
     "timestamp": {
       "time": 1443201942883
     },
-    "owner": {
-      "first_name": "Tamino",
-      "last_name": "Huxohl",
-      "user_name": "thuxohl"
-    }
+    "owner_id": ""
   },
-  "device_class_id": "Fibaro_FGMS-001",
   "unit_config": [
     {
       "id": "/home/control/battery/borrowdunit-1/",
-      "unit_template_config_id": "Fibaro_FGMS-001_BATTERY_0",
       "label": "BorrowdUnit-1",
       "device_id": "Fibaro_FGMS-001_FMS017",
-      "type": "BATTERY",
       "placement_config": {
         "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
         "transformation_frame_id": "BorrowdUnit-1",
@@ -70,11 +65,16 @@
           "borrowdunit-1"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "BATTERY",
+      "unit_template_config_id": "Fibaro_FGMS-001_BATTERY_0",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/control/battery/borrowdunit-1/",
+          "meta_config": {},
+          "type": "BATTERY_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -82,21 +82,16 @@
                   "value": "Fibaro_MotionSensor__home_control__Battery__BorrowdUnit-1__BatteryProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/control/battery/borrowdunit-1/",
-          "type": "BATTERY_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/control/brightnesssensor/borrowdunit-1/",
-      "unit_template_config_id": "Fibaro_FGMS-001_BRIGHTNESS_SENSOR_0",
       "label": "BorrowdUnit-1",
       "device_id": "Fibaro_FGMS-001_FMS017",
-      "type": "BRIGHTNESS_SENSOR",
       "placement_config": {
         "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
         "transformation_frame_id": "Control_BorrowdUnit-1",
@@ -122,11 +117,16 @@
           "borrowdunit-1"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "BRIGHTNESS_SENSOR",
+      "unit_template_config_id": "Fibaro_FGMS-001_BRIGHTNESS_SENSOR_0",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/control/brightnesssensor/borrowdunit-1/",
+          "meta_config": {},
+          "type": "BRIGHTNESS_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -134,21 +134,16 @@
                   "value": "Fibaro_MotionSensor__home_control__BrightnessSensor__BorrowdUnit-1__BrightnessProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/control/brightnesssensor/borrowdunit-1/",
-          "type": "BRIGHTNESS_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/control/motionsensor/borrowdunit-1/",
-      "unit_template_config_id": "Fibaro_FGMS-001_MOTION_SENSOR_0",
       "label": "BorrowdUnit-1",
       "device_id": "Fibaro_FGMS-001_FMS017",
-      "type": "MOTION_SENSOR",
       "placement_config": {
         "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
         "transformation_frame_id": "Control_BorrowdUnit-1",
@@ -174,11 +169,16 @@
           "borrowdunit-1"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "MOTION_DETECTOR",
+      "unit_template_config_id": "Fibaro_FGMS-001_MOTION_DETECTOR_0",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/control/motionsensor/borrowdunit-1/",
+          "meta_config": {},
+          "type": "MOTION_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -186,21 +186,16 @@
                   "value": "Fibaro_MotionSensor__home_control__MotionSensor__BorrowdUnit-1__MotionProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/control/motionsensor/borrowdunit-1/",
-          "type": "MOTION_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/control/tamperswitch/borrowdunit-1/",
-      "unit_template_config_id": "Fibaro_FGMS-001_TAMPER_SWITCH_0",
       "label": "BorrowdUnit-1",
       "device_id": "Fibaro_FGMS-001_FMS017",
-      "type": "TAMPER_SWITCH",
       "placement_config": {
         "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
         "transformation_frame_id": "Control_BorrowdUnit-1",
@@ -226,11 +221,16 @@
           "borrowdunit-1"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "TAMPER_DETECTOR",
+      "unit_template_config_id": "Fibaro_FGMS-001_TAMPER_DETECTOR_0",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/control/tamperswitch/borrowdunit-1/",
+          "meta_config": {},
+          "type": "TAMPER_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -238,21 +238,16 @@
                   "value": "Fibaro_MotionSensor__home_control__TamperSwitch__BorrowdUnit-1__TamperProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/control/tamperswitch/borrowdunit-1/",
-          "type": "TAMPER_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/control/temperaturesensor/borrowdunit-1/",
-      "unit_template_config_id": "Fibaro_FGMS-001_TEMPERATURE_SENSOR_0",
       "label": "BorrowdUnit-1",
       "device_id": "Fibaro_FGMS-001_FMS017",
-      "type": "TEMPERATURE_SENSOR",
       "placement_config": {
         "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
         "transformation_frame_id": "Control_BorrowdUnit-1",
@@ -278,11 +273,16 @@
           "borrowdunit-1"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "TEMPERATURE_SENSOR",
+      "unit_template_config_id": "Fibaro_FGMS-001_TEMPERATURE_SENSOR_0",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/control/temperaturesensor/borrowdunit-1/",
+          "meta_config": {},
+          "type": "TEMPERATURE_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -290,15 +290,14 @@
                   "value": "Fibaro_MotionSensor__home_control__TemperatureSensor__BorrowdUnit-1__TemperatureProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/control/temperaturesensor/borrowdunit-1/",
-          "type": "TEMPERATURE_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         },
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/control/temperaturesensor/borrowdunit-1/",
+          "type": "TEMPERATURE_ALARM_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -306,14 +305,11 @@
                   "value": "Fibaro_MotionSensor__home_control__TemperatureSensor__BorrowdUnit-1__TemperatureAlarmStateProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/control/temperaturesensor/borrowdunit-1/",
-          "type": "TEMPERATURE_ALARM_STATE_PROVIDER"
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     }
-  ],
-  "meta_config": {}
+  ]
 }

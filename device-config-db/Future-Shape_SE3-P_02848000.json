@@ -27,13 +27,6 @@
     ]
   },
   "serial_number": "02848000",
-  "inventory_state": {
-    "value": "INSTALLED",
-    "timestamp": {
-      "time": 1453746128180
-    },
-    "owner": {}
-  },
   "device_class_id": "Future-Shape_SE3-P",
   "meta_config": {
     "entry": [
@@ -42,5 +35,12 @@
         "value": "/dev/ttyUSB0"
       }
     ]
+  },
+  "inventory_state": {
+    "value": "INSTALLED",
+    "timestamp": {
+      "time": 1453746128180
+    },
+    "owner_id": ""
   }
 }

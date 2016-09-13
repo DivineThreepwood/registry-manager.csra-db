@@ -26,22 +26,32 @@
     ]
   },
   "serial_number": "FMS011",
+  "device_class_id": "Fibaro_FGMS-001",
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "31"
+      },
+      {
+        "key": "SENSOR_BOUNDINGBOX",
+        "value": "5.6,2.9,2.6,1.2"
+      }
+    ]
+  },
   "inventory_state": {
     "value": "INSTALLED",
     "location_id": "Living",
     "timestamp": {
       "time": 1440770729277
     },
-    "owner": {}
+    "owner_id": ""
   },
-  "device_class_id": "Fibaro_FGMS-001",
   "unit_config": [
     {
       "id": "/home/living/battery/media/",
-      "unit_template_config_id": "Fibaro_FGMS-001_BATTERY_0",
       "label": "Media",
       "device_id": "Fibaro_FGMS-001_FMS011",
-      "type": "BATTERY",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "transformation_frame_id": "Media",
@@ -67,11 +77,16 @@
           "media"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "BATTERY",
+      "unit_template_config_id": "Fibaro_FGMS-001_BATTERY_0",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/living/battery/media/",
+          "meta_config": {},
+          "type": "BATTERY_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -79,21 +94,16 @@
                   "value": "Fibaro_MotionSensor__home_living__Battery__Media__BatteryProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/living/battery/media/",
-          "type": "BATTERY_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/living/brightnesssensor/media/",
-      "unit_template_config_id": "Fibaro_FGMS-001_BRIGHTNESS_SENSOR_0",
       "label": "Media",
       "device_id": "Fibaro_FGMS-001_FMS011",
-      "type": "BRIGHTNESS_SENSOR",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "transformation_frame_id": "Living_Media",
@@ -119,11 +129,16 @@
           "media"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "BRIGHTNESS_SENSOR",
+      "unit_template_config_id": "Fibaro_FGMS-001_BRIGHTNESS_SENSOR_0",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/living/brightnesssensor/media/",
+          "meta_config": {},
+          "type": "BRIGHTNESS_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -131,21 +146,16 @@
                   "value": "Fibaro_MotionSensor__home_living__BrightnessSensor__Media__BrightnessProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/living/brightnesssensor/media/",
-          "type": "BRIGHTNESS_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/living/motionsensor/media/",
-      "unit_template_config_id": "Fibaro_FGMS-001_MOTION_SENSOR_0",
       "label": "Media",
       "device_id": "Fibaro_FGMS-001_FMS011",
-      "type": "MOTION_SENSOR",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "transformation_frame_id": "Living_Media",
@@ -171,11 +181,16 @@
           "media"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "MOTION_DETECTOR",
+      "unit_template_config_id": "Fibaro_FGMS-001_MOTION_DETECTOR_0",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/living/motionsensor/media/",
+          "meta_config": {},
+          "type": "MOTION_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -183,21 +198,16 @@
                   "value": "Fibaro_MotionSensor__home_living__MotionSensor__Media__MotionProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/living/motionsensor/media/",
-          "type": "MOTION_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/living/tamperswitch/media/",
-      "unit_template_config_id": "Fibaro_FGMS-001_TAMPER_SWITCH_0",
       "label": "Media",
       "device_id": "Fibaro_FGMS-001_FMS011",
-      "type": "TAMPER_SWITCH",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "transformation_frame_id": "Living_Media",
@@ -223,11 +233,16 @@
           "media"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "TAMPER_DETECTOR",
+      "unit_template_config_id": "Fibaro_FGMS-001_TAMPER_DETECTOR_0",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/living/tamperswitch/media/",
+          "meta_config": {},
+          "type": "TAMPER_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -235,21 +250,16 @@
                   "value": "Fibaro_MotionSensor__home_living__TamperSwitch__Media__TamperProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/living/tamperswitch/media/",
-          "type": "TAMPER_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/living/temperaturesensor/media/",
-      "unit_template_config_id": "Fibaro_FGMS-001_TEMPERATURE_SENSOR_0",
       "label": "Media",
       "device_id": "Fibaro_FGMS-001_FMS011",
-      "type": "TEMPERATURE_SENSOR",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "transformation_frame_id": "Living_Media",
@@ -275,11 +285,16 @@
           "media"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "TEMPERATURE_SENSOR",
+      "unit_template_config_id": "Fibaro_FGMS-001_TEMPERATURE_SENSOR_0",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/living/temperaturesensor/media/",
+          "meta_config": {},
+          "type": "TEMPERATURE_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -287,15 +302,14 @@
                   "value": "Fibaro_MotionSensor__home_living__TemperatureSensor__Media__TemperatureProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/living/temperaturesensor/media/",
-          "type": "TEMPERATURE_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         },
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/living/temperaturesensor/media/",
+          "type": "TEMPERATURE_ALARM_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -303,25 +317,11 @@
                   "value": "Fibaro_MotionSensor__home_living__TemperatureSensor__Media__TemperatureAlarmStateProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/living/temperaturesensor/media/",
-          "type": "TEMPERATURE_ALARM_STATE_PROVIDER"
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     }
-  ],
-  "meta_config": {
-    "entry": [
-      {
-        "key": "OPENHAB_BINDING_DEVICE_ID",
-        "value": "31"
-      },
-      {
-        "key": "SENSOR_BOUNDINGBOX",
-        "value": "5.6,2.9,2.6,1.2"
-      }
-    ]
-  }
+  ]
 }

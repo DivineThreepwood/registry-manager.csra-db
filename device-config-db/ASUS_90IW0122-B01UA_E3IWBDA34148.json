@@ -25,25 +25,20 @@
     ]
   },
   "serial_number": "E3IWBDA34148",
+  "device_class_id": "ASUS_90IW0122-B01UA",
+  "meta_config": {},
   "inventory_state": {
     "value": "IN_STOCK",
     "timestamp": {
       "time": 1446476200366
     },
-    "owner": {
-      "first_name": "",
-      "last_name": "",
-      "user_name": ""
-    }
+    "owner_id": ""
   },
-  "device_class_id": "ASUS_90IW0122-B01UA",
   "unit_config": [
     {
       "id": "/home/rgbcamera/asus1/",
-      "unit_template_config_id": "ASUS_90IW0122-B01UA_RGB_CAMERA_0",
       "label": "asus1",
       "device_id": "ASUS_90IW0122-B01UA_E3IWBDA34148",
-      "type": "RGB_CAMERA",
       "placement_config": {
         "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
         "transformation_frame_id": "asus1",
@@ -68,14 +63,14 @@
           "asus1"
         ]
       },
-      "bound_to_device": true
+      "type": "VIDEO_RGB_SOURCE",
+      "unit_template_config_id": "ASUS_90IW0122-B01UA_VIDEO_RGB_SOURCE_0",
+      "bound_to_system_unit": true
     },
     {
       "id": "/home/depthcamera/asus1/",
-      "unit_template_config_id": "ASUS_90IW0122-B01UA_DEPTH_CAMERA_0",
       "label": "asus1",
       "device_id": "ASUS_90IW0122-B01UA_E3IWBDA34148",
-      "type": "DEPTH_CAMERA",
       "placement_config": {
         "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
         "transformation_frame_id": "Home_asus1",
@@ -100,14 +95,14 @@
           "asus1"
         ]
       },
-      "bound_to_device": true
+      "type": "VIDEO_DEPTH_SOURCE",
+      "unit_template_config_id": "ASUS_90IW0122-B01UA_VIDEO_DEPTH_SOURCE_0",
+      "bound_to_system_unit": true
     },
     {
       "id": "/home/audiosource/asus1/",
-      "unit_template_config_id": "ASUS_90IW0122-B01UA_AUDIO_SOURCE_0",
       "label": "asus1",
       "device_id": "ASUS_90IW0122-B01UA_E3IWBDA34148",
-      "type": "AUDIO_SOURCE",
       "placement_config": {
         "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
         "transformation_frame_id": "Home_asus1",
@@ -132,8 +127,9 @@
           "asus1"
         ]
       },
-      "bound_to_device": true
+      "type": "AUDIO_SOURCE",
+      "unit_template_config_id": "ASUS_90IW0122-B01UA_AUDIO_SOURCE_0",
+      "bound_to_system_unit": true
     }
-  ],
-  "meta_config": {}
+  ]
 }

@@ -27,22 +27,21 @@
     ]
   },
   "serial_number": "431602452620000",
+  "device_class_id": "Gira_429496730250000",
+  "meta_config": {},
   "inventory_state": {
     "value": "INSTALLED",
     "location_id": "Living",
     "timestamp": {
       "time": 1442764130272
     },
-    "owner": {}
+    "owner_id": ""
   },
-  "device_class_id": "Gira_429496730250000",
   "unit_config": [
     {
       "id": "/home/living/dining/temperaturecontroller/temperaturecontrollerliving/",
-      "unit_template_config_id": "Gira_429496730250000_TEMPERATURE_CONTROLLER_0",
       "label": "TemperatureControllerLiving",
       "device_id": "Gira_429496730250000_431602452620000",
-      "type": "TEMPERATURE_CONTROLLER",
       "placement_config": {
         "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
         "transformation_frame_id": "TemperatureControllerLiving",
@@ -69,11 +68,16 @@
           "temperaturecontrollerliving"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "TEMPERATURE_CONTROLLER",
+      "unit_template_config_id": "Gira_429496730250000_TEMPERATURE_CONTROLLER_0",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/living/dining/temperaturecontroller/temperaturecontrollerliving/",
+          "meta_config": {},
+          "type": "TEMPERATURE_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -85,15 +89,19 @@
                   "value": "Gira_5142__home_living_dining__TemperatureController__TemperatureControllerLiving__TemperatureProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/living/dining/temperaturecontroller/temperaturecontrollerliving/",
-          "type": "TEMPERATURE_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         },
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/living/dining/temperaturecontroller/temperaturecontrollerliving/",
+          "meta_config": {
+            "entry": [
+              {}
+            ]
+          },
+          "type": "TARGET_TEMPERATURE_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -105,25 +113,16 @@
                   "value": "Gira_5142__home_living_dining__TemperatureController__TemperatureControllerLiving__TargetTemperatureService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/living/dining/temperaturecontroller/temperaturecontrollerliving/",
-          "type": "TARGET_TEMPERATURE_SERVICE",
-          "meta_config": {
-            "entry": [
-              {}
-            ]
+            },
+            "binding_id": "OPENHAB"
           }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/living/dining/button/button_1/",
-      "unit_template_config_id": "Gira_429496730250000_BUTTON_0",
       "label": "Button 1",
       "device_id": "Gira_429496730250000_431602452620000",
-      "type": "BUTTON",
       "placement_config": {
         "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
         "transformation_frame_id": "Dining_Button_1",
@@ -150,11 +149,16 @@
           "button_1"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "BUTTON",
+      "unit_template_config_id": "Gira_429496730250000_BUTTON_0",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/living/dining/button/button_1/",
+          "meta_config": {},
+          "type": "BUTTON_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -166,21 +170,16 @@
                   "value": "Gira_5142__home_living_dining__Button__Button_1__ButtonProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/living/dining/button/button_1/",
-          "type": "BUTTON_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/living/dining/button/button_2/",
-      "unit_template_config_id": "Gira_429496730250000_BUTTON_1",
       "label": "Button 2",
       "device_id": "Gira_429496730250000_431602452620000",
-      "type": "BUTTON",
       "placement_config": {
         "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
         "transformation_frame_id": "Dining_Button_2",
@@ -207,11 +206,16 @@
           "button_2"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "BUTTON",
+      "unit_template_config_id": "Gira_429496730250000_BUTTON_1",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/living/dining/button/button_2/",
+          "meta_config": {},
+          "type": "BUTTON_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -223,21 +227,16 @@
                   "value": "Gira_5142__home_living_dining__Button__Button_2__ButtonProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/living/dining/button/button_2/",
-          "type": "BUTTON_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/living/dining/button/button_3/",
-      "unit_template_config_id": "Gira_429496730250000_BUTTON_2",
       "label": "Button 3",
       "device_id": "Gira_429496730250000_431602452620000",
-      "type": "BUTTON",
       "placement_config": {
         "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
         "transformation_frame_id": "Dining_Button_3",
@@ -264,11 +263,16 @@
           "button_3"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "BUTTON",
+      "unit_template_config_id": "Gira_429496730250000_BUTTON_2",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/living/dining/button/button_3/",
+          "meta_config": {},
+          "type": "BUTTON_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -280,21 +284,16 @@
                   "value": "Gira_5142__home_living_dining__Button__Button_3__ButtonProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/living/dining/button/button_3/",
-          "type": "BUTTON_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/living/dining/button/button_4/",
-      "unit_template_config_id": "Gira_429496730250000_BUTTON_3",
       "label": "Button 4",
       "device_id": "Gira_429496730250000_431602452620000",
-      "type": "BUTTON",
       "placement_config": {
         "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
         "transformation_frame_id": "Dining_Button_4",
@@ -321,11 +320,16 @@
           "button_4"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "BUTTON",
+      "unit_template_config_id": "Gira_429496730250000_BUTTON_3",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/living/dining/button/button_4/",
+          "meta_config": {},
+          "type": "BUTTON_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -337,15 +341,11 @@
                   "value": "Gira_5142__home_living_dining__Button__Button_4__ButtonProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/living/dining/button/button_4/",
-          "type": "BUTTON_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     }
-  ],
-  "meta_config": {}
+  ]
 }

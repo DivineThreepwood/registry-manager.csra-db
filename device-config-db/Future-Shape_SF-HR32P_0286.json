@@ -27,14 +27,6 @@
     ]
   },
   "serial_number": "0286",
-  "inventory_state": {
-    "value": "INSTALLED",
-    "location_id": "Sports",
-    "timestamp": {
-      "time": 1440772114884
-    },
-    "owner": {}
-  },
   "device_class_id": "Future-Shape_SF-HR32P",
   "meta_config": {
     "entry": [
@@ -43,5 +35,13 @@
         "value": "Future-Shape_SE3-P_02848000"
       }
     ]
+  },
+  "inventory_state": {
+    "value": "INSTALLED",
+    "location_id": "Sports",
+    "timestamp": {
+      "time": 1440772114884
+    },
+    "owner_id": ""
   }
 }

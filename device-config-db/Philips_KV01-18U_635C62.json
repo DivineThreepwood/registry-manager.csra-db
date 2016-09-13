@@ -26,22 +26,28 @@
     ]
   },
   "serial_number": "635C62",
+  "device_class_id": "Philips_KV01-18U",
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "44"
+      }
+    ]
+  },
   "inventory_state": {
     "value": "INSTALLED",
     "location_id": "Living",
     "timestamp": {
       "time": 1442907751757
     },
-    "owner": {}
+    "owner_id": ""
   },
-  "device_class_id": "Philips_KV01-18U",
   "unit_config": [
     {
       "id": "/home/living/ambientlight/llamp4/",
-      "unit_template_config_id": "Philips_KV01-18U_AMBIENT_LIGHT_0",
       "label": "LLamp4",
       "device_id": "Philips_KV01-18U_635C62",
-      "type": "AMBIENT_LIGHT",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "transformation_frame_id": "LLamp4",
@@ -67,11 +73,16 @@
           "llamp4"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "COLORABLE_LIGHT",
+      "unit_template_config_id": "Philips_KV01-18U_COLORABLE_LIGHT_0",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/living/ambientlight/llamp4/",
+          "meta_config": {},
+          "type": "BRIGHTNESS_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -79,15 +90,15 @@
                   "value": "Philips_Hue_E27__home_living__AmbientLight__LLamp4__BrightnessService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/living/ambientlight/llamp4/",
-          "type": "BRIGHTNESS_SERVICE",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         },
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/living/ambientlight/llamp4/",
+          "meta_config": {},
+          "type": "COLOR_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -95,15 +106,15 @@
                   "value": "Philips_Hue_E27__home_living__AmbientLight__LLamp4__ColorService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/living/ambientlight/llamp4/",
-          "type": "COLOR_SERVICE",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         },
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/living/ambientlight/llamp4/",
+          "meta_config": {},
+          "type": "POWER_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -111,22 +122,11 @@
                   "value": "Philips_Hue_E27__home_living__AmbientLight__LLamp4__PowerService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/living/ambientlight/llamp4/",
-          "type": "POWER_SERVICE",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     }
-  ],
-  "meta_config": {
-    "entry": [
-      {
-        "key": "OPENHAB_BINDING_DEVICE_ID",
-        "value": "44"
-      }
-    ]
-  }
+  ]
 }

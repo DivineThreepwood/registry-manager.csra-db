@@ -26,22 +26,21 @@
     ]
   },
   "serial_number": "397293269430000",
+  "device_class_id": "Hager_TYA606E",
+  "meta_config": {},
   "inventory_state": {
     "value": "INSTALLED",
     "location_id": "Control",
     "timestamp": {
       "time": 1440778245978
     },
-    "owner": {}
+    "owner_id": ""
   },
-  "device_class_id": "Hager_TYA606E",
   "unit_config": [
     {
       "id": "/home/sports/powerplug/a9c1/",
-      "unit_template_config_id": "Hager_TYA606E_POWER_PLUG_0",
       "label": "A9C1",
       "device_id": "Hager_TYA606E_397293269430000",
-      "type": "POWER_PLUG",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "transformation_frame_id": "A9C1",
@@ -67,11 +66,16 @@
           "a9c1"
         ]
       },
-      "bound_to_device": false,
+      "meta_config": {},
+      "type": "POWER_SWITCH",
+      "unit_template_config_id": "Hager_TYA606E_POWER_SWITCH_0",
+      "bound_to_system_unit": false,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/sports/powerplug/a9c1/",
+          "meta_config": {},
+          "type": "POWER_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -83,21 +87,16 @@
                   "value": "Hager_TYA606E__home_sports__PowerPlug__A9C1__PowerService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/sports/powerplug/a9c1/",
-          "type": "POWER_SERVICE",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/sports/powerconsumptionsensor/a9c1consumption/",
-      "unit_template_config_id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_0",
       "label": "A9C1Consumption",
       "device_id": "Hager_TYA606E_397293269430000",
-      "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "transformation_frame_id": "A9C1Consumption",
@@ -123,11 +122,16 @@
           "a9c1consumption"
         ]
       },
-      "bound_to_device": false,
+      "meta_config": {},
+      "type": "POWER_CONSUMPTION_SENSOR",
+      "unit_template_config_id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_0",
+      "bound_to_system_unit": false,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/sports/powerconsumptionsensor/a9c1consumption/",
+          "meta_config": {},
+          "type": "POWER_CONSUMPTION_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -139,21 +143,16 @@
                   "value": "Hager_TYA606E__home_sports__PowerConsumptionSensor__A9C1Consumption__PowerConsumptionProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/sports/powerconsumptionsensor/a9c1consumption/",
-          "type": "POWER_CONSUMPTION_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/sports/powerplug/a9c2/",
-      "unit_template_config_id": "Hager_TYA606E_POWER_PLUG_1",
       "label": "A9C2",
       "device_id": "Hager_TYA606E_397293269430000",
-      "type": "POWER_PLUG",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "transformation_frame_id": "A9C2",
@@ -179,11 +178,16 @@
           "a9c2"
         ]
       },
-      "bound_to_device": false,
+      "meta_config": {},
+      "type": "POWER_SWITCH",
+      "unit_template_config_id": "Hager_TYA606E_POWER_SWITCH_1",
+      "bound_to_system_unit": false,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/sports/powerplug/a9c2/",
+          "meta_config": {},
+          "type": "POWER_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -195,21 +199,16 @@
                   "value": "Hager_TYA606E__home_sports__PowerPlug__A9C2__PowerService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/sports/powerplug/a9c2/",
-          "type": "POWER_SERVICE",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/sports/powerconsumptionsensor/a9c2consumption/",
-      "unit_template_config_id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_1",
       "label": "A9C2Consumption",
       "device_id": "Hager_TYA606E_397293269430000",
-      "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "transformation_frame_id": "A9C2Consumption",
@@ -235,11 +234,16 @@
           "a9c2consumption"
         ]
       },
-      "bound_to_device": false,
+      "meta_config": {},
+      "type": "POWER_CONSUMPTION_SENSOR",
+      "unit_template_config_id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_1",
+      "bound_to_system_unit": false,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/sports/powerconsumptionsensor/a9c2consumption/",
+          "meta_config": {},
+          "type": "POWER_CONSUMPTION_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -251,21 +255,16 @@
                   "value": "Hager_TYA606E__home_sports__PowerConsumptionSensor__A9C2Consumption__PowerConsumptionProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/sports/powerconsumptionsensor/a9c2consumption/",
-          "type": "POWER_CONSUMPTION_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/sports/powerplug/a9c3/",
-      "unit_template_config_id": "Hager_TYA606E_POWER_PLUG_2",
       "label": "A9C3",
       "device_id": "Hager_TYA606E_397293269430000",
-      "type": "POWER_PLUG",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "transformation_frame_id": "A9C3",
@@ -291,11 +290,16 @@
           "a9c3"
         ]
       },
-      "bound_to_device": false,
+      "meta_config": {},
+      "type": "POWER_SWITCH",
+      "unit_template_config_id": "Hager_TYA606E_POWER_SWITCH_2",
+      "bound_to_system_unit": false,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/sports/powerplug/a9c3/",
+          "meta_config": {},
+          "type": "POWER_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -307,21 +311,16 @@
                   "value": "Hager_TYA606E__home_sports__PowerPlug__A9C3__PowerService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/sports/powerplug/a9c3/",
-          "type": "POWER_SERVICE",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/sports/powerconsumptionsensor/a9c3consumption/",
-      "unit_template_config_id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_2",
       "label": "A9C3Consumption",
       "device_id": "Hager_TYA606E_397293269430000",
-      "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "transformation_frame_id": "A9C3Consumption",
@@ -347,11 +346,16 @@
           "a9c3consumption"
         ]
       },
-      "bound_to_device": false,
+      "meta_config": {},
+      "type": "POWER_CONSUMPTION_SENSOR",
+      "unit_template_config_id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_2",
+      "bound_to_system_unit": false,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/sports/powerconsumptionsensor/a9c3consumption/",
+          "meta_config": {},
+          "type": "POWER_CONSUMPTION_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -363,21 +367,16 @@
                   "value": "Hager_TYA606E__home_sports__PowerConsumptionSensor__A9C3Consumption__PowerConsumptionProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/sports/powerconsumptionsensor/a9c3consumption/",
-          "type": "POWER_CONSUMPTION_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/living/powerplug/a9c4/",
-      "unit_template_config_id": "Hager_TYA606E_POWER_PLUG_3",
       "label": "A9C4",
       "device_id": "Hager_TYA606E_397293269430000",
-      "type": "POWER_PLUG",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "transformation_frame_id": "A9C4",
@@ -404,11 +403,16 @@
         ]
       },
       "description": "4K TV Display",
-      "bound_to_device": false,
+      "meta_config": {},
+      "type": "POWER_SWITCH",
+      "unit_template_config_id": "Hager_TYA606E_POWER_SWITCH_3",
+      "bound_to_system_unit": false,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/living/powerplug/a9c4/",
+          "meta_config": {},
+          "type": "POWER_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -420,21 +424,16 @@
                   "value": "Hager_TYA606E__home_living__PowerPlug__A9C4__PowerService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/living/powerplug/a9c4/",
-          "type": "POWER_SERVICE",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/living/powerconsumptionsensor/a9c4consumption/",
-      "unit_template_config_id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_3",
       "label": "A9C4Consumption",
       "device_id": "Hager_TYA606E_397293269430000",
-      "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "transformation_frame_id": "A9C4Consumption",
@@ -461,11 +460,16 @@
         ]
       },
       "description": "4K TV Display",
-      "bound_to_device": false,
+      "meta_config": {},
+      "type": "POWER_CONSUMPTION_SENSOR",
+      "unit_template_config_id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_3",
+      "bound_to_system_unit": false,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/living/powerconsumptionsensor/a9c4consumption/",
+          "meta_config": {},
+          "type": "POWER_CONSUMPTION_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -477,21 +481,16 @@
                   "value": "Hager_TYA606E__home_living__PowerConsumptionSensor__A9C4Consumption__PowerConsumptionProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/living/powerconsumptionsensor/a9c4consumption/",
-          "type": "POWER_CONSUMPTION_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/living/powerplug/a9c5/",
-      "unit_template_config_id": "Hager_TYA606E_POWER_PLUG_4",
       "label": "A9C5",
       "device_id": "Hager_TYA606E_397293269430000",
-      "type": "POWER_PLUG",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "transformation_frame_id": "A9C5",
@@ -518,11 +517,16 @@
         ]
       },
       "description": "LOL",
-      "bound_to_device": false,
+      "meta_config": {},
+      "type": "POWER_SWITCH",
+      "unit_template_config_id": "Hager_TYA606E_POWER_SWITCH_4",
+      "bound_to_system_unit": false,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/living/powerplug/a9c5/",
+          "meta_config": {},
+          "type": "POWER_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -534,21 +538,16 @@
                   "value": "Hager_TYA606E__home_living__PowerPlug__A9C5__PowerService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/living/powerplug/a9c5/",
-          "type": "POWER_SERVICE",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/living/powerconsumptionsensor/a9c5consumption/",
-      "unit_template_config_id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_4",
       "label": "A9C5Consumption",
       "device_id": "Hager_TYA606E_397293269430000",
-      "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "transformation_frame_id": "A9C5Consumption",
@@ -575,22 +574,13 @@
         ]
       },
       "description": "LOL",
-      "bound_to_device": false,
+      "meta_config": {},
+      "type": "POWER_CONSUMPTION_SENSOR",
+      "unit_template_config_id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_4",
+      "bound_to_system_unit": false,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
-            "meta_config": {
-              "entry": [
-                {
-                  "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA606E__home_living__PowerConsumptionSensor__A9C5Consumption__PowerConsumptionProvider"
-                }
-              ]
-            }
-          },
           "unit_id": "/home/living/powerconsumptionsensor/a9c5consumption/",
-          "type": "POWER_CONSUMPTION_PROVIDER",
           "meta_config": {
             "entry": [
               {
@@ -598,17 +588,26 @@
                 "value": "5/1/185"
               }
             ]
+          },
+          "type": "POWER_CONSUMPTION_STATE_SERVICE",
+          "binding_config": {
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA606E__home_living__PowerConsumptionSensor__A9C5Consumption__PowerConsumptionProvider"
+                }
+              ]
+            },
+            "binding_id": "OPENHAB"
           }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/living/dining/powerplug/a9c6/",
-      "unit_template_config_id": "Hager_TYA606E_POWER_PLUG_5",
       "label": "A9C6",
       "device_id": "Hager_TYA606E_397293269430000",
-      "type": "POWER_PLUG",
       "placement_config": {
         "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
         "transformation_frame_id": "A9C6",
@@ -635,22 +634,13 @@
           "a9c6"
         ]
       },
-      "bound_to_device": false,
+      "meta_config": {},
+      "type": "POWER_SWITCH",
+      "unit_template_config_id": "Hager_TYA606E_POWER_SWITCH_5",
+      "bound_to_system_unit": false,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
-            "meta_config": {
-              "entry": [
-                {
-                  "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA606E__home_living_dining__PowerPlug__A9C6__PowerService"
-                }
-              ]
-            }
-          },
           "unit_id": "/home/living/dining/powerplug/a9c6/",
-          "type": "POWER_SERVICE",
           "meta_config": {
             "entry": [
               {
@@ -658,17 +648,26 @@
                 "value": "5/1/102+5/1/108"
               }
             ]
+          },
+          "type": "POWER_STATE_SERVICE",
+          "binding_config": {
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA606E__home_living_dining__PowerPlug__A9C6__PowerService"
+                }
+              ]
+            },
+            "binding_id": "OPENHAB"
           }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/living/dining/powerconsumptionsensor/a9c6consumption/",
-      "unit_template_config_id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_5",
       "label": "A9C6Consumption",
       "device_id": "Hager_TYA606E_397293269430000",
-      "type": "POWER_CONSUMPTION_SENSOR",
       "placement_config": {
         "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
         "transformation_frame_id": "A9C6Consumption",
@@ -695,11 +694,16 @@
           "a9c6consumption"
         ]
       },
-      "bound_to_device": false,
+      "meta_config": {},
+      "type": "POWER_CONSUMPTION_SENSOR",
+      "unit_template_config_id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_5",
+      "bound_to_system_unit": false,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/living/dining/powerconsumptionsensor/a9c6consumption/",
+          "meta_config": {},
+          "type": "POWER_CONSUMPTION_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -711,15 +715,11 @@
                   "value": "Hager_TYA606E__home_living_dining__PowerConsumptionSensor__A9C6Consumption__PowerConsumptionProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/living/dining/powerconsumptionsensor/a9c6consumption/",
-          "type": "POWER_CONSUMPTION_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     }
-  ],
-  "meta_config": {}
+  ]
 }

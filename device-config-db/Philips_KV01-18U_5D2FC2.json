@@ -27,22 +27,28 @@
     ]
   },
   "serial_number": "5D2FC2",
+  "device_class_id": "Philips_KV01-18U",
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "5"
+      }
+    ]
+  },
   "inventory_state": {
     "value": "INSTALLED",
     "location_id": "Living",
     "timestamp": {
       "time": 1441014803255
     },
-    "owner": {}
+    "owner_id": ""
   },
-  "device_class_id": "Philips_KV01-18U",
   "unit_config": [
     {
       "id": "/home/living/lounge/ambientlight/loungelamp/",
-      "unit_template_config_id": "Philips_KV01-18U_AMBIENT_LIGHT_0",
       "label": "LoungeLamp",
       "device_id": "Philips_KV01-18U_5D2FC2",
-      "type": "AMBIENT_LIGHT",
       "placement_config": {
         "location_id": "0df5bbb8-2d17-4f81-9b34-314a26ae713a",
         "transformation_frame_id": "LoungeLamp",
@@ -69,11 +75,16 @@
           "loungelamp"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "COLORABLE_LIGHT",
+      "unit_template_config_id": "Philips_KV01-18U_COLORABLE_LIGHT_0",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/living/lounge/ambientlight/loungelamp/",
+          "meta_config": {},
+          "type": "BRIGHTNESS_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -81,15 +92,15 @@
                   "value": "Philips_Hue_E27__home_living_lounge__AmbientLight__LoungeLamp__BrightnessService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/living/lounge/ambientlight/loungelamp/",
-          "type": "BRIGHTNESS_SERVICE",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         },
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/living/lounge/ambientlight/loungelamp/",
+          "meta_config": {},
+          "type": "COLOR_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -97,15 +108,15 @@
                   "value": "Philips_Hue_E27__home_living_lounge__AmbientLight__LoungeLamp__ColorService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/living/lounge/ambientlight/loungelamp/",
-          "type": "COLOR_SERVICE",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         },
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/living/lounge/ambientlight/loungelamp/",
+          "meta_config": {},
+          "type": "POWER_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -113,22 +124,11 @@
                   "value": "Philips_Hue_E27__home_living_lounge__AmbientLight__LoungeLamp__PowerService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/living/lounge/ambientlight/loungelamp/",
-          "type": "POWER_SERVICE",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     }
-  ],
-  "meta_config": {
-    "entry": [
-      {
-        "key": "OPENHAB_BINDING_DEVICE_ID",
-        "value": "5"
-      }
-    ]
-  }
+  ]
 }

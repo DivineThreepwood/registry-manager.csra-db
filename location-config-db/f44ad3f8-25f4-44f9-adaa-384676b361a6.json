@@ -118,7 +118,7 @@
   },
   "meta_config": {},
   "tile_config": {
-    "type": "ROOM",
-    "meta_config": {}
+    "meta_config": {},
+    "type": "INDOOR"
   }
 }

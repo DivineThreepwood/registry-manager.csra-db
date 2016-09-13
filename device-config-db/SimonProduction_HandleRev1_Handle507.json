@@ -27,21 +27,27 @@
     ]
   },
   "serial_number": "Handle507",
+  "device_class_id": "SimonProduction_HandleRev1",
+  "meta_config": {
+    "entry": [
+      {
+        "key": "ADHOC_IGNORE",
+        "value": "true"
+      }
+    ]
+  },
   "inventory_state": {
     "value": "INSTALLED",
     "timestamp": {
       "time": 1441020309396
     },
-    "owner": {}
+    "owner_id": ""
   },
-  "device_class_id": "SimonProduction_HandleRev1",
   "unit_config": [
     {
       "id": "/home/kitchen/ambientlight/507/",
-      "unit_template_config_id": "SimonProduction_HandleRev1_AMBIENT_LIGHT_0",
       "label": "507",
       "device_id": "SimonProduction_HandleRev1_Handle507",
-      "type": "AMBIENT_LIGHT",
       "placement_config": {
         "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
         "transformation_frame_id": "507",
@@ -68,36 +74,6 @@
           "507"
         ]
       },
-      "bound_to_device": true,
-      "service_config": [
-        {
-          "binding_service_config": {
-            "type": "HANDLES",
-            "meta_config": {}
-          },
-          "unit_id": "/home/kitchen/ambientlight/507/",
-          "type": "BRIGHTNESS_SERVICE",
-          "meta_config": {}
-        },
-        {
-          "binding_service_config": {
-            "type": "HANDLES",
-            "meta_config": {}
-          },
-          "unit_id": "/home/kitchen/ambientlight/507/",
-          "type": "COLOR_SERVICE",
-          "meta_config": {}
-        },
-        {
-          "binding_service_config": {
-            "type": "HANDLES",
-            "meta_config": {}
-          },
-          "unit_id": "/home/kitchen/ambientlight/507/",
-          "type": "POWER_SERVICE",
-          "meta_config": {}
-        }
-      ],
       "meta_config": {
         "entry": [
           {
@@ -105,15 +81,39 @@
             "value": "true"
           }
         ]
-      }
+      },
+      "type": "COLORABLE_LIGHT",
+      "unit_template_config_id": "SimonProduction_HandleRev1_COLORABLE_LIGHT_0",
+      "bound_to_system_unit": true,
+      "service_config": [
+        {
+          "unit_id": "/home/kitchen/ambientlight/507/",
+          "meta_config": {},
+          "type": "BRIGHTNESS_STATE_SERVICE",
+          "binding_config": {
+            "meta_config": {},
+            "binding_id": "HANDLES"
+          }
+        },
+        {
+          "unit_id": "/home/kitchen/ambientlight/507/",
+          "meta_config": {},
+          "type": "COLOR_STATE_SERVICE",
+          "binding_config": {
+            "meta_config": {},
+            "binding_id": "HANDLES"
+          }
+        },
+        {
+          "unit_id": "/home/kitchen/ambientlight/507/",
+          "meta_config": {},
+          "type": "POWER_STATE_SERVICE",
+          "binding_config": {
+            "meta_config": {},
+            "binding_id": "HANDLES"
+          }
+        }
+      ]
     }
-  ],
-  "meta_config": {
-    "entry": [
-      {
-        "key": "ADHOC_IGNORE",
-        "value": "true"
-      }
-    ]
-  }
+  ]
 }

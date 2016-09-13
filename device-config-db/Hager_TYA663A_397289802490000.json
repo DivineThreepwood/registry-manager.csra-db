@@ -26,22 +26,21 @@
     ]
   },
   "serial_number": "397289802490000",
+  "device_class_id": "Hager_TYA663A",
+  "meta_config": {},
   "inventory_state": {
     "value": "INSTALLED",
     "location_id": "Control",
     "timestamp": {
       "time": 1441012859722
     },
-    "owner": {}
+    "owner_id": ""
   },
-  "device_class_id": "Hager_TYA663A",
   "unit_config": [
     {
       "id": "/home/kitchen/dimmer/dimmer/",
-      "unit_template_config_id": "Hager_TYA663A_DIMMER_0",
       "label": "Dimmer",
       "device_id": "Hager_TYA663A_397289802490000",
-      "type": "DIMMER",
       "placement_config": {
         "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
         "transformation_frame_id": "Kitchen_Dimmer",
@@ -67,11 +66,16 @@
           "dimmer"
         ]
       },
-      "bound_to_device": false,
+      "meta_config": {},
+      "type": "DIMMER",
+      "unit_template_config_id": "Hager_TYA663A_DIMMER_0",
+      "bound_to_system_unit": false,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/kitchen/dimmer/dimmer/",
+          "meta_config": {},
+          "type": "INTENSITY_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -83,15 +87,15 @@
                   "value": "Hager_TYA663A__home_kitchen__Dimmer__Dimmer__DimService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/kitchen/dimmer/dimmer/",
-          "type": "DIM_SERVICE",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         },
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/kitchen/dimmer/dimmer/",
+          "meta_config": {},
+          "type": "POWER_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -103,21 +107,16 @@
                   "value": "Hager_TYA663A__home_kitchen__Dimmer__Dimmer__PowerService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/kitchen/dimmer/dimmer/",
-          "type": "POWER_SERVICE",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/living/dimmer/tabledimmer/",
-      "unit_template_config_id": "Hager_TYA663A_DIMMER_1",
       "label": "TableDimmer",
       "device_id": "Hager_TYA663A_397289802490000",
-      "type": "DIMMER",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "transformation_frame_id": "TableDimmer",
@@ -143,11 +142,16 @@
           "tabledimmer"
         ]
       },
-      "bound_to_device": false,
+      "meta_config": {},
+      "type": "DIMMER",
+      "unit_template_config_id": "Hager_TYA663A_DIMMER_1",
+      "bound_to_system_unit": false,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/living/dimmer/tabledimmer/",
+          "meta_config": {},
+          "type": "INTENSITY_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -159,15 +163,15 @@
                   "value": "Hager_TYA663A__home_living__Dimmer__TableDimmer__DimService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/living/dimmer/tabledimmer/",
-          "type": "DIM_SERVICE",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         },
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/living/dimmer/tabledimmer/",
+          "meta_config": {},
+          "type": "POWER_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -179,21 +183,16 @@
                   "value": "Hager_TYA663A__home_living__Dimmer__TableDimmer__PowerService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/living/dimmer/tabledimmer/",
-          "type": "POWER_SERVICE",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/living/dimmer/leftdimmer/",
-      "unit_template_config_id": "Hager_TYA663A_DIMMER_2",
       "label": "LeftDimmer",
       "device_id": "Hager_TYA663A_397289802490000",
-      "type": "DIMMER",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "transformation_frame_id": "LeftDimmer",
@@ -219,11 +218,16 @@
           "leftdimmer"
         ]
       },
-      "bound_to_device": false,
+      "meta_config": {},
+      "type": "DIMMER",
+      "unit_template_config_id": "Hager_TYA663A_DIMMER_2",
+      "bound_to_system_unit": false,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/living/dimmer/leftdimmer/",
+          "meta_config": {},
+          "type": "INTENSITY_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -235,15 +239,15 @@
                   "value": "Hager_TYA663A__home_living__Dimmer__LeftDimmer__DimService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/living/dimmer/leftdimmer/",
-          "type": "DIM_SERVICE",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         },
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/living/dimmer/leftdimmer/",
+          "meta_config": {},
+          "type": "POWER_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -255,15 +259,11 @@
                   "value": "Hager_TYA663A__home_living__Dimmer__LeftDimmer__PowerService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/living/dimmer/leftdimmer/",
-          "type": "POWER_SERVICE",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     }
-  ],
-  "meta_config": {}
+  ]
 }

@@ -33,8 +33,8 @@
       }
     ]
   },
-  "activation_state": {
-    "value": "ACTIVE"
-  },
-  "type": "POWER_STATE_SYNCHRONISER"
+  "type": "POWER_STATE_SYNCHRONISER",
+  "enabling_state": {
+    "value": "ENABLED"
+  }
 }

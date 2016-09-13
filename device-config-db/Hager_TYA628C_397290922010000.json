@@ -27,22 +27,21 @@
     ]
   },
   "serial_number": "397290922010000",
+  "device_class_id": "Hager_TYA628C",
+  "meta_config": {},
   "inventory_state": {
     "value": "INSTALLED",
     "location_id": "Control",
     "timestamp": {
       "time": 1441010846697
     },
-    "owner": {}
+    "owner_id": ""
   },
-  "device_class_id": "Hager_TYA628C",
   "unit_config": [
     {
       "id": "/home/sports/rollershutter/inside/",
-      "unit_template_config_id": "Hager_TYA628C_ROLLERSHUTTER_0",
       "label": "Inside",
       "device_id": "Hager_TYA628C_397290922010000",
-      "type": "ROLLERSHUTTER",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "transformation_frame_id": "Inside",
@@ -70,11 +69,22 @@
         ]
       },
       "description": "The inside rollershutter of the sports room.",
-      "bound_to_device": false,
+      "meta_config": {},
+      "type": "ROLLER_SHUTTER",
+      "unit_template_config_id": "Hager_TYA628C_ROLLER_SHUTTER_0",
+      "bound_to_system_unit": false,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/sports/rollershutter/inside/",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_BINDING_COMMAND",
+                "value": "Number"
+              }
+            ]
+          },
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -86,22 +96,15 @@
                   "value": "Hager_TYA628C__home_sports__Rollershutter__Inside__OpeningRatioService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/sports/rollershutter/inside/",
-          "type": "OPENING_RATIO_SERVICE",
-          "meta_config": {
-            "entry": [
-              {
-                "key": "OPENHAB_BINDING_COMMAND",
-                "value": "Number"
-              }
-            ]
+            },
+            "binding_id": "OPENHAB"
           }
         },
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/sports/rollershutter/inside/",
+          "meta_config": {},
+          "type": "BLIND_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -113,21 +116,16 @@
                   "value": "Hager_TYA628C__home_sports__Rollershutter__Inside__ShutterService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/sports/rollershutter/inside/",
-          "type": "SHUTTER_SERVICE",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/sports/rollershutter/outside/",
-      "unit_template_config_id": "Hager_TYA628C_ROLLERSHUTTER_1",
       "label": "Outside",
       "device_id": "Hager_TYA628C_397290922010000",
-      "type": "ROLLERSHUTTER",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "transformation_frame_id": "Outside",
@@ -155,11 +153,22 @@
         ]
       },
       "description": "The outside rollershutter of the sports room.",
-      "bound_to_device": false,
+      "meta_config": {},
+      "type": "ROLLER_SHUTTER",
+      "unit_template_config_id": "Hager_TYA628C_ROLLER_SHUTTER_1",
+      "bound_to_system_unit": false,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/sports/rollershutter/outside/",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_BINDING_COMMAND",
+                "value": "Number"
+              }
+            ]
+          },
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -171,22 +180,15 @@
                   "value": "Hager_TYA628C__home_sports__Rollershutter__Outside__OpeningRatioService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/sports/rollershutter/outside/",
-          "type": "OPENING_RATIO_SERVICE",
-          "meta_config": {
-            "entry": [
-              {
-                "key": "OPENHAB_BINDING_COMMAND",
-                "value": "Number"
-              }
-            ]
+            },
+            "binding_id": "OPENHAB"
           }
         },
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/sports/rollershutter/outside/",
+          "meta_config": {},
+          "type": "BLIND_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -198,21 +200,16 @@
                   "value": "Hager_TYA628C__home_sports__Rollershutter__Outside__ShutterService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/sports/rollershutter/outside/",
-          "type": "SHUTTER_SERVICE",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/living/rollershutter/leftinside/",
-      "unit_template_config_id": "Hager_TYA628C_ROLLERSHUTTER_2",
       "label": "LeftInside",
       "device_id": "Hager_TYA628C_397290922010000",
-      "type": "ROLLERSHUTTER",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "transformation_frame_id": "LeftInside",
@@ -240,11 +237,22 @@
         ]
       },
       "description": "The left inside rollershutter of the living room.",
-      "bound_to_device": false,
+      "meta_config": {},
+      "type": "ROLLER_SHUTTER",
+      "unit_template_config_id": "Hager_TYA628C_ROLLER_SHUTTER_2",
+      "bound_to_system_unit": false,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/living/rollershutter/leftinside/",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_BINDING_COMMAND",
+                "value": "Number"
+              }
+            ]
+          },
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -256,22 +264,15 @@
                   "value": "Hager_TYA628C__home_living__Rollershutter__LeftInside__OpeningRatioService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/living/rollershutter/leftinside/",
-          "type": "OPENING_RATIO_SERVICE",
-          "meta_config": {
-            "entry": [
-              {
-                "key": "OPENHAB_BINDING_COMMAND",
-                "value": "Number"
-              }
-            ]
+            },
+            "binding_id": "OPENHAB"
           }
         },
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/living/rollershutter/leftinside/",
+          "meta_config": {},
+          "type": "BLIND_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -283,21 +284,16 @@
                   "value": "Hager_TYA628C__home_living__Rollershutter__LeftInside__ShutterService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/living/rollershutter/leftinside/",
-          "type": "SHUTTER_SERVICE",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/living/rollershutter/leftoutside/",
-      "unit_template_config_id": "Hager_TYA628C_ROLLERSHUTTER_3",
       "label": "LeftOutside",
       "device_id": "Hager_TYA628C_397290922010000",
-      "type": "ROLLERSHUTTER",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "transformation_frame_id": "LeftOutside",
@@ -325,11 +321,22 @@
         ]
       },
       "description": "The left outside rollershutter of the living room.",
-      "bound_to_device": false,
+      "meta_config": {},
+      "type": "ROLLER_SHUTTER",
+      "unit_template_config_id": "Hager_TYA628C_ROLLER_SHUTTER_3",
+      "bound_to_system_unit": false,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/living/rollershutter/leftoutside/",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_BINDING_COMMAND",
+                "value": "Number"
+              }
+            ]
+          },
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -341,22 +348,15 @@
                   "value": "Hager_TYA628C__home_living__Rollershutter__LeftOutside__OpeningRatioService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/living/rollershutter/leftoutside/",
-          "type": "OPENING_RATIO_SERVICE",
-          "meta_config": {
-            "entry": [
-              {
-                "key": "OPENHAB_BINDING_COMMAND",
-                "value": "Number"
-              }
-            ]
+            },
+            "binding_id": "OPENHAB"
           }
         },
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/living/rollershutter/leftoutside/",
+          "meta_config": {},
+          "type": "BLIND_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -368,21 +368,16 @@
                   "value": "Hager_TYA628C__home_living__Rollershutter__LeftOutside__ShutterService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/living/rollershutter/leftoutside/",
-          "type": "SHUTTER_SERVICE",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/living/rollershutter/middleinside/",
-      "unit_template_config_id": "Hager_TYA628C_ROLLERSHUTTER_4",
       "label": "MiddleInside",
       "device_id": "Hager_TYA628C_397290922010000",
-      "type": "ROLLERSHUTTER",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "transformation_frame_id": "MiddleInside",
@@ -410,11 +405,22 @@
         ]
       },
       "description": "The middle inside rollershutter of the living room.",
-      "bound_to_device": false,
+      "meta_config": {},
+      "type": "ROLLER_SHUTTER",
+      "unit_template_config_id": "Hager_TYA628C_ROLLER_SHUTTER_4",
+      "bound_to_system_unit": false,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/living/rollershutter/middleinside/",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_BINDING_COMMAND",
+                "value": "Number"
+              }
+            ]
+          },
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -426,22 +432,15 @@
                   "value": "Hager_TYA628C__home_living__Rollershutter__MiddleInside__OpeningRatioService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/living/rollershutter/middleinside/",
-          "type": "OPENING_RATIO_SERVICE",
-          "meta_config": {
-            "entry": [
-              {
-                "key": "OPENHAB_BINDING_COMMAND",
-                "value": "Number"
-              }
-            ]
+            },
+            "binding_id": "OPENHAB"
           }
         },
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/living/rollershutter/middleinside/",
+          "meta_config": {},
+          "type": "BLIND_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -453,21 +452,16 @@
                   "value": "Hager_TYA628C__home_living__Rollershutter__MiddleInside__ShutterService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/living/rollershutter/middleinside/",
-          "type": "SHUTTER_SERVICE",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/living/rollershutter/middleoutside/",
-      "unit_template_config_id": "Hager_TYA628C_ROLLERSHUTTER_5",
       "label": "MiddleOutside",
       "device_id": "Hager_TYA628C_397290922010000",
-      "type": "ROLLERSHUTTER",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "transformation_frame_id": "MiddleOutside",
@@ -495,11 +489,22 @@
         ]
       },
       "description": "The middle outisde rollertshutter of the living room.",
-      "bound_to_device": false,
+      "meta_config": {},
+      "type": "ROLLER_SHUTTER",
+      "unit_template_config_id": "Hager_TYA628C_ROLLER_SHUTTER_5",
+      "bound_to_system_unit": false,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/living/rollershutter/middleoutside/",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_BINDING_COMMAND",
+                "value": "Number"
+              }
+            ]
+          },
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -511,22 +516,15 @@
                   "value": "Hager_TYA628C__home_living__Rollershutter__MiddleOutside__OpeningRatioService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/living/rollershutter/middleoutside/",
-          "type": "OPENING_RATIO_SERVICE",
-          "meta_config": {
-            "entry": [
-              {
-                "key": "OPENHAB_BINDING_COMMAND",
-                "value": "Number"
-              }
-            ]
+            },
+            "binding_id": "OPENHAB"
           }
         },
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/living/rollershutter/middleoutside/",
+          "meta_config": {},
+          "type": "BLIND_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -538,21 +536,16 @@
                   "value": "Hager_TYA628C__home_living__Rollershutter__MiddleOutside__ShutterService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/living/rollershutter/middleoutside/",
-          "type": "SHUTTER_SERVICE",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/living/rollershutter/rightinside/",
-      "unit_template_config_id": "Hager_TYA628C_ROLLERSHUTTER_6",
       "label": "RightInside",
       "device_id": "Hager_TYA628C_397290922010000",
-      "type": "ROLLERSHUTTER",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "transformation_frame_id": "RightInside",
@@ -580,11 +573,22 @@
         ]
       },
       "description": "The right inside rollershutter of the living room.",
-      "bound_to_device": false,
+      "meta_config": {},
+      "type": "ROLLER_SHUTTER",
+      "unit_template_config_id": "Hager_TYA628C_ROLLER_SHUTTER_6",
+      "bound_to_system_unit": false,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/living/rollershutter/rightinside/",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_BINDING_COMMAND",
+                "value": "Number"
+              }
+            ]
+          },
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -596,22 +600,15 @@
                   "value": "Hager_TYA628C__home_living__Rollershutter__RightInside__OpeningRatioService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/living/rollershutter/rightinside/",
-          "type": "OPENING_RATIO_SERVICE",
-          "meta_config": {
-            "entry": [
-              {
-                "key": "OPENHAB_BINDING_COMMAND",
-                "value": "Number"
-              }
-            ]
+            },
+            "binding_id": "OPENHAB"
           }
         },
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/living/rollershutter/rightinside/",
+          "meta_config": {},
+          "type": "BLIND_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -623,21 +620,16 @@
                   "value": "Hager_TYA628C__home_living__Rollershutter__RightInside__ShutterService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/living/rollershutter/rightinside/",
-          "type": "SHUTTER_SERVICE",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/living/rollershutter/rightoutside/",
-      "unit_template_config_id": "Hager_TYA628C_ROLLERSHUTTER_7",
       "label": "RightOutside",
       "device_id": "Hager_TYA628C_397290922010000",
-      "type": "ROLLERSHUTTER",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "transformation_frame_id": "RightOutside",
@@ -665,11 +657,22 @@
         ]
       },
       "description": "The right outside rollershutter of the living room.",
-      "bound_to_device": false,
+      "meta_config": {},
+      "type": "ROLLER_SHUTTER",
+      "unit_template_config_id": "Hager_TYA628C_ROLLER_SHUTTER_7",
+      "bound_to_system_unit": false,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/living/rollershutter/rightoutside/",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_BINDING_COMMAND",
+                "value": "Number"
+              }
+            ]
+          },
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -681,22 +684,15 @@
                   "value": "Hager_TYA628C__home_living__Rollershutter__RightOutside__OpeningRatioService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/living/rollershutter/rightoutside/",
-          "type": "OPENING_RATIO_SERVICE",
-          "meta_config": {
-            "entry": [
-              {
-                "key": "OPENHAB_BINDING_COMMAND",
-                "value": "Number"
-              }
-            ]
+            },
+            "binding_id": "OPENHAB"
           }
         },
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/living/rollershutter/rightoutside/",
+          "meta_config": {},
+          "type": "BLIND_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -708,15 +704,11 @@
                   "value": "Hager_TYA628C__home_living__Rollershutter__RightOutside__ShutterService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/living/rollershutter/rightoutside/",
-          "type": "SHUTTER_SERVICE",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     }
-  ],
-  "meta_config": {}
+  ]
 }

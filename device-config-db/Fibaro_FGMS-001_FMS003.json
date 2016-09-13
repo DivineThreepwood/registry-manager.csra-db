@@ -26,22 +26,32 @@
     ]
   },
   "serial_number": "FMS003",
+  "device_class_id": "Fibaro_FGMS-001",
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "38"
+      },
+      {
+        "key": "SENSOR_BOUNDINGBOX",
+        "value": "2.5,5.6,1.5,0.8"
+      }
+    ]
+  },
   "inventory_state": {
     "value": "INSTALLED",
     "location_id": "Bath",
     "timestamp": {
       "time": 1440770194218
     },
-    "owner": {}
+    "owner_id": ""
   },
-  "device_class_id": "Fibaro_FGMS-001",
   "unit_config": [
     {
       "id": "/home/bath/battery/shower/",
-      "unit_template_config_id": "Fibaro_FGMS-001_BATTERY_0",
       "label": "Shower",
       "device_id": "Fibaro_FGMS-001_FMS003",
-      "type": "BATTERY",
       "placement_config": {
         "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
         "transformation_frame_id": "Shower",
@@ -67,11 +77,16 @@
           "shower"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "BATTERY",
+      "unit_template_config_id": "Fibaro_FGMS-001_BATTERY_0",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/bath/battery/shower/",
+          "meta_config": {},
+          "type": "BATTERY_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -79,21 +94,16 @@
                   "value": "Fibaro_MotionSensor__home_bath__Battery__Shower__BatteryProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/bath/battery/shower/",
-          "type": "BATTERY_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/bath/brightnesssensor/shower/",
-      "unit_template_config_id": "Fibaro_FGMS-001_BRIGHTNESS_SENSOR_0",
       "label": "Shower",
       "device_id": "Fibaro_FGMS-001_FMS003",
-      "type": "BRIGHTNESS_SENSOR",
       "placement_config": {
         "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
         "transformation_frame_id": "Bath_Shower",
@@ -119,11 +129,16 @@
           "shower"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "BRIGHTNESS_SENSOR",
+      "unit_template_config_id": "Fibaro_FGMS-001_BRIGHTNESS_SENSOR_0",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/bath/brightnesssensor/shower/",
+          "meta_config": {},
+          "type": "BRIGHTNESS_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -131,21 +146,16 @@
                   "value": "Fibaro_MotionSensor__home_bath__BrightnessSensor__Shower__BrightnessProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/bath/brightnesssensor/shower/",
-          "type": "BRIGHTNESS_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/bath/motionsensor/shower/",
-      "unit_template_config_id": "Fibaro_FGMS-001_MOTION_SENSOR_0",
       "label": "Shower",
       "device_id": "Fibaro_FGMS-001_FMS003",
-      "type": "MOTION_SENSOR",
       "placement_config": {
         "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
         "transformation_frame_id": "Bath_Shower",
@@ -171,11 +181,16 @@
           "shower"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "MOTION_DETECTOR",
+      "unit_template_config_id": "Fibaro_FGMS-001_MOTION_DETECTOR_0",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/bath/motionsensor/shower/",
+          "meta_config": {},
+          "type": "MOTION_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -183,21 +198,16 @@
                   "value": "Fibaro_MotionSensor__home_bath__MotionSensor__Shower__MotionProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/bath/motionsensor/shower/",
-          "type": "MOTION_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/bath/tamperswitch/shower/",
-      "unit_template_config_id": "Fibaro_FGMS-001_TAMPER_SWITCH_0",
       "label": "Shower",
       "device_id": "Fibaro_FGMS-001_FMS003",
-      "type": "TAMPER_SWITCH",
       "placement_config": {
         "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
         "transformation_frame_id": "Bath_Shower",
@@ -223,11 +233,16 @@
           "shower"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "TAMPER_DETECTOR",
+      "unit_template_config_id": "Fibaro_FGMS-001_TAMPER_DETECTOR_0",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/bath/tamperswitch/shower/",
+          "meta_config": {},
+          "type": "TAMPER_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -235,21 +250,16 @@
                   "value": "Fibaro_MotionSensor__home_bath__TamperSwitch__Shower__TamperProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/bath/tamperswitch/shower/",
-          "type": "TAMPER_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/bath/temperaturesensor/shower/",
-      "unit_template_config_id": "Fibaro_FGMS-001_TEMPERATURE_SENSOR_0",
       "label": "Shower",
       "device_id": "Fibaro_FGMS-001_FMS003",
-      "type": "TEMPERATURE_SENSOR",
       "placement_config": {
         "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
         "transformation_frame_id": "Bath_Shower",
@@ -275,11 +285,16 @@
           "shower"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "TEMPERATURE_SENSOR",
+      "unit_template_config_id": "Fibaro_FGMS-001_TEMPERATURE_SENSOR_0",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/bath/temperaturesensor/shower/",
+          "meta_config": {},
+          "type": "TEMPERATURE_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -287,15 +302,14 @@
                   "value": "Fibaro_MotionSensor__home_bath__TemperatureSensor__Shower__TemperatureProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/bath/temperaturesensor/shower/",
-          "type": "TEMPERATURE_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         },
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/bath/temperaturesensor/shower/",
+          "type": "TEMPERATURE_ALARM_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -303,25 +317,11 @@
                   "value": "Fibaro_MotionSensor__home_bath__TemperatureSensor__Shower__TemperatureAlarmStateProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/bath/temperaturesensor/shower/",
-          "type": "TEMPERATURE_ALARM_STATE_PROVIDER"
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     }
-  ],
-  "meta_config": {
-    "entry": [
-      {
-        "key": "OPENHAB_BINDING_DEVICE_ID",
-        "value": "38"
-      },
-      {
-        "key": "SENSOR_BOUNDINGBOX",
-        "value": "2.5,5.6,1.5,0.8"
-      }
-    ]
-  }
+  ]
 }

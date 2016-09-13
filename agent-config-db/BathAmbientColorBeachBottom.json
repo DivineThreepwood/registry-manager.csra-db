@@ -90,8 +90,8 @@
       }
     ]
   },
-  "activation_state": {
-    "value": "DEACTIVE"
-  },
-  "type": "AMBIENT_COLOR"
+  "type": "AMBIENT_COLOR",
+  "enabling_state": {
+    "value": "DISABLED"
+  }
 }

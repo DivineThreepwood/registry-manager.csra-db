@@ -11,8 +11,8 @@
     ]
   },
   "meta_config": {},
-  "activation_state": {
-    "value": "DEACTIVE"
-  },
-  "type": "SOUND_SCAPE"
+  "type": "SOUND_SCAPE",
+  "enabling_state": {
+    "value": "DISABLED"
+  }
 }

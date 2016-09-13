@@ -27,22 +27,21 @@
     ]
   },
   "serial_number": "431593932940000",
+  "device_class_id": "Gira_429496730250000",
+  "meta_config": {},
   "inventory_state": {
     "value": "INSTALLED",
     "location_id": "Bath",
     "timestamp": {
       "time": 1449246977912
     },
-    "owner": {}
+    "owner_id": ""
   },
-  "device_class_id": "Gira_429496730250000",
   "unit_config": [
     {
       "id": "/home/bath/temperaturecontroller/temperaturecontrollerbath/",
-      "unit_template_config_id": "Gira_429496730250000_TEMPERATURE_CONTROLLER_0",
       "label": "TemperatureControllerBath",
       "device_id": "Gira_429496730250000_431593932940000",
-      "type": "TEMPERATURE_CONTROLLER",
       "placement_config": {
         "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
         "transformation_frame_id": "TemperatureControllerBath",
@@ -69,11 +68,16 @@
           "temperaturecontrollerbath"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "TEMPERATURE_CONTROLLER",
+      "unit_template_config_id": "Gira_429496730250000_TEMPERATURE_CONTROLLER_0",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/bath/temperaturecontroller/temperaturecontrollerbath/",
+          "meta_config": {},
+          "type": "TEMPERATURE_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -85,15 +89,15 @@
                   "value": "Gira_5142__home_bath__TemperatureController__TemperatureControllerBath__TemperatureProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/bath/temperaturecontroller/temperaturecontrollerbath/",
-          "type": "TEMPERATURE_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         },
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/bath/temperaturecontroller/temperaturecontrollerbath/",
+          "meta_config": {},
+          "type": "TARGET_TEMPERATURE_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -102,21 +106,16 @@
                 },
                 {}
               ]
-            }
-          },
-          "unit_id": "/home/bath/temperaturecontroller/temperaturecontrollerbath/",
-          "type": "TARGET_TEMPERATURE_SERVICE",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/bath/button/button_1/",
-      "unit_template_config_id": "Gira_429496730250000_BUTTON_0",
       "label": "Button 1",
       "device_id": "Gira_429496730250000_431593932940000",
-      "type": "BUTTON",
       "placement_config": {
         "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
         "transformation_frame_id": "Bath_Button_1",
@@ -143,11 +142,16 @@
           "button_1"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "BUTTON",
+      "unit_template_config_id": "Gira_429496730250000_BUTTON_0",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/bath/button/button_1/",
+          "meta_config": {},
+          "type": "BUTTON_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -159,21 +163,16 @@
                   "value": "Gira_5142__home_bath__Button__Button_1__ButtonProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/bath/button/button_1/",
-          "type": "BUTTON_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/bath/button/button_2_/",
-      "unit_template_config_id": "Gira_429496730250000_BUTTON_1",
       "label": "Button 2 ",
       "device_id": "Gira_429496730250000_431593932940000",
-      "type": "BUTTON",
       "placement_config": {
         "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
         "transformation_frame_id": "Button_2_",
@@ -200,11 +199,16 @@
           "button_2_"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "BUTTON",
+      "unit_template_config_id": "Gira_429496730250000_BUTTON_1",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/bath/button/button_2_/",
+          "meta_config": {},
+          "type": "BUTTON_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -216,21 +220,16 @@
                   "value": "Gira_5142__home_bath__Button__Button_2___ButtonProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/bath/button/button_2_/",
-          "type": "BUTTON_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/bath/button/button_3/",
-      "unit_template_config_id": "Gira_429496730250000_BUTTON_2",
       "label": "Button 3",
       "device_id": "Gira_429496730250000_431593932940000",
-      "type": "BUTTON",
       "placement_config": {
         "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
         "transformation_frame_id": "Bath_Button_3",
@@ -257,11 +256,16 @@
           "button_3"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "BUTTON",
+      "unit_template_config_id": "Gira_429496730250000_BUTTON_2",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/bath/button/button_3/",
+          "meta_config": {},
+          "type": "BUTTON_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -273,21 +277,16 @@
                   "value": "Gira_5142__home_bath__Button__Button_3__ButtonProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/bath/button/button_3/",
-          "type": "BUTTON_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/bath/button/button_4/",
-      "unit_template_config_id": "Gira_429496730250000_BUTTON_3",
       "label": "Button 4",
       "device_id": "Gira_429496730250000_431593932940000",
-      "type": "BUTTON",
       "placement_config": {
         "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
         "transformation_frame_id": "Button_4",
@@ -314,11 +313,16 @@
           "button_4"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "BUTTON",
+      "unit_template_config_id": "Gira_429496730250000_BUTTON_3",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/bath/button/button_4/",
+          "meta_config": {},
+          "type": "BUTTON_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -330,15 +334,11 @@
                   "value": "Gira_5142__home_bath__Button__Button_4__ButtonProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/bath/button/button_4/",
-          "type": "BUTTON_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     }
-  ],
-  "meta_config": {}
+  ]
 }

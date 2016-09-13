@@ -26,22 +26,32 @@
     ]
   },
   "serial_number": "FMS014",
+  "device_class_id": "Fibaro_FGMS-001",
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "41"
+      },
+      {
+        "key": "SENSOR_BOUNDINGBOX",
+        "value": "4.1,3.9,1.6,4.0"
+      }
+    ]
+  },
   "inventory_state": {
     "value": "INSTALLED",
     "location_id": "Sports",
     "timestamp": {
       "time": 1440770891694
     },
-    "owner": {}
+    "owner_id": ""
   },
-  "device_class_id": "Fibaro_FGMS-001",
   "unit_config": [
     {
       "id": "/home/sports/battery/pathway/",
-      "unit_template_config_id": "Fibaro_FGMS-001_BATTERY_0",
       "label": "Pathway",
       "device_id": "Fibaro_FGMS-001_FMS014",
-      "type": "BATTERY",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "transformation_frame_id": "Pathway",
@@ -67,11 +77,16 @@
           "pathway"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "BATTERY",
+      "unit_template_config_id": "Fibaro_FGMS-001_BATTERY_0",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/sports/battery/pathway/",
+          "meta_config": {},
+          "type": "BATTERY_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -79,21 +94,16 @@
                   "value": "Fibaro_MotionSensor__home_sports__Battery__Pathway__BatteryProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/sports/battery/pathway/",
-          "type": "BATTERY_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/sports/brightnesssensor/pathway/",
-      "unit_template_config_id": "Fibaro_FGMS-001_BRIGHTNESS_SENSOR_0",
       "label": "Pathway",
       "device_id": "Fibaro_FGMS-001_FMS014",
-      "type": "BRIGHTNESS_SENSOR",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "transformation_frame_id": "Sports_Pathway",
@@ -119,11 +129,16 @@
           "pathway"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "BRIGHTNESS_SENSOR",
+      "unit_template_config_id": "Fibaro_FGMS-001_BRIGHTNESS_SENSOR_0",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/sports/brightnesssensor/pathway/",
+          "meta_config": {},
+          "type": "BRIGHTNESS_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -131,21 +146,16 @@
                   "value": "Fibaro_MotionSensor__home_sports__BrightnessSensor__Pathway__BrightnessProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/sports/brightnesssensor/pathway/",
-          "type": "BRIGHTNESS_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/sports/motionsensor/pathway/",
-      "unit_template_config_id": "Fibaro_FGMS-001_MOTION_SENSOR_0",
       "label": "Pathway",
       "device_id": "Fibaro_FGMS-001_FMS014",
-      "type": "MOTION_SENSOR",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "transformation_frame_id": "Sports_Pathway",
@@ -171,11 +181,16 @@
           "pathway"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "MOTION_DETECTOR",
+      "unit_template_config_id": "Fibaro_FGMS-001_MOTION_DETECTOR_0",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/sports/motionsensor/pathway/",
+          "meta_config": {},
+          "type": "MOTION_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -183,21 +198,16 @@
                   "value": "Fibaro_MotionSensor__home_sports__MotionSensor__Pathway__MotionProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/sports/motionsensor/pathway/",
-          "type": "MOTION_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/sports/tamperswitch/pathway/",
-      "unit_template_config_id": "Fibaro_FGMS-001_TAMPER_SWITCH_0",
       "label": "Pathway",
       "device_id": "Fibaro_FGMS-001_FMS014",
-      "type": "TAMPER_SWITCH",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "transformation_frame_id": "Sports_Pathway",
@@ -223,11 +233,16 @@
           "pathway"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "TAMPER_DETECTOR",
+      "unit_template_config_id": "Fibaro_FGMS-001_TAMPER_DETECTOR_0",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/sports/tamperswitch/pathway/",
+          "meta_config": {},
+          "type": "TAMPER_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -235,21 +250,16 @@
                   "value": "Fibaro_MotionSensor__home_sports__TamperSwitch__Pathway__TamperProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/sports/tamperswitch/pathway/",
-          "type": "TAMPER_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     },
     {
       "id": "/home/sports/temperaturesensor/pathway/",
-      "unit_template_config_id": "Fibaro_FGMS-001_TEMPERATURE_SENSOR_0",
       "label": "Pathway",
       "device_id": "Fibaro_FGMS-001_FMS014",
-      "type": "TEMPERATURE_SENSOR",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "transformation_frame_id": "Sports_Pathway",
@@ -275,11 +285,16 @@
           "pathway"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "TEMPERATURE_SENSOR",
+      "unit_template_config_id": "Fibaro_FGMS-001_TEMPERATURE_SENSOR_0",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/sports/temperaturesensor/pathway/",
+          "meta_config": {},
+          "type": "TEMPERATURE_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -287,15 +302,14 @@
                   "value": "Fibaro_MotionSensor__home_sports__TemperatureSensor__Pathway__TemperatureProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/sports/temperaturesensor/pathway/",
-          "type": "TEMPERATURE_PROVIDER",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         },
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/sports/temperaturesensor/pathway/",
+          "type": "TEMPERATURE_ALARM_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -303,25 +317,11 @@
                   "value": "Fibaro_MotionSensor__home_sports__TemperatureSensor__Pathway__TemperatureAlarmStateProvider"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/sports/temperaturesensor/pathway/",
-          "type": "TEMPERATURE_ALARM_STATE_PROVIDER"
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     }
-  ],
-  "meta_config": {
-    "entry": [
-      {
-        "key": "OPENHAB_BINDING_DEVICE_ID",
-        "value": "41"
-      },
-      {
-        "key": "SENSOR_BOUNDINGBOX",
-        "value": "4.1,3.9,1.6,4.0"
-      }
-    ]
-  }
+  ]
 }

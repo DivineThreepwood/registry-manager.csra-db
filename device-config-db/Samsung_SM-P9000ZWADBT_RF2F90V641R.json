@@ -25,16 +25,13 @@
     ]
   },
   "serial_number": "RF2F90V641R",
+  "device_class_id": "Samsung_SM-P9000ZWADBT",
+  "meta_config": {},
   "inventory_state": {
     "value": "IN_STOCK",
     "timestamp": {
       "time": 1441979257396
     },
-    "owner": {
-      "first_name": "Alexander",
-      "last_name": "Neumann"
-    }
-  },
-  "device_class_id": "Samsung_SM-P9000ZWADBT",
-  "meta_config": {}
+    "owner_id": ""
+  }
 }

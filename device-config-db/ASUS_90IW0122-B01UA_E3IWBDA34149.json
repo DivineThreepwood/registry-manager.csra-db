@@ -27,22 +27,21 @@
   },
   "serial_number": "E3IWBDA34149",
   "description": "SPORT4 @ BCN",
+  "device_class_id": "ASUS_90IW0122-B01UA",
+  "meta_config": {},
   "inventory_state": {
     "value": "INSTALLED",
     "location_id": "Sports",
     "timestamp": {
       "time": 1441984189722
     },
-    "owner": {}
+    "owner_id": ""
   },
-  "device_class_id": "ASUS_90IW0122-B01UA",
   "unit_config": [
     {
       "id": "/home/sports/rgbcamera/asus_90iw0122-b01ua_e3iwbda34149/",
-      "unit_template_config_id": "ASUS_90IW0122-B01UA_RGB_CAMERA_0",
       "label": "ASUS_90IW0122-B01UA_E3IWBDA34149",
       "device_id": "ASUS_90IW0122-B01UA_E3IWBDA34149",
-      "type": "RGB_CAMERA",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "transformation_frame_id": "ASUS_90IW0122-B01UA_E3IWBDA34149",
@@ -68,14 +67,14 @@
           "asus_90iw0122-b01ua_e3iwbda34149"
         ]
       },
-      "bound_to_device": true
+      "type": "VIDEO_RGB_SOURCE",
+      "unit_template_config_id": "ASUS_90IW0122-B01UA_VIDEO_RGB_SOURCE_0",
+      "bound_to_system_unit": true
     },
     {
       "id": "/home/sports/depthcamera/asus_90iw0122-b01ua_e3iwbda34149/",
-      "unit_template_config_id": "ASUS_90IW0122-B01UA_DEPTH_CAMERA_0",
       "label": "ASUS_90IW0122-B01UA_E3IWBDA34149",
       "device_id": "ASUS_90IW0122-B01UA_E3IWBDA34149",
-      "type": "DEPTH_CAMERA",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "transformation_frame_id": "Sports_ASUS_90IW0122-B01UA_E3IWBDA34149",
@@ -101,14 +100,14 @@
           "asus_90iw0122-b01ua_e3iwbda34149"
         ]
       },
-      "bound_to_device": true
+      "type": "VIDEO_DEPTH_SOURCE",
+      "unit_template_config_id": "ASUS_90IW0122-B01UA_VIDEO_DEPTH_SOURCE_0",
+      "bound_to_system_unit": true
     },
     {
       "id": "/home/sports/audiosource/asus_90iw0122-b01ua_e3iwbda34149/",
-      "unit_template_config_id": "ASUS_90IW0122-B01UA_AUDIO_SOURCE_0",
       "label": "ASUS_90IW0122-B01UA_E3IWBDA34149",
       "device_id": "ASUS_90IW0122-B01UA_E3IWBDA34149",
-      "type": "AUDIO_SOURCE",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "transformation_frame_id": "Sports_ASUS_90IW0122-B01UA_E3IWBDA34149",
@@ -134,8 +133,9 @@
           "asus_90iw0122-b01ua_e3iwbda34149"
         ]
       },
-      "bound_to_device": true
+      "type": "AUDIO_SOURCE",
+      "unit_template_config_id": "ASUS_90IW0122-B01UA_AUDIO_SOURCE_0",
+      "bound_to_system_unit": true
     }
-  ],
-  "meta_config": {}
+  ]
 }

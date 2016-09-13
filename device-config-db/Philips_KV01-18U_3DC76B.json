@@ -26,22 +26,28 @@
     ]
   },
   "serial_number": "3DC76B",
+  "device_class_id": "Philips_KV01-18U",
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "9"
+      }
+    ]
+  },
   "inventory_state": {
     "value": "INSTALLED",
     "location_id": "Control",
     "timestamp": {
       "time": 1441014652631
     },
-    "owner": {}
+    "owner_id": ""
   },
-  "device_class_id": "Philips_KV01-18U",
   "unit_config": [
     {
       "id": "/home/control/ambientlight/testunit_0/",
-      "unit_template_config_id": "Philips_KV01-18U_AMBIENT_LIGHT_0",
       "label": "TestUnit_0",
       "device_id": "Philips_KV01-18U_3DC76B",
-      "type": "AMBIENT_LIGHT",
       "placement_config": {
         "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
         "transformation_frame_id": "TestUnit_0",
@@ -67,11 +73,16 @@
           "testunit_0"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "COLORABLE_LIGHT",
+      "unit_template_config_id": "Philips_KV01-18U_COLORABLE_LIGHT_0",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/control/ambientlight/testunit_0/",
+          "meta_config": {},
+          "type": "BRIGHTNESS_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -79,15 +90,15 @@
                   "value": "Philips_Hue_E27__home_control__AmbientLight__TestUnit_0__BrightnessService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/control/ambientlight/testunit_0/",
-          "type": "BRIGHTNESS_SERVICE",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         },
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/control/ambientlight/testunit_0/",
+          "meta_config": {},
+          "type": "COLOR_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -95,15 +106,15 @@
                   "value": "Philips_Hue_E27__home_control__AmbientLight__TestUnit_0__ColorService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/control/ambientlight/testunit_0/",
-          "type": "COLOR_SERVICE",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         },
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/control/ambientlight/testunit_0/",
+          "meta_config": {},
+          "type": "POWER_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -111,22 +122,11 @@
                   "value": "Philips_Hue_E27__home_control__AmbientLight__TestUnit_0__PowerService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/control/ambientlight/testunit_0/",
-          "type": "POWER_SERVICE",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     }
-  ],
-  "meta_config": {
-    "entry": [
-      {
-        "key": "OPENHAB_BINDING_DEVICE_ID",
-        "value": "9"
-      }
-    ]
-  }
+  ]
 }

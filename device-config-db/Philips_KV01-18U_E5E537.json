@@ -27,22 +27,28 @@
     ]
   },
   "serial_number": "E5E537",
+  "device_class_id": "Philips_KV01-18U",
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "40"
+      }
+    ]
+  },
   "inventory_state": {
     "value": "INSTALLED",
     "location_id": "Bath",
     "timestamp": {
       "time": 1453713772102
     },
-    "owner": {}
+    "owner_id": ""
   },
-  "device_class_id": "Philips_KV01-18U",
   "unit_config": [
     {
       "id": "/home/bath/ambientlight/llamp6/",
-      "unit_template_config_id": "Philips_KV01-18U_AMBIENT_LIGHT_0",
       "label": "LLamp6",
       "device_id": "Philips_KV01-18U_E5E537",
-      "type": "AMBIENT_LIGHT",
       "placement_config": {
         "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
         "transformation_frame_id": "Bath_LLamp6",
@@ -69,11 +75,16 @@
           "llamp6"
         ]
       },
-      "bound_to_device": true,
+      "meta_config": {},
+      "type": "COLORABLE_LIGHT",
+      "unit_template_config_id": "Philips_KV01-18U_COLORABLE_LIGHT_0",
+      "bound_to_system_unit": true,
       "service_config": [
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/bath/ambientlight/llamp6/",
+          "meta_config": {},
+          "type": "BRIGHTNESS_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -81,15 +92,15 @@
                   "value": "Philips_Hue_E27__home_bath__AmbientLight__LLamp6__BrightnessService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/bath/ambientlight/llamp6/",
-          "type": "BRIGHTNESS_SERVICE",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         },
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/bath/ambientlight/llamp6/",
+          "meta_config": {},
+          "type": "COLOR_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -97,15 +108,15 @@
                   "value": "Philips_Hue_E27__home_bath__AmbientLight__LLamp6__ColorService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/bath/ambientlight/llamp6/",
-          "type": "COLOR_SERVICE",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         },
         {
-          "binding_service_config": {
-            "type": "OPENHAB",
+          "unit_id": "/home/bath/ambientlight/llamp6/",
+          "meta_config": {},
+          "type": "POWER_STATE_SERVICE",
+          "binding_config": {
             "meta_config": {
               "entry": [
                 {
@@ -113,22 +124,11 @@
                   "value": "Philips_Hue_E27__home_bath__AmbientLight__LLamp6__PowerService"
                 }
               ]
-            }
-          },
-          "unit_id": "/home/bath/ambientlight/llamp6/",
-          "type": "POWER_SERVICE",
-          "meta_config": {}
+            },
+            "binding_id": "OPENHAB"
+          }
         }
-      ],
-      "meta_config": {}
+      ]
     }
-  ],
-  "meta_config": {
-    "entry": [
-      {
-        "key": "OPENHAB_BINDING_DEVICE_ID",
-        "value": "40"
-      }
-    ]
-  }
+  ]
 }
