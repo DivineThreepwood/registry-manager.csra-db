@@ -1,2 +1,2 @@
-# registry-manager.csra-db
-The csra registry manager db.
+# bco.registry.csra-db
+The csra registry db.

@@ -16,7 +16,8 @@
         "qy": 0.0,
         "qz": 0.0
       }
-    }
+    },
+    "shape": {}
   },
   "scope": {
     "component": [
@@ -57,7 +58,8 @@
             "qy": 0.0,
             "qz": 0.0
           }
-        }
+        },
+        "shape": {}
       },
       "scope": {
         "component": [
@@ -81,14 +83,21 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA628C__home_sports__Rollershutter__Inside__OpeningRatioProvider"
+                  "value": "Hager_TYA628C__home_sports__Rollershutter__Inside__OpeningRatioService"
                 }
               ]
             }
           },
           "unit_id": "/home/sports/rollershutter/inside/",
-          "type": "OPENING_RATIO_PROVIDER",
-          "meta_config": {}
+          "type": "OPENING_RATIO_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_BINDING_COMMAND",
+                "value": "Number"
+              }
+            ]
+          }
         },
         {
           "binding_service_config": {
@@ -134,7 +143,8 @@
             "qy": 0.0,
             "qz": 0.0
           }
-        }
+        },
+        "shape": {}
       },
       "scope": {
         "component": [
@@ -158,14 +168,21 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA628C__home_sports__Rollershutter__Outside__OpeningRatioProvider"
+                  "value": "Hager_TYA628C__home_sports__Rollershutter__Outside__OpeningRatioService"
                 }
               ]
             }
           },
           "unit_id": "/home/sports/rollershutter/outside/",
-          "type": "OPENING_RATIO_PROVIDER",
-          "meta_config": {}
+          "type": "OPENING_RATIO_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_BINDING_COMMAND",
+                "value": "Number"
+              }
+            ]
+          }
         },
         {
           "binding_service_config": {
@@ -211,7 +228,8 @@
             "qy": 0.0,
             "qz": 0.0
           }
-        }
+        },
+        "shape": {}
       },
       "scope": {
         "component": [
@@ -235,14 +253,21 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA628C__home_living__Rollershutter__LeftInside__OpeningRatioProvider"
+                  "value": "Hager_TYA628C__home_living__Rollershutter__LeftInside__OpeningRatioService"
                 }
               ]
             }
           },
           "unit_id": "/home/living/rollershutter/leftinside/",
-          "type": "OPENING_RATIO_PROVIDER",
-          "meta_config": {}
+          "type": "OPENING_RATIO_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_BINDING_COMMAND",
+                "value": "Number"
+              }
+            ]
+          }
         },
         {
           "binding_service_config": {
@@ -288,7 +313,8 @@
             "qy": 0.0,
             "qz": 0.0
           }
-        }
+        },
+        "shape": {}
       },
       "scope": {
         "component": [
@@ -312,14 +338,21 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA628C__home_living__Rollershutter__LeftOutside__OpeningRatioProvider"
+                  "value": "Hager_TYA628C__home_living__Rollershutter__LeftOutside__OpeningRatioService"
                 }
               ]
             }
           },
           "unit_id": "/home/living/rollershutter/leftoutside/",
-          "type": "OPENING_RATIO_PROVIDER",
-          "meta_config": {}
+          "type": "OPENING_RATIO_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_BINDING_COMMAND",
+                "value": "Number"
+              }
+            ]
+          }
         },
         {
           "binding_service_config": {
@@ -365,7 +398,8 @@
             "qy": 0.0,
             "qz": 0.0
           }
-        }
+        },
+        "shape": {}
       },
       "scope": {
         "component": [
@@ -389,14 +423,21 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA628C__home_living__Rollershutter__MiddleInside__OpeningRatioProvider"
+                  "value": "Hager_TYA628C__home_living__Rollershutter__MiddleInside__OpeningRatioService"
                 }
               ]
             }
           },
           "unit_id": "/home/living/rollershutter/middleinside/",
-          "type": "OPENING_RATIO_PROVIDER",
-          "meta_config": {}
+          "type": "OPENING_RATIO_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_BINDING_COMMAND",
+                "value": "Number"
+              }
+            ]
+          }
         },
         {
           "binding_service_config": {
@@ -442,7 +483,8 @@
             "qy": 0.0,
             "qz": 0.0
           }
-        }
+        },
+        "shape": {}
       },
       "scope": {
         "component": [
@@ -466,14 +508,21 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA628C__home_living__Rollershutter__MiddleOutside__OpeningRatioProvider"
+                  "value": "Hager_TYA628C__home_living__Rollershutter__MiddleOutside__OpeningRatioService"
                 }
               ]
             }
           },
           "unit_id": "/home/living/rollershutter/middleoutside/",
-          "type": "OPENING_RATIO_PROVIDER",
-          "meta_config": {}
+          "type": "OPENING_RATIO_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_BINDING_COMMAND",
+                "value": "Number"
+              }
+            ]
+          }
         },
         {
           "binding_service_config": {
@@ -519,7 +568,8 @@
             "qy": 0.0,
             "qz": 0.0
           }
-        }
+        },
+        "shape": {}
       },
       "scope": {
         "component": [
@@ -543,14 +593,21 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA628C__home_living__Rollershutter__RightInside__OpeningRatioProvider"
+                  "value": "Hager_TYA628C__home_living__Rollershutter__RightInside__OpeningRatioService"
                 }
               ]
             }
           },
           "unit_id": "/home/living/rollershutter/rightinside/",
-          "type": "OPENING_RATIO_PROVIDER",
-          "meta_config": {}
+          "type": "OPENING_RATIO_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_BINDING_COMMAND",
+                "value": "Number"
+              }
+            ]
+          }
         },
         {
           "binding_service_config": {
@@ -596,7 +653,8 @@
             "qy": 0.0,
             "qz": 0.0
           }
-        }
+        },
+        "shape": {}
       },
       "scope": {
         "component": [
@@ -620,14 +678,21 @@
                 },
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA628C__home_living__Rollershutter__RightOutside__OpeningRatioProvider"
+                  "value": "Hager_TYA628C__home_living__Rollershutter__RightOutside__OpeningRatioService"
                 }
               ]
             }
           },
           "unit_id": "/home/living/rollershutter/rightoutside/",
-          "type": "OPENING_RATIO_PROVIDER",
-          "meta_config": {}
+          "type": "OPENING_RATIO_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_BINDING_COMMAND",
+                "value": "Number"
+              }
+            ]
+          }
         },
         {
           "binding_service_config": {
