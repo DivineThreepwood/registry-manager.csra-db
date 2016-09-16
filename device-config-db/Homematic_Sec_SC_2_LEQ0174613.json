@@ -22,25 +22,27 @@
     "component": [
       "home",
       "control",
+      "device",
       "controldoorreedswitch"
     ]
   },
   "serial_number": "LEQ0174613",
-  "device_class_id": "Homematic_Sec_SC_2",
-  "meta_config": {},
   "inventory_state": {
     "value": "INSTALLED",
-    "location_id": "Control",
+    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
     "timestamp": {
       "time": 1441014120177
     },
     "owner_id": ""
   },
+  "device_class_id": "Homematic_Sec_SC_2",
   "unit_config": [
     {
-      "id": "/home/control/battery/controldoorreedswitch/",
+      "id": "6c8921a1-133b-4e7a-9f15-162bae4c470d",
+      "unit_template_config_id": "Homematic_Sec_SC_2_BATTERY_0",
       "label": "ControlDoorReedSwitch",
-      "device_id": "Homematic_Sec_SC_2_LEQ0174613",
+      "system_unit_id": "Homematic_Sec_SC_2_LEQ0174613",
+      "type": "BATTERY",
       "placement_config": {
         "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
         "transformation_frame_id": "ControlDoorReedSwitch",
@@ -66,33 +68,35 @@
           "controldoorreedswitch"
         ]
       },
-      "meta_config": {},
-      "type": "BATTERY",
-      "unit_template_config_id": "Homematic_Sec_SC_2_BATTERY_0",
       "bound_to_system_unit": true,
       "service_config": [
         {
-          "unit_id": "/home/control/battery/controldoorreedswitch/",
-          "meta_config": {},
-          "type": "BATTERY_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Homematic_Sec_SC_2__home_control__Battery__ControlDoorReedSwitch__BatteryProvider"
+                  "value": "Homematic_Sec_SC_2__home_control__Battery__ControlDoorReedSwitch__BatteryStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "6c8921a1-133b-4e7a-9f15-162bae4c470d",
+          "service_template": {
+            "type": "BATTERY_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
-      "id": "/home/control/reedswitch/controldoorreedswitch/",
+      "id": "b9446e97-2bd5-4c32-8560-fa3d770a1e32",
+      "unit_template_config_id": "Homematic_Sec_SC_2_REED_CONTACT_0",
       "label": "ControlDoorReedSwitch",
-      "device_id": "Homematic_Sec_SC_2_LEQ0174613",
+      "system_unit_id": "Homematic_Sec_SC_2_LEQ0174613",
+      "type": "REED_CONTACT",
       "placement_config": {
         "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
         "transformation_frame_id": "Control_ControlDoorReedSwitch",
@@ -114,32 +118,33 @@
         "component": [
           "home",
           "control",
-          "reedswitch",
+          "reedcontact",
           "controldoorreedswitch"
         ]
       },
-      "meta_config": {},
-      "type": "REED_CONTACT",
-      "unit_template_config_id": "Homematic_Sec_SC_2_REED_CONTACT_0",
       "bound_to_system_unit": true,
       "service_config": [
         {
-          "unit_id": "/home/control/reedswitch/controldoorreedswitch/",
-          "meta_config": {},
-          "type": "CONTACT_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Homematic_Sec_SC_2__home_control__ReedSwitch__ControlDoorReedSwitch__ReedSwitchProvider"
+                  "value": "Homematic_Sec_SC_2__home_control__ReedContact__ControlDoorReedSwitch__ContactStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "b9446e97-2bd5-4c32-8560-fa3d770a1e32",
+          "service_template": {
+            "type": "CONTACT_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         }
-      ]
+      ],
+      "meta_config": {}
     }
-  ]
+  ],
+  "meta_config": {}
 }

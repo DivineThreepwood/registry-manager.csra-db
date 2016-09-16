@@ -6,7 +6,7 @@
     "component": [
       "home",
       "bath",
-      "ambientcolor",
+      "",
       "bathambientcolorzen"
     ]
   },
@@ -94,7 +94,6 @@
       }
     ]
   },
-  "type": "AMBIENT_COLOR",
   "enabling_state": {
     "value": "DISABLED"
   }

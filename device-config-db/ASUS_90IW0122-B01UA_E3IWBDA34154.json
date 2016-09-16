@@ -22,26 +22,28 @@
     "component": [
       "home",
       "kitchen",
+      "device",
       "asus_90iw0122-b01ua_e3iwbda34154"
     ]
   },
   "serial_number": "E3IWBDA34154",
   "description": "KITCHEN2 @ LXR",
-  "device_class_id": "ASUS_90IW0122-B01UA",
-  "meta_config": {},
   "inventory_state": {
     "value": "INSTALLED",
-    "location_id": "Kitchen",
+    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
     "timestamp": {
       "time": 1441984376977
     },
     "owner_id": ""
   },
+  "device_class_id": "ASUS_90IW0122-B01UA",
   "unit_config": [
     {
-      "id": "/home/kitchen/rgbcamera/asus_90iw0122-b01ua_e3iwbda34154/",
+      "id": "794b0bca-a3e9-4f16-b19b-ec79aba6c1cf",
+      "unit_template_config_id": "ASUS_90IW0122-B01UA_VIDEO_RGB_SOURCE_0",
       "label": "ASUS_90IW0122-B01UA_E3IWBDA34154",
-      "device_id": "ASUS_90IW0122-B01UA_E3IWBDA34154",
+      "system_unit_id": "ASUS_90IW0122-B01UA_E3IWBDA34154",
+      "type": "VIDEO_RGB_SOURCE",
       "placement_config": {
         "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
         "transformation_frame_id": "ASUS_90IW0122-B01UA_E3IWBDA34154",
@@ -63,18 +65,18 @@
         "component": [
           "home",
           "kitchen",
-          "rgbcamera",
+          "videorgbsource",
           "asus_90iw0122-b01ua_e3iwbda34154"
         ]
       },
-      "type": "VIDEO_RGB_SOURCE",
-      "unit_template_config_id": "ASUS_90IW0122-B01UA_VIDEO_RGB_SOURCE_0",
       "bound_to_system_unit": true
     },
     {
-      "id": "/home/kitchen/depthcamera/asus_90iw0122-b01ua_e3iwbda34154/",
+      "id": "7d3d0290-17f4-4730-afbc-26bc02b4e2cd",
+      "unit_template_config_id": "ASUS_90IW0122-B01UA_VIDEO_DEPTH_SOURCE_0",
       "label": "ASUS_90IW0122-B01UA_E3IWBDA34154",
-      "device_id": "ASUS_90IW0122-B01UA_E3IWBDA34154",
+      "system_unit_id": "ASUS_90IW0122-B01UA_E3IWBDA34154",
+      "type": "VIDEO_DEPTH_SOURCE",
       "placement_config": {
         "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
         "transformation_frame_id": "Kitchen_ASUS_90IW0122-B01UA_E3IWBDA34154",
@@ -96,18 +98,18 @@
         "component": [
           "home",
           "kitchen",
-          "depthcamera",
+          "videodepthsource",
           "asus_90iw0122-b01ua_e3iwbda34154"
         ]
       },
-      "type": "VIDEO_DEPTH_SOURCE",
-      "unit_template_config_id": "ASUS_90IW0122-B01UA_VIDEO_DEPTH_SOURCE_0",
       "bound_to_system_unit": true
     },
     {
-      "id": "/home/kitchen/audiosource/asus_90iw0122-b01ua_e3iwbda34154/",
+      "id": "804a5079-1471-4081-a976-705e564b9cef",
+      "unit_template_config_id": "ASUS_90IW0122-B01UA_AUDIO_SOURCE_0",
       "label": "ASUS_90IW0122-B01UA_E3IWBDA34154",
-      "device_id": "ASUS_90IW0122-B01UA_E3IWBDA34154",
+      "system_unit_id": "ASUS_90IW0122-B01UA_E3IWBDA34154",
+      "type": "AUDIO_SOURCE",
       "placement_config": {
         "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
         "transformation_frame_id": "Kitchen_ASUS_90IW0122-B01UA_E3IWBDA34154",
@@ -133,9 +135,8 @@
           "asus_90iw0122-b01ua_e3iwbda34154"
         ]
       },
-      "type": "AUDIO_SOURCE",
-      "unit_template_config_id": "ASUS_90IW0122-B01UA_AUDIO_SOURCE_0",
       "bound_to_system_unit": true
     }
-  ]
+  ],
+  "meta_config": {}
 }

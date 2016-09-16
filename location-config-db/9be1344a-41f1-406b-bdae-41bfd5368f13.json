@@ -3,13 +3,6 @@
   "label": "Outdoor",
   "type": "TILE",
   "root": false,
-  "unit_id": [
-    "/home/outdoor/tamperswitch/entrance/",
-    "/home/outdoor/temperaturesensor/entrance/",
-    "/home/outdoor/motionsensor/entrance/",
-    "/home/outdoor/brightnesssensor/entrance/",
-    "/home/outdoor/battery/entrance/"
-  ],
   "scope": {
     "component": [
       "home",

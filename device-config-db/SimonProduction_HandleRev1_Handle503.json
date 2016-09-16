@@ -23,31 +23,27 @@
     "component": [
       "home",
       "kitchen",
+      "device",
       "503"
     ]
   },
   "serial_number": "Handle503",
-  "device_class_id": "SimonProduction_HandleRev1",
-  "meta_config": {
-    "entry": [
-      {
-        "key": "ADHOC_IGNORE",
-        "value": "true"
-      }
-    ]
-  },
   "inventory_state": {
     "value": "INSTALLED",
+    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
     "timestamp": {
       "time": 1441020159228
     },
     "owner_id": ""
   },
+  "device_class_id": "SimonProduction_HandleRev1",
   "unit_config": [
     {
-      "id": "/home/kitchen/ambientlight/503/",
+      "id": "9681a735-9dbb-41bd-8683-9db69288c29c",
+      "unit_template_config_id": "SimonProduction_HandleRev1_COLORABLE_LIGHT_0",
       "label": "503",
-      "device_id": "SimonProduction_HandleRev1_Handle503",
+      "system_unit_id": "SimonProduction_HandleRev1_Handle503",
+      "type": "COLORABLE_LIGHT",
       "placement_config": {
         "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
         "transformation_frame_id": "503",
@@ -70,10 +66,73 @@
         "component": [
           "home",
           "kitchen",
-          "ambientlight",
+          "colorablelight",
           "503"
         ]
       },
+      "bound_to_system_unit": true,
+      "service_config": [
+        {
+          "binding_config": {
+            "binding_id": "HANDLES"
+          },
+          "unit_id": "9681a735-9dbb-41bd-8683-9db69288c29c",
+          "service_template": {
+            "type": "BRIGHTNESS_STATE_SERVICE",
+            "pattern": "PROVIDER"
+          }
+        },
+        {
+          "binding_config": {
+            "binding_id": "HANDLES"
+          },
+          "unit_id": "9681a735-9dbb-41bd-8683-9db69288c29c",
+          "service_template": {
+            "type": "BRIGHTNESS_STATE_SERVICE",
+            "pattern": "OPERATION"
+          }
+        },
+        {
+          "binding_config": {
+            "binding_id": "HANDLES"
+          },
+          "unit_id": "9681a735-9dbb-41bd-8683-9db69288c29c",
+          "service_template": {
+            "type": "COLOR_STATE_SERVICE",
+            "pattern": "PROVIDER"
+          }
+        },
+        {
+          "binding_config": {
+            "binding_id": "HANDLES"
+          },
+          "unit_id": "9681a735-9dbb-41bd-8683-9db69288c29c",
+          "service_template": {
+            "type": "COLOR_STATE_SERVICE",
+            "pattern": "OPERATION"
+          }
+        },
+        {
+          "binding_config": {
+            "binding_id": "HANDLES"
+          },
+          "unit_id": "9681a735-9dbb-41bd-8683-9db69288c29c",
+          "service_template": {
+            "type": "POWER_STATE_SERVICE",
+            "pattern": "PROVIDER"
+          }
+        },
+        {
+          "binding_config": {
+            "binding_id": "HANDLES"
+          },
+          "unit_id": "9681a735-9dbb-41bd-8683-9db69288c29c",
+          "service_template": {
+            "type": "POWER_STATE_SERVICE",
+            "pattern": "OPERATION"
+          }
+        }
+      ],
       "meta_config": {
         "entry": [
           {
@@ -81,39 +140,15 @@
             "value": "true"
           }
         ]
-      },
-      "type": "COLORABLE_LIGHT",
-      "unit_template_config_id": "SimonProduction_HandleRev1_COLORABLE_LIGHT_0",
-      "bound_to_system_unit": true,
-      "service_config": [
-        {
-          "unit_id": "/home/kitchen/ambientlight/503/",
-          "meta_config": {},
-          "type": "BRIGHTNESS_STATE_SERVICE",
-          "binding_config": {
-            "meta_config": {},
-            "binding_id": "HANDLES"
-          }
-        },
-        {
-          "unit_id": "/home/kitchen/ambientlight/503/",
-          "meta_config": {},
-          "type": "COLOR_STATE_SERVICE",
-          "binding_config": {
-            "meta_config": {},
-            "binding_id": "HANDLES"
-          }
-        },
-        {
-          "unit_id": "/home/kitchen/ambientlight/503/",
-          "meta_config": {},
-          "type": "POWER_STATE_SERVICE",
-          "binding_config": {
-            "meta_config": {},
-            "binding_id": "HANDLES"
-          }
-        }
-      ]
+      }
     }
-  ]
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "ADHOC_IGNORE",
+        "value": "true"
+      }
+    ]
+  }
 }

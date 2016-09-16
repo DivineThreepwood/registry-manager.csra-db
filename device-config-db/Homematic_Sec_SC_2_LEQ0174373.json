@@ -22,25 +22,27 @@
     "component": [
       "home",
       "living",
+      "device",
       "leftwindowreedswitch"
     ]
   },
   "serial_number": "LEQ0174373",
-  "device_class_id": "Homematic_Sec_SC_2",
-  "meta_config": {},
   "inventory_state": {
     "value": "INSTALLED",
-    "location_id": "Living",
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
     "timestamp": {
       "time": 1441014000281
     },
     "owner_id": ""
   },
+  "device_class_id": "Homematic_Sec_SC_2",
   "unit_config": [
     {
-      "id": "/home/living/battery/leftwindowreedswitch/",
+      "id": "38b6605a-6265-45a7-b710-576294c3e2c8",
+      "unit_template_config_id": "Homematic_Sec_SC_2_BATTERY_0",
       "label": "LeftWindowReedSwitch",
-      "device_id": "Homematic_Sec_SC_2_LEQ0174373",
+      "system_unit_id": "Homematic_Sec_SC_2_LEQ0174373",
+      "type": "BATTERY",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "transformation_frame_id": "Living_LeftWindowReedSwitch",
@@ -66,33 +68,35 @@
           "leftwindowreedswitch"
         ]
       },
-      "meta_config": {},
-      "type": "BATTERY",
-      "unit_template_config_id": "Homematic_Sec_SC_2_BATTERY_0",
       "bound_to_system_unit": true,
       "service_config": [
         {
-          "unit_id": "/home/living/battery/leftwindowreedswitch/",
-          "meta_config": {},
-          "type": "BATTERY_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Homematic_Sec_SC_2__home_living__Battery__LeftWindowReedSwitch__BatteryProvider"
+                  "value": "Homematic_Sec_SC_2__home_living__Battery__LeftWindowReedSwitch__BatteryStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "38b6605a-6265-45a7-b710-576294c3e2c8",
+          "service_template": {
+            "type": "BATTERY_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
-      "id": "/home/living/reedswitch/leftwindowreedswitch/",
+      "id": "5d3f790f-0ec4-4ffb-9470-1f13ea33ae71",
+      "unit_template_config_id": "Homematic_Sec_SC_2_REED_CONTACT_0",
       "label": "LeftWindowReedSwitch",
-      "device_id": "Homematic_Sec_SC_2_LEQ0174373",
+      "system_unit_id": "Homematic_Sec_SC_2_LEQ0174373",
+      "type": "REED_CONTACT",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "transformation_frame_id": "Living_LeftWindowReedSwitch",
@@ -114,32 +118,33 @@
         "component": [
           "home",
           "living",
-          "reedswitch",
+          "reedcontact",
           "leftwindowreedswitch"
         ]
       },
-      "meta_config": {},
-      "type": "REED_CONTACT",
-      "unit_template_config_id": "Homematic_Sec_SC_2_REED_CONTACT_0",
       "bound_to_system_unit": true,
       "service_config": [
         {
-          "unit_id": "/home/living/reedswitch/leftwindowreedswitch/",
-          "meta_config": {},
-          "type": "CONTACT_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Homematic_Sec_SC_2__home_living__ReedSwitch__LeftWindowReedSwitch__ReedSwitchProvider"
+                  "value": "Homematic_Sec_SC_2__home_living__ReedContact__LeftWindowReedSwitch__ContactStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "5d3f790f-0ec4-4ffb-9470-1f13ea33ae71",
+          "service_template": {
+            "type": "CONTACT_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         }
-      ]
+      ],
+      "meta_config": {}
     }
-  ]
+  ],
+  "meta_config": {}
 }

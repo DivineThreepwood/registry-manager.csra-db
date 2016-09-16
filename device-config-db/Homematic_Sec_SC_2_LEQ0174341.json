@@ -22,25 +22,27 @@
     "component": [
       "home",
       "bath",
+      "device",
       "doorreedswitch"
     ]
   },
   "serial_number": "LEQ0174341",
-  "device_class_id": "Homematic_Sec_SC_2",
-  "meta_config": {},
   "inventory_state": {
     "value": "INSTALLED",
-    "location_id": "Bath",
+    "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
     "timestamp": {
       "time": 1441013960569
     },
     "owner_id": ""
   },
+  "device_class_id": "Homematic_Sec_SC_2",
   "unit_config": [
     {
-      "id": "/home/bath/battery/doorreedswitch/",
+      "id": "986838a7-7a69-4dd6-b13d-51cda16ec979",
+      "unit_template_config_id": "Homematic_Sec_SC_2_BATTERY_0",
       "label": "DoorReedSwitch",
-      "device_id": "Homematic_Sec_SC_2_LEQ0174341",
+      "system_unit_id": "Homematic_Sec_SC_2_LEQ0174341",
+      "type": "BATTERY",
       "placement_config": {
         "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
         "transformation_frame_id": "DoorReedSwitch",
@@ -66,33 +68,35 @@
           "doorreedswitch"
         ]
       },
-      "meta_config": {},
-      "type": "BATTERY",
-      "unit_template_config_id": "Homematic_Sec_SC_2_BATTERY_0",
       "bound_to_system_unit": true,
       "service_config": [
         {
-          "unit_id": "/home/bath/battery/doorreedswitch/",
-          "meta_config": {},
-          "type": "BATTERY_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Homematic_Sec_SC_2__home_bath__Battery__DoorReedSwitch__BatteryProvider"
+                  "value": "Homematic_Sec_SC_2__home_bath__Battery__DoorReedSwitch__BatteryStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "986838a7-7a69-4dd6-b13d-51cda16ec979",
+          "service_template": {
+            "type": "BATTERY_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
-      "id": "/home/bath/reedswitch/doorreedswitch/",
+      "id": "54dfc3eb-0f81-4437-8994-02e22833e38c",
+      "unit_template_config_id": "Homematic_Sec_SC_2_REED_CONTACT_0",
       "label": "DoorReedSwitch",
-      "device_id": "Homematic_Sec_SC_2_LEQ0174341",
+      "system_unit_id": "Homematic_Sec_SC_2_LEQ0174341",
+      "type": "REED_CONTACT",
       "placement_config": {
         "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
         "transformation_frame_id": "Bath_DoorReedSwitch",
@@ -114,32 +118,33 @@
         "component": [
           "home",
           "bath",
-          "reedswitch",
+          "reedcontact",
           "doorreedswitch"
         ]
       },
-      "meta_config": {},
-      "type": "REED_CONTACT",
-      "unit_template_config_id": "Homematic_Sec_SC_2_REED_CONTACT_0",
       "bound_to_system_unit": true,
       "service_config": [
         {
-          "unit_id": "/home/bath/reedswitch/doorreedswitch/",
-          "meta_config": {},
-          "type": "CONTACT_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Homematic_Sec_SC_2__home_bath__ReedSwitch__DoorReedSwitch__ReedSwitchProvider"
+                  "value": "Homematic_Sec_SC_2__home_bath__ReedContact__DoorReedSwitch__ContactStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "54dfc3eb-0f81-4437-8994-02e22833e38c",
+          "service_template": {
+            "type": "CONTACT_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         }
-      ]
+      ],
+      "meta_config": {}
     }
-  ]
+  ],
+  "meta_config": {}
 }

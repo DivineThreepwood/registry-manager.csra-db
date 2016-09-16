@@ -23,32 +23,27 @@
     "component": [
       "home",
       "living",
+      "device",
       "llamp6"
     ]
   },
   "serial_number": "3012DB",
-  "device_class_id": "Philips_KV01-18U",
-  "meta_config": {
-    "entry": [
-      {
-        "key": "OPENHAB_BINDING_DEVICE_ID",
-        "value": "46"
-      }
-    ]
-  },
   "inventory_state": {
     "value": "INSTALLED",
-    "location_id": "Living",
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
     "timestamp": {
       "time": 1453712777346
     },
     "owner_id": ""
   },
+  "device_class_id": "Philips_KV01-18U",
   "unit_config": [
     {
-      "id": "/home/living/ambientlight/llamp6/",
+      "id": "c0f2fb65-390a-45f2-8ae2-fafe27472f38",
+      "unit_template_config_id": "Philips_KV01-18U_COLORABLE_LIGHT_0",
       "label": "LLamp6",
-      "device_id": "Philips_KV01-18U_3012DB",
+      "system_unit_id": "Philips_KV01-18U_3012DB",
+      "type": "COLORABLE_LIGHT",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "transformation_frame_id": "LLamp6",
@@ -71,64 +66,130 @@
         "component": [
           "home",
           "living",
-          "ambientlight",
+          "colorablelight",
           "llamp6"
         ]
       },
-      "meta_config": {},
-      "type": "COLORABLE_LIGHT",
-      "unit_template_config_id": "Philips_KV01-18U_COLORABLE_LIGHT_0",
       "bound_to_system_unit": true,
       "service_config": [
         {
-          "unit_id": "/home/living/ambientlight/llamp6/",
-          "meta_config": {},
-          "type": "BRIGHTNESS_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philips_Hue_E27__home_living__AmbientLight__LLamp6__BrightnessService"
+                  "value": "Philips_Hue_E27__home_living__ColorableLight__LLamp6__BrightnessStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "c0f2fb65-390a-45f2-8ae2-fafe27472f38",
+          "service_template": {
+            "type": "BRIGHTNESS_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         },
         {
-          "unit_id": "/home/living/ambientlight/llamp6/",
-          "meta_config": {},
-          "type": "COLOR_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philips_Hue_E27__home_living__AmbientLight__LLamp6__ColorService"
+                  "value": "Philips_Hue_E27__home_living__ColorableLight__LLamp6__BrightnessStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "c0f2fb65-390a-45f2-8ae2-fafe27472f38",
+          "service_template": {
+            "type": "BRIGHTNESS_STATE_SERVICE",
+            "pattern": "OPERATION"
           }
         },
         {
-          "unit_id": "/home/living/ambientlight/llamp6/",
-          "meta_config": {},
-          "type": "POWER_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philips_Hue_E27__home_living__AmbientLight__LLamp6__PowerService"
+                  "value": "Philips_Hue_E27__home_living__ColorableLight__LLamp6__ColorStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "c0f2fb65-390a-45f2-8ae2-fafe27472f38",
+          "service_template": {
+            "type": "COLOR_STATE_SERVICE",
+            "pattern": "PROVIDER"
+          }
+        },
+        {
+          "binding_config": {
+            "binding_id": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Philips_Hue_E27__home_living__ColorableLight__LLamp6__ColorStateService"
+                }
+              ]
+            }
+          },
+          "unit_id": "c0f2fb65-390a-45f2-8ae2-fafe27472f38",
+          "service_template": {
+            "type": "COLOR_STATE_SERVICE",
+            "pattern": "OPERATION"
+          }
+        },
+        {
+          "binding_config": {
+            "binding_id": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Philips_Hue_E27__home_living__ColorableLight__LLamp6__PowerStateService"
+                }
+              ]
+            }
+          },
+          "unit_id": "c0f2fb65-390a-45f2-8ae2-fafe27472f38",
+          "service_template": {
+            "type": "POWER_STATE_SERVICE",
+            "pattern": "PROVIDER"
+          }
+        },
+        {
+          "binding_config": {
+            "binding_id": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Philips_Hue_E27__home_living__ColorableLight__LLamp6__PowerStateService"
+                }
+              ]
+            }
+          },
+          "unit_id": "c0f2fb65-390a-45f2-8ae2-fafe27472f38",
+          "service_template": {
+            "type": "POWER_STATE_SERVICE",
+            "pattern": "OPERATION"
           }
         }
-      ]
+      ],
+      "meta_config": {}
     }
-  ]
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "46"
+      }
+    ]
+  }
 }

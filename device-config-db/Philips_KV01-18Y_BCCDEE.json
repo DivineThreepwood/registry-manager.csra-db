@@ -22,32 +22,27 @@
     "component": [
       "home",
       "living",
+      "device",
       "couchlamp"
     ]
   },
   "serial_number": "BCCDEE",
-  "device_class_id": "Philips_KV01-18Y",
-  "meta_config": {
-    "entry": [
-      {
-        "key": "OPENHAB_BINDING_DEVICE_ID",
-        "value": "47"
-      }
-    ]
-  },
   "inventory_state": {
     "value": "INSTALLED",
-    "location_id": "Living",
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
     "timestamp": {
       "time": 1441017180211
     },
     "owner_id": ""
   },
+  "device_class_id": "Philips_KV01-18Y",
   "unit_config": [
     {
-      "id": "/home/living/ambientlight/couchlamp/",
+      "id": "820b39bd-accb-4881-8ee7-206cf60a9a6c",
+      "unit_template_config_id": "Philips_KV01-18Y_COLORABLE_LIGHT_0",
       "label": "CouchLamp",
-      "device_id": "Philips_KV01-18Y_BCCDEE",
+      "system_unit_id": "Philips_KV01-18Y_BCCDEE",
+      "type": "COLORABLE_LIGHT",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "transformation_frame_id": "CouchLamp",
@@ -69,64 +64,130 @@
         "component": [
           "home",
           "living",
-          "ambientlight",
+          "colorablelight",
           "couchlamp"
         ]
       },
-      "meta_config": {},
-      "type": "COLORABLE_LIGHT",
-      "unit_template_config_id": "Philips_KV01-18Y_COLORABLE_LIGHT_0",
       "bound_to_system_unit": true,
       "service_config": [
         {
-          "unit_id": "/home/living/ambientlight/couchlamp/",
-          "meta_config": {},
-          "type": "BRIGHTNESS_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philips_Hue_GU10__home_living__AmbientLight__CouchLamp__BrightnessService"
+                  "value": "Philips_Hue_GU10__home_living__ColorableLight__CouchLamp__BrightnessStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "820b39bd-accb-4881-8ee7-206cf60a9a6c",
+          "service_template": {
+            "type": "BRIGHTNESS_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         },
         {
-          "unit_id": "/home/living/ambientlight/couchlamp/",
-          "meta_config": {},
-          "type": "COLOR_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philips_Hue_GU10__home_living__AmbientLight__CouchLamp__ColorService"
+                  "value": "Philips_Hue_GU10__home_living__ColorableLight__CouchLamp__BrightnessStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "820b39bd-accb-4881-8ee7-206cf60a9a6c",
+          "service_template": {
+            "type": "BRIGHTNESS_STATE_SERVICE",
+            "pattern": "OPERATION"
           }
         },
         {
-          "unit_id": "/home/living/ambientlight/couchlamp/",
-          "meta_config": {},
-          "type": "POWER_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philips_Hue_GU10__home_living__AmbientLight__CouchLamp__PowerService"
+                  "value": "Philips_Hue_GU10__home_living__ColorableLight__CouchLamp__ColorStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "820b39bd-accb-4881-8ee7-206cf60a9a6c",
+          "service_template": {
+            "type": "COLOR_STATE_SERVICE",
+            "pattern": "PROVIDER"
+          }
+        },
+        {
+          "binding_config": {
+            "binding_id": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Philips_Hue_GU10__home_living__ColorableLight__CouchLamp__ColorStateService"
+                }
+              ]
+            }
+          },
+          "unit_id": "820b39bd-accb-4881-8ee7-206cf60a9a6c",
+          "service_template": {
+            "type": "COLOR_STATE_SERVICE",
+            "pattern": "OPERATION"
+          }
+        },
+        {
+          "binding_config": {
+            "binding_id": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Philips_Hue_GU10__home_living__ColorableLight__CouchLamp__PowerStateService"
+                }
+              ]
+            }
+          },
+          "unit_id": "820b39bd-accb-4881-8ee7-206cf60a9a6c",
+          "service_template": {
+            "type": "POWER_STATE_SERVICE",
+            "pattern": "PROVIDER"
+          }
+        },
+        {
+          "binding_config": {
+            "binding_id": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Philips_Hue_GU10__home_living__ColorableLight__CouchLamp__PowerStateService"
+                }
+              ]
+            }
+          },
+          "unit_id": "820b39bd-accb-4881-8ee7-206cf60a9a6c",
+          "service_template": {
+            "type": "POWER_STATE_SERVICE",
+            "pattern": "OPERATION"
           }
         }
-      ]
+      ],
+      "meta_config": {}
     }
-  ]
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "47"
+      }
+    ]
+  }
 }

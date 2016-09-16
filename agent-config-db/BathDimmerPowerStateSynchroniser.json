@@ -5,7 +5,7 @@
   "scope": {
     "component": [
       "home",
-      "powerstatesynchroniser",
+      "",
       "bathdimmerpowerstatesynchroniser"
     ]
   },
@@ -41,7 +41,6 @@
       }
     ]
   },
-  "type": "POWER_STATE_SYNCHRONISER",
   "enabling_state": {
     "value": "ENABLED"
   }

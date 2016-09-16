@@ -6,7 +6,7 @@
     "component": [
       "home",
       "bath",
-      "ambientcolor",
+      "",
       "bathambientcolorbeachbottom"
     ]
   },
@@ -90,7 +90,6 @@
       }
     ]
   },
-  "type": "AMBIENT_COLOR",
   "enabling_state": {
     "value": "DISABLED"
   }

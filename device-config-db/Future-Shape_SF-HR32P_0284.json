@@ -23,10 +23,19 @@
     "component": [
       "home",
       "kitchen",
+      "device",
       "floor"
     ]
   },
   "serial_number": "0284",
+  "inventory_state": {
+    "value": "INSTALLED",
+    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+    "timestamp": {
+      "time": 1440771353784
+    },
+    "owner_id": ""
+  },
   "device_class_id": "Future-Shape_SF-HR32P",
   "meta_config": {
     "entry": [
@@ -35,13 +44,5 @@
         "value": "Future-Shape_SE3-P_02858000"
       }
     ]
-  },
-  "inventory_state": {
-    "value": "INSTALLED",
-    "location_id": "Kitchen",
-    "timestamp": {
-      "time": 1440771353784
-    },
-    "owner_id": ""
   }
 }

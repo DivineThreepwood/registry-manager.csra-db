@@ -22,25 +22,27 @@
     "component": [
       "home",
       "wardrobe",
+      "device",
       "hallwaybelowbuttons"
     ]
   },
   "serial_number": "443231836300000",
-  "device_class_id": "Gira_429496730210000",
-  "meta_config": {},
   "inventory_state": {
     "value": "INSTALLED",
-    "location_id": "Wardrobe",
+    "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
     "timestamp": {
       "time": 1440774631545
     },
     "owner_id": ""
   },
+  "device_class_id": "Gira_429496730210000",
   "unit_config": [
     {
-      "id": "/home/wardrobe/button/lighthereon/",
+      "id": "fbdce565-3553-47da-84fb-d974ba4cd291",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_0",
       "label": "lighthereon",
-      "device_id": "Gira_429496730210000_443231836300000",
+      "system_unit_id": "Gira_429496730210000_443231836300000",
+      "type": "BUTTON",
       "placement_config": {
         "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
         "transformation_frame_id": "lighthereon",
@@ -66,37 +68,35 @@
           "lighthereon"
         ]
       },
-      "meta_config": {},
-      "type": "BUTTON",
-      "unit_template_config_id": "Gira_429496730210000_BUTTON_0",
       "bound_to_system_unit": true,
       "service_config": [
         {
-          "unit_id": "/home/wardrobe/button/lighthereon/",
-          "meta_config": {},
-          "type": "BUTTON_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
-                  "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "1/2/12"
-                },
-                {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_wardrobe__Button__lighthereon__ButtonProvider"
+                  "value": "Gira_5133__home_wardrobe__Button__lighthereon__ButtonStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "fbdce565-3553-47da-84fb-d974ba4cd291",
+          "service_template": {
+            "type": "BUTTON_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
-      "id": "/home/wardrobe/button/lighthereoff/",
+      "id": "5f9479d7-8361-4700-96f0-7c1611f9bc24",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_1",
       "label": "lighthereoff",
-      "device_id": "Gira_429496730210000_443231836300000",
+      "system_unit_id": "Gira_429496730210000_443231836300000",
+      "type": "BUTTON",
       "placement_config": {
         "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
         "transformation_frame_id": "lighthereoff",
@@ -122,37 +122,35 @@
           "lighthereoff"
         ]
       },
-      "meta_config": {},
-      "type": "BUTTON",
-      "unit_template_config_id": "Gira_429496730210000_BUTTON_1",
       "bound_to_system_unit": true,
       "service_config": [
         {
-          "unit_id": "/home/wardrobe/button/lighthereoff/",
-          "meta_config": {},
-          "type": "BUTTON_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
-                  "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "1/2/13"
-                },
-                {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_wardrobe__Button__lighthereoff__ButtonProvider"
+                  "value": "Gira_5133__home_wardrobe__Button__lighthereoff__ButtonStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "5f9479d7-8361-4700-96f0-7c1611f9bc24",
+          "service_template": {
+            "type": "BUTTON_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
-      "id": "/home/wardrobe/button/lightallon/",
+      "id": "ceaeef44-61d9-4bd8-b099-c03aa15821e0",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_2",
       "label": "lightallon",
-      "device_id": "Gira_429496730210000_443231836300000",
+      "system_unit_id": "Gira_429496730210000_443231836300000",
+      "type": "BUTTON",
       "placement_config": {
         "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
         "transformation_frame_id": "lightallon",
@@ -178,37 +176,35 @@
           "lightallon"
         ]
       },
-      "meta_config": {},
-      "type": "BUTTON",
-      "unit_template_config_id": "Gira_429496730210000_BUTTON_2",
       "bound_to_system_unit": true,
       "service_config": [
         {
-          "unit_id": "/home/wardrobe/button/lightallon/",
-          "meta_config": {},
-          "type": "BUTTON_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
-                  "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "1/2/14"
-                },
-                {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_wardrobe__Button__lightallon__ButtonProvider"
+                  "value": "Gira_5133__home_wardrobe__Button__lightallon__ButtonStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "ceaeef44-61d9-4bd8-b099-c03aa15821e0",
+          "service_template": {
+            "type": "BUTTON_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
-      "id": "/home/wardrobe/button/lightalloff/",
+      "id": "55962492-b61c-48e3-ab2b-adf322d28553",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_3",
       "label": "lightalloff",
-      "device_id": "Gira_429496730210000_443231836300000",
+      "system_unit_id": "Gira_429496730210000_443231836300000",
+      "type": "BUTTON",
       "placement_config": {
         "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
         "transformation_frame_id": "lightalloff",
@@ -234,37 +230,35 @@
           "lightalloff"
         ]
       },
-      "meta_config": {},
-      "type": "BUTTON",
-      "unit_template_config_id": "Gira_429496730210000_BUTTON_3",
       "bound_to_system_unit": true,
       "service_config": [
         {
-          "unit_id": "/home/wardrobe/button/lightalloff/",
-          "meta_config": {},
-          "type": "BUTTON_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
-                  "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "1/2/15"
-                },
-                {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_wardrobe__Button__lightalloff__ButtonProvider"
+                  "value": "Gira_5133__home_wardrobe__Button__lightalloff__ButtonStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "55962492-b61c-48e3-ab2b-adf322d28553",
+          "service_template": {
+            "type": "BUTTON_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
-      "id": "/home/wardrobe/button/learnperson/",
+      "id": "3cb9d0f5-1b57-42c6-b442-64868aeb73d2",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_4",
       "label": "learnperson",
-      "device_id": "Gira_429496730210000_443231836300000",
+      "system_unit_id": "Gira_429496730210000_443231836300000",
+      "type": "BUTTON",
       "placement_config": {
         "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
         "transformation_frame_id": "learnperson",
@@ -290,37 +284,35 @@
           "learnperson"
         ]
       },
-      "meta_config": {},
-      "type": "BUTTON",
-      "unit_template_config_id": "Gira_429496730210000_BUTTON_4",
       "bound_to_system_unit": true,
       "service_config": [
         {
-          "unit_id": "/home/wardrobe/button/learnperson/",
-          "meta_config": {},
-          "type": "BUTTON_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
-                  "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "1/2/16"
-                },
-                {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_wardrobe__Button__learnperson__ButtonProvider"
+                  "value": "Gira_5133__home_wardrobe__Button__learnperson__ButtonStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "3cb9d0f5-1b57-42c6-b442-64868aeb73d2",
+          "service_template": {
+            "type": "BUTTON_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
-      "id": "/home/wardrobe/button/lightotheroff/",
+      "id": "fd8f26c8-bd93-4ab5-b4bd-013bfa777ecd",
+      "unit_template_config_id": "Gira_429496730210000_BUTTON_5",
       "label": "lightotheroff",
-      "device_id": "Gira_429496730210000_443231836300000",
+      "system_unit_id": "Gira_429496730210000_443231836300000",
+      "type": "BUTTON",
       "placement_config": {
         "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
         "transformation_frame_id": "lightotheroff",
@@ -346,32 +338,29 @@
           "lightotheroff"
         ]
       },
-      "meta_config": {},
-      "type": "BUTTON",
-      "unit_template_config_id": "Gira_429496730210000_BUTTON_5",
       "bound_to_system_unit": true,
       "service_config": [
         {
-          "unit_id": "/home/wardrobe/button/lightotheroff/",
-          "meta_config": {},
-          "type": "BUTTON_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
-                  "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "1/2/17"
-                },
-                {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Gira_5133__home_wardrobe__Button__lightotheroff__ButtonProvider"
+                  "value": "Gira_5133__home_wardrobe__Button__lightotheroff__ButtonStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "fd8f26c8-bd93-4ab5-b4bd-013bfa777ecd",
+          "service_template": {
+            "type": "BUTTON_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         }
-      ]
+      ],
+      "meta_config": {}
     }
-  ]
+  ],
+  "meta_config": {}
 }

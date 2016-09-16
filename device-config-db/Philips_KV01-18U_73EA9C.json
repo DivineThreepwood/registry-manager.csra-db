@@ -22,32 +22,27 @@
     "component": [
       "home",
       "wardrobe",
+      "device",
       "hallway_1"
     ]
   },
   "serial_number": "73EA9C",
-  "device_class_id": "Philips_KV01-18U",
-  "meta_config": {
-    "entry": [
-      {
-        "key": "OPENHAB_BINDING_DEVICE_ID",
-        "value": "2"
-      }
-    ]
-  },
   "inventory_state": {
     "value": "INSTALLED",
-    "location_id": "Wardrobe",
+    "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
     "timestamp": {
       "time": 1441015634430
     },
     "owner_id": ""
   },
+  "device_class_id": "Philips_KV01-18U",
   "unit_config": [
     {
-      "id": "/home/wardrobe/ambientlight/hallway_1/",
+      "id": "fed17edf-6bca-4735-8ac4-62a098b81dd1",
+      "unit_template_config_id": "Philips_KV01-18U_COLORABLE_LIGHT_0",
       "label": "Hallway_1",
-      "device_id": "Philips_KV01-18U_73EA9C",
+      "system_unit_id": "Philips_KV01-18U_73EA9C",
+      "type": "COLORABLE_LIGHT",
       "placement_config": {
         "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
         "transformation_frame_id": "Hallway_1",
@@ -69,64 +64,130 @@
         "component": [
           "home",
           "wardrobe",
-          "ambientlight",
+          "colorablelight",
           "hallway_1"
         ]
       },
-      "meta_config": {},
-      "type": "COLORABLE_LIGHT",
-      "unit_template_config_id": "Philips_KV01-18U_COLORABLE_LIGHT_0",
       "bound_to_system_unit": true,
       "service_config": [
         {
-          "unit_id": "/home/wardrobe/ambientlight/hallway_1/",
-          "meta_config": {},
-          "type": "BRIGHTNESS_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philips_Hue_E27__home_wardrobe__AmbientLight__Hallway_1__BrightnessService"
+                  "value": "Philips_Hue_E27__home_wardrobe__ColorableLight__Hallway_1__BrightnessStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "fed17edf-6bca-4735-8ac4-62a098b81dd1",
+          "service_template": {
+            "type": "BRIGHTNESS_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         },
         {
-          "unit_id": "/home/wardrobe/ambientlight/hallway_1/",
-          "meta_config": {},
-          "type": "COLOR_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philips_Hue_E27__home_wardrobe__AmbientLight__Hallway_1__ColorService"
+                  "value": "Philips_Hue_E27__home_wardrobe__ColorableLight__Hallway_1__BrightnessStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "fed17edf-6bca-4735-8ac4-62a098b81dd1",
+          "service_template": {
+            "type": "BRIGHTNESS_STATE_SERVICE",
+            "pattern": "OPERATION"
           }
         },
         {
-          "unit_id": "/home/wardrobe/ambientlight/hallway_1/",
-          "meta_config": {},
-          "type": "POWER_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philips_Hue_E27__home_wardrobe__AmbientLight__Hallway_1__PowerService"
+                  "value": "Philips_Hue_E27__home_wardrobe__ColorableLight__Hallway_1__ColorStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "fed17edf-6bca-4735-8ac4-62a098b81dd1",
+          "service_template": {
+            "type": "COLOR_STATE_SERVICE",
+            "pattern": "PROVIDER"
+          }
+        },
+        {
+          "binding_config": {
+            "binding_id": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Philips_Hue_E27__home_wardrobe__ColorableLight__Hallway_1__ColorStateService"
+                }
+              ]
+            }
+          },
+          "unit_id": "fed17edf-6bca-4735-8ac4-62a098b81dd1",
+          "service_template": {
+            "type": "COLOR_STATE_SERVICE",
+            "pattern": "OPERATION"
+          }
+        },
+        {
+          "binding_config": {
+            "binding_id": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Philips_Hue_E27__home_wardrobe__ColorableLight__Hallway_1__PowerStateService"
+                }
+              ]
+            }
+          },
+          "unit_id": "fed17edf-6bca-4735-8ac4-62a098b81dd1",
+          "service_template": {
+            "type": "POWER_STATE_SERVICE",
+            "pattern": "PROVIDER"
+          }
+        },
+        {
+          "binding_config": {
+            "binding_id": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Philips_Hue_E27__home_wardrobe__ColorableLight__Hallway_1__PowerStateService"
+                }
+              ]
+            }
+          },
+          "unit_id": "fed17edf-6bca-4735-8ac4-62a098b81dd1",
+          "service_template": {
+            "type": "POWER_STATE_SERVICE",
+            "pattern": "OPERATION"
           }
         }
-      ]
+      ],
+      "meta_config": {}
     }
-  ]
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "2"
+      }
+    ]
+  }
 }

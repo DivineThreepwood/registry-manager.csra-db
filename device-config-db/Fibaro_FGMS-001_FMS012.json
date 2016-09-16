@@ -22,36 +22,27 @@
     "component": [
       "home",
       "living",
+      "device",
       "table"
     ]
   },
   "serial_number": "FMS012",
-  "device_class_id": "Fibaro_FGMS-001",
-  "meta_config": {
-    "entry": [
-      {
-        "key": "OPENHAB_BINDING_DEVICE_ID",
-        "value": "33"
-      },
-      {
-        "key": "SENSOR_BOUNDINGBOX",
-        "value": "3.4,0.0,1.6,1.8"
-      }
-    ]
-  },
   "inventory_state": {
     "value": "INSTALLED",
-    "location_id": "Living",
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
     "timestamp": {
       "time": 1440770780917
     },
     "owner_id": ""
   },
+  "device_class_id": "Fibaro_FGMS-001",
   "unit_config": [
     {
-      "id": "/home/living/battery/table/",
+      "id": "93806885-9a10-414c-8681-fea3765e17f4",
+      "unit_template_config_id": "Fibaro_FGMS-001_BATTERY_0",
       "label": "Table",
-      "device_id": "Fibaro_FGMS-001_FMS012",
+      "system_unit_id": "Fibaro_FGMS-001_FMS012",
+      "type": "BATTERY",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "transformation_frame_id": "Table",
@@ -77,33 +68,35 @@
           "table"
         ]
       },
-      "meta_config": {},
-      "type": "BATTERY",
-      "unit_template_config_id": "Fibaro_FGMS-001_BATTERY_0",
       "bound_to_system_unit": true,
       "service_config": [
         {
-          "unit_id": "/home/living/battery/table/",
-          "meta_config": {},
-          "type": "BATTERY_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Fibaro_MotionSensor__home_living__Battery__Table__BatteryProvider"
+                  "value": "Fibaro_MotionSensor__home_living__Battery__Table__BatteryStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "93806885-9a10-414c-8681-fea3765e17f4",
+          "service_template": {
+            "type": "BATTERY_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
-      "id": "/home/living/brightnesssensor/table/",
+      "id": "c6d45b1e-690d-445d-a639-ea0539a5ee9c",
+      "unit_template_config_id": "Fibaro_FGMS-001_BRIGHTNESS_SENSOR_0",
       "label": "Table",
-      "device_id": "Fibaro_FGMS-001_FMS012",
+      "system_unit_id": "Fibaro_FGMS-001_FMS012",
+      "type": "BRIGHTNESS_SENSOR",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "transformation_frame_id": "Living_Table",
@@ -129,85 +122,35 @@
           "table"
         ]
       },
-      "meta_config": {},
-      "type": "BRIGHTNESS_SENSOR",
-      "unit_template_config_id": "Fibaro_FGMS-001_BRIGHTNESS_SENSOR_0",
       "bound_to_system_unit": true,
       "service_config": [
         {
-          "unit_id": "/home/living/brightnesssensor/table/",
-          "meta_config": {},
-          "type": "BRIGHTNESS_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Fibaro_MotionSensor__home_living__BrightnessSensor__Table__BrightnessProvider"
+                  "value": "Fibaro_MotionSensor__home_living__BrightnessSensor__Table__BrightnessStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "c6d45b1e-690d-445d-a639-ea0539a5ee9c",
+          "service_template": {
+            "type": "BRIGHTNESS_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
-      "id": "/home/living/motionsensor/table/",
-      "label": "Table",
-      "device_id": "Fibaro_FGMS-001_FMS012",
-      "placement_config": {
-        "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-        "transformation_frame_id": "Living_Table",
-        "position": {
-          "translation": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "rotation": {
-            "qw": 1.0,
-            "qx": 0.0,
-            "qy": 0.0,
-            "qz": 0.0
-          }
-        }
-      },
-      "scope": {
-        "component": [
-          "home",
-          "living",
-          "motionsensor",
-          "table"
-        ]
-      },
-      "meta_config": {},
-      "type": "MOTION_DETECTOR",
+      "id": "c624d3db-4e29-49a2-a078-add378e44497",
       "unit_template_config_id": "Fibaro_FGMS-001_MOTION_DETECTOR_0",
-      "bound_to_system_unit": true,
-      "service_config": [
-        {
-          "unit_id": "/home/living/motionsensor/table/",
-          "meta_config": {},
-          "type": "MOTION_STATE_SERVICE",
-          "binding_config": {
-            "meta_config": {
-              "entry": [
-                {
-                  "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Fibaro_MotionSensor__home_living__MotionSensor__Table__MotionProvider"
-                }
-              ]
-            },
-            "binding_id": "OPENHAB"
-          }
-        }
-      ]
-    },
-    {
-      "id": "/home/living/tamperswitch/table/",
       "label": "Table",
-      "device_id": "Fibaro_FGMS-001_FMS012",
+      "system_unit_id": "Fibaro_FGMS-001_FMS012",
+      "type": "MOTION_DETECTOR",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "transformation_frame_id": "Living_Table",
@@ -229,37 +172,93 @@
         "component": [
           "home",
           "living",
-          "tamperswitch",
+          "motiondetector",
           "table"
         ]
       },
-      "meta_config": {},
-      "type": "TAMPER_DETECTOR",
-      "unit_template_config_id": "Fibaro_FGMS-001_TAMPER_DETECTOR_0",
       "bound_to_system_unit": true,
       "service_config": [
         {
-          "unit_id": "/home/living/tamperswitch/table/",
-          "meta_config": {},
-          "type": "TAMPER_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Fibaro_MotionSensor__home_living__TamperSwitch__Table__TamperProvider"
+                  "value": "Fibaro_MotionSensor__home_living__MotionDetector__Table__MotionStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "c624d3db-4e29-49a2-a078-add378e44497",
+          "service_template": {
+            "type": "MOTION_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
-      "id": "/home/living/temperaturesensor/table/",
+      "id": "b30ae5e6-63f9-4cde-a725-f63c97d8d3dd",
+      "unit_template_config_id": "Fibaro_FGMS-001_TAMPER_DETECTOR_0",
       "label": "Table",
-      "device_id": "Fibaro_FGMS-001_FMS012",
+      "system_unit_id": "Fibaro_FGMS-001_FMS012",
+      "type": "TAMPER_DETECTOR",
+      "placement_config": {
+        "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+        "transformation_frame_id": "Living_Table",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "living",
+          "tamperdetector",
+          "table"
+        ]
+      },
+      "bound_to_system_unit": true,
+      "service_config": [
+        {
+          "binding_config": {
+            "binding_id": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Fibaro_MotionSensor__home_living__TamperDetector__Table__TamperStateService"
+                }
+              ]
+            }
+          },
+          "unit_id": "b30ae5e6-63f9-4cde-a725-f63c97d8d3dd",
+          "service_template": {
+            "type": "TAMPER_STATE_SERVICE",
+            "pattern": "PROVIDER"
+          }
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "36efe510-5b59-419b-95ee-4cb584b68c11",
+      "unit_template_config_id": "Fibaro_FGMS-001_TEMPERATURE_SENSOR_0",
+      "label": "Table",
+      "system_unit_id": "Fibaro_FGMS-001_FMS012",
+      "type": "TEMPERATURE_SENSOR",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "transformation_frame_id": "Living_Table",
@@ -285,43 +284,58 @@
           "table"
         ]
       },
-      "meta_config": {},
-      "type": "TEMPERATURE_SENSOR",
-      "unit_template_config_id": "Fibaro_FGMS-001_TEMPERATURE_SENSOR_0",
       "bound_to_system_unit": true,
       "service_config": [
         {
-          "unit_id": "/home/living/temperaturesensor/table/",
-          "meta_config": {},
-          "type": "TEMPERATURE_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Fibaro_MotionSensor__home_living__TemperatureSensor__Table__TemperatureProvider"
+                  "value": "Fibaro_MotionSensor__home_living__TemperatureSensor__Table__TemperatureAlarmStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "36efe510-5b59-419b-95ee-4cb584b68c11",
+          "service_template": {
+            "type": "TEMPERATURE_ALARM_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         },
         {
-          "unit_id": "/home/living/temperaturesensor/table/",
-          "type": "TEMPERATURE_ALARM_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Fibaro_MotionSensor__home_living__TemperatureSensor__Table__TemperatureAlarmStateProvider"
+                  "value": "Fibaro_MotionSensor__home_living__TemperatureSensor__Table__TemperatureStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "36efe510-5b59-419b-95ee-4cb584b68c11",
+          "service_template": {
+            "type": "TEMPERATURE_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         }
-      ]
+      ],
+      "meta_config": {}
     }
-  ]
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "33"
+      },
+      {
+        "key": "SENSOR_BOUNDINGBOX",
+        "value": "3.4,0.0,1.6,1.8"
+      }
+    ]
+  }
 }

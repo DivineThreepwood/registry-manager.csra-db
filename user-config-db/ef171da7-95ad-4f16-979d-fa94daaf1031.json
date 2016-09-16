@@ -3,5 +3,12 @@
   "first_name": "Marian",
   "last_name": "Pohling",
   "user_name": "Divine",
-  "meta_config": {}
+  "meta_config": {},
+  "scope": {
+    "component": [
+      "manager",
+      "user",
+      "divine"
+    ]
+  }
 }

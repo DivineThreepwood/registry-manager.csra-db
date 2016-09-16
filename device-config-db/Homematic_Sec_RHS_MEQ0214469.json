@@ -22,24 +22,27 @@
     "component": [
       "home",
       "control",
+      "device",
       "leftwindowhandlesensor"
     ]
   },
   "serial_number": "MEQ0214469",
-  "device_class_id": "Homematic_Sec_RHS",
-  "meta_config": {},
   "inventory_state": {
     "value": "INSTALLED",
+    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
     "timestamp": {
       "time": 1447243098630
     },
     "owner_id": ""
   },
+  "device_class_id": "Homematic_Sec_RHS",
   "unit_config": [
     {
-      "id": "/home/control/battery/leftwindowhandlesensor/",
+      "id": "d54f979d-f833-45d5-b0c9-71cda015ea9e",
+      "unit_template_config_id": "Homematic_Sec_RHS_BATTERY_0",
       "label": "LeftWindowHandleSensor",
-      "device_id": "Homematic_Sec_RHS_MEQ0214469",
+      "system_unit_id": "Homematic_Sec_RHS_MEQ0214469",
+      "type": "BATTERY",
       "placement_config": {
         "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
         "transformation_frame_id": "LeftWindowHandleSensor",
@@ -65,33 +68,35 @@
           "leftwindowhandlesensor"
         ]
       },
-      "meta_config": {},
-      "type": "BATTERY",
-      "unit_template_config_id": "Homematic_Sec_RHS_BATTERY_0",
       "bound_to_system_unit": true,
       "service_config": [
         {
-          "unit_id": "/home/control/battery/leftwindowhandlesensor/",
-          "meta_config": {},
-          "type": "BATTERY_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Homematic_Sec_RHS__home_control__Battery__LeftWindowHandleSensor__BatteryProvider"
+                  "value": "Homematic_Sec_RHS__home_control__Battery__LeftWindowHandleSensor__BatteryStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "d54f979d-f833-45d5-b0c9-71cda015ea9e",
+          "service_template": {
+            "type": "BATTERY_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
-      "id": "/home/control/handlesensor/leftwindowhandlesensor/",
+      "id": "bffd2278-d31a-4730-9306-17b193f5dc86",
+      "unit_template_config_id": "Homematic_Sec_RHS_HANDLE_0",
       "label": "LeftWindowHandleSensor",
-      "device_id": "Homematic_Sec_RHS_MEQ0214469",
+      "system_unit_id": "Homematic_Sec_RHS_MEQ0214469",
+      "type": "HANDLE",
       "placement_config": {
         "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
         "transformation_frame_id": "Control_LeftWindowHandleSensor",
@@ -113,32 +118,33 @@
         "component": [
           "home",
           "control",
-          "handlesensor",
+          "handle",
           "leftwindowhandlesensor"
         ]
       },
-      "meta_config": {},
-      "type": "HANDLE",
-      "unit_template_config_id": "Homematic_Sec_RHS_HANDLE_0",
       "bound_to_system_unit": true,
       "service_config": [
         {
-          "unit_id": "/home/control/handlesensor/leftwindowhandlesensor/",
-          "meta_config": {},
-          "type": "HANDLE_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Homematic_Sec_RHS__home_control__HandleSensor__LeftWindowHandleSensor__HandleProvider"
+                  "value": "Homematic_Sec_RHS__home_control__Handle__LeftWindowHandleSensor__HandleStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "bffd2278-d31a-4730-9306-17b193f5dc86",
+          "service_template": {
+            "type": "HANDLE_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         }
-      ]
+      ],
+      "meta_config": {}
     }
-  ]
+  ],
+  "meta_config": {}
 }

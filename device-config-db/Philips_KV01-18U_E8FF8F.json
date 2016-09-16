@@ -22,32 +22,27 @@
     "component": [
       "home",
       "sports",
+      "device",
       "llampentrance6"
     ]
   },
   "serial_number": "E8FF8F",
-  "device_class_id": "Philips_KV01-18U",
-  "meta_config": {
-    "entry": [
-      {
-        "key": "OPENHAB_BINDING_DEVICE_ID",
-        "value": "34"
-      }
-    ]
-  },
   "inventory_state": {
     "value": "INSTALLED",
-    "location_id": "Sports",
+    "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
     "timestamp": {
       "time": 1441016453612
     },
     "owner_id": ""
   },
+  "device_class_id": "Philips_KV01-18U",
   "unit_config": [
     {
-      "id": "/home/sports/ambientlight/llampentrance6/",
+      "id": "81da0a78-4fbd-4442-b9fc-3d9e47c630b4",
+      "unit_template_config_id": "Philips_KV01-18U_COLORABLE_LIGHT_0",
       "label": "LLampEntrance6",
-      "device_id": "Philips_KV01-18U_E8FF8F",
+      "system_unit_id": "Philips_KV01-18U_E8FF8F",
+      "type": "COLORABLE_LIGHT",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "transformation_frame_id": "LLampEntrance6",
@@ -69,64 +64,130 @@
         "component": [
           "home",
           "sports",
-          "ambientlight",
+          "colorablelight",
           "llampentrance6"
         ]
       },
-      "meta_config": {},
-      "type": "COLORABLE_LIGHT",
-      "unit_template_config_id": "Philips_KV01-18U_COLORABLE_LIGHT_0",
       "bound_to_system_unit": true,
       "service_config": [
         {
-          "unit_id": "/home/sports/ambientlight/llampentrance6/",
-          "meta_config": {},
-          "type": "BRIGHTNESS_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philips_Hue_E27__home_sports__AmbientLight__LLampEntrance6__BrightnessService"
+                  "value": "Philips_Hue_E27__home_sports__ColorableLight__LLampEntrance6__BrightnessStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "81da0a78-4fbd-4442-b9fc-3d9e47c630b4",
+          "service_template": {
+            "type": "BRIGHTNESS_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         },
         {
-          "unit_id": "/home/sports/ambientlight/llampentrance6/",
-          "meta_config": {},
-          "type": "COLOR_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philips_Hue_E27__home_sports__AmbientLight__LLampEntrance6__ColorService"
+                  "value": "Philips_Hue_E27__home_sports__ColorableLight__LLampEntrance6__BrightnessStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "81da0a78-4fbd-4442-b9fc-3d9e47c630b4",
+          "service_template": {
+            "type": "BRIGHTNESS_STATE_SERVICE",
+            "pattern": "OPERATION"
           }
         },
         {
-          "unit_id": "/home/sports/ambientlight/llampentrance6/",
-          "meta_config": {},
-          "type": "POWER_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Philips_Hue_E27__home_sports__AmbientLight__LLampEntrance6__PowerService"
+                  "value": "Philips_Hue_E27__home_sports__ColorableLight__LLampEntrance6__ColorStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "81da0a78-4fbd-4442-b9fc-3d9e47c630b4",
+          "service_template": {
+            "type": "COLOR_STATE_SERVICE",
+            "pattern": "PROVIDER"
+          }
+        },
+        {
+          "binding_config": {
+            "binding_id": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Philips_Hue_E27__home_sports__ColorableLight__LLampEntrance6__ColorStateService"
+                }
+              ]
+            }
+          },
+          "unit_id": "81da0a78-4fbd-4442-b9fc-3d9e47c630b4",
+          "service_template": {
+            "type": "COLOR_STATE_SERVICE",
+            "pattern": "OPERATION"
+          }
+        },
+        {
+          "binding_config": {
+            "binding_id": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Philips_Hue_E27__home_sports__ColorableLight__LLampEntrance6__PowerStateService"
+                }
+              ]
+            }
+          },
+          "unit_id": "81da0a78-4fbd-4442-b9fc-3d9e47c630b4",
+          "service_template": {
+            "type": "POWER_STATE_SERVICE",
+            "pattern": "PROVIDER"
+          }
+        },
+        {
+          "binding_config": {
+            "binding_id": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Philips_Hue_E27__home_sports__ColorableLight__LLampEntrance6__PowerStateService"
+                }
+              ]
+            }
+          },
+          "unit_id": "81da0a78-4fbd-4442-b9fc-3d9e47c630b4",
+          "service_template": {
+            "type": "POWER_STATE_SERVICE",
+            "pattern": "OPERATION"
           }
         }
-      ]
+      ],
+      "meta_config": {}
     }
-  ]
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "34"
+      }
+    ]
+  }
 }

@@ -6,12 +6,11 @@
     "component": [
       "home",
       "bath",
-      "soundscape",
+      "",
       "soundscape"
     ]
   },
   "meta_config": {},
-  "type": "SOUND_SCAPE",
   "enabling_state": {
     "value": "DISABLED"
   }

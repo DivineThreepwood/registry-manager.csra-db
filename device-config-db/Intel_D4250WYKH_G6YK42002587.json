@@ -22,18 +22,19 @@
     "component": [
       "home",
       "outdoor",
+      "device",
       "intel_d4250wykh_g6yk42002587"
     ]
   },
   "serial_number": "G6YK42002587",
   "description": "\"Windows NUC\"",
-  "device_class_id": "Intel_D4250WYKH",
-  "meta_config": {},
   "inventory_state": {
     "value": "BORROWED",
     "timestamp": {
       "time": 1442512262253
     },
     "owner_id": ""
-  }
+  },
+  "device_class_id": "Intel_D4250WYKH",
+  "meta_config": {}
 }

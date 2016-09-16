@@ -5,7 +5,7 @@
   "scope": {
     "component": [
       "home",
-      "powerstatesynchroniser",
+      "",
       "tabledimmerpowerstatesynchroniser"
     ]
   },
@@ -33,7 +33,6 @@
       }
     ]
   },
-  "type": "POWER_STATE_SYNCHRONISER",
   "enabling_state": {
     "value": "ENABLED"
   }

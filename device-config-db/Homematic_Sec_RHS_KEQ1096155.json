@@ -22,25 +22,27 @@
     "component": [
       "home",
       "living",
+      "device",
       "rightwindowhandlesensor"
     ]
   },
   "serial_number": "KEQ1096155",
-  "device_class_id": "Homematic_Sec_RHS",
-  "meta_config": {},
   "inventory_state": {
     "value": "INSTALLED",
-    "location_id": "Living",
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
     "timestamp": {
       "time": 1441013708433
     },
     "owner_id": ""
   },
+  "device_class_id": "Homematic_Sec_RHS",
   "unit_config": [
     {
-      "id": "/home/living/battery/rightwindowhandlesensor/",
+      "id": "ac04fcc1-7555-45c8-a41d-43ce4403a7e3",
+      "unit_template_config_id": "Homematic_Sec_RHS_BATTERY_0",
       "label": "RightWindowHandleSensor",
-      "device_id": "Homematic_Sec_RHS_KEQ1096155",
+      "system_unit_id": "Homematic_Sec_RHS_KEQ1096155",
+      "type": "BATTERY",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "transformation_frame_id": "Living_RightWindowHandleSensor",
@@ -66,33 +68,35 @@
           "rightwindowhandlesensor"
         ]
       },
-      "meta_config": {},
-      "type": "BATTERY",
-      "unit_template_config_id": "Homematic_Sec_RHS_BATTERY_0",
       "bound_to_system_unit": true,
       "service_config": [
         {
-          "unit_id": "/home/living/battery/rightwindowhandlesensor/",
-          "meta_config": {},
-          "type": "BATTERY_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Homematic_Sec_RHS__home_living__Battery__RightWindowHandleSensor__BatteryProvider"
+                  "value": "Homematic_Sec_RHS__home_living__Battery__RightWindowHandleSensor__BatteryStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "ac04fcc1-7555-45c8-a41d-43ce4403a7e3",
+          "service_template": {
+            "type": "BATTERY_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
-      "id": "/home/living/handlesensor/rightwindowhandlesensor/",
+      "id": "7cabb253-830d-4c18-b07a-a9f7c5dafc5f",
+      "unit_template_config_id": "Homematic_Sec_RHS_HANDLE_0",
       "label": "RightWindowHandleSensor",
-      "device_id": "Homematic_Sec_RHS_KEQ1096155",
+      "system_unit_id": "Homematic_Sec_RHS_KEQ1096155",
+      "type": "HANDLE",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "transformation_frame_id": "Living_RightWindowHandleSensor",
@@ -114,32 +118,33 @@
         "component": [
           "home",
           "living",
-          "handlesensor",
+          "handle",
           "rightwindowhandlesensor"
         ]
       },
-      "meta_config": {},
-      "type": "HANDLE",
-      "unit_template_config_id": "Homematic_Sec_RHS_HANDLE_0",
       "bound_to_system_unit": true,
       "service_config": [
         {
-          "unit_id": "/home/living/handlesensor/rightwindowhandlesensor/",
-          "meta_config": {},
-          "type": "HANDLE_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Homematic_Sec_RHS__home_living__HandleSensor__RightWindowHandleSensor__HandleProvider"
+                  "value": "Homematic_Sec_RHS__home_living__Handle__RightWindowHandleSensor__HandleStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "7cabb253-830d-4c18-b07a-a9f7c5dafc5f",
+          "service_template": {
+            "type": "HANDLE_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         }
-      ]
+      ],
+      "meta_config": {}
     }
-  ]
+  ],
+  "meta_config": {}
 }

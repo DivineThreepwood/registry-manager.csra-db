@@ -22,24 +22,27 @@
     "component": [
       "home",
       "control",
+      "device",
       "leftwindowreedswitch"
     ]
   },
   "serial_number": "LEQ1101812",
-  "device_class_id": "Homematic_Sec_SC_2",
-  "meta_config": {},
   "inventory_state": {
     "value": "INSTALLED",
+    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
     "timestamp": {
       "time": 1447242662054
     },
     "owner_id": ""
   },
+  "device_class_id": "Homematic_Sec_SC_2",
   "unit_config": [
     {
-      "id": "/home/control/battery/leftwindowreedswitch/",
+      "id": "cfa77cf8-0a6c-4cc8-9d96-cae27608a68c",
+      "unit_template_config_id": "Homematic_Sec_SC_2_BATTERY_0",
       "label": "LeftWindowReedSwitch",
-      "device_id": "Homematic_Sec_SC_2_LEQ1101812",
+      "system_unit_id": "Homematic_Sec_SC_2_LEQ1101812",
+      "type": "BATTERY",
       "placement_config": {
         "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
         "transformation_frame_id": "LeftWindowReedSwitch",
@@ -65,33 +68,35 @@
           "leftwindowreedswitch"
         ]
       },
-      "meta_config": {},
-      "type": "BATTERY",
-      "unit_template_config_id": "Homematic_Sec_SC_2_BATTERY_0",
       "bound_to_system_unit": true,
       "service_config": [
         {
-          "unit_id": "/home/control/battery/leftwindowreedswitch/",
-          "meta_config": {},
-          "type": "BATTERY_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Homematic_Sec_SC_2__home_control__Battery__LeftWindowReedSwitch__BatteryProvider"
+                  "value": "Homematic_Sec_SC_2__home_control__Battery__LeftWindowReedSwitch__BatteryStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "cfa77cf8-0a6c-4cc8-9d96-cae27608a68c",
+          "service_template": {
+            "type": "BATTERY_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
-      "id": "/home/control/reedswitch/leftwindowreedswitch/",
+      "id": "1bf2f5b4-31f8-4766-8082-73d460b4f990",
+      "unit_template_config_id": "Homematic_Sec_SC_2_REED_CONTACT_0",
       "label": "LeftWindowReedSwitch",
-      "device_id": "Homematic_Sec_SC_2_LEQ1101812",
+      "system_unit_id": "Homematic_Sec_SC_2_LEQ1101812",
+      "type": "REED_CONTACT",
       "placement_config": {
         "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
         "transformation_frame_id": "Control_LeftWindowReedSwitch",
@@ -113,32 +118,33 @@
         "component": [
           "home",
           "control",
-          "reedswitch",
+          "reedcontact",
           "leftwindowreedswitch"
         ]
       },
-      "meta_config": {},
-      "type": "REED_CONTACT",
-      "unit_template_config_id": "Homematic_Sec_SC_2_REED_CONTACT_0",
       "bound_to_system_unit": true,
       "service_config": [
         {
-          "unit_id": "/home/control/reedswitch/leftwindowreedswitch/",
-          "meta_config": {},
-          "type": "CONTACT_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Homematic_Sec_SC_2__home_control__ReedSwitch__LeftWindowReedSwitch__ReedSwitchProvider"
+                  "value": "Homematic_Sec_SC_2__home_control__ReedContact__LeftWindowReedSwitch__ContactStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "1bf2f5b4-31f8-4766-8082-73d460b4f990",
+          "service_template": {
+            "type": "CONTACT_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         }
-      ]
+      ],
+      "meta_config": {}
     }
-  ]
+  ],
+  "meta_config": {}
 }

@@ -22,24 +22,27 @@
     "component": [
       "home",
       "control",
+      "device",
       "dimmactuator2"
     ]
   },
   "serial_number": "397290010190000",
-  "device_class_id": "Hager_TYA663A",
-  "meta_config": {},
   "inventory_state": {
     "value": "INSTALLED",
+    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
     "timestamp": {
       "time": 1446816313065
     },
     "owner_id": ""
   },
+  "device_class_id": "Hager_TYA663A",
   "unit_config": [
     {
-      "id": "/home/living/dimmer/rightdimmer/",
+      "id": "0a99ed08-cd52-4564-b39e-723e15fb661d",
+      "unit_template_config_id": "Hager_TYA663A_DIMMER_0",
       "label": "RightDimmer",
-      "device_id": "Hager_TYA663A_397290010190000",
+      "system_unit_id": "Hager_TYA663A_397290010190000",
+      "type": "DIMMER",
       "placement_config": {
         "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "transformation_frame_id": "RightDimmer",
@@ -65,57 +68,89 @@
           "rightdimmer"
         ]
       },
-      "meta_config": {},
-      "type": "DIMMER",
-      "unit_template_config_id": "Hager_TYA663A_DIMMER_0",
       "bound_to_system_unit": false,
       "service_config": [
         {
-          "unit_id": "/home/living/dimmer/rightdimmer/",
-          "meta_config": {},
-          "type": "INTENSITY_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
-                  "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "2/0/10+2/0/19"
-                },
-                {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA663A__home_living__Dimmer__RightDimmer__DimService"
+                  "value": "Hager_TYA663A__home_living__Dimmer__RightDimmer__IntensityStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "0a99ed08-cd52-4564-b39e-723e15fb661d",
+          "service_template": {
+            "type": "INTENSITY_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         },
         {
-          "unit_id": "/home/living/dimmer/rightdimmer/",
-          "meta_config": {},
-          "type": "POWER_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
-                  "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "2/0/3+2/0/18"
-                },
-                {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA663A__home_living__Dimmer__RightDimmer__PowerService"
+                  "value": "Hager_TYA663A__home_living__Dimmer__RightDimmer__IntensityStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "0a99ed08-cd52-4564-b39e-723e15fb661d",
+          "service_template": {
+            "type": "INTENSITY_STATE_SERVICE",
+            "pattern": "OPERATION"
+          }
+        },
+        {
+          "binding_config": {
+            "binding_id": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA663A__home_living__Dimmer__RightDimmer__PowerStateService"
+                }
+              ]
+            }
+          },
+          "unit_id": "0a99ed08-cd52-4564-b39e-723e15fb661d",
+          "service_template": {
+            "type": "POWER_STATE_SERVICE",
+            "pattern": "PROVIDER"
+          }
+        },
+        {
+          "binding_config": {
+            "binding_id": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA663A__home_living__Dimmer__RightDimmer__PowerStateService"
+                }
+              ]
+            }
+          },
+          "unit_id": "0a99ed08-cd52-4564-b39e-723e15fb661d",
+          "service_template": {
+            "type": "POWER_STATE_SERVICE",
+            "pattern": "OPERATION"
           }
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
-      "id": "/home/sports/dimmer/leftdimmer/",
+      "id": "9741616f-c4bd-464a-8d0b-a4031e509adb",
+      "unit_template_config_id": "Hager_TYA663A_DIMMER_1",
       "label": "LeftDimmer",
-      "device_id": "Hager_TYA663A_397290010190000",
+      "system_unit_id": "Hager_TYA663A_397290010190000",
+      "type": "DIMMER",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "transformation_frame_id": "Sports_LeftDimmer",
@@ -141,57 +176,89 @@
           "leftdimmer"
         ]
       },
-      "meta_config": {},
-      "type": "DIMMER",
-      "unit_template_config_id": "Hager_TYA663A_DIMMER_1",
       "bound_to_system_unit": false,
       "service_config": [
         {
-          "unit_id": "/home/sports/dimmer/leftdimmer/",
-          "meta_config": {},
-          "type": "INTENSITY_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
-                  "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "4/0/7+4/0/14"
-                },
-                {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA663A__home_sports__Dimmer__LeftDimmer__DimService"
+                  "value": "Hager_TYA663A__home_sports__Dimmer__LeftDimmer__IntensityStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "9741616f-c4bd-464a-8d0b-a4031e509adb",
+          "service_template": {
+            "type": "INTENSITY_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         },
         {
-          "unit_id": "/home/sports/dimmer/leftdimmer/",
-          "meta_config": {},
-          "type": "POWER_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
-                  "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "4/0/2+4/0/13"
-                },
-                {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA663A__home_sports__Dimmer__LeftDimmer__PowerService"
+                  "value": "Hager_TYA663A__home_sports__Dimmer__LeftDimmer__IntensityStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "9741616f-c4bd-464a-8d0b-a4031e509adb",
+          "service_template": {
+            "type": "INTENSITY_STATE_SERVICE",
+            "pattern": "OPERATION"
+          }
+        },
+        {
+          "binding_config": {
+            "binding_id": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA663A__home_sports__Dimmer__LeftDimmer__PowerStateService"
+                }
+              ]
+            }
+          },
+          "unit_id": "9741616f-c4bd-464a-8d0b-a4031e509adb",
+          "service_template": {
+            "type": "POWER_STATE_SERVICE",
+            "pattern": "PROVIDER"
+          }
+        },
+        {
+          "binding_config": {
+            "binding_id": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA663A__home_sports__Dimmer__LeftDimmer__PowerStateService"
+                }
+              ]
+            }
+          },
+          "unit_id": "9741616f-c4bd-464a-8d0b-a4031e509adb",
+          "service_template": {
+            "type": "POWER_STATE_SERVICE",
+            "pattern": "OPERATION"
           }
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
-      "id": "/home/sports/dimmer/rightdimmer/",
+      "id": "0d88d0a3-373a-4525-a7b0-afbd265dc4fe",
+      "unit_template_config_id": "Hager_TYA663A_DIMMER_2",
       "label": "RightDimmer",
-      "device_id": "Hager_TYA663A_397290010190000",
+      "system_unit_id": "Hager_TYA663A_397290010190000",
+      "type": "DIMMER",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "transformation_frame_id": "Sports_RightDimmer",
@@ -217,52 +284,83 @@
           "rightdimmer"
         ]
       },
-      "meta_config": {},
-      "type": "DIMMER",
-      "unit_template_config_id": "Hager_TYA663A_DIMMER_2",
       "bound_to_system_unit": false,
       "service_config": [
         {
-          "unit_id": "/home/sports/dimmer/rightdimmer/",
-          "meta_config": {},
-          "type": "INTENSITY_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
-                  "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "4/0/5+4/0/12"
-                },
-                {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA663A__home_sports__Dimmer__RightDimmer__DimService"
+                  "value": "Hager_TYA663A__home_sports__Dimmer__RightDimmer__IntensityStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "0d88d0a3-373a-4525-a7b0-afbd265dc4fe",
+          "service_template": {
+            "type": "INTENSITY_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         },
         {
-          "unit_id": "/home/sports/dimmer/rightdimmer/",
-          "meta_config": {},
-          "type": "POWER_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
-                  "key": "OPENHAB_BINDING_CONFIG",
-                  "value": "4/0/1+4/0/11"
-                },
-                {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Hager_TYA663A__home_sports__Dimmer__RightDimmer__PowerService"
+                  "value": "Hager_TYA663A__home_sports__Dimmer__RightDimmer__IntensityStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "0d88d0a3-373a-4525-a7b0-afbd265dc4fe",
+          "service_template": {
+            "type": "INTENSITY_STATE_SERVICE",
+            "pattern": "OPERATION"
+          }
+        },
+        {
+          "binding_config": {
+            "binding_id": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA663A__home_sports__Dimmer__RightDimmer__PowerStateService"
+                }
+              ]
+            }
+          },
+          "unit_id": "0d88d0a3-373a-4525-a7b0-afbd265dc4fe",
+          "service_template": {
+            "type": "POWER_STATE_SERVICE",
+            "pattern": "PROVIDER"
+          }
+        },
+        {
+          "binding_config": {
+            "binding_id": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Hager_TYA663A__home_sports__Dimmer__RightDimmer__PowerStateService"
+                }
+              ]
+            }
+          },
+          "unit_id": "0d88d0a3-373a-4525-a7b0-afbd265dc4fe",
+          "service_template": {
+            "type": "POWER_STATE_SERVICE",
+            "pattern": "OPERATION"
           }
         }
-      ]
+      ],
+      "meta_config": {}
     }
-  ]
+  ],
+  "meta_config": {}
 }

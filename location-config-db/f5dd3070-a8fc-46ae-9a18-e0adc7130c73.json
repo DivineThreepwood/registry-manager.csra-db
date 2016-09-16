@@ -2,6 +2,7 @@
   "id": "f5dd3070-a8fc-46ae-9a18-e0adc7130c73",
   "label": "Basin",
   "type": "REGION",
+  "root": false,
   "scope": {
     "component": [
       "home",

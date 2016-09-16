@@ -22,12 +22,11 @@
   "scope": {
     "component": [
       "home",
+      "device",
       "asus_90iw0122-b01ua_e3iwbda34180"
     ]
   },
   "serial_number": "E3IWBDA34180",
-  "device_class_id": "ASUS_90IW0122-B01UA",
-  "meta_config": {},
   "inventory_state": {
     "value": "BORROWED",
     "timestamp": {
@@ -35,11 +34,14 @@
     },
     "owner_id": ""
   },
+  "device_class_id": "ASUS_90IW0122-B01UA",
   "unit_config": [
     {
-      "id": "/home/rgbcamera/asus_90iw0122-b01ua_e3iwbda34180/",
+      "id": "68a9641b-1c98-43b8-b7e3-612e661c5c25",
+      "unit_template_config_id": "ASUS_90IW0122-B01UA_VIDEO_RGB_SOURCE_0",
       "label": "ASUS_90IW0122-B01UA_E3IWBDA34180",
-      "device_id": "ASUS_90IW0122-B01UA_E3IWBDA34180",
+      "system_unit_id": "ASUS_90IW0122-B01UA_E3IWBDA34180",
+      "type": "VIDEO_RGB_SOURCE",
       "placement_config": {
         "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
         "transformation_frame_id": "ASUS_90IW0122-B01UA_E3IWBDA34180",
@@ -61,19 +63,19 @@
       "scope": {
         "component": [
           "home",
-          "rgbcamera",
+          "videorgbsource",
           "asus_90iw0122-b01ua_e3iwbda34180"
         ]
       },
-      "meta_config": {},
-      "type": "VIDEO_RGB_SOURCE",
-      "unit_template_config_id": "ASUS_90IW0122-B01UA_VIDEO_RGB_SOURCE_0",
-      "bound_to_system_unit": true
+      "bound_to_system_unit": true,
+      "meta_config": {}
     },
     {
-      "id": "/home/depthcamera/asus_90iw0122-b01ua_e3iwbda34180/",
+      "id": "4d16fbc2-f7c2-4003-b7fe-32a52c8da11c",
+      "unit_template_config_id": "ASUS_90IW0122-B01UA_VIDEO_DEPTH_SOURCE_0",
       "label": "ASUS_90IW0122-B01UA_E3IWBDA34180",
-      "device_id": "ASUS_90IW0122-B01UA_E3IWBDA34180",
+      "system_unit_id": "ASUS_90IW0122-B01UA_E3IWBDA34180",
+      "type": "VIDEO_DEPTH_SOURCE",
       "placement_config": {
         "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
         "transformation_frame_id": "Home_ASUS_90IW0122-B01UA_E3IWBDA34180",
@@ -95,19 +97,19 @@
       "scope": {
         "component": [
           "home",
-          "depthcamera",
+          "videodepthsource",
           "asus_90iw0122-b01ua_e3iwbda34180"
         ]
       },
-      "meta_config": {},
-      "type": "VIDEO_DEPTH_SOURCE",
-      "unit_template_config_id": "ASUS_90IW0122-B01UA_VIDEO_DEPTH_SOURCE_0",
-      "bound_to_system_unit": true
+      "bound_to_system_unit": true,
+      "meta_config": {}
     },
     {
-      "id": "/home/audiosource/asus_90iw0122-b01ua_e3iwbda34180/",
+      "id": "04eae99a-220e-4515-aa9b-2f392408548f",
+      "unit_template_config_id": "ASUS_90IW0122-B01UA_AUDIO_SOURCE_0",
       "label": "ASUS_90IW0122-B01UA_E3IWBDA34180",
-      "device_id": "ASUS_90IW0122-B01UA_E3IWBDA34180",
+      "system_unit_id": "ASUS_90IW0122-B01UA_E3IWBDA34180",
+      "type": "AUDIO_SOURCE",
       "placement_config": {
         "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
         "transformation_frame_id": "Home_ASUS_90IW0122-B01UA_E3IWBDA34180",
@@ -133,10 +135,9 @@
           "asus_90iw0122-b01ua_e3iwbda34180"
         ]
       },
-      "meta_config": {},
-      "type": "AUDIO_SOURCE",
-      "unit_template_config_id": "ASUS_90IW0122-B01UA_AUDIO_SOURCE_0",
-      "bound_to_system_unit": true
+      "bound_to_system_unit": true,
+      "meta_config": {}
     }
-  ]
+  ],
+  "meta_config": {}
 }

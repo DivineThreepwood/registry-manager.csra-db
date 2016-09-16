@@ -2,6 +2,7 @@
   "id": "dae2ee74-5748-46bb-a95a-1054ce40ea0a",
   "label": "Interaction",
   "type": "REGION",
+  "root": false,
   "scope": {
     "component": [
       "home",

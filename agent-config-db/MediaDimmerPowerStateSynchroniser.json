@@ -5,7 +5,7 @@
   "scope": {
     "component": [
       "home",
-      "powerstatesynchroniser",
+      "",
       "mediadimmerpowerstatesynchroniser"
     ]
   },
@@ -29,7 +29,6 @@
       }
     ]
   },
-  "type": "POWER_STATE_SYNCHRONISER",
   "enabling_state": {
     "value": "ENABLED"
   }

@@ -22,36 +22,27 @@
     "component": [
       "home",
       "outdoor",
+      "device",
       "entrance"
     ]
   },
   "serial_number": "FMS016",
-  "device_class_id": "Fibaro_FGMS-001",
-  "meta_config": {
-    "entry": [
-      {
-        "key": "OPENHAB_BINDING_DEVICE_ID",
-        "value": "44"
-      },
-      {
-        "key": "SENSOR_BOUNDINGBOX",
-        "value": "0.0,6.8,2.0,1.3"
-      }
-    ]
-  },
   "inventory_state": {
     "value": "INSTALLED",
-    "location_id": "Outdoor",
+    "location_id": "9be1344a-41f1-406b-bdae-41bfd5368f13",
     "timestamp": {
       "time": 1440771175655
     },
     "owner_id": ""
   },
+  "device_class_id": "Fibaro_FGMS-001",
   "unit_config": [
     {
-      "id": "/home/outdoor/battery/entrance/",
+      "id": "13bb7ea5-dd6f-4735-81d7-50efbff2e2ed",
+      "unit_template_config_id": "Fibaro_FGMS-001_BATTERY_0",
       "label": "Entrance",
-      "device_id": "Fibaro_FGMS-001_FMS016",
+      "system_unit_id": "Fibaro_FGMS-001_FMS016",
+      "type": "BATTERY",
       "placement_config": {
         "location_id": "9be1344a-41f1-406b-bdae-41bfd5368f13",
         "transformation_frame_id": "Outdoor_Entrance",
@@ -77,33 +68,35 @@
           "entrance"
         ]
       },
-      "meta_config": {},
-      "type": "BATTERY",
-      "unit_template_config_id": "Fibaro_FGMS-001_BATTERY_0",
       "bound_to_system_unit": true,
       "service_config": [
         {
-          "unit_id": "/home/outdoor/battery/entrance/",
-          "meta_config": {},
-          "type": "BATTERY_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Fibaro_MotionSensor__home_outdoor__Battery__Entrance__BatteryProvider"
+                  "value": "Fibaro_MotionSensor__home_outdoor__Battery__Entrance__BatteryStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "13bb7ea5-dd6f-4735-81d7-50efbff2e2ed",
+          "service_template": {
+            "type": "BATTERY_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
-      "id": "/home/outdoor/brightnesssensor/entrance/",
+      "id": "d42046c8-9cb2-4ad4-876c-6d8d85ba2564",
+      "unit_template_config_id": "Fibaro_FGMS-001_BRIGHTNESS_SENSOR_0",
       "label": "Entrance",
-      "device_id": "Fibaro_FGMS-001_FMS016",
+      "system_unit_id": "Fibaro_FGMS-001_FMS016",
+      "type": "BRIGHTNESS_SENSOR",
       "placement_config": {
         "location_id": "9be1344a-41f1-406b-bdae-41bfd5368f13",
         "transformation_frame_id": "Outdoor_Entrance",
@@ -129,85 +122,35 @@
           "entrance"
         ]
       },
-      "meta_config": {},
-      "type": "BRIGHTNESS_SENSOR",
-      "unit_template_config_id": "Fibaro_FGMS-001_BRIGHTNESS_SENSOR_0",
       "bound_to_system_unit": true,
       "service_config": [
         {
-          "unit_id": "/home/outdoor/brightnesssensor/entrance/",
-          "meta_config": {},
-          "type": "BRIGHTNESS_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Fibaro_MotionSensor__home_outdoor__BrightnessSensor__Entrance__BrightnessProvider"
+                  "value": "Fibaro_MotionSensor__home_outdoor__BrightnessSensor__Entrance__BrightnessStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "d42046c8-9cb2-4ad4-876c-6d8d85ba2564",
+          "service_template": {
+            "type": "BRIGHTNESS_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
-      "id": "/home/outdoor/motionsensor/entrance/",
-      "label": "Entrance",
-      "device_id": "Fibaro_FGMS-001_FMS016",
-      "placement_config": {
-        "location_id": "9be1344a-41f1-406b-bdae-41bfd5368f13",
-        "transformation_frame_id": "Outdoor_Entrance",
-        "position": {
-          "translation": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "rotation": {
-            "qw": 1.0,
-            "qx": 0.0,
-            "qy": 0.0,
-            "qz": 0.0
-          }
-        }
-      },
-      "scope": {
-        "component": [
-          "home",
-          "outdoor",
-          "motionsensor",
-          "entrance"
-        ]
-      },
-      "meta_config": {},
-      "type": "MOTION_DETECTOR",
+      "id": "ffec28cf-2b4e-453f-882c-8b9fff4db4da",
       "unit_template_config_id": "Fibaro_FGMS-001_MOTION_DETECTOR_0",
-      "bound_to_system_unit": true,
-      "service_config": [
-        {
-          "unit_id": "/home/outdoor/motionsensor/entrance/",
-          "meta_config": {},
-          "type": "MOTION_STATE_SERVICE",
-          "binding_config": {
-            "meta_config": {
-              "entry": [
-                {
-                  "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Fibaro_MotionSensor__home_outdoor__MotionSensor__Entrance__MotionProvider"
-                }
-              ]
-            },
-            "binding_id": "OPENHAB"
-          }
-        }
-      ]
-    },
-    {
-      "id": "/home/outdoor/tamperswitch/entrance/",
       "label": "Entrance",
-      "device_id": "Fibaro_FGMS-001_FMS016",
+      "system_unit_id": "Fibaro_FGMS-001_FMS016",
+      "type": "MOTION_DETECTOR",
       "placement_config": {
         "location_id": "9be1344a-41f1-406b-bdae-41bfd5368f13",
         "transformation_frame_id": "Outdoor_Entrance",
@@ -229,37 +172,93 @@
         "component": [
           "home",
           "outdoor",
-          "tamperswitch",
+          "motiondetector",
           "entrance"
         ]
       },
-      "meta_config": {},
-      "type": "TAMPER_DETECTOR",
-      "unit_template_config_id": "Fibaro_FGMS-001_TAMPER_DETECTOR_0",
       "bound_to_system_unit": true,
       "service_config": [
         {
-          "unit_id": "/home/outdoor/tamperswitch/entrance/",
-          "meta_config": {},
-          "type": "TAMPER_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Fibaro_MotionSensor__home_outdoor__TamperSwitch__Entrance__TamperProvider"
+                  "value": "Fibaro_MotionSensor__home_outdoor__MotionDetector__Entrance__MotionStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "ffec28cf-2b4e-453f-882c-8b9fff4db4da",
+          "service_template": {
+            "type": "MOTION_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
-      "id": "/home/outdoor/temperaturesensor/entrance/",
+      "id": "2bb12d60-67ed-48b9-84f8-a36b678ab597",
+      "unit_template_config_id": "Fibaro_FGMS-001_TAMPER_DETECTOR_0",
       "label": "Entrance",
-      "device_id": "Fibaro_FGMS-001_FMS016",
+      "system_unit_id": "Fibaro_FGMS-001_FMS016",
+      "type": "TAMPER_DETECTOR",
+      "placement_config": {
+        "location_id": "9be1344a-41f1-406b-bdae-41bfd5368f13",
+        "transformation_frame_id": "Outdoor_Entrance",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "outdoor",
+          "tamperdetector",
+          "entrance"
+        ]
+      },
+      "bound_to_system_unit": true,
+      "service_config": [
+        {
+          "binding_config": {
+            "binding_id": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Fibaro_MotionSensor__home_outdoor__TamperDetector__Entrance__TamperStateService"
+                }
+              ]
+            }
+          },
+          "unit_id": "2bb12d60-67ed-48b9-84f8-a36b678ab597",
+          "service_template": {
+            "type": "TAMPER_STATE_SERVICE",
+            "pattern": "PROVIDER"
+          }
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "85112b3f-ba16-4f50-a243-2ecb5f79a663",
+      "unit_template_config_id": "Fibaro_FGMS-001_TEMPERATURE_SENSOR_0",
+      "label": "Entrance",
+      "system_unit_id": "Fibaro_FGMS-001_FMS016",
+      "type": "TEMPERATURE_SENSOR",
       "placement_config": {
         "location_id": "9be1344a-41f1-406b-bdae-41bfd5368f13",
         "transformation_frame_id": "Outdoor_Entrance",
@@ -285,43 +284,58 @@
           "entrance"
         ]
       },
-      "meta_config": {},
-      "type": "TEMPERATURE_SENSOR",
-      "unit_template_config_id": "Fibaro_FGMS-001_TEMPERATURE_SENSOR_0",
       "bound_to_system_unit": true,
       "service_config": [
         {
-          "unit_id": "/home/outdoor/temperaturesensor/entrance/",
-          "meta_config": {},
-          "type": "TEMPERATURE_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Fibaro_MotionSensor__home_outdoor__TemperatureSensor__Entrance__TemperatureProvider"
+                  "value": "Fibaro_MotionSensor__home_outdoor__TemperatureSensor__Entrance__TemperatureAlarmStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "85112b3f-ba16-4f50-a243-2ecb5f79a663",
+          "service_template": {
+            "type": "TEMPERATURE_ALARM_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         },
         {
-          "unit_id": "/home/outdoor/temperaturesensor/entrance/",
-          "type": "TEMPERATURE_ALARM_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Fibaro_MotionSensor__home_outdoor__TemperatureSensor__Entrance__TemperatureAlarmStateProvider"
+                  "value": "Fibaro_MotionSensor__home_outdoor__TemperatureSensor__Entrance__TemperatureStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "85112b3f-ba16-4f50-a243-2ecb5f79a663",
+          "service_template": {
+            "type": "TEMPERATURE_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         }
-      ]
+      ],
+      "meta_config": {}
     }
-  ]
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "44"
+      },
+      {
+        "key": "SENSOR_BOUNDINGBOX",
+        "value": "0.0,6.8,2.0,1.3"
+      }
+    ]
+  }
 }

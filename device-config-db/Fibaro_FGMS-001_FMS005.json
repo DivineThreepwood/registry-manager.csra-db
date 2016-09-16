@@ -22,36 +22,27 @@
     "component": [
       "home",
       "bath",
+      "device",
       "sink"
     ]
   },
   "serial_number": "FMS005",
-  "device_class_id": "Fibaro_FGMS-001",
-  "meta_config": {
-    "entry": [
-      {
-        "key": "OPENHAB_BINDING_DEVICE_ID",
-        "value": "39"
-      },
-      {
-        "key": "SENSOR_BOUNDINGBOX",
-        "value": "0.0,5.5,1.0,1.3"
-      }
-    ]
-  },
   "inventory_state": {
     "value": "INSTALLED",
-    "location_id": "Bath",
+    "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
     "timestamp": {
       "time": 1440770366619
     },
     "owner_id": ""
   },
+  "device_class_id": "Fibaro_FGMS-001",
   "unit_config": [
     {
-      "id": "/home/bath/battery/sink/",
+      "id": "3c6504b4-45d1-4e64-9d2e-016fcd7e6b7e",
+      "unit_template_config_id": "Fibaro_FGMS-001_BATTERY_0",
       "label": "Sink",
-      "device_id": "Fibaro_FGMS-001_FMS005",
+      "system_unit_id": "Fibaro_FGMS-001_FMS005",
+      "type": "BATTERY",
       "placement_config": {
         "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
         "transformation_frame_id": "Sink",
@@ -77,33 +68,35 @@
           "sink"
         ]
       },
-      "meta_config": {},
-      "type": "BATTERY",
-      "unit_template_config_id": "Fibaro_FGMS-001_BATTERY_0",
       "bound_to_system_unit": true,
       "service_config": [
         {
-          "unit_id": "/home/bath/battery/sink/",
-          "meta_config": {},
-          "type": "BATTERY_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Fibaro_MotionSensor__home_bath__Battery__Sink__BatteryProvider"
+                  "value": "Fibaro_MotionSensor__home_bath__Battery__Sink__BatteryStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "3c6504b4-45d1-4e64-9d2e-016fcd7e6b7e",
+          "service_template": {
+            "type": "BATTERY_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
-      "id": "/home/bath/brightnesssensor/sink/",
+      "id": "a433e939-1ee6-412a-a292-a1a6dae7e6ed",
+      "unit_template_config_id": "Fibaro_FGMS-001_BRIGHTNESS_SENSOR_0",
       "label": "Sink",
-      "device_id": "Fibaro_FGMS-001_FMS005",
+      "system_unit_id": "Fibaro_FGMS-001_FMS005",
+      "type": "BRIGHTNESS_SENSOR",
       "placement_config": {
         "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
         "transformation_frame_id": "Bath_Sink",
@@ -129,85 +122,35 @@
           "sink"
         ]
       },
-      "meta_config": {},
-      "type": "BRIGHTNESS_SENSOR",
-      "unit_template_config_id": "Fibaro_FGMS-001_BRIGHTNESS_SENSOR_0",
       "bound_to_system_unit": true,
       "service_config": [
         {
-          "unit_id": "/home/bath/brightnesssensor/sink/",
-          "meta_config": {},
-          "type": "BRIGHTNESS_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Fibaro_MotionSensor__home_bath__BrightnessSensor__Sink__BrightnessProvider"
+                  "value": "Fibaro_MotionSensor__home_bath__BrightnessSensor__Sink__BrightnessStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "a433e939-1ee6-412a-a292-a1a6dae7e6ed",
+          "service_template": {
+            "type": "BRIGHTNESS_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
-      "id": "/home/bath/motionsensor/sink/",
-      "label": "Sink",
-      "device_id": "Fibaro_FGMS-001_FMS005",
-      "placement_config": {
-        "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
-        "transformation_frame_id": "Bath_Sink",
-        "position": {
-          "translation": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "rotation": {
-            "qw": 1.0,
-            "qx": 0.0,
-            "qy": 0.0,
-            "qz": 0.0
-          }
-        }
-      },
-      "scope": {
-        "component": [
-          "home",
-          "bath",
-          "motionsensor",
-          "sink"
-        ]
-      },
-      "meta_config": {},
-      "type": "MOTION_DETECTOR",
+      "id": "f1ded025-96eb-43a8-9dbe-1cd874e757e9",
       "unit_template_config_id": "Fibaro_FGMS-001_MOTION_DETECTOR_0",
-      "bound_to_system_unit": true,
-      "service_config": [
-        {
-          "unit_id": "/home/bath/motionsensor/sink/",
-          "meta_config": {},
-          "type": "MOTION_STATE_SERVICE",
-          "binding_config": {
-            "meta_config": {
-              "entry": [
-                {
-                  "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Fibaro_MotionSensor__home_bath__MotionSensor__Sink__MotionProvider"
-                }
-              ]
-            },
-            "binding_id": "OPENHAB"
-          }
-        }
-      ]
-    },
-    {
-      "id": "/home/bath/tamperswitch/sink/",
       "label": "Sink",
-      "device_id": "Fibaro_FGMS-001_FMS005",
+      "system_unit_id": "Fibaro_FGMS-001_FMS005",
+      "type": "MOTION_DETECTOR",
       "placement_config": {
         "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
         "transformation_frame_id": "Bath_Sink",
@@ -229,37 +172,93 @@
         "component": [
           "home",
           "bath",
-          "tamperswitch",
+          "motiondetector",
           "sink"
         ]
       },
-      "meta_config": {},
-      "type": "TAMPER_DETECTOR",
-      "unit_template_config_id": "Fibaro_FGMS-001_TAMPER_DETECTOR_0",
       "bound_to_system_unit": true,
       "service_config": [
         {
-          "unit_id": "/home/bath/tamperswitch/sink/",
-          "meta_config": {},
-          "type": "TAMPER_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Fibaro_MotionSensor__home_bath__TamperSwitch__Sink__TamperProvider"
+                  "value": "Fibaro_MotionSensor__home_bath__MotionDetector__Sink__MotionStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "f1ded025-96eb-43a8-9dbe-1cd874e757e9",
+          "service_template": {
+            "type": "MOTION_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
-      "id": "/home/bath/temperaturesensor/sink/",
+      "id": "1db4163d-5c8a-483d-a33b-e5aa0cb48353",
+      "unit_template_config_id": "Fibaro_FGMS-001_TAMPER_DETECTOR_0",
       "label": "Sink",
-      "device_id": "Fibaro_FGMS-001_FMS005",
+      "system_unit_id": "Fibaro_FGMS-001_FMS005",
+      "type": "TAMPER_DETECTOR",
+      "placement_config": {
+        "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+        "transformation_frame_id": "Bath_Sink",
+        "position": {
+          "translation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "qw": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0
+          }
+        }
+      },
+      "scope": {
+        "component": [
+          "home",
+          "bath",
+          "tamperdetector",
+          "sink"
+        ]
+      },
+      "bound_to_system_unit": true,
+      "service_config": [
+        {
+          "binding_config": {
+            "binding_id": "OPENHAB",
+            "meta_config": {
+              "entry": [
+                {
+                  "key": "OPENHAB_BINDING_ITEM_ID",
+                  "value": "Fibaro_MotionSensor__home_bath__TamperDetector__Sink__TamperStateService"
+                }
+              ]
+            }
+          },
+          "unit_id": "1db4163d-5c8a-483d-a33b-e5aa0cb48353",
+          "service_template": {
+            "type": "TAMPER_STATE_SERVICE",
+            "pattern": "PROVIDER"
+          }
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "923fdee2-78a2-4416-a195-87b95c0c1e6a",
+      "unit_template_config_id": "Fibaro_FGMS-001_TEMPERATURE_SENSOR_0",
+      "label": "Sink",
+      "system_unit_id": "Fibaro_FGMS-001_FMS005",
+      "type": "TEMPERATURE_SENSOR",
       "placement_config": {
         "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
         "transformation_frame_id": "Bath_Sink",
@@ -285,43 +284,58 @@
           "sink"
         ]
       },
-      "meta_config": {},
-      "type": "TEMPERATURE_SENSOR",
-      "unit_template_config_id": "Fibaro_FGMS-001_TEMPERATURE_SENSOR_0",
       "bound_to_system_unit": true,
       "service_config": [
         {
-          "unit_id": "/home/bath/temperaturesensor/sink/",
-          "meta_config": {},
-          "type": "TEMPERATURE_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Fibaro_MotionSensor__home_bath__TemperatureSensor__Sink__TemperatureProvider"
+                  "value": "Fibaro_MotionSensor__home_bath__TemperatureSensor__Sink__TemperatureAlarmStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "923fdee2-78a2-4416-a195-87b95c0c1e6a",
+          "service_template": {
+            "type": "TEMPERATURE_ALARM_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         },
         {
-          "unit_id": "/home/bath/temperaturesensor/sink/",
-          "type": "TEMPERATURE_ALARM_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Fibaro_MotionSensor__home_bath__TemperatureSensor__Sink__TemperatureAlarmStateProvider"
+                  "value": "Fibaro_MotionSensor__home_bath__TemperatureSensor__Sink__TemperatureStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "923fdee2-78a2-4416-a195-87b95c0c1e6a",
+          "service_template": {
+            "type": "TEMPERATURE_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         }
-      ]
+      ],
+      "meta_config": {}
     }
-  ]
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "39"
+      },
+      {
+        "key": "SENSOR_BOUNDINGBOX",
+        "value": "0.0,5.5,1.0,1.3"
+      }
+    ]
+  }
 }

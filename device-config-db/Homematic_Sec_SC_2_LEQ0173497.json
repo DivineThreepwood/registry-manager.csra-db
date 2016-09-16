@@ -22,25 +22,27 @@
     "component": [
       "home",
       "sports",
+      "device",
       "windowreedswitch"
     ]
   },
   "serial_number": "LEQ0173497",
-  "device_class_id": "Homematic_Sec_SC_2",
-  "meta_config": {},
   "inventory_state": {
     "value": "INSTALLED",
-    "location_id": "Sports",
+    "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
     "timestamp": {
       "time": 1441013772678
     },
     "owner_id": ""
   },
+  "device_class_id": "Homematic_Sec_SC_2",
   "unit_config": [
     {
-      "id": "/home/sports/battery/windowreedswitch/",
+      "id": "79d5e3cc-197e-44b6-b7fd-1fa0f3c24dc5",
+      "unit_template_config_id": "Homematic_Sec_SC_2_BATTERY_0",
       "label": "WindowReedSwitch",
-      "device_id": "Homematic_Sec_SC_2_LEQ0173497",
+      "system_unit_id": "Homematic_Sec_SC_2_LEQ0173497",
+      "type": "BATTERY",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "transformation_frame_id": "WindowReedSwitch",
@@ -66,33 +68,35 @@
           "windowreedswitch"
         ]
       },
-      "meta_config": {},
-      "type": "BATTERY",
-      "unit_template_config_id": "Homematic_Sec_SC_2_BATTERY_0",
       "bound_to_system_unit": true,
       "service_config": [
         {
-          "unit_id": "/home/sports/battery/windowreedswitch/",
-          "meta_config": {},
-          "type": "BATTERY_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Homematic_Sec_SC_2__home_sports__Battery__WindowReedSwitch__BatteryProvider"
+                  "value": "Homematic_Sec_SC_2__home_sports__Battery__WindowReedSwitch__BatteryStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "79d5e3cc-197e-44b6-b7fd-1fa0f3c24dc5",
+          "service_template": {
+            "type": "BATTERY_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
-      "id": "/home/sports/reedswitch/windowreedswitch/",
+      "id": "ba4c53d2-5324-4131-abab-a4de555c89bc",
+      "unit_template_config_id": "Homematic_Sec_SC_2_REED_CONTACT_0",
       "label": "WindowReedSwitch",
-      "device_id": "Homematic_Sec_SC_2_LEQ0173497",
+      "system_unit_id": "Homematic_Sec_SC_2_LEQ0173497",
+      "type": "REED_CONTACT",
       "placement_config": {
         "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
         "transformation_frame_id": "Sports_WindowReedSwitch",
@@ -114,32 +118,33 @@
         "component": [
           "home",
           "sports",
-          "reedswitch",
+          "reedcontact",
           "windowreedswitch"
         ]
       },
-      "meta_config": {},
-      "type": "REED_CONTACT",
-      "unit_template_config_id": "Homematic_Sec_SC_2_REED_CONTACT_0",
       "bound_to_system_unit": true,
       "service_config": [
         {
-          "unit_id": "/home/sports/reedswitch/windowreedswitch/",
-          "meta_config": {},
-          "type": "CONTACT_STATE_SERVICE",
           "binding_config": {
+            "binding_id": "OPENHAB",
             "meta_config": {
               "entry": [
                 {
                   "key": "OPENHAB_BINDING_ITEM_ID",
-                  "value": "Homematic_Sec_SC_2__home_sports__ReedSwitch__WindowReedSwitch__ReedSwitchProvider"
+                  "value": "Homematic_Sec_SC_2__home_sports__ReedContact__WindowReedSwitch__ContactStateService"
                 }
               ]
-            },
-            "binding_id": "OPENHAB"
+            }
+          },
+          "unit_id": "ba4c53d2-5324-4131-abab-a4de555c89bc",
+          "service_template": {
+            "type": "CONTACT_STATE_SERVICE",
+            "pattern": "PROVIDER"
           }
         }
-      ]
+      ],
+      "meta_config": {}
     }
-  ]
+  ],
+  "meta_config": {}
 }

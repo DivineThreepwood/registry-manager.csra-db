@@ -6,52 +6,6 @@
   "child_id": [
     "cff20d86-c7e8-4d12-87e1-ebc67c7e0c93"
   ],
-  "unit_id": [
-    "/home/wardrobe/button/lighthereon/",
-    "/home/wardrobe/button/resetconfig/",
-    "/home/wardrobe/audiosource/asus_90iw0122-b01ua_e3iwbda33551/",
-    "/home/wardrobe/button/learnperson/",
-    "/home/wardrobe/rgbcamera/asus_90iw0122-b01ua_e3iwbda34151/",
-    "/home/wardrobe/battery/hallway/",
-    "/home/wardrobe/depthcamera/asus_90iw0122-b01ua_e3iwbda34151/",
-    "/home/wardrobe/button/lighthereoff/",
-    "/home/wardrobe/powerconsumptionsensor/a8c4consumption/",
-    "/home/wardrobe/button/goodbye/",
-    "/home/wardrobe/button/apartmentlight/",
-    "/home/wardrobe/powerconsumptionsensor/a8c5consumption/",
-    "/home/wardrobe/brightnesssensor/entrance/",
-    "/home/wardrobe/motionsensor/entrance/",
-    "/home/wardrobe/audiosource/asus_90iw0122-b01ua_e3iwbda34151/",
-    "/home/wardrobe/temperaturesensor/hallway/",
-    "/home/wardrobe/brightnesssensor/hallway/",
-    "/home/wardrobe/powerplug/a8c4/",
-    "/home/wardrobe/button/reset/",
-    "/home/wardrobe/ambientlight/hallway_1/",
-    "/home/wardrobe/motionsensor/hallway/",
-    "/home/wardrobe/button/kitchen/",
-    "/home/wardrobe/tamperswitch/entrance/",
-    "/home/wardrobe/battery/entrance/",
-    "/home/wardrobe/dimmer/pathwaydimmer/",
-    "/home/wardrobe/button/lightotheroff/",
-    "/home/wardrobe/button/findkeys/",
-    "/home/wardrobe/dimmer/entrancedimmer/",
-    "/home/wardrobe/button/greet/",
-    "/home/wardrobe/temperaturesensor/entrance/",
-    "/home/wardrobe/tamperswitch/hallway/",
-    "/home/wardrobe/battery/entrancedoorreedswitch/",
-    "/home/wardrobe/button/list/",
-    "/home/wardrobe/button/learnpersontwo/",
-    "/home/wardrobe/rgbcamera/asus_90iw0122-b01ua_e3iwbda33551/",
-    "/home/wardrobe/button/explain/",
-    "/home/wardrobe/button/wardrobelight/",
-    "/home/wardrobe/powerplug/a8c5/",
-    "/home/wardrobe/reedswitch/entrancedoorreedswitch/",
-    "/home/wardrobe/depthcamera/asus_90iw0122-b01ua_e3iwbda33551/",
-    "/home/wardrobe/button/introduction/",
-    "/home/wardrobe/button/lightalloff/",
-    "/home/wardrobe/ambientlight/hallway_0/",
-    "/home/wardrobe/button/lightallon/"
-  ],
   "scope": {
     "component": [
       "home",
@@ -121,7 +75,7 @@
   },
   "meta_config": {},
   "tile_config": {
-    "meta_config": {},
-    "type": "INDOOR"
+    "type": "INDOOR",
+    "meta_config": {}
   }
 }

@@ -2,6 +2,7 @@
   "id": "cd696027-fb4f-497c-af30-144859a462da",
   "label": "Shower",
   "type": "REGION",
+  "root": false,
   "scope": {
     "component": [
       "home",
