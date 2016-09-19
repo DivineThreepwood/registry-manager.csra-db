@@ -5,7 +5,7 @@ PROJECT(csra-db)
 SET(CMAKE_BUILD_TYPE distribution)
 
 IF(NOT DEFINED REM_DB_HOME)
-    SET(REM_DB_HOME "var/registry-manager/db")
+    SET(REM_DB_HOME "share/bco/registry/db")
 ENDIF ()
 
 IF(NOT DEFINED REM_DB_GIT_URL)
