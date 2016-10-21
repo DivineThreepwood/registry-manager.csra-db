@@ -1,13 +1,17 @@
 {
-  "id": "BathAmbientColorZen",
-  "label": "BathAmbientColorZen",
-  "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+  "id": "1c51e24f-3e00-4a39-91a7-e7c240dcb63f",
+  "label": "BathAmbientColorForest",
+  "type": "AGENT",
+  "placement_config": {
+    "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+    "shape": {}
+  },
   "scope": {
     "component": [
       "home",
       "bath",
-      "",
-      "bathambientcolorzen"
+      "ff76a0a9-7977-435a-bca1-04669731ed8f",
+      "bathambientcolorforest"
     ]
   },
   "meta_config": {
@@ -54,47 +58,50 @@
       },
       {
         "key": "COLOR_1",
-        "value": "50;45;80"
+        "value": "113;100;50"
       },
       {
         "key": "COLOR_2",
-        "value": "50;70;80"
+        "value": "113;100;75"
       },
       {
         "key": "COLOR_3",
-        "value": "75;45;80"
+        "value": "113;100;100"
       },
       {
         "key": "COLOR_4",
-        "value": "70;60;80"
+        "value": "36;100;40"
       },
       {
         "key": "COLOR_5",
-        "value": "33;70;80"
+        "value": "40;100;50"
       },
       {
         "key": "COLOR_6",
-        "value": "33;40;80"
+        "value": "70;100;50"
       },
       {
         "key": "COLOR_7",
-        "value": "40;50;70"
+        "value": "70;100;75"
       },
       {
         "key": "COLOR_8",
-        "value": "40;25;70"
+        "value": "70;100;100"
       },
       {
         "key": "COLOR_9",
-        "value": "35;50;80"
+        "value": "150;100;50"
       },
       {
         "key": "COLOR_10",
-        "value": "30;20;60"
+        "value": "150;100;100"
       }
     ]
   },
   "enabling_state": {
     "value": "DISABLED"
+  },
+  "agent_config": {
+    "agent_class_id": "ff76a0a9-7977-435a-bca1-04669731ed8f"
   }
 }

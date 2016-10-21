@@ -1,12 +1,16 @@
 {
-  "id": "BathAmbientColorBeachCeiling",
+  "id": "d8798d21-9426-4c8c-872a-f43d0e245a6d",
   "label": "BathAmbientColorBeachCeiling",
-  "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+  "type": "AGENT",
+  "placement_config": {
+    "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+    "shape": {}
+  },
   "scope": {
     "component": [
       "home",
       "bath",
-      "",
+      "ff76a0a9-7977-435a-bca1-04669731ed8f",
       "bathambientcolorbeachceiling"
     ]
   },
@@ -84,5 +88,8 @@
   },
   "enabling_state": {
     "value": "DISABLED"
+  },
+  "agent_config": {
+    "agent_class_id": "ff76a0a9-7977-435a-bca1-04669731ed8f"
   }
 }

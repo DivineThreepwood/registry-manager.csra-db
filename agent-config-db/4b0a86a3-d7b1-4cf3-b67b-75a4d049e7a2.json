@@ -1,11 +1,15 @@
 {
-  "id": "BathDimmerPowerStateSynchroniser",
+  "id": "4b0a86a3-d7b1-4cf3-b67b-75a4d049e7a2",
   "label": "BathDimmerPowerStateSynchroniser",
-  "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+  "type": "AGENT",
+  "placement_config": {
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+    "shape": {}
+  },
   "scope": {
     "component": [
       "home",
-      "",
+      "96aed98a-e9d4-402e-a4c4-b0655d448a21",
       "bathdimmerpowerstatesynchroniser"
     ]
   },
@@ -43,5 +47,8 @@
   },
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "agent_config": {
+    "agent_class_id": "96aed98a-e9d4-402e-a4c4-b0655d448a21"
   }
 }

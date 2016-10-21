@@ -1,0 +1,24 @@
+{
+  "id": "7fa744b1-7bf1-42d5-b7e6-d603e54418dd",
+  "label": "SoundScape",
+  "type": "APP",
+  "placement_config": {
+    "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "bath",
+      "app",
+      "soundscape"
+    ]
+  },
+  "meta_config": {},
+  "enabling_state": {
+    "value": "DISABLED"
+  },
+  "app_config": {
+    "app_class_id": "914ca20d-0d39-4efd-929b-ac8225c79b27"
+  }
+}

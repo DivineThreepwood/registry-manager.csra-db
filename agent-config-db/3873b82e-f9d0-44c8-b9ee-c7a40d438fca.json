@@ -1,11 +1,15 @@
 {
-  "id": "TableDimmerPowerStateSynchroniser",
+  "id": "3873b82e-f9d0-44c8-b9ee-c7a40d438fca",
   "label": "TableDimmerPowerStateSynchroniser",
-  "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+  "type": "AGENT",
+  "placement_config": {
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+    "shape": {}
+  },
   "scope": {
     "component": [
       "home",
-      "",
+      "96aed98a-e9d4-402e-a4c4-b0655d448a21",
       "tabledimmerpowerstatesynchroniser"
     ]
   },
@@ -35,5 +39,8 @@
   },
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "agent_config": {
+    "agent_class_id": "96aed98a-e9d4-402e-a4c4-b0655d448a21"
   }
 }
