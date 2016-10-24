@@ -1,0 +1,37 @@
+{
+  "id": "ab2bffe0-7ee0-4a5b-86d4-169d77e5fb3d",
+  "unit_template_config_id": "ASUS_90IW0122-B01UA_AUDIO_SOURCE_0",
+  "label": "asus0",
+  "unit_host_id": "5dd3fc5f-3282-4796-89a8-cbca57c129fa",
+  "type": "AUDIO_SOURCE",
+  "placement_config": {
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+    "transformation_frame_id": "asus0",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "audiosource",
+      "asus0"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "meta_config": {},
+  "enabling_state": {
+    "value": "DISABLED"
+  }
+}

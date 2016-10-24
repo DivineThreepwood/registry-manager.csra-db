@@ -1,18 +1,7 @@
 {
   "id": "77b12917-44fc-4c2d-851d-2115b0ba5a39",
   "label": "Kitchen Door",
-  "type": "DOOR",
-  "tile_id": [
-    "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-    "f0a71f71-1463-41e3-9c9a-25a02a536001"
-  ],
-  "scope": {
-    "component": [
-      "home",
-      "door",
-      "kitchen_door"
-    ]
-  },
+  "type": "CONNECTION",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
     "transformation_frame_id": "Kitchen_Door",
@@ -54,5 +43,22 @@
       ]
     }
   },
-  "meta_config": {}
+  "scope": {
+    "component": [
+      "home",
+      "connection",
+      "kitchen_door"
+    ]
+  },
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "connection_config": {
+    "type": "DOOR",
+    "tile_id": [
+      "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+      "f0a71f71-1463-41e3-9c9a-25a02a536001"
+    ]
+  }
 }

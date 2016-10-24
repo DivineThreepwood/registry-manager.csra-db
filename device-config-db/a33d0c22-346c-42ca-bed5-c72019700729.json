@@ -1,0 +1,55 @@
+{
+  "id": "a33d0c22-346c-42ca-bed5-c72019700729",
+  "label": "EntranceButtons",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+    "transformation_frame_id": "Wardrobe_EntranceButtons",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "wardrobe",
+      "device",
+      "entrancebuttons"
+    ]
+  },
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "433826759820000",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+      "timestamp": {
+        "time": 1440772899216
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "e40b8bbd-9e23-4288-9c15-05b8e90ca8e1",
+    "unit_id": [
+      "a721ee69-8a01-4567-982b-ee498be702cb",
+      "cb2d3e9f-e5a1-4950-b4d6-786be5eeef47",
+      "8db53c2d-2c98-4b0d-b0b0-2e0f0127741c",
+      "34084c5f-46bf-4e88-84f4-0110530f6e47",
+      "3e189be5-1e78-47dd-9507-b17b6b282e24",
+      "c88db10a-8d41-4091-a301-508f4fba70a1"
+    ]
+  }
+}

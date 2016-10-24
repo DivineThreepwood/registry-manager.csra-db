@@ -1,0 +1,63 @@
+{
+  "id": "3ed0b6c3-bfb0-423c-9c26-62211d3f94a0",
+  "unit_template_config_id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_2",
+  "label": "A4C3Consumption",
+  "unit_host_id": "854a7c07-0c36-45e2-82e1-95b13ce51b90",
+  "type": "POWER_CONSUMPTION_SENSOR",
+  "placement_config": {
+    "location_id": "eb89de19-36db-4f26-b8a5-a75df850892e",
+    "transformation_frame_id": "A4C3Consumption",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "hometheater",
+      "powerconsumptionsensor",
+      "a4c3consumption"
+    ]
+  },
+  "bound_to_unit_host": false,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "5/1/153"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Hager_TYA606E__home_living_hometheater__PowerConsumptionSensor__A4C3Consumption__PowerConsumptionStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "3ed0b6c3-bfb0-423c-9c26-62211d3f94a0",
+      "service_template": {
+        "type": "POWER_CONSUMPTION_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

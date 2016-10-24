@@ -1,0 +1,56 @@
+{
+  "id": "9a22c198-89fb-41b7-81d2-79c76737ac6f",
+  "label": "SLampRight1",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "transformation_frame_id": "Living_SLampRight1",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "device",
+      "slampright1"
+    ]
+  },
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "21"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "DISABLED"
+  },
+  "device_config": {
+    "serial_number": "AF3FBA",
+    "inventory_state": {
+      "value": "IN_STOCK",
+      "location_id": "Living",
+      "timestamp": {
+        "time": 1442493830531
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "6f661f5b-3906-452a-adb6-a4e5fb94eee4",
+    "unit_id": [
+      "1e40044f-3b9f-4e5c-ae65-f7a37a462a92"
+    ]
+  }
+}

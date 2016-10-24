@@ -1,0 +1,64 @@
+{
+  "id": "7e3043fb-b942-4bd0-9fe1-5b8ccadb6926",
+  "label": "Hallway",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+    "transformation_frame_id": "Hallway",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "wardrobe",
+      "device",
+      "hallway"
+    ]
+  },
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "30"
+      },
+      {
+        "key": "SENSOR_BOUNDINGBOX",
+        "value": "1.7,2.6,2.7,1.7"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "FMS008",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+      "timestamp": {
+        "time": 1440770563252
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "79e16e8f-7c8d-48ec-b59b-84ba75ed593b",
+    "unit_id": [
+      "6b631f75-febe-47ec-8ec1-a8234f0eb3e7",
+      "b4af10fe-115c-4b23-a6f7-5033071c1655",
+      "7c243a03-7d31-41a2-979d-da4c9418ff10",
+      "7dbfb6a5-83bd-4b97-ba97-00506142caa1",
+      "cb97582a-43fa-42bc-bcf1-4977cf090070"
+    ]
+  }
+}

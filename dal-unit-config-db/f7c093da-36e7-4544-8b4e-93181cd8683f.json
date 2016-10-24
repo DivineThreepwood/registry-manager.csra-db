@@ -1,0 +1,58 @@
+{
+  "id": "f7c093da-36e7-4544-8b4e-93181cd8683f",
+  "unit_template_config_id": "Homematic_Sec_SC_2_BATTERY_0",
+  "label": "LeftWindowReedSwitch",
+  "unit_host_id": "9420f93f-6236-44ff-ae31-2ce98e1db7e9",
+  "type": "BATTERY",
+  "placement_config": {
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "transformation_frame_id": "Living_LeftWindowReedSwitch",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "battery",
+      "leftwindowreedswitch"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Homematic_Sec_SC_2__home_living__Battery__LeftWindowReedSwitch__BatteryStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "f7c093da-36e7-4544-8b4e-93181cd8683f",
+      "service_template": {
+        "type": "BATTERY_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

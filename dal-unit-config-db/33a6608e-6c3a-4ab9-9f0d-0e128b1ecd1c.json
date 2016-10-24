@@ -1,0 +1,58 @@
+{
+  "id": "33a6608e-6c3a-4ab9-9f0d-0e128b1ecd1c",
+  "unit_template_config_id": "Homematic_Sec_SC_2_REED_CONTACT_0",
+  "label": "DoorReedSwitch",
+  "unit_host_id": "bca80cc4-e94e-4d5f-9fca-9276e74dead7",
+  "type": "REED_CONTACT",
+  "placement_config": {
+    "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+    "transformation_frame_id": "Bath_DoorReedSwitch",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "bath",
+      "reedcontact",
+      "doorreedswitch"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Homematic_Sec_SC_2__home_bath__ReedContact__DoorReedSwitch__ContactStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "33a6608e-6c3a-4ab9-9f0d-0e128b1ecd1c",
+      "service_template": {
+        "type": "CONTACT_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

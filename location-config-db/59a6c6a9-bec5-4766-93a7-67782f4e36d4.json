@@ -1,15 +1,7 @@
 {
   "id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
   "label": "Dining",
-  "type": "REGION",
-  "root": false,
-  "scope": {
-    "component": [
-      "home",
-      "living",
-      "dining"
-    ]
-  },
+  "type": "LOCATION",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
     "transformation_frame_id": "Dining",
@@ -51,5 +43,46 @@
       ]
     }
   },
-  "meta_config": {}
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "dining"
+    ]
+  },
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "location_config": {
+    "type": "REGION",
+    "root": false,
+    "unit_id": [
+      "ceb3d87c-9330-47d9-aea0-92c4cca06521",
+      "31b88fc4-67c2-4642-b2ed-cebae6196113",
+      "8e0dab39-f75b-44a3-926c-e2fadeeb5248",
+      "8f1086d6-4d17-445d-b8e3-4bb1ddfe6a48",
+      "cf8751b1-4844-4e62-869d-15a78f8299b2",
+      "646e0296-d189-4d31-b051-676979dcf1c3",
+      "1ac11115-0e83-4997-b698-fc0ffe17d81a",
+      "807f30a3-f9b6-424c-8c1c-9127f12a905c",
+      "755a002d-e85d-43d0-8b45-d8bd1cdeaedb",
+      "8a17706f-f479-46ab-bdeb-ad7ec59dfacc",
+      "c13ca448-1286-4e75-b852-e8e6c04a901f",
+      "045b1d5c-1109-43e6-b5f6-dcf2b0b2ffdc",
+      "2d47756b-c1d2-4e55-b4ce-99992988dab3",
+      "b59bd1f5-0775-478a-b722-a2edbebf1b80",
+      "65fcfdba-64bb-4d33-b37c-bbe7f6f807f3",
+      "7d47fffe-96b8-4e85-9465-ec2baa4284c3",
+      "335b96cd-b2a5-4066-8a20-1aae7bc60a18",
+      "fdaa2517-6e70-4d8f-836a-d33e21a3465b",
+      "066c67ae-1db4-4a05-9e87-3b123936ea22",
+      "cfbbd862-9923-4c7e-b5c7-161470df8092",
+      "5d6411d0-2b9b-4934-9421-00e624f2b032",
+      "6bc1da9d-7941-4a32-bb2e-100c93e3b6bd",
+      "5bd9c215-3baf-4567-baeb-890d8cf82873",
+      "685b5740-5f56-4419-b838-d7be07307bfa",
+      "f1ee3838-2c43-411a-8fc6-c93892b6f930"
+    ]
+  }
 }

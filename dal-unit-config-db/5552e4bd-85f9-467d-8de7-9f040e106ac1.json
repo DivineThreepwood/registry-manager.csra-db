@@ -1,0 +1,58 @@
+{
+  "id": "5552e4bd-85f9-467d-8de7-9f040e106ac1",
+  "unit_template_config_id": "Homematic_Sec_RHS_HANDLE_0",
+  "label": "WindowHandleSensor",
+  "unit_host_id": "9a7c521e-f436-4f62-8477-f71bb478ba8a",
+  "type": "HANDLE",
+  "placement_config": {
+    "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+    "transformation_frame_id": "Sports_WindowHandleSensor",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "sports",
+      "handle",
+      "windowhandlesensor"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Homematic_Sec_RHS__home_sports__Handle__WindowHandleSensor__HandleStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "5552e4bd-85f9-467d-8de7-9f040e106ac1",
+      "service_template": {
+        "type": "HANDLE_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

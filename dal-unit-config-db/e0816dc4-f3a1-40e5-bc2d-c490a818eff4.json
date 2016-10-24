@@ -1,0 +1,58 @@
+{
+  "id": "e0816dc4-f3a1-40e5-bc2d-c490a818eff4",
+  "unit_template_config_id": "Fibaro_FGMS-001_TAMPER_DETECTOR_0",
+  "label": "Interaction",
+  "unit_host_id": "80de8bfe-04a0-455a-94b8-f27b2ffabd16",
+  "type": "TAMPER_DETECTOR",
+  "placement_config": {
+    "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+    "transformation_frame_id": "Sports_Interaction",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "sports",
+      "tamperdetector",
+      "interaction"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Fibaro_MotionSensor__home_sports__TamperDetector__Interaction__TamperStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "e0816dc4-f3a1-40e5-bc2d-c490a818eff4",
+      "service_template": {
+        "type": "TAMPER_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

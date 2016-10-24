@@ -1,0 +1,58 @@
+{
+  "id": "fee13d9e-cdf3-442e-926e-a8a7eb6a6a41",
+  "unit_template_config_id": "Homematic_Sec_RHS_HANDLE_0",
+  "label": "LeftWindowHandleSensor",
+  "unit_host_id": "bed3f15f-9b3d-4533-9d3c-be91df819829",
+  "type": "HANDLE",
+  "placement_config": {
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "transformation_frame_id": "Living_LeftWindowHandleSensor",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "handle",
+      "leftwindowhandlesensor"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Homematic_Sec_RHS__home_living__Handle__LeftWindowHandleSensor__HandleStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "fee13d9e-cdf3-442e-926e-a8a7eb6a6a41",
+      "service_template": {
+        "type": "HANDLE_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

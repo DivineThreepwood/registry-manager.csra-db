@@ -1,0 +1,35 @@
+{
+  "id": "ded150ba-9708-46d0-aff6-9195d571e713",
+  "unit_template_config_id": "ASUS_90IW0122-B01UA_VIDEO_DEPTH_SOURCE_0",
+  "label": "asus1",
+  "unit_host_id": "7c5e6371-339f-4efb-bfef-29b171cface2",
+  "type": "VIDEO_DEPTH_SOURCE",
+  "placement_config": {
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+    "transformation_frame_id": "asus1",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "videodepthsource",
+      "asus1"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "enabling_state": {
+    "value": "DISABLED"
+  }
+}

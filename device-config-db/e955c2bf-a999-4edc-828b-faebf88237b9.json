@@ -1,0 +1,64 @@
+{
+  "id": "e955c2bf-a999-4edc-828b-faebf88237b9",
+  "label": "Entrance",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+    "transformation_frame_id": "Entrance",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "bath",
+      "device",
+      "entrance"
+    ]
+  },
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "37"
+      },
+      {
+        "key": "SENSOR_BOUNDINGBOX",
+        "value": "2.5,4.3,1.5,1.4"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "FMS004",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+      "timestamp": {
+        "time": 1440770289427
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "79e16e8f-7c8d-48ec-b59b-84ba75ed593b",
+    "unit_id": [
+      "d289248e-38f7-4b07-bb9d-c0b657800ae5",
+      "c14c2888-08a2-4341-846e-668924214e70",
+      "c52dc8c3-7d2f-40df-9420-4428415f413d",
+      "6c1f2d2c-4f04-4e11-8e07-748ded4a9f5e",
+      "a3a4e044-f1fe-41d0-92c3-1f8418fef77f"
+    ]
+  }
+}

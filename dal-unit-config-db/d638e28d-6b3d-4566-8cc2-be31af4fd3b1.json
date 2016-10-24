@@ -1,0 +1,58 @@
+{
+  "id": "d638e28d-6b3d-4566-8cc2-be31af4fd3b1",
+  "unit_template_config_id": "Fibaro_FGMS-001_BATTERY_0",
+  "label": "Global",
+  "unit_host_id": "720a0d91-3653-46b4-acce-2f02432c25e6",
+  "type": "BATTERY",
+  "placement_config": {
+    "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+    "transformation_frame_id": "Bath_Global",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "bath",
+      "battery",
+      "global"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Fibaro_MotionSensor__home_bath__Battery__Global__BatteryStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "d638e28d-6b3d-4566-8cc2-be31af4fd3b1",
+      "service_template": {
+        "type": "BATTERY_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

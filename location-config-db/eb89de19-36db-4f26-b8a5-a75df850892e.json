@@ -1,15 +1,7 @@
 {
   "id": "eb89de19-36db-4f26-b8a5-a75df850892e",
   "label": "Hometheater",
-  "type": "REGION",
-  "root": false,
-  "scope": {
-    "component": [
-      "home",
-      "living",
-      "hometheater"
-    ]
-  },
+  "type": "LOCATION",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
     "transformation_frame_id": "Hometheater",
@@ -51,5 +43,29 @@
       ]
     }
   },
-  "meta_config": {}
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "hometheater"
+    ]
+  },
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "location_config": {
+    "type": "REGION",
+    "root": false,
+    "unit_id": [
+      "c572f2a4-db2a-4c49-992b-67b4ba5c0af1",
+      "7e249922-4762-4f6d-a2bc-d5a46220cd76",
+      "c825ecd6-c089-42c8-b86a-ccbb2575e07a",
+      "f5ba46d5-be90-4741-a30c-5f871e2211a9",
+      "9bad85b6-65dd-4c70-bb99-4d299e2a6cb4",
+      "faac891c-65d9-41b9-b20a-bf5e627bb275",
+      "3ed0b6c3-bfb0-423c-9c26-62211d3f94a0",
+      "b204233a-193e-4b25-b9dd-35adce505f50"
+    ]
+  }
 }

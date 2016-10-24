@@ -1,18 +1,7 @@
 {
   "id": "76f70d60-3a2e-491c-bd78-3b98dfb87202",
   "label": "Living Window Left",
-  "type": "WINDOW",
-  "tile_id": [
-    "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "9be1344a-41f1-406b-bdae-41bfd5368f13"
-  ],
-  "scope": {
-    "component": [
-      "home",
-      "window",
-      "living_window_left"
-    ]
-  },
+  "type": "CONNECTION",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
     "transformation_frame_id": "Living_Window_Left",
@@ -54,5 +43,22 @@
       ]
     }
   },
-  "meta_config": {}
+  "scope": {
+    "component": [
+      "home",
+      "connection",
+      "living_window_left"
+    ]
+  },
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "connection_config": {
+    "type": "WINDOW",
+    "tile_id": [
+      "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+      "9be1344a-41f1-406b-bdae-41bfd5368f13"
+    ]
+  }
 }

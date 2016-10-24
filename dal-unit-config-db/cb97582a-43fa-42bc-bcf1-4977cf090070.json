@@ -1,0 +1,76 @@
+{
+  "id": "cb97582a-43fa-42bc-bcf1-4977cf090070",
+  "unit_template_config_id": "Fibaro_FGMS-001_TEMPERATURE_SENSOR_0",
+  "label": "Hallway",
+  "unit_host_id": "7e3043fb-b942-4bd0-9fe1-5b8ccadb6926",
+  "type": "TEMPERATURE_SENSOR",
+  "placement_config": {
+    "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+    "transformation_frame_id": "Wardrobe_Hallway",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "wardrobe",
+      "temperaturesensor",
+      "hallway"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Fibaro_MotionSensor__home_wardrobe__TemperatureSensor__Hallway__TemperatureStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "cb97582a-43fa-42bc-bcf1-4977cf090070",
+      "service_template": {
+        "type": "TEMPERATURE_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Fibaro_MotionSensor__home_wardrobe__TemperatureSensor__Hallway__TemperatureAlarmStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "cb97582a-43fa-42bc-bcf1-4977cf090070",
+      "service_template": {
+        "type": "TEMPERATURE_ALARM_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      }
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

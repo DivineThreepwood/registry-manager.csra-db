@@ -1,0 +1,153 @@
+{
+  "id": "efa33b37-8809-4483-beed-480fd9b50446",
+  "unit_template_config_id": "Philips_KV01-18Y_COLORABLE_LIGHT_0",
+  "label": "Global_3",
+  "unit_host_id": "a6f938ea-32ec-4477-a792-1f9e0ce1d88b",
+  "type": "COLORABLE_LIGHT",
+  "placement_config": {
+    "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+    "transformation_frame_id": "Global_3",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "bath",
+      "colorablelight",
+      "global_3"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Philips_Hue_GU10__home_bath__ColorableLight__Global_3__BrightnessStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "efa33b37-8809-4483-beed-480fd9b50446",
+      "service_template": {
+        "type": "BRIGHTNESS_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Philips_Hue_GU10__home_bath__ColorableLight__Global_3__BrightnessStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "efa33b37-8809-4483-beed-480fd9b50446",
+      "service_template": {
+        "type": "BRIGHTNESS_STATE_SERVICE",
+        "pattern": "OPERATION"
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Philips_Hue_GU10__home_bath__ColorableLight__Global_3__ColorStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "efa33b37-8809-4483-beed-480fd9b50446",
+      "service_template": {
+        "type": "COLOR_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Philips_Hue_GU10__home_bath__ColorableLight__Global_3__ColorStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "efa33b37-8809-4483-beed-480fd9b50446",
+      "service_template": {
+        "type": "COLOR_STATE_SERVICE",
+        "pattern": "OPERATION"
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Philips_Hue_GU10__home_bath__ColorableLight__Global_3__PowerStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "efa33b37-8809-4483-beed-480fd9b50446",
+      "service_template": {
+        "type": "POWER_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Philips_Hue_GU10__home_bath__ColorableLight__Global_3__PowerStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "efa33b37-8809-4483-beed-480fd9b50446",
+      "service_template": {
+        "type": "POWER_STATE_SERVICE",
+        "pattern": "OPERATION"
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

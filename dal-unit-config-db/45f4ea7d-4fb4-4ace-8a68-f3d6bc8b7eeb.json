@@ -1,0 +1,63 @@
+{
+  "id": "45f4ea7d-4fb4-4ace-8a68-f3d6bc8b7eeb",
+  "unit_template_config_id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_5",
+  "label": "A8C6Consumption",
+  "unit_host_id": "83b5e449-ea59-45cd-9425-e54e134ce7bc",
+  "type": "POWER_CONSUMPTION_SENSOR",
+  "placement_config": {
+    "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+    "transformation_frame_id": "A8C6Consumption",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "sports",
+      "powerconsumptionsensor",
+      "a8c6consumption"
+    ]
+  },
+  "bound_to_unit_host": false,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "5/1/180"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Hager_TYA606E__home_sports__PowerConsumptionSensor__A8C6Consumption__PowerConsumptionStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "45f4ea7d-4fb4-4ace-8a68-f3d6bc8b7eeb",
+      "service_template": {
+        "type": "POWER_CONSUMPTION_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

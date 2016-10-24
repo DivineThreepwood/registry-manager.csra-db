@@ -1,0 +1,64 @@
+{
+  "id": "f79b60b8-168c-4bf7-9b1b-87fb0c999224",
+  "label": "Table",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "transformation_frame_id": "Table",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "device",
+      "table"
+    ]
+  },
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "33"
+      },
+      {
+        "key": "SENSOR_BOUNDINGBOX",
+        "value": "3.4,0.0,1.6,1.8"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "FMS012",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+      "timestamp": {
+        "time": 1440770780917
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "79e16e8f-7c8d-48ec-b59b-84ba75ed593b",
+    "unit_id": [
+      "76ed8aec-fcc7-4e3b-a09b-f723b38ea5ab",
+      "26be053f-823c-4f78-b666-d020ad9b63e9",
+      "ce0cf493-3785-43c5-9069-3e8ff2ba640a",
+      "e800c2ca-a93c-401d-9310-07ee9d96e1aa",
+      "ff66debf-653f-45c5-b151-0f315999e053"
+    ]
+  }
+}

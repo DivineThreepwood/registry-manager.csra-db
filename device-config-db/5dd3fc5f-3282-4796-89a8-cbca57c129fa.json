@@ -1,0 +1,51 @@
+{
+  "id": "5dd3fc5f-3282-4796-89a8-cbca57c129fa",
+  "label": "asus0",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+    "transformation_frame_id": "asus0",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "device",
+      "asus0"
+    ]
+  },
+  "description": "Firmware updated! Installed version: 5.8.22",
+  "meta_config": {},
+  "enabling_state": {
+    "value": "DISABLED"
+  },
+  "device_config": {
+    "serial_number": "E3IWBDA34182",
+    "inventory_state": {
+      "value": "BORROWED",
+      "timestamp": {
+        "time": 1449590316755
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "3069a4e2-25c9-4873-bee2-43df7a77e44c",
+    "unit_id": [
+      "d1ca7bd9-5a4f-484b-b430-3cc8f3a6479b",
+      "c40128a6-3d28-4e16-a052-e9d5d41b41d3",
+      "ab2bffe0-7ee0-4a5b-86d4-169d77e5fb3d"
+    ]
+  }
+}

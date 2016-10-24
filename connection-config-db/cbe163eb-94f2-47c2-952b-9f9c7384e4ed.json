@@ -1,18 +1,7 @@
 {
   "id": "cbe163eb-94f2-47c2-952b-9f9c7384e4ed",
   "label": "Control Door",
-  "type": "DOOR",
-  "tile_id": [
-    "7ad72d61-e398-414b-9c5a-173242912ce6",
-    "511adfec-43ed-47f5-bd4d-28f46dc1b5a4"
-  ],
-  "scope": {
-    "component": [
-      "home",
-      "door",
-      "control_door"
-    ]
-  },
+  "type": "CONNECTION",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
     "transformation_frame_id": "Control_Door",
@@ -54,5 +43,22 @@
       ]
     }
   },
-  "meta_config": {}
+  "scope": {
+    "component": [
+      "home",
+      "connection",
+      "control_door"
+    ]
+  },
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "connection_config": {
+    "type": "DOOR",
+    "tile_id": [
+      "7ad72d61-e398-414b-9c5a-173242912ce6",
+      "511adfec-43ed-47f5-bd4d-28f46dc1b5a4"
+    ]
+  }
 }

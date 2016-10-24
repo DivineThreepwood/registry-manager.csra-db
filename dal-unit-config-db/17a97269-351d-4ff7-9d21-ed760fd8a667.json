@@ -1,0 +1,58 @@
+{
+  "id": "17a97269-351d-4ff7-9d21-ed760fd8a667",
+  "unit_template_config_id": "Homematic_Sec_SC_2_BATTERY_0",
+  "label": "DoorOpen",
+  "unit_host_id": "1779a5fa-1ba9-4cae-ad58-f92928128c07",
+  "type": "BATTERY",
+  "placement_config": {
+    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+    "transformation_frame_id": "Kitchen_DoorOpen",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "kitchen",
+      "battery",
+      "dooropen"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Homematic_Sec_SC_2__home_kitchen__Battery__DoorOpen__BatteryStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "17a97269-351d-4ff7-9d21-ed760fd8a667",
+      "service_template": {
+        "type": "BATTERY_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

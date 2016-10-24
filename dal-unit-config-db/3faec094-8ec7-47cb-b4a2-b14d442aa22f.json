@@ -1,0 +1,58 @@
+{
+  "id": "3faec094-8ec7-47cb-b4a2-b14d442aa22f",
+  "unit_template_config_id": "Homematic_Sec_SC_2_REED_CONTACT_0",
+  "label": "DoorOpen",
+  "unit_host_id": "1779a5fa-1ba9-4cae-ad58-f92928128c07",
+  "type": "REED_CONTACT",
+  "placement_config": {
+    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+    "transformation_frame_id": "DoorOpen",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "kitchen",
+      "reedcontact",
+      "dooropen"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Homematic_Sec_SC_2__home_kitchen__ReedContact__DoorOpen__ContactStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "3faec094-8ec7-47cb-b4a2-b14d442aa22f",
+      "service_template": {
+        "type": "CONTACT_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

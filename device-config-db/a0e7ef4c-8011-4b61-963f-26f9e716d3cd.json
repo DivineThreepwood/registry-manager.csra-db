@@ -1,0 +1,54 @@
+{
+  "id": "a0e7ef4c-8011-4b61-963f-26f9e716d3cd",
+  "label": "EntranceButtons",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+    "transformation_frame_id": "EntranceButtons",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "bath",
+      "device",
+      "entrancebuttons"
+    ]
+  },
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "431593932940000",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+      "timestamp": {
+        "time": 1449246977912
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "a34b128b-866d-48a5-8024-4982017492f9",
+    "unit_id": [
+      "82e170cc-7e71-44a2-97ee-29d693529250",
+      "541d4842-716a-4cee-97e2-8f1cb02f84be",
+      "d09c4086-89fc-4b22-9196-2d458bb9d500",
+      "4819dd50-5b6a-435e-b5f2-65326e0dde8b",
+      "e0f39112-17a1-48aa-b8b2-58bb79e92738"
+    ]
+  }
+}

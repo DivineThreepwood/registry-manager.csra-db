@@ -1,0 +1,50 @@
+{
+  "id": "9420f93f-6236-44ff-ae31-2ce98e1db7e9",
+  "label": "LeftWindowReedSwitch",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "transformation_frame_id": "Living_LeftWindowReedSwitch",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "device",
+      "leftwindowreedswitch"
+    ]
+  },
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "LEQ0174373",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+      "timestamp": {
+        "time": 1441014000281
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "569ff797-09f1-4437-8404-391017776796",
+    "unit_id": [
+      "f7c093da-36e7-4544-8b4e-93181cd8683f",
+      "0b8a1503-7cc5-4e03-9ed5-9d3efed43832"
+    ]
+  }
+}

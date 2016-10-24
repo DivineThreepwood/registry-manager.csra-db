@@ -1,0 +1,58 @@
+{
+  "id": "000ced45-5b25-4f73-bcb5-135913a8d9bb",
+  "unit_template_config_id": "Fibaro_FGMS-001_MOTION_DETECTOR_0",
+  "label": "Global",
+  "unit_host_id": "720a0d91-3653-46b4-acce-2f02432c25e6",
+  "type": "MOTION_DETECTOR",
+  "placement_config": {
+    "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+    "transformation_frame_id": "Bath_Global",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "bath",
+      "motiondetector",
+      "global"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Fibaro_MotionSensor__home_bath__MotionDetector__Global__MotionStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "000ced45-5b25-4f73-bcb5-135913a8d9bb",
+      "service_template": {
+        "type": "MOTION_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

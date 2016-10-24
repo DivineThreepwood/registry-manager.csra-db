@@ -1,0 +1,56 @@
+{
+  "id": "6bc1da9d-7941-4a32-bb2e-100c93e3b6bd",
+  "label": "ControlBelowButtons",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
+    "transformation_frame_id": "ControlBelowButtons",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "dining",
+      "device",
+      "controlbelowbuttons"
+    ]
+  },
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "433819550860000",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
+      "timestamp": {
+        "time": 1440772632159
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "e40b8bbd-9e23-4288-9c15-05b8e90ca8e1",
+    "unit_id": [
+      "335b96cd-b2a5-4066-8a20-1aae7bc60a18",
+      "65fcfdba-64bb-4d33-b37c-bbe7f6f807f3",
+      "807f30a3-f9b6-424c-8c1c-9127f12a905c",
+      "685b5740-5f56-4419-b838-d7be07307bfa",
+      "7d47fffe-96b8-4e85-9465-ec2baa4284c3",
+      "b59bd1f5-0775-478a-b722-a2edbebf1b80"
+    ]
+  }
+}

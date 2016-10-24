@@ -1,0 +1,58 @@
+{
+  "id": "f08a94ae-79e3-4de7-a0b6-f167cdeb49b0",
+  "unit_template_config_id": "Homematic_Sec_SC_2_REED_CONTACT_0",
+  "label": "RightWindowReedSwitch",
+  "unit_host_id": "2f9003c9-e87d-425e-9601-4ae6360e2d7a",
+  "type": "REED_CONTACT",
+  "placement_config": {
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "transformation_frame_id": "RightWindowReedSwitch",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "reedcontact",
+      "rightwindowreedswitch"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Homematic_Sec_SC_2__home_living__ReedContact__RightWindowReedSwitch__ContactStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "f08a94ae-79e3-4de7-a0b6-f167cdeb49b0",
+      "service_template": {
+        "type": "CONTACT_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

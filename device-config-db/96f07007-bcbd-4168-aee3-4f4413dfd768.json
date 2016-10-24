@@ -1,0 +1,56 @@
+{
+  "id": "96f07007-bcbd-4168-aee3-4f4413dfd768",
+  "label": "LoungeLamp",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "transformation_frame_id": "LoungeLamp",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "device",
+      "loungelamp"
+    ]
+  },
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "5"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "5D2FC2",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+      "timestamp": {
+        "time": 1441014803255
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "6f661f5b-3906-452a-adb6-a4e5fb94eee4",
+    "unit_id": [
+      "47e63f5a-ff30-4b0d-905a-815f94aa8b50"
+    ]
+  }
+}

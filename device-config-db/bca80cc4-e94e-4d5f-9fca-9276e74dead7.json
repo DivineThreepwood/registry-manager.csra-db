@@ -1,0 +1,50 @@
+{
+  "id": "bca80cc4-e94e-4d5f-9fca-9276e74dead7",
+  "label": "DoorReedSwitch",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+    "transformation_frame_id": "DoorReedSwitch",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "bath",
+      "device",
+      "doorreedswitch"
+    ]
+  },
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "LEQ0174341",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+      "timestamp": {
+        "time": 1441013960569
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "569ff797-09f1-4437-8404-391017776796",
+    "unit_id": [
+      "22295f56-ed80-4a36-8933-bf81d7d92eb7",
+      "33a6608e-6c3a-4ab9-9f0d-0e128b1ecd1c"
+    ]
+  }
+}

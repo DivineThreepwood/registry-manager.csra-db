@@ -1,0 +1,36 @@
+{
+  "id": "e476bdfa-c206-40fb-aa28-a1d42dcc6fec",
+  "unit_template_config_id": "ASUS_90IW0122-B01UA_VIDEO_RGB_SOURCE_0",
+  "label": "ASUS_90IW0122-B01UA_E3IWBDA33551",
+  "unit_host_id": "d8b33eec-41ff-4a4e-b3a6-af8ed44750ad",
+  "type": "VIDEO_RGB_SOURCE",
+  "placement_config": {
+    "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+    "transformation_frame_id": "Wardrobe_ASUS_90IW0122-B01UA_E3IWBDA33551",
+    "position": {
+      "translation": {
+        "x": 0.62,
+        "y": 1.0,
+        "z": 2.7
+      },
+      "rotation": {
+        "qw": 6.123233995736766E-17,
+        "qx": 0.0,
+        "qy": 1.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "wardrobe",
+      "videorgbsource",
+      "asus_90iw0122-b01ua_e3iwbda33551"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

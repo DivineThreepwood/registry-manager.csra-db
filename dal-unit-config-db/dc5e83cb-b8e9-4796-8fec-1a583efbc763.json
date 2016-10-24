@@ -1,0 +1,87 @@
+{
+  "id": "dc5e83cb-b8e9-4796-8fec-1a583efbc763",
+  "unit_template_config_id": "Hager_TYA628C_ROLLER_SHUTTER_2",
+  "label": "LeftInside",
+  "unit_host_id": "f3857eeb-c0c5-466c-afe6-c7693212c96f",
+  "type": "ROLLER_SHUTTER",
+  "placement_config": {
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "transformation_frame_id": "LeftInside",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "rollershutter",
+      "leftinside"
+    ]
+  },
+  "description": "The left inside rollershutter of the living room.",
+  "bound_to_unit_host": false,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "2/2/0, 2/2/1, 2/2/2+2/2/3"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Hager_TYA628C__home_living__RollerShutter__LeftInside__BlindStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "dc5e83cb-b8e9-4796-8fec-1a583efbc763",
+      "service_template": {
+        "type": "BLIND_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "2/2/0, 2/2/1, 2/2/2+2/2/3"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Hager_TYA628C__home_living__RollerShutter__LeftInside__BlindStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "dc5e83cb-b8e9-4796-8fec-1a583efbc763",
+      "service_template": {
+        "type": "BLIND_STATE_SERVICE",
+        "pattern": "OPERATION"
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "3dfcddc2-3fa4-4f2d-824b-bc46934775d1",
+  "label": "ASUS_90IW0122-B01UA_E3IWBDA33883",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "transformation_frame_id": "ASUS_90IW0122-B01UA_E3IWBDA33883",
+    "position": {
+      "translation": {
+        "x": 1.17,
+        "y": 1.26,
+        "z": 0.47
+      },
+      "rotation": {
+        "qw": -1.0,
+        "qx": 6.123233995736766E-17,
+        "qy": -6.123233995736766E-17,
+        "qz": 6.123233995736766E-17
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "device",
+      "asus_90iw0122-b01ua_e3iwbda33883"
+    ]
+  },
+  "description": "LIVING4 @ BKK",
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "E3IWBDA33883",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+      "timestamp": {
+        "time": 1441984471480
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "3069a4e2-25c9-4873-bee2-43df7a77e44c",
+    "unit_id": [
+      "0622bbf2-b6b0-4349-9506-e8f61136d9f4",
+      "4643aa2d-36eb-40c5-8c7f-ad96caaa2ce1",
+      "6649d120-54ea-4979-98be-5aca38ea4392"
+    ]
+  }
+}

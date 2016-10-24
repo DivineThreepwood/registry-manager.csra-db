@@ -1,15 +1,7 @@
 {
   "id": "cd696027-fb4f-497c-af30-144859a462da",
   "label": "Shower",
-  "type": "REGION",
-  "root": false,
-  "scope": {
-    "component": [
-      "home",
-      "bath",
-      "shower"
-    ]
-  },
+  "type": "LOCATION",
   "placement_config": {
     "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
     "transformation_frame_id": "Shower",
@@ -51,8 +43,22 @@
       ]
     }
   },
+  "scope": {
+    "component": [
+      "home",
+      "bath",
+      "shower"
+    ]
+  },
   "meta_config": {},
-  "tile_config": {
-    "meta_config": {}
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "location_config": {
+    "type": "REGION",
+    "root": false,
+    "tile_config": {
+      "meta_config": {}
+    }
   }
 }

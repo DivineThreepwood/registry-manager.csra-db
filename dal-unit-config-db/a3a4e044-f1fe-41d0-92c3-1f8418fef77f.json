@@ -1,0 +1,76 @@
+{
+  "id": "a3a4e044-f1fe-41d0-92c3-1f8418fef77f",
+  "unit_template_config_id": "Fibaro_FGMS-001_TEMPERATURE_SENSOR_0",
+  "label": "Entrance",
+  "unit_host_id": "e955c2bf-a999-4edc-828b-faebf88237b9",
+  "type": "TEMPERATURE_SENSOR",
+  "placement_config": {
+    "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+    "transformation_frame_id": "Bath_Entrance",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "bath",
+      "temperaturesensor",
+      "entrance"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Fibaro_MotionSensor__home_bath__TemperatureSensor__Entrance__TemperatureStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "a3a4e044-f1fe-41d0-92c3-1f8418fef77f",
+      "service_template": {
+        "type": "TEMPERATURE_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Fibaro_MotionSensor__home_bath__TemperatureSensor__Entrance__TemperatureAlarmStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "a3a4e044-f1fe-41d0-92c3-1f8418fef77f",
+      "service_template": {
+        "type": "TEMPERATURE_ALARM_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      }
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

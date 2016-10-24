@@ -1,0 +1,49 @@
+{
+  "id": "7c5e6371-339f-4efb-bfef-29b171cface2",
+  "label": "asus1",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+    "transformation_frame_id": "asus1",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "device",
+      "asus1"
+    ]
+  },
+  "meta_config": {},
+  "enabling_state": {
+    "value": "DISABLED"
+  },
+  "device_config": {
+    "serial_number": "E3IWBDA34148",
+    "inventory_state": {
+      "value": "IN_STOCK",
+      "timestamp": {
+        "time": 1446476200366
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "3069a4e2-25c9-4873-bee2-43df7a77e44c",
+    "unit_id": [
+      "ed399374-f1da-4411-8671-29dd992ddb8b",
+      "ded150ba-9708-46d0-aff6-9195d571e713",
+      "6066fbc3-4b76-475b-8a56-635ef7dd2c13"
+    ]
+  }
+}

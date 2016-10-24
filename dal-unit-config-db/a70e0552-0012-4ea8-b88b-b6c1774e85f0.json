@@ -1,0 +1,145 @@
+{
+  "id": "a70e0552-0012-4ea8-b88b-b6c1774e85f0",
+  "unit_template_config_id": "Hager_TYA663A_DIMMER_0",
+  "label": "EntranceDimmer",
+  "unit_host_id": "f34a0c05-df62-41a8-a282-774390baa660",
+  "type": "DIMMER",
+  "placement_config": {
+    "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+    "transformation_frame_id": "EntranceDimmer",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "wardrobe",
+      "dimmer",
+      "entrancedimmer"
+    ]
+  },
+  "bound_to_unit_host": false,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "1/0/5+1/0/12"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Hager_TYA663A__home_wardrobe__Dimmer__EntranceDimmer__IntensityStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "a70e0552-0012-4ea8-b88b-b6c1774e85f0",
+      "service_template": {
+        "type": "INTENSITY_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {
+        "entry": [
+          {
+            "key": "OPENHAB_BINDING_CONFIG",
+            "value": "1/0/5+1/0/12"
+          }
+        ]
+      }
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "1/0/5+1/0/12"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Hager_TYA663A__home_wardrobe__Dimmer__EntranceDimmer__IntensityStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "a70e0552-0012-4ea8-b88b-b6c1774e85f0",
+      "service_template": {
+        "type": "INTENSITY_STATE_SERVICE",
+        "pattern": "OPERATION"
+      },
+      "meta_config": {
+        "entry": [
+          {
+            "key": "OPENHAB_BINDING_CONFIG",
+            "value": "1/0/5+1/0/12"
+          }
+        ]
+      }
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "1/0/1+1/0/11"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Hager_TYA663A__home_wardrobe__Dimmer__EntranceDimmer__PowerStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "a70e0552-0012-4ea8-b88b-b6c1774e85f0",
+      "service_template": {
+        "type": "POWER_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "1/0/1+1/0/11"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Hager_TYA663A__home_wardrobe__Dimmer__EntranceDimmer__PowerStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "a70e0552-0012-4ea8-b88b-b6c1774e85f0",
+      "service_template": {
+        "type": "POWER_STATE_SERVICE",
+        "pattern": "OPERATION"
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

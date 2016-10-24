@@ -1,0 +1,62 @@
+{
+  "id": "928147d9-91b9-47ff-b952-14c300491c27",
+  "label": "Global",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+    "transformation_frame_id": "Global",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "kitchen",
+      "device",
+      "global"
+    ]
+  },
+  "description": "",
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "35"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "FMS009",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+      "timestamp": {
+        "time": 1440770614452
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "79e16e8f-7c8d-48ec-b59b-84ba75ed593b",
+    "unit_id": [
+      "063b5783-4576-4553-872d-3f5d4e17060d",
+      "61069abf-ebdc-4638-aebd-22ecbb66fe19",
+      "5a53e87c-207c-4214-92f9-709abd11e478",
+      "2e5602d8-67fd-402a-94e3-99ab9e4f3377",
+      "308037c0-6a75-4353-bbfc-6b77519955d7"
+    ]
+  }
+}

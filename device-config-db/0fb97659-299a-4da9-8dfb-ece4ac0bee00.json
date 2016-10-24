@@ -1,0 +1,56 @@
+{
+  "id": "0fb97659-299a-4da9-8dfb-ece4ac0bee00",
+  "label": "Hallway_0",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+    "transformation_frame_id": "Hallway_0",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "wardrobe",
+      "device",
+      "hallway_0"
+    ]
+  },
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "1"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "089783",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+      "timestamp": {
+        "time": 1441014391960
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "6f661f5b-3906-452a-adb6-a4e5fb94eee4",
+    "unit_id": [
+      "51a38d12-35d5-49a4-9f73-35822c8aeb89"
+    ]
+  }
+}

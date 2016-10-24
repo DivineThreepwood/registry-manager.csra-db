@@ -1,0 +1,58 @@
+{
+  "id": "053019e3-51aa-48be-bd16-b16da6e99519",
+  "unit_template_config_id": "Fibaro_FGMS-001_BRIGHTNESS_SENSOR_0",
+  "label": "Entrance",
+  "unit_host_id": "88f06270-9441-4afc-8a8d-54a7ab4aaef6",
+  "type": "BRIGHTNESS_SENSOR",
+  "placement_config": {
+    "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+    "transformation_frame_id": "Wardrobe_Entrance",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "wardrobe",
+      "brightnesssensor",
+      "entrance"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Fibaro_MotionSensor__home_wardrobe__BrightnessSensor__Entrance__BrightnessStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "053019e3-51aa-48be-bd16-b16da6e99519",
+      "service_template": {
+        "type": "BRIGHTNESS_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

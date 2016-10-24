@@ -1,0 +1,54 @@
+{
+  "id": "d9e491b1-27b3-4736-9ce0-c52476e827d3",
+  "label": "HallwayBelowButtons",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+    "transformation_frame_id": "HallwayBelowButtons",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "wardrobe",
+      "device",
+      "hallwaybelowbuttons"
+    ]
+  },
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "443231836300000",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+      "timestamp": {
+        "time": 1440774631545
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "e40b8bbd-9e23-4288-9c15-05b8e90ca8e1",
+    "unit_id": [
+      "14846cc1-047d-44ab-aab1-ad67f095b528",
+      "a2502f9d-cfef-404d-80c9-5da210e07242",
+      "95ba2da1-ffb9-4bcc-b533-df9365ebb759",
+      "d4ce3cdc-f5d8-4862-ad5f-e02cebd9d964",
+      "a60d810a-1045-4d64-846a-d0a1afb11d07",
+      "00eed9c5-bfb1-4664-91b6-f8234399504d"
+    ]
+  }
+}

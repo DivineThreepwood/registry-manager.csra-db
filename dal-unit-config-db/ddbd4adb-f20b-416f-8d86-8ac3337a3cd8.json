@@ -1,0 +1,58 @@
+{
+  "id": "ddbd4adb-f20b-416f-8d86-8ac3337a3cd8",
+  "unit_template_config_id": "Fibaro_FGMS-001_TAMPER_DETECTOR_0",
+  "label": "Couch",
+  "unit_host_id": "3b0602c8-6524-4d08-b8c5-5d4f2e97b91b",
+  "type": "TAMPER_DETECTOR",
+  "placement_config": {
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "transformation_frame_id": "Living_Couch",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "tamperdetector",
+      "couch"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Fibaro_MotionSensor__home_living__TamperDetector__Couch__TamperStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "ddbd4adb-f20b-416f-8d86-8ac3337a3cd8",
+      "service_template": {
+        "type": "TAMPER_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

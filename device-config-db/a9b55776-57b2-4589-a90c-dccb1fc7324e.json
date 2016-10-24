@@ -1,0 +1,55 @@
+{
+  "id": "a9b55776-57b2-4589-a90c-dccb1fc7324e",
+  "label": "DoorButtons",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+    "transformation_frame_id": "DoorButtons",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "kitchen",
+      "device",
+      "doorbuttons"
+    ]
+  },
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "439232811660000",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+      "timestamp": {
+        "time": 1440773979205
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "e40b8bbd-9e23-4288-9c15-05b8e90ca8e1",
+    "unit_id": [
+      "161d752e-4adc-42e0-88f1-9f54be5665e9",
+      "2fe2dc58-3c1e-4ded-a27c-695d24621216",
+      "15d2471e-d226-474a-9382-5d70a543ca99",
+      "3831e7cc-5fa7-4e38-9434-6db4b4197400",
+      "4f602ace-928a-4d0b-8853-d0bbe4d3fc74",
+      "c82b515d-7b9f-4a66-8f89-77af9cbd3c71"
+    ]
+  }
+}

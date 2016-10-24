@@ -1,0 +1,50 @@
+{
+  "id": "bed3f15f-9b3d-4533-9d3c-be91df819829",
+  "label": "LeftWindowHandleSensor",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "transformation_frame_id": "LeftWindowHandleSensor",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "device",
+      "leftwindowhandlesensor"
+    ]
+  },
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "KEQ0551308",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+      "timestamp": {
+        "time": 1441013547105
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "afee3bdb-873c-4bd3-bbb1-c918091bef85",
+    "unit_id": [
+      "c3b419cb-ced9-4a04-ac87-8c43314b646a",
+      "fee13d9e-cdf3-442e-926e-a8a7eb6a6a41"
+    ]
+  }
+}

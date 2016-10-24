@@ -1,0 +1,62 @@
+{
+  "id": "d4ce3cdc-f5d8-4862-ad5f-e02cebd9d964",
+  "unit_template_config_id": "Gira_429496730210000_BUTTON_3",
+  "label": "lightalloff",
+  "unit_host_id": "d9e491b1-27b3-4736-9ce0-c52476e827d3",
+  "type": "BUTTON",
+  "placement_config": {
+    "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+    "transformation_frame_id": "lightalloff",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "wardrobe",
+      "button",
+      "lightalloff"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "1/2/15"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_5133__home_wardrobe__Button__lightalloff__ButtonStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "d4ce3cdc-f5d8-4862-ad5f-e02cebd9d964",
+      "service_template": {
+        "type": "BUTTON_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

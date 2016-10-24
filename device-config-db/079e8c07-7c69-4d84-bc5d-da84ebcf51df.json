@@ -1,0 +1,52 @@
+{
+  "id": "079e8c07-7c69-4d84-bc5d-da84ebcf51df",
+  "label": "BorrowdUnit-1",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+    "transformation_frame_id": "BorrowdUnit-1",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "control",
+      "device",
+      "borrowdunit-1"
+    ]
+  },
+  "meta_config": {},
+  "enabling_state": {
+    "value": "DISABLED"
+  },
+  "device_config": {
+    "serial_number": "FMS017",
+    "inventory_state": {
+      "value": "BORROWED",
+      "timestamp": {
+        "time": 1443201942883
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "79e16e8f-7c8d-48ec-b59b-84ba75ed593b",
+    "unit_id": [
+      "f898b244-aebc-47d8-9502-b667c505e583",
+      "43379f1f-4406-4004-b1a9-689b2774a02e",
+      "49b1851b-8691-4ada-a98d-4ad361ec2e4d",
+      "c4c0c726-1e69-4c34-89bb-e41d2d6c1f9a",
+      "29593e74-096f-4b79-8810-c0cbcb5b67ae"
+    ]
+  }
+}

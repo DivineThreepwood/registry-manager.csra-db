@@ -1,0 +1,58 @@
+{
+  "id": "0773e288-9c36-47d3-ab6d-df4502281648",
+  "unit_template_config_id": "Fibaro_FGMS-001_BATTERY_0",
+  "label": "Media",
+  "unit_host_id": "12572989-0ba8-4a3e-b2cd-55ab483850cb",
+  "type": "BATTERY",
+  "placement_config": {
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "transformation_frame_id": "Living_Media",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "battery",
+      "media"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Fibaro_MotionSensor__home_living__Battery__Media__BatteryStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "0773e288-9c36-47d3-ab6d-df4502281648",
+      "service_template": {
+        "type": "BATTERY_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

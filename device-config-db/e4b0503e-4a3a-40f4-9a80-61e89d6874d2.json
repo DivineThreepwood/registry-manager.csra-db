@@ -1,0 +1,64 @@
+{
+  "id": "e4b0503e-4a3a-40f4-9a80-61e89d6874d2",
+  "label": "Entrance",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "9be1344a-41f1-406b-bdae-41bfd5368f13",
+    "transformation_frame_id": "Outdoor_Entrance",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "outdoor",
+      "device",
+      "entrance"
+    ]
+  },
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "44"
+      },
+      {
+        "key": "SENSOR_BOUNDINGBOX",
+        "value": "0.0,6.8,2.0,1.3"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "FMS016",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "9be1344a-41f1-406b-bdae-41bfd5368f13",
+      "timestamp": {
+        "time": 1440771175655
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "79e16e8f-7c8d-48ec-b59b-84ba75ed593b",
+    "unit_id": [
+      "02bd0cd8-5158-4d65-a716-b54cdd0812bb",
+      "ad29da51-426b-4816-a5fb-6f6f92465a99",
+      "c9f99e1c-7922-4fb6-9f8a-c1e30fd3fb2d",
+      "9408f3eb-a56d-49d5-abb1-4c380eb5c334",
+      "cba4f819-9318-464f-86f9-af354c92d2d1"
+    ]
+  }
+}

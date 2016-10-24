@@ -1,0 +1,52 @@
+{
+  "id": "a7be0014-ad96-41ee-aab9-1caf808a7806",
+  "label": "ASUS_90IW0122-B01UA_E3IWBDA34151",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+    "transformation_frame_id": "ASUS_90IW0122-B01UA_E3IWBDA34151",
+    "position": {
+      "translation": {
+        "x": 0.69,
+        "y": 2.7,
+        "z": 2.83
+      },
+      "rotation": {
+        "qw": 6.123233995736766E-17,
+        "qx": 6.123233995736766E-17,
+        "qy": 1.0,
+        "qz": 3.749399456654644E-33
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "wardrobe",
+      "device",
+      "asus_90iw0122-b01ua_e3iwbda34151"
+    ]
+  },
+  "description": "FLOOR2 @ IOM",
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "E3IWBDA34151",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+      "timestamp": {
+        "time": 1433776984190
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "3069a4e2-25c9-4873-bee2-43df7a77e44c",
+    "unit_id": [
+      "23027f66-4350-4d43-9d81-607fa3f3e6d2",
+      "7e878a47-f310-4d8f-a18c-223c4c4544e5",
+      "ac8e8bee-70e6-45b3-a0ca-51928312df5b"
+    ]
+  }
+}

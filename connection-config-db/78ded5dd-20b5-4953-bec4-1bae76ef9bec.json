@@ -1,18 +1,7 @@
 {
   "id": "78ded5dd-20b5-4953-bec4-1bae76ef9bec",
   "label": "Sports Door",
-  "type": "DOOR",
-  "tile_id": [
-    "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "7ad72d61-e398-414b-9c5a-173242912ce6"
-  ],
-  "scope": {
-    "component": [
-      "home",
-      "door",
-      "sports_door"
-    ]
-  },
+  "type": "CONNECTION",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
     "transformation_frame_id": "Sports_Door",
@@ -54,5 +43,22 @@
       ]
     }
   },
-  "meta_config": {}
+  "scope": {
+    "component": [
+      "home",
+      "connection",
+      "sports_door"
+    ]
+  },
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "connection_config": {
+    "type": "DOOR",
+    "tile_id": [
+      "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+      "7ad72d61-e398-414b-9c5a-173242912ce6"
+    ]
+  }
 }

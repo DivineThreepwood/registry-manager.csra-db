@@ -1,0 +1,153 @@
+{
+  "id": "bc243f30-f924-4348-b48e-2328aeb39da1",
+  "unit_template_config_id": "Philips_KV01-18U_COLORABLE_LIGHT_0",
+  "label": "LLampEntrance6",
+  "unit_host_id": "d2d7b31e-b69c-4c10-967e-a3ec2b8dd2e2",
+  "type": "COLORABLE_LIGHT",
+  "placement_config": {
+    "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+    "transformation_frame_id": "LLampEntrance6",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "sports",
+      "colorablelight",
+      "llampentrance6"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Philips_Hue_E27__home_sports__ColorableLight__LLampEntrance6__BrightnessStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "bc243f30-f924-4348-b48e-2328aeb39da1",
+      "service_template": {
+        "type": "BRIGHTNESS_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Philips_Hue_E27__home_sports__ColorableLight__LLampEntrance6__BrightnessStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "bc243f30-f924-4348-b48e-2328aeb39da1",
+      "service_template": {
+        "type": "BRIGHTNESS_STATE_SERVICE",
+        "pattern": "OPERATION"
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Philips_Hue_E27__home_sports__ColorableLight__LLampEntrance6__ColorStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "bc243f30-f924-4348-b48e-2328aeb39da1",
+      "service_template": {
+        "type": "COLOR_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Philips_Hue_E27__home_sports__ColorableLight__LLampEntrance6__ColorStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "bc243f30-f924-4348-b48e-2328aeb39da1",
+      "service_template": {
+        "type": "COLOR_STATE_SERVICE",
+        "pattern": "OPERATION"
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Philips_Hue_E27__home_sports__ColorableLight__LLampEntrance6__PowerStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "bc243f30-f924-4348-b48e-2328aeb39da1",
+      "service_template": {
+        "type": "POWER_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Philips_Hue_E27__home_sports__ColorableLight__LLampEntrance6__PowerStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "bc243f30-f924-4348-b48e-2328aeb39da1",
+      "service_template": {
+        "type": "POWER_STATE_SERVICE",
+        "pattern": "OPERATION"
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

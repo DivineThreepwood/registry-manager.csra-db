@@ -1,0 +1,63 @@
+{
+  "id": "519aabb7-4915-4b03-a831-33c6ed7a1214",
+  "unit_template_config_id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_3",
+  "label": "A9C4Consumption",
+  "unit_host_id": "a15d7759-c7e2-4868-8a55-c12b53c64962",
+  "type": "POWER_CONSUMPTION_SENSOR",
+  "placement_config": {
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "transformation_frame_id": "A9C4Consumption",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "powerconsumptionsensor",
+      "a9c4consumption"
+    ]
+  },
+  "description": "4K TV Display",
+  "bound_to_unit_host": false,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "5/1/184"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Hager_TYA606E__home_living__PowerConsumptionSensor__A9C4Consumption__PowerConsumptionStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "519aabb7-4915-4b03-a831-33c6ed7a1214",
+      "service_template": {
+        "type": "POWER_CONSUMPTION_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

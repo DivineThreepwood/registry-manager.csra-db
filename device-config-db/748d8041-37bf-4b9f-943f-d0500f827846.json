@@ -1,0 +1,52 @@
+{
+  "id": "748d8041-37bf-4b9f-943f-d0500f827846",
+  "label": "ASUS_90IW0122-B01UA_E3IWBDA33550",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+    "transformation_frame_id": "ASUS_90IW0122-B01UA_E3IWBDA33550",
+    "position": {
+      "translation": {
+        "x": 2.53,
+        "y": 1.39,
+        "z": 2.78
+      },
+      "rotation": {
+        "qw": 6.123233995736766E-17,
+        "qx": 1.0,
+        "qy": 3.749399456654644E-33,
+        "qz": 6.123233995736766E-17
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "sports",
+      "device",
+      "asus_90iw0122-b01ua_e3iwbda33550"
+    ]
+  },
+  "description": "SPORT2 @ ATL",
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "E3IWBDA33550",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+      "timestamp": {
+        "time": 1441983806915
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "3069a4e2-25c9-4873-bee2-43df7a77e44c",
+    "unit_id": [
+      "aec0a4d5-c8b9-4843-b13c-789d87434452",
+      "19910d7f-54e0-4b0a-99fb-d52f1e9d6a12",
+      "e8199b6a-96e5-453b-8dd7-f7193ea78728"
+    ]
+  }
+}

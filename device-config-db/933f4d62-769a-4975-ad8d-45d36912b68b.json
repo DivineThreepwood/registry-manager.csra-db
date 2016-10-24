@@ -1,0 +1,55 @@
+{
+  "id": "933f4d62-769a-4975-ad8d-45d36912b68b",
+  "label": "SportsDoorButtons",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "transformation_frame_id": "SportsDoorButtons",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "device",
+      "sportsdoorbuttons"
+    ]
+  },
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "433742218830000",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+      "timestamp": {
+        "time": 1440772203636
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "e40b8bbd-9e23-4288-9c15-05b8e90ca8e1",
+    "unit_id": [
+      "8651c4a2-0d24-4f1b-a8c6-6f93a438fe6a",
+      "61f05c52-ac8c-4336-b2ae-39b435050d27",
+      "58128d40-922e-4aa8-b413-2a5ec5bd5eae",
+      "d9ee6f58-d127-430b-9970-bf72b9261de4",
+      "2f192f3f-1b57-477a-9812-421631d227ba",
+      "0f50577f-3a2a-43c1-aaed-1741c1c597d0"
+    ]
+  }
+}

@@ -1,18 +1,7 @@
 {
   "id": "6d7e9b9b-c9b8-4fd5-b56b-ff5319a603be",
   "label": "Bathroom Door",
-  "type": "DOOR",
-  "tile_id": [
-    "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-    "f44ad3f8-25f4-44f9-adaa-384676b361a6"
-  ],
-  "scope": {
-    "component": [
-      "home",
-      "door",
-      "bathroom_door"
-    ]
-  },
+  "type": "CONNECTION",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
     "transformation_frame_id": "Bathroom_Door",
@@ -54,5 +43,22 @@
       ]
     }
   },
-  "meta_config": {}
+  "scope": {
+    "component": [
+      "home",
+      "connection",
+      "bathroom_door"
+    ]
+  },
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "connection_config": {
+    "type": "DOOR",
+    "tile_id": [
+      "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+      "f44ad3f8-25f4-44f9-adaa-384676b361a6"
+    ]
+  }
 }

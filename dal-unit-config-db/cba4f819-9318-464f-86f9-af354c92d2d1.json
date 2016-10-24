@@ -1,0 +1,76 @@
+{
+  "id": "cba4f819-9318-464f-86f9-af354c92d2d1",
+  "unit_template_config_id": "Fibaro_FGMS-001_TEMPERATURE_SENSOR_0",
+  "label": "Entrance",
+  "unit_host_id": "e4b0503e-4a3a-40f4-9a80-61e89d6874d2",
+  "type": "TEMPERATURE_SENSOR",
+  "placement_config": {
+    "location_id": "9be1344a-41f1-406b-bdae-41bfd5368f13",
+    "transformation_frame_id": "Entrance",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "outdoor",
+      "temperaturesensor",
+      "entrance"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Fibaro_MotionSensor__home_outdoor__TemperatureSensor__Entrance__TemperatureStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "cba4f819-9318-464f-86f9-af354c92d2d1",
+      "service_template": {
+        "type": "TEMPERATURE_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Fibaro_MotionSensor__home_outdoor__TemperatureSensor__Entrance__TemperatureAlarmStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "cba4f819-9318-464f-86f9-af354c92d2d1",
+      "service_template": {
+        "type": "TEMPERATURE_ALARM_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      }
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "6c1f2d2c-4f04-4e11-8e07-748ded4a9f5e",
+  "unit_template_config_id": "Fibaro_FGMS-001_TAMPER_DETECTOR_0",
+  "label": "Entrance",
+  "unit_host_id": "e955c2bf-a999-4edc-828b-faebf88237b9",
+  "type": "TAMPER_DETECTOR",
+  "placement_config": {
+    "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+    "transformation_frame_id": "Bath_Entrance",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "bath",
+      "tamperdetector",
+      "entrance"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Fibaro_MotionSensor__home_bath__TamperDetector__Entrance__TamperStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "6c1f2d2c-4f04-4e11-8e07-748ded4a9f5e",
+      "service_template": {
+        "type": "TAMPER_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

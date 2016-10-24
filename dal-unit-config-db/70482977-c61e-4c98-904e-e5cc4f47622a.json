@@ -1,0 +1,86 @@
+{
+  "id": "70482977-c61e-4c98-904e-e5cc4f47622a",
+  "unit_template_config_id": "Hager_TYA606E_POWER_SWITCH_4",
+  "label": "A6C5",
+  "unit_host_id": "f3c096c0-5a35-44a8-a167-54fda5d402b4",
+  "type": "POWER_SWITCH",
+  "placement_config": {
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "transformation_frame_id": "A6C5",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "powerswitch",
+      "a6c5"
+    ]
+  },
+  "description": "surface table",
+  "bound_to_unit_host": false,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "5/1/65+5/1/71"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Hager_TYA606E__home_living__PowerSwitch__A6C5__PowerStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "70482977-c61e-4c98-904e-e5cc4f47622a",
+      "service_template": {
+        "type": "POWER_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "5/1/65+5/1/71"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Hager_TYA606E__home_living__PowerSwitch__A6C5__PowerStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "70482977-c61e-4c98-904e-e5cc4f47622a",
+      "service_template": {
+        "type": "POWER_STATE_SERVICE",
+        "pattern": "OPERATION"
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

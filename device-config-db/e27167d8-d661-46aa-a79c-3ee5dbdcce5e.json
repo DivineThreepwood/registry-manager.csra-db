@@ -1,0 +1,50 @@
+{
+  "id": "e27167d8-d661-46aa-a79c-3ee5dbdcce5e",
+  "label": "ASUS_90IW0122-B01UA_E3IWBDA34180",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+    "transformation_frame_id": "ASUS_90IW0122-B01UA_E3IWBDA34180",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "device",
+      "asus_90iw0122-b01ua_e3iwbda34180"
+    ]
+  },
+  "meta_config": {},
+  "enabling_state": {
+    "value": "DISABLED"
+  },
+  "device_config": {
+    "serial_number": "E3IWBDA34180",
+    "inventory_state": {
+      "value": "BORROWED",
+      "timestamp": {
+        "time": 1453816251443
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "3069a4e2-25c9-4873-bee2-43df7a77e44c",
+    "unit_id": [
+      "cc34d988-8510-4dd6-96c5-5ba742204050",
+      "8e46e929-1f00-48a9-8456-e74bc3873ef3",
+      "240cf6f8-4feb-47f7-a00f-50dfad08610b"
+    ]
+  }
+}

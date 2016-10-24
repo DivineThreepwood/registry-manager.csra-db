@@ -1,0 +1,64 @@
+{
+  "id": "3b0602c8-6524-4d08-b8c5-5d4f2e97b91b",
+  "label": "Couch",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "transformation_frame_id": "Couch",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "device",
+      "couch"
+    ]
+  },
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "32"
+      },
+      {
+        "key": "SENSOR_BOUNDINGBOX",
+        "value": "5.6,0.0,2.6,2.3"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "FMS010",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+      "timestamp": {
+        "time": 1440770664237
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "79e16e8f-7c8d-48ec-b59b-84ba75ed593b",
+    "unit_id": [
+      "ad9c25be-c7d0-4e58-bf28-38acb4861efe",
+      "9bc4e2c2-1cf0-4f77-a32c-a786b2b81c43",
+      "a1a61734-f438-4bd4-9548-6b6f526941cb",
+      "ddbd4adb-f20b-416f-8d86-8ac3337a3cd8",
+      "c9c06850-a890-4ab9-b271-0285dece7991"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "3c70486a-f049-461f-8507-8a77eb3346a7",
+  "unit_template_config_id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_3",
+  "label": "A4C4Consumption",
+  "unit_host_id": "854a7c07-0c36-45e2-82e1-95b13ce51b90",
+  "type": "POWER_CONSUMPTION_SENSOR",
+  "placement_config": {
+    "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+    "transformation_frame_id": "A4C4Consumption",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "bath",
+      "powerconsumptionsensor",
+      "a4c4consumption"
+    ]
+  },
+  "bound_to_unit_host": false,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "5/1/154"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Hager_TYA606E__home_bath__PowerConsumptionSensor__A4C4Consumption__PowerConsumptionStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "3c70486a-f049-461f-8507-8a77eb3346a7",
+      "service_template": {
+        "type": "POWER_CONSUMPTION_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

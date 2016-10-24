@@ -1,14 +1,21 @@
 {
   "id": "ef171da7-95ad-4f16-979d-fa94daaf1031",
-  "first_name": "Marian",
-  "last_name": "Pohling",
-  "user_name": "Divine",
-  "meta_config": {},
+  "label": "Divine (Marian Pohling)",
+  "type": "USER",
   "scope": {
     "component": [
       "manager",
       "user",
       "divine"
     ]
+  },
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "user_config": {
+    "first_name": "Marian",
+    "last_name": "Pohling",
+    "user_name": "Divine"
   }
 }

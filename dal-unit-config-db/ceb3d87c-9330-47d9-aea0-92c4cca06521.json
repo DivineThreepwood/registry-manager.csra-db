@@ -1,0 +1,63 @@
+{
+  "id": "ceb3d87c-9330-47d9-aea0-92c4cca06521",
+  "unit_template_config_id": "Gira_429496730250000_BUTTON_1",
+  "label": "Button 2",
+  "unit_host_id": "31b88fc4-67c2-4642-b2ed-cebae6196113",
+  "type": "BUTTON",
+  "placement_config": {
+    "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
+    "transformation_frame_id": "Button_2",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "dining",
+      "button",
+      "button_2"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "2/3/1"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_5142__home_living_dining__Button__Button_2__ButtonStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "ceb3d87c-9330-47d9-aea0-92c4cca06521",
+      "service_template": {
+        "type": "BUTTON_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

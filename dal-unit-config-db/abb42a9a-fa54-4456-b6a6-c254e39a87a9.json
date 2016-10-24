@@ -1,0 +1,62 @@
+{
+  "id": "abb42a9a-fa54-4456-b6a6-c254e39a87a9",
+  "unit_template_config_id": "Gira_429496730250000_BUTTON_1",
+  "label": "Button 2",
+  "unit_host_id": "1fb25195-1d78-447f-a1aa-3fb1db979245",
+  "type": "BUTTON",
+  "placement_config": {
+    "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+    "transformation_frame_id": "Sports_Button_2",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "sports",
+      "button",
+      "button_2"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "4/3/1"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_5142__home_sports__Button__Button_2__ButtonStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "abb42a9a-fa54-4456-b6a6-c254e39a87a9",
+      "service_template": {
+        "type": "BUTTON_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "DISABLED"
+  }
+}

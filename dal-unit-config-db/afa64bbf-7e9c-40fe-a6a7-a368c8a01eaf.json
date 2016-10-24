@@ -1,0 +1,154 @@
+{
+  "id": "afa64bbf-7e9c-40fe-a6a7-a368c8a01eaf",
+  "unit_template_config_id": "Philips_KV01-18U_COLORABLE_LIGHT_0",
+  "label": "LLamp6",
+  "unit_host_id": "ccbfddb1-871f-4c13-91bb-044a260cd003",
+  "type": "COLORABLE_LIGHT",
+  "placement_config": {
+    "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+    "transformation_frame_id": "LLamp6",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "bath",
+      "colorablelight",
+      "llamp6"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Philips_Hue_E27__home_bath__ColorableLight__LLamp6__BrightnessStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "afa64bbf-7e9c-40fe-a6a7-a368c8a01eaf",
+      "service_template": {
+        "type": "BRIGHTNESS_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Philips_Hue_E27__home_bath__ColorableLight__LLamp6__BrightnessStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "afa64bbf-7e9c-40fe-a6a7-a368c8a01eaf",
+      "service_template": {
+        "type": "BRIGHTNESS_STATE_SERVICE",
+        "pattern": "OPERATION"
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Philips_Hue_E27__home_bath__ColorableLight__LLamp6__ColorStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "afa64bbf-7e9c-40fe-a6a7-a368c8a01eaf",
+      "service_template": {
+        "type": "COLOR_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Philips_Hue_E27__home_bath__ColorableLight__LLamp6__ColorStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "afa64bbf-7e9c-40fe-a6a7-a368c8a01eaf",
+      "service_template": {
+        "type": "COLOR_STATE_SERVICE",
+        "pattern": "OPERATION"
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Philips_Hue_E27__home_bath__ColorableLight__LLamp6__PowerStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "afa64bbf-7e9c-40fe-a6a7-a368c8a01eaf",
+      "service_template": {
+        "type": "POWER_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Philips_Hue_E27__home_bath__ColorableLight__LLamp6__PowerStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "afa64bbf-7e9c-40fe-a6a7-a368c8a01eaf",
+      "service_template": {
+        "type": "POWER_STATE_SERVICE",
+        "pattern": "OPERATION"
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

@@ -1,18 +1,7 @@
 {
   "id": "06c55103-3a11-44b7-aed8-569880365a44",
   "label": "Kitchen Passage",
-  "type": "PASSAGE",
-  "tile_id": [
-    "f0a71f71-1463-41e3-9c9a-25a02a536001",
-    "81b9efa4-2dc9-432e-b47c-1d73021ff0f3"
-  ],
-  "scope": {
-    "component": [
-      "home",
-      "passage",
-      "kitchen_passage"
-    ]
-  },
+  "type": "CONNECTION",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
     "transformation_frame_id": "Kitchen_Passage",
@@ -54,5 +43,22 @@
       ]
     }
   },
-  "meta_config": {}
+  "scope": {
+    "component": [
+      "home",
+      "connection",
+      "kitchen_passage"
+    ]
+  },
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "connection_config": {
+    "type": "PASSAGE",
+    "tile_id": [
+      "f0a71f71-1463-41e3-9c9a-25a02a536001",
+      "81b9efa4-2dc9-432e-b47c-1d73021ff0f3"
+    ]
+  }
 }

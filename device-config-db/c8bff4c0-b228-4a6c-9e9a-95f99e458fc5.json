@@ -1,0 +1,52 @@
+{
+  "id": "c8bff4c0-b228-4a6c-9e9a-95f99e458fc5",
+  "label": "ASUS_90IW0122-B01UA_E3IWBDA34154",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+    "transformation_frame_id": "ASUS_90IW0122-B01UA_E3IWBDA34154",
+    "position": {
+      "translation": {
+        "x": 1.36,
+        "y": 3.95,
+        "z": 2.81
+      },
+      "rotation": {
+        "qw": 6.123233995736766E-17,
+        "qx": 1.0,
+        "qy": -7.498798913309288E-33,
+        "qz": -4.591690043316935E-49
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "kitchen",
+      "device",
+      "asus_90iw0122-b01ua_e3iwbda34154"
+    ]
+  },
+  "description": "KITCHEN2 @ LXR",
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "E3IWBDA34154",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+      "timestamp": {
+        "time": 1441984376977
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "3069a4e2-25c9-4873-bee2-43df7a77e44c",
+    "unit_id": [
+      "234da3fa-634b-4d91-a5be-8f337a53b1ba",
+      "2855e6f8-5591-43ab-aadd-a36ffc85e1af",
+      "c761f3bc-8b95-4e91-a282-f0826185c90f"
+    ]
+  }
+}

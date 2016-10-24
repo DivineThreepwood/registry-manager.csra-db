@@ -1,0 +1,63 @@
+{
+  "id": "15d2471e-d226-474a-9382-5d70a543ca99",
+  "unit_template_config_id": "Gira_429496730210000_BUTTON_2",
+  "label": "DoorButton 3",
+  "unit_host_id": "a9b55776-57b2-4589-a90c-dccb1fc7324e",
+  "type": "BUTTON",
+  "placement_config": {
+    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+    "transformation_frame_id": "DoorButton_3",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "kitchen",
+      "button",
+      "doorbutton_3"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "0/2/2"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_5133__home_kitchen__Button__DoorButton_3__ButtonStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "15d2471e-d226-474a-9382-5d70a543ca99",
+      "service_template": {
+        "type": "BUTTON_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

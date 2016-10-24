@@ -1,0 +1,64 @@
+{
+  "id": "7467f751-5c1b-49b0-90d5-9e7e61f8962d",
+  "unit_template_config_id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_3",
+  "label": "A8C4Consumption",
+  "unit_host_id": "83b5e449-ea59-45cd-9425-e54e134ce7bc",
+  "type": "POWER_CONSUMPTION_SENSOR",
+  "placement_config": {
+    "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+    "transformation_frame_id": "A8C4Consumption",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "wardrobe",
+      "powerconsumptionsensor",
+      "a8c4consumption"
+    ]
+  },
+  "description": "iom",
+  "bound_to_unit_host": false,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "5/1/178"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Hager_TYA606E__home_wardrobe__PowerConsumptionSensor__A8C4Consumption__PowerConsumptionStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "7467f751-5c1b-49b0-90d5-9e7e61f8962d",
+      "service_template": {
+        "type": "POWER_CONSUMPTION_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "b099fa1e-a4b8-4665-b7cf-e01701161eb3",
+  "unit_template_config_id": "Fibaro_FGMS-001_TAMPER_DETECTOR_0",
+  "label": "TestUnit_1",
+  "unit_host_id": "d75030ec-82bd-42d7-9960-3ff2bbd21965",
+  "type": "TAMPER_DETECTOR",
+  "placement_config": {
+    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+    "transformation_frame_id": "Control_TestUnit_1",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "control",
+      "tamperdetector",
+      "testunit_1"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Fibaro_MotionSensor__home_control__TamperDetector__TestUnit_1__TamperStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "b099fa1e-a4b8-4665-b7cf-e01701161eb3",
+      "service_template": {
+        "type": "TAMPER_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

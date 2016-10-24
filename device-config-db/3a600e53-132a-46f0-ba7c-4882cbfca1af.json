@@ -1,0 +1,46 @@
+{
+  "id": "3a600e53-132a-46f0-ba7c-4882cbfca1af",
+  "label": "Intel_D4250WYKH_G6YK42002587",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "9be1344a-41f1-406b-bdae-41bfd5368f13",
+    "transformation_frame_id": "Intel_D4250WYKH_G6YK42002587",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "outdoor",
+      "device",
+      "intel_d4250wykh_g6yk42002587"
+    ]
+  },
+  "description": "\"Windows NUC\"",
+  "meta_config": {},
+  "enabling_state": {
+    "value": "DISABLED"
+  },
+  "device_config": {
+    "serial_number": "G6YK42002587",
+    "inventory_state": {
+      "value": "BORROWED",
+      "timestamp": {
+        "time": 1442512262253
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "135013fd-80f2-436f-8652-d7790a7fff38"
+  }
+}

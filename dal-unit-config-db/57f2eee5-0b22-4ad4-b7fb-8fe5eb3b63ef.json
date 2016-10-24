@@ -1,0 +1,65 @@
+{
+  "id": "57f2eee5-0b22-4ad4-b7fb-8fe5eb3b63ef",
+  "unit_template_config_id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_0",
+  "label": "A2C1Consumption",
+  "unit_host_id": "1d294e3c-a5c5-4223-810e-e6a886a40b45",
+  "type": "POWER_CONSUMPTION_SENSOR",
+  "placement_config": {
+    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+    "transformation_frame_id": "A2C1Consumption",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "kitchen",
+      "powerconsumptionsensor",
+      "a2c1consumption"
+    ]
+  },
+  "bound_to_unit_host": false,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Hager_TYA606E__home_kitchen__PowerConsumptionSensor__A2C1Consumption__PowerConsumptionStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "57f2eee5-0b22-4ad4-b7fb-8fe5eb3b63ef",
+      "service_template": {
+        "type": "POWER_CONSUMPTION_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {
+        "entry": [
+          {
+            "key": "OPENHAB_BINDING_CONFIG",
+            "value": "5/1/139"
+          }
+        ]
+      }
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

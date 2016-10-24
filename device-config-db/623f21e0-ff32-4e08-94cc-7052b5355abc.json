@@ -1,0 +1,56 @@
+{
+  "id": "623f21e0-ff32-4e08-94cc-7052b5355abc",
+  "label": "CouchLamp",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "transformation_frame_id": "CouchLamp",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "device",
+      "couchlamp"
+    ]
+  },
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "47"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "BCCDEE",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+      "timestamp": {
+        "time": 1441017180211
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "a9977a4a-ef9c-4280-81a3-79bf6b8069b4",
+    "unit_id": [
+      "66b5b93f-9f33-4d7d-8e61-5951a22f5483"
+    ]
+  }
+}

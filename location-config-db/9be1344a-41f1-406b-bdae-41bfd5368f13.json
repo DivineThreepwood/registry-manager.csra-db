@@ -1,14 +1,7 @@
 {
   "id": "9be1344a-41f1-406b-bdae-41bfd5368f13",
   "label": "Outdoor",
-  "type": "TILE",
-  "root": false,
-  "scope": {
-    "component": [
-      "home",
-      "outdoor"
-    ]
-  },
+  "type": "LOCATION",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
     "transformation_frame_id": "Outdoor",
@@ -27,9 +20,30 @@
     },
     "shape": {}
   },
+  "scope": {
+    "component": [
+      "home",
+      "outdoor"
+    ]
+  },
   "meta_config": {},
-  "tile_config": {
-    "type": "OUTDOOR",
-    "meta_config": {}
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "location_config": {
+    "type": "TILE",
+    "root": false,
+    "unit_id": [
+      "e4b0503e-4a3a-40f4-9a80-61e89d6874d2",
+      "ad29da51-426b-4816-a5fb-6f6f92465a99",
+      "c9f99e1c-7922-4fb6-9f8a-c1e30fd3fb2d",
+      "02bd0cd8-5158-4d65-a716-b54cdd0812bb",
+      "9408f3eb-a56d-49d5-abb1-4c380eb5c334",
+      "cba4f819-9318-464f-86f9-af354c92d2d1"
+    ],
+    "tile_config": {
+      "type": "OUTDOOR",
+      "meta_config": {}
+    }
   }
 }

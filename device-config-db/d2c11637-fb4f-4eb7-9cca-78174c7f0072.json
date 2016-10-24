@@ -1,0 +1,56 @@
+{
+  "id": "d2c11637-fb4f-4eb7-9cca-78174c7f0072",
+  "label": "LLampEntrance3",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+    "transformation_frame_id": "LLampEntrance3",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "sports",
+      "device",
+      "llampentrance3"
+    ]
+  },
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "31"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "4D5FEB",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+      "timestamp": {
+        "time": 1441014702903
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "6f661f5b-3906-452a-adb6-a4e5fb94eee4",
+    "unit_id": [
+      "de6a3463-5a99-4162-851c-b535a26b6de8"
+    ]
+  }
+}

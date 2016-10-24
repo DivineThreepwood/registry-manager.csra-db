@@ -1,0 +1,52 @@
+{
+  "id": "933c0e87-3852-466d-a153-b37c69e1b251",
+  "label": "ASUS_90IW0122-B01UA_E3IWBDA34146",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+    "transformation_frame_id": "ASUS_90IW0122-B01UA_E3IWBDA34146",
+    "position": {
+      "translation": {
+        "x": 1.39,
+        "y": 1.59,
+        "z": 2.8
+      },
+      "rotation": {
+        "qw": 6.123233995736766E-17,
+        "qx": 1.0,
+        "qy": 7.498798913309288E-33,
+        "qz": 4.591690043316935E-49
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "kitchen",
+      "device",
+      "asus_90iw0122-b01ua_e3iwbda34146"
+    ]
+  },
+  "description": "KITCHEN1 @ MPC",
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "E3IWBDA34146",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+      "timestamp": {
+        "time": 1441984269626
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "3069a4e2-25c9-4873-bee2-43df7a77e44c",
+    "unit_id": [
+      "04d1cf68-ecaf-4bb2-bcd7-587fe2623e11",
+      "00791bae-f295-4fcd-925d-fbc58148b2cb",
+      "1da22f8c-fb16-4b67-a9b5-e6e8381ed55e"
+    ]
+  }
+}

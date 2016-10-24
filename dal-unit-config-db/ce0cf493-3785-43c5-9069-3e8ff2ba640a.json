@@ -1,0 +1,58 @@
+{
+  "id": "ce0cf493-3785-43c5-9069-3e8ff2ba640a",
+  "unit_template_config_id": "Fibaro_FGMS-001_MOTION_DETECTOR_0",
+  "label": "Table",
+  "unit_host_id": "f79b60b8-168c-4bf7-9b1b-87fb0c999224",
+  "type": "MOTION_DETECTOR",
+  "placement_config": {
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "transformation_frame_id": "Table",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "motiondetector",
+      "table"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Fibaro_MotionSensor__home_living__MotionDetector__Table__MotionStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "ce0cf493-3785-43c5-9069-3e8ff2ba640a",
+      "service_template": {
+        "type": "MOTION_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

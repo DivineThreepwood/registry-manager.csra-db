@@ -1,18 +1,7 @@
 {
   "id": "461a85e4-a688-4cc9-b7ae-3634caf1169c",
   "label": "Control Window",
-  "type": "WINDOW",
-  "tile_id": [
-    "7ad72d61-e398-414b-9c5a-173242912ce6",
-    "511adfec-43ed-47f5-bd4d-28f46dc1b5a4"
-  ],
-  "scope": {
-    "component": [
-      "home",
-      "window",
-      "control_window"
-    ]
-  },
+  "type": "CONNECTION",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
     "transformation_frame_id": "Control_Window",
@@ -54,5 +43,22 @@
       ]
     }
   },
-  "meta_config": {}
+  "scope": {
+    "component": [
+      "home",
+      "connection",
+      "control_window"
+    ]
+  },
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "connection_config": {
+    "type": "WINDOW",
+    "tile_id": [
+      "7ad72d61-e398-414b-9c5a-173242912ce6",
+      "511adfec-43ed-47f5-bd4d-28f46dc1b5a4"
+    ]
+  }
 }

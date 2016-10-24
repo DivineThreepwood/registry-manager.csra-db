@@ -1,0 +1,57 @@
+{
+  "id": "dbfa27b8-d13c-4a3a-b489-85646dbce942",
+  "label": "507",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+    "transformation_frame_id": "507",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "kitchen",
+      "device",
+      "507"
+    ]
+  },
+  "meta_config": {
+    "entry": [
+      {
+        "key": "ADHOC_IGNORE",
+        "value": "true"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "Handle507",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+      "timestamp": {
+        "time": 1441020309396
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "7d6d56c2-9bd7-45cf-a3fd-26bce7804e0a",
+    "unit_id": [
+      "6a347801-c3e6-4893-a841-9b8d3577abfa"
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": "cf8751b1-4844-4e62-869d-15a78f8299b2",
+  "unit_template_config_id": "Hager_TYA606E_POWER_SWITCH_5",
+  "label": "A9C6",
+  "unit_host_id": "a15d7759-c7e2-4868-8a55-c12b53c64962",
+  "type": "POWER_SWITCH",
+  "placement_config": {
+    "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
+    "transformation_frame_id": "A9C6",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "dining",
+      "powerswitch",
+      "a9c6"
+    ]
+  },
+  "bound_to_unit_host": false,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Hager_TYA606E__home_living_dining__PowerSwitch__A9C6__PowerStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "cf8751b1-4844-4e62-869d-15a78f8299b2",
+      "service_template": {
+        "type": "POWER_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {
+        "entry": [
+          {
+            "key": "OPENHAB_BINDING_CONFIG",
+            "value": "5/1/102+5/1/108"
+          }
+        ]
+      }
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Hager_TYA606E__home_living_dining__PowerSwitch__A9C6__PowerStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "cf8751b1-4844-4e62-869d-15a78f8299b2",
+      "service_template": {
+        "type": "POWER_STATE_SERVICE",
+        "pattern": "OPERATION"
+      },
+      "meta_config": {
+        "entry": [
+          {
+            "key": "OPENHAB_BINDING_CONFIG",
+            "value": "5/1/102+5/1/108"
+          }
+        ]
+      }
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

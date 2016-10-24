@@ -1,0 +1,87 @@
+{
+  "id": "d4b37376-9283-482e-9fff-e941a0aa31dd",
+  "unit_template_config_id": "Hager_TYA628C_ROLLER_SHUTTER_7",
+  "label": "RightOutside",
+  "unit_host_id": "f3857eeb-c0c5-466c-afe6-c7693212c96f",
+  "type": "ROLLER_SHUTTER",
+  "placement_config": {
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "transformation_frame_id": "RightOutside",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "rollershutter",
+      "rightoutside"
+    ]
+  },
+  "description": "The right outside rollershutter of the living room.",
+  "bound_to_unit_host": false,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "2/2/20, 2/2/21, 2/2/22+2/2/23"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Hager_TYA628C__home_living__RollerShutter__RightOutside__BlindStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "d4b37376-9283-482e-9fff-e941a0aa31dd",
+      "service_template": {
+        "type": "BLIND_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "2/2/20, 2/2/21, 2/2/22+2/2/23"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Hager_TYA628C__home_living__RollerShutter__RightOutside__BlindStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "d4b37376-9283-482e-9fff-e941a0aa31dd",
+      "service_template": {
+        "type": "BLIND_STATE_SERVICE",
+        "pattern": "OPERATION"
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

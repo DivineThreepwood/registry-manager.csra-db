@@ -1,0 +1,50 @@
+{
+  "id": "01841d35-68b0-46ee-8248-f21fb7e464c3",
+  "label": "WindowReedSwitch",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+    "transformation_frame_id": "WindowReedSwitch",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "sports",
+      "device",
+      "windowreedswitch"
+    ]
+  },
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "LEQ0173497",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+      "timestamp": {
+        "time": 1441013772678
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "569ff797-09f1-4437-8404-391017776796",
+    "unit_id": [
+      "3f37ba81-6e95-4a27-ae75-2ef08797e62e",
+      "6f6823e9-bdbb-4731-87c6-eae2c792cd22"
+    ]
+  }
+}

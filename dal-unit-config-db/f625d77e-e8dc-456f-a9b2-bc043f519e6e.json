@@ -1,0 +1,87 @@
+{
+  "id": "f625d77e-e8dc-456f-a9b2-bc043f519e6e",
+  "unit_template_config_id": "Hager_TYA628C_ROLLER_SHUTTER_0",
+  "label": "Inside",
+  "unit_host_id": "f3857eeb-c0c5-466c-afe6-c7693212c96f",
+  "type": "ROLLER_SHUTTER",
+  "placement_config": {
+    "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+    "transformation_frame_id": "Inside",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "sports",
+      "rollershutter",
+      "inside"
+    ]
+  },
+  "description": "The inside rollershutter of the sports room.",
+  "bound_to_unit_host": false,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "4/2/0, 4/2/1, 4/2/2+4/2/3"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Hager_TYA628C__home_sports__RollerShutter__Inside__BlindStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "f625d77e-e8dc-456f-a9b2-bc043f519e6e",
+      "service_template": {
+        "type": "BLIND_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "4/2/0, 4/2/1, 4/2/2+4/2/3"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Hager_TYA628C__home_sports__RollerShutter__Inside__BlindStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "f625d77e-e8dc-456f-a9b2-bc043f519e6e",
+      "service_template": {
+        "type": "BLIND_STATE_SERVICE",
+        "pattern": "OPERATION"
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

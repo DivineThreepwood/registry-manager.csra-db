@@ -1,0 +1,60 @@
+{
+  "id": "a15d7759-c7e2-4868-8a55-c12b53c64962",
+  "label": "PowerActuator9",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+    "transformation_frame_id": "PowerActuator9",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "control",
+      "device",
+      "poweractuator9"
+    ]
+  },
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "397293269430000",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+      "timestamp": {
+        "time": 1440778245978
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "2ae5b02e-ff9e-444d-86a7-f1167d3a815e",
+    "unit_id": [
+      "19e0eed7-cf85-4e0d-9f79-31e35bb3f285",
+      "a9d8473e-4515-42f3-822b-f298a1502d2b",
+      "60dddb91-6031-4900-998f-9e55a4dc2b80",
+      "1a5b8b10-ecab-4ea4-a78a-7d3284415548",
+      "40f9c7af-837c-4503-ac98-84db4f85d3cf",
+      "ffccaef2-b2a7-4e63-8f21-f9c03a8fa916",
+      "8910a5c3-b3b8-4225-91aa-2d58eae27ee2",
+      "519aabb7-4915-4b03-a831-33c6ed7a1214",
+      "207ba3b7-29d5-489d-a44c-8798b8115018",
+      "56eb0d45-4975-4315-9424-340047d9ce5e",
+      "cf8751b1-4844-4e62-869d-15a78f8299b2",
+      "cfbbd862-9923-4c7e-b5c7-161470df8092"
+    ]
+  }
+}

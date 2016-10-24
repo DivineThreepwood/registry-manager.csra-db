@@ -1,0 +1,63 @@
+{
+  "id": "2f192f3f-1b57-477a-9812-421631d227ba",
+  "unit_template_config_id": "Gira_429496730210000_BUTTON_4",
+  "label": "LoungeLight",
+  "unit_host_id": "933f4d62-769a-4975-ad8d-45d36912b68b",
+  "type": "BUTTON",
+  "placement_config": {
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "transformation_frame_id": "LoungeLight",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "button",
+      "loungelight"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "2/0/20"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_5133__home_living__Button__LoungeLight__ButtonStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "2f192f3f-1b57-477a-9812-421631d227ba",
+      "service_template": {
+        "type": "BUTTON_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

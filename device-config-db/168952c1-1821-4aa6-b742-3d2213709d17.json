@@ -1,0 +1,51 @@
+{
+  "id": "168952c1-1821-4aa6-b742-3d2213709d17",
+  "label": "DimmActuator1",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+    "transformation_frame_id": "DimmActuator1",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "control",
+      "device",
+      "dimmactuator1"
+    ]
+  },
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "397289802490000",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+      "timestamp": {
+        "time": 1441012859722
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "22a869e9-de2f-4e85-9503-5e5cacd39309",
+    "unit_id": [
+      "1c667ff0-8c5f-48d2-b467-9669c30c4578",
+      "9b27299f-522f-4b62-854a-187d3909d5a9",
+      "dccc86dc-f764-4602-8ad4-945bf6851581"
+    ]
+  }
+}

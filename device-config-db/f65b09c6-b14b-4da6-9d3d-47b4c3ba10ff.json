@@ -1,0 +1,51 @@
+{
+  "id": "f65b09c6-b14b-4da6-9d3d-47b4c3ba10ff",
+  "label": "FlobiCam",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+    "transformation_frame_id": "FlobiCam",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "kitchen",
+      "device",
+      "flobicam"
+    ]
+  },
+  "description": "The face detection cam of the kitchen flobi instance.",
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "151A4FC0",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+      "timestamp": {
+        "time": 1449766569842
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "3a7d9289-ddb9-4de7-8cdf-a1781e787201",
+    "unit_id": [
+      "ac20b83e-e2db-49ec-84c1-5b336943bf51"
+    ]
+  }
+}

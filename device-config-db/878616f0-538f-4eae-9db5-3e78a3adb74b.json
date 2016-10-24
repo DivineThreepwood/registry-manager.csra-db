@@ -1,0 +1,47 @@
+{
+  "id": "878616f0-538f-4eae-9db5-3e78a3adb74b",
+  "label": "StudTestLamp",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+    "transformation_frame_id": "StudTestLamp",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "device",
+      "studtestlamp"
+    ]
+  },
+  "meta_config": {},
+  "enabling_state": {
+    "value": "DISABLED"
+  },
+  "device_config": {
+    "serial_number": "FE544F",
+    "inventory_state": {
+      "value": "IN_STOCK",
+      "timestamp": {
+        "time": 1445609543043
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "6f661f5b-3906-452a-adb6-a4e5fb94eee4",
+    "unit_id": [
+      "844a5b35-4b9c-4db2-9d22-4842db77bc95"
+    ]
+  }
+}

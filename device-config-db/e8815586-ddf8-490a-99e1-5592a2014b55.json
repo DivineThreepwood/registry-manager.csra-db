@@ -1,0 +1,55 @@
+{
+  "id": "e8815586-ddf8-490a-99e1-5592a2014b55",
+  "label": "PathwayBelowButtons",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+    "transformation_frame_id": "PathwayBelowButtons",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "sports",
+      "device",
+      "pathwaybelowbuttons"
+    ]
+  },
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "443438274700000",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+      "timestamp": {
+        "time": 1440775049019
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "e40b8bbd-9e23-4288-9c15-05b8e90ca8e1",
+    "unit_id": [
+      "916bfdf8-51db-4b0e-a2a6-dba15837b28a",
+      "379449e0-4ee4-4eb0-842b-2e05ba4e68ec",
+      "aacc027c-ee25-4c7b-aba6-bd6109dcb6e0",
+      "30c7dabd-c82d-4d4d-ab21-f19075979f57",
+      "f1e12c87-8072-47f9-a71f-658fafe85056",
+      "8a38a631-9ced-4b38-97b7-680b5db36adb"
+    ]
+  }
+}

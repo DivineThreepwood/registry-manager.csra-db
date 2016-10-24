@@ -1,0 +1,64 @@
+{
+  "id": "12572989-0ba8-4a3e-b2cd-55ab483850cb",
+  "label": "Media",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "transformation_frame_id": "Media",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "device",
+      "media"
+    ]
+  },
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "31"
+      },
+      {
+        "key": "SENSOR_BOUNDINGBOX",
+        "value": "5.6,2.9,2.6,1.2"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "FMS011",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+      "timestamp": {
+        "time": 1440770729277
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "79e16e8f-7c8d-48ec-b59b-84ba75ed593b",
+    "unit_id": [
+      "0773e288-9c36-47d3-ab6d-df4502281648",
+      "deebbd1a-4db5-4125-84c9-b25c56e945fa",
+      "f1f18c3b-bacb-48a2-be77-30aa03f9be84",
+      "daf24096-6420-43f2-b289-f2605acbdcbb",
+      "b4978623-f8f5-4724-90db-243494223b6f"
+    ]
+  }
+}

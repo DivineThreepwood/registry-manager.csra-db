@@ -1,0 +1,52 @@
+{
+  "id": "aac2ded7-3860-413f-b28b-854f54e76c92",
+  "label": "ASUS_90IW0122-B01UA_E3IWBDA33878",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+    "transformation_frame_id": "ASUS_90IW0122-B01UA_E3IWBDA33878",
+    "position": {
+      "translation": {
+        "x": 1.5,
+        "y": 1.35,
+        "z": 2.78
+      },
+      "rotation": {
+        "qw": 6.123233995736766E-17,
+        "qx": 1.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "sports",
+      "device",
+      "asus_90iw0122-b01ua_e3iwbda33878"
+    ]
+  },
+  "description": "SPORT1 @ DXB",
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "E3IWBDA33878",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+      "timestamp": {
+        "time": 1441982505473
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "3069a4e2-25c9-4873-bee2-43df7a77e44c",
+    "unit_id": [
+      "d26af27e-81d6-4659-8c8e-a4ae6256e44c",
+      "1f8b8261-a598-4950-b5c6-17d2819def20",
+      "8efa5936-b891-4f9a-9e2c-e7f4afa5341e"
+    ]
+  }
+}

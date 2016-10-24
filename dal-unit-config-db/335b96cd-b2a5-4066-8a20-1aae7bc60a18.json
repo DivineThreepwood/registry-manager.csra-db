@@ -1,0 +1,64 @@
+{
+  "id": "335b96cd-b2a5-4066-8a20-1aae7bc60a18",
+  "unit_template_config_id": "Gira_429496730210000_BUTTON_0",
+  "label": "RadioOn",
+  "unit_host_id": "6bc1da9d-7941-4a32-bb2e-100c93e3b6bd",
+  "type": "BUTTON",
+  "placement_config": {
+    "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
+    "transformation_frame_id": "RadioOn",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "dining",
+      "button",
+      "radioon"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "0/0/6"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_5133__home_living_dining__Button__RadioOn__ButtonStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "335b96cd-b2a5-4066-8a20-1aae7bc60a18",
+      "service_template": {
+        "type": "BUTTON_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

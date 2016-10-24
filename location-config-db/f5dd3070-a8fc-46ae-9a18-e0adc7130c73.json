@@ -1,15 +1,7 @@
 {
   "id": "f5dd3070-a8fc-46ae-9a18-e0adc7130c73",
   "label": "Basin",
-  "type": "REGION",
-  "root": false,
-  "scope": {
-    "component": [
-      "home",
-      "bath",
-      "basin"
-    ]
-  },
+  "type": "LOCATION",
   "placement_config": {
     "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
     "transformation_frame_id": "Basin",
@@ -51,8 +43,22 @@
       ]
     }
   },
+  "scope": {
+    "component": [
+      "home",
+      "bath",
+      "basin"
+    ]
+  },
   "meta_config": {},
-  "tile_config": {
-    "meta_config": {}
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "location_config": {
+    "type": "REGION",
+    "root": false,
+    "tile_config": {
+      "meta_config": {}
+    }
   }
 }

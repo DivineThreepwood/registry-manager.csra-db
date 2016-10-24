@@ -1,0 +1,53 @@
+{
+  "id": "1fb25195-1d78-447f-a1aa-3fb1db979245",
+  "label": "PathwayButtons1",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+    "transformation_frame_id": "PathwayButtons1",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "sports",
+      "device",
+      "pathwaybuttons1"
+    ]
+  },
+  "meta_config": {},
+  "enabling_state": {
+    "value": "DISABLED"
+  },
+  "device_config": {
+    "serial_number": "431652915340000",
+    "inventory_state": {
+      "value": "IN_STOCK",
+      "location_id": "Sports",
+      "timestamp": {
+        "time": 1441903329584
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "a34b128b-866d-48a5-8024-4982017492f9",
+    "unit_id": [
+      "8571a265-c3c6-474a-a6e1-91456396e46f",
+      "aae84619-dd2b-4f98-97f0-0722e0fc7445",
+      "abb42a9a-fa54-4456-b6a6-c254e39a87a9",
+      "64b0bb4d-0f88-4b1d-9e4a-6b2dad7a8022",
+      "d01ca6db-1a56-46ed-8d44-0629fcf5e4cf"
+    ]
+  }
+}

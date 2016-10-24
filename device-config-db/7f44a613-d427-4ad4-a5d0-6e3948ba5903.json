@@ -1,0 +1,56 @@
+{
+  "id": "7f44a613-d427-4ad4-a5d0-6e3948ba5903",
+  "label": "LLamp3",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+    "transformation_frame_id": "LLamp3",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "bath",
+      "device",
+      "llamp3"
+    ]
+  },
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "37"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "DISABLED"
+  },
+  "device_config": {
+    "serial_number": "397A39",
+    "inventory_state": {
+      "value": "IN_STOCK",
+      "location_id": "Bath",
+      "timestamp": {
+        "time": 1442493619135
+      },
+      "owner_id": ""
+    },
+    "device_class_id": "6f661f5b-3906-452a-adb6-a4e5fb94eee4",
+    "unit_id": [
+      "ec3c5b11-a915-49fa-ae54-787c2fa006c9"
+    ]
+  }
+}

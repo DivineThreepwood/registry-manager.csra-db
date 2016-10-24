@@ -1,0 +1,58 @@
+{
+  "id": "d45e9c08-5f84-4e22-9a65-e288c21a5f02",
+  "unit_template_config_id": "Homematic_Sec_RHS_BATTERY_0",
+  "label": "RightWindowHandleSensor",
+  "unit_host_id": "f263f1ff-b50d-4ac7-b6c1-67e43665a59d",
+  "type": "BATTERY",
+  "placement_config": {
+    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+    "transformation_frame_id": "Control_RightWindowHandleSensor",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "control",
+      "battery",
+      "rightwindowhandlesensor"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Homematic_Sec_RHS__home_control__Battery__RightWindowHandleSensor__BatteryStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "d45e9c08-5f84-4e22-9a65-e288c21a5f02",
+      "service_template": {
+        "type": "BATTERY_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

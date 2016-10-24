@@ -1,17 +1,7 @@
 {
   "id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
   "label": "Wardrobe",
-  "type": "TILE",
-  "root": false,
-  "child_id": [
-    "cff20d86-c7e8-4d12-87e1-ebc67c7e0c93"
-  ],
-  "scope": {
-    "component": [
-      "home",
-      "wardrobe"
-    ]
-  },
+  "type": "LOCATION",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
     "transformation_frame_id": "Wardrobe",
@@ -73,9 +63,81 @@
       ]
     }
   },
+  "scope": {
+    "component": [
+      "home",
+      "wardrobe"
+    ]
+  },
   "meta_config": {},
-  "tile_config": {
-    "type": "INDOOR",
-    "meta_config": {}
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "location_config": {
+    "type": "TILE",
+    "root": false,
+    "child_id": [
+      "cff20d86-c7e8-4d12-87e1-ebc67c7e0c93"
+    ],
+    "unit_id": [
+      "00eed9c5-bfb1-4664-91b6-f8234399504d",
+      "a33d0c22-346c-42ca-bed5-c72019700729",
+      "0d1e337f-7793-4c1b-bd54-e37befbddfe7",
+      "95ba2da1-ffb9-4bcc-b533-df9365ebb759",
+      "ae8242cc-63cf-4fd9-a31a-4304d52504b2",
+      "9b6a783a-fb57-4237-be45-b2477d83da9d",
+      "7c243a03-7d31-41a2-979d-da4c9418ff10",
+      "d4ce3cdc-f5d8-4862-ad5f-e02cebd9d964",
+      "8db53c2d-2c98-4b0d-b0b0-2e0f0127741c",
+      "68f6544b-d805-4bf4-bc51-45e344ed830d",
+      "7dbfb6a5-83bd-4b97-ba97-00506142caa1",
+      "d8b33eec-41ff-4a4e-b3a6-af8ed44750ad",
+      "23027f66-4350-4d43-9d81-607fa3f3e6d2",
+      "03e2302e-8879-4989-b305-211ebd127cc8",
+      "f870b339-76c8-4d29-bada-abb04f75956d",
+      "7467f751-5c1b-49b0-90d5-9e7e61f8962d",
+      "c0a82127-ab4f-4c75-9f61-96a2a208bf7a",
+      "14846cc1-047d-44ab-aab1-ad67f095b528",
+      "cb97582a-43fa-42bc-bcf1-4977cf090070",
+      "34084c5f-46bf-4e88-84f4-0110530f6e47",
+      "a7be0014-ad96-41ee-aab9-1caf808a7806",
+      "250c65fe-ba19-4fbc-a0e5-a98b8b3f6b4a",
+      "228917d8-f347-4aa2-a7f1-4971c0498dbc",
+      "a2502f9d-cfef-404d-80c9-5da210e07242",
+      "c8ccd1db-5689-4ce7-b6e9-913ca88c0329",
+      "7e878a47-f310-4d8f-a18c-223c4c4544e5",
+      "ac8e8bee-70e6-45b3-a0ca-51928312df5b",
+      "d0493f5e-872a-465c-8e4b-2ab1160be28e",
+      "d82aed75-e75a-4c40-a0b6-67a612204dc2",
+      "d9e491b1-27b3-4736-9ce0-c52476e827d3",
+      "e476bdfa-c206-40fb-aa28-a1d42dcc6fec",
+      "e4b90f9a-923a-4300-80a5-e2e2aa10347d",
+      "acb2a103-1c5c-4023-96d5-c88b8a9a042c",
+      "9c687911-19e2-48bf-8344-cc49062e3980",
+      "6e589084-a3a5-4789-af7a-28925e28eeb6",
+      "a60d810a-1045-4d64-846a-d0a1afb11d07",
+      "c88db10a-8d41-4091-a301-508f4fba70a1",
+      "e645b98d-a0b0-46b9-a07f-8061336fd394",
+      "88f06270-9441-4afc-8a8d-54a7ab4aaef6",
+      "3e189be5-1e78-47dd-9507-b17b6b282e24",
+      "0fb97659-299a-4da9-8dfb-ece4ac0bee00",
+      "c3d8b73e-0990-4d53-9fea-9cac0973378d",
+      "cb2d3e9f-e5a1-4950-b4d6-786be5eeef47",
+      "51a38d12-35d5-49a4-9f73-35822c8aeb89",
+      "b4af10fe-115c-4b23-a6f7-5033071c1655",
+      "7e3043fb-b942-4bd0-9fe1-5b8ccadb6926",
+      "72f220fd-5b35-4979-8b3b-0ccabe4d98a3",
+      "a721ee69-8a01-4567-982b-ee498be702cb",
+      "a70e0552-0012-4ea8-b88b-b6c1774e85f0",
+      "053019e3-51aa-48be-bd16-b16da6e99519",
+      "6673d527-ae60-492f-bb43-85d00b700238",
+      "6b631f75-febe-47ec-8ec1-a8234f0eb3e7",
+      "ff517e8c-7446-40f5-aa3e-adc78326a450",
+      "b0daa651-4556-4970-b6be-c8c0b8d33caa"
+    ],
+    "tile_config": {
+      "type": "INDOOR",
+      "meta_config": {}
+    }
   }
 }

@@ -1,0 +1,58 @@
+{
+  "id": "6f6823e9-bdbb-4731-87c6-eae2c792cd22",
+  "unit_template_config_id": "Homematic_Sec_SC_2_REED_CONTACT_0",
+  "label": "WindowReedSwitch",
+  "unit_host_id": "01841d35-68b0-46ee-8248-f21fb7e464c3",
+  "type": "REED_CONTACT",
+  "placement_config": {
+    "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+    "transformation_frame_id": "Sports_WindowReedSwitch",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "sports",
+      "reedcontact",
+      "windowreedswitch"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Homematic_Sec_SC_2__home_sports__ReedContact__WindowReedSwitch__ContactStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "6f6823e9-bdbb-4731-87c6-eae2c792cd22",
+      "service_template": {
+        "type": "CONTACT_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}
