@@ -18,11 +18,11 @@
     "entry": [
       {
         "key": "SOURCE",
-        "value": "/home/wardrobe/dimmer/pathwaydimmer/"
+        "value": "b0daa651-4556-4970-b6be-c8c0b8d33caa"
       },
       {
         "key": "TARGET_1",
-        "value": "/home/wardrobe/ambientlight/hallway_0/"
+        "value": "51a38d12-35d5-49a4-9f73-35822c8aeb89"
       },
       {
         "key": "SOURCE_BEHAVIOUR",

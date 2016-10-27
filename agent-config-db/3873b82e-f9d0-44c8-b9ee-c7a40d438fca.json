@@ -18,15 +18,15 @@
     "entry": [
       {
         "key": "SOURCE",
-        "value": "/home/living/dimmer/tabledimmer/"
+        "value": "9b27299f-522f-4b62-854a-187d3909d5a9"
       },
       {
         "key": "TARGET_1",
-        "value": "/home/living/ambientlight/table_0/"
+        "value": "e0ed255a-21c1-4293-9283-f0ddc3aa242a"
       },
       {
         "key": "TARGET_2",
-        "value": "/home/living/ambientlight/table_1/"
+        "value": "cdfa87e9-1c07-40f7-9acc-9e349a81f619"
       },
       {
         "key": "SOURCE_BEHAVIOUR",

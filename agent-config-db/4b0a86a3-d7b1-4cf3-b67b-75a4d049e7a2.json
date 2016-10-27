@@ -18,23 +18,23 @@
     "entry": [
       {
         "key": "SOURCE",
-        "value": "/home/bath/dimmer/dimmer/"
+        "value": "acfc8c85-b647-4666-bc00-a83386f5db82"
       },
       {
         "key": "TARGET_1",
-        "value": "/home/bath/ambientlight/global_1/"
+        "value": "0529ab14-ea69-4c54-9e7a-2288f7b0a5ec"
       },
       {
         "key": "TARGET_2",
-        "value": "/home/bath/ambientlight/global_2/"
+        "value": "b71892c9-cb68-4f6c-9e1b-8837d3c28e1e"
       },
       {
         "key": "TARGET_3",
-        "value": "/home/bath/ambientlight/global_3/"
+        "value": "efa33b37-8809-4483-beed-480fd9b50446"
       },
       {
         "key": "TARGET_4",
-        "value": "/home/bath/ambientlight/global_4/"
+        "value": "31b4fd8f-6355-49c2-90bc-039e92d602f0"
       },
       {
         "key": "SOURCE_BEHAVIOUR",

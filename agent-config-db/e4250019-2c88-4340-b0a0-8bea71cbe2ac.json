@@ -18,11 +18,11 @@
     "entry": [
       {
         "key": "SOURCE",
-        "value": "/home/living/dimmer/leftdimmer/"
+        "value": "dccc86dc-f764-4602-8ad4-945bf6851581"
       },
       {
         "key": "TARGET_1",
-        "value": "/home/living/ambientlight/mediahue/"
+        "value": "2ca1b701-cfde-4570-83de-46610e6718fc"
       },
       {
         "key": "SOURCE_BEHAVIOUR",

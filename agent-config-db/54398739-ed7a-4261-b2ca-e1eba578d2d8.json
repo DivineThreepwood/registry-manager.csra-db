@@ -18,23 +18,23 @@
     "entry": [
       {
         "key": "SOURCE",
-        "value": "/home/kitchen/dimmer/dimmer/"
+        "value": "1c667ff0-8c5f-48d2-b467-9669c30c4578"
       },
       {
         "key": "TARGET_1",
-        "value": "/home/kitchen/ambientlight/ceilinglamp_1/"
+        "value": "8d310f30-d60a-4627-8884-373c5e2dcbdd"
       },
       {
         "key": "TARGET_2",
-        "value": "/home/kitchen/ambientlight/ceilinglamp_2/"
+        "value": "96891f9d-e7f2-449d-9871-a2d317214295"
       },
       {
         "key": "TARGET_3",
-        "value": "/home/kitchen/ambientlight/ceilinglamp_3/"
+        "value": "48e43d6f-0015-40b3-895b-0ff33d4a74a4"
       },
       {
         "key": "TARGET_4",
-        "value": "/home/kitchen/ambientlight/ceilinglamp_4/"
+        "value": "9c3561a1-e6ce-476e-9bff-0d35807d2607"
       },
       {
         "key": "SOURCE_BEHAVIOUR",
