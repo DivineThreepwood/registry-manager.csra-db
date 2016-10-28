@@ -1,12 +1,12 @@
 {
   "id": "03e2302e-8879-4989-b305-211ebd127cc8",
   "unit_template_config_id": "Gira_429496730210000_BUTTON_4",
-  "label": "kitchen",
+  "label": "LightOn",
   "unit_host_id": "acb2a103-1c5c-4023-96d5-c88b8a9a042c",
   "type": "BUTTON",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-    "transformation_frame_id": "kitchen",
+    "transformation_frame_id": "LightOn",
     "position": {
       "translation": {
         "x": 0.0,
@@ -19,14 +19,15 @@
         "qy": 0.0,
         "qz": 0.0
       }
-    }
+    },
+    "shape": {}
   },
   "scope": {
     "component": [
       "home",
       "wardrobe",
       "button",
-      "kitchen"
+      "lighton"
     ]
   },
   "bound_to_unit_host": true,
@@ -42,7 +43,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_5133__home_wardrobe__Button__kitchen__ButtonStateService"
+              "value": "Gira_5133__home_wardrobe__Button__LightOn__ButtonStateService"
             }
           ]
         }
@@ -50,7 +51,8 @@
       "unit_id": "03e2302e-8879-4989-b305-211ebd127cc8",
       "service_template": {
         "type": "BUTTON_STATE_SERVICE",
-        "pattern": "PROVIDER"
+        "pattern": "PROVIDER",
+        "meta_config": {}
       },
       "meta_config": {}
     }

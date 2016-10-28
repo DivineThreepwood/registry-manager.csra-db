@@ -1,12 +1,12 @@
 {
   "id": "ae8242cc-63cf-4fd9-a31a-4304d52504b2",
   "unit_template_config_id": "Gira_429496730210000_BUTTON_1",
-  "label": "goodbye",
+  "label": "Goodbye",
   "unit_host_id": "acb2a103-1c5c-4023-96d5-c88b8a9a042c",
   "type": "BUTTON",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-    "transformation_frame_id": "goodbye",
+    "transformation_frame_id": "Goodbye",
     "position": {
       "translation": {
         "x": 0.0,
@@ -19,7 +19,8 @@
         "qy": 0.0,
         "qz": 0.0
       }
-    }
+    },
+    "shape": {}
   },
   "scope": {
     "component": [
@@ -42,7 +43,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_5133__home_wardrobe__Button__goodbye__ButtonStateService"
+              "value": "Gira_5133__home_wardrobe__Button__Goodbye__ButtonStateService"
             }
           ]
         }
@@ -50,7 +51,8 @@
       "unit_id": "ae8242cc-63cf-4fd9-a31a-4304d52504b2",
       "service_template": {
         "type": "BUTTON_STATE_SERVICE",
-        "pattern": "PROVIDER"
+        "pattern": "PROVIDER",
+        "meta_config": {}
       },
       "meta_config": {}
     }

@@ -1,12 +1,12 @@
 {
   "id": "00eed9c5-bfb1-4664-91b6-f8234399504d",
   "unit_template_config_id": "Gira_429496730210000_BUTTON_5",
-  "label": "lightotheroff",
+  "label": "MekaGrasp",
   "unit_host_id": "d9e491b1-27b3-4736-9ce0-c52476e827d3",
   "type": "BUTTON",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-    "transformation_frame_id": "lightotheroff",
+    "transformation_frame_id": "MekaGrasp",
     "position": {
       "translation": {
         "x": 0.0,
@@ -19,14 +19,15 @@
         "qy": 0.0,
         "qz": 0.0
       }
-    }
+    },
+    "shape": {}
   },
   "scope": {
     "component": [
       "home",
       "wardrobe",
       "button",
-      "lightotheroff"
+      "mekagrasp"
     ]
   },
   "bound_to_unit_host": true,
@@ -42,7 +43,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_5133__home_wardrobe__Button__lightotheroff__ButtonStateService"
+              "value": "Gira_5133__home_wardrobe__Button__MekaGrasp__ButtonStateService"
             }
           ]
         }
@@ -50,7 +51,8 @@
       "unit_id": "00eed9c5-bfb1-4664-91b6-f8234399504d",
       "service_template": {
         "type": "BUTTON_STATE_SERVICE",
-        "pattern": "PROVIDER"
+        "pattern": "PROVIDER",
+        "meta_config": {}
       },
       "meta_config": {}
     }
