@@ -15,6 +15,25 @@
       "bathambientcolorbeachceiling"
     ]
   },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "d8798d21-9426-4c8c-872a-f43d0e245a6d",
+      "service_template": {
+        "type": "ACTIVATION_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "d8798d21-9426-4c8c-872a-f43d0e245a6d",
+      "service_template": {
+        "type": "ACTIVATION_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
   "meta_config": {
     "entry": [
       {

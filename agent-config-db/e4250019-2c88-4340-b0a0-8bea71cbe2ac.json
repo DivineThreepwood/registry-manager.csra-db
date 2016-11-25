@@ -14,6 +14,25 @@
       "mediadimmerpowerstatesynchroniser"
     ]
   },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "e4250019-2c88-4340-b0a0-8bea71cbe2ac",
+      "service_template": {
+        "type": "ACTIVATION_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "e4250019-2c88-4340-b0a0-8bea71cbe2ac",
+      "service_template": {
+        "type": "ACTIVATION_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
   "meta_config": {
     "entry": [
       {

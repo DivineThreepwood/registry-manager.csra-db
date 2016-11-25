@@ -14,6 +14,25 @@
       "pathwaydimmerpowerstatesynchroniser"
     ]
   },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "0a514c2d-3b2c-4303-a4b6-d90f0284fc83",
+      "service_template": {
+        "type": "ACTIVATION_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "0a514c2d-3b2c-4303-a4b6-d90f0284fc83",
+      "service_template": {
+        "type": "ACTIVATION_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
   "meta_config": {
     "entry": [
       {

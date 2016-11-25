@@ -14,6 +14,25 @@
       "entrancedimmerpowerstatesynchroniser"
     ]
   },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "122389cd-907f-4e7c-84de-aaa2a3f81771",
+      "service_template": {
+        "type": "ACTIVATION_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "122389cd-907f-4e7c-84de-aaa2a3f81771",
+      "service_template": {
+        "type": "ACTIVATION_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
   "meta_config": {
     "entry": [
       {
