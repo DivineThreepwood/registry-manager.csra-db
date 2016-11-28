@@ -15,6 +15,25 @@
       "bathambientcolorzen"
     ]
   },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "dc3eda2b-c555-4879-94f6-424861a42398",
+      "service_template": {
+        "type": "ACTIVATION_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "dc3eda2b-c555-4879-94f6-424861a42398",
+      "service_template": {
+        "type": "ACTIVATION_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
   "meta_config": {
     "entry": [
       {

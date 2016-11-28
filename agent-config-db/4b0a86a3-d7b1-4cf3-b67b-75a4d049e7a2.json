@@ -14,6 +14,25 @@
       "bathdimmerpowerstatesynchroniser"
     ]
   },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "4b0a86a3-d7b1-4cf3-b67b-75a4d049e7a2",
+      "service_template": {
+        "type": "ACTIVATION_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "4b0a86a3-d7b1-4cf3-b67b-75a4d049e7a2",
+      "service_template": {
+        "type": "ACTIVATION_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
   "meta_config": {
     "entry": [
       {

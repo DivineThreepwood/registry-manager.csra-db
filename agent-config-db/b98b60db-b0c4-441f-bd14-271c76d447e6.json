@@ -15,6 +15,25 @@
       "bathambientcolornight"
     ]
   },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "b98b60db-b0c4-441f-bd14-271c76d447e6",
+      "service_template": {
+        "type": "ACTIVATION_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "b98b60db-b0c4-441f-bd14-271c76d447e6",
+      "service_template": {
+        "type": "ACTIVATION_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
   "meta_config": {
     "entry": [
       {

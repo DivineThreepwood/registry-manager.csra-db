@@ -14,6 +14,25 @@
       "kitchendimmerpowerstatesynchroniser"
     ]
   },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "54398739-ed7a-4261-b2ca-e1eba578d2d8",
+      "service_template": {
+        "type": "ACTIVATION_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "54398739-ed7a-4261-b2ca-e1eba578d2d8",
+      "service_template": {
+        "type": "ACTIVATION_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
   "meta_config": {
     "entry": [
       {

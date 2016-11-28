@@ -15,6 +15,25 @@
       "bathambientcolorbeachbottom"
     ]
   },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "d9d6cd7d-8a10-4149-b648-f62a78e25a4f",
+      "service_template": {
+        "type": "ACTIVATION_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "d9d6cd7d-8a10-4149-b648-f62a78e25a4f",
+      "service_template": {
+        "type": "ACTIVATION_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
   "meta_config": {
     "entry": [
       {
