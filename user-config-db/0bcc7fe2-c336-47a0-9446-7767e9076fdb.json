@@ -1,0 +1,24 @@
+{
+  "id": "0bcc7fe2-c336-47a0-9446-7767e9076fdb",
+  "label": "pLeminoq (Tamino Huxohl)",
+  "type": "USER",
+  "placement_config": {
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "manager",
+      "user",
+      "pleminoq"
+    ]
+  },
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "user_config": {
+    "first_name": "Tamino",
+    "last_name": "Huxohl",
+    "user_name": "pLeminoq"
+  }
+}
