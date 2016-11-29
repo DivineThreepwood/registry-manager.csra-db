@@ -118,6 +118,7 @@
     "value": "DISABLED"
   },
   "agent_config": {
-    "agent_class_id": "ff76a0a9-7977-435a-bca1-04669731ed8f"
+    "agent_class_id": "ff76a0a9-7977-435a-bca1-04669731ed8f",
+    "autostart": true
   }
 }

@@ -39,6 +39,7 @@
     "value": "DISABLED"
   },
   "app_config": {
-    "app_class_id": "914ca20d-0d39-4efd-929b-ac8225c79b27"
+    "app_class_id": "914ca20d-0d39-4efd-929b-ac8225c79b27",
+    "autostart": true
   }
 }
