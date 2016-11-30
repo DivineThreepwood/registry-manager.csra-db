@@ -50,6 +50,32 @@
       "living_window_left"
     ]
   },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "76f70d60-3a2e-491c-bd78-3b98dfb87202",
+      "service_template": {
+        "type": "DOOR_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "76f70d60-3a2e-491c-bd78-3b98dfb87202",
+      "service_template": {
+        "type": "PASSAGE_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "76f70d60-3a2e-491c-bd78-3b98dfb87202",
+      "service_template": {
+        "type": "WINDOW_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
   "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"

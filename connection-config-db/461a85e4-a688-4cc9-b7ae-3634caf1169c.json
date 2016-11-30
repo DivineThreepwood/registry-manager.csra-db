@@ -50,6 +50,32 @@
       "control_window"
     ]
   },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "461a85e4-a688-4cc9-b7ae-3634caf1169c",
+      "service_template": {
+        "type": "DOOR_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "461a85e4-a688-4cc9-b7ae-3634caf1169c",
+      "service_template": {
+        "type": "PASSAGE_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "461a85e4-a688-4cc9-b7ae-3634caf1169c",
+      "service_template": {
+        "type": "WINDOW_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
   "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"

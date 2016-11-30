@@ -50,6 +50,32 @@
       "sports_window"
     ]
   },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "dc0cf9bf-c712-42fb-b5f9-39df24d31a4e",
+      "service_template": {
+        "type": "DOOR_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "dc0cf9bf-c712-42fb-b5f9-39df24d31a4e",
+      "service_template": {
+        "type": "PASSAGE_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "dc0cf9bf-c712-42fb-b5f9-39df24d31a4e",
+      "service_template": {
+        "type": "WINDOW_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
   "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"

@@ -50,6 +50,32 @@
       "apartement_door"
     ]
   },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "a2e5e403-7121-48b9-837a-b93a944ccd29",
+      "service_template": {
+        "type": "DOOR_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "a2e5e403-7121-48b9-837a-b93a944ccd29",
+      "service_template": {
+        "type": "PASSAGE_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "a2e5e403-7121-48b9-837a-b93a944ccd29",
+      "service_template": {
+        "type": "WINDOW_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
   "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"

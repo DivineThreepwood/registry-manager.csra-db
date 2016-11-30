@@ -50,6 +50,32 @@
       "kitchen_passage"
     ]
   },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "06c55103-3a11-44b7-aed8-569880365a44",
+      "service_template": {
+        "type": "DOOR_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "06c55103-3a11-44b7-aed8-569880365a44",
+      "service_template": {
+        "type": "PASSAGE_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "06c55103-3a11-44b7-aed8-569880365a44",
+      "service_template": {
+        "type": "WINDOW_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
   "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"

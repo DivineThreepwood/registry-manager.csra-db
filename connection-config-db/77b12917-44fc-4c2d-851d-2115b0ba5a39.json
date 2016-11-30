@@ -50,6 +50,32 @@
       "kitchen_door"
     ]
   },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "77b12917-44fc-4c2d-851d-2115b0ba5a39",
+      "service_template": {
+        "type": "DOOR_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "77b12917-44fc-4c2d-851d-2115b0ba5a39",
+      "service_template": {
+        "type": "PASSAGE_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "77b12917-44fc-4c2d-851d-2115b0ba5a39",
+      "service_template": {
+        "type": "WINDOW_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
   "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"

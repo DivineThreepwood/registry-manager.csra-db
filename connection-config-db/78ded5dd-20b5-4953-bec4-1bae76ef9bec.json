@@ -50,6 +50,32 @@
       "sports_door"
     ]
   },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "78ded5dd-20b5-4953-bec4-1bae76ef9bec",
+      "service_template": {
+        "type": "DOOR_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "78ded5dd-20b5-4953-bec4-1bae76ef9bec",
+      "service_template": {
+        "type": "PASSAGE_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "78ded5dd-20b5-4953-bec4-1bae76ef9bec",
+      "service_template": {
+        "type": "WINDOW_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
   "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"
