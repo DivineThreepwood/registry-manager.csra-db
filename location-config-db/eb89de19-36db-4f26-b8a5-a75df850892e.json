@@ -50,6 +50,92 @@
       "hometheater"
     ]
   },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "eb89de19-36db-4f26-b8a5-a75df850892e",
+      "service_template": {
+        "type": "BLIND_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "eb89de19-36db-4f26-b8a5-a75df850892e",
+      "service_template": {
+        "type": "COLOR_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "eb89de19-36db-4f26-b8a5-a75df850892e",
+      "service_template": {
+        "type": "POWER_CONSUMPTION_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "eb89de19-36db-4f26-b8a5-a75df850892e",
+      "service_template": {
+        "type": "SMOKE_ALARM_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "eb89de19-36db-4f26-b8a5-a75df850892e",
+      "service_template": {
+        "type": "TEMPERATURE_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "eb89de19-36db-4f26-b8a5-a75df850892e",
+      "service_template": {
+        "type": "BLIND_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "eb89de19-36db-4f26-b8a5-a75df850892e",
+      "service_template": {
+        "type": "COLOR_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "eb89de19-36db-4f26-b8a5-a75df850892e",
+      "service_template": {
+        "type": "MOTION_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "eb89de19-36db-4f26-b8a5-a75df850892e",
+      "service_template": {
+        "type": "POWER_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "eb89de19-36db-4f26-b8a5-a75df850892e",
+      "service_template": {
+        "type": "POWER_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
   "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"

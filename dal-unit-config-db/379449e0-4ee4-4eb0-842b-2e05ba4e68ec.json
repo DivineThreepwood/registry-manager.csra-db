@@ -1,12 +1,12 @@
 {
   "id": "379449e0-4ee4-4eb0-842b-2e05ba4e68ec",
   "unit_template_config_id": "Gira_429496730210000_BUTTON_1",
-  "label": "elan",
+  "label": "AllOff",
   "unit_host_id": "e8815586-ddf8-490a-99e1-5592a2014b55",
   "type": "BUTTON",
   "placement_config": {
     "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
-    "transformation_frame_id": "Sports_elan",
+    "transformation_frame_id": "AllOff",
     "position": {
       "translation": {
         "x": 0.0,
@@ -27,7 +27,7 @@
       "home",
       "sports",
       "button",
-      "elan"
+      "alloff"
     ]
   },
   "bound_to_unit_host": true,
@@ -43,7 +43,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_5133__home_sports__Button__elan__ButtonStateService"
+              "value": "Gira_5133__home_sports__Button__AllOff__ButtonStateService"
             }
           ]
         }
@@ -51,7 +51,8 @@
       "unit_id": "379449e0-4ee4-4eb0-842b-2e05ba4e68ec",
       "service_template": {
         "type": "BUTTON_STATE_SERVICE",
-        "pattern": "PROVIDER"
+        "pattern": "PROVIDER",
+        "meta_config": {}
       },
       "meta_config": {}
     }

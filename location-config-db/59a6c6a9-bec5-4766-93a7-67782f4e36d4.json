@@ -50,6 +50,92 @@
       "dining"
     ]
   },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
+      "service_template": {
+        "type": "BLIND_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
+      "service_template": {
+        "type": "COLOR_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
+      "service_template": {
+        "type": "POWER_CONSUMPTION_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
+      "service_template": {
+        "type": "SMOKE_ALARM_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
+      "service_template": {
+        "type": "TEMPERATURE_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
+      "service_template": {
+        "type": "BLIND_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
+      "service_template": {
+        "type": "COLOR_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
+      "service_template": {
+        "type": "MOTION_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
+      "service_template": {
+        "type": "POWER_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
+      "service_template": {
+        "type": "POWER_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
   "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"

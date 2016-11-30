@@ -17,7 +17,8 @@
         "qy": 0.0,
         "qz": 0.0
       }
-    }
+    },
+    "shape": {}
   },
   "scope": {
     "component": [
@@ -27,7 +28,14 @@
       "leftwindowhandlesensor"
     ]
   },
-  "meta_config": {},
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "KEQ0551308"
+      }
+    ]
+  },
   "enabling_state": {
     "value": "ENABLED"
   },
