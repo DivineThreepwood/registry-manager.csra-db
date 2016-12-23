@@ -27,6 +27,7 @@
       "dimmactuator2"
     ]
   },
+  "bound_to_unit_host": false,
   "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"

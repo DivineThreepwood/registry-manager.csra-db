@@ -52,28 +52,37 @@
   },
   "service_config": [
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "6d7e9b9b-c9b8-4fd5-b56b-ff5319a603be",
       "service_template": {
         "type": "DOOR_STATE_SERVICE",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     },
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "6d7e9b9b-c9b8-4fd5-b56b-ff5319a603be",
       "service_template": {
         "type": "PASSAGE_STATE_SERVICE",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     },
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "6d7e9b9b-c9b8-4fd5-b56b-ff5319a603be",
       "service_template": {
         "type": "WINDOW_STATE_SERVICE",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     }
   ],
   "meta_config": {},
@@ -85,6 +94,9 @@
     "tile_id": [
       "4a1d3474-7322-48d5-859f-8d9f50f479b9",
       "f44ad3f8-25f4-44f9-adaa-384676b361a6"
+    ],
+    "unit_id": [
+      "33a6608e-6c3a-4ab9-9f0d-0e128b1ecd1c"
     ]
   }
 }

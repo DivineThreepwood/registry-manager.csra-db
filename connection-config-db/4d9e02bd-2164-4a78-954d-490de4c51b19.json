@@ -1,53 +1,17 @@
 {
-  "id": "a2e5e403-7121-48b9-837a-b93a944ccd29",
-  "label": "Apartment Entrance Door",
+  "id": "4d9e02bd-2164-4a78-954d-490de4c51b19",
+  "label": "Control Entrance Door",
   "type": "CONNECTION",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
-    "transformation_frame_id": "Apartment_Entrance_Door",
-    "position": {
-      "translation": {
-        "x": 2.718,
-        "y": -0.125,
-        "z": 0.0
-      },
-      "rotation": {
-        "qw": 1.0,
-        "qx": 0.0,
-        "qy": 0.0,
-        "qz": 0.0
-      }
-    },
-    "shape": {
-      "floor": [
-        {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
-        },
-        {
-          "x": 0.0,
-          "y": 0.125,
-          "z": 0.0
-        },
-        {
-          "x": 0.889,
-          "y": 0.125,
-          "z": 0.0
-        },
-        {
-          "x": 0.889,
-          "y": 0.0,
-          "z": 0.0
-        }
-      ]
-    }
+    "transformation_frame_id": "Control_Entrance_Door",
+    "shape": {}
   },
   "scope": {
     "component": [
       "home",
       "connection",
-      "apartment_entrance_door"
+      "control_entrance_door"
     ]
   },
   "service_config": [
@@ -55,7 +19,7 @@
       "binding_config": {
         "meta_config": {}
       },
-      "unit_id": "a2e5e403-7121-48b9-837a-b93a944ccd29",
+      "unit_id": "4d9e02bd-2164-4a78-954d-490de4c51b19",
       "service_template": {
         "type": "DOOR_STATE_SERVICE",
         "meta_config": {}
@@ -66,7 +30,7 @@
       "binding_config": {
         "meta_config": {}
       },
-      "unit_id": "a2e5e403-7121-48b9-837a-b93a944ccd29",
+      "unit_id": "4d9e02bd-2164-4a78-954d-490de4c51b19",
       "service_template": {
         "type": "PASSAGE_STATE_SERVICE",
         "meta_config": {}
@@ -77,7 +41,7 @@
       "binding_config": {
         "meta_config": {}
       },
-      "unit_id": "a2e5e403-7121-48b9-837a-b93a944ccd29",
+      "unit_id": "4d9e02bd-2164-4a78-954d-490de4c51b19",
       "service_template": {
         "type": "WINDOW_STATE_SERVICE",
         "meta_config": {}
@@ -92,11 +56,11 @@
   "connection_config": {
     "type": "DOOR",
     "tile_id": [
-      "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+      "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
       "9be1344a-41f1-406b-bdae-41bfd5368f13"
     ],
     "unit_id": [
-      "6e589084-a3a5-4789-af7a-28925e28eeb6"
+      "47558be4-2abf-4795-939b-9ed3748c1dd4"
     ]
   }
 }

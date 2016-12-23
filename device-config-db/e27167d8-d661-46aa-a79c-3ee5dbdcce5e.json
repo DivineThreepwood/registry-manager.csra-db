@@ -27,6 +27,7 @@
       "asus_90iw0122-b01ua_e3iwbda34180"
     ]
   },
+  "bound_to_unit_host": true,
   "meta_config": {},
   "enabling_state": {
     "value": "DISABLED"

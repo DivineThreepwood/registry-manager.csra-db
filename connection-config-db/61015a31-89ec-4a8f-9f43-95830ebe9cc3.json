@@ -1,0 +1,57 @@
+{
+  "id": "61015a31-89ec-4a8f-9f43-95830ebe9cc3",
+  "label": "Right Control Window",
+  "type": "CONNECTION",
+  "placement_config": {
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+    "transformation_frame_id": "Right_Control_Window",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "connection",
+      "right_control_window"
+    ]
+  },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "61015a31-89ec-4a8f-9f43-95830ebe9cc3",
+      "service_template": {
+        "type": "DOOR_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "61015a31-89ec-4a8f-9f43-95830ebe9cc3",
+      "service_template": {
+        "type": "PASSAGE_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "61015a31-89ec-4a8f-9f43-95830ebe9cc3",
+      "service_template": {
+        "type": "WINDOW_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "connection_config": {
+    "type": "WINDOW",
+    "tile_id": [
+      "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+      "9be1344a-41f1-406b-bdae-41bfd5368f13"
+    ],
+    "unit_id": [
+      "3d3fa104-3ddc-4a6e-b670-f8810666fd9e"
+    ]
+  }
+}

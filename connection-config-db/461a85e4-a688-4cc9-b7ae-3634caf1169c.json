@@ -1,10 +1,10 @@
 {
   "id": "461a85e4-a688-4cc9-b7ae-3634caf1169c",
-  "label": "Control Window",
+  "label": "Introspection Window",
   "type": "CONNECTION",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
-    "transformation_frame_id": "Control_Window",
+    "transformation_frame_id": "Introspection_Window",
     "position": {
       "translation": {
         "x": 7.9275,
@@ -47,33 +47,42 @@
     "component": [
       "home",
       "connection",
-      "control_window"
+      "introspection_window"
     ]
   },
   "service_config": [
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "461a85e4-a688-4cc9-b7ae-3634caf1169c",
       "service_template": {
         "type": "DOOR_STATE_SERVICE",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     },
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "461a85e4-a688-4cc9-b7ae-3634caf1169c",
       "service_template": {
         "type": "PASSAGE_STATE_SERVICE",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     },
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "461a85e4-a688-4cc9-b7ae-3634caf1169c",
       "service_template": {
         "type": "WINDOW_STATE_SERVICE",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     }
   ],
   "meta_config": {},

@@ -19,7 +19,8 @@
         "qy": 0.0,
         "qz": 0.0
       }
-    }
+    },
+    "shape": {}
   },
   "scope": {
     "component": [
@@ -46,12 +47,20 @@
       "unit_id": "33a6608e-6c3a-4ab9-9f0d-0e128b1ecd1c",
       "service_template": {
         "type": "CONTACT_STATE_SERVICE",
-        "pattern": "PROVIDER"
+        "pattern": "PROVIDER",
+        "meta_config": {}
       },
       "meta_config": {}
     }
   ],
-  "meta_config": {},
+  "meta_config": {
+    "entry": [
+      {
+        "key": "CONTACT_DOOR_POSITION",
+        "value": "CLOSED"
+      }
+    ]
+  },
   "enabling_state": {
     "value": "ENABLED"
   }

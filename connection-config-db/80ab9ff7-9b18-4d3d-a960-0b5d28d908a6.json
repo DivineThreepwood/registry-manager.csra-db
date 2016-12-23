@@ -1,53 +1,17 @@
 {
-  "id": "76f70d60-3a2e-491c-bd78-3b98dfb87202",
-  "label": "Living Window Left",
+  "id": "80ab9ff7-9b18-4d3d-a960-0b5d28d908a6",
+  "label": "Left Control Window",
   "type": "CONNECTION",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
-    "transformation_frame_id": "Living_Window_Left",
-    "position": {
-      "translation": {
-        "x": 0.07,
-        "y": 8.6583,
-        "z": 0.0
-      },
-      "rotation": {
-        "qw": 1.0,
-        "qx": 0.0,
-        "qy": 0.0,
-        "qz": 0.0
-      }
-    },
-    "shape": {
-      "floor": [
-        {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
-        },
-        {
-          "x": 0.0,
-          "y": 0.2,
-          "z": 0.0
-        },
-        {
-          "x": 1.14,
-          "y": 0.2,
-          "z": 0.0
-        },
-        {
-          "x": 1.14,
-          "y": 0.0,
-          "z": 0.0
-        }
-      ]
-    }
+    "transformation_frame_id": "Left_Control_Window",
+    "shape": {}
   },
   "scope": {
     "component": [
       "home",
       "connection",
-      "living_window_left"
+      "left_control_window"
     ]
   },
   "service_config": [
@@ -55,7 +19,7 @@
       "binding_config": {
         "meta_config": {}
       },
-      "unit_id": "76f70d60-3a2e-491c-bd78-3b98dfb87202",
+      "unit_id": "80ab9ff7-9b18-4d3d-a960-0b5d28d908a6",
       "service_template": {
         "type": "DOOR_STATE_SERVICE",
         "meta_config": {}
@@ -66,7 +30,7 @@
       "binding_config": {
         "meta_config": {}
       },
-      "unit_id": "76f70d60-3a2e-491c-bd78-3b98dfb87202",
+      "unit_id": "80ab9ff7-9b18-4d3d-a960-0b5d28d908a6",
       "service_template": {
         "type": "PASSAGE_STATE_SERVICE",
         "meta_config": {}
@@ -77,7 +41,7 @@
       "binding_config": {
         "meta_config": {}
       },
-      "unit_id": "76f70d60-3a2e-491c-bd78-3b98dfb87202",
+      "unit_id": "80ab9ff7-9b18-4d3d-a960-0b5d28d908a6",
       "service_template": {
         "type": "WINDOW_STATE_SERVICE",
         "meta_config": {}
@@ -92,11 +56,11 @@
   "connection_config": {
     "type": "WINDOW",
     "tile_id": [
-      "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+      "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
       "9be1344a-41f1-406b-bdae-41bfd5368f13"
     ],
     "unit_id": [
-      "0b8a1503-7cc5-4e03-9ed5-9d3efed43832"
+      "f9ad39dd-4a4b-41fc-8f94-e431f9822de2"
     ]
   }
 }

@@ -27,6 +27,7 @@
       "couchlamp"
     ]
   },
+  "bound_to_unit_host": true,
   "meta_config": {
     "entry": [
       {

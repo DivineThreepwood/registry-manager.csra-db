@@ -29,6 +29,7 @@
     ]
   },
   "description": "The face detection cam of the kitchen flobi instance.",
+  "bound_to_unit_host": true,
   "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"

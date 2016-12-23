@@ -1,10 +1,10 @@
 {
   "id": "cbe163eb-94f2-47c2-952b-9f9c7384e4ed",
-  "label": "Control Door",
+  "label": "Sports to Control Door",
   "type": "CONNECTION",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
-    "transformation_frame_id": "Control_Door",
+    "transformation_frame_id": "Sports_to_Control_Door",
     "position": {
       "translation": {
         "x": 6.9036,
@@ -47,33 +47,42 @@
     "component": [
       "home",
       "connection",
-      "control_door"
+      "sports_to_control_door"
     ]
   },
   "service_config": [
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "cbe163eb-94f2-47c2-952b-9f9c7384e4ed",
       "service_template": {
         "type": "DOOR_STATE_SERVICE",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     },
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "cbe163eb-94f2-47c2-952b-9f9c7384e4ed",
       "service_template": {
         "type": "PASSAGE_STATE_SERVICE",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     },
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "cbe163eb-94f2-47c2-952b-9f9c7384e4ed",
       "service_template": {
         "type": "WINDOW_STATE_SERVICE",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     }
   ],
   "meta_config": {},
@@ -85,6 +94,9 @@
     "tile_id": [
       "7ad72d61-e398-414b-9c5a-173242912ce6",
       "511adfec-43ed-47f5-bd4d-28f46dc1b5a4"
+    ],
+    "unit_id": [
+      "9f5e28a1-e085-4b15-9640-faecaa7a8c6c"
     ]
   }
 }

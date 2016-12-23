@@ -50,30 +50,40 @@
       "sports_window"
     ]
   },
+  "description": "",
   "service_config": [
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "dc0cf9bf-c712-42fb-b5f9-39df24d31a4e",
       "service_template": {
         "type": "DOOR_STATE_SERVICE",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     },
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "dc0cf9bf-c712-42fb-b5f9-39df24d31a4e",
       "service_template": {
         "type": "PASSAGE_STATE_SERVICE",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     },
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "dc0cf9bf-c712-42fb-b5f9-39df24d31a4e",
       "service_template": {
         "type": "WINDOW_STATE_SERVICE",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     }
   ],
   "meta_config": {},
@@ -85,6 +95,9 @@
     "tile_id": [
       "7ad72d61-e398-414b-9c5a-173242912ce6",
       "9be1344a-41f1-406b-bdae-41bfd5368f13"
+    ],
+    "unit_id": [
+      "6f6823e9-bdbb-4731-87c6-eae2c792cd22"
     ]
   }
 }
