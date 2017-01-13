@@ -1,0 +1,60 @@
+{
+  "id": "f7f9ebc3-ff3c-47f9-9442-c9e2713b5bdb",
+  "unit_template_config_id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_SWITCH_1",
+  "label": "S8_C2",
+  "unit_host_id": "1505075c-a4a9-41d7-958a-556cdf7b73ac",
+  "type": "POWER_SWITCH",
+  "placement_config": {
+    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+    "transformation_frame_id": "S8_C2"
+  },
+  "scope": {
+    "component": [
+      "home",
+      "control",
+      "powerswitch",
+      "s8_c2"
+    ]
+  },
+  "bound_to_unit_host": false,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_1046__home_control__PowerSwitch__S8_C2__PowerStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "f7f9ebc3-ff3c-47f9-9442-c9e2713b5bdb",
+      "service_template": {
+        "type": "POWER_STATE_SERVICE"
+      }
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_1046__home_control__PowerSwitch__S8_C2__PowerStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "f7f9ebc3-ff3c-47f9-9442-c9e2713b5bdb",
+      "service_template": {
+        "type": "POWER_STATE_SERVICE",
+        "pattern": "OPERATION"
+      }
+    }
+  ],
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}
