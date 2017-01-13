@@ -6,7 +6,8 @@
   "type": "POWER_SWITCH",
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
-    "transformation_frame_id": "S7_C1"
+    "transformation_frame_id": "S7_C1",
+    "shape": {}
   },
   "scope": {
     "component": [
@@ -26,14 +27,20 @@
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
               "value": "Gira_1046__home_control__PowerSwitch__S7_C1__PowerStateService"
+            },
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "5/1/145+5/1/153"
             }
           ]
         }
       },
       "unit_id": "0602b2c4-1abf-439f-bdcb-f5684694240b",
       "service_template": {
-        "type": "POWER_STATE_SERVICE"
-      }
+        "type": "POWER_STATE_SERVICE",
+        "meta_config": {}
+      },
+      "meta_config": {}
     },
     {
       "binding_config": {
@@ -50,10 +57,13 @@
       "unit_id": "0602b2c4-1abf-439f-bdcb-f5684694240b",
       "service_template": {
         "type": "POWER_STATE_SERVICE",
-        "pattern": "OPERATION"
-      }
+        "pattern": "OPERATION",
+        "meta_config": {}
+      },
+      "meta_config": {}
     }
   ],
+  "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"
   }
