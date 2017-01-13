@@ -1,0 +1,48 @@
+{
+  "id": "16e01132-facc-4138-b658-8cd6ef565885",
+  "label": "S2",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+    "transformation_frame_id": "S2",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "control",
+      "device",
+      "s2"
+    ]
+  },
+  "bound_to_unit_host": false,
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4"
+    },
+    "device_class_id": "b129b706-5d0f-4909-a027-8338a4446f91",
+    "unit_id": [
+      "443f15dc-2135-4787-9845-9c2eba71a3d0",
+      "d84aff85-a8b5-425e-aae1-ddfb8bbae993",
+      "0c070079-20ab-4e65-96b1-0f258ef785ab",
+      "d166afc7-7f02-47a7-832f-9c115b8e33fb",
+      "1fb774a0-5814-4d91-8398-159ded6b89c1",
+      "f2039c78-b344-494c-9f99-f7c8ad4a04f8",
+      "a0f696f1-ae5d-4c9a-b67e-f052212ab970",
+      "fa2ab151-3840-44a2-b417-3430a4ff46c7",
+      "279ba1d0-fa1a-4711-9ed9-eaf2e7947132",
+      "46a4b800-27d8-4afb-98cc-9af4d469e57b",
+      "9529a8d2-0318-4c48-9898-96f2beacf010",
+      "ef443efd-3a01-47c7-a4cb-21072e47e750",
+      "7af80d2b-f808-4f87-b6b1-d9fca3e4979e",
+      "b735b5bf-601e-44de-8979-9b9565940e06",
+      "2a136b80-936e-43f0-a0e9-80ce35a3183b",
+      "827f269b-f36b-49aa-95e9-eb89d87d1492"
+    ]
+  }
+}

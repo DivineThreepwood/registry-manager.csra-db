@@ -1,0 +1,50 @@
+{
+  "id": "b735b5bf-601e-44de-8979-9b9565940e06",
+  "unit_template_config_id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_CONSUMPTION_SENSOR_5",
+  "label": "S2_C6 Consumption",
+  "unit_host_id": "16e01132-facc-4138-b658-8cd6ef565885",
+  "type": "POWER_CONSUMPTION_SENSOR",
+  "placement_config": {
+    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+    "transformation_frame_id": "S2_C6_Consumption",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "control",
+      "powerconsumptionsensor",
+      "s2_c6_consumption"
+    ]
+  },
+  "bound_to_unit_host": false,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_1046__home_control__PowerConsumptionSensor__S2_C6_Consumption__PowerConsumptionStateService"
+            },
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "5/1/45"
+            }
+          ]
+        }
+      },
+      "unit_id": "b735b5bf-601e-44de-8979-9b9565940e06",
+      "service_template": {
+        "type": "POWER_CONSUMPTION_STATE_SERVICE",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}
