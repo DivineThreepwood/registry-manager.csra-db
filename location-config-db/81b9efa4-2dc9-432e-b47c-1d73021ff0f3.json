@@ -153,6 +153,15 @@
         "type": "POWER_STATE_SERVICE",
         "meta_config": {}
       }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+      "service_template": {
+        "type": "PRESENCE_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
+      }
     }
   ],
   "meta_config": {},
