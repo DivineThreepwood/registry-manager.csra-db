@@ -5,14 +5,14 @@
   "unit_host_id": "8b7ed2aa-5585-46dc-9ef8-897b4a3f781e",
   "type": "POWER_CONSUMPTION_SENSOR",
   "placement_config": {
-    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
     "transformation_frame_id": "S6_C3_Consumption",
     "shape": {}
   },
   "scope": {
     "component": [
       "home",
-      "control",
+      "living",
       "powerconsumptionsensor",
       "s6_c3_consumption"
     ]
@@ -25,12 +25,12 @@
         "meta_config": {
           "entry": [
             {
-              "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_1046__home_control__PowerConsumptionSensor__S6_C3_Consumption__PowerConsumptionStateService"
-            },
-            {
               "key": "OPENHAB_BINDING_CONFIG",
               "value": "5/1/139"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_1046__home_living__PowerConsumptionSensor__S6_C3_Consumption__PowerConsumptionStateService"
             }
           ]
         }

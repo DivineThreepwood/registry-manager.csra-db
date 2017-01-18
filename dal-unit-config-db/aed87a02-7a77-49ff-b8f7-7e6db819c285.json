@@ -5,14 +5,14 @@
   "unit_host_id": "64da2fb2-aca7-4791-a5c1-e389a7361c05",
   "type": "POWER_SWITCH",
   "placement_config": {
-    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
     "transformation_frame_id": "S3_C1",
     "shape": {}
   },
   "scope": {
     "component": [
       "home",
-      "control",
+      "kitchen",
       "powerswitch",
       "s3_c1"
     ]
@@ -25,12 +25,12 @@
         "meta_config": {
           "entry": [
             {
-              "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_1046__home_control__PowerSwitch__S3_C1__PowerStateService"
-            },
-            {
               "key": "OPENHAB_BINDING_CONFIG",
               "value": "5/1/48+5/1/56"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_1046__home_kitchen__PowerSwitch__S3_C1__PowerStateService"
             }
           ]
         }
@@ -48,12 +48,12 @@
         "meta_config": {
           "entry": [
             {
-              "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_1046__home_control__PowerSwitch__S3_C1__PowerStateService"
-            },
-            {
               "key": "OPENHAB_BINDING_CONFIG",
               "value": "5/1/48+5/1/56"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_1046__home_kitchen__PowerSwitch__S3_C1__PowerStateService"
             }
           ]
         }

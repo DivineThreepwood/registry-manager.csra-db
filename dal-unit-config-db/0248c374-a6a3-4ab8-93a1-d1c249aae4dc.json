@@ -5,14 +5,14 @@
   "unit_host_id": "8b7ed2aa-5585-46dc-9ef8-897b4a3f781e",
   "type": "POWER_SWITCH",
   "placement_config": {
-    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
     "transformation_frame_id": "S6_C3",
     "shape": {}
   },
   "scope": {
     "component": [
       "home",
-      "control",
+      "living",
       "powerswitch",
       "s6_c3"
     ]
@@ -26,7 +26,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_1046__home_control__PowerSwitch__S6_C3__PowerStateService"
+              "value": "Gira_1046__home_living__PowerSwitch__S6_C3__PowerStateService"
             }
           ]
         }
@@ -44,12 +44,12 @@
         "meta_config": {
           "entry": [
             {
-              "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_1046__home_control__PowerSwitch__S6_C3__PowerStateService"
-            },
-            {
               "key": "OPENHAB_BINDING_CONFIG",
               "value": "5/1/123+5/1/131"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_1046__home_living__PowerSwitch__S6_C3__PowerStateService"
             }
           ]
         }
