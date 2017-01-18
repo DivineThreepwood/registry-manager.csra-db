@@ -1,12 +1,12 @@
 {
   "id": "9aa10a07-69f9-4878-baf3-eb3bf81e2f22",
   "unit_template_config_id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_CONSUMPTION_SENSOR_2",
-  "label": "S6_C3 Consumption",
+  "label": "S6C3",
   "unit_host_id": "8b7ed2aa-5585-46dc-9ef8-897b4a3f781e",
   "type": "POWER_CONSUMPTION_SENSOR",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "S6_C3_Consumption",
+    "transformation_frame_id": "Living_S6C3",
     "shape": {}
   },
   "scope": {
@@ -14,9 +14,10 @@
       "home",
       "living",
       "powerconsumptionsensor",
-      "s6_c3_consumption"
+      "s6c3"
     ]
   },
+  "description": "Projector",
   "bound_to_unit_host": false,
   "service_config": [
     {
@@ -30,7 +31,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_1046__home_living__PowerConsumptionSensor__S6_C3_Consumption__PowerConsumptionStateService"
+              "value": "Gira_1046__home_living__PowerConsumptionSensor__S6C3__PowerConsumptionStateService"
             }
           ]
         }

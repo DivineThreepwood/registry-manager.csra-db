@@ -1,12 +1,12 @@
 {
   "id": "0248c374-a6a3-4ab8-93a1-d1c249aae4dc",
   "unit_template_config_id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_SWITCH_2",
-  "label": "S6_C3",
+  "label": "S6C3",
   "unit_host_id": "8b7ed2aa-5585-46dc-9ef8-897b4a3f781e",
   "type": "POWER_SWITCH",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "S6_C3",
+    "transformation_frame_id": "S6C3",
     "shape": {}
   },
   "scope": {
@@ -14,9 +14,10 @@
       "home",
       "living",
       "powerswitch",
-      "s6_c3"
+      "s6c3"
     ]
   },
+  "description": "Projector",
   "bound_to_unit_host": false,
   "service_config": [
     {
@@ -26,7 +27,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_1046__home_living__PowerSwitch__S6_C3__PowerStateService"
+              "value": "Gira_1046__home_living__PowerSwitch__S6C3__PowerStateService"
             }
           ]
         }
@@ -49,7 +50,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_1046__home_living__PowerSwitch__S6_C3__PowerStateService"
+              "value": "Gira_1046__home_living__PowerSwitch__S6C3__PowerStateService"
             }
           ]
         }

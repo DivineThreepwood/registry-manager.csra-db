@@ -1,12 +1,12 @@
 {
   "id": "a69b3e90-f0be-4433-9a40-583b438a3b93",
   "unit_template_config_id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_CONSUMPTION_SENSOR_0",
-  "label": "S3_C1 Consumption",
+  "label": "S3C1",
   "unit_host_id": "64da2fb2-aca7-4791-a5c1-e389a7361c05",
   "type": "POWER_CONSUMPTION_SENSOR",
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-    "transformation_frame_id": "S3_C1_Consumption",
+    "transformation_frame_id": "S3C1",
     "shape": {}
   },
   "scope": {
@@ -14,9 +14,10 @@
       "home",
       "kitchen",
       "powerconsumptionsensor",
-      "s3_c1_consumption"
+      "s3c1"
     ]
   },
+  "description": "Kettle",
   "bound_to_unit_host": false,
   "service_config": [
     {
@@ -30,7 +31,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_1046__home_kitchen__PowerConsumptionSensor__S3_C1_Consumption__PowerConsumptionStateService"
+              "value": "Gira_1046__home_kitchen__PowerConsumptionSensor__S3C1__PowerConsumptionStateService"
             }
           ]
         }
