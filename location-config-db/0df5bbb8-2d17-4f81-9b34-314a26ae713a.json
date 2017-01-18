@@ -151,14 +151,6 @@
   },
   "location_config": {
     "type": "REGION",
-    "root": false,
-    "unit_id": [
-      "112a442e-8714-4c5d-9d0a-1a12a68c8230",
-      "09cfc963-60fa-421d-b4ff-d83eb6953bab",
-      "d930d217-02a8-4264-8d9f-240de7f0d0ca",
-      "72ed15f8-26a8-41ec-a1fd-235e1fa43dae",
-      "ad2e3592-d147-4d68-bfce-11e7ff4915b1",
-      "cfce590b-0ee9-433b-ab00-18c046898521"
-    ]
+    "root": false
   }
 }
