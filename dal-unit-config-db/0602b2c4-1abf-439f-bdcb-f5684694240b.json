@@ -50,6 +50,10 @@
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
               "value": "Gira_1046__home_control__PowerSwitch__S7_C1__PowerStateService"
+            },
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "5/1/145+5/1/153"
             }
           ]
         }

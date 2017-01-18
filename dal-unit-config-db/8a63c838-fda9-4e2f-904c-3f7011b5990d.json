@@ -6,7 +6,8 @@
   "type": "POWER_SWITCH",
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
-    "transformation_frame_id": "S9_C3"
+    "transformation_frame_id": "S9_C3",
+    "shape": {}
   },
   "scope": {
     "component": [
@@ -32,8 +33,10 @@
       },
       "unit_id": "8a63c838-fda9-4e2f-904c-3f7011b5990d",
       "service_template": {
-        "type": "POWER_STATE_SERVICE"
-      }
+        "type": "POWER_STATE_SERVICE",
+        "meta_config": {}
+      },
+      "meta_config": {}
     },
     {
       "binding_config": {
@@ -43,6 +46,10 @@
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
               "value": "Gira_1045__home_control__PowerSwitch__S9_C3__PowerStateService"
+            },
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "5/1/195+5/1/199"
             }
           ]
         }
@@ -50,10 +57,13 @@
       "unit_id": "8a63c838-fda9-4e2f-904c-3f7011b5990d",
       "service_template": {
         "type": "POWER_STATE_SERVICE",
-        "pattern": "OPERATION"
-      }
+        "pattern": "OPERATION",
+        "meta_config": {}
+      },
+      "meta_config": {}
     }
   ],
+  "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"
   }
