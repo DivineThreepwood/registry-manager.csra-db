@@ -19,7 +19,8 @@
         "qy": 0.0,
         "qz": 0.0
       }
-    }
+    },
+    "shape": {}
   },
   "scope": {
     "component": [
@@ -50,7 +51,8 @@
       "unit_id": "1c667ff0-8c5f-48d2-b467-9669c30c4578",
       "service_template": {
         "type": "INTENSITY_STATE_SERVICE",
-        "pattern": "PROVIDER"
+        "pattern": "PROVIDER",
+        "meta_config": {}
       },
       "meta_config": {}
     },
@@ -73,7 +75,8 @@
       "unit_id": "1c667ff0-8c5f-48d2-b467-9669c30c4578",
       "service_template": {
         "type": "INTENSITY_STATE_SERVICE",
-        "pattern": "OPERATION"
+        "pattern": "OPERATION",
+        "meta_config": {}
       },
       "meta_config": {}
     },
@@ -96,7 +99,8 @@
       "unit_id": "1c667ff0-8c5f-48d2-b467-9669c30c4578",
       "service_template": {
         "type": "POWER_STATE_SERVICE",
-        "pattern": "PROVIDER"
+        "pattern": "PROVIDER",
+        "meta_config": {}
       },
       "meta_config": {}
     },
@@ -119,7 +123,8 @@
       "unit_id": "1c667ff0-8c5f-48d2-b467-9669c30c4578",
       "service_template": {
         "type": "POWER_STATE_SERVICE",
-        "pattern": "OPERATION"
+        "pattern": "OPERATION",
+        "meta_config": {}
       },
       "meta_config": {}
     }
