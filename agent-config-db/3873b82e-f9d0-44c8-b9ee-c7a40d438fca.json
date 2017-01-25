@@ -16,21 +16,27 @@
   },
   "service_config": [
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "3873b82e-f9d0-44c8-b9ee-c7a40d438fca",
       "service_template": {
         "type": "ACTIVATION_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     },
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "3873b82e-f9d0-44c8-b9ee-c7a40d438fca",
       "service_template": {
         "type": "ACTIVATION_STATE_SERVICE",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     }
   ],
   "meta_config": {
@@ -58,7 +64,7 @@
     ]
   },
   "enabling_state": {
-    "value": "ENABLED"
+    "value": "DISABLED"
   },
   "agent_config": {
     "agent_class_id": "96aed98a-e9d4-402e-a4c4-b0655d448a21",

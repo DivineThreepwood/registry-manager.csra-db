@@ -5,18 +5,19 @@
   "unit_host_id": "1505075c-a4a9-41d7-958a-556cdf7b73ac",
   "type": "POWER_CONSUMPTION_SENSOR",
   "placement_config": {
-    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+    "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
     "transformation_frame_id": "S8_C7_Consumption",
     "shape": {}
   },
   "scope": {
     "component": [
       "home",
-      "control",
+      "bath",
       "powerconsumptionsensor",
       "s8_c7_consumption"
     ]
   },
+  "description": "Bath Main Light",
   "bound_to_unit_host": false,
   "service_config": [
     {
@@ -25,12 +26,12 @@
         "meta_config": {
           "entry": [
             {
-              "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_1046__home_control__PowerConsumptionSensor__S8_C7_Consumption__PowerConsumptionStateService"
-            },
-            {
               "key": "OPENHAB_BINDING_CONFIG",
               "value": "5/1/191"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_1046__home_bath__PowerConsumptionSensor__S8_C7_Consumption__PowerConsumptionStateService"
             }
           ]
         }

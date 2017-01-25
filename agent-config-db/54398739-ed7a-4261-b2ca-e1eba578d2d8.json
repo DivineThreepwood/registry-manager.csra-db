@@ -16,28 +16,34 @@
   },
   "service_config": [
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "54398739-ed7a-4261-b2ca-e1eba578d2d8",
       "service_template": {
         "type": "ACTIVATION_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     },
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "54398739-ed7a-4261-b2ca-e1eba578d2d8",
       "service_template": {
         "type": "ACTIVATION_STATE_SERVICE",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     }
   ],
   "meta_config": {
     "entry": [
       {
         "key": "SOURCE",
-        "value": "1c667ff0-8c5f-48d2-b467-9669c30c4578"
+        "value": "8d92ec6f-889a-47be-8e47-00f838855cd7"
       },
       {
         "key": "TARGET_1",

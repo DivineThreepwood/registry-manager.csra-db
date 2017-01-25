@@ -5,18 +5,19 @@
   "unit_host_id": "1505075c-a4a9-41d7-958a-556cdf7b73ac",
   "type": "POWER_SWITCH",
   "placement_config": {
-    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
     "transformation_frame_id": "S8_C6",
     "shape": {}
   },
   "scope": {
     "component": [
       "home",
-      "control",
+      "kitchen",
       "powerswitch",
       "s8_c6"
     ]
   },
+  "description": "Kitchen Main Light",
   "bound_to_unit_host": false,
   "service_config": [
     {
@@ -26,7 +27,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_1046__home_control__PowerSwitch__S8_C6__PowerStateService"
+              "value": "Gira_1046__home_kitchen__PowerSwitch__S8_C6__PowerStateService"
             }
           ]
         }
@@ -44,12 +45,12 @@
         "meta_config": {
           "entry": [
             {
-              "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_1046__home_control__PowerSwitch__S8_C6__PowerStateService"
-            },
-            {
               "key": "OPENHAB_BINDING_CONFIG",
               "value": "5/1/174+5/1/182"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_1046__home_kitchen__PowerSwitch__S8_C6__PowerStateService"
             }
           ]
         }
