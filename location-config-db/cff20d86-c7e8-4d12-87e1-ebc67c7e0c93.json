@@ -185,6 +185,31 @@
         "pattern": "OPERATION",
         "meta_config": {}
       }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "cff20d86-c7e8-4d12-87e1-ebc67c7e0c93",
+      "service_template": {
+        "type": "ILLUMINANCE_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "cff20d86-c7e8-4d12-87e1-ebc67c7e0c93",
+      "service_template": {
+        "type": "BRIGHTNESS_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "cff20d86-c7e8-4d12-87e1-ebc67c7e0c93",
+      "service_template": {
+        "type": "BRIGHTNESS_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
     }
   ],
   "meta_config": {},
