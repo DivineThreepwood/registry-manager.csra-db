@@ -1,9 +1,9 @@
 {
   "id": "b796252c-cbf4-4d7b-b855-8e303901b0b0",
-  "unit_template_config_id": "Fibaro_FGMS-001_BRIGHTNESS_SENSOR_0",
+  "unit_template_config_id": "Fibaro_FGMS-001_LIGHT_SENSOR_0",
   "label": "Entrance",
   "unit_host_id": "f4156b97-7afd-45c7-b57c-b81d09b2a4de",
-  "type": "BRIGHTNESS_SENSOR",
+  "type": "LIGHT_SENSOR",
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
     "transformation_frame_id": "Control_Entrance",
@@ -25,7 +25,7 @@
     "component": [
       "home",
       "control",
-      "brightnesssensor",
+      "lightsensor",
       "entrance"
     ]
   },
@@ -38,14 +38,14 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Fibaro_MotionSensor__home_control__BrightnessSensor__Entrance__BrightnessStateService"
+              "value": "Fibaro_MotionSensor__home_control__LightSensor__Entrance__IlluminanceStateService"
             }
           ]
         }
       },
       "unit_id": "b796252c-cbf4-4d7b-b855-8e303901b0b0",
       "service_template": {
-        "type": "BRIGHTNESS_STATE_SERVICE",
+        "type": "ILLUMINANCE_STATE_SERVICE",
         "pattern": "PROVIDER"
       },
       "meta_config": {}
