@@ -19,7 +19,8 @@
         "qy": 0.0,
         "qz": 0.0
       }
-    }
+    },
+    "shape": {}
   },
   "scope": {
     "component": [
@@ -30,6 +31,7 @@
       "button_3"
     ]
   },
+  "description": "Dining Light On",
   "bound_to_unit_host": true,
   "service_config": [
     {
@@ -39,7 +41,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_CONFIG",
-              "value": "2/3/2"
+              "value": "2/0/22"
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
@@ -51,7 +53,8 @@
       "unit_id": "045b1d5c-1109-43e6-b5f6-dcf2b0b2ffdc",
       "service_template": {
         "type": "BUTTON_STATE_SERVICE",
-        "pattern": "PROVIDER"
+        "pattern": "PROVIDER",
+        "meta_config": {}
       },
       "meta_config": {}
     }

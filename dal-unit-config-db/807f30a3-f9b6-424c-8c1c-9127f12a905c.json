@@ -6,7 +6,7 @@
   "type": "BUTTON",
   "placement_config": {
     "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
-    "transformation_frame_id": "Dining_KitchenLight",
+    "transformation_frame_id": "KitchenLight",
     "position": {
       "translation": {
         "x": 0.0,
