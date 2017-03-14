@@ -151,6 +151,73 @@
         "pattern": "PROVIDER",
         "meta_config": {}
       }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+      "service_template": {
+        "type": "SMOKE_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+      "service_template": {
+        "type": "STANDBY_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+      "service_template": {
+        "type": "STANDBY_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+      "service_template": {
+        "type": "TARGET_TEMPERATURE_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+      "service_template": {
+        "type": "TARGET_TEMPERATURE_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+      "service_template": {
+        "type": "ILLUMINANCE_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+      "service_template": {
+        "type": "BRIGHTNESS_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+      "service_template": {
+        "type": "BRIGHTNESS_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
     }
   ],
   "enabling_state": {
