@@ -1,9 +1,9 @@
 {
   "id": "c14c2888-08a2-4341-846e-668924214e70",
-  "unit_template_config_id": "Fibaro_FGMS-001_BRIGHTNESS_SENSOR_0",
+  "unit_template_config_id": "Fibaro_FGMS-001_LIGHT_SENSOR_0",
   "label": "Entrance",
   "unit_host_id": "e955c2bf-a999-4edc-828b-faebf88237b9",
-  "type": "BRIGHTNESS_SENSOR",
+  "type": "LIGHT_SENSOR",
   "placement_config": {
     "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
     "transformation_frame_id": "Bath_Entrance",
@@ -25,7 +25,7 @@
     "component": [
       "home",
       "bath",
-      "brightnesssensor",
+      "lightsensor",
       "entrance"
     ]
   },
@@ -38,14 +38,14 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Fibaro_MotionSensor__home_bath__BrightnessSensor__Entrance__BrightnessStateService"
+              "value": "Fibaro_MotionSensor__home_bath__LightSensor__Entrance__IlluminanceStateService"
             }
           ]
         }
       },
       "unit_id": "c14c2888-08a2-4341-846e-668924214e70",
       "service_template": {
-        "type": "BRIGHTNESS_STATE_SERVICE",
+        "type": "ILLUMINANCE_STATE_SERVICE",
         "pattern": "PROVIDER"
       },
       "meta_config": {}

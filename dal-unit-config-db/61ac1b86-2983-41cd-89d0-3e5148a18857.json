@@ -1,9 +1,9 @@
 {
   "id": "61ac1b86-2983-41cd-89d0-3e5148a18857",
-  "unit_template_config_id": "Fibaro_FGMS-001_BRIGHTNESS_SENSOR_0",
+  "unit_template_config_id": "Fibaro_FGMS-001_LIGHT_SENSOR_0",
   "label": "Pathway",
   "unit_host_id": "35ac10cc-364a-464f-bcac-0dba69b42ff7",
-  "type": "BRIGHTNESS_SENSOR",
+  "type": "LIGHT_SENSOR",
   "placement_config": {
     "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
     "transformation_frame_id": "Sports_Pathway",
@@ -25,7 +25,7 @@
     "component": [
       "home",
       "sports",
-      "brightnesssensor",
+      "lightsensor",
       "pathway"
     ]
   },
@@ -38,14 +38,14 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Fibaro_MotionSensor__home_sports__BrightnessSensor__Pathway__BrightnessStateService"
+              "value": "Fibaro_MotionSensor__home_sports__LightSensor__Pathway__IlluminanceStateService"
             }
           ]
         }
       },
       "unit_id": "61ac1b86-2983-41cd-89d0-3e5148a18857",
       "service_template": {
-        "type": "BRIGHTNESS_STATE_SERVICE",
+        "type": "ILLUMINANCE_STATE_SERVICE",
         "pattern": "PROVIDER"
       },
       "meta_config": {}
