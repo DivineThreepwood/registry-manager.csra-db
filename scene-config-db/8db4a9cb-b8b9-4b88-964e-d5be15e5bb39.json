@@ -1,0 +1,38 @@
+{
+  "id": "8db4a9cb-b8b9-4b88-964e-d5be15e5bb39",
+  "label": "Reading",
+  "type": "SCENE",
+  "placement_config": {
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d"
+  },
+  "scope": {
+    "component": [
+      "home",
+      "scene",
+      "reading"
+    ]
+  },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "8db4a9cb-b8b9-4b88-964e-d5be15e5bb39",
+      "service_template": {
+        "type": "ACTIVATION_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "8db4a9cb-b8b9-4b88-964e-d5be15e5bb39",
+      "service_template": {
+        "type": "ACTIVATION_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "scene_config": {}
+}

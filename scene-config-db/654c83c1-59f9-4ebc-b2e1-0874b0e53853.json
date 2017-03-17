@@ -1,0 +1,64 @@
+{
+  "id": "654c83c1-59f9-4ebc-b2e1-0874b0e53853",
+  "label": "Standby",
+  "type": "SCENE",
+  "placement_config": {
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "scene",
+      "standby"
+    ]
+  },
+  "service_config": [
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "654c83c1-59f9-4ebc-b2e1-0874b0e53853",
+      "service_template": {
+        "type": "ACTIVATION_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "654c83c1-59f9-4ebc-b2e1-0874b0e53853",
+      "service_template": {
+        "type": "ACTIVATION_STATE_SERVICE",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "scene_config": {
+    "action_config": [
+      {
+        "meta_config": {},
+        "action_authority": {
+          "authority": "USER"
+        },
+        "action_priority": {
+          "priority": "NORMAL"
+        },
+        "execution_time": {},
+        "execution_validity": {},
+        "unit_id": "71c8c69e-67d7-4d26-98dc-ab725940d092",
+        "service_type": "ACTIVATION_STATE_SERVICE",
+        "service_attribute": "{\"value\": \"ACTIVATE\"}",
+        "service_attribute_type": "rst.domotic.state.ActivationStateType$ActivationState"
+      }
+    ]
+  }
+}

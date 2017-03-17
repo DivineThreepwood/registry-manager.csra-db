@@ -19,7 +19,8 @@
         "qy": 0.0,
         "qz": 0.0
       }
-    }
+    },
+    "shape": {}
   },
   "scope": {
     "component": [
@@ -46,7 +47,8 @@
       "unit_id": "d717561e-aa99-4bb0-9969-e68f4f5624a7",
       "service_template": {
         "type": "BRIGHTNESS_STATE_SERVICE",
-        "pattern": "PROVIDER"
+        "pattern": "PROVIDER",
+        "meta_config": {}
       },
       "meta_config": {}
     },
@@ -65,7 +67,8 @@
       "unit_id": "d717561e-aa99-4bb0-9969-e68f4f5624a7",
       "service_template": {
         "type": "BRIGHTNESS_STATE_SERVICE",
-        "pattern": "OPERATION"
+        "pattern": "OPERATION",
+        "meta_config": {}
       },
       "meta_config": {}
     },
@@ -84,7 +87,8 @@
       "unit_id": "d717561e-aa99-4bb0-9969-e68f4f5624a7",
       "service_template": {
         "type": "COLOR_STATE_SERVICE",
-        "pattern": "PROVIDER"
+        "pattern": "PROVIDER",
+        "meta_config": {}
       },
       "meta_config": {}
     },
@@ -103,7 +107,8 @@
       "unit_id": "d717561e-aa99-4bb0-9969-e68f4f5624a7",
       "service_template": {
         "type": "COLOR_STATE_SERVICE",
-        "pattern": "OPERATION"
+        "pattern": "OPERATION",
+        "meta_config": {}
       },
       "meta_config": {}
     },
@@ -122,7 +127,8 @@
       "unit_id": "d717561e-aa99-4bb0-9969-e68f4f5624a7",
       "service_template": {
         "type": "POWER_STATE_SERVICE",
-        "pattern": "PROVIDER"
+        "pattern": "PROVIDER",
+        "meta_config": {}
       },
       "meta_config": {}
     },
@@ -141,7 +147,8 @@
       "unit_id": "d717561e-aa99-4bb0-9969-e68f4f5624a7",
       "service_template": {
         "type": "POWER_STATE_SERVICE",
-        "pattern": "OPERATION"
+        "pattern": "OPERATION",
+        "meta_config": {}
       },
       "meta_config": {}
     }

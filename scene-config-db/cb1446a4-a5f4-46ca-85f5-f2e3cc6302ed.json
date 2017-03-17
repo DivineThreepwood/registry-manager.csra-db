@@ -1,0 +1,38 @@
+{
+  "id": "cb1446a4-a5f4-46ca-85f5-f2e3cc6302ed",
+  "label": "Entertainment",
+  "type": "SCENE",
+  "placement_config": {
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d"
+  },
+  "scope": {
+    "component": [
+      "home",
+      "scene",
+      "entertainment"
+    ]
+  },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "cb1446a4-a5f4-46ca-85f5-f2e3cc6302ed",
+      "service_template": {
+        "type": "ACTIVATION_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "cb1446a4-a5f4-46ca-85f5-f2e3cc6302ed",
+      "service_template": {
+        "type": "ACTIVATION_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "scene_config": {}
+}

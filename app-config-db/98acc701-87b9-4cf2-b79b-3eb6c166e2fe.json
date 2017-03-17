@@ -1,0 +1,45 @@
+{
+  "id": "98acc701-87b9-4cf2-b79b-3eb6c166e2fe",
+  "label": "PartyLightFollower",
+  "type": "APP",
+  "placement_config": {
+    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "kitchen",
+      "app",
+      "partylighttilefollower",
+      "partylightfollower"
+    ]
+  },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "98acc701-87b9-4cf2-b79b-3eb6c166e2fe",
+      "service_template": {
+        "type": "ACTIVATION_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "98acc701-87b9-4cf2-b79b-3eb6c166e2fe",
+      "service_template": {
+        "type": "ACTIVATION_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "app_config": {
+    "app_class_id": "4a8f3d3e-dda1-45c6-b0e8-5d437cdb9e42",
+    "autostart": false
+  }
+}

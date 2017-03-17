@@ -1,0 +1,38 @@
+{
+  "id": "af53fd13-5f64-4bff-a716-ea45c4f990c3",
+  "label": "Reception",
+  "type": "SCENE",
+  "placement_config": {
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d"
+  },
+  "scope": {
+    "component": [
+      "home",
+      "scene",
+      "reception"
+    ]
+  },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "af53fd13-5f64-4bff-a716-ea45c4f990c3",
+      "service_template": {
+        "type": "ACTIVATION_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "af53fd13-5f64-4bff-a716-ea45c4f990c3",
+      "service_template": {
+        "type": "ACTIVATION_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "scene_config": {}
+}

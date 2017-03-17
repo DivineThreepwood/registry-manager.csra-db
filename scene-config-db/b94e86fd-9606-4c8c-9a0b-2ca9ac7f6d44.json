@@ -1,0 +1,38 @@
+{
+  "id": "b94e86fd-9606-4c8c-9a0b-2ca9ac7f6d44",
+  "label": "Dinner",
+  "type": "SCENE",
+  "placement_config": {
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d"
+  },
+  "scope": {
+    "component": [
+      "home",
+      "scene",
+      "dinner"
+    ]
+  },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "b94e86fd-9606-4c8c-9a0b-2ca9ac7f6d44",
+      "service_template": {
+        "type": "ACTIVATION_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "b94e86fd-9606-4c8c-9a0b-2ca9ac7f6d44",
+      "service_template": {
+        "type": "ACTIVATION_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "scene_config": {}
+}

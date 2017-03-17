@@ -1,0 +1,38 @@
+{
+  "id": "6ca3001f-5265-437a-b9d6-ab032d5e0372",
+  "label": "Leaving",
+  "type": "SCENE",
+  "placement_config": {
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d"
+  },
+  "scope": {
+    "component": [
+      "home",
+      "scene",
+      "leaving"
+    ]
+  },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "6ca3001f-5265-437a-b9d6-ab032d5e0372",
+      "service_template": {
+        "type": "ACTIVATION_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "6ca3001f-5265-437a-b9d6-ab032d5e0372",
+      "service_template": {
+        "type": "ACTIVATION_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "scene_config": {}
+}

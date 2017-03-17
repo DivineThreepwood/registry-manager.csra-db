@@ -1,0 +1,38 @@
+{
+  "id": "a56d44a7-c798-44e2-a2b6-65cf41e69daf",
+  "label": "Default",
+  "type": "SCENE",
+  "placement_config": {
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d"
+  },
+  "scope": {
+    "component": [
+      "home",
+      "scene",
+      "default"
+    ]
+  },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "a56d44a7-c798-44e2-a2b6-65cf41e69daf",
+      "service_template": {
+        "type": "ACTIVATION_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "a56d44a7-c798-44e2-a2b6-65cf41e69daf",
+      "service_template": {
+        "type": "ACTIVATION_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "scene_config": {}
+}
