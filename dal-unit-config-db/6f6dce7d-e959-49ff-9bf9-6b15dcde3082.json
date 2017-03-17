@@ -1,22 +1,24 @@
 {
   "id": "6f6dce7d-e959-49ff-9bf9-6b15dcde3082",
   "unit_template_config_id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_SWITCH_3",
-  "label": "S7_C4",
+  "label": "TV",
   "unit_host_id": "cd51b92f-3429-4666-8418-079f81af4ecb",
   "type": "POWER_SWITCH",
   "placement_config": {
-    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
-    "transformation_frame_id": "S7_C4",
+    "location_id": "eb89de19-36db-4f26-b8a5-a75df850892e",
+    "transformation_frame_id": "TV",
     "shape": {}
   },
   "scope": {
     "component": [
       "home",
-      "control",
+      "living",
+      "hometheater",
       "powerswitch",
-      "s7_c4"
+      "tv"
     ]
   },
+  "description": "S7_C4",
   "bound_to_unit_host": false,
   "service_config": [
     {
@@ -26,7 +28,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_1046__home_control__PowerSwitch__S7_C4__PowerStateService"
+              "value": "Gira_1046__home_living_hometheater__PowerSwitch__TV__PowerStateService"
             }
           ]
         }
@@ -44,12 +46,12 @@
         "meta_config": {
           "entry": [
             {
-              "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_1046__home_control__PowerSwitch__S7_C4__PowerStateService"
-            },
-            {
               "key": "OPENHAB_BINDING_CONFIG",
               "value": "5/1/148+5/1/156"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_1046__home_living_hometheater__PowerSwitch__TV__PowerStateService"
             }
           ]
         }
@@ -63,7 +65,14 @@
       "meta_config": {}
     }
   ],
-  "meta_config": {},
+  "meta_config": {
+    "entry": [
+      {
+        "key": "INFRASTUCTURE",
+        "value": "false"
+      }
+    ]
+  },
   "enabling_state": {
     "value": "ENABLED"
   }

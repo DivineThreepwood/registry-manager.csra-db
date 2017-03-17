@@ -3,7 +3,8 @@
   "label": "LightsOff",
   "type": "SCENE",
   "placement_config": {
-    "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6"
+    "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+    "shape": {}
   },
   "scope": {
     "component": [
@@ -15,40 +16,35 @@
   },
   "service_config": [
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "fcae8836-9f55-403d-9bdd-0173b8edd943",
       "service_template": {
         "type": "ACTIVATION_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     },
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "fcae8836-9f55-403d-9bdd-0173b8edd943",
       "service_template": {
         "type": "ACTIVATION_STATE_SERVICE",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     }
   ],
+  "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"
   },
   "scene_config": {
     "action_config": [
-      {
-        "action_authority": {
-          "authority": "USER"
-        },
-        "action_priority": {
-          "priority": "NORMAL"
-        },
-        "unit_id": "acfc8c85-b647-4666-bc00-a83386f5db82",
-        "service_type": "POWER_STATE_SERVICE",
-        "service_attribute": "{\"value\": \"OFF\"}",
-        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState"
-      },
       {
         "action_authority": {
           "authority": "USER"

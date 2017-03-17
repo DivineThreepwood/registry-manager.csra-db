@@ -1,6 +1,6 @@
 {
-  "id": "71c8c69e-67d7-4d26-98dc-ab725940d092",
-  "label": "AllOff",
+  "id": "fb9c22b8-1d58-44f6-867b-abb98f6911fd",
+  "label": "Reset",
   "type": "SCENE",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
@@ -10,7 +10,7 @@
     "component": [
       "home",
       "scene",
-      "alloff"
+      "reset"
     ]
   },
   "service_config": [
@@ -18,7 +18,7 @@
       "binding_config": {
         "meta_config": {}
       },
-      "unit_id": "71c8c69e-67d7-4d26-98dc-ab725940d092",
+      "unit_id": "fb9c22b8-1d58-44f6-867b-abb98f6911fd",
       "service_template": {
         "type": "ACTIVATION_STATE_SERVICE",
         "pattern": "OPERATION",
@@ -30,7 +30,7 @@
       "binding_config": {
         "meta_config": {}
       },
-      "unit_id": "71c8c69e-67d7-4d26-98dc-ab725940d092",
+      "unit_id": "fb9c22b8-1d58-44f6-867b-abb98f6911fd",
       "service_template": {
         "type": "ACTIVATION_STATE_SERVICE",
         "meta_config": {}
@@ -45,16 +45,19 @@
   "scene_config": {
     "action_config": [
       {
+        "meta_config": {},
         "action_authority": {
           "authority": "USER"
         },
         "action_priority": {
           "priority": "NORMAL"
         },
-        "unit_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
-        "service_type": "POWER_STATE_SERVICE",
-        "service_attribute": "{\"value\": \"OFF\",\"timestamp\": {\"time\": 0}}",
-        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState"
+        "execution_time": {},
+        "execution_validity": {},
+        "unit_id": "a56d44a7-c798-44e2-a2b6-65cf41e69daf",
+        "service_type": "ACTIVATION_STATE_SERVICE",
+        "service_attribute": "{\"value\": \"ACTIVE\"}",
+        "service_attribute_type": "rst.domotic.state.ActivationStateType$ActivationState"
       }
     ]
   }

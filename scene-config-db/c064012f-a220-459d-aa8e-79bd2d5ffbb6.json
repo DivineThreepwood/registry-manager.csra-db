@@ -1,6 +1,6 @@
 {
-  "id": "a56d44a7-c798-44e2-a2b6-65cf41e69daf",
-  "label": "Default",
+  "id": "c064012f-a220-459d-aa8e-79bd2d5ffbb6",
+  "label": "Cleanup",
   "type": "SCENE",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d"
@@ -9,13 +9,13 @@
     "component": [
       "home",
       "scene",
-      "default"
+      "cleanup"
     ]
   },
   "service_config": [
     {
       "binding_config": {},
-      "unit_id": "a56d44a7-c798-44e2-a2b6-65cf41e69daf",
+      "unit_id": "c064012f-a220-459d-aa8e-79bd2d5ffbb6",
       "service_template": {
         "type": "ACTIVATION_STATE_SERVICE",
         "pattern": "OPERATION",
@@ -24,7 +24,7 @@
     },
     {
       "binding_config": {},
-      "unit_id": "a56d44a7-c798-44e2-a2b6-65cf41e69daf",
+      "unit_id": "c064012f-a220-459d-aa8e-79bd2d5ffbb6",
       "service_template": {
         "type": "ACTIVATION_STATE_SERVICE",
         "meta_config": {}
@@ -43,21 +43,9 @@
         "action_priority": {
           "priority": "NORMAL"
         },
-        "unit_id": "98acc701-87b9-4cf2-b79b-3eb6c166e2fe",
-        "service_type": "ACTIVATION_STATE_SERVICE",
-        "service_attribute": "{\"value\": \"DEACTIVE\"}",
-        "service_attribute_type": "rst.domotic.state.ActivationStateType$ActivationState"
-      },
-      {
-        "action_authority": {
-          "authority": "USER"
-        },
-        "action_priority": {
-          "priority": "NORMAL"
-        },
-        "unit_id": "cff20d86-c7e8-4d12-87e1-ebc67c7e0c93",
+        "unit_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
         "service_type": "COLOR_STATE_SERVICE",
-        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 0.0,\"saturation\": 0.0,\"brightness\": 0.0}},\"timestamp\": {\"time\": 0}}",
+        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 0.0,\"saturation\": 0.0,\"brightness\": 100.0}},\"timestamp\": {\"time\": 0}}",
         "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState"
       }
     ]

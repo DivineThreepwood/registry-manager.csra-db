@@ -1,0 +1,107 @@
+{
+  "id": "2c95255e-a491-46d7-a6a6-f66d5e6c2d3b",
+  "label": "Handle Group",
+  "type": "UNIT_GROUP",
+  "placement_config": {
+    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "kitchen",
+      "unitgroup",
+      "handle_group"
+    ]
+  },
+  "description": "This group condenses all handles.",
+  "service_config": [
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "2c95255e-a491-46d7-a6a6-f66d5e6c2d3b",
+      "service_template": {
+        "type": "COLOR_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "2c95255e-a491-46d7-a6a6-f66d5e6c2d3b",
+      "service_template": {
+        "type": "COLOR_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {},
+      "unit_id": "2c95255e-a491-46d7-a6a6-f66d5e6c2d3b",
+      "service_template": {
+        "type": "POWER_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "2c95255e-a491-46d7-a6a6-f66d5e6c2d3b",
+      "service_template": {
+        "type": "POWER_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "unit_group_config": {
+    "member_id": [
+      "56d96b1e-e9d6-4682-a105-fa4e12b129fe",
+      "72ad4c6b-80f7-431a-bf2e-31ff58066426",
+      "e83686fd-99bc-44a0-9170-e6166598a95c",
+      "79c495a1-cb54-4eb8-9047-f09a3b97b720",
+      "6a347801-c3e6-4893-a841-9b8d3577abfa"
+    ],
+    "unit_type": "COLORABLE_LIGHT",
+    "service_template": [
+      {
+        "type": "BRIGHTNESS_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
+      },
+      {
+        "type": "BRIGHTNESS_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      },
+      {
+        "type": "COLOR_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
+      },
+      {
+        "type": "COLOR_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      },
+      {
+        "type": "POWER_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
+      },
+      {
+        "type": "POWER_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    ]
+  }
+}

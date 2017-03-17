@@ -5,7 +5,7 @@
   "unit_host_id": "a59461bb-9656-4c31-aa96-08dc193e3e3b",
   "type": "COLORABLE_LIGHT",
   "placement_config": {
-    "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
     "transformation_frame_id": "LLampEntrance2",
     "position": {
       "translation": {
@@ -25,7 +25,7 @@
   "scope": {
     "component": [
       "home",
-      "sports",
+      "control",
       "colorablelight",
       "llampentrance2"
     ]
@@ -39,7 +39,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27__home_sports__ColorableLight__LLampEntrance2__BrightnessStateService"
+              "value": "Philips_Hue_E27__home_control__ColorableLight__LLampEntrance2__BrightnessStateService"
             }
           ]
         }
@@ -59,7 +59,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27__home_sports__ColorableLight__LLampEntrance2__BrightnessStateService"
+              "value": "Philips_Hue_E27__home_control__ColorableLight__LLampEntrance2__BrightnessStateService"
             }
           ]
         }
@@ -79,7 +79,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27__home_sports__ColorableLight__LLampEntrance2__ColorStateService"
+              "value": "Philips_Hue_E27__home_control__ColorableLight__LLampEntrance2__ColorStateService"
             }
           ]
         }
@@ -99,7 +99,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27__home_sports__ColorableLight__LLampEntrance2__ColorStateService"
+              "value": "Philips_Hue_E27__home_control__ColorableLight__LLampEntrance2__ColorStateService"
             }
           ]
         }
@@ -119,7 +119,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27__home_sports__ColorableLight__LLampEntrance2__PowerStateService"
+              "value": "Philips_Hue_E27__home_control__ColorableLight__LLampEntrance2__PowerStateService"
             }
           ]
         }
@@ -139,7 +139,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27__home_sports__ColorableLight__LLampEntrance2__PowerStateService"
+              "value": "Philips_Hue_E27__home_control__ColorableLight__LLampEntrance2__PowerStateService"
             }
           ]
         }

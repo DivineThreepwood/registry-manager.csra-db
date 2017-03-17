@@ -34,5 +34,20 @@
   "enabling_state": {
     "value": "ENABLED"
   },
-  "scene_config": {}
+  "scene_config": {
+    "action_config": [
+      {
+        "action_authority": {
+          "authority": "USER"
+        },
+        "action_priority": {
+          "priority": "NORMAL"
+        },
+        "unit_id": "c752e066-b9ed-46cd-94e8-3b33004894c7",
+        "service_type": "POWER_STATE_SERVICE",
+        "service_attribute": "{\"value\": \"ON\"}",
+        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState"
+      }
+    ]
+  }
 }

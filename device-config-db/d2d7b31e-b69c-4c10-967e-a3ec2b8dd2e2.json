@@ -3,7 +3,7 @@
   "label": "LLampEntrance6",
   "type": "DEVICE",
   "placement_config": {
-    "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
     "transformation_frame_id": "LLampEntrance6",
     "position": {
       "translation": {
@@ -17,12 +17,13 @@
         "qy": 0.0,
         "qz": 0.0
       }
-    }
+    },
+    "shape": {}
   },
   "scope": {
     "component": [
       "home",
-      "sports",
+      "control",
       "device",
       "llampentrance6"
     ]
@@ -43,7 +44,7 @@
     "serial_number": "E8FF8F",
     "inventory_state": {
       "value": "INSTALLED",
-      "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+      "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
       "timestamp": {
         "time": 1441016453612
       },
