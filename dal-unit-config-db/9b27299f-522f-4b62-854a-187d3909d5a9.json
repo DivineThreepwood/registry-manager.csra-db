@@ -42,14 +42,14 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__home_living__Dimmer__TableDimmer__IntensityStateService"
+              "value": "Hager_TYA663A__home_living__Dimmer__TableDimmer__BrightnessStateService"
             }
           ]
         }
       },
       "unit_id": "9b27299f-522f-4b62-854a-187d3909d5a9",
       "service_template": {
-        "type": "INTENSITY_STATE_SERVICE",
+        "type": "BRIGHTNESS_STATE_SERVICE",
         "pattern": "PROVIDER"
       },
       "meta_config": {}
@@ -65,14 +65,14 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__home_living__Dimmer__TableDimmer__IntensityStateService"
+              "value": "Hager_TYA663A__home_living__Dimmer__TableDimmer__BrightnessStateService"
             }
           ]
         }
       },
       "unit_id": "9b27299f-522f-4b62-854a-187d3909d5a9",
       "service_template": {
-        "type": "INTENSITY_STATE_SERVICE",
+        "type": "BRIGHTNESS_STATE_SERVICE",
         "pattern": "OPERATION"
       },
       "meta_config": {}

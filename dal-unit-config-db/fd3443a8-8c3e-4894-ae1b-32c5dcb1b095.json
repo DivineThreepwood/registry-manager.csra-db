@@ -42,14 +42,14 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__home_sports__Dimmer__RightDimmer__IntensityStateService"
+              "value": "Hager_TYA663A__home_sports__Dimmer__RightDimmer__BrightnessStateService"
             }
           ]
         }
       },
       "unit_id": "fd3443a8-8c3e-4894-ae1b-32c5dcb1b095",
       "service_template": {
-        "type": "INTENSITY_STATE_SERVICE",
+        "type": "BRIGHTNESS_STATE_SERVICE",
         "pattern": "PROVIDER"
       },
       "meta_config": {}
@@ -65,14 +65,14 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__home_sports__Dimmer__RightDimmer__IntensityStateService"
+              "value": "Hager_TYA663A__home_sports__Dimmer__RightDimmer__BrightnessStateService"
             }
           ]
         }
       },
       "unit_id": "fd3443a8-8c3e-4894-ae1b-32c5dcb1b095",
       "service_template": {
-        "type": "INTENSITY_STATE_SERVICE",
+        "type": "BRIGHTNESS_STATE_SERVICE",
         "pattern": "OPERATION"
       },
       "meta_config": {}

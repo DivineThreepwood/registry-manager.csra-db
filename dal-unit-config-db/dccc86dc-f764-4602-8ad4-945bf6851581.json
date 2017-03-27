@@ -42,14 +42,14 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__home_living__Dimmer__LeftDimmer__IntensityStateService"
+              "value": "Hager_TYA663A__home_living__Dimmer__LeftDimmer__BrightnessStateService"
             }
           ]
         }
       },
       "unit_id": "dccc86dc-f764-4602-8ad4-945bf6851581",
       "service_template": {
-        "type": "INTENSITY_STATE_SERVICE",
+        "type": "BRIGHTNESS_STATE_SERVICE",
         "pattern": "PROVIDER"
       },
       "meta_config": {}
@@ -65,14 +65,14 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__home_living__Dimmer__LeftDimmer__IntensityStateService"
+              "value": "Hager_TYA663A__home_living__Dimmer__LeftDimmer__BrightnessStateService"
             }
           ]
         }
       },
       "unit_id": "dccc86dc-f764-4602-8ad4-945bf6851581",
       "service_template": {
-        "type": "INTENSITY_STATE_SERVICE",
+        "type": "BRIGHTNESS_STATE_SERVICE",
         "pattern": "OPERATION"
       },
       "meta_config": {}
