@@ -3,7 +3,8 @@
   "label": "Demo",
   "type": "SCENE",
   "placement_config": {
-    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d"
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+    "shape": {}
   },
   "scope": {
     "component": [
@@ -14,25 +15,65 @@
   },
   "service_config": [
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "128e14b3-b814-444b-8fa9-db3206c29807",
       "service_template": {
         "type": "ACTIVATION_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     },
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "128e14b3-b814-444b-8fa9-db3206c29807",
       "service_template": {
         "type": "ACTIVATION_STATE_SERVICE",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     }
   ],
+  "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"
   },
-  "scene_config": {}
+  "scene_config": {
+    "action_config": [
+      {
+        "meta_config": {},
+        "action_authority": {
+          "authority": "USER"
+        },
+        "action_priority": {
+          "priority": "NORMAL"
+        },
+        "execution_time": {},
+        "execution_validity": {},
+        "unit_id": "a56d44a7-c798-44e2-a2b6-65cf41e69daf",
+        "service_type": "ACTIVATION_STATE_SERVICE",
+        "service_attribute": "{\"value\": \"ACTIVE\"}",
+        "service_attribute_type": "rst.domotic.state.ActivationStateType$ActivationState"
+      },
+      {
+        "meta_config": {},
+        "action_authority": {
+          "authority": "USER"
+        },
+        "action_priority": {
+          "priority": "NORMAL"
+        },
+        "execution_time": {},
+        "execution_validity": {},
+        "unit_id": "6f6dce7d-e959-49ff-9bf9-6b15dcde3082",
+        "service_type": "POWER_STATE_SERVICE",
+        "service_attribute": "{\"value\": \"ON\"}",
+        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState"
+      }
+    ]
+  }
 }

@@ -1,0 +1,113 @@
+{
+  "id": "46352c4e-7bc5-4aff-909a-c73007861601",
+  "label": "Cozy",
+  "type": "SCENE",
+  "placement_config": {
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d"
+  },
+  "scope": {
+    "component": [
+      "home",
+      "scene",
+      "cozy"
+    ]
+  },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "46352c4e-7bc5-4aff-909a-c73007861601",
+      "service_template": {
+        "type": "ACTIVATION_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "46352c4e-7bc5-4aff-909a-c73007861601",
+      "service_template": {
+        "type": "ACTIVATION_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "scene_config": {
+    "action_config": [
+      {
+        "action_authority": {
+          "authority": "USER"
+        },
+        "action_priority": {
+          "priority": "NORMAL"
+        },
+        "unit_id": "932b4f48-59d9-474a-b83e-82c4218b5ecf",
+        "service_type": "COLOR_STATE_SERVICE",
+        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 255.0,\"saturation\": 100.0,\"brightness\": 80.0}}}",
+        "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState"
+      },
+      {
+        "action_authority": {
+          "authority": "USER"
+        },
+        "action_priority": {
+          "priority": "NORMAL"
+        },
+        "unit_id": "0b26889b-ff0a-4ba0-98ac-51a481c6b559",
+        "service_type": "COLOR_STATE_SERVICE",
+        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 100.0,\"brightness\": 100.0}}}",
+        "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState"
+      },
+      {
+        "action_authority": {
+          "authority": "USER"
+        },
+        "action_priority": {
+          "priority": "NORMAL"
+        },
+        "unit_id": "471470f4-2f37-4cef-9b6b-0299631b0690",
+        "service_type": "COLOR_STATE_SERVICE",
+        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 252.0,\"saturation\": 100.0,\"brightness\": 100.0}}}",
+        "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState"
+      },
+      {
+        "action_authority": {
+          "authority": "USER"
+        },
+        "action_priority": {
+          "priority": "NORMAL"
+        },
+        "unit_id": "fd3443a8-8c3e-4894-ae1b-32c5dcb1b095",
+        "service_type": "POWER_STATE_SERVICE",
+        "service_attribute": "{\"value\": \"OFF\"}",
+        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState"
+      },
+      {
+        "action_authority": {
+          "authority": "USER"
+        },
+        "action_priority": {
+          "priority": "NORMAL"
+        },
+        "unit_id": "fec3cb67-ab1a-4f5d-8ea3-7e3c5d68a287",
+        "service_type": "POWER_STATE_SERVICE",
+        "service_attribute": "{\"value\": \"OFF\"}",
+        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState"
+      },
+      {
+        "action_authority": {
+          "authority": "USER"
+        },
+        "action_priority": {
+          "priority": "NORMAL"
+        },
+        "unit_id": "80562845-b451-4f43-ab83-3236611c4c84",
+        "service_type": "COLOR_STATE_SERVICE",
+        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 80.0,\"brightness\": 100.0}}}",
+        "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState"
+      }
+    ]
+  }
+}

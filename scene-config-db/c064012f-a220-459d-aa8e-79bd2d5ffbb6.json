@@ -43,9 +43,9 @@
         "action_priority": {
           "priority": "NORMAL"
         },
-        "unit_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+        "unit_id": "70926b9f-916d-4718-9328-5f98bab5e8f2",
         "service_type": "COLOR_STATE_SERVICE",
-        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 0.0,\"saturation\": 0.0,\"brightness\": 100.0}},\"timestamp\": {\"time\": 0}}",
+        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 72.30769348144531,\"saturation\": 15.29411792755127,\"brightness\": 100.0}},\"timestamp\": {\"time\": 0}}",
         "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState"
       }
     ]

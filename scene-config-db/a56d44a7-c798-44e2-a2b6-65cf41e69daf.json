@@ -55,9 +55,21 @@
         "action_priority": {
           "priority": "NORMAL"
         },
-        "unit_id": "cff20d86-c7e8-4d12-87e1-ebc67c7e0c93",
+        "unit_id": "2c95255e-a491-46d7-a6a6-f66d5e6c2d3b",
+        "service_type": "POWER_STATE_SERVICE",
+        "service_attribute": "{\"value\": \"OFF\",\"timestamp\": {\"time\": 0}}",
+        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState"
+      },
+      {
+        "action_authority": {
+          "authority": "USER"
+        },
+        "action_priority": {
+          "priority": "NORMAL"
+        },
+        "unit_id": "70926b9f-916d-4718-9328-5f98bab5e8f2",
         "service_type": "COLOR_STATE_SERVICE",
-        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 0.0,\"saturation\": 0.0,\"brightness\": 0.0}},\"timestamp\": {\"time\": 0}}",
+        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 70.11235809326172,\"saturation\": 74.16666412353516,\"brightness\": 94.11764526367188}},\"timestamp\": {\"time\": 0}}",
         "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState"
       }
     ]

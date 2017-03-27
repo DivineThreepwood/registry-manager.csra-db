@@ -68,14 +68,7 @@
       "meta_config": {}
     }
   ],
-  "meta_config": {
-    "entry": [
-      {
-        "key": "INFRASTRUCTURE",
-        "value": "false"
-      }
-    ]
-  },
+  "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"
   }
