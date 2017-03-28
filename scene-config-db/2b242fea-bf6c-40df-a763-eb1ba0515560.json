@@ -34,5 +34,32 @@
   "enabling_state": {
     "value": "ENABLED"
   },
-  "scene_config": {}
+  "scene_config": {
+    "action_config": [
+      {
+        "action_authority": {
+          "authority": "USER"
+        },
+        "action_priority": {
+          "priority": "NORMAL"
+        },
+        "unit_id": "6f6dce7d-e959-49ff-9bf9-6b15dcde3082",
+        "service_type": "POWER_STATE_SERVICE",
+        "service_attribute": "{\"value\": \"ON\"}",
+        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState"
+      },
+      {
+        "action_authority": {
+          "authority": "USER"
+        },
+        "action_priority": {
+          "priority": "NORMAL"
+        },
+        "unit_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+        "service_type": "COLOR_STATE_SERVICE",
+        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 40.0,\"brightness\": 100.0}},\"timestamp\": {\"time\": 0}}",
+        "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState"
+      }
+    ]
+  }
 }

@@ -45,19 +45,28 @@
   "scene_config": {
     "action_config": [
       {
-        "meta_config": {},
         "action_authority": {
           "authority": "USER"
         },
         "action_priority": {
           "priority": "NORMAL"
         },
-        "execution_time": {},
-        "execution_validity": {},
-        "unit_id": "71c8c69e-67d7-4d26-98dc-ab725940d092",
-        "service_type": "ACTIVATION_STATE_SERVICE",
-        "service_attribute": "{\"value\": \"ACTIVATE\"}",
-        "service_attribute_type": "rst.domotic.state.ActivationStateType$ActivationState"
+        "unit_id": "6f6dce7d-e959-49ff-9bf9-6b15dcde3082",
+        "service_type": "POWER_STATE_SERVICE",
+        "service_attribute": "{\"value\": \"OFF\"}",
+        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState"
+      },
+      {
+        "action_authority": {
+          "authority": "USER"
+        },
+        "action_priority": {
+          "priority": "NORMAL"
+        },
+        "unit_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+        "service_type": "POWER_STATE_SERVICE",
+        "service_attribute": "{\"value\": \"OFF\",\"timestamp\": {\"time\": 0}}",
+        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState"
       }
     ]
   }

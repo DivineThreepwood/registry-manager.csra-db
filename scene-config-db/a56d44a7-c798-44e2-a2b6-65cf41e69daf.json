@@ -55,9 +55,9 @@
         "action_priority": {
           "priority": "NORMAL"
         },
-        "unit_id": "2c95255e-a491-46d7-a6a6-f66d5e6c2d3b",
+        "unit_id": "6f6dce7d-e959-49ff-9bf9-6b15dcde3082",
         "service_type": "POWER_STATE_SERVICE",
-        "service_attribute": "{\"value\": \"OFF\",\"timestamp\": {\"time\": 0}}",
+        "service_attribute": "{\"value\": \"ON\"}",
         "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState"
       },
       {
@@ -67,9 +67,9 @@
         "action_priority": {
           "priority": "NORMAL"
         },
-        "unit_id": "70926b9f-916d-4718-9328-5f98bab5e8f2",
+        "unit_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
         "service_type": "COLOR_STATE_SERVICE",
-        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 70.11235809326172,\"saturation\": 74.16666412353516,\"brightness\": 94.11764526367188}},\"timestamp\": {\"time\": 0}}",
+        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 85.16129302978516,\"saturation\": 72.94117736816406,\"brightness\": 100.0}},\"timestamp\": {\"time\": 0}}",
         "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState"
       }
     ]

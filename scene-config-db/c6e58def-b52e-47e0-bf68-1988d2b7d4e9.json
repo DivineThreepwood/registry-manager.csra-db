@@ -1,6 +1,6 @@
 {
-  "id": "c064012f-a220-459d-aa8e-79bd2d5ffbb6",
-  "label": "Cleanup",
+  "id": "c6e58def-b52e-47e0-bf68-1988d2b7d4e9",
+  "label": "Chill",
   "type": "SCENE",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d"
@@ -9,13 +9,13 @@
     "component": [
       "home",
       "scene",
-      "cleanup"
+      "chill"
     ]
   },
   "service_config": [
     {
       "binding_config": {},
-      "unit_id": "c064012f-a220-459d-aa8e-79bd2d5ffbb6",
+      "unit_id": "c6e58def-b52e-47e0-bf68-1988d2b7d4e9",
       "service_template": {
         "type": "ACTIVATION_STATE_SERVICE",
         "pattern": "OPERATION",
@@ -24,7 +24,7 @@
     },
     {
       "binding_config": {},
-      "unit_id": "c064012f-a220-459d-aa8e-79bd2d5ffbb6",
+      "unit_id": "c6e58def-b52e-47e0-bf68-1988d2b7d4e9",
       "service_template": {
         "type": "ACTIVATION_STATE_SERVICE",
         "meta_config": {}
@@ -43,9 +43,9 @@
         "action_priority": {
           "priority": "NORMAL"
         },
-        "unit_id": "70926b9f-916d-4718-9328-5f98bab5e8f2",
+        "unit_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "service_type": "COLOR_STATE_SERVICE",
-        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 72.30769348144531,\"saturation\": 15.29411792755127,\"brightness\": 100.0}},\"timestamp\": {\"time\": 0}}",
+        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 44.930233001708984,\"saturation\": 93.88646697998047,\"brightness\": 89.80392456054688}},\"timestamp\": {\"time\": 0}}",
         "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState"
       }
     ]

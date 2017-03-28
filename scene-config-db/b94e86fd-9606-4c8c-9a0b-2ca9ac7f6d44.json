@@ -3,11 +3,12 @@
   "label": "Dinner",
   "type": "SCENE",
   "placement_config": {
-    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d"
+    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001"
   },
   "scope": {
     "component": [
       "home",
+      "kitchen",
       "scene",
       "dinner"
     ]
@@ -36,30 +37,6 @@
   },
   "scene_config": {
     "action_config": [
-      {
-        "action_authority": {
-          "authority": "USER"
-        },
-        "action_priority": {
-          "priority": "NORMAL"
-        },
-        "unit_id": "cdfa87e9-1c07-40f7-9acc-9e349a81f619",
-        "service_type": "BRIGHTNESS_STATE_SERVICE",
-        "service_attribute": "{\"brightness\": 100.0}",
-        "service_attribute_type": "rst.domotic.state.BrightnessStateType$BrightnessState"
-      },
-      {
-        "action_authority": {
-          "authority": "USER"
-        },
-        "action_priority": {
-          "priority": "NORMAL"
-        },
-        "unit_id": "e0ed255a-21c1-4293-9283-f0ddc3aa242a",
-        "service_type": "BRIGHTNESS_STATE_SERVICE",
-        "service_attribute": "{\"brightness\": 100.0}",
-        "service_attribute_type": "rst.domotic.state.BrightnessStateType$BrightnessState"
-      },
       {
         "action_authority": {
           "authority": "USER"
@@ -105,7 +82,7 @@
         },
         "unit_id": "cdfa87e9-1c07-40f7-9acc-9e349a81f619",
         "service_type": "POWER_STATE_SERVICE",
-        "service_attribute": "{\"value\": \"OFF\"}",
+        "service_attribute": "{\"value\": \"ON\"}",
         "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState"
       },
       {
@@ -153,7 +130,7 @@
         },
         "unit_id": "cdfa87e9-1c07-40f7-9acc-9e349a81f619",
         "service_type": "COLOR_STATE_SERVICE",
-        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 80.0,\"brightness\": 100.0}}}",
+        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 45.0,\"saturation\": 80.0,\"brightness\": 100.0}}}",
         "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState"
       },
       {
@@ -165,7 +142,7 @@
         },
         "unit_id": "e0ed255a-21c1-4293-9283-f0ddc3aa242a",
         "service_type": "COLOR_STATE_SERVICE",
-        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 45.0,\"saturation\": 80.0,\"brightness\": 100.0}}}",
+        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 80.76923076923077,\"saturation\": 54.0,\"brightness\": 18.0}}}",
         "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState"
       },
       {
@@ -189,7 +166,7 @@
         },
         "unit_id": "e0ed255a-21c1-4293-9283-f0ddc3aa242a",
         "service_type": "POWER_STATE_SERVICE",
-        "service_attribute": "{\"value\": \"OFF\"}",
+        "service_attribute": "{\"value\": \"ON\"}",
         "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState"
       }
     ]
