@@ -17,6 +17,7 @@
       "s1_c3"
     ]
   },
+  "description": "",
   "bound_to_unit_host": false,
   "service_config": [
     {
@@ -44,12 +45,12 @@
         "meta_config": {
           "entry": [
             {
-              "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_1046__home_control__PowerSwitch__S1_C3__PowerStateService"
-            },
-            {
               "key": "OPENHAB_BINDING_CONFIG",
               "value": "5/1/2+5/1/10"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_1046__home_control__PowerSwitch__S1_C3__PowerStateService"
             }
           ]
         }

@@ -1,22 +1,23 @@
 {
   "id": "804542df-aebc-42cb-82ef-f03a97c96bf8",
   "unit_template_config_id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_SWITCH_1",
-  "label": "S4_C2",
+  "label": "BeleuchtungZwischendecke",
   "unit_host_id": "37a90769-5743-47fc-b843-3367bd531db9",
   "type": "POWER_SWITCH",
   "placement_config": {
-    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
-    "transformation_frame_id": "S4_C2",
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "transformation_frame_id": "BeleuchtungZwischendecke",
     "shape": {}
   },
   "scope": {
     "component": [
       "home",
-      "control",
+      "living",
       "powerswitch",
-      "s4_c2"
+      "beleuchtungzwischendecke"
     ]
   },
+  "description": "S4_C2",
   "bound_to_unit_host": false,
   "service_config": [
     {
@@ -26,7 +27,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_1046__home_control__PowerSwitch__S4_C2__PowerStateService"
+              "value": "Gira_1046__home_living__PowerSwitch__BeleuchtungZwischendecke__PowerStateService"
             }
           ]
         }
@@ -44,12 +45,12 @@
         "meta_config": {
           "entry": [
             {
-              "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_1046__home_control__PowerSwitch__S4_C2__PowerStateService"
-            },
-            {
               "key": "OPENHAB_BINDING_CONFIG",
               "value": "5/1/74+5/1/82"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_1046__home_living__PowerSwitch__BeleuchtungZwischendecke__PowerStateService"
             }
           ]
         }
