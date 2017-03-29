@@ -1,12 +1,12 @@
 {
   "id": "932b4f48-59d9-474a-b83e-82c4218b5ecf",
   "unit_template_config_id": "Philips_KV01-18U_COLORABLE_LIGHT_0",
-  "label": "SLampRight1",
+  "label": "Table Corner Lamp Bottom",
   "unit_host_id": "6bf6c556-1312-462f-baaf-447effcfd6b8",
   "type": "COLORABLE_LIGHT",
   "placement_config": {
     "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
-    "transformation_frame_id": "SLampRight1",
+    "transformation_frame_id": "Table_Corner_Lamp_Bottom",
     "position": {
       "translation": {
         "x": 0.0,
@@ -26,7 +26,7 @@
       "home",
       "sports",
       "colorablelight",
-      "slampright1"
+      "table_corner_lamp_bottom"
     ]
   },
   "bound_to_unit_host": true,
@@ -38,7 +38,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27__home_sports__ColorableLight__SLampRight1__BrightnessStateService"
+              "value": "Philips_Hue_E27__home_sports__ColorableLight__Table_Corner_Lamp_Bottom__BrightnessStateService"
             }
           ]
         }
@@ -57,7 +57,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27__home_sports__ColorableLight__SLampRight1__BrightnessStateService"
+              "value": "Philips_Hue_E27__home_sports__ColorableLight__Table_Corner_Lamp_Bottom__BrightnessStateService"
             }
           ]
         }
@@ -76,7 +76,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27__home_sports__ColorableLight__SLampRight1__ColorStateService"
+              "value": "Philips_Hue_E27__home_sports__ColorableLight__Table_Corner_Lamp_Bottom__ColorStateService"
             }
           ]
         }
@@ -95,7 +95,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27__home_sports__ColorableLight__SLampRight1__ColorStateService"
+              "value": "Philips_Hue_E27__home_sports__ColorableLight__Table_Corner_Lamp_Bottom__ColorStateService"
             }
           ]
         }
@@ -114,7 +114,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27__home_sports__ColorableLight__SLampRight1__PowerStateService"
+              "value": "Philips_Hue_E27__home_sports__ColorableLight__Table_Corner_Lamp_Bottom__PowerStateService"
             }
           ]
         }
@@ -133,7 +133,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27__home_sports__ColorableLight__SLampRight1__PowerStateService"
+              "value": "Philips_Hue_E27__home_sports__ColorableLight__Table_Corner_Lamp_Bottom__PowerStateService"
             }
           ]
         }

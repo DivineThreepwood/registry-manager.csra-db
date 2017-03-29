@@ -6,7 +6,7 @@
   "type": "COLORABLE_LIGHT",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "Living_SLampRight1",
+    "transformation_frame_id": "SLampRight1",
     "position": {
       "translation": {
         "x": 0.0,

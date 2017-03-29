@@ -1,10 +1,10 @@
 {
   "id": "6bf6c556-1312-462f-baaf-447effcfd6b8",
-  "label": "SLampRight1",
+  "label": "Table Corner Lamp Bottom",
   "type": "DEVICE",
   "placement_config": {
     "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
-    "transformation_frame_id": "SLampRight1",
+    "transformation_frame_id": "Table_Corner_Lamp_Bottom",
     "position": {
       "translation": {
         "x": 0.0,
@@ -17,14 +17,15 @@
         "qy": 0.0,
         "qz": 0.0
       }
-    }
+    },
+    "shape": {}
   },
   "scope": {
     "component": [
       "home",
       "sports",
       "device",
-      "slampright1"
+      "table_corner_lamp_bottom"
     ]
   },
   "bound_to_unit_host": true,
