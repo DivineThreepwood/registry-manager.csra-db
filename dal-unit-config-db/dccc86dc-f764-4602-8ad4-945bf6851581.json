@@ -1,12 +1,12 @@
 {
   "id": "dccc86dc-f764-4602-8ad4-945bf6851581",
   "unit_template_config_id": "Hager_TYA663A_DIMMER_2",
-  "label": "LeftDimmer",
+  "label": "CeilingCentralDimmer",
   "unit_host_id": "168952c1-1821-4aa6-b742-3d2213709d17",
   "type": "DIMMER",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "Living_LeftDimmer",
+    "transformation_frame_id": "CeilingCentralDimmer",
     "position": {
       "translation": {
         "x": 0.0,
@@ -19,14 +19,15 @@
         "qy": 0.0,
         "qz": 0.0
       }
-    }
+    },
+    "shape": {}
   },
   "scope": {
     "component": [
       "home",
       "living",
       "dimmer",
-      "leftdimmer"
+      "ceilingcentraldimmer"
     ]
   },
   "bound_to_unit_host": false,
@@ -42,7 +43,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__home_living__Dimmer__LeftDimmer__BrightnessStateService"
+              "value": "Hager_TYA663A__home_living__Dimmer__CeilingCentralDimmer__BrightnessStateService"
             }
           ]
         }
@@ -50,7 +51,8 @@
       "unit_id": "dccc86dc-f764-4602-8ad4-945bf6851581",
       "service_template": {
         "type": "BRIGHTNESS_STATE_SERVICE",
-        "pattern": "PROVIDER"
+        "pattern": "PROVIDER",
+        "meta_config": {}
       },
       "meta_config": {}
     },
@@ -65,7 +67,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__home_living__Dimmer__LeftDimmer__BrightnessStateService"
+              "value": "Hager_TYA663A__home_living__Dimmer__CeilingCentralDimmer__BrightnessStateService"
             }
           ]
         }
@@ -73,7 +75,8 @@
       "unit_id": "dccc86dc-f764-4602-8ad4-945bf6851581",
       "service_template": {
         "type": "BRIGHTNESS_STATE_SERVICE",
-        "pattern": "OPERATION"
+        "pattern": "OPERATION",
+        "meta_config": {}
       },
       "meta_config": {}
     },
@@ -88,7 +91,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__home_living__Dimmer__LeftDimmer__PowerStateService"
+              "value": "Hager_TYA663A__home_living__Dimmer__CeilingCentralDimmer__PowerStateService"
             }
           ]
         }
@@ -96,7 +99,8 @@
       "unit_id": "dccc86dc-f764-4602-8ad4-945bf6851581",
       "service_template": {
         "type": "POWER_STATE_SERVICE",
-        "pattern": "PROVIDER"
+        "pattern": "PROVIDER",
+        "meta_config": {}
       },
       "meta_config": {}
     },
@@ -111,7 +115,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__home_living__Dimmer__LeftDimmer__PowerStateService"
+              "value": "Hager_TYA663A__home_living__Dimmer__CeilingCentralDimmer__PowerStateService"
             }
           ]
         }
@@ -119,7 +123,8 @@
       "unit_id": "dccc86dc-f764-4602-8ad4-945bf6851581",
       "service_template": {
         "type": "POWER_STATE_SERVICE",
-        "pattern": "OPERATION"
+        "pattern": "OPERATION",
+        "meta_config": {}
       },
       "meta_config": {}
     }

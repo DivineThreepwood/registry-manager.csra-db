@@ -1,6 +1,6 @@
 {
   "id": "e4250019-2c88-4340-b0a0-8bea71cbe2ac",
-  "label": "MediaDimmerPowerStateSynchroniser",
+  "label": "CeilingWindowLampPowerSynchroniser",
   "type": "AGENT",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
@@ -11,7 +11,7 @@
       "home",
       "agent",
       "powerstatesynchroniser",
-      "mediadimmerpowerstatesynchroniser"
+      "ceilingwindowlamppowersynchroniser"
     ]
   },
   "service_config": [
@@ -43,7 +43,7 @@
     "entry": [
       {
         "key": "SOURCE",
-        "value": "dccc86dc-f764-4602-8ad4-945bf6851581"
+        "value": "7e479546-e973-42cc-bc03-8a673bfceb70"
       },
       {
         "key": "TARGET_1",
