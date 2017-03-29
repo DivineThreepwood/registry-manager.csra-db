@@ -17,7 +17,8 @@
         "qy": 0.0,
         "qz": 0.0
       }
-    }
+    },
+    "shape": {}
   },
   "scope": {
     "component": [
@@ -37,15 +38,15 @@
     ]
   },
   "enabling_state": {
-    "value": "DISABLED"
+    "value": "ENABLED"
   },
   "device_config": {
     "serial_number": "CB417E",
     "inventory_state": {
-      "value": "IN_STOCK",
-      "location_id": "Living",
+      "value": "INSTALLED",
+      "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
       "timestamp": {
-        "time": 1442918405820
+        "time": 1490809858011000
       },
       "owner_id": ""
     },

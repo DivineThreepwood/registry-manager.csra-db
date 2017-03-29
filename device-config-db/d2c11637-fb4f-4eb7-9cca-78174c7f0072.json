@@ -34,6 +34,10 @@
       {
         "key": "OPENHAB_BINDING_DEVICE_ID",
         "value": "31"
+      },
+      {
+        "key": "INFRASTRUCTURE",
+        "value": "true"
       }
     ]
   },

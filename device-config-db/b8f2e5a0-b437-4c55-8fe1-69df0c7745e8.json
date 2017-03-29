@@ -38,15 +38,15 @@
     ]
   },
   "enabling_state": {
-    "value": "DISABLED"
+    "value": "ENABLED"
   },
   "device_config": {
     "serial_number": "08575F",
     "inventory_state": {
-      "value": "IN_STOCK",
-      "location_id": "Bath",
+      "value": "INSTALLED",
+      "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
       "timestamp": {
-        "time": 1453713801497
+        "time": 1490809957444000
       },
       "owner_id": ""
     },

@@ -38,15 +38,15 @@
     ]
   },
   "enabling_state": {
-    "value": "DISABLED"
+    "value": "ENABLED"
   },
   "device_config": {
     "serial_number": "27E533",
     "inventory_state": {
-      "value": "IN_STOCK",
-      "location_id": "Living",
+      "value": "INSTALLED",
+      "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
       "timestamp": {
-        "time": 1442493795611
+        "time": 1490809826943000
       },
       "owner_id": ""
     },
