@@ -1,0 +1,45 @@
+{
+  "id": "53712aee-7065-4672-b5b4-95a1f4b31b32",
+  "label": "StandbyControlRoom",
+  "type": "AGENT",
+  "placement_config": {
+    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "control",
+      "agent",
+      "standby",
+      "standbycontrolroom"
+    ]
+  },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "53712aee-7065-4672-b5b4-95a1f4b31b32",
+      "service_template": {
+        "type": "ACTIVATION_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "53712aee-7065-4672-b5b4-95a1f4b31b32",
+      "service_template": {
+        "type": "ACTIVATION_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "agent_config": {
+    "agent_class_id": "77eeb0d9-bc62-468c-8f2a-f2ff1bd7eb21",
+    "autostart": true
+  }
+}
