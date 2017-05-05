@@ -35,9 +35,9 @@
   "device_config": {
     "serial_number": "E3IWBDA34180",
     "inventory_state": {
-      "value": "BORROWED",
+      "value": "IN_STOCK",
       "timestamp": {
-        "time": 1453816251443
+        "time": 1493903544925000
       },
       "owner_id": ""
     },

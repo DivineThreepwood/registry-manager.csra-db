@@ -1,0 +1,47 @@
+{
+  "id": "cbe3a9cc-2869-463f-b217-7c6f8e2650b6",
+  "unit_template_config_id": "7d6d56c2-9bd7-45cf-a3fd-26bce7804e0a_REED_CONTACT_0",
+  "label": "505",
+  "unit_host_id": "87c4aba8-e227-45c9-8e5b-6a4888373729",
+  "type": "REED_CONTACT",
+  "placement_config": {
+    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+    "transformation_frame_id": "Kitchen_505",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "kitchen",
+      "reedcontact",
+      "505"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "HANDLES"
+      },
+      "unit_id": "cbe3a9cc-2869-463f-b217-7c6f8e2650b6",
+      "service_template": {
+        "type": "CONTACT_STATE_SERVICE"
+      }
+    }
+  ],
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}
