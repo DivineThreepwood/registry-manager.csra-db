@@ -38,7 +38,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27__home_sports__ColorableLight__Table_Corner_Lamp_Top__BrightnessStateService"
+              "value": "Philips_Hue_E27_Gen1__home_sports__ColorableLight__Table_Corner_Lamp_Top__BrightnessStateService"
             }
           ]
         }
@@ -57,7 +57,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27__home_sports__ColorableLight__Table_Corner_Lamp_Top__BrightnessStateService"
+              "value": "Philips_Hue_E27_Gen1__home_sports__ColorableLight__Table_Corner_Lamp_Top__BrightnessStateService"
             }
           ]
         }
@@ -76,7 +76,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27__home_sports__ColorableLight__Table_Corner_Lamp_Top__ColorStateService"
+              "value": "Philips_Hue_E27_Gen1__home_sports__ColorableLight__Table_Corner_Lamp_Top__ColorStateService"
             }
           ]
         }
@@ -95,7 +95,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27__home_sports__ColorableLight__Table_Corner_Lamp_Top__ColorStateService"
+              "value": "Philips_Hue_E27_Gen1__home_sports__ColorableLight__Table_Corner_Lamp_Top__ColorStateService"
             }
           ]
         }
@@ -114,7 +114,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27__home_sports__ColorableLight__Table_Corner_Lamp_Top__PowerStateService"
+              "value": "Philips_Hue_E27_Gen1__home_sports__ColorableLight__Table_Corner_Lamp_Top__PowerStateService"
             }
           ]
         }
@@ -133,7 +133,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27__home_sports__ColorableLight__Table_Corner_Lamp_Top__PowerStateService"
+              "value": "Philips_Hue_E27_Gen1__home_sports__ColorableLight__Table_Corner_Lamp_Top__PowerStateService"
             }
           ]
         }

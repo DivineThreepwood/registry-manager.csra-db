@@ -40,7 +40,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27__home_control__ColorableLight__LLampEntrance1__BrightnessStateService"
+              "value": "Philips_Hue_E27_Gen1__home_control__ColorableLight__LLampEntrance1__BrightnessStateService"
             }
           ]
         }
@@ -60,7 +60,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27__home_control__ColorableLight__LLampEntrance1__BrightnessStateService"
+              "value": "Philips_Hue_E27_Gen1__home_control__ColorableLight__LLampEntrance1__BrightnessStateService"
             }
           ]
         }
@@ -80,7 +80,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27__home_control__ColorableLight__LLampEntrance1__ColorStateService"
+              "value": "Philips_Hue_E27_Gen1__home_control__ColorableLight__LLampEntrance1__ColorStateService"
             }
           ]
         }
@@ -100,7 +100,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27__home_control__ColorableLight__LLampEntrance1__ColorStateService"
+              "value": "Philips_Hue_E27_Gen1__home_control__ColorableLight__LLampEntrance1__ColorStateService"
             }
           ]
         }
@@ -120,7 +120,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27__home_control__ColorableLight__LLampEntrance1__PowerStateService"
+              "value": "Philips_Hue_E27_Gen1__home_control__ColorableLight__LLampEntrance1__PowerStateService"
             }
           ]
         }
@@ -140,7 +140,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27__home_control__ColorableLight__LLampEntrance1__PowerStateService"
+              "value": "Philips_Hue_E27_Gen1__home_control__ColorableLight__LLampEntrance1__PowerStateService"
             }
           ]
         }

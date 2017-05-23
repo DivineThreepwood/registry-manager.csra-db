@@ -38,7 +38,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27__home_living__ColorableLight__SLampRight2__BrightnessStateService"
+              "value": "Philips_Hue_E27_Gen1__home_living__ColorableLight__SLampRight2__BrightnessStateService"
             }
           ]
         }
@@ -57,7 +57,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27__home_living__ColorableLight__SLampRight2__BrightnessStateService"
+              "value": "Philips_Hue_E27_Gen1__home_living__ColorableLight__SLampRight2__BrightnessStateService"
             }
           ]
         }
@@ -76,7 +76,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27__home_living__ColorableLight__SLampRight2__ColorStateService"
+              "value": "Philips_Hue_E27_Gen1__home_living__ColorableLight__SLampRight2__ColorStateService"
             }
           ]
         }
@@ -95,7 +95,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27__home_living__ColorableLight__SLampRight2__ColorStateService"
+              "value": "Philips_Hue_E27_Gen1__home_living__ColorableLight__SLampRight2__ColorStateService"
             }
           ]
         }
@@ -114,7 +114,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27__home_living__ColorableLight__SLampRight2__PowerStateService"
+              "value": "Philips_Hue_E27_Gen1__home_living__ColorableLight__SLampRight2__PowerStateService"
             }
           ]
         }
@@ -133,7 +133,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27__home_living__ColorableLight__SLampRight2__PowerStateService"
+              "value": "Philips_Hue_E27_Gen1__home_living__ColorableLight__SLampRight2__PowerStateService"
             }
           ]
         }
