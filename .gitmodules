@@ -10,3 +10,6 @@
 [submodule "agent-class-db"]
 	path = agent-class-db
 	url = https://github.com/openbase/bco.registry.agent-class-db.git
+[submodule "service-template-db"]
+	path = service-template-db
+	url = https://github.com/openbase/bco.registry.service-template-db.git
