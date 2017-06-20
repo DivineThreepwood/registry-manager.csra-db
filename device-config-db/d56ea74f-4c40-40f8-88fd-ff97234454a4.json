@@ -22,12 +22,12 @@
   "device_config": {
     "serial_number": "E3IWBDA33553",
     "inventory_state": {
-      "value": "BORROWED",
-      "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+      "value": "IN_STOCK",
+      "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
       "timestamp": {
-        "time": 1495543658538000
+        "time": 1497443232231000
       },
-      "owner_id": "681b7ef1-011b-4bae-979d-c5e9e598fc2d"
+      "owner_id": "ef171da7-95ad-4f16-979d-fa94daaf1031"
     },
     "device_class_id": "3069a4e2-25c9-4873-bee2-43df7a77e44c",
     "unit_id": [
@@ -35,5 +35,9 @@
       "d788455f-0a3b-4742-97d4-93c4ede56e6f",
       "9aedfe6d-bf2d-4eaf-8624-1f67aba00f0b"
     ]
+  },
+  "permission_config": {
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

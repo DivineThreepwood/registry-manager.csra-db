@@ -3,7 +3,8 @@
   "label": "Default",
   "type": "SCENE",
   "placement_config": {
-    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d"
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+    "shape": {}
   },
   "scope": {
     "component": [
@@ -14,71 +15,90 @@
   },
   "service_config": [
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "a56d44a7-c798-44e2-a2b6-65cf41e69daf",
       "service_template": {
         "type": "ACTIVATION_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     },
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "a56d44a7-c798-44e2-a2b6-65cf41e69daf",
       "service_template": {
         "type": "ACTIVATION_STATE_SERVICE",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     }
   ],
+  "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"
   },
   "scene_config": {
     "action_config": [
       {
+        "meta_config": {},
         "action_authority": {
           "authority": "USER"
         },
         "action_priority": {
           "priority": "NORMAL"
         },
+        "execution_time": {},
+        "execution_validity": {},
         "unit_id": "6a2501d7-f625-4eb6-b46e-6e4f5c6001be",
         "service_type": "BLIND_STATE_SERVICE",
-        "service_attribute": "{\"movement_state\": \"UP\"}",
+        "service_attribute": "{\"movement_state\": \"STOP\"}",
         "service_attribute_type": "rst.domotic.state.BlindStateType$BlindState"
       },
       {
+        "meta_config": {},
         "action_authority": {
           "authority": "USER"
         },
         "action_priority": {
           "priority": "NORMAL"
         },
+        "execution_time": {},
+        "execution_validity": {},
         "unit_id": "6f6dce7d-e959-49ff-9bf9-6b15dcde3082",
         "service_type": "POWER_STATE_SERVICE",
         "service_attribute": "{\"value\": \"ON\"}",
         "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState"
       },
       {
+        "meta_config": {},
         "action_authority": {
           "authority": "USER"
         },
         "action_priority": {
           "priority": "NORMAL"
         },
+        "execution_time": {},
+        "execution_validity": {},
         "unit_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
         "service_type": "COLOR_STATE_SERVICE",
         "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 80.68965911865234,\"saturation\": 72.19917297363281,\"brightness\": 94.50980377197266}},\"timestamp\": {\"time\": 0}}",
         "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState"
       },
       {
+        "meta_config": {},
         "action_authority": {
           "authority": "USER"
         },
         "action_priority": {
           "priority": "NORMAL"
         },
+        "execution_time": {},
+        "execution_validity": {},
         "unit_id": "98acc701-87b9-4cf2-b79b-3eb6c166e2fe",
         "service_type": "ACTIVATION_STATE_SERVICE",
         "service_attribute": "{\"value\": \"DEACTIVE\"}",

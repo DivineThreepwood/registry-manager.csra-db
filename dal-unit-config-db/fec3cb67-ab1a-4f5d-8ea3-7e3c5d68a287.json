@@ -19,7 +19,8 @@
         "qy": 0.0,
         "qz": 0.0
       }
-    }
+    },
+    "shape": {}
   },
   "scope": {
     "component": [
@@ -50,7 +51,8 @@
       "unit_id": "fec3cb67-ab1a-4f5d-8ea3-7e3c5d68a287",
       "service_template": {
         "type": "BRIGHTNESS_STATE_SERVICE",
-        "pattern": "PROVIDER"
+        "pattern": "PROVIDER",
+        "meta_config": {}
       },
       "meta_config": {}
     },
@@ -73,7 +75,8 @@
       "unit_id": "fec3cb67-ab1a-4f5d-8ea3-7e3c5d68a287",
       "service_template": {
         "type": "BRIGHTNESS_STATE_SERVICE",
-        "pattern": "OPERATION"
+        "pattern": "OPERATION",
+        "meta_config": {}
       },
       "meta_config": {}
     },
@@ -96,7 +99,8 @@
       "unit_id": "fec3cb67-ab1a-4f5d-8ea3-7e3c5d68a287",
       "service_template": {
         "type": "POWER_STATE_SERVICE",
-        "pattern": "PROVIDER"
+        "pattern": "PROVIDER",
+        "meta_config": {}
       },
       "meta_config": {}
     },
@@ -119,13 +123,18 @@
       "unit_id": "fec3cb67-ab1a-4f5d-8ea3-7e3c5d68a287",
       "service_template": {
         "type": "POWER_STATE_SERVICE",
-        "pattern": "OPERATION"
+        "pattern": "OPERATION",
+        "meta_config": {}
       },
       "meta_config": {}
     }
   ],
   "meta_config": {},
   "enabling_state": {
-    "value": "ENABLED"
+    "value": "DISABLED"
+  },
+  "permission_config": {
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

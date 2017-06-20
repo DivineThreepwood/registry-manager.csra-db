@@ -1,12 +1,12 @@
 {
   "id": "95ba2da1-ffb9-4bcc-b533-df9365ebb759",
   "unit_template_config_id": "Gira_429496730210000_BUTTON_2",
-  "label": "Elan",
+  "label": "Task: Elan",
   "unit_host_id": "d9e491b1-27b3-4736-9ce0-c52476e827d3",
   "type": "BUTTON",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-    "transformation_frame_id": "Elan",
+    "transformation_frame_id": "Task_Elan",
     "position": {
       "translation": {
         "x": 0.0,
@@ -27,7 +27,7 @@
       "home",
       "wardrobe",
       "button",
-      "elan"
+      "task_elan"
     ]
   },
   "bound_to_unit_host": true,
@@ -43,7 +43,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_5133__home_wardrobe__Button__Elan__ButtonStateService"
+              "value": "Gira_5133__home_wardrobe__Button__Task_Elan__ButtonStateService"
             }
           ]
         }
@@ -60,5 +60,9 @@
   "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

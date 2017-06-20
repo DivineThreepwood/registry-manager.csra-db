@@ -1,12 +1,12 @@
 {
   "id": "34084c5f-46bf-4e88-84f4-0110530f6e47",
   "unit_template_config_id": "Gira_429496730210000_BUTTON_3",
-  "label": "Register",
+  "label": "Scenario: Register",
   "unit_host_id": "a33d0c22-346c-42ca-bed5-c72019700729",
   "type": "BUTTON",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-    "transformation_frame_id": "Register",
+    "transformation_frame_id": "Scenario_Register",
     "position": {
       "translation": {
         "x": 0.0,
@@ -27,7 +27,7 @@
       "home",
       "wardrobe",
       "button",
-      "register"
+      "scenario_register"
     ]
   },
   "bound_to_unit_host": true,
@@ -43,7 +43,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_5133__home_wardrobe__Button__Register__ButtonStateService"
+              "value": "Gira_5133__home_wardrobe__Button__Scenario_Register__ButtonStateService"
             }
           ]
         }
@@ -60,5 +60,9 @@
   "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_permission": {},
+    "other_permission": {}
   }
 }
