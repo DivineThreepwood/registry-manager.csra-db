@@ -18,23 +18,29 @@
   },
   "service_config": [
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "d8798d21-9426-4c8c-872a-f43d0e245a6d",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
         "type": "ACTIVATION_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     },
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "d8798d21-9426-4c8c-872a-f43d0e245a6d",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
         "type": "ACTIVATION_STATE_SERVICE",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     }
   ],
   "meta_config": {
@@ -114,6 +120,10 @@
   },
   "agent_config": {
     "agent_class_id": "ff76a0a9-7977-435a-bca1-04669731ed8f",
-    "autostart": true
+    "autostart": false
+  },
+  "permission_config": {
+    "owner_permission": {},
+    "other_permission": {}
   }
 }
