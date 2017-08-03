@@ -45,7 +45,8 @@
         }
       },
       "unit_id": "47558be4-2abf-4795-939b-9ed3748c1dd4",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "7a3eaa02-2d76-4c93-9c66-4da45ea7bafa",
         "type": "CONTACT_STATE_SERVICE",
         "pattern": "PROVIDER",
         "meta_config": {}

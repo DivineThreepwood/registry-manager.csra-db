@@ -37,7 +37,8 @@
         }
       },
       "unit_id": "aed87a02-7a77-49ff-b8f7-7e6db819c285",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
         "type": "POWER_STATE_SERVICE",
         "meta_config": {}
       },
@@ -60,7 +61,8 @@
         }
       },
       "unit_id": "aed87a02-7a77-49ff-b8f7-7e6db819c285",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
         "type": "POWER_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}

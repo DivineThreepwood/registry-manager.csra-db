@@ -4,6 +4,7 @@
   "type": "AGENT",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+    "transformation_frame_id": "EntranceDimmerPowerStateSynchroniser",
     "shape": {}
   },
   "scope": {
@@ -20,7 +21,8 @@
         "meta_config": {}
       },
       "unit_id": "122389cd-907f-4e7c-84de-aaa2a3f81771",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
         "type": "ACTIVATION_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
@@ -32,7 +34,8 @@
         "meta_config": {}
       },
       "unit_id": "122389cd-907f-4e7c-84de-aaa2a3f81771",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
         "type": "ACTIVATION_STATE_SERVICE",
         "meta_config": {}
       },

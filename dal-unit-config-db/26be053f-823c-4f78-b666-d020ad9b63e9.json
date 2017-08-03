@@ -44,7 +44,8 @@
         }
       },
       "unit_id": "26be053f-823c-4f78-b666-d020ad9b63e9",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "02342f5f-357c-4636-8f52-3eefcb65d060",
         "type": "ILLUMINANCE_STATE_SERVICE",
         "pattern": "PROVIDER"
       },

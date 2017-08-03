@@ -3,6 +3,7 @@
   "label": "rzorn (Rene Zorn)",
   "type": "USER",
   "placement_config": {
+    "transformation_frame_id": "rzorn_Rene_Zorn_",
     "shape": {}
   },
   "scope": {

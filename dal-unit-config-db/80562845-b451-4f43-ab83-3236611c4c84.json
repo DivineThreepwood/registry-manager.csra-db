@@ -44,7 +44,8 @@
         }
       },
       "unit_id": "80562845-b451-4f43-ab83-3236611c4c84",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
         "type": "BRIGHTNESS_STATE_SERVICE",
         "pattern": "PROVIDER"
       },
@@ -63,7 +64,8 @@
         }
       },
       "unit_id": "80562845-b451-4f43-ab83-3236611c4c84",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
         "type": "BRIGHTNESS_STATE_SERVICE",
         "pattern": "OPERATION"
       },
@@ -82,7 +84,8 @@
         }
       },
       "unit_id": "80562845-b451-4f43-ab83-3236611c4c84",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "0f9527d7-d6f8-4a09-af14-1a8d91c264bd",
         "type": "COLOR_STATE_SERVICE",
         "pattern": "PROVIDER"
       },
@@ -101,7 +104,8 @@
         }
       },
       "unit_id": "80562845-b451-4f43-ab83-3236611c4c84",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "0f9527d7-d6f8-4a09-af14-1a8d91c264bd",
         "type": "COLOR_STATE_SERVICE",
         "pattern": "OPERATION"
       },
@@ -120,7 +124,8 @@
         }
       },
       "unit_id": "80562845-b451-4f43-ab83-3236611c4c84",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
         "type": "POWER_STATE_SERVICE",
         "pattern": "PROVIDER"
       },
@@ -139,7 +144,8 @@
         }
       },
       "unit_id": "80562845-b451-4f43-ab83-3236611c4c84",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
         "type": "POWER_STATE_SERVICE",
         "pattern": "OPERATION"
       },

@@ -3,7 +3,8 @@
   "label": "StandyRobotRoom",
   "type": "AGENT",
   "placement_config": {
-    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d"
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+    "transformation_frame_id": "StandyRobotRoom"
   },
   "scope": {
     "component": [
@@ -17,7 +18,8 @@
     {
       "binding_config": {},
       "unit_id": "be184a0f-8401-46e0-a1c8-999ca4704260",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
         "type": "ACTIVATION_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
@@ -26,7 +28,8 @@
     {
       "binding_config": {},
       "unit_id": "be184a0f-8401-46e0-a1c8-999ca4704260",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
         "type": "ACTIVATION_STATE_SERVICE",
         "meta_config": {}
       }

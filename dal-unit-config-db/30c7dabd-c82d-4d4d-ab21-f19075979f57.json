@@ -30,7 +30,7 @@
       "pathwaybelowbutton_4"
     ]
   },
-  "bound_to_unit_host": true,
+  "bound_to_unit_host": false,
   "service_config": [
     {
       "binding_config": {
@@ -49,7 +49,8 @@
         }
       },
       "unit_id": "30c7dabd-c82d-4d4d-ab21-f19075979f57",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "1d50901a-5cc1-4595-9180-334c3f3317dc",
         "type": "BUTTON_STATE_SERVICE",
         "pattern": "PROVIDER"
       },
