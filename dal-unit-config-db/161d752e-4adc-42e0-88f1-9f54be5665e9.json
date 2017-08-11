@@ -1,12 +1,12 @@
 {
   "id": "161d752e-4adc-42e0-88f1-9f54be5665e9",
   "unit_template_config_id": "Gira_429496730210000_BUTTON_0",
-  "label": "DoorButton 1",
+  "label": "Scene: Cooking",
   "unit_host_id": "a9b55776-57b2-4589-a90c-dccb1fc7324e",
   "type": "BUTTON",
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-    "transformation_frame_id": "DoorButton_1",
+    "transformation_frame_id": "Scene_Cooking",
     "position": {
       "translation": {
         "x": 0.0,
@@ -27,7 +27,7 @@
       "home",
       "kitchen",
       "button",
-      "doorbutton_1"
+      "scene_cooking"
     ]
   },
   "bound_to_unit_host": true,
@@ -43,7 +43,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_5133__home_kitchen__Button__DoorButton_1__ButtonStateService"
+              "value": "Gira_5133__home_kitchen__Button__Scene_Cooking__ButtonStateService"
             }
           ]
         }
@@ -51,7 +51,8 @@
       "unit_id": "161d752e-4adc-42e0-88f1-9f54be5665e9",
       "service_template": {
         "type": "BUTTON_STATE_SERVICE",
-        "pattern": "PROVIDER"
+        "pattern": "PROVIDER",
+        "meta_config": {}
       },
       "meta_config": {}
     }
@@ -59,5 +60,9 @@
   "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_permission": {},
+    "other_permission": {}
   }
 }
