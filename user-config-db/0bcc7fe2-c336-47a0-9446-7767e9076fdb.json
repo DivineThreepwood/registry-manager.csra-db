@@ -3,6 +3,7 @@
   "label": "pLeminoq (Tamino Huxohl)",
   "type": "USER",
   "placement_config": {
+    "transformation_frame_id": "pLeminoq_Tamino_Huxohl_",
     "shape": {}
   },
   "scope": {

@@ -2,6 +2,9 @@
   "id": "ef171da7-95ad-4f16-979d-fa94daaf1031",
   "label": "Divine (Marian Pohling)",
   "type": "USER",
+  "placement_config": {
+    "transformation_frame_id": "Divine_Marian_Pohling_"
+  },
   "scope": {
     "component": [
       "manager",

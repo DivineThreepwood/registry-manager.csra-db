@@ -29,7 +29,7 @@
       "button_3"
     ]
   },
-  "bound_to_unit_host": true,
+  "bound_to_unit_host": false,
   "service_config": [
     {
       "binding_config": {
@@ -48,7 +48,8 @@
         }
       },
       "unit_id": "64b0bb4d-0f88-4b1d-9e4a-6b2dad7a8022",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "1d50901a-5cc1-4595-9180-334c3f3317dc",
         "type": "BUTTON_STATE_SERVICE",
         "pattern": "PROVIDER"
       },

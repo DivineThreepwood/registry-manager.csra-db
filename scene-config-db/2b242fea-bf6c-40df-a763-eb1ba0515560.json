@@ -3,7 +3,8 @@
   "label": "Socializing",
   "type": "SCENE",
   "placement_config": {
-    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d"
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+    "transformation_frame_id": "Socializing"
   },
   "scope": {
     "component": [
@@ -16,7 +17,8 @@
     {
       "binding_config": {},
       "unit_id": "2b242fea-bf6c-40df-a763-eb1ba0515560",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
         "type": "ACTIVATION_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
@@ -25,7 +27,8 @@
     {
       "binding_config": {},
       "unit_id": "2b242fea-bf6c-40df-a763-eb1ba0515560",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
         "type": "ACTIVATION_STATE_SERVICE",
         "meta_config": {}
       }
@@ -35,30 +38,20 @@
     "value": "ENABLED"
   },
   "scene_config": {
-    "action_config": [
+    "required_service_state_description": [
       {
-        "action_authority": {
-          "authority": "USER"
-        },
-        "action_priority": {
-          "priority": "NORMAL"
-        },
         "unit_id": "6f6dce7d-e959-49ff-9bf9-6b15dcde3082",
         "service_type": "POWER_STATE_SERVICE",
-        "service_attribute": "{\"value\": \"ON\"}",
-        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState"
+        "unit_type": "UNKNOWN",
+        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
+        "service_attribute": "{\"value\": \"ON\"}"
       },
       {
-        "action_authority": {
-          "authority": "USER"
-        },
-        "action_priority": {
-          "priority": "NORMAL"
-        },
         "unit_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "service_type": "COLOR_STATE_SERVICE",
-        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 40.0,\"brightness\": 100.0}},\"timestamp\": {\"time\": 0}}",
-        "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState"
+        "unit_type": "UNKNOWN",
+        "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState",
+        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 40.0,\"brightness\": 100.0}},\"timestamp\": {\"time\": 0}}"
       }
     ]
   }

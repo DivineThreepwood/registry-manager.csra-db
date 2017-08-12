@@ -48,7 +48,8 @@
         }
       },
       "unit_id": "9b27299f-522f-4b62-854a-187d3909d5a9",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
         "type": "BRIGHTNESS_STATE_SERVICE",
         "pattern": "PROVIDER"
       },
@@ -71,7 +72,8 @@
         }
       },
       "unit_id": "9b27299f-522f-4b62-854a-187d3909d5a9",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
         "type": "BRIGHTNESS_STATE_SERVICE",
         "pattern": "OPERATION"
       },
@@ -94,7 +96,8 @@
         }
       },
       "unit_id": "9b27299f-522f-4b62-854a-187d3909d5a9",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
         "type": "POWER_STATE_SERVICE",
         "pattern": "PROVIDER"
       },
@@ -117,7 +120,8 @@
         }
       },
       "unit_id": "9b27299f-522f-4b62-854a-187d3909d5a9",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
         "type": "POWER_STATE_SERVICE",
         "pattern": "OPERATION"
       },

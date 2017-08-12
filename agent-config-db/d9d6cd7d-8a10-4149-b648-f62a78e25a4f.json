@@ -4,6 +4,7 @@
   "type": "AGENT",
   "placement_config": {
     "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+    "transformation_frame_id": "BathAmbientColorBeachBottom",
     "shape": {}
   },
   "scope": {
@@ -19,7 +20,8 @@
     {
       "binding_config": {},
       "unit_id": "d9d6cd7d-8a10-4149-b648-f62a78e25a4f",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
         "type": "ACTIVATION_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
@@ -28,7 +30,8 @@
     {
       "binding_config": {},
       "unit_id": "d9d6cd7d-8a10-4149-b648-f62a78e25a4f",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
         "type": "ACTIVATION_STATE_SERVICE",
         "meta_config": {}
       }

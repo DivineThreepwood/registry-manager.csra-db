@@ -50,7 +50,8 @@
         }
       },
       "unit_id": "d4b37376-9283-482e-9fff-e941a0aa31dd",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "a2175895-7dcf-4d51-96aa-dcb01b47ed04",
         "type": "BLIND_STATE_SERVICE",
         "pattern": "PROVIDER"
       },
@@ -73,7 +74,8 @@
         }
       },
       "unit_id": "d4b37376-9283-482e-9fff-e941a0aa31dd",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "a2175895-7dcf-4d51-96aa-dcb01b47ed04",
         "type": "BLIND_STATE_SERVICE",
         "pattern": "OPERATION"
       },

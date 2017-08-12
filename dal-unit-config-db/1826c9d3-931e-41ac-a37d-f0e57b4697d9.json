@@ -44,7 +44,8 @@
         }
       },
       "unit_id": "1826c9d3-931e-41ac-a37d-f0e57b4697d9",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "4ebe8edc-01be-4500-83a1-f753b306aa0f",
         "type": "MOTION_STATE_SERVICE",
         "pattern": "PROVIDER"
       },
