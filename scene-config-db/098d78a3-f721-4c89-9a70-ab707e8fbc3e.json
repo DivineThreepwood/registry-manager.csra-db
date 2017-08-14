@@ -3,7 +3,8 @@
   "label": "Search",
   "type": "SCENE",
   "placement_config": {
-    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d"
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+    "transformation_frame_id": "Search"
   },
   "scope": {
     "component": [
@@ -16,7 +17,8 @@
     {
       "binding_config": {},
       "unit_id": "098d78a3-f721-4c89-9a70-ab707e8fbc3e",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
         "type": "ACTIVATION_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
@@ -25,7 +27,8 @@
     {
       "binding_config": {},
       "unit_id": "098d78a3-f721-4c89-9a70-ab707e8fbc3e",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
         "type": "ACTIVATION_STATE_SERVICE",
         "meta_config": {}
       }

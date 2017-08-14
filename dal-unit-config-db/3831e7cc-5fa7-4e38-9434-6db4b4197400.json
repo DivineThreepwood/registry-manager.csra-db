@@ -1,12 +1,12 @@
 {
   "id": "3831e7cc-5fa7-4e38-9434-6db4b4197400",
   "unit_template_config_id": "Gira_429496730210000_BUTTON_3",
-  "label": "DoorButton 4",
+  "label": "Scenario: Cleanup",
   "unit_host_id": "a9b55776-57b2-4589-a90c-dccb1fc7324e",
   "type": "BUTTON",
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-    "transformation_frame_id": "DoorButton_4",
+    "transformation_frame_id": "Scenario_Cleanup",
     "position": {
       "translation": {
         "x": 0.0,
@@ -27,10 +27,10 @@
       "home",
       "kitchen",
       "button",
-      "doorbutton_4"
+      "scenario_cleanup"
     ]
   },
-  "bound_to_unit_host": true,
+  "bound_to_unit_host": false,
   "service_config": [
     {
       "binding_config": {
@@ -43,15 +43,17 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_5133__home_kitchen__Button__DoorButton_4__ButtonStateService"
+              "value": "Gira_5133__home_kitchen__Button__Scenario_Cleanup__ButtonStateService"
             }
           ]
         }
       },
       "unit_id": "3831e7cc-5fa7-4e38-9434-6db4b4197400",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "1d50901a-5cc1-4595-9180-334c3f3317dc",
         "type": "BUTTON_STATE_SERVICE",
-        "pattern": "PROVIDER"
+        "pattern": "PROVIDER",
+        "meta_config": {}
       },
       "meta_config": {}
     }
@@ -59,5 +61,9 @@
   "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

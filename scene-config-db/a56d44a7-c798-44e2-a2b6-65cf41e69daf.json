@@ -4,6 +4,7 @@
   "type": "SCENE",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+    "transformation_frame_id": "Default",
     "shape": {}
   },
   "scope": {
@@ -19,7 +20,8 @@
         "meta_config": {}
       },
       "unit_id": "a56d44a7-c798-44e2-a2b6-65cf41e69daf",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
         "type": "ACTIVATION_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
@@ -31,7 +33,8 @@
         "meta_config": {}
       },
       "unit_id": "a56d44a7-c798-44e2-a2b6-65cf41e69daf",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
         "type": "ACTIVATION_STATE_SERVICE",
         "meta_config": {}
       },
@@ -43,66 +46,27 @@
     "value": "ENABLED"
   },
   "scene_config": {
-    "action_config": [
+    "required_service_state_description": [
       {
-        "meta_config": {},
-        "action_authority": {
-          "authority": "USER"
-        },
-        "action_priority": {
-          "priority": "NORMAL"
-        },
-        "execution_time": {},
-        "execution_validity": {},
-        "unit_id": "6a2501d7-f625-4eb6-b46e-6e4f5c6001be",
-        "service_type": "BLIND_STATE_SERVICE",
-        "service_attribute": "{\"movement_state\": \"STOP\"}",
-        "service_attribute_type": "rst.domotic.state.BlindStateType$BlindState"
-      },
-      {
-        "meta_config": {},
-        "action_authority": {
-          "authority": "USER"
-        },
-        "action_priority": {
-          "priority": "NORMAL"
-        },
-        "execution_time": {},
-        "execution_validity": {},
-        "unit_id": "6f6dce7d-e959-49ff-9bf9-6b15dcde3082",
-        "service_type": "POWER_STATE_SERVICE",
-        "service_attribute": "{\"value\": \"ON\"}",
-        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState"
-      },
-      {
-        "meta_config": {},
-        "action_authority": {
-          "authority": "USER"
-        },
-        "action_priority": {
-          "priority": "NORMAL"
-        },
-        "execution_time": {},
-        "execution_validity": {},
-        "unit_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
-        "service_type": "COLOR_STATE_SERVICE",
-        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 80.68965911865234,\"saturation\": 72.19917297363281,\"brightness\": 94.50980377197266}},\"timestamp\": {\"time\": 0}}",
-        "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState"
-      },
-      {
-        "meta_config": {},
-        "action_authority": {
-          "authority": "USER"
-        },
-        "action_priority": {
-          "priority": "NORMAL"
-        },
-        "execution_time": {},
-        "execution_validity": {},
         "unit_id": "98acc701-87b9-4cf2-b79b-3eb6c166e2fe",
         "service_type": "ACTIVATION_STATE_SERVICE",
-        "service_attribute": "{\"value\": \"DEACTIVE\"}",
-        "service_attribute_type": "rst.domotic.state.ActivationStateType$ActivationState"
+        "unit_type": "UNKNOWN",
+        "service_attribute_type": "rst.domotic.state.ActivationStateType$ActivationState",
+        "service_attribute": "{\"value\": \"DEACTIVE\"}"
+      },
+      {
+        "unit_id": "6f6dce7d-e959-49ff-9bf9-6b15dcde3082",
+        "service_type": "POWER_STATE_SERVICE",
+        "unit_type": "UNKNOWN",
+        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
+        "service_attribute": "{\"value\": \"ON\",\"timestamp\": {\"time\": 1498574825505000}}"
+      },
+      {
+        "unit_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+        "service_type": "COLOR_STATE_SERVICE",
+        "unit_type": "UNKNOWN",
+        "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState",
+        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 76.36363220214844,\"saturation\": 72.36841583251953,\"brightness\": 89.4117660522461}},\"timestamp\": {\"time\": 1498574846290000}}"
       }
     ]
   }

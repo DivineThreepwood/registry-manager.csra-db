@@ -1,12 +1,12 @@
 {
   "id": "a2502f9d-cfef-404d-80c9-5da210e07242",
   "unit_template_config_id": "Gira_429496730210000_BUTTON_1",
-  "label": "Scene: Default",
+  "label": "Task: StopAudio",
   "unit_host_id": "d9e491b1-27b3-4736-9ce0-c52476e827d3",
   "type": "BUTTON",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-    "transformation_frame_id": "Scene_Default",
+    "transformation_frame_id": "Task_StopAudio",
     "position": {
       "translation": {
         "x": 0.0,
@@ -27,10 +27,10 @@
       "home",
       "wardrobe",
       "button",
-      "scene_default"
+      "task_stopaudio"
     ]
   },
-  "bound_to_unit_host": true,
+  "bound_to_unit_host": false,
   "service_config": [
     {
       "binding_config": {
@@ -43,13 +43,14 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_5133__home_wardrobe__Button__Scene_Default__ButtonStateService"
+              "value": "Gira_5133__home_wardrobe__Button__Task_StopAudio__ButtonStateService"
             }
           ]
         }
       },
       "unit_id": "a2502f9d-cfef-404d-80c9-5da210e07242",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "1d50901a-5cc1-4595-9180-334c3f3317dc",
         "type": "BUTTON_STATE_SERVICE",
         "pattern": "PROVIDER",
         "meta_config": {}

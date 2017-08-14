@@ -3,6 +3,7 @@
   "label": "MZB (Sebastian MZB)",
   "type": "USER",
   "placement_config": {
+    "transformation_frame_id": "MZB_Sebastian_MZB_",
     "shape": {}
   },
   "scope": {

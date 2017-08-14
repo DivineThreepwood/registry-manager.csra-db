@@ -36,7 +36,8 @@
         "binding_id": "HANDLES"
       },
       "unit_id": "cbe3a9cc-2869-463f-b217-7c6f8e2650b6",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "7a3eaa02-2d76-4c93-9c66-4da45ea7bafa",
         "type": "CONTACT_STATE_SERVICE"
       }
     }

@@ -3,7 +3,8 @@
   "label": "LightsOff",
   "type": "SCENE",
   "placement_config": {
-    "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6"
+    "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+    "transformation_frame_id": "LightsOff"
   },
   "scope": {
     "component": [
@@ -17,7 +18,8 @@
     {
       "binding_config": {},
       "unit_id": "7239135c-ab69-4b06-9d69-18ef7fc1a000",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
         "type": "ACTIVATION_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
@@ -26,7 +28,8 @@
     {
       "binding_config": {},
       "unit_id": "7239135c-ab69-4b06-9d69-18ef7fc1a000",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
         "type": "ACTIVATION_STATE_SERVICE",
         "meta_config": {}
       }
@@ -36,150 +39,90 @@
     "value": "ENABLED"
   },
   "scene_config": {
-    "action_config": [
+    "required_service_state_description": [
       {
-        "action_authority": {
-          "authority": "USER"
-        },
-        "action_priority": {
-          "priority": "NORMAL"
-        },
         "unit_id": "932b4f48-59d9-474a-b83e-82c4218b5ecf",
         "service_type": "POWER_STATE_SERVICE",
-        "service_attribute": "{\"value\": \"OFF\"}",
-        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState"
+        "unit_type": "UNKNOWN",
+        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
+        "service_attribute": "{\"value\": \"OFF\"}"
       },
       {
-        "action_authority": {
-          "authority": "USER"
-        },
-        "action_priority": {
-          "priority": "NORMAL"
-        },
         "unit_id": "fd3443a8-8c3e-4894-ae1b-32c5dcb1b095",
         "service_type": "POWER_STATE_SERVICE",
-        "service_attribute": "{\"value\": \"OFF\"}",
-        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState"
+        "unit_type": "UNKNOWN",
+        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
+        "service_attribute": "{\"value\": \"OFF\"}"
       },
       {
-        "action_authority": {
-          "authority": "USER"
-        },
-        "action_priority": {
-          "priority": "NORMAL"
-        },
         "unit_id": "de6a3463-5a99-4162-851c-b535a26b6de8",
         "service_type": "POWER_STATE_SERVICE",
-        "service_attribute": "{\"value\": \"OFF\"}",
-        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState"
+        "unit_type": "UNKNOWN",
+        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
+        "service_attribute": "{\"value\": \"OFF\"}"
       },
       {
-        "action_authority": {
-          "authority": "USER"
-        },
-        "action_priority": {
-          "priority": "NORMAL"
-        },
         "unit_id": "0008d85b-8bf1-4290-8d78-4e8aebaf1c77",
         "service_type": "POWER_STATE_SERVICE",
-        "service_attribute": "{\"value\": \"OFF\"}",
-        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState"
+        "unit_type": "UNKNOWN",
+        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
+        "service_attribute": "{\"value\": \"OFF\"}"
       },
       {
-        "action_authority": {
-          "authority": "USER"
-        },
-        "action_priority": {
-          "priority": "NORMAL"
-        },
         "unit_id": "fec3cb67-ab1a-4f5d-8ea3-7e3c5d68a287",
         "service_type": "POWER_STATE_SERVICE",
-        "service_attribute": "{\"value\": \"OFF\"}",
-        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState"
+        "unit_type": "UNKNOWN",
+        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
+        "service_attribute": "{\"value\": \"OFF\"}"
       },
       {
-        "action_authority": {
-          "authority": "USER"
-        },
-        "action_priority": {
-          "priority": "NORMAL"
-        },
         "unit_id": "d717561e-aa99-4bb0-9969-e68f4f5624a7",
         "service_type": "POWER_STATE_SERVICE",
-        "service_attribute": "{\"value\": \"OFF\"}",
-        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState"
+        "unit_type": "UNKNOWN",
+        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
+        "service_attribute": "{\"value\": \"OFF\"}"
       },
       {
-        "action_authority": {
-          "authority": "USER"
-        },
-        "action_priority": {
-          "priority": "NORMAL"
-        },
         "unit_id": "80562845-b451-4f43-ab83-3236611c4c84",
         "service_type": "POWER_STATE_SERVICE",
-        "service_attribute": "{\"value\": \"OFF\"}",
-        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState"
+        "unit_type": "UNKNOWN",
+        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
+        "service_attribute": "{\"value\": \"OFF\"}"
       },
       {
-        "action_authority": {
-          "authority": "USER"
-        },
-        "action_priority": {
-          "priority": "NORMAL"
-        },
         "unit_id": "f7d09b74-2f08-46ae-b3b9-c1f6fc8c8ed2",
         "service_type": "POWER_STATE_SERVICE",
-        "service_attribute": "{\"value\": \"OFF\"}",
-        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState"
+        "unit_type": "UNKNOWN",
+        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
+        "service_attribute": "{\"value\": \"OFF\"}"
       },
       {
-        "action_authority": {
-          "authority": "USER"
-        },
-        "action_priority": {
-          "priority": "NORMAL"
-        },
         "unit_id": "83a7e4f3-9a87-413d-be2e-345d460144e3",
         "service_type": "POWER_STATE_SERVICE",
-        "service_attribute": "{\"value\": \"OFF\"}",
-        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState"
+        "unit_type": "UNKNOWN",
+        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
+        "service_attribute": "{\"value\": \"OFF\"}"
       },
       {
-        "action_authority": {
-          "authority": "USER"
-        },
-        "action_priority": {
-          "priority": "NORMAL"
-        },
         "unit_id": "bc243f30-f924-4348-b48e-2328aeb39da1",
         "service_type": "POWER_STATE_SERVICE",
-        "service_attribute": "{\"value\": \"OFF\"}",
-        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState"
+        "unit_type": "UNKNOWN",
+        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
+        "service_attribute": "{\"value\": \"OFF\"}"
       },
       {
-        "action_authority": {
-          "authority": "USER"
-        },
-        "action_priority": {
-          "priority": "NORMAL"
-        },
         "unit_id": "471470f4-2f37-4cef-9b6b-0299631b0690",
         "service_type": "POWER_STATE_SERVICE",
-        "service_attribute": "{\"value\": \"OFF\"}",
-        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState"
+        "unit_type": "UNKNOWN",
+        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
+        "service_attribute": "{\"value\": \"OFF\"}"
       },
       {
-        "action_authority": {
-          "authority": "USER"
-        },
-        "action_priority": {
-          "priority": "NORMAL"
-        },
         "unit_id": "0b26889b-ff0a-4ba0-98ac-51a481c6b559",
         "service_type": "POWER_STATE_SERVICE",
-        "service_attribute": "{\"value\": \"OFF\"}",
-        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState"
+        "unit_type": "UNKNOWN",
+        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
+        "service_attribute": "{\"value\": \"OFF\"}"
       }
     ]
   }

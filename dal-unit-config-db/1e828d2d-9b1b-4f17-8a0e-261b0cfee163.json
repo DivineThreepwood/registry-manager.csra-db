@@ -36,7 +36,8 @@
         }
       },
       "unit_id": "1e828d2d-9b1b-4f17-8a0e-261b0cfee163",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "b7cec81b-6387-4b77-a2c2-2d97726a4476",
         "type": "POWER_CONSUMPTION_STATE_SERVICE",
         "meta_config": {}
       },

@@ -1,12 +1,12 @@
 {
   "id": "d82aed75-e75a-4c40-a0b6-67a612204dc2",
   "unit_template_config_id": "Gira_429496730210000_BUTTON_2",
-  "label": "Info",
+  "label": "Scene: Reading",
   "unit_host_id": "acb2a103-1c5c-4023-96d5-c88b8a9a042c",
   "type": "BUTTON",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-    "transformation_frame_id": "Info",
+    "transformation_frame_id": "Scene_Reading",
     "position": {
       "translation": {
         "x": 0.0,
@@ -27,10 +27,10 @@
       "home",
       "wardrobe",
       "button",
-      "info"
+      "scene_reading"
     ]
   },
-  "bound_to_unit_host": true,
+  "bound_to_unit_host": false,
   "service_config": [
     {
       "binding_config": {
@@ -43,13 +43,14 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_5133__home_wardrobe__Button__Info__ButtonStateService"
+              "value": "Gira_5133__home_wardrobe__Button__Scene_Reading__ButtonStateService"
             }
           ]
         }
       },
       "unit_id": "d82aed75-e75a-4c40-a0b6-67a612204dc2",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "1d50901a-5cc1-4595-9180-334c3f3317dc",
         "type": "BUTTON_STATE_SERVICE",
         "pattern": "PROVIDER",
         "meta_config": {}
@@ -60,5 +61,9 @@
   "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

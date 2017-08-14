@@ -4,6 +4,7 @@
   "type": "AGENT",
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+    "transformation_frame_id": "StandbyControlRoom",
     "shape": {}
   },
   "scope": {
@@ -19,7 +20,8 @@
     {
       "binding_config": {},
       "unit_id": "53712aee-7065-4672-b5b4-95a1f4b31b32",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
         "type": "ACTIVATION_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
@@ -28,7 +30,8 @@
     {
       "binding_config": {},
       "unit_id": "53712aee-7065-4672-b5b4-95a1f4b31b32",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
         "type": "ACTIVATION_STATE_SERVICE",
         "meta_config": {}
       }

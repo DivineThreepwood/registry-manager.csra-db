@@ -4,6 +4,7 @@
   "type": "AGENT",
   "placement_config": {
     "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+    "transformation_frame_id": "BathAmbientColorZen",
     "shape": {}
   },
   "scope": {
@@ -19,7 +20,8 @@
     {
       "binding_config": {},
       "unit_id": "dc3eda2b-c555-4879-94f6-424861a42398",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
         "type": "ACTIVATION_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
@@ -28,7 +30,8 @@
     {
       "binding_config": {},
       "unit_id": "dc3eda2b-c555-4879-94f6-424861a42398",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
         "type": "ACTIVATION_STATE_SERVICE",
         "meta_config": {}
       }

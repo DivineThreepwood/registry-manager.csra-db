@@ -1,12 +1,12 @@
 {
   "id": "d9ee6f58-d127-430b-9970-bf72b9261de4",
   "unit_template_config_id": "Gira_429496730210000_BUTTON_3",
-  "label": "reset",
+  "label": "Scene: Default",
   "unit_host_id": "933f4d62-769a-4975-ad8d-45d36912b68b",
   "type": "BUTTON",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "reset",
+    "transformation_frame_id": "Scene_Default",
     "position": {
       "translation": {
         "x": 0.0,
@@ -27,10 +27,10 @@
       "home",
       "living",
       "button",
-      "reset"
+      "scene_default"
     ]
   },
-  "bound_to_unit_host": true,
+  "bound_to_unit_host": false,
   "service_config": [
     {
       "binding_config": {
@@ -43,15 +43,17 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_5133__home_living__Button__reset__ButtonStateService"
+              "value": "Gira_5133__home_living__Button__Scene_Default__ButtonStateService"
             }
           ]
         }
       },
       "unit_id": "d9ee6f58-d127-430b-9970-bf72b9261de4",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "1d50901a-5cc1-4595-9180-334c3f3317dc",
         "type": "BUTTON_STATE_SERVICE",
-        "pattern": "PROVIDER"
+        "pattern": "PROVIDER",
+        "meta_config": {}
       },
       "meta_config": {}
     }
@@ -59,5 +61,9 @@
   "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

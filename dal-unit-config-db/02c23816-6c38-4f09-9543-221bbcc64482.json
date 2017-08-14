@@ -44,7 +44,8 @@
         }
       },
       "unit_id": "02c23816-6c38-4f09-9543-221bbcc64482",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "d1dd033f-9dae-46fb-9355-a32b0b898db7",
         "type": "BATTERY_STATE_SERVICE",
         "pattern": "PROVIDER"
       },
