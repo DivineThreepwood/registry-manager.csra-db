@@ -62,13 +62,6 @@
         "service_attribute": "{\"value\": \"OFF\"}"
       },
       {
-        "unit_id": "0008d85b-8bf1-4290-8d78-4e8aebaf1c77",
-        "service_type": "POWER_STATE_SERVICE",
-        "unit_type": "UNKNOWN",
-        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
-        "service_attribute": "{\"value\": \"OFF\"}"
-      },
-      {
         "unit_id": "fec3cb67-ab1a-4f5d-8ea3-7e3c5d68a287",
         "service_type": "POWER_STATE_SERVICE",
         "unit_type": "UNKNOWN",

@@ -122,7 +122,7 @@
   ],
   "meta_config": {},
   "enabling_state": {
-    "value": "DISABLED"
+    "value": "ENABLED"
   },
   "permission_config": {
     "owner_permission": {},

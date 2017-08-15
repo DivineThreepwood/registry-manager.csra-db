@@ -62,20 +62,6 @@
         "service_attribute": "{\"value\": \"OFF\"}"
       },
       {
-        "unit_id": "3249a1a5-52d1-4be1-910f-2063974b53f5",
-        "service_type": "POWER_STATE_SERVICE",
-        "unit_type": "UNKNOWN",
-        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
-        "service_attribute": "{\"value\": \"OFF\"}"
-      },
-      {
-        "unit_id": "ffcc570c-e456-4d4b-a894-a73401a35193",
-        "service_type": "POWER_STATE_SERVICE",
-        "unit_type": "UNKNOWN",
-        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
-        "service_attribute": "{\"value\": \"OFF\"}"
-      },
-      {
         "unit_id": "dccc86dc-f764-4602-8ad4-945bf6851581",
         "service_type": "POWER_STATE_SERVICE",
         "unit_type": "UNKNOWN",
