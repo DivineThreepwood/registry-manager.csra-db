@@ -7,19 +7,6 @@
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
     "transformation_frame_id": "Home_ASUS_90IW0122-B01UA_E3IWBDA34180",
-    "position": {
-      "translation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "rotation": {
-        "qw": 1.0,
-        "qx": 0.0,
-        "qy": 0.0,
-        "qz": 0.0
-      }
-    },
     "shape": {}
   },
   "scope": {

@@ -19,6 +19,16 @@
       }
     },
     "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "width": 1.65,
+        "depth": 4.3383,
+        "height": 0.0
+      },
       "floor": [
         {
           "x": 0.0,
