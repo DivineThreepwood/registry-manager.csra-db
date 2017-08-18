@@ -1,0 +1,29 @@
+{
+  "id": "b7d2a565-7f40-4bb7-bd23-fee9480f7569",
+  "label": "nkoester (Norman Köster)",
+  "type": "USER",
+  "placement_config": {
+    "transformation_frame_id": "nkoester_Norman_Koester_",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "manager",
+      "user",
+      "nkoester"
+    ]
+  },
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "user_config": {
+    "first_name": "Norman",
+    "last_name": "Köster",
+    "user_name": "nkoester"
+  },
+  "permission_config": {
+    "owner_permission": {},
+    "other_permission": {}
+  }
+}

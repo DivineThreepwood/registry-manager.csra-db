@@ -1,0 +1,29 @@
+{
+  "id": "cc1ec50b-9582-469f-a8fc-54a6bffbcc9b",
+  "label": "pholthau (Patrick Holthaus)",
+  "type": "USER",
+  "placement_config": {
+    "transformation_frame_id": "pholthau_Patrick_Holthaus_",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "manager",
+      "user",
+      "pholthau"
+    ]
+  },
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "user_config": {
+    "first_name": "Patrick",
+    "last_name": "Holthaus",
+    "user_name": "pholthau"
+  },
+  "permission_config": {
+    "owner_permission": {},
+    "other_permission": {}
+  }
+}

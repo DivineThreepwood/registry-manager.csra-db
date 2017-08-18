@@ -48,25 +48,94 @@
   "scene_config": {
     "required_service_state_description": [
       {
-        "unit_id": "98acc701-87b9-4cf2-b79b-3eb6c166e2fe",
-        "service_type": "ACTIVATION_STATE_SERVICE",
-        "unit_type": "UNKNOWN",
-        "service_attribute_type": "rst.domotic.state.ActivationStateType$ActivationState",
-        "service_attribute": "{\"value\": \"DEACTIVE\"}"
+        "unit_id": "72ad4c6b-80f7-431a-bf2e-31ff58066426",
+        "service_type": "POWER_STATE_SERVICE",
+        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
+        "service_attribute": "{\"value\": \"OFF\"}"
+      },
+      {
+        "unit_id": "8d310f30-d60a-4627-8884-373c5e2dcbdd",
+        "service_type": "COLOR_STATE_SERVICE",
+        "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState",
+        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 79.99999237060547,\"saturation\": 60.0,\"brightness\": 100.0}},\"timestamp\": {\"time\": 1502814747836000}}"
+      },
+      {
+        "unit_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+        "service_type": "COLOR_STATE_SERVICE",
+        "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState",
+        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 80.0,\"saturation\": 60.0,\"brightness\": 100.0}},\"timestamp\": {\"time\": 1502814748059000}}"
+      },
+      {
+        "unit_id": "56d96b1e-e9d6-4682-a105-fa4e12b129fe",
+        "service_type": "POWER_STATE_SERVICE",
+        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
+        "service_attribute": "{\"value\": \"OFF\"}"
+      },
+      {
+        "unit_id": "79c495a1-cb54-4eb8-9047-f09a3b97b720",
+        "service_type": "POWER_STATE_SERVICE",
+        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
+        "service_attribute": "{\"value\": \"OFF\"}"
+      },
+      {
+        "unit_id": "48e43d6f-0015-40b3-895b-0ff33d4a74a4",
+        "service_type": "COLOR_STATE_SERVICE",
+        "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState",
+        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 80.0,\"saturation\": 60.0,\"brightness\": 100.0}},\"timestamp\": {\"time\": 1502814748139000}}"
       },
       {
         "unit_id": "6f6dce7d-e959-49ff-9bf9-6b15dcde3082",
         "service_type": "POWER_STATE_SERVICE",
-        "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
-        "service_attribute": "{\"value\": \"ON\",\"timestamp\": {\"time\": 1498574825505000}}"
+        "service_attribute": "{\"value\": \"ON\",\"timestamp\": {\"time\": 1502814748171000}}"
       },
       {
-        "unit_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+        "unit_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "service_type": "COLOR_STATE_SERVICE",
-        "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState",
-        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 76.36363220214844,\"saturation\": 72.36841583251953,\"brightness\": 89.4117660522461}},\"timestamp\": {\"time\": 1498574846290000}}"
+        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 80.0,\"saturation\": 60.0,\"brightness\": 100.0}},\"timestamp\": {\"time\": 1502814873702000}}"
+      },
+      {
+        "unit_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+        "service_type": "COLOR_STATE_SERVICE",
+        "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState",
+        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 80.0,\"saturation\": 60.0,\"brightness\": 100.0}},\"timestamp\": {\"time\": 1502814748675000}}"
+      },
+      {
+        "unit_id": "96891f9d-e7f2-449d-9871-a2d317214295",
+        "service_type": "COLOR_STATE_SERVICE",
+        "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState",
+        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 80.0,\"saturation\": 60.0,\"brightness\": 100.0}},\"timestamp\": {\"time\": 1502814748863000}}"
+      },
+      {
+        "unit_id": "9c3561a1-e6ce-476e-9bff-0d35807d2607",
+        "service_type": "COLOR_STATE_SERVICE",
+        "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState",
+        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 79.99999237060547,\"saturation\": 60.0,\"brightness\": 100.0}},\"timestamp\": {\"time\": 1502814749012000}}"
+      },
+      {
+        "unit_id": "e83686fd-99bc-44a0-9170-e6166598a95c",
+        "service_type": "POWER_STATE_SERVICE",
+        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
+        "service_attribute": "{\"value\": \"OFF\"}"
+      },
+      {
+        "unit_id": "98acc701-87b9-4cf2-b79b-3eb6c166e2fe",
+        "service_type": "ACTIVATION_STATE_SERVICE",
+        "service_attribute_type": "rst.domotic.state.ActivationStateType$ActivationState",
+        "service_attribute": "{\"value\": \"DEACTIVE\"}"
+      },
+      {
+        "unit_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+        "service_type": "COLOR_STATE_SERVICE",
+        "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState",
+        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 80.0,\"saturation\": 60.0,\"brightness\": 100.0}},\"timestamp\": {\"time\": 1502814813392000}}"
+      },
+      {
+        "unit_id": "6a347801-c3e6-4893-a841-9b8d3577abfa",
+        "service_type": "POWER_STATE_SERVICE",
+        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
+        "service_attribute": "{\"value\": \"OFF\"}"
       }
     ]
   }

@@ -1,0 +1,29 @@
+{
+  "id": "bb0ad996-407a-44c2-9c89-2c9ac22fa67c",
+  "label": "vrichter (Viktor Richter)",
+  "type": "USER",
+  "placement_config": {
+    "transformation_frame_id": "vrichter_Viktor_Richter_",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "manager",
+      "user",
+      "vrichter"
+    ]
+  },
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "user_config": {
+    "first_name": "Viktor",
+    "last_name": "Richter",
+    "user_name": "vrichter"
+  },
+  "permission_config": {
+    "owner_permission": {},
+    "other_permission": {}
+  }
+}
