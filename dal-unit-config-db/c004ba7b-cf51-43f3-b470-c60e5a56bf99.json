@@ -1,0 +1,36 @@
+{
+  "id": "c004ba7b-cf51-43f3-b470-c60e5a56bf99",
+  "unit_template_config_id": "e18d2b16-1969-4e5b-b40c-8b255c2cdb8c_VIDEO_RGB_SOURCE_0",
+  "label": "Kinect dining",
+  "unit_host_id": "6678a48f-05a1-47f1-b962-35227c396675",
+  "type": "VIDEO_RGB_SOURCE",
+  "placement_config": {
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "transformation_frame_id": "Kinect_dining",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "videorgbsource",
+      "kinect_dining"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}
