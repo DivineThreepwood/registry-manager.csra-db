@@ -4,7 +4,20 @@
   "type": "DEVICE",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "CouchLamp"
+    "transformation_frame_id": "CouchLamp",
+    "position": {
+      "translation": {
+        "x": 0.1106868101966132,
+        "y": 0.42169152629631235,
+        "z": 2.091078166393036
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
   },
   "scope": {
     "component": [

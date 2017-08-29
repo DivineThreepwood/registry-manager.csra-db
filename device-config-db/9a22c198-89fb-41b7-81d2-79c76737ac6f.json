@@ -5,6 +5,19 @@
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
     "transformation_frame_id": "SLampRight1",
+    "position": {
+      "translation": {
+        "x": 3.9113207850802727,
+        "y": -0.055281499834480385,
+        "z": 2.196832869676344
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
     "shape": {}
   },
   "scope": {

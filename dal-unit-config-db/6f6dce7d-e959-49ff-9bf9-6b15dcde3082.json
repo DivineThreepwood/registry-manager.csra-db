@@ -7,6 +7,19 @@
   "placement_config": {
     "location_id": "eb89de19-36db-4f26-b8a5-a75df850892e",
     "transformation_frame_id": "TV",
+    "position": {
+      "translation": {
+        "x": 0.756288909727322,
+        "y": 0.7892151939641305,
+        "z": -1.5462552892887658
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
     "shape": {}
   },
   "scope": {

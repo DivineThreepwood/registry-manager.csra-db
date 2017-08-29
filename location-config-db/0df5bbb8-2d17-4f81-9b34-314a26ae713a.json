@@ -247,6 +247,9 @@
   },
   "location_config": {
     "type": "REGION",
-    "root": false
+    "root": false,
+    "unit_id": [
+      "7e479546-e973-42cc-bc03-8a673bfceb70"
+    ]
   }
 }

@@ -4,7 +4,20 @@
   "type": "DEVICE",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "SLampLeft2"
+    "transformation_frame_id": "SLampLeft2",
+    "position": {
+      "translation": {
+        "x": 0.2726361398197228,
+        "y": -0.275082675047269,
+        "z": 1.9987216633832392
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    }
   },
   "scope": {
     "component": [
