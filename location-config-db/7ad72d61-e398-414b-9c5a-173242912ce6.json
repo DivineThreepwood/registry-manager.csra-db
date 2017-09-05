@@ -27,7 +27,7 @@
         },
         "width": 4.0345,
         "depth": 4.589,
-        "height": 0.0
+        "height": 2.79
       },
       "floor": [
         {
@@ -79,6 +79,100 @@
           "x": 3.8606,
           "y": 0.0,
           "z": 0.0
+        }
+      ],
+      "ceiling": [
+        {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2.79
+        },
+        {
+          "x": 0.0,
+          "y": 4.589,
+          "z": 2.79
+        },
+        {
+          "x": 3.7345,
+          "y": 4.589,
+          "z": 2.79
+        },
+        {
+          "x": 3.7345,
+          "y": 4.314,
+          "z": 2.79
+        },
+        {
+          "x": 4.0345,
+          "y": 4.314,
+          "z": 2.79
+        },
+        {
+          "x": 4.0345,
+          "y": 0.676,
+          "z": 2.79
+        },
+        {
+          "x": 3.7345,
+          "y": 0.676,
+          "z": 2.79
+        },
+        {
+          "x": 3.7345,
+          "y": 0.276,
+          "z": 2.79
+        },
+        {
+          "x": 3.8606,
+          "y": 0.276,
+          "z": 2.79
+        },
+        {
+          "x": 3.8606,
+          "y": 0.0,
+          "z": 2.79
+        }
+      ],
+      "floor_ceiling_edge": [
+        {
+          "floor_index": 0,
+          "ceiling_index": 0
+        },
+        {
+          "floor_index": 1,
+          "ceiling_index": 1
+        },
+        {
+          "floor_index": 2,
+          "ceiling_index": 2
+        },
+        {
+          "floor_index": 3,
+          "ceiling_index": 3
+        },
+        {
+          "floor_index": 4,
+          "ceiling_index": 4
+        },
+        {
+          "floor_index": 5,
+          "ceiling_index": 5
+        },
+        {
+          "floor_index": 6,
+          "ceiling_index": 6
+        },
+        {
+          "floor_index": 7,
+          "ceiling_index": 7
+        },
+        {
+          "floor_index": 8,
+          "ceiling_index": 8
+        },
+        {
+          "floor_index": 9,
+          "ceiling_index": 9
         }
       ]
     }
