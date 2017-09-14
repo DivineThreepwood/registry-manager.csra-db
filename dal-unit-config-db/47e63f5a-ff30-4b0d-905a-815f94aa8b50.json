@@ -159,19 +159,8 @@
       "meta_config": {}
     }
   ],
-  "meta_config": {
-    "entry": [
-      {
-        "key": "POINTING_GESTURE",
-        "value": "true"
-      }
-    ]
-  },
+  "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"
-  },
-  "permission_config": {
-    "owner_permission": {},
-    "other_permission": {}
   }
 }

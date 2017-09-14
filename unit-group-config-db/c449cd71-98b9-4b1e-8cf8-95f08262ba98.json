@@ -5,7 +5,31 @@
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
     "transformation_frame_id": "SLampRight_Living",
-    "shape": {}
+    "position": {
+      "translation": {
+        "x": 3.8903967144371387,
+        "y": -0.055281499834480385,
+        "z": 2.011392001537077
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "width": 0.02092407,
+        "depth": 0.0031873109,
+        "height": 0.18544087
+      }
+    }
   },
   "scope": {
     "component": [

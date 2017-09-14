@@ -5,7 +5,31 @@
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
     "transformation_frame_id": "Ceiling_Light_Group",
-    "shape": {}
+    "position": {
+      "translation": {
+        "x": 0.6263055643551959,
+        "y": 2.2824022849792867,
+        "z": 1.919204695793395
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "width": 2.594914,
+        "depth": 3.4392905,
+        "height": 0.631665
+      }
+    }
   },
   "scope": {
     "component": [
