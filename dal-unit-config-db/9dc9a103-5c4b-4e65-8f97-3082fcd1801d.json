@@ -9,9 +9,9 @@
     "transformation_frame_id": "SLamp1",
     "position": {
       "translation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
+        "x": 1.9314562873533223,
+        "y": -0.02129651813061062,
+        "z": 1.5547288793051302
       },
       "rotation": {
         "qw": 1.0,

@@ -19,6 +19,16 @@
       }
     },
     "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": -2.79
+        },
+        "width": 2.395,
+        "depth": 2.508,
+        "height": 2.79
+      },
       "floor": [
         {
           "x": 0.0,
@@ -26,19 +36,59 @@
           "z": 0.0
         },
         {
-          "x": 2.395,
-          "y": 0.0,
+          "x": 0.0,
+          "y": 2.508,
           "z": 0.0
         },
         {
           "x": 2.395,
           "y": 2.508,
           "z": 0.0
+        },
+        {
+          "x": 2.395,
+          "y": 0.0,
+          "z": 0.0
+        }
+      ],
+      "ceiling": [
+        {
+          "x": 0.0,
+          "y": 0.0,
+          "z": -2.79
         },
         {
           "x": 0.0,
           "y": 2.508,
-          "z": 0.0
+          "z": -2.79
+        },
+        {
+          "x": 2.395,
+          "y": 2.508,
+          "z": -2.79
+        },
+        {
+          "x": 2.395,
+          "y": 0.0,
+          "z": -2.79
+        }
+      ],
+      "floor_ceiling_edge": [
+        {
+          "floor_index": 0,
+          "ceiling_index": 0
+        },
+        {
+          "floor_index": 1,
+          "ceiling_index": 1
+        },
+        {
+          "floor_index": 2,
+          "ceiling_index": 2
+        },
+        {
+          "floor_index": 3,
+          "ceiling_index": 3
         }
       ]
     }
@@ -237,6 +287,9 @@
   },
   "location_config": {
     "type": "REGION",
-    "root": false
+    "root": false,
+    "unit_id": [
+      "7e479546-e973-42cc-bc03-8a673bfceb70"
+    ]
   }
 }

@@ -5,13 +5,13 @@
   "unit_host_id": "d7f45b8f-f3b3-4d1a-b107-3231b4b33f3b",
   "type": "DIMMER",
   "placement_config": {
-    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "location_id": "0df5bbb8-2d17-4f81-9b34-314a26ae713a",
     "transformation_frame_id": "CeilingWindowDimmer",
     "position": {
       "translation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
+        "x": 2.0501541492157003,
+        "y": 0.5377411787835502,
+        "z": -2.2446906405413207
       },
       "rotation": {
         "qw": 1.0,
@@ -26,6 +26,7 @@
     "component": [
       "home",
       "living",
+      "lounge",
       "dimmer",
       "ceilingwindowdimmer"
     ]
@@ -43,7 +44,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__home_living__Dimmer__CeilingWindowDimmer__BrightnessStateService"
+              "value": "Hager_TYA663A__home_living_lounge__Dimmer__CeilingWindowDimmer__BrightnessStateService"
             }
           ]
         }
@@ -68,7 +69,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__home_living__Dimmer__CeilingWindowDimmer__BrightnessStateService"
+              "value": "Hager_TYA663A__home_living_lounge__Dimmer__CeilingWindowDimmer__BrightnessStateService"
             }
           ]
         }
@@ -93,7 +94,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__home_living__Dimmer__CeilingWindowDimmer__PowerStateService"
+              "value": "Hager_TYA663A__home_living_lounge__Dimmer__CeilingWindowDimmer__PowerStateService"
             }
           ]
         }
@@ -118,7 +119,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__home_living__Dimmer__CeilingWindowDimmer__PowerStateService"
+              "value": "Hager_TYA663A__home_living_lounge__Dimmer__CeilingWindowDimmer__PowerStateService"
             }
           ]
         }

@@ -7,9 +7,9 @@
     "transformation_frame_id": "Bath_LLamp6",
     "position": {
       "translation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
+        "x": 0.20820395670076142,
+        "y": 2.3028716769925914,
+        "z": 1.1452208000147404
       },
       "rotation": {
         "qw": 1.0,

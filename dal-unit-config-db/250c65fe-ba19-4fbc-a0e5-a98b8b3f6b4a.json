@@ -1,25 +1,12 @@
 {
   "id": "250c65fe-ba19-4fbc-a0e5-a98b8b3f6b4a",
   "unit_template_config_id": "Gira_429496730210000_BUTTON_3",
-  "label": "Autolight",
+  "label": "Scene: Entertainment",
   "unit_host_id": "acb2a103-1c5c-4023-96d5-c88b8a9a042c",
   "type": "BUTTON",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-    "transformation_frame_id": "Autolight",
-    "position": {
-      "translation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "rotation": {
-        "qw": 1.0,
-        "qx": 0.0,
-        "qy": 0.0,
-        "qz": 0.0
-      }
-    },
+    "transformation_frame_id": "Scene_Entertainment",
     "shape": {}
   },
   "scope": {
@@ -27,7 +14,7 @@
       "home",
       "wardrobe",
       "button",
-      "autolight"
+      "scene_entertainment"
     ]
   },
   "bound_to_unit_host": false,
@@ -43,7 +30,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_5133__home_wardrobe__Button__Autolight__ButtonStateService"
+              "value": "Gira_5133__home_wardrobe__Button__Scene_Entertainment__ButtonStateService"
             }
           ]
         }
@@ -61,5 +48,9 @@
   "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

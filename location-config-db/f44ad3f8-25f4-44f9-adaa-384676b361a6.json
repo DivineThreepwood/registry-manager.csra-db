@@ -19,6 +19,16 @@
       }
     },
     "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "width": 2.302,
+        "depth": 3.688,
+        "height": 2.79
+      },
       "floor": [
         {
           "x": 0.0,
@@ -59,6 +69,82 @@
           "x": 2.302,
           "y": 0.0,
           "z": 0.0
+        }
+      ],
+      "ceiling": [
+        {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2.79
+        },
+        {
+          "x": 0.0,
+          "y": 3.688,
+          "z": 2.79
+        },
+        {
+          "x": 1.25,
+          "y": 3.688,
+          "z": 2.79
+        },
+        {
+          "x": 1.25,
+          "y": 2.232,
+          "z": 2.79
+        },
+        {
+          "x": 1.375,
+          "y": 2.232,
+          "z": 2.79
+        },
+        {
+          "x": 1.375,
+          "y": 3.688,
+          "z": 2.79
+        },
+        {
+          "x": 2.302,
+          "y": 3.688,
+          "z": 2.79
+        },
+        {
+          "x": 2.302,
+          "y": 0.0,
+          "z": 2.79
+        }
+      ],
+      "floor_ceiling_edge": [
+        {
+          "floor_index": 0,
+          "ceiling_index": 0
+        },
+        {
+          "floor_index": 1,
+          "ceiling_index": 1
+        },
+        {
+          "floor_index": 2,
+          "ceiling_index": 2
+        },
+        {
+          "floor_index": 3,
+          "ceiling_index": 3
+        },
+        {
+          "floor_index": 4,
+          "ceiling_index": 4
+        },
+        {
+          "floor_index": 5,
+          "ceiling_index": 5
+        },
+        {
+          "floor_index": 6,
+          "ceiling_index": 6
+        },
+        {
+          "floor_index": 7,
+          "ceiling_index": 7
         }
       ]
     }
@@ -281,8 +367,8 @@
       "385d4f0e-f7e3-48b0-a8a1-450687f78db6",
       "7eb843b9-543d-4bcd-a90f-527438e8873e",
       "afa64bbf-7e9c-40fe-a6a7-a368c8a01eaf",
-      "8bdec03c-86e1-462f-b341-3a0e96f2d6f5",
       "5ab9159f-b057-40f7-94fc-579fc4f283d3",
+      "8bdec03c-86e1-462f-b341-3a0e96f2d6f5",
       "31b4fd8f-6355-49c2-90bc-039e92d602f0",
       "ec3c5b11-a915-49fa-ae54-787c2fa006c9",
       "d289248e-38f7-4b07-bb9d-c0b657800ae5",

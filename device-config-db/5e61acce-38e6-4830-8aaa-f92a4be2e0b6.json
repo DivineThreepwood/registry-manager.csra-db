@@ -3,13 +3,13 @@
   "label": "Table_1",
   "type": "DEVICE",
   "placement_config": {
-    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
     "transformation_frame_id": "Table_1",
     "position": {
       "translation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
+        "x": 0.6263055643551959,
+        "y": 0.579524412830664,
+        "z": -1.9411547916853475
       },
       "rotation": {
         "qw": 1.0,
@@ -24,6 +24,7 @@
     "component": [
       "home",
       "living",
+      "dining",
       "device",
       "table_1"
     ]
@@ -44,7 +45,7 @@
     "serial_number": "87120C",
     "inventory_state": {
       "value": "INSTALLED",
-      "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+      "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
       "timestamp": {
         "time": 1441015778813
       },

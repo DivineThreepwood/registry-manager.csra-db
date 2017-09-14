@@ -5,19 +5,7 @@
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
     "transformation_frame_id": "Control_RightWindowHandleSensor",
-    "position": {
-      "translation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "rotation": {
-        "qw": 1.0,
-        "qx": 0.0,
-        "qy": 0.0,
-        "qz": 0.0
-      }
-    }
+    "shape": {}
   },
   "scope": {
     "component": [
@@ -28,7 +16,14 @@
     ]
   },
   "bound_to_unit_host": true,
-  "meta_config": {},
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "KEQ1095941"
+      }
+    ]
+  },
   "enabling_state": {
     "value": "ENABLED"
   },
@@ -47,5 +42,9 @@
       "d45e9c08-5f84-4e22-9a65-e288c21a5f02",
       "690cd512-c5cf-4163-a5e4-54829e90f0c7"
     ]
+  },
+  "permission_config": {
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

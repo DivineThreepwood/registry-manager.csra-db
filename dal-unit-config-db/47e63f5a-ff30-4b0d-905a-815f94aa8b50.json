@@ -9,9 +9,9 @@
     "transformation_frame_id": "CeilingCentralLamp",
     "position": {
       "translation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
+        "x": 1.8146756320960375,
+        "y": 2.9366072379838357,
+        "z": 1.088850204375977
       },
       "rotation": {
         "qw": 1.0,

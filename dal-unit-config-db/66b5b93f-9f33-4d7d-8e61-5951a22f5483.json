@@ -9,9 +9,9 @@
     "transformation_frame_id": "CouchLamp",
     "position": {
       "translation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
+        "x": 0.1106868101966132,
+        "y": 0.42169152629631235,
+        "z": 2.091078166393036
       },
       "rotation": {
         "qw": 1.0,

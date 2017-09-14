@@ -5,13 +5,13 @@
   "unit_host_id": "df8cdeeb-bd9b-4590-be1f-15511debbbca",
   "type": "COLORABLE_LIGHT",
   "placement_config": {
-    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
     "transformation_frame_id": "Table_0",
     "position": {
       "translation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
+        "x": 0.8140939671748131,
+        "y": 0.36029813546134637,
+        "z": -1.919204695793395
       },
       "rotation": {
         "qw": 1.0,
@@ -25,6 +25,7 @@
     "component": [
       "home",
       "living",
+      "dining",
       "colorablelight",
       "table_0"
     ]
@@ -38,7 +39,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__home_living__ColorableLight__Table_0__BrightnessStateService"
+              "value": "Philips_Hue_E27_Gen1__home_living_dining__ColorableLight__Table_0__BrightnessStateService"
             }
           ]
         }
@@ -58,7 +59,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__home_living__ColorableLight__Table_0__BrightnessStateService"
+              "value": "Philips_Hue_E27_Gen1__home_living_dining__ColorableLight__Table_0__BrightnessStateService"
             }
           ]
         }
@@ -78,7 +79,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__home_living__ColorableLight__Table_0__ColorStateService"
+              "value": "Philips_Hue_E27_Gen1__home_living_dining__ColorableLight__Table_0__ColorStateService"
             }
           ]
         }
@@ -98,7 +99,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__home_living__ColorableLight__Table_0__ColorStateService"
+              "value": "Philips_Hue_E27_Gen1__home_living_dining__ColorableLight__Table_0__ColorStateService"
             }
           ]
         }
@@ -118,7 +119,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__home_living__ColorableLight__Table_0__PowerStateService"
+              "value": "Philips_Hue_E27_Gen1__home_living_dining__ColorableLight__Table_0__PowerStateService"
             }
           ]
         }
@@ -138,7 +139,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__home_living__ColorableLight__Table_0__PowerStateService"
+              "value": "Philips_Hue_E27_Gen1__home_living_dining__ColorableLight__Table_0__PowerStateService"
             }
           ]
         }

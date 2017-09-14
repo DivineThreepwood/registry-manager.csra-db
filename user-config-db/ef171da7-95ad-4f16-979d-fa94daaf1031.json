@@ -3,6 +3,7 @@
   "label": "Divine (Marian Pohling)",
   "type": "USER",
   "placement_config": {
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
     "transformation_frame_id": "Divine_Marian_Pohling_"
   },
   "scope": {

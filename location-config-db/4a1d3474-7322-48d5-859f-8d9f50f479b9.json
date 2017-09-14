@@ -19,6 +19,16 @@
       }
     },
     "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "width": 1.65,
+        "depth": 4.3383,
+        "height": 2.79
+      },
       "floor": [
         {
           "x": 0.0,
@@ -59,6 +69,82 @@
           "x": 1.24,
           "y": 0.0,
           "z": 0.0
+        }
+      ],
+      "ceiling": [
+        {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2.79
+        },
+        {
+          "x": 0.0,
+          "y": 4.3383,
+          "z": 2.79
+        },
+        {
+          "x": 1.24,
+          "y": 4.3383,
+          "z": 2.79
+        },
+        {
+          "x": 1.24,
+          "y": 3.9402,
+          "z": 2.79
+        },
+        {
+          "x": 1.65,
+          "y": 3.9402,
+          "z": 2.79
+        },
+        {
+          "x": 1.65,
+          "y": 0.3,
+          "z": 2.79
+        },
+        {
+          "x": 1.24,
+          "y": 0.3,
+          "z": 2.79
+        },
+        {
+          "x": 1.24,
+          "y": 0.0,
+          "z": 2.79
+        }
+      ],
+      "floor_ceiling_edge": [
+        {
+          "floor_index": 0,
+          "ceiling_index": 0
+        },
+        {
+          "floor_index": 1,
+          "ceiling_index": 1
+        },
+        {
+          "floor_index": 2,
+          "ceiling_index": 2
+        },
+        {
+          "floor_index": 3,
+          "ceiling_index": 3
+        },
+        {
+          "floor_index": 4,
+          "ceiling_index": 4
+        },
+        {
+          "floor_index": 5,
+          "ceiling_index": 5
+        },
+        {
+          "floor_index": 6,
+          "ceiling_index": 6
+        },
+        {
+          "floor_index": 7,
+          "ceiling_index": 7
         }
       ]
     }
@@ -267,7 +353,6 @@
       "95ba2da1-ffb9-4bcc-b533-df9365ebb759",
       "ae8242cc-63cf-4fd9-a31a-4304d52504b2",
       "9b6a783a-fb57-4237-be45-b2477d83da9d",
-      "d3e46543-b154-47ff-936d-e57056b85496",
       "7c243a03-7d31-41a2-979d-da4c9418ff10",
       "d4ce3cdc-f5d8-4862-ad5f-e02cebd9d964",
       "8db53c2d-2c98-4b0d-b0b0-2e0f0127741c",
@@ -282,7 +367,6 @@
       "14846cc1-047d-44ab-aab1-ad67f095b528",
       "cb97582a-43fa-42bc-bcf1-4977cf090070",
       "34084c5f-46bf-4e88-84f4-0110530f6e47",
-      "68937f67-107c-487a-a3a0-7b3761ad8e55",
       "a7be0014-ad96-41ee-aab9-1caf808a7806",
       "250c65fe-ba19-4fbc-a0e5-a98b8b3f6b4a",
       "228917d8-f347-4aa2-a7f1-4971c0498dbc",

@@ -62,21 +62,7 @@
         "service_attribute": "{\"value\": \"OFF\"}"
       },
       {
-        "unit_id": "0008d85b-8bf1-4290-8d78-4e8aebaf1c77",
-        "service_type": "POWER_STATE_SERVICE",
-        "unit_type": "UNKNOWN",
-        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
-        "service_attribute": "{\"value\": \"OFF\"}"
-      },
-      {
         "unit_id": "fec3cb67-ab1a-4f5d-8ea3-7e3c5d68a287",
-        "service_type": "POWER_STATE_SERVICE",
-        "unit_type": "UNKNOWN",
-        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
-        "service_attribute": "{\"value\": \"OFF\"}"
-      },
-      {
-        "unit_id": "d717561e-aa99-4bb0-9969-e68f4f5624a7",
         "service_type": "POWER_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
@@ -91,13 +77,6 @@
       },
       {
         "unit_id": "f7d09b74-2f08-46ae-b3b9-c1f6fc8c8ed2",
-        "service_type": "POWER_STATE_SERVICE",
-        "unit_type": "UNKNOWN",
-        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
-        "service_attribute": "{\"value\": \"OFF\"}"
-      },
-      {
-        "unit_id": "83a7e4f3-9a87-413d-be2e-345d460144e3",
         "service_type": "POWER_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",

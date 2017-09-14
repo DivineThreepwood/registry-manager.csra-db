@@ -1,0 +1,30 @@
+{
+  "id": "01ae2995-39eb-4ca4-8694-108055a1b007",
+  "label": "bcarlmey (Birte Carlmeyer)",
+  "type": "USER",
+  "placement_config": {
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+    "transformation_frame_id": "bcarlmey_Birte_Carlmeyer_",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "manager",
+      "user",
+      "bcarlmey"
+    ]
+  },
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "user_config": {
+    "first_name": "Birte",
+    "last_name": "Carlmeyer",
+    "user_name": "bcarlmey"
+  },
+  "permission_config": {
+    "owner_permission": {},
+    "other_permission": {}
+  }
+}

@@ -7,9 +7,9 @@
     "transformation_frame_id": "Hallway_0",
     "position": {
       "translation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
+        "x": 0.6782195193016092,
+        "y": 2.2824022849792867,
+        "z": 2.3262219863855886
       },
       "rotation": {
         "qw": 1.0,

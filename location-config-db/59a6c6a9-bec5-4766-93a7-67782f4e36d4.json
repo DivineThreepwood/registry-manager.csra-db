@@ -19,6 +19,16 @@
       }
     },
     "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": -2.79
+        },
+        "width": 1.523,
+        "depth": 1.415,
+        "height": 2.79
+      },
       "floor": [
         {
           "x": 0.0,
@@ -26,19 +36,59 @@
           "z": 0.0
         },
         {
-          "x": 1.523,
-          "y": 0.0,
+          "x": 0.0,
+          "y": 1.415,
           "z": 0.0
         },
         {
           "x": 1.523,
           "y": 1.415,
           "z": 0.0
+        },
+        {
+          "x": 1.523,
+          "y": 0.0,
+          "z": 0.0
+        }
+      ],
+      "ceiling": [
+        {
+          "x": 0.0,
+          "y": 0.0,
+          "z": -2.79
         },
         {
           "x": 0.0,
           "y": 1.415,
-          "z": 0.0
+          "z": -2.79
+        },
+        {
+          "x": 1.523,
+          "y": 1.415,
+          "z": -2.79
+        },
+        {
+          "x": 1.523,
+          "y": 0.0,
+          "z": -2.79
+        }
+      ],
+      "floor_ceiling_edge": [
+        {
+          "floor_index": 0,
+          "ceiling_index": 0
+        },
+        {
+          "floor_index": 1,
+          "ceiling_index": 1
+        },
+        {
+          "floor_index": 2,
+          "ceiling_index": 2
+        },
+        {
+          "floor_index": 3,
+          "ceiling_index": 3
         }
       ]
     }
@@ -248,7 +298,11 @@
       "335b96cd-b2a5-4066-8a20-1aae7bc60a18",
       "fdaa2517-6e70-4d8f-836a-d33e21a3465b",
       "646e0296-d189-4d31-b051-676979dcf1c3",
+      "e0ed255a-21c1-4293-9283-f0ddc3aa242a",
       "807f30a3-f9b6-424c-8c1c-9127f12a905c",
+      "df8cdeeb-bd9b-4590-be1f-15511debbbca",
+      "5e61acce-38e6-4830-8aaa-f92a4be2e0b6",
+      "cdfa87e9-1c07-40f7-9acc-9e349a81f619",
       "6bc1da9d-7941-4a32-bb2e-100c93e3b6bd",
       "8a17706f-f479-46ab-bdeb-ad7ec59dfacc",
       "685b5740-5f56-4419-b838-d7be07307bfa"

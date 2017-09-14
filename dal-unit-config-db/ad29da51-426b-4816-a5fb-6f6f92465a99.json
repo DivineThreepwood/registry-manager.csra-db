@@ -6,20 +6,7 @@
   "type": "LIGHT_SENSOR",
   "placement_config": {
     "location_id": "9be1344a-41f1-406b-bdae-41bfd5368f13",
-    "transformation_frame_id": "Outdoor_Entrance",
-    "position": {
-      "translation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "rotation": {
-        "qw": 1.0,
-        "qx": 0.0,
-        "qy": 0.0,
-        "qz": 0.0
-      }
-    }
+    "transformation_frame_id": "Outdoor_Entrance"
   },
   "scope": {
     "component": [

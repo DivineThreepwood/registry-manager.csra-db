@@ -1,25 +1,12 @@
 {
   "id": "8db53c2d-2c98-4b0d-b0b0-2e0f0127741c",
   "unit_template_config_id": "Gira_429496730210000_BUTTON_2",
-  "label": "Scene: Demo",
+  "label": "Scenario: Register",
   "unit_host_id": "a33d0c22-346c-42ca-bed5-c72019700729",
   "type": "BUTTON",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-    "transformation_frame_id": "Scene_Demo",
-    "position": {
-      "translation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "rotation": {
-        "qw": 1.0,
-        "qx": 0.0,
-        "qy": 0.0,
-        "qz": 0.0
-      }
-    },
+    "transformation_frame_id": "Scenario_Register",
     "shape": {}
   },
   "scope": {
@@ -27,7 +14,7 @@
       "home",
       "wardrobe",
       "button",
-      "scene_demo"
+      "scenario_register"
     ]
   },
   "bound_to_unit_host": false,
@@ -43,7 +30,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_5133__home_wardrobe__Button__Scene_Demo__ButtonStateService"
+              "value": "Gira_5133__home_wardrobe__Button__Scenario_Register__ButtonStateService"
             }
           ]
         }

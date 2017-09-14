@@ -19,6 +19,16 @@
       }
     },
     "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "width": 4.0345,
+        "depth": 4.589,
+        "height": 2.79
+      },
       "floor": [
         {
           "x": 0.0,
@@ -69,6 +79,100 @@
           "x": 3.8606,
           "y": 0.0,
           "z": 0.0
+        }
+      ],
+      "ceiling": [
+        {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2.79
+        },
+        {
+          "x": 0.0,
+          "y": 4.589,
+          "z": 2.79
+        },
+        {
+          "x": 3.7345,
+          "y": 4.589,
+          "z": 2.79
+        },
+        {
+          "x": 3.7345,
+          "y": 4.314,
+          "z": 2.79
+        },
+        {
+          "x": 4.0345,
+          "y": 4.314,
+          "z": 2.79
+        },
+        {
+          "x": 4.0345,
+          "y": 0.676,
+          "z": 2.79
+        },
+        {
+          "x": 3.7345,
+          "y": 0.676,
+          "z": 2.79
+        },
+        {
+          "x": 3.7345,
+          "y": 0.276,
+          "z": 2.79
+        },
+        {
+          "x": 3.8606,
+          "y": 0.276,
+          "z": 2.79
+        },
+        {
+          "x": 3.8606,
+          "y": 0.0,
+          "z": 2.79
+        }
+      ],
+      "floor_ceiling_edge": [
+        {
+          "floor_index": 0,
+          "ceiling_index": 0
+        },
+        {
+          "floor_index": 1,
+          "ceiling_index": 1
+        },
+        {
+          "floor_index": 2,
+          "ceiling_index": 2
+        },
+        {
+          "floor_index": 3,
+          "ceiling_index": 3
+        },
+        {
+          "floor_index": 4,
+          "ceiling_index": 4
+        },
+        {
+          "floor_index": 5,
+          "ceiling_index": 5
+        },
+        {
+          "floor_index": 6,
+          "ceiling_index": 6
+        },
+        {
+          "floor_index": 7,
+          "ceiling_index": 7
+        },
+        {
+          "floor_index": 8,
+          "ceiling_index": 8
+        },
+        {
+          "floor_index": 9,
+          "ceiling_index": 9
         }
       ]
     }
@@ -276,6 +380,7 @@
       "932b4f48-59d9-474a-b83e-82c4218b5ecf",
       "f625d77e-e8dc-456f-a9b2-bc043f519e6e",
       "916bfdf8-51db-4b0e-a2a6-dba15837b28a",
+      "fec3cb67-ab1a-4f5d-8ea3-7e3c5d68a287",
       "654bdaf7-8001-4068-98d9-aacfee21464a",
       "9b7bfa9f-1c46-4e96-abc6-cd6b902dec11",
       "d42de094-e6f5-434e-a443-cd1ec3d81ef9",
@@ -299,6 +404,7 @@
       "aacc027c-ee25-4c7b-aba6-bd6109dcb6e0",
       "9f5e28a1-e085-4b15-9640-faecaa7a8c6c",
       "d26af27e-81d6-4659-8c8e-a4ae6256e44c",
+      "fd3443a8-8c3e-4894-ae1b-32c5dcb1b095",
       "30c7dabd-c82d-4d4d-ab21-f19075979f57",
       "6f6823e9-bdbb-4731-87c6-eae2c792cd22",
       "e0816dc4-f3a1-40e5-bc2d-c490a818eff4",

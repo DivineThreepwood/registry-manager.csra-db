@@ -7,9 +7,9 @@
     "transformation_frame_id": "LLamp3",
     "position": {
       "translation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
+        "x": 0.2100842415811357,
+        "y": 2.312594127224645,
+        "z": 0.6661968069994512
       },
       "rotation": {
         "qw": 1.0,

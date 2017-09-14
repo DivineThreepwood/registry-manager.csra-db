@@ -9,9 +9,9 @@
     "transformation_frame_id": "Task_Elan",
     "position": {
       "translation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
+        "x": 0.09152625972897521,
+        "y": 4.092440304803332,
+        "z": 1.0217572289431152
       },
       "rotation": {
         "qw": 1.0,
