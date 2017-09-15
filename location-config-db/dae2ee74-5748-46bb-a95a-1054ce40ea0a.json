@@ -288,6 +288,10 @@
   "location_config": {
     "type": "REGION",
     "root": false,
+    "unit_id": [
+      "fd3443a8-8c3e-4894-ae1b-32c5dcb1b095",
+      "fec3cb67-ab1a-4f5d-8ea3-7e3c5d68a287"
+    ],
     "tile_config": {
       "meta_config": {}
     }
