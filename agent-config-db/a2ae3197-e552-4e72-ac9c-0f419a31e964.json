@@ -1,0 +1,52 @@
+{
+  "id": "a2ae3197-e552-4e72-ac9c-0f419a31e964",
+  "label": "StandbyLiving",
+  "type": "AGENT",
+  "placement_config": {
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "transformation_frame_id": "StandbyLiving",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "agent",
+      "standby",
+      "standbyliving"
+    ]
+  },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "a2ae3197-e552-4e72-ac9c-0f419a31e964",
+      "service_description": {
+        "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
+        "type": "ACTIVATION_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "a2ae3197-e552-4e72-ac9c-0f419a31e964",
+      "service_description": {
+        "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
+        "type": "ACTIVATION_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "agent_config": {
+    "agent_class_id": "77eeb0d9-bc62-468c-8f2a-f2ff1bd7eb21",
+    "autostart": true
+  },
+  "permission_config": {
+    "owner_permission": {},
+    "other_permission": {}
+  }
+}
