@@ -3,13 +3,13 @@
   "label": "LoungeLamp",
   "type": "DEVICE",
   "placement_config": {
-    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "location_id": "0df5bbb8-2d17-4f81-9b34-314a26ae713a",
     "transformation_frame_id": "LoungeLamp",
     "position": {
       "translation": {
-        "x": 1.8146756320960375,
-        "y": 2.9366072379838357,
-        "z": 1.088850204375977
+        "x": 1.8713424196349515,
+        "y": 2.4011361081242333,
+        "z": -2.3168606141386343
       },
       "rotation": {
         "qw": 1.0,
@@ -23,6 +23,7 @@
     "component": [
       "home",
       "living",
+      "lounge",
       "device",
       "loungelamp"
     ]
@@ -43,7 +44,7 @@
     "serial_number": "5D2FC2",
     "inventory_state": {
       "value": "INSTALLED",
-      "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+      "location_id": "0df5bbb8-2d17-4f81-9b34-314a26ae713a",
       "timestamp": {
         "time": 1441014803255
       },

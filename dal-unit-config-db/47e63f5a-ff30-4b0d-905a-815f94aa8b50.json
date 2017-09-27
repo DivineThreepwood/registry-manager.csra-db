@@ -5,13 +5,13 @@
   "unit_host_id": "96f07007-bcbd-4168-aee3-4f4413dfd768",
   "type": "COLORABLE_LIGHT",
   "placement_config": {
-    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "location_id": "0df5bbb8-2d17-4f81-9b34-314a26ae713a",
     "transformation_frame_id": "CeilingCentralLamp",
     "position": {
       "translation": {
-        "x": 1.8146756320960375,
-        "y": 2.9366072379838357,
-        "z": 1.088850204375977
+        "x": 1.8713424196349515,
+        "y": 2.4011361081242333,
+        "z": -2.3168606141386343
       },
       "rotation": {
         "qw": 1.0,
@@ -26,6 +26,7 @@
     "component": [
       "home",
       "living",
+      "lounge",
       "colorablelight",
       "ceilingcentrallamp"
     ]
@@ -39,7 +40,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__home_living__ColorableLight__CeilingCentralLamp__BrightnessStateService"
+              "value": "Philips_Hue_E27_Gen1__home_living_lounge__ColorableLight__CeilingCentralLamp__BrightnessStateService"
             }
           ]
         }
@@ -60,7 +61,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__home_living__ColorableLight__CeilingCentralLamp__BrightnessStateService"
+              "value": "Philips_Hue_E27_Gen1__home_living_lounge__ColorableLight__CeilingCentralLamp__BrightnessStateService"
             }
           ]
         }
@@ -81,7 +82,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__home_living__ColorableLight__CeilingCentralLamp__ColorStateService"
+              "value": "Philips_Hue_E27_Gen1__home_living_lounge__ColorableLight__CeilingCentralLamp__ColorStateService"
             }
           ]
         }
@@ -102,7 +103,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__home_living__ColorableLight__CeilingCentralLamp__ColorStateService"
+              "value": "Philips_Hue_E27_Gen1__home_living_lounge__ColorableLight__CeilingCentralLamp__ColorStateService"
             }
           ]
         }
@@ -123,7 +124,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__home_living__ColorableLight__CeilingCentralLamp__PowerStateService"
+              "value": "Philips_Hue_E27_Gen1__home_living_lounge__ColorableLight__CeilingCentralLamp__PowerStateService"
             }
           ]
         }
@@ -144,7 +145,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__home_living__ColorableLight__CeilingCentralLamp__PowerStateService"
+              "value": "Philips_Hue_E27_Gen1__home_living_lounge__ColorableLight__CeilingCentralLamp__PowerStateService"
             }
           ]
         }
