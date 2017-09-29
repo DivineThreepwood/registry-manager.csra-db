@@ -25,7 +25,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Fibaro_MotionSensor__home_control__TemperatureSensor__BorrowdUnit-1__TemperatureStateService"
+              "value": "Motion_Sensor__home_control__TemperatureSensor__BorrowdUnit-1__TemperatureStateService"
             }
           ]
         }
@@ -45,7 +45,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Fibaro_MotionSensor__home_control__TemperatureSensor__BorrowdUnit-1__TemperatureAlarmStateService"
+              "value": "Motion_Sensor__home_control__TemperatureSensor__BorrowdUnit-1__TemperatureAlarmStateService"
             }
           ]
         }

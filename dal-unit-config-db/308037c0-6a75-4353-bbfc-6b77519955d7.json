@@ -26,7 +26,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Fibaro_MotionSensor__home_kitchen__TemperatureSensor__Global__TemperatureStateService"
+              "value": "Motion_Sensor__home_kitchen__TemperatureSensor__Global__TemperatureStateService"
             }
           ]
         }
@@ -46,7 +46,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Fibaro_MotionSensor__home_kitchen__TemperatureSensor__Global__TemperatureAlarmStateService"
+              "value": "Motion_Sensor__home_kitchen__TemperatureSensor__Global__TemperatureAlarmStateService"
             }
           ]
         }

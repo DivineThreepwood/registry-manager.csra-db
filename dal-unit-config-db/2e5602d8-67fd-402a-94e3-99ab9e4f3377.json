@@ -26,7 +26,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Fibaro_MotionSensor__home_kitchen__TamperDetector__Global__TamperStateService"
+              "value": "Motion_Sensor__home_kitchen__TamperDetector__Global__TamperStateService"
             }
           ]
         }
