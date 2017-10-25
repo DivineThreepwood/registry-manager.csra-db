@@ -1,23 +1,23 @@
 {
   "id": "3d399924-f10a-4115-8fac-4435faabfd64",
   "unit_template_config_id": "e18d2b16-1969-4e5b-b40c-8b255c2cdb8c_AUDIO_SOURCE_0",
-  "label": "Kinect dining",
+  "label": "Kinect atl",
   "unit_host_id": "6678a48f-05a1-47f1-b962-35227c396675",
   "type": "AUDIO_SOURCE",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "Living_Kinect_dining",
+    "transformation_frame_id": "Living_Kinect_atl",
     "position": {
       "translation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
+        "x": 1.226136533322924,
+        "y": 5.456889238839775,
+        "z": 0.43322136637659536
       },
       "rotation": {
-        "qw": 1.0,
-        "qx": 0.0,
-        "qy": 0.0,
-        "qz": 0.0
+        "qw": 0.8958949628775044,
+        "qx": 0.4442507136736852,
+        "qy": 0.0017807478619116814,
+        "qz": -0.0032168040333902543
       }
     }
   },
@@ -26,7 +26,7 @@
       "home",
       "living",
       "audiosource",
-      "kinect_dining"
+      "kinect_atl"
     ]
   },
   "bound_to_unit_host": true,

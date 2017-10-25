@@ -9,9 +9,9 @@
     "transformation_frame_id": "CeilingWindowDimmer",
     "position": {
       "translation": {
-        "x": 2.0501541492157003,
-        "y": 0.5377411787835502,
-        "z": -2.2446906405413207
+        "x": 2.0423169243135666,
+        "y": 0.512368374225785,
+        "z": -2.277648947267815
       },
       "rotation": {
         "qw": 1.0,
@@ -134,8 +134,19 @@
       "meta_config": {}
     }
   ],
-  "meta_config": {},
+  "meta_config": {
+    "entry": [
+      {
+        "key": "POINTING_GESTURE",
+        "value": "true"
+      }
+    ]
+  },
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

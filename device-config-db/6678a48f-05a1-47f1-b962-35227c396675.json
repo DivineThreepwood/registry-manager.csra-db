@@ -1,46 +1,42 @@
 {
   "id": "6678a48f-05a1-47f1-b962-35227c396675",
-  "label": "Kinect dining",
+  "label": "Kinect atl",
   "type": "DEVICE",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "Kinect_dining",
+    "transformation_frame_id": "Kinect_atl",
     "position": {
       "translation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
+        "x": 1.226136533322924,
+        "y": 5.456889238839775,
+        "z": 0.43322136637659536
       },
       "rotation": {
-        "qw": 1.0,
-        "qx": 0.0,
-        "qy": 0.0,
-        "qz": 0.0
+        "qw": 0.8958949628775044,
+        "qx": 0.4442507136736852,
+        "qy": 0.0017807478619116814,
+        "qz": -0.0032168040333902543
       }
     },
-    "shape": {
-      "bounding_box": {
-        "left_front_bottom": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
-        },
-        "width": 0.0,
-        "depth": 0.0,
-        "height": 0.0
-      }
-    }
+    "shape": {}
   },
   "scope": {
     "component": [
       "home",
       "living",
       "device",
-      "kinect_dining"
+      "kinect_atl"
     ]
   },
   "bound_to_unit_host": true,
-  "meta_config": {},
+  "meta_config": {
+    "entry": [
+      {
+        "key": "subscope",
+        "value": "/atl"
+      }
+    ]
+  },
   "enabling_state": {
     "value": "ENABLED"
   },

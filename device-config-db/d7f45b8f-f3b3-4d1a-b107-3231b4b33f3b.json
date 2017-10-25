@@ -3,14 +3,15 @@
   "label": "DimmActuator2",
   "type": "DEVICE",
   "placement_config": {
-    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+    "location_id": "0df5bbb8-2d17-4f81-9b34-314a26ae713a",
     "transformation_frame_id": "DimmActuator2",
     "shape": {}
   },
   "scope": {
     "component": [
       "home",
-      "control",
+      "living",
+      "lounge",
       "device",
       "dimmactuator2"
     ]
@@ -24,7 +25,7 @@
     "serial_number": "397290010190000",
     "inventory_state": {
       "value": "INSTALLED",
-      "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+      "location_id": "0df5bbb8-2d17-4f81-9b34-314a26ae713a",
       "timestamp": {
         "time": 1446816313065
       },

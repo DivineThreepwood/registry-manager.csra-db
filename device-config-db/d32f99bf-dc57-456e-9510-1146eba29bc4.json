@@ -40,7 +40,14 @@
     ]
   },
   "bound_to_unit_host": false,
-  "meta_config": {},
+  "meta_config": {
+    "entry": [
+      {
+        "key": "subscope",
+        "value": "/pug"
+      }
+    ]
+  },
   "enabling_state": {
     "value": "ENABLED"
   },
