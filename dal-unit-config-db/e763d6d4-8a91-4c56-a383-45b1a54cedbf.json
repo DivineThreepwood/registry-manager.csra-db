@@ -1,22 +1,23 @@
 {
   "id": "e763d6d4-8a91-4c56-a383-45b1a54cedbf",
   "unit_template_config_id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_SWITCH_1",
-  "label": "S3_C2",
+  "label": "S3 A2",
   "unit_host_id": "64da2fb2-aca7-4791-a5c1-e389a7361c05",
   "type": "POWER_SWITCH",
   "placement_config": {
-    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
-    "transformation_frame_id": "S3_C2",
+    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+    "transformation_frame_id": "Kitchen_S3_A2",
     "shape": {}
   },
   "scope": {
     "component": [
       "home",
-      "control",
+      "kitchen",
       "powerswitch",
-      "s3_c2"
+      "s3_a2"
     ]
   },
+  "description": "Kettle and Coffee Machine",
   "bound_to_unit_host": false,
   "service_config": [
     {
@@ -25,12 +26,12 @@
         "meta_config": {
           "entry": [
             {
-              "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_1046__home_control__PowerSwitch__S3_C2__PowerStateService"
-            },
-            {
               "key": "OPENHAB_BINDING_CONFIG",
               "value": "5/1/49+5/1/57"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_1046__home_kitchen__PowerSwitch__S3_A2__PowerStateService"
             }
           ]
         }
@@ -49,12 +50,12 @@
         "meta_config": {
           "entry": [
             {
-              "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_1046__home_control__PowerSwitch__S3_C2__PowerStateService"
-            },
-            {
               "key": "OPENHAB_BINDING_CONFIG",
               "value": "5/1/49+5/1/57"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_1046__home_kitchen__PowerSwitch__S3_A2__PowerStateService"
             }
           ]
         }
@@ -72,5 +73,9 @@
   "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

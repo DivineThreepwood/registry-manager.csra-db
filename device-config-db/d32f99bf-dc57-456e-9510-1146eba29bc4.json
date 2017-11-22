@@ -43,8 +43,8 @@
   "meta_config": {
     "entry": [
       {
-        "key": "subscope",
-        "value": "/pug"
+        "key": "scope",
+        "value": "/pointing/skeleton/pug"
       }
     ]
   },

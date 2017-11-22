@@ -4,7 +4,8 @@
   "type": "DEVICE",
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-    "transformation_frame_id": "CeilingLamp_4"
+    "transformation_frame_id": "CeilingLamp_4",
+    "shape": {}
   },
   "scope": {
     "component": [
@@ -19,7 +20,7 @@
     "entry": [
       {
         "key": "OPENHAB_BINDING_DEVICE_ID",
-        "value": "11"
+        "value": "14"
       }
     ]
   },
@@ -40,5 +41,9 @@
     "unit_id": [
       "9c3561a1-e6ce-476e-9bff-0d35807d2607"
     ]
+  },
+  "permission_config": {
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

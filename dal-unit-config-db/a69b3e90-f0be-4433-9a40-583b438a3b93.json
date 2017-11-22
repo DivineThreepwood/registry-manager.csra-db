@@ -30,7 +30,7 @@
       "s3c1"
     ]
   },
-  "description": "Kettle",
+  "description": "Steckdose Arbeitsflaeche",
   "bound_to_unit_host": false,
   "service_config": [
     {
@@ -61,5 +61,9 @@
   "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

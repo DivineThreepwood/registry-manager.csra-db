@@ -32,8 +32,8 @@
   "meta_config": {
     "entry": [
       {
-        "key": "subscope",
-        "value": "/atl"
+        "key": "scope",
+        "value": "/pointing/skeleton/atl"
       }
     ]
   },

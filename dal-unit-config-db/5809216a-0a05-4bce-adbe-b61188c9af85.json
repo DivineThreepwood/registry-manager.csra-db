@@ -1,20 +1,20 @@
 {
   "id": "5809216a-0a05-4bce-adbe-b61188c9af85",
   "unit_template_config_id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_CONSUMPTION_SENSOR_1",
-  "label": "S3_C2 Consumption",
+  "label": "S3 A2",
   "unit_host_id": "64da2fb2-aca7-4791-a5c1-e389a7361c05",
   "type": "POWER_CONSUMPTION_SENSOR",
   "placement_config": {
-    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
-    "transformation_frame_id": "S3_C2_Consumption",
+    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+    "transformation_frame_id": "S3_A2",
     "shape": {}
   },
   "scope": {
     "component": [
       "home",
-      "control",
+      "kitchen",
       "powerconsumptionsensor",
-      "s3_c2_consumption"
+      "s3_a2"
     ]
   },
   "bound_to_unit_host": false,
@@ -25,12 +25,12 @@
         "meta_config": {
           "entry": [
             {
-              "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_1046__home_control__PowerConsumptionSensor__S3_C2_Consumption__PowerConsumptionStateService"
-            },
-            {
               "key": "OPENHAB_BINDING_CONFIG",
               "value": "5/1/66"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_1046__home_kitchen__PowerConsumptionSensor__S3_A2__PowerConsumptionStateService"
             }
           ]
         }
@@ -47,5 +47,9 @@
   "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

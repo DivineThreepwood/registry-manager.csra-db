@@ -1,12 +1,12 @@
 {
   "id": "86c6c67f-1f8e-4994-a70f-c1f5de0d13c1",
   "unit_template_config_id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_CONSUMPTION_SENSOR_5",
-  "label": "S8_C6 Consumption",
+  "label": "S8 A6",
   "unit_host_id": "1505075c-a4a9-41d7-958a-556cdf7b73ac",
   "type": "POWER_CONSUMPTION_SENSOR",
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-    "transformation_frame_id": "S8_C6_Consumption",
+    "transformation_frame_id": "S8_A6",
     "shape": {}
   },
   "scope": {
@@ -14,7 +14,7 @@
       "home",
       "kitchen",
       "powerconsumptionsensor",
-      "s8_c6_consumption"
+      "s8_a6"
     ]
   },
   "description": "Kitchen Main Light",
@@ -31,7 +31,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_1046__home_kitchen__PowerConsumptionSensor__S8_C6_Consumption__PowerConsumptionStateService"
+              "value": "Gira_1046__home_kitchen__PowerConsumptionSensor__S8_A6__PowerConsumptionStateService"
             }
           ]
         }
@@ -48,5 +48,9 @@
   "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_permission": {},
+    "other_permission": {}
   }
 }
