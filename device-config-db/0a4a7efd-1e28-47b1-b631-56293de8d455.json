@@ -20,7 +20,7 @@
     "entry": [
       {
         "key": "USB_PORT",
-        "value": "/dev/ttyUSB0"
+        "value": "/dev/ttyFloor"
       }
     ]
   },
@@ -38,5 +38,9 @@
       "owner_id": ""
     },
     "device_class_id": "e526554b-de4c-43fa-8898-ad6c09a8ed99"
+  },
+  "permission_config": {
+    "owner_permission": {},
+    "other_permission": {}
   }
 }
