@@ -22,9 +22,5 @@
     "first_name": "Norman",
     "last_name": "Köster",
     "user_name": "nkoester"
-  },
-  "permission_config": {
-    "owner_permission": {},
-    "other_permission": {}
   }
 }

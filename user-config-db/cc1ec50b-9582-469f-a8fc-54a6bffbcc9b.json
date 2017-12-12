@@ -22,9 +22,5 @@
     "first_name": "Patrick",
     "last_name": "Holthaus",
     "user_name": "pholthau"
-  },
-  "permission_config": {
-    "owner_permission": {},
-    "other_permission": {}
   }
 }

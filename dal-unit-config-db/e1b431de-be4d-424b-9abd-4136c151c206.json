@@ -68,9 +68,5 @@
   "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"
-  },
-  "permission_config": {
-    "owner_permission": {},
-    "other_permission": {}
   }
 }

@@ -22,9 +22,5 @@
     "first_name": "Birte",
     "last_name": "Carlmeyer",
     "user_name": "bcarlmey"
-  },
-  "permission_config": {
-    "owner_permission": {},
-    "other_permission": {}
   }
 }

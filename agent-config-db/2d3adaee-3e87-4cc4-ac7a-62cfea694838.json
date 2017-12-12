@@ -44,9 +44,5 @@
   "agent_config": {
     "agent_class_id": "77eeb0d9-bc62-468c-8f2a-f2ff1bd7eb21",
     "autostart": true
-  },
-  "permission_config": {
-    "owner_permission": {},
-    "other_permission": {}
   }
 }

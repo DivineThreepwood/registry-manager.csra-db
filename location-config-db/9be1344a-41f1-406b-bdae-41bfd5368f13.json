@@ -224,6 +224,17 @@
     ],
     "tile_config": {
       "type": "OUTDOOR",
+      "connection_id": [
+        "a2e5e403-7121-48b9-837a-b93a944ccd29",
+        "725fffa8-5865-45bd-8684-f722d140255a",
+        "76f70d60-3a2e-491c-bd78-3b98dfb87202",
+        "980ca3c5-96d3-4502-a6cb-878d8af4e986",
+        "80fc4d70-badb-4208-814b-ef4d59b69d13",
+        "4d9e02bd-2164-4a78-954d-490de4c51b19",
+        "dc0cf9bf-c712-42fb-b5f9-39df24d31a4e",
+        "61015a31-89ec-4a8f-9f43-95830ebe9cc3",
+        "80ab9ff7-9b18-4d3d-a960-0b5d28d908a6"
+      ],
       "meta_config": {}
     }
   }

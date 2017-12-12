@@ -357,6 +357,11 @@
     ],
     "tile_config": {
       "type": "INDOOR",
+      "connection_id": [
+        "725fffa8-5865-45bd-8684-f722d140255a",
+        "77b12917-44fc-4c2d-851d-2115b0ba5a39",
+        "06c55103-3a11-44b7-aed8-569880365a44"
+      ],
       "meta_config": {}
     }
   }

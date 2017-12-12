@@ -406,6 +406,9 @@
     ],
     "tile_config": {
       "type": "INDOOR",
+      "connection_id": [
+        "6d7e9b9b-c9b8-4fd5-b56b-ff5319a603be"
+      ],
       "meta_config": {}
     }
   }

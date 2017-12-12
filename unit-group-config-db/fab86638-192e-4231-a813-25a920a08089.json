@@ -149,9 +149,5 @@
         "meta_config": {}
       }
     ]
-  },
-  "permission_config": {
-    "owner_permission": {},
-    "other_permission": {}
   }
 }
