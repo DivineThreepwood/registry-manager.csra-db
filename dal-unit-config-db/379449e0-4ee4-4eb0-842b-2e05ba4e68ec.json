@@ -2,6 +2,9 @@
   "id": "379449e0-4ee4-4eb0-842b-2e05ba4e68ec",
   "unit_template_config_id": "Gira_429496730210000_BUTTON_1",
   "label": "Standby",
+  "alias": [
+    "Button-36"
+  ],
   "unit_host_id": "e8815586-ddf8-490a-99e1-5592a2014b55",
   "type": "BUTTON",
   "placement_config": {

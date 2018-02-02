@@ -1,6 +1,9 @@
 {
   "id": "01ae2995-39eb-4ca4-8694-108055a1b007",
   "label": "bcarlmey (Birte Carlmeyer)",
+  "alias": [
+    "User-1"
+  ],
   "type": "USER",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
@@ -22,5 +25,18 @@
     "first_name": "Birte",
     "last_name": "Carlmeyer",
     "user_name": "bcarlmey"
+  },
+  "permission_config": {
+    "owner_id": "01ae2995-39eb-4ca4-8694-108055a1b007",
+    "owner_permission": {
+      "read": true,
+      "write": true,
+      "access": true
+    },
+    "other_permission": {
+      "read": false,
+      "write": false,
+      "access": false
+    }
   }
 }

@@ -1,6 +1,9 @@
 {
   "id": "079e8c07-7c69-4d84-bc5d-da84ebcf51df",
   "label": "BorrowdUnit-1",
+  "alias": [
+    "Device-47"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",

@@ -2,6 +2,9 @@
   "id": "fec3cb67-ab1a-4f5d-8ea3-7e3c5d68a287",
   "unit_template_config_id": "Hager_TYA663A_DIMMER_1",
   "label": "LeftDimmer",
+  "alias": [
+    "Dimmer-4"
+  ],
   "unit_host_id": "d7f45b8f-f3b3-4d1a-b107-3231b4b33f3b",
   "type": "DIMMER",
   "placement_config": {

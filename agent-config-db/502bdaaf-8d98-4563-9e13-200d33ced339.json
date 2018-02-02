@@ -1,6 +1,9 @@
 {
   "id": "502bdaaf-8d98-4563-9e13-200d33ced339",
   "label": "LivingPresenceLight",
+  "alias": [
+    "Agent-19"
+  ],
   "type": "AGENT",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",

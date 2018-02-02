@@ -2,6 +2,9 @@
   "id": "dbc8745d-241d-4381-b91d-d352311a99f2",
   "unit_template_config_id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_SWITCH_7",
   "label": "S3_C8",
+  "alias": [
+    "PowerSwitch-12"
+  ],
   "unit_host_id": "64da2fb2-aca7-4791-a5c1-e389a7361c05",
   "type": "POWER_SWITCH",
   "placement_config": {

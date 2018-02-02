@@ -1,6 +1,9 @@
 {
   "id": "fb9c22b8-1d58-44f6-867b-abb98f6911fd",
   "label": "Reset",
+  "alias": [
+    "Scene-13"
+  ],
   "type": "SCENE",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",

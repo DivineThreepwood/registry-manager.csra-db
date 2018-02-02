@@ -1,6 +1,9 @@
 {
   "id": "c6e58def-b52e-47e0-bf68-1988d2b7d4e9",
   "label": "Chill",
+  "alias": [
+    "Scene-21"
+  ],
   "type": "SCENE",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",

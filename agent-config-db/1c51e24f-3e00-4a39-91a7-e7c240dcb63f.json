@@ -1,6 +1,9 @@
 {
   "id": "1c51e24f-3e00-4a39-91a7-e7c240dcb63f",
   "label": "BathAmbientColorForest",
+  "alias": [
+    "Agent-15"
+  ],
   "type": "AGENT",
   "placement_config": {
     "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",

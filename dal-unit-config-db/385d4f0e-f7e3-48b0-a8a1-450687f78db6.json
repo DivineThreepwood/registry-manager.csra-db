@@ -2,6 +2,9 @@
   "id": "385d4f0e-f7e3-48b0-a8a1-450687f78db6",
   "unit_template_config_id": "Fibaro_FGMS-001_TAMPER_DETECTOR_0",
   "label": "Sink",
+  "alias": [
+    "TamperDetector-1"
+  ],
   "unit_host_id": "5a83b039-a374-4829-a40c-75505ef1476f",
   "type": "TAMPER_DETECTOR",
   "placement_config": {

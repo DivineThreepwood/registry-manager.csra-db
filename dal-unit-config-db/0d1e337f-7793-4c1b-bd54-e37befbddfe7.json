@@ -2,6 +2,9 @@
   "id": "0d1e337f-7793-4c1b-bd54-e37befbddfe7",
   "unit_template_config_id": "Fibaro_FGMS-001_TAMPER_DETECTOR_0",
   "label": "Entrance",
+  "alias": [
+    "TamperDetector-6"
+  ],
   "unit_host_id": "88f06270-9441-4afc-8a8d-54a7ab4aaef6",
   "type": "TAMPER_DETECTOR",
   "placement_config": {

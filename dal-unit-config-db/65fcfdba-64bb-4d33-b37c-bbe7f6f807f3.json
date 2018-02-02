@@ -2,6 +2,9 @@
   "id": "65fcfdba-64bb-4d33-b37c-bbe7f6f807f3",
   "unit_template_config_id": "Gira_429496730210000_BUTTON_1",
   "label": "RadioOff",
+  "alias": [
+    "Button-46"
+  ],
   "unit_host_id": "6bc1da9d-7941-4a32-bb2e-100c93e3b6bd",
   "type": "BUTTON",
   "placement_config": {

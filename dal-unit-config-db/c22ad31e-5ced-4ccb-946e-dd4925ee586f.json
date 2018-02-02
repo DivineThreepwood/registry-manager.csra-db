@@ -2,6 +2,9 @@
   "id": "c22ad31e-5ced-4ccb-946e-dd4925ee586f",
   "unit_template_config_id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_SWITCH_4",
   "label": "S4_C5",
+  "alias": [
+    "PowerSwitch-5"
+  ],
   "unit_host_id": "37a90769-5743-47fc-b843-3367bd531db9",
   "type": "POWER_SWITCH",
   "placement_config": {

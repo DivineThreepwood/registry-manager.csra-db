@@ -1,6 +1,9 @@
 {
   "id": "066a94d5-abdb-472e-be94-712fabd401c3",
   "label": "CeilingLampCentralPowerSynchroniser",
+  "alias": [
+    "Agent-22"
+  ],
   "type": "AGENT",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",

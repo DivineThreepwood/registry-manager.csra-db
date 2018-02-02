@@ -2,6 +2,9 @@
   "id": "3d399924-f10a-4115-8fac-4435faabfd64",
   "unit_template_config_id": "e18d2b16-1969-4e5b-b40c-8b255c2cdb8c_AUDIO_SOURCE_0",
   "label": "Kinect atl",
+  "alias": [
+    "AudioSource-17"
+  ],
   "unit_host_id": "6678a48f-05a1-47f1-b962-35227c396675",
   "type": "AUDIO_SOURCE",
   "placement_config": {

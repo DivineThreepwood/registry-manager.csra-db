@@ -1,6 +1,9 @@
 {
   "id": "1d92803a-89f8-4be3-817c-f843b9cd7ff6",
   "label": "LeftWindowReedSwitch",
+  "alias": [
+    "Device-33"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",

@@ -2,6 +2,9 @@
   "id": "cb97582a-43fa-42bc-bcf1-4977cf090070",
   "unit_template_config_id": "Fibaro_FGMS-001_TEMPERATURE_SENSOR_0",
   "label": "Hallway",
+  "alias": [
+    "TemperatureSensor-6"
+  ],
   "unit_host_id": "7e3043fb-b942-4bd0-9fe1-5b8ccadb6926",
   "type": "TEMPERATURE_SENSOR",
   "placement_config": {

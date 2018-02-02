@@ -2,6 +2,9 @@
   "id": "b796252c-cbf4-4d7b-b855-8e303901b0b0",
   "unit_template_config_id": "Fibaro_FGMS-001_LIGHT_SENSOR_0",
   "label": "Entrance",
+  "alias": [
+    "LightSensor-7"
+  ],
   "unit_host_id": "f4156b97-7afd-45c7-b57c-b81d09b2a4de",
   "type": "LIGHT_SENSOR",
   "placement_config": {

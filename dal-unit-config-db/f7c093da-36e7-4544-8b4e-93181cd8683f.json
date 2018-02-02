@@ -2,6 +2,9 @@
   "id": "f7c093da-36e7-4544-8b4e-93181cd8683f",
   "unit_template_config_id": "Homematic_Sec_SC_2_BATTERY_0",
   "label": "LeftWindowReedSwitch",
+  "alias": [
+    "Battery-17"
+  ],
   "unit_host_id": "9420f93f-6236-44ff-ae31-2ce98e1db7e9",
   "type": "BATTERY",
   "placement_config": {

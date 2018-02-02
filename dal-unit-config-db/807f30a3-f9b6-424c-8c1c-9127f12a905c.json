@@ -2,6 +2,9 @@
   "id": "807f30a3-f9b6-424c-8c1c-9127f12a905c",
   "unit_template_config_id": "Gira_429496730210000_BUTTON_2",
   "label": "KitchenLight",
+  "alias": [
+    "Button-37"
+  ],
   "unit_host_id": "6bc1da9d-7941-4a32-bb2e-100c93e3b6bd",
   "type": "BUTTON",
   "placement_config": {

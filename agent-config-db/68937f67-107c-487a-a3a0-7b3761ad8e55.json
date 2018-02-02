@@ -1,6 +1,9 @@
 {
   "id": "68937f67-107c-487a-a3a0-7b3761ad8e55",
   "label": "WardrobePresenceLight",
+  "alias": [
+    "Agent-14"
+  ],
   "type": "AGENT",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",

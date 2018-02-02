@@ -1,6 +1,9 @@
 {
   "id": "9f7dc1ba-7059-4823-a8d7-61ed4ef58cfa",
   "label": "SportsToLivingReedSwitch",
+  "alias": [
+    "Device-89"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",

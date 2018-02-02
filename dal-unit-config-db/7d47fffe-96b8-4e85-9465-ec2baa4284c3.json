@@ -2,6 +2,9 @@
   "id": "7d47fffe-96b8-4e85-9465-ec2baa4284c3",
   "unit_template_config_id": "Gira_429496730210000_BUTTON_4",
   "label": "LoungeLight",
+  "alias": [
+    "Button-49"
+  ],
   "unit_host_id": "6bc1da9d-7941-4a32-bb2e-100c93e3b6bd",
   "type": "BUTTON",
   "placement_config": {

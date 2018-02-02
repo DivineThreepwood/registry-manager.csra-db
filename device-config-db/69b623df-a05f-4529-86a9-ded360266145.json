@@ -1,6 +1,9 @@
 {
   "id": "69b623df-a05f-4529-86a9-ded360266145",
   "label": "69b623df-a05f-4529-86a9-ded360266145",
+  "alias": [
+    "Device-93"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",

@@ -1,6 +1,9 @@
 {
   "id": "0a514c2d-3b2c-4303-a4b6-d90f0284fc83",
   "label": "PathwayDimmerPowerStateSynchroniser",
+  "alias": [
+    "Agent-21"
+  ],
   "type": "AGENT",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",

@@ -2,6 +2,9 @@
   "id": "c9c06850-a890-4ab9-b271-0285dece7991",
   "unit_template_config_id": "Fibaro_FGMS-001_TEMPERATURE_SENSOR_0",
   "label": "Couch",
+  "alias": [
+    "TemperatureSensor-10"
+  ],
   "unit_host_id": "3b0602c8-6524-4d08-b8c5-5d4f2e97b91b",
   "type": "TEMPERATURE_SENSOR",
   "placement_config": {

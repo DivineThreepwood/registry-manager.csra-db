@@ -1,6 +1,9 @@
 {
   "id": "1fb25195-1d78-447f-a1aa-3fb1db979245",
   "label": "PathwayButtons1",
+  "alias": [
+    "Device-43"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",

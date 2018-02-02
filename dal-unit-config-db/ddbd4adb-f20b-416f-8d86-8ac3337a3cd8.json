@@ -2,6 +2,9 @@
   "id": "ddbd4adb-f20b-416f-8d86-8ac3337a3cd8",
   "unit_template_config_id": "Fibaro_FGMS-001_TAMPER_DETECTOR_0",
   "label": "Couch",
+  "alias": [
+    "TamperDetector-3"
+  ],
   "unit_host_id": "3b0602c8-6524-4d08-b8c5-5d4f2e97b91b",
   "type": "TAMPER_DETECTOR",
   "placement_config": {

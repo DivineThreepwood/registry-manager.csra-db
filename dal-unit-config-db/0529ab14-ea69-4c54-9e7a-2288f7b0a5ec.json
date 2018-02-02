@@ -2,6 +2,9 @@
   "id": "0529ab14-ea69-4c54-9e7a-2288f7b0a5ec",
   "unit_template_config_id": "Philips_KV01-18Y_COLORABLE_LIGHT_0",
   "label": "Global_1",
+  "alias": [
+    "ColorableLight-21"
+  ],
   "unit_host_id": "e940159f-7e14-4c91-92d5-c279742f9e01",
   "type": "COLORABLE_LIGHT",
   "placement_config": {

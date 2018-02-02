@@ -1,6 +1,9 @@
 {
   "id": "46f1f139-5a7d-48ac-92f8-ded806a888d2",
   "label": "SLampLeft Living",
+  "alias": [
+    "UnitGroup-5"
+  ],
   "type": "UNIT_GROUP",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",

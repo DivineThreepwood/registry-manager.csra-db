@@ -1,6 +1,9 @@
 {
   "id": "2c95255e-a491-46d7-a6a6-f66d5e6c2d3b",
   "label": "Handle Group",
+  "alias": [
+    "UnitGroup-2"
+  ],
   "type": "UNIT_GROUP",
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",

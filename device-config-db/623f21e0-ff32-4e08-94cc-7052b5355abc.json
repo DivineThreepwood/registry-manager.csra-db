@@ -1,6 +1,9 @@
 {
   "id": "623f21e0-ff32-4e08-94cc-7052b5355abc",
   "label": "CouchLamp",
+  "alias": [
+    "Device-108"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",

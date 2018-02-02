@@ -2,6 +2,9 @@
   "id": "37a1f9a7-57ab-4dfb-8061-2774eeffaf4e",
   "unit_template_config_id": "Fibaro_FGMS-001_LIGHT_SENSOR_0",
   "label": "Shower",
+  "alias": [
+    "LightSensor-1"
+  ],
   "unit_host_id": "2ccf07ae-51fa-4b7f-83b2-08b978eaf082",
   "type": "LIGHT_SENSOR",
   "placement_config": {

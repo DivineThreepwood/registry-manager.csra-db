@@ -1,6 +1,9 @@
 {
   "id": "d2c11637-fb4f-4eb7-9cca-78174c7f0072",
   "label": "LLampEntrance3",
+  "alias": [
+    "Device-42"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",

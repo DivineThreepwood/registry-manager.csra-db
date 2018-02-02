@@ -1,6 +1,9 @@
 {
   "id": "3a600e53-132a-46f0-ba7c-4882cbfca1af",
   "label": "Intel_D4250WYKH_G6YK42002587",
+  "alias": [
+    "Device-40"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "9be1344a-41f1-406b-bdae-41bfd5368f13",

@@ -2,6 +2,9 @@
   "id": "ede77f1d-0737-4011-861b-f47121137c57",
   "unit_template_config_id": "Fibaro_FGMS-001_TEMPERATURE_SENSOR_0",
   "label": "Global",
+  "alias": [
+    "TemperatureSensor-8"
+  ],
   "unit_host_id": "720a0d91-3653-46b4-acce-2f02432c25e6",
   "type": "TEMPERATURE_SENSOR",
   "placement_config": {

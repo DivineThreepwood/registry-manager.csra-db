@@ -2,6 +2,9 @@
   "id": "704a1425-34c0-442d-b2e7-ccbe9127e31e",
   "unit_template_config_id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_SWITCH_3",
   "label": "S8_C4",
+  "alias": [
+    "PowerSwitch-58"
+  ],
   "unit_host_id": "1505075c-a4a9-41d7-958a-556cdf7b73ac",
   "type": "POWER_SWITCH",
   "placement_config": {

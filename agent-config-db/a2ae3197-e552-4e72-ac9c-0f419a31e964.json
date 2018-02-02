@@ -1,6 +1,9 @@
 {
   "id": "a2ae3197-e552-4e72-ac9c-0f419a31e964",
   "label": "StandbyLiving",
+  "alias": [
+    "Agent-24"
+  ],
   "type": "AGENT",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",

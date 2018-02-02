@@ -1,6 +1,9 @@
 {
   "id": "59a219ed-6f69-41f7-908c-2066faac97c8",
   "label": "StandbyWardrobe",
+  "alias": [
+    "Agent-10"
+  ],
   "type": "AGENT",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",

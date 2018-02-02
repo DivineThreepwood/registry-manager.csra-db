@@ -2,6 +2,9 @@
   "id": "b59bd1f5-0775-478a-b722-a2edbebf1b80",
   "unit_template_config_id": "Gira_429496730210000_BUTTON_5",
   "label": "ApartmentLight",
+  "alias": [
+    "Button-38"
+  ],
   "unit_host_id": "6bc1da9d-7941-4a32-bb2e-100c93e3b6bd",
   "type": "BUTTON",
   "placement_config": {

@@ -1,6 +1,9 @@
 {
   "id": "df8cdeeb-bd9b-4590-be1f-15511debbbca",
   "label": "Table_0",
+  "alias": [
+    "Device-55"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",

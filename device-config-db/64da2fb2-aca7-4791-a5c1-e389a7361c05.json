@@ -1,6 +1,9 @@
 {
   "id": "64da2fb2-aca7-4791-a5c1-e389a7361c05",
   "label": "S3",
+  "alias": [
+    "Device-56"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",

@@ -1,6 +1,9 @@
 {
   "id": "e4b0503e-4a3a-40f4-9a80-61e89d6874d2",
   "label": "Entrance",
+  "alias": [
+    "Device-65"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "9be1344a-41f1-406b-bdae-41bfd5368f13",

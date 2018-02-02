@@ -2,6 +2,9 @@
   "id": "001b2abc-83c4-45b6-ae29-e16d69758d1e",
   "unit_template_config_id": "Homematic_Sec_SC_2_REED_CONTACT_0",
   "label": "SportsToLivingReedSwitch",
+  "alias": [
+    "ReedContact-3"
+  ],
   "unit_host_id": "9f7dc1ba-7059-4823-a8d7-61ed4ef58cfa",
   "type": "REED_CONTACT",
   "placement_config": {

@@ -1,6 +1,9 @@
 {
   "id": "2d3adaee-3e87-4cc4-ac7a-62cfea694838",
   "label": "StandbyBath",
+  "alias": [
+    "Agent-7"
+  ],
   "type": "AGENT",
   "placement_config": {
     "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",

@@ -2,6 +2,9 @@
   "id": "37bf578a-c30a-48b5-84b4-ffc1621eff30",
   "unit_template_config_id": "7d6d56c2-9bd7-45cf-a3fd-26bce7804e0a_REED_CONTACT_0",
   "label": "502",
+  "alias": [
+    "ReedContact-5"
+  ],
   "unit_host_id": "713eccd9-8a4d-4a69-89e8-aa39bd1235e6",
   "type": "REED_CONTACT",
   "placement_config": {

@@ -1,6 +1,9 @@
 {
   "id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
   "label": "Bath",
+  "alias": [
+    "Location-10"
+  ],
   "type": "LOCATION",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",

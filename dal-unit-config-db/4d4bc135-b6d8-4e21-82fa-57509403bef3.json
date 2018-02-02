@@ -2,6 +2,9 @@
   "id": "4d4bc135-b6d8-4e21-82fa-57509403bef3",
   "unit_template_config_id": "Fibaro_FGMS-001_LIGHT_SENSOR_0",
   "label": "Interaction",
+  "alias": [
+    "LightSensor-8"
+  ],
   "unit_host_id": "80de8bfe-04a0-455a-94b8-f27b2ffabd16",
   "type": "LIGHT_SENSOR",
   "placement_config": {

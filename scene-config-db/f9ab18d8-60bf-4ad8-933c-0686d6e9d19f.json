@@ -1,6 +1,9 @@
 {
   "id": "f9ab18d8-60bf-4ad8-933c-0686d6e9d19f",
   "label": "Maintenance",
+  "alias": [
+    "Scene-22"
+  ],
   "type": "SCENE",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",

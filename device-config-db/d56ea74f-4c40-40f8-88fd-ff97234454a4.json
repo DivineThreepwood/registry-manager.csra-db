@@ -1,6 +1,9 @@
 {
   "id": "d56ea74f-4c40-40f8-88fd-ff97234454a4",
   "label": "d56ea74f-4c40-40f8-88fd-ff97234454a4",
+  "alias": [
+    "Device-35"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",

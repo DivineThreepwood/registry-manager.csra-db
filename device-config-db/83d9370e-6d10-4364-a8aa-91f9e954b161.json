@@ -1,6 +1,9 @@
 {
   "id": "83d9370e-6d10-4364-a8aa-91f9e954b161",
   "label": "floor",
+  "alias": [
+    "Device-78"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",

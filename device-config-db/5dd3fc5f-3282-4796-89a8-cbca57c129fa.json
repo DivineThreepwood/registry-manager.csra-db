@@ -1,6 +1,9 @@
 {
   "id": "5dd3fc5f-3282-4796-89a8-cbca57c129fa",
   "label": "asus0",
+  "alias": [
+    "Device-95"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",

@@ -1,6 +1,9 @@
 {
   "id": "4864704e-34dc-4123-acb8-fd1abbb90108",
   "label": "S5",
+  "alias": [
+    "Device-94"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",

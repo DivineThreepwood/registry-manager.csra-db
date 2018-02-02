@@ -2,6 +2,9 @@
   "id": "ae5eca72-d58b-48b5-a2d7-4ec12d157d2d",
   "unit_template_config_id": "Homematic_Sec_SC_2_BATTERY_0",
   "label": "ControlDoorReedSwitch",
+  "alias": [
+    "Battery-1"
+  ],
   "unit_host_id": "6d54b9f5-ef2e-41a8-a4ad-64b78be339e1",
   "type": "BATTERY",
   "placement_config": {

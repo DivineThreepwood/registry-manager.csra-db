@@ -1,6 +1,9 @@
 {
   "id": "980ca3c5-96d3-4502-a6cb-878d8af4e986",
   "label": "Living Window Center",
+  "alias": [
+    "Connection-6"
+  ],
   "type": "CONNECTION",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",

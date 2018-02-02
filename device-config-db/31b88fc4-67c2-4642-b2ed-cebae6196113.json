@@ -1,6 +1,9 @@
 {
   "id": "31b88fc4-67c2-4642-b2ed-cebae6196113",
   "label": "ControlButtons",
+  "alias": [
+    "Device-6"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",

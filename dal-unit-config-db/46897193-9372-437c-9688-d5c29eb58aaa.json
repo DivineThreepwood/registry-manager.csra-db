@@ -2,6 +2,9 @@
   "id": "46897193-9372-437c-9688-d5c29eb58aaa",
   "unit_template_config_id": "Homematic_Sec_SC_2_BATTERY_0",
   "label": "DoorClosed",
+  "alias": [
+    "Battery-2"
+  ],
   "unit_host_id": "4d350be1-3f09-48f8-8796-d336d7b10dfe",
   "type": "BATTERY",
   "placement_config": {

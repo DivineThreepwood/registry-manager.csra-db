@@ -1,6 +1,9 @@
 {
   "id": "cad3d333-7aaf-4ebc-835b-5ab7cb539d4f",
   "label": "rzorn (Rene Zorn)",
+  "alias": [
+    "User-4"
+  ],
   "type": "USER",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
@@ -22,5 +25,18 @@
     "first_name": "Rene",
     "last_name": "Zorn",
     "user_name": "rzorn"
+  },
+  "permission_config": {
+    "owner_id": "cad3d333-7aaf-4ebc-835b-5ab7cb539d4f",
+    "owner_permission": {
+      "read": true,
+      "write": true,
+      "access": true
+    },
+    "other_permission": {
+      "read": false,
+      "write": false,
+      "access": false
+    }
   }
 }

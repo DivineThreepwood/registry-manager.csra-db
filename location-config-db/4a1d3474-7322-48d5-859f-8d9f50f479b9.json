@@ -1,6 +1,9 @@
 {
   "id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
   "label": "Wardrobe",
+  "alias": [
+    "Location-13"
+  ],
   "type": "LOCATION",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",

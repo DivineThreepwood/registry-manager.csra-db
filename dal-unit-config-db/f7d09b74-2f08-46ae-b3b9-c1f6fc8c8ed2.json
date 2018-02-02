@@ -2,6 +2,9 @@
   "id": "f7d09b74-2f08-46ae-b3b9-c1f6fc8c8ed2",
   "unit_template_config_id": "Philips_KV01-18U_COLORABLE_LIGHT_0",
   "label": "LLampEntrance1",
+  "alias": [
+    "ColorableLight-4"
+  ],
   "unit_host_id": "92f01101-0577-4f49-8ca1-cfb5e6486874",
   "type": "COLORABLE_LIGHT",
   "placement_config": {

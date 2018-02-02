@@ -1,6 +1,9 @@
 {
   "id": "b70175fd-6780-483e-98e1-3b4a17960a5b",
   "label": "S9",
+  "alias": [
+    "Device-14"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",

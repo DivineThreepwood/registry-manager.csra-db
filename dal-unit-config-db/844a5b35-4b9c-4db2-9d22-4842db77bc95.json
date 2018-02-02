@@ -2,6 +2,9 @@
   "id": "844a5b35-4b9c-4db2-9d22-4842db77bc95",
   "unit_template_config_id": "Philips_KV01-18U_COLORABLE_LIGHT_0",
   "label": "StudTestLamp",
+  "alias": [
+    "ColorableLight-14"
+  ],
   "unit_host_id": "878616f0-538f-4eae-9db5-3e78a3adb74b",
   "type": "COLORABLE_LIGHT",
   "placement_config": {

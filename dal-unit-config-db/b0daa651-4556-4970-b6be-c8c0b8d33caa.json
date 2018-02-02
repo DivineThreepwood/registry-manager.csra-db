@@ -2,6 +2,9 @@
   "id": "b0daa651-4556-4970-b6be-c8c0b8d33caa",
   "unit_template_config_id": "Hager_TYA663A_DIMMER_1",
   "label": "PathwayDimmer",
+  "alias": [
+    "Dimmer-5"
+  ],
   "unit_host_id": "f34a0c05-df62-41a8-a282-774390baa660",
   "type": "DIMMER",
   "placement_config": {

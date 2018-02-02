@@ -2,6 +2,9 @@
   "id": "804542df-aebc-42cb-82ef-f03a97c96bf8",
   "unit_template_config_id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_SWITCH_1",
   "label": "BeleuchtungZwischendecke",
+  "alias": [
+    "PowerSwitch-27"
+  ],
   "unit_host_id": "37a90769-5743-47fc-b843-3367bd531db9",
   "type": "POWER_SWITCH",
   "placement_config": {

@@ -1,6 +1,9 @@
 {
   "id": "98acc701-87b9-4cf2-b79b-3eb6c166e2fe",
   "label": "PartyLightFollower",
+  "alias": [
+    "App-2"
+  ],
   "type": "APP",
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",

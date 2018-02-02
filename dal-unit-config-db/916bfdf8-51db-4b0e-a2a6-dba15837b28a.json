@@ -2,6 +2,9 @@
   "id": "916bfdf8-51db-4b0e-a2a6-dba15837b28a",
   "unit_template_config_id": "Gira_429496730210000_BUTTON_0",
   "label": "Cozy",
+  "alias": [
+    "Button-21"
+  ],
   "unit_host_id": "e8815586-ddf8-490a-99e1-5592a2014b55",
   "type": "BUTTON",
   "placement_config": {

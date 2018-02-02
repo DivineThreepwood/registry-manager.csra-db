@@ -2,6 +2,9 @@
   "id": "0139a90c-2969-4dc7-8597-7185dbe4d3e8",
   "unit_template_config_id": "Homematic_Sec_RHS_BATTERY_0",
   "label": "LeftWindowHandleSensor",
+  "alias": [
+    "Battery-27"
+  ],
   "unit_host_id": "ccf98e11-774e-4805-b55b-e922e72a2b69",
   "type": "BATTERY",
   "placement_config": {

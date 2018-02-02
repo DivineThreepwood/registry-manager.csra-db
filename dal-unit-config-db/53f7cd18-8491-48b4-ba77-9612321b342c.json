@@ -2,6 +2,9 @@
   "id": "53f7cd18-8491-48b4-ba77-9612321b342c",
   "unit_template_config_id": "Fibaro_FGMS-001_MOTION_DETECTOR_0",
   "label": "Pathway",
+  "alias": [
+    "MotionDetector-5"
+  ],
   "unit_host_id": "35ac10cc-364a-464f-bcac-0dba69b42ff7",
   "type": "MOTION_DETECTOR",
   "placement_config": {

@@ -2,6 +2,9 @@
   "id": "37298baf-95e4-41a7-9073-3e9a99fcdaf2",
   "unit_template_config_id": "Fibaro_FGMS-001_BATTERY_0",
   "label": "Control",
+  "alias": [
+    "Battery-29"
+  ],
   "unit_host_id": "3269e1e7-28fc-4bdb-9ff7-33ce1b751364",
   "type": "BATTERY",
   "placement_config": {

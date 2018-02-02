@@ -2,6 +2,9 @@
   "id": "2d68dad7-e96e-4da3-955f-56b8dc261a5a",
   "unit_template_config_id": "Fibaro_FGMS-001_TAMPER_DETECTOR_0",
   "label": "Control",
+  "alias": [
+    "TamperDetector-5"
+  ],
   "unit_host_id": "3269e1e7-28fc-4bdb-9ff7-33ce1b751364",
   "type": "TAMPER_DETECTOR",
   "placement_config": {

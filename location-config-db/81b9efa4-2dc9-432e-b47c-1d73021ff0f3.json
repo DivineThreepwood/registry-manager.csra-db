@@ -1,6 +1,9 @@
 {
   "id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
   "label": "Living",
+  "alias": [
+    "Location-11"
+  ],
   "type": "LOCATION",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",

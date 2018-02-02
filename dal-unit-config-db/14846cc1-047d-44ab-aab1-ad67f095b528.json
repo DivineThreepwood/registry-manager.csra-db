@@ -2,6 +2,9 @@
   "id": "14846cc1-047d-44ab-aab1-ad67f095b528",
   "unit_template_config_id": "Gira_429496730210000_BUTTON_0",
   "label": "Task: NextInScene",
+  "alias": [
+    "Button-47"
+  ],
   "unit_host_id": "d9e491b1-27b3-4736-9ce0-c52476e827d3",
   "type": "BUTTON",
   "placement_config": {

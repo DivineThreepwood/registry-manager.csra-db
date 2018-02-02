@@ -1,6 +1,9 @@
 {
   "id": "be347a9c-0bb2-42d6-8f69-3699e52224ba",
   "label": "CeilingLamp 3",
+  "alias": [
+    "Device-88"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",

@@ -1,6 +1,9 @@
 {
   "id": "be184a0f-8401-46e0-a1c8-999ca4704260",
   "label": "StandyRobotRoom",
+  "alias": [
+    "Agent-13"
+  ],
   "type": "AGENT",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",

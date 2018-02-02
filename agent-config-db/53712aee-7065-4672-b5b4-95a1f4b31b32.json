@@ -1,6 +1,9 @@
 {
   "id": "53712aee-7065-4672-b5b4-95a1f4b31b32",
   "label": "StandbyControlRoom",
+  "alias": [
+    "Agent-8"
+  ],
   "type": "AGENT",
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",

@@ -1,6 +1,9 @@
 {
   "id": "96f07007-bcbd-4168-aee3-4f4413dfd768",
   "label": "LoungeLamp",
+  "alias": [
+    "Device-8"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "0df5bbb8-2d17-4f81-9b34-314a26ae713a",

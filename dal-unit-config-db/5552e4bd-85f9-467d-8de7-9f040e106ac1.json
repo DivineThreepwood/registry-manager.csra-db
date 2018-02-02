@@ -2,6 +2,9 @@
   "id": "5552e4bd-85f9-467d-8de7-9f040e106ac1",
   "unit_template_config_id": "Homematic_Sec_RHS_HANDLE_0",
   "label": "WindowHandleSensor",
+  "alias": [
+    "Handle-3"
+  ],
   "unit_host_id": "9a7c521e-f436-4f62-8477-f71bb478ba8a",
   "type": "HANDLE",
   "placement_config": {

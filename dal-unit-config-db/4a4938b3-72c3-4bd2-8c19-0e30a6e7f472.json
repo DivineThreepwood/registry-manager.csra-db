@@ -2,6 +2,9 @@
   "id": "4a4938b3-72c3-4bd2-8c19-0e30a6e7f472",
   "unit_template_config_id": "Fibaro_FGMS-001_BATTERY_0",
   "label": "Sink",
+  "alias": [
+    "Battery-24"
+  ],
   "unit_host_id": "5a83b039-a374-4829-a40c-75505ef1476f",
   "type": "BATTERY",
   "placement_config": {

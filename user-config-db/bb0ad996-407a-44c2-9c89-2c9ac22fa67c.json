@@ -1,6 +1,9 @@
 {
   "id": "bb0ad996-407a-44c2-9c89-2c9ac22fa67c",
   "label": "vrichter (Viktor Richter)",
+  "alias": [
+    "User-7"
+  ],
   "type": "USER",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
@@ -22,5 +25,18 @@
     "first_name": "Viktor",
     "last_name": "Richter",
     "user_name": "vrichter"
+  },
+  "permission_config": {
+    "owner_id": "bb0ad996-407a-44c2-9c89-2c9ac22fa67c",
+    "owner_permission": {
+      "read": true,
+      "write": true,
+      "access": true
+    },
+    "other_permission": {
+      "read": false,
+      "write": false,
+      "access": false
+    }
   }
 }

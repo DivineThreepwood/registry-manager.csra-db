@@ -1,6 +1,9 @@
 {
   "id": "cff20d86-c7e8-4d12-87e1-ebc67c7e0c93",
   "label": "Entrance",
+  "alias": [
+    "Location-9"
+  ],
   "type": "LOCATION",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",

@@ -1,6 +1,9 @@
 {
   "id": "b8f2e5a0-b437-4c55-8fe1-69df0c7745e8",
   "label": "SLamp1",
+  "alias": [
+    "Device-85"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",

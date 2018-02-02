@@ -1,6 +1,9 @@
 {
   "id": "ef171da7-95ad-4f16-979d-fa94daaf1031",
   "label": "Divine (Marian Pohling)",
+  "alias": [
+    "User-5"
+  ],
   "type": "USER",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
@@ -21,5 +24,18 @@
     "first_name": "Marian",
     "last_name": "Pohling",
     "user_name": "Divine"
+  },
+  "permission_config": {
+    "owner_id": "ef171da7-95ad-4f16-979d-fa94daaf1031",
+    "owner_permission": {
+      "read": true,
+      "write": true,
+      "access": true
+    },
+    "other_permission": {
+      "read": false,
+      "write": false,
+      "access": false
+    }
   }
 }

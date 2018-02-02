@@ -1,6 +1,9 @@
 {
   "id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
   "label": "Control",
+  "alias": [
+    "Location-12"
+  ],
   "type": "LOCATION",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",

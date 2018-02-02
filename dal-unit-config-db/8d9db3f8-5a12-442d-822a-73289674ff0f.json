@@ -2,6 +2,9 @@
   "id": "8d9db3f8-5a12-442d-822a-73289674ff0f",
   "unit_template_config_id": "ASUS_90IW0122-B01UA_AUDIO_SOURCE_0",
   "label": "ASUS_90IW0122-B01UA_E3IWBDA34152",
+  "alias": [
+    "AudioSource-6"
+  ],
   "unit_host_id": "84a03ce7-c133-43dc-849b-f6352704427e",
   "type": "AUDIO_SOURCE",
   "placement_config": {

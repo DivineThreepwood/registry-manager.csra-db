@@ -1,6 +1,9 @@
 {
   "id": "0df5bbb8-2d17-4f81-9b34-314a26ae713a",
   "label": "Lounge",
+  "alias": [
+    "Location-5"
+  ],
   "type": "LOCATION",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",

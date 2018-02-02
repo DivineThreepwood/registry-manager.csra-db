@@ -1,6 +1,9 @@
 {
   "id": "70926b9f-916d-4718-9328-5f98bab5e8f2",
   "label": "Ceiling Light Group",
+  "alias": [
+    "UnitGroup-6"
+  ],
   "type": "UNIT_GROUP",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",

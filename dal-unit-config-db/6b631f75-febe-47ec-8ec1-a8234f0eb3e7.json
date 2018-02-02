@@ -2,6 +2,9 @@
   "id": "6b631f75-febe-47ec-8ec1-a8234f0eb3e7",
   "unit_template_config_id": "Fibaro_FGMS-001_BATTERY_0",
   "label": "Hallway",
+  "alias": [
+    "Battery-6"
+  ],
   "unit_host_id": "7e3043fb-b942-4bd0-9fe1-5b8ccadb6926",
   "type": "BATTERY",
   "placement_config": {

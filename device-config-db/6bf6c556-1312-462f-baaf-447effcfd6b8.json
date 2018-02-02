@@ -1,6 +1,9 @@
 {
   "id": "6bf6c556-1312-462f-baaf-447effcfd6b8",
   "label": "Table Corner Lamp Bottom",
+  "alias": [
+    "Device-117"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",

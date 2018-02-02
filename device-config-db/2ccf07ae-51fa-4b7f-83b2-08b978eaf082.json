@@ -1,6 +1,9 @@
 {
   "id": "2ccf07ae-51fa-4b7f-83b2-08b978eaf082",
   "label": "Shower",
+  "alias": [
+    "Device-5"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",

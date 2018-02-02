@@ -1,6 +1,9 @@
 {
   "id": "5a72cd49-0f8e-48c4-9ebb-dcc365feca1e",
   "label": "Cooking",
+  "alias": [
+    "Scene-15"
+  ],
   "type": "SCENE",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",

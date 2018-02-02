@@ -2,6 +2,9 @@
   "id": "685b5740-5f56-4419-b838-d7be07307bfa",
   "unit_template_config_id": "Gira_429496730210000_BUTTON_3",
   "label": "DiningLight",
+  "alias": [
+    "Button-16"
+  ],
   "unit_host_id": "6bc1da9d-7941-4a32-bb2e-100c93e3b6bd",
   "type": "BUTTON",
   "placement_config": {

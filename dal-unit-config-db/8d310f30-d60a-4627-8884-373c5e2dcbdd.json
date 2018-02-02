@@ -2,6 +2,9 @@
   "id": "8d310f30-d60a-4627-8884-373c5e2dcbdd",
   "unit_template_config_id": "Philips_KV01-18Y_COLORABLE_LIGHT_0",
   "label": "CeilingLamp 1",
+  "alias": [
+    "ColorableLight-24"
+  ],
   "unit_host_id": "02067c8e-eb24-46f7-a725-5e6ba535dea2",
   "type": "COLORABLE_LIGHT",
   "placement_config": {

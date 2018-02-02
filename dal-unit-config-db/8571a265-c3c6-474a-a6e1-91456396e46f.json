@@ -2,6 +2,9 @@
   "id": "8571a265-c3c6-474a-a6e1-91456396e46f",
   "unit_template_config_id": "Gira_429496730250000_TEMPERATURE_CONTROLLER_0",
   "label": "TemperatureControllerSports",
+  "alias": [
+    "TemperatureController-3"
+  ],
   "unit_host_id": "1fb25195-1d78-447f-a1aa-3fb1db979245",
   "type": "TEMPERATURE_CONTROLLER",
   "placement_config": {

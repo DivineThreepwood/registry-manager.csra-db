@@ -2,6 +2,9 @@
   "id": "c82b515d-7b9f-4a66-8f89-77af9cbd3c71",
   "unit_template_config_id": "Gira_429496730210000_BUTTON_5",
   "label": "Kitchen Light Off",
+  "alias": [
+    "Button-44"
+  ],
   "unit_host_id": "a9b55776-57b2-4589-a90c-dccb1fc7324e",
   "type": "BUTTON",
   "placement_config": {

@@ -1,6 +1,9 @@
 {
   "id": "f3857eeb-c0c5-466c-afe6-c7693212c96f",
   "label": "Hager_TYA628C_397290922010000",
+  "alias": [
+    "Device-57"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",

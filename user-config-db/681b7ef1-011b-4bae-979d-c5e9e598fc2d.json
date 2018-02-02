@@ -1,6 +1,9 @@
 {
   "id": "681b7ef1-011b-4bae-979d-c5e9e598fc2d",
   "label": "MZB (Sebastian MZB)",
+  "alias": [
+    "User-3"
+  ],
   "type": "USER",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
@@ -22,5 +25,18 @@
     "first_name": "Sebastian",
     "last_name": "MZB",
     "user_name": "MZB"
+  },
+  "permission_config": {
+    "owner_id": "681b7ef1-011b-4bae-979d-c5e9e598fc2d",
+    "owner_permission": {
+      "read": true,
+      "write": true,
+      "access": true
+    },
+    "other_permission": {
+      "read": false,
+      "write": false,
+      "access": false
+    }
   }
 }

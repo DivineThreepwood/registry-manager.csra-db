@@ -2,6 +2,9 @@
   "id": "335b96cd-b2a5-4066-8a20-1aae7bc60a18",
   "unit_template_config_id": "Gira_429496730210000_BUTTON_0",
   "label": "RadioOn",
+  "alias": [
+    "Button-6"
+  ],
   "unit_host_id": "6bc1da9d-7941-4a32-bb2e-100c93e3b6bd",
   "type": "BUTTON",
   "placement_config": {

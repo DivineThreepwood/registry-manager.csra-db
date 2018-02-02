@@ -2,6 +2,9 @@
   "id": "17a97269-351d-4ff7-9d21-ed760fd8a667",
   "unit_template_config_id": "Homematic_Sec_SC_2_BATTERY_0",
   "label": "DoorOpen",
+  "alias": [
+    "Battery-26"
+  ],
   "unit_host_id": "1779a5fa-1ba9-4cae-ad58-f92928128c07",
   "type": "BATTERY",
   "placement_config": {

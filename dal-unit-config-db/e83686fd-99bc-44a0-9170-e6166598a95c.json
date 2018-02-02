@@ -2,6 +2,9 @@
   "id": "e83686fd-99bc-44a0-9170-e6166598a95c",
   "unit_template_config_id": "SimonProduction_HandleRev1_COLORABLE_LIGHT_0",
   "label": "505",
+  "alias": [
+    "ColorableLight-28"
+  ],
   "unit_host_id": "87c4aba8-e227-45c9-8e5b-6a4888373729",
   "type": "COLORABLE_LIGHT",
   "placement_config": {

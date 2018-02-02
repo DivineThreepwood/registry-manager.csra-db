@@ -2,6 +2,9 @@
   "id": "c6cdb1d3-b166-43cc-a79e-7a46cda33f4a",
   "unit_template_config_id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_CONSUMPTION_SENSOR_6",
   "label": "S8_C7 Consumption",
+  "alias": [
+    "PowerConsumptionSensor-9"
+  ],
   "unit_host_id": "1505075c-a4a9-41d7-958a-556cdf7b73ac",
   "type": "POWER_CONSUMPTION_SENSOR",
   "placement_config": {

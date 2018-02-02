@@ -2,6 +2,9 @@
   "id": "95ba2da1-ffb9-4bcc-b533-df9365ebb759",
   "unit_template_config_id": "Gira_429496730210000_BUTTON_2",
   "label": "Task: Elan",
+  "alias": [
+    "Button-25"
+  ],
   "unit_host_id": "d9e491b1-27b3-4736-9ce0-c52476e827d3",
   "type": "BUTTON",
   "placement_config": {

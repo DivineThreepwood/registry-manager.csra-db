@@ -1,6 +1,9 @@
 {
   "id": "2b242fea-bf6c-40df-a763-eb1ba0515560",
   "label": "Socializing",
+  "alias": [
+    "Scene-24"
+  ],
   "type": "SCENE",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",

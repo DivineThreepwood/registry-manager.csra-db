@@ -2,6 +2,9 @@
   "id": "d82aed75-e75a-4c40-a0b6-67a612204dc2",
   "unit_template_config_id": "Gira_429496730210000_BUTTON_2",
   "label": "Scene: Reading",
+  "alias": [
+    "Button-40"
+  ],
   "unit_host_id": "acb2a103-1c5c-4023-96d5-c88b8a9a042c",
   "type": "BUTTON",
   "placement_config": {

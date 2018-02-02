@@ -1,6 +1,9 @@
 {
   "id": "80ab9ff7-9b18-4d3d-a960-0b5d28d908a6",
   "label": "Left Control Window",
+  "alias": [
+    "Connection-16"
+  ],
   "type": "CONNECTION",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",

@@ -1,6 +1,9 @@
 {
   "id": "0bcc7fe2-c336-47a0-9446-7767e9076fdb",
   "label": "pLeminoq (Tamino Huxohl)",
+  "alias": [
+    "User-2"
+  ],
   "type": "USER",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
@@ -22,5 +25,18 @@
     "first_name": "Tamino",
     "last_name": "Huxohl",
     "user_name": "pLeminoq"
+  },
+  "permission_config": {
+    "owner_id": "0bcc7fe2-c336-47a0-9446-7767e9076fdb",
+    "owner_permission": {
+      "read": true,
+      "write": true,
+      "access": true
+    },
+    "other_permission": {
+      "read": false,
+      "write": false,
+      "access": false
+    }
   }
 }

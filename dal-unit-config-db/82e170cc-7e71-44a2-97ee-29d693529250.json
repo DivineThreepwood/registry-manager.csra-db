@@ -2,6 +2,9 @@
   "id": "82e170cc-7e71-44a2-97ee-29d693529250",
   "unit_template_config_id": "Gira_429496730250000_TEMPERATURE_CONTROLLER_0",
   "label": "TemperatureControllerBath",
+  "alias": [
+    "TemperatureController-2"
+  ],
   "unit_host_id": "a0e7ef4c-8011-4b61-963f-26f9e716d3cd",
   "type": "TEMPERATURE_CONTROLLER",
   "placement_config": {

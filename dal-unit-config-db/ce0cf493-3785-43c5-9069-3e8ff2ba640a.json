@@ -2,6 +2,9 @@
   "id": "ce0cf493-3785-43c5-9069-3e8ff2ba640a",
   "unit_template_config_id": "Fibaro_FGMS-001_MOTION_DETECTOR_0",
   "label": "Table",
+  "alias": [
+    "MotionDetector-1"
+  ],
   "unit_host_id": "f79b60b8-168c-4bf7-9b1b-87fb0c999224",
   "type": "MOTION_DETECTOR",
   "placement_config": {

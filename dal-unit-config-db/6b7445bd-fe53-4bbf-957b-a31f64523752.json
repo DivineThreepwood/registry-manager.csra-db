@@ -2,6 +2,9 @@
   "id": "6b7445bd-fe53-4bbf-957b-a31f64523752",
   "unit_template_config_id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_SWITCH_1",
   "label": "S5_C2",
+  "alias": [
+    "PowerSwitch-37"
+  ],
   "unit_host_id": "4864704e-34dc-4123-acb8-fd1abbb90108",
   "type": "POWER_SWITCH",
   "placement_config": {

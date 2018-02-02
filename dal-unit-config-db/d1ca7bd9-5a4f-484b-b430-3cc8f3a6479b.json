@@ -2,6 +2,9 @@
   "id": "d1ca7bd9-5a4f-484b-b430-3cc8f3a6479b",
   "unit_template_config_id": "ASUS_90IW0122-B01UA_VIDEO_RGB_SOURCE_0",
   "label": "asus0",
+  "alias": [
+    "VideoRgbSource-8"
+  ],
   "unit_host_id": "5dd3fc5f-3282-4796-89a8-cbca57c129fa",
   "type": "VIDEO_RGB_SOURCE",
   "placement_config": {

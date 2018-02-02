@@ -1,6 +1,9 @@
 {
   "id": "4d350be1-3f09-48f8-8796-d336d7b10dfe",
   "label": "DoorClosed",
+  "alias": [
+    "Device-3"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",

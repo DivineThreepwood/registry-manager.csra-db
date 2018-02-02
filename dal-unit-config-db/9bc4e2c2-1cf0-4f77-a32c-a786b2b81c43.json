@@ -2,6 +2,9 @@
   "id": "9bc4e2c2-1cf0-4f77-a32c-a786b2b81c43",
   "unit_template_config_id": "Fibaro_FGMS-001_LIGHT_SENSOR_0",
   "label": "Couch",
+  "alias": [
+    "LightSensor-2"
+  ],
   "unit_host_id": "3b0602c8-6524-4d08-b8c5-5d4f2e97b91b",
   "type": "LIGHT_SENSOR",
   "placement_config": {

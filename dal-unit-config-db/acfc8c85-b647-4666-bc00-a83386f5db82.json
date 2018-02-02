@@ -2,6 +2,9 @@
   "id": "acfc8c85-b647-4666-bc00-a83386f5db82",
   "unit_template_config_id": "Hager_TYA663A_DIMMER_2",
   "label": "Dimmer",
+  "alias": [
+    "Dimmer-8"
+  ],
   "unit_host_id": "f34a0c05-df62-41a8-a282-774390baa660",
   "type": "DIMMER",
   "placement_config": {

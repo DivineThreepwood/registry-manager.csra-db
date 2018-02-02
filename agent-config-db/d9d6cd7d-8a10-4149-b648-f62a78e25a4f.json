@@ -1,6 +1,9 @@
 {
   "id": "d9d6cd7d-8a10-4149-b648-f62a78e25a4f",
   "label": "BathAmbientColorBeachBottom",
+  "alias": [
+    "Agent-2"
+  ],
   "type": "AGENT",
   "placement_config": {
     "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",

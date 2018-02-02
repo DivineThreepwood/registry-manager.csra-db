@@ -1,6 +1,9 @@
 {
   "id": "3873b82e-f9d0-44c8-b9ee-c7a40d438fca",
   "label": "TableDimmerPowerStateSynchroniser",
+  "alias": [
+    "Agent-20"
+  ],
   "type": "AGENT",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",

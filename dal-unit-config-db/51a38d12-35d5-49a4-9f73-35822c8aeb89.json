@@ -2,6 +2,9 @@
   "id": "51a38d12-35d5-49a4-9f73-35822c8aeb89",
   "unit_template_config_id": "Philips_KV01-18U_COLORABLE_LIGHT_0",
   "label": "Hallway_0",
+  "alias": [
+    "ColorableLight-38"
+  ],
   "unit_host_id": "0fb97659-299a-4da9-8dfb-ece4ac0bee00",
   "type": "COLORABLE_LIGHT",
   "placement_config": {

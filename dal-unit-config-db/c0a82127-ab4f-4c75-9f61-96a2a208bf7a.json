@@ -2,6 +2,9 @@
   "id": "c0a82127-ab4f-4c75-9f61-96a2a208bf7a",
   "unit_template_config_id": "Fibaro_FGMS-001_MOTION_DETECTOR_0",
   "label": "Entrance",
+  "alias": [
+    "MotionDetector-3"
+  ],
   "unit_host_id": "88f06270-9441-4afc-8a8d-54a7ab4aaef6",
   "type": "MOTION_DETECTOR",
   "placement_config": {

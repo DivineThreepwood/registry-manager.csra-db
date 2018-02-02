@@ -1,6 +1,9 @@
 {
   "id": "20bbe889-bd08-4722-bd90-d20de7971b2b",
   "label": "Global_2",
+  "alias": [
+    "Device-97"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",

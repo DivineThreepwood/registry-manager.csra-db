@@ -2,6 +2,9 @@
   "id": "fdaa2517-6e70-4d8f-836a-d33e21a3465b",
   "unit_template_config_id": "Gira_429496730250000_TEMPERATURE_CONTROLLER_0",
   "label": "TemperatureControllerLiving",
+  "alias": [
+    "TemperatureController-1"
+  ],
   "unit_host_id": "31b88fc4-67c2-4642-b2ed-cebae6196113",
   "type": "TEMPERATURE_CONTROLLER",
   "placement_config": {

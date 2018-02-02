@@ -1,6 +1,9 @@
 {
   "id": "6bc1da9d-7941-4a32-bb2e-100c93e3b6bd",
   "label": "ControlBelowButtons",
+  "alias": [
+    "Device-123"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",

@@ -2,6 +2,9 @@
   "id": "a1a61734-f438-4bd4-9548-6b6f526941cb",
   "unit_template_config_id": "Fibaro_FGMS-001_MOTION_DETECTOR_0",
   "label": "Couch",
+  "alias": [
+    "MotionDetector-7"
+  ],
   "unit_host_id": "3b0602c8-6524-4d08-b8c5-5d4f2e97b91b",
   "type": "MOTION_DETECTOR",
   "placement_config": {

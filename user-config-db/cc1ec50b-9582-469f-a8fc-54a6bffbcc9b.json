@@ -1,6 +1,9 @@
 {
   "id": "cc1ec50b-9582-469f-a8fc-54a6bffbcc9b",
   "label": "pholthau (Patrick Holthaus)",
+  "alias": [
+    "User-6"
+  ],
   "type": "USER",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
@@ -22,5 +25,18 @@
     "first_name": "Patrick",
     "last_name": "Holthaus",
     "user_name": "pholthau"
+  },
+  "permission_config": {
+    "owner_id": "cc1ec50b-9582-469f-a8fc-54a6bffbcc9b",
+    "owner_permission": {
+      "read": true,
+      "write": true,
+      "access": true
+    },
+    "other_permission": {
+      "read": false,
+      "write": false,
+      "access": false
+    }
   }
 }

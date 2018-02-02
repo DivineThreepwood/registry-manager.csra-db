@@ -2,6 +2,9 @@
   "id": "2ca1b701-cfde-4570-83de-46610e6718fc",
   "unit_template_config_id": "Philips_KV01-18U_COLORABLE_LIGHT_0",
   "label": "CeilingWindowLamp",
+  "alias": [
+    "ColorableLight-11"
+  ],
   "unit_host_id": "6db185ba-2a83-4f07-8bdc-25a3cec87f3c",
   "type": "COLORABLE_LIGHT",
   "placement_config": {

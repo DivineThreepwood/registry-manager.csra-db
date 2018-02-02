@@ -2,6 +2,9 @@
   "id": "7246780e-97db-4863-83eb-203ae1b6e362",
   "unit_template_config_id": "Homematic_Sec_SC_2_REED_CONTACT_0",
   "label": "DoorClosed",
+  "alias": [
+    "ReedContact-15"
+  ],
   "unit_host_id": "4d350be1-3f09-48f8-8796-d336d7b10dfe",
   "type": "REED_CONTACT",
   "placement_config": {

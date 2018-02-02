@@ -1,6 +1,9 @@
 {
   "id": "b98b60db-b0c4-441f-bd14-271c76d447e6",
   "label": "BathAmbientColorNight",
+  "alias": [
+    "Agent-16"
+  ],
   "type": "AGENT",
   "placement_config": {
     "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",

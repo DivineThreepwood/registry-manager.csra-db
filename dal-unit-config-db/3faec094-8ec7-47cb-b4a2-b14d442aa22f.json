@@ -2,6 +2,9 @@
   "id": "3faec094-8ec7-47cb-b4a2-b14d442aa22f",
   "unit_template_config_id": "Homematic_Sec_SC_2_REED_CONTACT_0",
   "label": "DoorOpen",
+  "alias": [
+    "ReedContact-7"
+  ],
   "unit_host_id": "1779a5fa-1ba9-4cae-ad58-f92928128c07",
   "type": "REED_CONTACT",
   "placement_config": {

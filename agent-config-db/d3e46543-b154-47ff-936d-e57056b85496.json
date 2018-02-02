@@ -1,6 +1,9 @@
 {
   "id": "d3e46543-b154-47ff-936d-e57056b85496",
   "label": "WardrobeEnergySaving",
+  "alias": [
+    "Agent-5"
+  ],
   "type": "AGENT",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",

@@ -1,6 +1,9 @@
 {
   "id": "b52852e5-0ff5-41d3-854c-3a38cc756b4a",
   "label": "StandbyKitchen",
+  "alias": [
+    "Agent-12"
+  ],
   "type": "AGENT",
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",

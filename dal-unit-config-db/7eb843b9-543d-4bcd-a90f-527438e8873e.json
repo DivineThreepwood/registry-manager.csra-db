@@ -2,6 +2,9 @@
   "id": "7eb843b9-543d-4bcd-a90f-527438e8873e",
   "unit_template_config_id": "Fibaro_FGMS-001_TEMPERATURE_SENSOR_0",
   "label": "Sink",
+  "alias": [
+    "TemperatureSensor-14"
+  ],
   "unit_host_id": "5a83b039-a374-4829-a40c-75505ef1476f",
   "type": "TEMPERATURE_SENSOR",
   "placement_config": {

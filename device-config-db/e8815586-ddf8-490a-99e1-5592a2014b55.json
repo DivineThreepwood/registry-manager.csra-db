@@ -1,6 +1,9 @@
 {
   "id": "e8815586-ddf8-490a-99e1-5592a2014b55",
   "label": "PathwayBelowButtons",
+  "alias": [
+    "Device-81"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",

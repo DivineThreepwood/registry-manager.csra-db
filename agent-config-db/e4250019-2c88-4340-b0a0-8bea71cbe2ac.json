@@ -1,6 +1,9 @@
 {
   "id": "e4250019-2c88-4340-b0a0-8bea71cbe2ac",
   "label": "CeilingWindowLampPowerSynchroniser",
+  "alias": [
+    "Agent-9"
+  ],
   "type": "AGENT",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",

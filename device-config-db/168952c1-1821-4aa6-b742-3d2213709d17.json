@@ -1,6 +1,9 @@
 {
   "id": "168952c1-1821-4aa6-b742-3d2213709d17",
   "label": "DimmActuator1",
+  "alias": [
+    "Device-69"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",

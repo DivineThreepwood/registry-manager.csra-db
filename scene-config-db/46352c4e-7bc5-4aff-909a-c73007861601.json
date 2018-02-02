@@ -1,6 +1,9 @@
 {
   "id": "46352c4e-7bc5-4aff-909a-c73007861601",
   "label": "Cozy",
+  "alias": [
+    "Scene-12"
+  ],
   "type": "SCENE",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",

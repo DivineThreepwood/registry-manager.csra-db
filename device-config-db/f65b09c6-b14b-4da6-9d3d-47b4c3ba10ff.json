@@ -1,6 +1,9 @@
 {
   "id": "f65b09c6-b14b-4da6-9d3d-47b4c3ba10ff",
   "label": "FlobiCam",
+  "alias": [
+    "Device-27"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",

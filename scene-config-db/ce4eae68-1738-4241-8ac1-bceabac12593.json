@@ -1,6 +1,9 @@
 {
   "id": "ce4eae68-1738-4241-8ac1-bceabac12593",
   "label": "LightsOff",
+  "alias": [
+    "Scene-19"
+  ],
   "type": "SCENE",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",

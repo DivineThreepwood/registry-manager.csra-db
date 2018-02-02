@@ -1,6 +1,9 @@
 {
   "id": "cf8982cc-7a33-4043-bb69-3f792ffc0b05",
   "label": "RightWindowHandleSensor",
+  "alias": [
+    "Device-68"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",

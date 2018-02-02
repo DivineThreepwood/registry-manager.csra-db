@@ -1,6 +1,9 @@
 {
   "id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
   "label": "Dining",
+  "alias": [
+    "Location-15"
+  ],
   "type": "LOCATION",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",

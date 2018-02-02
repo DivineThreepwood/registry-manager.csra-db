@@ -1,6 +1,9 @@
 {
   "id": "c8ccd1db-5689-4ce7-b6e9-913ca88c0329",
   "label": "EntranceDoorReedSwitch",
+  "alias": [
+    "Device-28"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",

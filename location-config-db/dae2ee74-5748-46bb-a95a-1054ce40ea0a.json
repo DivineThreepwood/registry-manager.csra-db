@@ -1,6 +1,9 @@
 {
   "id": "dae2ee74-5748-46bb-a95a-1054ce40ea0a",
   "label": "Interaction",
+  "alias": [
+    "Location-14"
+  ],
   "type": "LOCATION",
   "placement_config": {
     "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",

@@ -2,6 +2,9 @@
   "id": "55a77b93-6703-4738-9d22-3c994178ea72",
   "unit_template_config_id": "Fibaro_FGMS-001_LIGHT_SENSOR_0",
   "label": "Sink",
+  "alias": [
+    "LightSensor-3"
+  ],
   "unit_host_id": "5a83b039-a374-4829-a40c-75505ef1476f",
   "type": "LIGHT_SENSOR",
   "placement_config": {

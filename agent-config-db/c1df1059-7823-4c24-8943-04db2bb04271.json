@@ -1,6 +1,9 @@
 {
   "id": "c1df1059-7823-4c24-8943-04db2bb04271",
   "label": "KitchenAbsenceEnergySaving",
+  "alias": [
+    "Agent-11"
+  ],
   "type": "AGENT",
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",

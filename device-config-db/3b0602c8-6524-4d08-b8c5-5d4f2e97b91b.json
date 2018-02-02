@@ -1,6 +1,9 @@
 {
   "id": "3b0602c8-6524-4d08-b8c5-5d4f2e97b91b",
   "label": "Couch",
+  "alias": [
+    "Device-4"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",

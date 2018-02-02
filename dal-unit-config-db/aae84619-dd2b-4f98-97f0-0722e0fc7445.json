@@ -2,6 +2,9 @@
   "id": "aae84619-dd2b-4f98-97f0-0722e0fc7445",
   "unit_template_config_id": "Gira_429496730250000_BUTTON_0",
   "label": "Button 1",
+  "alias": [
+    "Button-28"
+  ],
   "unit_host_id": "1fb25195-1d78-447f-a1aa-3fb1db979245",
   "type": "BUTTON",
   "placement_config": {

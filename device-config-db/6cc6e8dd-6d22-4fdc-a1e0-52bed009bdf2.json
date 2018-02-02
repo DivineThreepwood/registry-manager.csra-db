@@ -1,6 +1,9 @@
 {
   "id": "6cc6e8dd-6d22-4fdc-a1e0-52bed009bdf2",
   "label": "Future-Shape_SE3-P_02848000",
+  "alias": [
+    "Device-101"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",

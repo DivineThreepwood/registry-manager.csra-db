@@ -2,6 +2,9 @@
   "id": "dccc86dc-f764-4602-8ad4-945bf6851581",
   "unit_template_config_id": "Hager_TYA663A_DIMMER_2",
   "label": "CeilingCentralDimmer",
+  "alias": [
+    "Dimmer-7"
+  ],
   "unit_host_id": "168952c1-1821-4aa6-b742-3d2213709d17",
   "type": "DIMMER",
   "placement_config": {

@@ -2,6 +2,9 @@
   "id": "3e189be5-1e78-47dd-9507-b17b6b282e24",
   "unit_template_config_id": "Gira_429496730210000_BUTTON_4",
   "label": "WardrobeLight",
+  "alias": [
+    "Button-54"
+  ],
   "unit_host_id": "a33d0c22-346c-42ca-bed5-c72019700729",
   "type": "BUTTON",
   "placement_config": {

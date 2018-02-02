@@ -1,6 +1,9 @@
 {
   "id": "2ca48f76-c875-47a4-9c49-1f30bf1d64c4",
   "label": "SLampRight2",
+  "alias": [
+    "Device-72"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",

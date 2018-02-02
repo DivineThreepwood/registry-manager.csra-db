@@ -1,6 +1,9 @@
 {
   "id": "a2e5e403-7121-48b9-837a-b93a944ccd29",
   "label": "Apartment Entrance Door",
+  "alias": [
+    "Connection-1"
+  ],
   "type": "CONNECTION",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",

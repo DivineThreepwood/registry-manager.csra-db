@@ -1,6 +1,9 @@
 {
   "id": "1779a5fa-1ba9-4cae-ad58-f92928128c07",
   "label": "DoorOpen",
+  "alias": [
+    "Device-1"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",

@@ -2,6 +2,9 @@
   "id": "8bdec03c-86e1-462f-b341-3a0e96f2d6f5",
   "unit_template_config_id": "Fibaro_FGMS-001_TEMPERATURE_SENSOR_0",
   "label": "Shower",
+  "alias": [
+    "TemperatureSensor-7"
+  ],
   "unit_host_id": "2ccf07ae-51fa-4b7f-83b2-08b978eaf082",
   "type": "TEMPERATURE_SENSOR",
   "placement_config": {

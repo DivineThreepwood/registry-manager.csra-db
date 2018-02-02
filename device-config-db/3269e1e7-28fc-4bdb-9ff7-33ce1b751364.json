@@ -1,6 +1,9 @@
 {
   "id": "3269e1e7-28fc-4bdb-9ff7-33ce1b751364",
   "label": "Control",
+  "alias": [
+    "Device-61"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",

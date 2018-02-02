@@ -1,6 +1,9 @@
 {
   "id": "6db185ba-2a83-4f07-8bdc-25a3cec87f3c",
   "label": "MediaHue",
+  "alias": [
+    "Device-118"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "0df5bbb8-2d17-4f81-9b34-314a26ae713a",

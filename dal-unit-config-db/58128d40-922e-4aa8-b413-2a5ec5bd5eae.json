@@ -2,6 +2,9 @@
   "id": "58128d40-922e-4aa8-b413-2a5ec5bd5eae",
   "unit_template_config_id": "Gira_429496730210000_BUTTON_2",
   "label": "Scenario: FSMT",
+  "alias": [
+    "Button-39"
+  ],
   "unit_host_id": "933f4d62-769a-4975-ad8d-45d36912b68b",
   "type": "BUTTON",
   "placement_config": {

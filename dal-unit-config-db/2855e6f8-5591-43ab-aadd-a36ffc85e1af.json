@@ -2,6 +2,9 @@
   "id": "2855e6f8-5591-43ab-aadd-a36ffc85e1af",
   "unit_template_config_id": "ASUS_90IW0122-B01UA_VIDEO_DEPTH_SOURCE_0",
   "label": "ASUS_90IW0122-B01UA_E3IWBDA34154",
+  "alias": [
+    "VideoDepthSource-1"
+  ],
   "unit_host_id": "c8bff4c0-b228-4a6c-9e9a-95f99e458fc5",
   "type": "VIDEO_DEPTH_SOURCE",
   "placement_config": {

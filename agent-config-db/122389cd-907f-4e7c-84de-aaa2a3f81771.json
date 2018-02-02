@@ -1,6 +1,9 @@
 {
   "id": "122389cd-907f-4e7c-84de-aaa2a3f81771",
   "label": "EntranceDimmerPowerStateSynchroniser",
+  "alias": [
+    "Agent-18"
+  ],
   "type": "AGENT",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",

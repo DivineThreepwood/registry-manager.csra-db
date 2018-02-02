@@ -2,6 +2,9 @@
   "id": "02385583-abdb-4aba-9e34-1a17cd4c2c3d",
   "unit_template_config_id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_CONSUMPTION_SENSOR_1",
   "label": "BeleuchtungZwischendecke",
+  "alias": [
+    "PowerConsumptionSensor-47"
+  ],
   "unit_host_id": "37a90769-5743-47fc-b843-3367bd531db9",
   "type": "POWER_CONSUMPTION_SENSOR",
   "placement_config": {

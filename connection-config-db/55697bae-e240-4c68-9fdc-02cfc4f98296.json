@@ -1,6 +1,9 @@
 {
   "id": "55697bae-e240-4c68-9fdc-02cfc4f98296",
   "label": "Wardrobe Passage",
+  "alias": [
+    "Connection-12"
+  ],
   "type": "CONNECTION",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",

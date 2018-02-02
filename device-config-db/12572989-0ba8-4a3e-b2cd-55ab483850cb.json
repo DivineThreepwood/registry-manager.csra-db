@@ -1,6 +1,9 @@
 {
   "id": "12572989-0ba8-4a3e-b2cd-55ab483850cb",
   "label": "Media",
+  "alias": [
+    "Device-19"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",

@@ -2,6 +2,9 @@
   "id": "9c467222-1d2a-4244-b20a-ba9393f61693",
   "unit_template_config_id": "Homematic_Sec_SC_2_BATTERY_0",
   "label": "SportsToControlReedSwitch",
+  "alias": [
+    "Battery-23"
+  ],
   "unit_host_id": "5c3b78f4-2ea0-44b0-84ac-3d2ed211f412",
   "type": "BATTERY",
   "placement_config": {

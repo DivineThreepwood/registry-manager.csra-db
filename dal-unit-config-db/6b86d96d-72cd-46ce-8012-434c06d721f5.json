@@ -2,6 +2,9 @@
   "id": "6b86d96d-72cd-46ce-8012-434c06d721f5",
   "unit_template_config_id": "Fibaro_FGMS-001_TAMPER_DETECTOR_0",
   "label": "Shower",
+  "alias": [
+    "TamperDetector-7"
+  ],
   "unit_host_id": "2ccf07ae-51fa-4b7f-83b2-08b978eaf082",
   "type": "TAMPER_DETECTOR",
   "placement_config": {

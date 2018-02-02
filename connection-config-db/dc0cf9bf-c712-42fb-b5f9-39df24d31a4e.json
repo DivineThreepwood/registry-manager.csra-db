@@ -1,6 +1,9 @@
 {
   "id": "dc0cf9bf-c712-42fb-b5f9-39df24d31a4e",
   "label": "Sports Window",
+  "alias": [
+    "Connection-10"
+  ],
   "type": "CONNECTION",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",

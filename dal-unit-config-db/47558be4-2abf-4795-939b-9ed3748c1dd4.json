@@ -2,6 +2,9 @@
   "id": "47558be4-2abf-4795-939b-9ed3748c1dd4",
   "unit_template_config_id": "Homematic_Sec_SC_2_REED_CONTACT_0",
   "label": "ControlDoorReedSwitch",
+  "alias": [
+    "ReedContact-12"
+  ],
   "unit_host_id": "6d54b9f5-ef2e-41a8-a4ad-64b78be339e1",
   "type": "REED_CONTACT",
   "placement_config": {

@@ -2,6 +2,9 @@
   "id": "d4b37376-9283-482e-9fff-e941a0aa31dd",
   "unit_template_config_id": "Hager_TYA628C_ROLLER_SHUTTER_7",
   "label": "RightOutside",
+  "alias": [
+    "RollerShutter-2"
+  ],
   "unit_host_id": "f3857eeb-c0c5-466c-afe6-c7693212c96f",
   "type": "ROLLER_SHUTTER",
   "placement_config": {

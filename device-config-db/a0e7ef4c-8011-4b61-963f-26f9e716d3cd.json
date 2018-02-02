@@ -1,6 +1,9 @@
 {
   "id": "a0e7ef4c-8011-4b61-963f-26f9e716d3cd",
   "label": "EntranceButtons",
+  "alias": [
+    "Device-59"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",

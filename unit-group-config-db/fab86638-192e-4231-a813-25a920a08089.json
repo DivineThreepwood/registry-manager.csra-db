@@ -1,6 +1,9 @@
 {
   "id": "fab86638-192e-4231-a813-25a920a08089",
   "label": "LLamp Living",
+  "alias": [
+    "UnitGroup-4"
+  ],
   "type": "UNIT_GROUP",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",

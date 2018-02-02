@@ -1,6 +1,9 @@
 {
   "id": "d32f99bf-dc57-456e-9510-1146eba29bc4",
   "label": "Kinect pug",
+  "alias": [
+    "Device-15"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",

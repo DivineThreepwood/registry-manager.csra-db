@@ -1,6 +1,9 @@
 {
   "id": "380abfb6-0863-4830-b12b-8f73fc0dc667",
   "label": "KitchenPresenceLight",
+  "alias": [
+    "Agent-17"
+  ],
   "type": "AGENT",
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",

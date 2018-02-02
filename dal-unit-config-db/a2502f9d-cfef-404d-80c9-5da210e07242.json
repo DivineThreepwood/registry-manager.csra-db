@@ -2,6 +2,9 @@
   "id": "a2502f9d-cfef-404d-80c9-5da210e07242",
   "unit_template_config_id": "Gira_429496730210000_BUTTON_1",
   "label": "Task: StopAudio",
+  "alias": [
+    "Button-32"
+  ],
   "unit_host_id": "d9e491b1-27b3-4736-9ce0-c52476e827d3",
   "type": "BUTTON",
   "placement_config": {

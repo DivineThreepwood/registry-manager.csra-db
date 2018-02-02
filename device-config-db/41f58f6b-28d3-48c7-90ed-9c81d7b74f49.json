@@ -1,6 +1,9 @@
 {
   "id": "41f58f6b-28d3-48c7-90ed-9c81d7b74f49",
   "label": "ASUS_90IW0122-B01UA_E3IWBDA34145",
+  "alias": [
+    "Device-34"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",

@@ -1,6 +1,9 @@
 {
   "id": "ed874b53-c88b-4b1c-82fb-5d97478b0980",
   "label": "Table light",
+  "alias": [
+    "UnitGroup-3"
+  ],
   "type": "UNIT_GROUP",
   "placement_config": {
     "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",

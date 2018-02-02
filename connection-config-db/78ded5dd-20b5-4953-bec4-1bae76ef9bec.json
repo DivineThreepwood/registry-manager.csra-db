@@ -1,6 +1,9 @@
 {
   "id": "78ded5dd-20b5-4953-bec4-1bae76ef9bec",
   "label": "Living to Sports Door",
+  "alias": [
+    "Connection-3"
+  ],
   "type": "CONNECTION",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",

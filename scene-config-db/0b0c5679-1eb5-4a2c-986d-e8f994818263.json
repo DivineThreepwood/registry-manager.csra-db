@@ -1,6 +1,9 @@
 {
   "id": "0b0c5679-1eb5-4a2c-986d-e8f994818263",
   "label": "Party",
+  "alias": [
+    "Scene-9"
+  ],
   "type": "SCENE",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",

@@ -2,6 +2,9 @@
   "id": "0b8a1503-7cc5-4e03-9ed5-9d3efed43832",
   "unit_template_config_id": "Homematic_Sec_SC_2_REED_CONTACT_0",
   "label": "LeftWindowReedSwitch",
+  "alias": [
+    "ReedContact-2"
+  ],
   "unit_host_id": "9420f93f-6236-44ff-ae31-2ce98e1db7e9",
   "type": "REED_CONTACT",
   "placement_config": {

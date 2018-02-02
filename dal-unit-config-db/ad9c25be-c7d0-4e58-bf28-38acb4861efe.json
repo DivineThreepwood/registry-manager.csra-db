@@ -2,6 +2,9 @@
   "id": "ad9c25be-c7d0-4e58-bf28-38acb4861efe",
   "unit_template_config_id": "Fibaro_FGMS-001_BATTERY_0",
   "label": "Couch",
+  "alias": [
+    "Battery-25"
+  ],
   "unit_host_id": "3b0602c8-6524-4d08-b8c5-5d4f2e97b91b",
   "type": "BATTERY",
   "placement_config": {

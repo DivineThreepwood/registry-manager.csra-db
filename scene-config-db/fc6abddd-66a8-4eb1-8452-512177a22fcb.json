@@ -1,6 +1,9 @@
 {
   "id": "fc6abddd-66a8-4eb1-8452-512177a22fcb",
   "label": "ASDAS",
+  "alias": [
+    "Scene-16"
+  ],
   "type": "SCENE",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",

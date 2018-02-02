@@ -1,6 +1,9 @@
 {
   "id": "06c55103-3a11-44b7-aed8-569880365a44",
   "label": "Kitchen Passage",
+  "alias": [
+    "Connection-13"
+  ],
   "type": "CONNECTION",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",

@@ -1,6 +1,9 @@
 {
   "id": "76f70d60-3a2e-491c-bd78-3b98dfb87202",
   "label": "Living Window Left",
+  "alias": [
+    "Connection-5"
+  ],
   "type": "CONNECTION",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",

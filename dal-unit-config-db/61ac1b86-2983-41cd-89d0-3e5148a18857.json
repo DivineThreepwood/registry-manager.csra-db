@@ -2,6 +2,9 @@
   "id": "61ac1b86-2983-41cd-89d0-3e5148a18857",
   "unit_template_config_id": "Fibaro_FGMS-001_LIGHT_SENSOR_0",
   "label": "Pathway",
+  "alias": [
+    "LightSensor-9"
+  ],
   "unit_host_id": "35ac10cc-364a-464f-bcac-0dba69b42ff7",
   "type": "LIGHT_SENSOR",
   "placement_config": {

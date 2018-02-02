@@ -2,6 +2,9 @@
   "id": "deebbd1a-4db5-4125-84c9-b25c56e945fa",
   "unit_template_config_id": "Fibaro_FGMS-001_LIGHT_SENSOR_0",
   "label": "Media",
+  "alias": [
+    "LightSensor-14"
+  ],
   "unit_host_id": "12572989-0ba8-4a3e-b2cd-55ab483850cb",
   "type": "LIGHT_SENSOR",
   "placement_config": {

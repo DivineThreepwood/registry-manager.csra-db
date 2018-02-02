@@ -1,6 +1,9 @@
 {
   "id": "bed3f15f-9b3d-4533-9d3c-be91df819829",
   "label": "LeftWindowHandleSensor",
+  "alias": [
+    "Device-79"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",

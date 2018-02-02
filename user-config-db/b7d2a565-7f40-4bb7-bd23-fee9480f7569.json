@@ -1,6 +1,9 @@
 {
   "id": "b7d2a565-7f40-4bb7-bd23-fee9480f7569",
   "label": "nkoester (Norman Köster)",
+  "alias": [
+    "User-8"
+  ],
   "type": "USER",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
@@ -22,5 +25,18 @@
     "first_name": "Norman",
     "last_name": "Köster",
     "user_name": "nkoester"
+  },
+  "permission_config": {
+    "owner_id": "b7d2a565-7f40-4bb7-bd23-fee9480f7569",
+    "owner_permission": {
+      "read": true,
+      "write": true,
+      "access": true
+    },
+    "other_permission": {
+      "read": false,
+      "write": false,
+      "access": false
+    }
   }
 }

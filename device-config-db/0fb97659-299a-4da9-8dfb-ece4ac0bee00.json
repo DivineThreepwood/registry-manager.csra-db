@@ -1,6 +1,9 @@
 {
   "id": "0fb97659-299a-4da9-8dfb-ece4ac0bee00",
   "label": "Hallway_0",
+  "alias": [
+    "Device-46"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",

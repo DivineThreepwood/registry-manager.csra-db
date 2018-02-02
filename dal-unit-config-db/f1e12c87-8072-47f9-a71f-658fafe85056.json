@@ -2,6 +2,9 @@
   "id": "f1e12c87-8072-47f9-a71f-658fafe85056",
   "unit_template_config_id": "Gira_429496730210000_BUTTON_4",
   "label": "PathwayBelowButton 5",
+  "alias": [
+    "Button-51"
+  ],
   "unit_host_id": "e8815586-ddf8-490a-99e1-5592a2014b55",
   "type": "BUTTON",
   "placement_config": {

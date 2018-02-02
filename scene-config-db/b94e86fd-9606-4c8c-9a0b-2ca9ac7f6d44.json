@@ -1,6 +1,9 @@
 {
   "id": "b94e86fd-9606-4c8c-9a0b-2ca9ac7f6d44",
   "label": "Dinner",
+  "alias": [
+    "Scene-14"
+  ],
   "type": "SCENE",
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",

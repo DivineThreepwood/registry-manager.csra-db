@@ -2,6 +2,9 @@
   "id": "7c243a03-7d31-41a2-979d-da4c9418ff10",
   "unit_template_config_id": "Fibaro_FGMS-001_MOTION_DETECTOR_0",
   "label": "Hallway",
+  "alias": [
+    "MotionDetector-13"
+  ],
   "unit_host_id": "7e3043fb-b942-4bd0-9fe1-5b8ccadb6926",
   "type": "MOTION_DETECTOR",
   "placement_config": {

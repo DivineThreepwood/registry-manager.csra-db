@@ -2,6 +2,9 @@
   "id": "932b4f48-59d9-474a-b83e-82c4218b5ecf",
   "unit_template_config_id": "Philips_KV01-18U_COLORABLE_LIGHT_0",
   "label": "Table Corner Lamp Bottom",
+  "alias": [
+    "ColorableLight-1"
+  ],
   "unit_host_id": "6bf6c556-1312-462f-baaf-447effcfd6b8",
   "type": "COLORABLE_LIGHT",
   "placement_config": {

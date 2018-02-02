@@ -2,6 +2,9 @@
   "id": "6f6dce7d-e959-49ff-9bf9-6b15dcde3082",
   "unit_template_config_id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_SWITCH_3",
   "label": "TV",
+  "alias": [
+    "PowerSwitch-11"
+  ],
   "unit_host_id": "cd51b92f-3429-4666-8418-079f81af4ecb",
   "type": "POWER_SWITCH",
   "placement_config": {

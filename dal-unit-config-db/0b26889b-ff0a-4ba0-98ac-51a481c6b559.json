@@ -2,6 +2,9 @@
   "id": "0b26889b-ff0a-4ba0-98ac-51a481c6b559",
   "unit_template_config_id": "Philips_KV01-18U_COLORABLE_LIGHT_0",
   "label": "Table Corner Lamp Top",
+  "alias": [
+    "ColorableLight-36"
+  ],
   "unit_host_id": "4e432dbd-11da-45c2-ba00-940a6ec89cb7",
   "type": "COLORABLE_LIGHT",
   "placement_config": {

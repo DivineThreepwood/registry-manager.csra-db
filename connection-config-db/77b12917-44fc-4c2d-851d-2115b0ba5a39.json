@@ -1,6 +1,9 @@
 {
   "id": "77b12917-44fc-4c2d-851d-2115b0ba5a39",
   "label": "Kitchen Door",
+  "alias": [
+    "Connection-7"
+  ],
   "type": "CONNECTION",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",

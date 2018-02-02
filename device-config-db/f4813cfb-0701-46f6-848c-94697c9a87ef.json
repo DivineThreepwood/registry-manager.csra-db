@@ -1,6 +1,9 @@
 {
   "id": "f4813cfb-0701-46f6-848c-94697c9a87ef",
   "label": "CeilingLamp 2",
+  "alias": [
+    "Device-121"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",

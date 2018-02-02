@@ -1,6 +1,9 @@
 {
   "id": "6678a48f-05a1-47f1-b962-35227c396675",
   "label": "Kinect atl",
+  "alias": [
+    "Device-83"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",

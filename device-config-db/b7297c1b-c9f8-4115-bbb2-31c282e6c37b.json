@@ -1,6 +1,9 @@
 {
   "id": "b7297c1b-c9f8-4115-bbb2-31c282e6c37b",
   "label": "ControlTablet1",
+  "alias": [
+    "Device-53"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",

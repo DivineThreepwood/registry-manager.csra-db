@@ -1,6 +1,9 @@
 {
   "id": "bca80cc4-e94e-4d5f-9fca-9276e74dead7",
   "label": "DoorReedSwitch",
+  "alias": [
+    "Device-71"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",

@@ -2,6 +2,9 @@
   "id": "8f7b2513-4f33-4e8d-8b7e-eced4d54108c",
   "unit_template_config_id": "Philips_KV01-18U_COLORABLE_LIGHT_0",
   "label": "LLamp1",
+  "alias": [
+    "ColorableLight-30"
+  ],
   "unit_host_id": "0e817514-cff1-4939-9a17-8ab97934024f",
   "type": "COLORABLE_LIGHT",
   "placement_config": {

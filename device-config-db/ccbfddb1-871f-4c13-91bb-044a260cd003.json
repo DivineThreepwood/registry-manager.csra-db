@@ -1,6 +1,9 @@
 {
   "id": "ccbfddb1-871f-4c13-91bb-044a260cd003",
   "label": "LLamp6",
+  "alias": [
+    "Device-84"
+  ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
