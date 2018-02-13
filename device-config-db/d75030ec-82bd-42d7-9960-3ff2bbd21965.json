@@ -1,20 +1,21 @@
 {
   "id": "d75030ec-82bd-42d7-9960-3ff2bbd21965",
-  "label": "TestUnit_1",
+  "label": "Entrance",
   "alias": [
     "Device-26"
   ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
-    "transformation_frame_id": "TestUnit_1"
+    "transformation_frame_id": "Control_Entrance",
+    "shape": {}
   },
   "scope": {
     "component": [
       "home",
       "control",
       "device",
-      "testunit_1"
+      "entrance"
     ]
   },
   "bound_to_unit_host": true,

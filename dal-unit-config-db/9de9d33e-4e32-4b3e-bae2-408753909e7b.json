@@ -1,7 +1,7 @@
 {
   "id": "9de9d33e-4e32-4b3e-bae2-408753909e7b",
   "unit_template_config_id": "Fibaro_FGMS-001_BATTERY_0",
-  "label": "TestUnit_1",
+  "label": "Entrance",
   "alias": [
     "Battery-33"
   ],
@@ -9,14 +9,14 @@
   "type": "BATTERY",
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
-    "transformation_frame_id": "Control_TestUnit_1"
+    "transformation_frame_id": "Control_Entrance"
   },
   "scope": {
     "component": [
       "home",
       "control",
       "battery",
-      "testunit_1"
+      "entrance"
     ]
   },
   "bound_to_unit_host": true,
@@ -28,7 +28,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Motion_Sensor__home_control__Battery__TestUnit_1__BatteryStateService"
+              "value": "Motion_Sensor__home_control__Battery__Entrance__BatteryStateService"
             }
           ]
         }

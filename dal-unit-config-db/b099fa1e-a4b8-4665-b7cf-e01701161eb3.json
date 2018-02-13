@@ -1,7 +1,7 @@
 {
   "id": "b099fa1e-a4b8-4665-b7cf-e01701161eb3",
   "unit_template_config_id": "Fibaro_FGMS-001_TAMPER_DETECTOR_0",
-  "label": "TestUnit_1",
+  "label": "Entrance",
   "alias": [
     "TamperDetector-13"
   ],
@@ -9,14 +9,14 @@
   "type": "TAMPER_DETECTOR",
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
-    "transformation_frame_id": "Control_TestUnit_1"
+    "transformation_frame_id": "Control_Entrance"
   },
   "scope": {
     "component": [
       "home",
       "control",
       "tamperdetector",
-      "testunit_1"
+      "entrance"
     ]
   },
   "bound_to_unit_host": true,
@@ -28,7 +28,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Motion_Sensor__home_control__TamperDetector__TestUnit_1__TamperStateService"
+              "value": "Motion_Sensor__home_control__TamperDetector__Entrance__TamperStateService"
             }
           ]
         }

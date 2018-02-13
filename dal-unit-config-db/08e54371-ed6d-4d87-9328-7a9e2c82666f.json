@@ -1,7 +1,7 @@
 {
   "id": "08e54371-ed6d-4d87-9328-7a9e2c82666f",
   "unit_template_config_id": "Fibaro_FGMS-001_TEMPERATURE_SENSOR_0",
-  "label": "TestUnit_1",
+  "label": "Entrance",
   "alias": [
     "TemperatureSensor-11"
   ],
@@ -9,14 +9,14 @@
   "type": "TEMPERATURE_SENSOR",
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
-    "transformation_frame_id": "Control_TestUnit_1"
+    "transformation_frame_id": "Control_Entrance"
   },
   "scope": {
     "component": [
       "home",
       "control",
       "temperaturesensor",
-      "testunit_1"
+      "entrance"
     ]
   },
   "bound_to_unit_host": true,
@@ -28,7 +28,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Motion_Sensor__home_control__TemperatureSensor__TestUnit_1__TemperatureStateService"
+              "value": "Motion_Sensor__home_control__TemperatureSensor__Entrance__TemperatureStateService"
             }
           ]
         }
@@ -48,7 +48,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Motion_Sensor__home_control__TemperatureSensor__TestUnit_1__TemperatureAlarmStateService"
+              "value": "Motion_Sensor__home_control__TemperatureSensor__Entrance__TemperatureAlarmStateService"
             }
           ]
         }
