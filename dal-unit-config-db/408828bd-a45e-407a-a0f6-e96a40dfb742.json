@@ -1,0 +1,39 @@
+{
+  "id": "408828bd-a45e-407a-a0f6-e96a40dfb742",
+  "label": "Moving Head",
+  "alias": [
+    "Object-4"
+  ],
+  "unit_host_id": "408828bd-a45e-407a-a0f6-e96a40dfb742",
+  "type": "OBJECT",
+  "placement_config": {
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "transformation_frame_id": "Moving_Head",
+    "position": {
+      "translation": {
+        "x": 2.53,
+        "y": 2.4,
+        "z": 0.63
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "object",
+      "moving_head"
+    ]
+  },
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}
