@@ -1,7 +1,7 @@
 {
   "id": "685b5740-5f56-4419-b838-d7be07307bfa",
   "unit_template_config_id": "Gira_429496730210000_BUTTON_3",
-  "label": "DiningLight",
+  "label": "AllOff Dining",
   "alias": [
     "Button-16"
   ],
@@ -9,7 +9,7 @@
   "type": "BUTTON",
   "placement_config": {
     "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
-    "transformation_frame_id": "DiningLight",
+    "transformation_frame_id": "AllOff_Dining",
     "shape": {}
   },
   "scope": {
@@ -18,7 +18,7 @@
       "living",
       "dining",
       "button",
-      "dininglight"
+      "alloff_dining"
     ]
   },
   "bound_to_unit_host": false,
@@ -30,11 +30,11 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_CONFIG",
-              "value": "2/0/22"
+              "value": "2/3/7"
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_5133__home_living_dining__Button__DiningLight__ButtonStateService"
+              "value": "Gira_5133__home_living_dining__Button__AllOff_Dining__ButtonStateService"
             }
           ]
         }
@@ -43,12 +43,20 @@
       "service_description": {
         "service_template_id": "1d50901a-5cc1-4595-9180-334c3f3317dc",
         "type": "BUTTON_STATE_SERVICE",
-        "pattern": "PROVIDER"
+        "pattern": "PROVIDER",
+        "meta_config": {}
       },
       "meta_config": {}
     }
   ],
-  "meta_config": {},
+  "meta_config": {
+    "entry": [
+      {
+        "key": "AUTO_RESET_BUTTON_STATE",
+        "value": "true"
+      }
+    ]
+  },
   "enabling_state": {
     "value": "ENABLED"
   }

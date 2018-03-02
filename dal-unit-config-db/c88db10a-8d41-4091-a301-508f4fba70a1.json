@@ -1,7 +1,7 @@
 {
   "id": "c88db10a-8d41-4091-a301-508f4fba70a1",
   "unit_template_config_id": "Gira_429496730210000_BUTTON_5",
-  "label": "ApartmentLight",
+  "label": "Default Apartment",
   "alias": [
     "Button-33"
   ],
@@ -9,7 +9,7 @@
   "type": "BUTTON",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-    "transformation_frame_id": "Wardrobe_ApartmentLight",
+    "transformation_frame_id": "Wardrobe_Default_Apartment",
     "shape": {}
   },
   "scope": {
@@ -17,7 +17,7 @@
       "home",
       "wardrobe",
       "button",
-      "apartmentlight"
+      "default_apartment"
     ]
   },
   "bound_to_unit_host": false,
@@ -29,11 +29,11 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_CONFIG",
-              "value": "5/0/5"
+              "value": "1/2/4"
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_5133__home_wardrobe__Button__ApartmentLight__ButtonStateService"
+              "value": "Gira_5133__home_wardrobe__Button__Default_Apartment__ButtonStateService"
             }
           ]
         }
@@ -42,12 +42,20 @@
       "service_description": {
         "service_template_id": "1d50901a-5cc1-4595-9180-334c3f3317dc",
         "type": "BUTTON_STATE_SERVICE",
-        "pattern": "PROVIDER"
+        "pattern": "PROVIDER",
+        "meta_config": {}
       },
       "meta_config": {}
     }
   ],
-  "meta_config": {},
+  "meta_config": {
+    "entry": [
+      {
+        "key": "AUTO_RESET_BUTTON_STATE",
+        "value": "true"
+      }
+    ]
+  },
   "enabling_state": {
     "value": "ENABLED"
   }

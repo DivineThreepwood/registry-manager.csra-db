@@ -1,7 +1,7 @@
 {
   "id": "335b96cd-b2a5-4066-8a20-1aae7bc60a18",
   "unit_template_config_id": "Gira_429496730210000_BUTTON_0",
-  "label": "RadioOn",
+  "label": "Default Kitchen",
   "alias": [
     "Button-6"
   ],
@@ -9,7 +9,7 @@
   "type": "BUTTON",
   "placement_config": {
     "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
-    "transformation_frame_id": "RadioOn",
+    "transformation_frame_id": "Default_Kitchen",
     "shape": {}
   },
   "scope": {
@@ -18,7 +18,7 @@
       "living",
       "dining",
       "button",
-      "radioon"
+      "default_kitchen"
     ]
   },
   "bound_to_unit_host": false,
@@ -30,11 +30,11 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_CONFIG",
-              "value": "0/0/6"
+              "value": "2/3/4"
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_5133__home_living_dining__Button__RadioOn__ButtonStateService"
+              "value": "Gira_5133__home_living_dining__Button__Default_Kitchen__ButtonStateService"
             }
           ]
         }
@@ -43,12 +43,20 @@
       "service_description": {
         "service_template_id": "1d50901a-5cc1-4595-9180-334c3f3317dc",
         "type": "BUTTON_STATE_SERVICE",
-        "pattern": "PROVIDER"
+        "pattern": "PROVIDER",
+        "meta_config": {}
       },
       "meta_config": {}
     }
   ],
-  "meta_config": {},
+  "meta_config": {
+    "entry": [
+      {
+        "key": "AUTO_RESET_BUTTON_STATE",
+        "value": "true"
+      }
+    ]
+  },
   "enabling_state": {
     "value": "ENABLED"
   }

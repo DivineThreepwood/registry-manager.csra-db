@@ -9,7 +9,7 @@
   "type": "BUTTON",
   "placement_config": {
     "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
-    "transformation_frame_id": "Button_2_",
+    "transformation_frame_id": "Button_2",
     "shape": {}
   },
   "scope": {
@@ -17,7 +17,7 @@
       "home",
       "bath",
       "button",
-      "button_2_"
+      "button_2"
     ]
   },
   "bound_to_unit_host": false,
@@ -33,7 +33,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_5142__home_bath__Button__Button_2___ButtonStateService"
+              "value": "Gira_5142__home_bath__Button__Button_2__ButtonStateService"
             }
           ]
         }

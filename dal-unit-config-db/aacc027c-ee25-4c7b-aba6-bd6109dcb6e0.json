@@ -1,7 +1,7 @@
 {
   "id": "aacc027c-ee25-4c7b-aba6-bd6109dcb6e0",
   "unit_template_config_id": "Gira_429496730210000_BUTTON_2",
-  "label": "PathwayBelowButton 3",
+  "label": "Default Robot Room",
   "alias": [
     "Button-53"
   ],
@@ -9,7 +9,7 @@
   "type": "BUTTON",
   "placement_config": {
     "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
-    "transformation_frame_id": "PathwayBelowButton_3",
+    "transformation_frame_id": "Default_Robot_Room",
     "shape": {}
   },
   "scope": {
@@ -17,7 +17,7 @@
       "home",
       "sports",
       "button",
-      "pathwaybelowbutton_3"
+      "default_robot_room"
     ]
   },
   "bound_to_unit_host": false,
@@ -29,11 +29,11 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_CONFIG",
-              "value": "4/0/15"
+              "value": "4/3/6"
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_5133__home_sports__Button__PathwayBelowButton_3__ButtonStateService"
+              "value": "Gira_5133__home_sports__Button__Default_Robot_Room__ButtonStateService"
             }
           ]
         }
@@ -42,12 +42,20 @@
       "service_description": {
         "service_template_id": "1d50901a-5cc1-4595-9180-334c3f3317dc",
         "type": "BUTTON_STATE_SERVICE",
-        "pattern": "PROVIDER"
+        "pattern": "PROVIDER",
+        "meta_config": {}
       },
       "meta_config": {}
     }
   ],
-  "meta_config": {},
+  "meta_config": {
+    "entry": [
+      {
+        "key": "AUTO_RESET_BUTTON_STATE",
+        "value": "true"
+      }
+    ]
+  },
   "enabling_state": {
     "value": "ENABLED"
   }

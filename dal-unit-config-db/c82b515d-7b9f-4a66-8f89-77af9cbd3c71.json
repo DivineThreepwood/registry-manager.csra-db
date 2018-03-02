@@ -1,7 +1,7 @@
 {
   "id": "c82b515d-7b9f-4a66-8f89-77af9cbd3c71",
   "unit_template_config_id": "Gira_429496730210000_BUTTON_5",
-  "label": "Kitchen Light Off",
+  "label": "AllOff Kitchen",
   "alias": [
     "Button-44"
   ],
@@ -9,7 +9,7 @@
   "type": "BUTTON",
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-    "transformation_frame_id": "Kitchen_Light_Off",
+    "transformation_frame_id": "AllOff_Kitchen",
     "shape": {}
   },
   "scope": {
@@ -17,7 +17,7 @@
       "home",
       "kitchen",
       "button",
-      "kitchen_light_off"
+      "alloff_kitchen"
     ]
   },
   "bound_to_unit_host": false,
@@ -29,11 +29,11 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_CONFIG",
-              "value": "0/0/6"
+              "value": "0/2/5"
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_5133__home_kitchen__Button__Kitchen_Light_Off__ButtonStateService"
+              "value": "Gira_5133__home_kitchen__Button__AllOff_Kitchen__ButtonStateService"
             }
           ]
         }
@@ -48,7 +48,14 @@
       "meta_config": {}
     }
   ],
-  "meta_config": {},
+  "meta_config": {
+    "entry": [
+      {
+        "key": "AUTO_RESET_BUTTON_STATE",
+        "value": "true"
+      }
+    ]
+  },
   "enabling_state": {
     "value": "ENABLED"
   }

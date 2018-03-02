@@ -1,20 +1,20 @@
 {
   "id": "71c8c69e-67d7-4d26-98dc-ab725940d092",
-  "label": "AllOff",
+  "label": "AllOff Apartment",
   "alias": [
     "Scene-17"
   ],
   "type": "SCENE",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
-    "transformation_frame_id": "AllOff",
+    "transformation_frame_id": "AllOff_Apartment",
     "shape": {}
   },
   "scope": {
     "component": [
       "home",
       "scene",
-      "alloff"
+      "alloff_apartment"
     ]
   },
   "service_config": [
