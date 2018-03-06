@@ -9,7 +9,7 @@
   "type": "BUTTON",
   "placement_config": {
     "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
-    "transformation_frame_id": "Button_4",
+    "transformation_frame_id": "Dining_Button_4",
     "shape": {}
   },
   "scope": {
@@ -21,7 +21,7 @@
       "button_4"
     ]
   },
-  "description": "Dining Light Off",
+  "description": "",
   "bound_to_unit_host": false,
   "service_config": [
     {
@@ -31,7 +31,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_CONFIG",
-              "value": "2/0/22"
+              "value": "2/3/3"
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
@@ -52,6 +52,6 @@
   ],
   "meta_config": {},
   "enabling_state": {
-    "value": "ENABLED"
+    "value": "DISABLED"
   }
 }

@@ -9,7 +9,8 @@
   "type": "BUTTON",
   "placement_config": {
     "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
-    "transformation_frame_id": "Sports_Button_1"
+    "transformation_frame_id": "Sports_Button_1",
+    "shape": {}
   },
   "scope": {
     "component": [
@@ -41,7 +42,8 @@
       "service_description": {
         "service_template_id": "1d50901a-5cc1-4595-9180-334c3f3317dc",
         "type": "BUTTON_STATE_SERVICE",
-        "pattern": "PROVIDER"
+        "pattern": "PROVIDER",
+        "meta_config": {}
       },
       "meta_config": {}
     }

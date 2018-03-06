@@ -21,7 +21,7 @@
       "button_3"
     ]
   },
-  "description": "Dining Light On",
+  "description": "",
   "bound_to_unit_host": false,
   "service_config": [
     {
@@ -31,7 +31,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_CONFIG",
-              "value": "2/0/22"
+              "value": "2/3/2"
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
@@ -52,6 +52,6 @@
   ],
   "meta_config": {},
   "enabling_state": {
-    "value": "ENABLED"
+    "value": "DISABLED"
   }
 }
