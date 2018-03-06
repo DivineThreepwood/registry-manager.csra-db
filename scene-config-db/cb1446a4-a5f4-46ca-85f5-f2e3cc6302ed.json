@@ -47,49 +47,63 @@
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState",
-        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 100.0,\"brightness\": 20.0}}}"
+        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 100.0,\"brightness\": 20.0}},\"timestamp\": {\"time\": 1520351514459000},\"responsible_action\": {\"transaction_id\": 546}}"
       },
       {
         "unit_id": "2ca45216-ac17-4086-9e6c-f2a656f8b28d",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState",
-        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 100.0,\"brightness\": 20.0}}}"
+        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 100.0,\"brightness\": 20.0}},\"timestamp\": {\"time\": 1520351514499000},\"responsible_action\": {\"transaction_id\": 298}}"
       },
       {
         "unit_id": "6a2501d7-f625-4eb6-b46e-6e4f5c6001be",
         "service_type": "BLIND_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.BlindStateType$BlindState",
-        "service_attribute": "{\"opening_ratio\": 100.0}"
+        "service_attribute": "{\"movement_state\": \"DOWN\",\"timestamp\": {\"time\": 1520351652187000},\"responsible_action\": {\"transaction_id\": 3968}}"
       },
       {
         "unit_id": "8f7b2513-4f33-4e8d-8b7e-eced4d54108c",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState",
-        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 100.0,\"brightness\": 20.0}}}"
+        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 100.0,\"brightness\": 20.0}},\"timestamp\": {\"time\": 1520351514556000},\"responsible_action\": {\"transaction_id\": 300}}"
+      },
+      {
+        "unit_id": "98acc701-87b9-4cf2-b79b-3eb6c166e2fe",
+        "service_type": "ACTIVATION_STATE_SERVICE",
+        "unit_type": "UNKNOWN",
+        "service_attribute_type": "rst.domotic.state.ActivationStateType$ActivationState",
+        "service_attribute": "{\"value\": \"DEACTIVE\",\"timestamp\": {\"time\": 1520350817271000},\"responsible_action\": {\"label\": \"\",\"description\": \"\",\"action_state\": {\"value\": \"INITIATING\"},\"action_chain\": [{\"action_id\": \"\",\"authority\": {},\"service_state_description\": {\"unit_id\": \"98acc701-87b9-4cf2-b79b-3eb6c166e2fe\",\"service_type\": \"ACTIVATION_STATE_SERVICE\",\"service_attribute_type\": \"rst.domotic.state.ActivationStateType$ActivationState\",\"service_attribute\": \"{\\\"value\\\": \\\"DEACTIVE\\\"}\"}}],\"service_state_description\": {\"unit_id\": \"98acc701-87b9-4cf2-b79b-3eb6c166e2fe\",\"service_type\": \"ACTIVATION_STATE_SERVICE\",\"service_attribute_type\": \"rst.domotic.state.ActivationStateType$ActivationState\",\"service_attribute\": \"{\\\"value\\\": \\\"DEACTIVE\\\"}\"},\"resource_allocation\": {\"id\": \"4303de62-7832-4ca6-98b4-ebeda6da0006\",\"state\": \"REQUESTED\",\"priority\": \"NORMAL\",\"initiator\": \"SYSTEM\",\"policy\": \"FIRST\",\"slot\": {\"begin\": {\"time\": 1520350306610000},\"end\": {\"time\": 1520350316610000}},\"resource_ids\": [\"/home/kitchen/app/partylighttilefollower/partylightfollower/\"]},\"execution_time_period\": 18446742553359245006,\"transaction_id\": 23}}"
       },
       {
         "unit_id": "fa3f910a-3c47-4691-a230-32e75909d371",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState",
-        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 100.0,\"brightness\": 20.0}}}"
+        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 100.0,\"brightness\": 20.0}},\"timestamp\": {\"time\": 1520351514605000},\"responsible_action\": {\"transaction_id\": 296}}"
       },
       {
         "unit_id": "584bdf80-a86a-41ae-b074-f543d90b5628",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState",
-        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 100.0,\"brightness\": 20.0}}}"
+        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 100.0,\"brightness\": 20.0}},\"timestamp\": {\"time\": 1520351514642000},\"responsible_action\": {\"transaction_id\": 299}}"
       },
       {
         "unit_id": "1e40044f-3b9f-4e5c-ae65-f7a37a462a92",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState",
-        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 100.0,\"brightness\": 20.0}}}"
+        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 100.0,\"brightness\": 20.0}},\"timestamp\": {\"time\": 1520351514703000},\"responsible_action\": {\"transaction_id\": 300}}"
+      },
+      {
+        "unit_id": "804542df-aebc-42cb-82ef-f03a97c96bf8",
+        "service_type": "POWER_STATE_SERVICE",
+        "unit_type": "UNKNOWN",
+        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
+        "service_attribute": "{\"value\": \"OFF\",\"timestamp\": {\"time\": 1520350822454000},\"responsible_action\": {\"transaction_id\": 100}}"
       }
     ]
   }

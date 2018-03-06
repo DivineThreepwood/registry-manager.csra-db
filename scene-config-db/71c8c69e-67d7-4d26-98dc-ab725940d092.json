@@ -55,14 +55,28 @@
         "service_type": "POWER_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
-        "service_attribute": "{\"value\": \"OFF\",\"timestamp\": {\"time\": 1520347592067000}}"
+        "service_attribute": "{\"value\": \"OFF\",\"timestamp\": {\"time\": 1520356777216000}}"
+      },
+      {
+        "unit_id": "6a2501d7-f625-4eb6-b46e-6e4f5c6001be",
+        "service_type": "BLIND_STATE_SERVICE",
+        "unit_type": "UNKNOWN",
+        "service_attribute_type": "rst.domotic.state.BlindStateType$BlindState",
+        "service_attribute": "{\"movement_state\": \"UP\",\"timestamp\": {\"time\": 1520356830871000},\"responsible_action\": {\"transaction_id\": 317}}"
+      },
+      {
+        "unit_id": "98acc701-87b9-4cf2-b79b-3eb6c166e2fe",
+        "service_type": "ACTIVATION_STATE_SERVICE",
+        "unit_type": "UNKNOWN",
+        "service_attribute_type": "rst.domotic.state.ActivationStateType$ActivationState",
+        "service_attribute": "{\"value\": \"DEACTIVE\",\"timestamp\": {\"time\": 1520356771919000},\"responsible_action\": {\"id\": \"2bc5fc9d-94d8-40bf-96ff-ebfbbf05df7d\",\"label\": \"PartyLightFollower[value: DEACTIVE]\",\"description\": \"Other changed ActivationStateService of unit PartyLightFollower to value: DEACTIVE\",\"action_state\": {\"value\": \"INITIATING\"},\"service_state_description\": {\"unit_id\": \"98acc701-87b9-4cf2-b79b-3eb6c166e2fe\",\"service_type\": \"ACTIVATION_STATE_SERVICE\",\"unit_type\": \"UNKNOWN\",\"service_attribute_type\": \"rst.domotic.state.ActivationStateType$ActivationState\",\"service_attribute\": \"{\\\"value\\\": \\\"DEACTIVE\\\"}\"},\"resource_allocation\": {\"id\": \"2bc5fc9d-94d8-40bf-96ff-ebfbbf05df7d\",\"state\": \"REQUESTED\",\"priority\": \"NORMAL\",\"initiator\": \"SYSTEM\",\"policy\": \"FIRST\",\"slot\": {\"begin\": {\"time\": 1520355256770000},\"end\": {\"time\": 1520355266770000}},\"resource_ids\": [\"/home/kitchen/app/partylighttilefollower/partylightfollower/\"]},\"execution_time_period\": 0,\"execution_validity\": {\"date_time_type\": \"FLOATING\",\"milliseconds_since_epoch\": 1520358856759},\"transaction_id\": 7}}"
       },
       {
         "unit_id": "804542df-aebc-42cb-82ef-f03a97c96bf8",
         "service_type": "POWER_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
-        "service_attribute": "{\"value\": \"OFF\",\"timestamp\": {\"time\": 1520347609963000},\"responsible_action\": {\"transaction_id\": 18}}"
+        "service_attribute": "{\"value\": \"OFF\",\"timestamp\": {\"time\": 1520356777210000},\"responsible_action\": {\"transaction_id\": 16}}"
       }
     ]
   }

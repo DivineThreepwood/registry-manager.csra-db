@@ -1,7 +1,7 @@
 {
   "id": "6a2501d7-f625-4eb6-b46e-6e4f5c6001be",
   "unit_template_config_id": "Hager_TYA628C_ROLLER_SHUTTER_3",
-  "label": "LeftOutside",
+  "label": "Outside",
   "alias": [
     "RollerShutter-3"
   ],
@@ -9,7 +9,7 @@
   "type": "ROLLER_SHUTTER",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "LeftOutside",
+    "transformation_frame_id": "Outside",
     "shape": {}
   },
   "scope": {
@@ -17,10 +17,10 @@
       "home",
       "living",
       "rollershutter",
-      "leftoutside"
+      "outside"
     ]
   },
-  "description": "The left outside rollershutter of the living room.",
+  "description": "The outside rollershutter of the living room.",
   "bound_to_unit_host": false,
   "service_config": [
     {
@@ -34,7 +34,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA628C__home_living__RollerShutter__LeftOutside__BlindStateService"
+              "value": "Hager_TYA628C__home_living__RollerShutter__Outside__BlindStateService"
             }
           ]
         }
@@ -43,7 +43,8 @@
       "service_description": {
         "service_template_id": "a2175895-7dcf-4d51-96aa-dcb01b47ed04",
         "type": "BLIND_STATE_SERVICE",
-        "pattern": "PROVIDER"
+        "pattern": "PROVIDER",
+        "meta_config": {}
       },
       "meta_config": {}
     },
@@ -58,7 +59,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA628C__home_living__RollerShutter__LeftOutside__BlindStateService"
+              "value": "Hager_TYA628C__home_living__RollerShutter__Outside__BlindStateService"
             }
           ]
         }
@@ -67,7 +68,8 @@
       "service_description": {
         "service_template_id": "a2175895-7dcf-4d51-96aa-dcb01b47ed04",
         "type": "BLIND_STATE_SERVICE",
-        "pattern": "OPERATION"
+        "pattern": "OPERATION",
+        "meta_config": {}
       },
       "meta_config": {}
     }

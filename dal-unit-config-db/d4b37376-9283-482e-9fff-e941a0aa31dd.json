@@ -1,7 +1,7 @@
 {
   "id": "d4b37376-9283-482e-9fff-e941a0aa31dd",
   "unit_template_config_id": "Hager_TYA628C_ROLLER_SHUTTER_7",
-  "label": "RightOutside",
+  "label": "Roller Shutter 4",
   "alias": [
     "RollerShutter-2"
   ],
@@ -9,7 +9,7 @@
   "type": "ROLLER_SHUTTER",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "RightOutside",
+    "transformation_frame_id": "Roller_Shutter_4",
     "shape": {}
   },
   "scope": {
@@ -17,10 +17,10 @@
       "home",
       "living",
       "rollershutter",
-      "rightoutside"
+      "roller_shutter_4"
     ]
   },
-  "description": "The right outside rollershutter of the living room.",
+  "description": "Not Connected",
   "bound_to_unit_host": false,
   "service_config": [
     {
@@ -34,7 +34,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA628C__home_living__RollerShutter__RightOutside__BlindStateService"
+              "value": "Hager_TYA628C__home_living__RollerShutter__Roller_Shutter_4__BlindStateService"
             }
           ]
         }
@@ -43,7 +43,8 @@
       "service_description": {
         "service_template_id": "a2175895-7dcf-4d51-96aa-dcb01b47ed04",
         "type": "BLIND_STATE_SERVICE",
-        "pattern": "PROVIDER"
+        "pattern": "PROVIDER",
+        "meta_config": {}
       },
       "meta_config": {}
     },
@@ -58,7 +59,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA628C__home_living__RollerShutter__RightOutside__BlindStateService"
+              "value": "Hager_TYA628C__home_living__RollerShutter__Roller_Shutter_4__BlindStateService"
             }
           ]
         }
@@ -67,7 +68,8 @@
       "service_description": {
         "service_template_id": "a2175895-7dcf-4d51-96aa-dcb01b47ed04",
         "type": "BLIND_STATE_SERVICE",
-        "pattern": "OPERATION"
+        "pattern": "OPERATION",
+        "meta_config": {}
       },
       "meta_config": {}
     }

@@ -56,7 +56,14 @@
         "service_type": "POWER_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
-        "service_attribute": "{\"value\": \"OFF\",\"timestamp\": {\"time\": 1519995360543000}}"
+        "service_attribute": "{\"value\": \"OFF\",\"timestamp\": {\"time\": 1520349825867000}}"
+      },
+      {
+        "unit_id": "804542df-aebc-42cb-82ef-f03a97c96bf8",
+        "service_type": "POWER_STATE_SERVICE",
+        "unit_type": "UNKNOWN",
+        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
+        "service_attribute": "{\"value\": \"OFF\",\"timestamp\": {\"time\": 1520348014608000},\"responsible_action\": {\"transaction_id\": 76}}"
       }
     ]
   }

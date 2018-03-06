@@ -1,7 +1,7 @@
 {
   "id": "aed87a02-7a77-49ff-b8f7-7e6db819c285",
   "unit_template_config_id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_SWITCH_0",
-  "label": "S3C1",
+  "label": "Worktop ",
   "alias": [
     "PowerSwitch-61"
   ],
@@ -9,7 +9,7 @@
   "type": "POWER_SWITCH",
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-    "transformation_frame_id": "Kitchen_S3C1",
+    "transformation_frame_id": "Worktop",
     "position": {
       "translation": {
         "x": 0.3183085702761178,
@@ -30,10 +30,10 @@
       "home",
       "kitchen",
       "powerswitch",
-      "s3c1"
+      "worktop"
     ]
   },
-  "description": "Kettle",
+  "description": "",
   "bound_to_unit_host": false,
   "service_config": [
     {
@@ -47,7 +47,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_1046__home_kitchen__PowerSwitch__S3C1__PowerStateService"
+              "value": "Gira_1046__home_kitchen__PowerSwitch__Worktop__PowerStateService"
             }
           ]
         }
@@ -71,7 +71,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_1046__home_kitchen__PowerSwitch__S3C1__PowerStateService"
+              "value": "Gira_1046__home_kitchen__PowerSwitch__Worktop__PowerStateService"
             }
           ]
         }

@@ -48,119 +48,133 @@
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState",
-        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 100.0,\"brightness\": 20.0}}}"
+        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 100.0,\"brightness\": 20.0}},\"timestamp\": {\"time\": 1520351463323000},\"responsible_action\": {\"transaction_id\": 541}}"
       },
       {
         "unit_id": "2ca45216-ac17-4086-9e6c-f2a656f8b28d",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState",
-        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 100.0,\"brightness\": 20.0}}}"
+        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 100.0,\"brightness\": 20.0}},\"timestamp\": {\"time\": 1520351463370000},\"responsible_action\": {\"transaction_id\": 293}}"
       },
       {
         "unit_id": "8d310f30-d60a-4627-8884-373c5e2dcbdd",
         "service_type": "POWER_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
-        "service_attribute": "{\"value\": \"OFF\"}"
+        "service_attribute": "{\"value\": \"OFF\",\"timestamp\": {\"time\": 1520351463396000},\"responsible_action\": {\"transaction_id\": 355}}"
       },
       {
         "unit_id": "48e43d6f-0015-40b3-895b-0ff33d4a74a4",
         "service_type": "POWER_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
-        "service_attribute": "{\"value\": \"OFF\"}"
+        "service_attribute": "{\"value\": \"OFF\",\"timestamp\": {\"time\": 1520351463412000},\"responsible_action\": {\"transaction_id\": 352}}"
       },
       {
         "unit_id": "8f7b2513-4f33-4e8d-8b7e-eced4d54108c",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState",
-        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 100.0,\"brightness\": 20.0}}}"
+        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 100.0,\"brightness\": 20.0}},\"timestamp\": {\"time\": 1520351463462000},\"responsible_action\": {\"transaction_id\": 295}}"
+      },
+      {
+        "unit_id": "98acc701-87b9-4cf2-b79b-3eb6c166e2fe",
+        "service_type": "ACTIVATION_STATE_SERVICE",
+        "unit_type": "UNKNOWN",
+        "service_attribute_type": "rst.domotic.state.ActivationStateType$ActivationState",
+        "service_attribute": "{\"value\": \"DEACTIVE\",\"timestamp\": {\"time\": 1520350817271000},\"responsible_action\": {\"label\": \"\",\"description\": \"\",\"action_state\": {\"value\": \"INITIATING\"},\"action_chain\": [{\"action_id\": \"\",\"authority\": {},\"service_state_description\": {\"unit_id\": \"98acc701-87b9-4cf2-b79b-3eb6c166e2fe\",\"service_type\": \"ACTIVATION_STATE_SERVICE\",\"service_attribute_type\": \"rst.domotic.state.ActivationStateType$ActivationState\",\"service_attribute\": \"{\\\"value\\\": \\\"DEACTIVE\\\"}\"}}],\"service_state_description\": {\"unit_id\": \"98acc701-87b9-4cf2-b79b-3eb6c166e2fe\",\"service_type\": \"ACTIVATION_STATE_SERVICE\",\"service_attribute_type\": \"rst.domotic.state.ActivationStateType$ActivationState\",\"service_attribute\": \"{\\\"value\\\": \\\"DEACTIVE\\\"}\"},\"resource_allocation\": {\"id\": \"4303de62-7832-4ca6-98b4-ebeda6da0006\",\"state\": \"REQUESTED\",\"priority\": \"NORMAL\",\"initiator\": \"SYSTEM\",\"policy\": \"FIRST\",\"slot\": {\"begin\": {\"time\": 1520350306610000},\"end\": {\"time\": 1520350316610000}},\"resource_ids\": [\"/home/kitchen/app/partylighttilefollower/partylightfollower/\"]},\"execution_time_period\": 18446742553359245006,\"transaction_id\": 23}}"
       },
       {
         "unit_id": "fa3f910a-3c47-4691-a230-32e75909d371",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState",
-        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 100.0,\"brightness\": 20.0}}}"
+        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 100.0,\"brightness\": 20.0}},\"timestamp\": {\"time\": 1520351463529000},\"responsible_action\": {\"transaction_id\": 291}}"
       },
       {
         "unit_id": "9c3561a1-e6ce-476e-9bff-0d35807d2607",
         "service_type": "POWER_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
-        "service_attribute": "{\"value\": \"OFF\"}"
+        "service_attribute": "{\"value\": \"OFF\",\"timestamp\": {\"time\": 1520351463565000},\"responsible_action\": {\"transaction_id\": 349}}"
       },
       {
         "unit_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState",
-        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 100.0,\"brightness\": 20.0}},\"timestamp\": {\"time\": 0}}"
+        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 100.0,\"brightness\": 20.0}},\"timestamp\": {\"time\": 1520351463639000}}"
       },
       {
         "unit_id": "66b5b93f-9f33-4d7d-8e61-5951a22f5483",
         "service_type": "POWER_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
-        "service_attribute": "{\"value\": \"OFF\"}"
+        "service_attribute": "{\"value\": \"OFF\",\"timestamp\": {\"time\": 1520351463681000},\"responsible_action\": {\"transaction_id\": 229}}"
       },
       {
         "unit_id": "96891f9d-e7f2-449d-9871-a2d317214295",
         "service_type": "POWER_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
-        "service_attribute": "{\"value\": \"OFF\"}"
+        "service_attribute": "{\"value\": \"OFF\",\"timestamp\": {\"time\": 1520351463713000},\"responsible_action\": {\"transaction_id\": 355}}"
       },
       {
         "unit_id": "2ca1b701-cfde-4570-83de-46610e6718fc",
         "service_type": "POWER_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
-        "service_attribute": "{\"value\": \"OFF\"}"
+        "service_attribute": "{\"value\": \"OFF\",\"timestamp\": {\"time\": 1520351463798000},\"responsible_action\": {\"transaction_id\": 336}}"
       },
       {
         "unit_id": "584bdf80-a86a-41ae-b074-f543d90b5628",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState",
-        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 100.0,\"brightness\": 20.0}}}"
+        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 100.0,\"brightness\": 20.0}},\"timestamp\": {\"time\": 1520351463845000},\"responsible_action\": {\"transaction_id\": 294}}"
       },
       {
         "unit_id": "cdfa87e9-1c07-40f7-9acc-9e349a81f619",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState",
-        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 80.0,\"brightness\": 100.0}}}"
+        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 80.0,\"brightness\": 100.0}},\"timestamp\": {\"time\": 1520351463949000},\"responsible_action\": {\"transaction_id\": 332}}"
       },
       {
         "unit_id": "1e40044f-3b9f-4e5c-ae65-f7a37a462a92",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState",
-        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 100.0,\"brightness\": 20.0}}}"
+        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 100.0,\"brightness\": 20.0}},\"timestamp\": {\"time\": 1520351464055000},\"responsible_action\": {\"transaction_id\": 295}}"
+      },
+      {
+        "unit_id": "804542df-aebc-42cb-82ef-f03a97c96bf8",
+        "service_type": "POWER_STATE_SERVICE",
+        "unit_type": "UNKNOWN",
+        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
+        "service_attribute": "{\"value\": \"OFF\",\"timestamp\": {\"time\": 1520350822454000},\"responsible_action\": {\"transaction_id\": 100}}"
       },
       {
         "unit_id": "e0ed255a-21c1-4293-9283-f0ddc3aa242a",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState",
-        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 80.0,\"brightness\": 100.0}}}"
+        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 80.0,\"brightness\": 100.0}},\"timestamp\": {\"time\": 1520351464181000},\"responsible_action\": {\"transaction_id\": 345}}"
       },
       {
         "unit_id": "34ca3b1a-417b-4c6c-bca0-3e8e77aacf9a",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState",
-        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 100.0,\"brightness\": 20.0}}}"
+        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 100.0,\"brightness\": 20.0}},\"timestamp\": {\"time\": 1520351464317000},\"responsible_action\": {\"transaction_id\": 290}}"
       },
       {
         "unit_id": "47e63f5a-ff30-4b0d-905a-815f94aa8b50",
         "service_type": "POWER_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
-        "service_attribute": "{\"value\": \"OFF\"}"
+        "service_attribute": "{\"value\": \"OFF\",\"timestamp\": {\"time\": 1520351464450000},\"responsible_action\": {\"transaction_id\": 340}}"
       }
     ]
   }
