@@ -7,13 +7,13 @@
   "unit_host_id": "76f0333a-b159-4ede-8043-b5a0a04075c9",
   "type": "OBJECT",
   "placement_config": {
-    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
     "transformation_frame_id": "Kettle",
     "position": {
       "translation": {
-        "x": -0.09907568153628799,
-        "y": 7.6962458114511305,
-        "z": 2.3438232207009384
+        "x": 0.18128504777357102,
+        "y": 0.9392644575019555,
+        "z": 1.0435345387747694
       },
       "rotation": {
         "qw": 1.0,
@@ -27,7 +27,7 @@
   "scope": {
     "component": [
       "home",
-      "living",
+      "kitchen",
       "object",
       "kettle"
     ]
