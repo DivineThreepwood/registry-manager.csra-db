@@ -1,19 +1,20 @@
 {
   "id": "7c5e6371-339f-4efb-bfef-29b171cface2",
-  "label": "asus1",
+  "label": "ASUS_90IW0122-B01UA_E3IWBDA34148",
   "alias": [
     "Device-124"
   ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
-    "transformation_frame_id": "asus1"
+    "transformation_frame_id": "ASUS_90IW0122-B01UA_E3IWBDA34148",
+    "shape": {}
   },
   "scope": {
     "component": [
       "home",
       "device",
-      "asus1"
+      "asus_90iw0122-b01ua_e3iwbda34148"
     ]
   },
   "bound_to_unit_host": true,

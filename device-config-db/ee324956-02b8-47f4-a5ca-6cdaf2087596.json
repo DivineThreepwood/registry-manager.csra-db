@@ -1,20 +1,20 @@
 {
   "id": "ee324956-02b8-47f4-a5ca-6cdaf2087596",
-  "label": "ee324956-02b8-47f4-a5ca-6cdaf2087596",
+  "label": "ASUS_90IW0122-B01UA_E3IWBDA33884",
   "alias": [
     "Device-45"
   ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
-    "transformation_frame_id": "ee324956-02b8-47f4-a5ca-6cdaf2087596",
+    "transformation_frame_id": "ASUS_90IW0122-B01UA_E3IWBDA33884",
     "shape": {}
   },
   "scope": {
     "component": [
       "home",
       "device",
-      "ee324956-02b8-47f4-a5ca-6cdaf2087596"
+      "asus_90iw0122-b01ua_e3iwbda33884"
     ]
   },
   "bound_to_unit_host": true,
@@ -25,12 +25,12 @@
   "device_config": {
     "serial_number": "E3IWBDA33884",
     "inventory_state": {
-      "value": "IN_STOCK",
+      "value": "BORROWED",
       "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
       "timestamp": {
-        "time": 1497443777485000
+        "time": 1521541643972000
       },
-      "owner_id": "cad3d333-7aaf-4ebc-835b-5ab7cb539d4f"
+      "owner_id": "bb0ad996-407a-44c2-9c89-2c9ac22fa67c"
     },
     "device_class_id": "3069a4e2-25c9-4873-bee2-43df7a77e44c",
     "unit_id": [

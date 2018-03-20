@@ -1,20 +1,20 @@
 {
   "id": "d56ea74f-4c40-40f8-88fd-ff97234454a4",
-  "label": "d56ea74f-4c40-40f8-88fd-ff97234454a4",
+  "label": "ASUS_90IW0122-B01UA_E3IWBDA33553",
   "alias": [
     "Device-35"
   ],
   "type": "DEVICE",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
-    "transformation_frame_id": "d56ea74f-4c40-40f8-88fd-ff97234454a4",
+    "transformation_frame_id": "ASUS_90IW0122-B01UA_E3IWBDA33553",
     "shape": {}
   },
   "scope": {
     "component": [
       "home",
       "device",
-      "d56ea74f-4c40-40f8-88fd-ff97234454a4"
+      "asus_90iw0122-b01ua_e3iwbda33553"
     ]
   },
   "bound_to_unit_host": true,
