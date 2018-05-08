@@ -3,7 +3,8 @@
   "unit_template_config_id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_CONSUMPTION_SENSOR_1",
   "label": "S3 A2",
   "alias": [
-    "PowerConsumptionSensor-52"
+    "PowerConsumptionSensor-52",
+    "KettlePowerConsumptionSensor"
   ],
   "unit_host_id": "64da2fb2-aca7-4791-a5c1-e389a7361c05",
   "type": "POWER_CONSUMPTION_SENSOR",
@@ -20,6 +21,7 @@
       "s3_a2"
     ]
   },
+  "description": "Kettle and Coffee Machine",
   "bound_to_unit_host": false,
   "service_config": [
     {

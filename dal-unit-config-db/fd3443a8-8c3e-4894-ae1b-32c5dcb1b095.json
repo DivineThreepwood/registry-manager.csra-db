@@ -8,13 +8,13 @@
   "unit_host_id": "d7f45b8f-f3b3-4d1a-b107-3231b4b33f3b",
   "type": "DIMMER",
   "placement_config": {
-    "location_id": "dae2ee74-5748-46bb-a95a-1054ce40ea0a",
+    "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
     "transformation_frame_id": "RightDimmer",
     "position": {
       "translation": {
-        "x": 0.17307398200304736,
-        "y": 1.389720767173709,
-        "z": 3.140314338522943
+        "x": 0.7598140642329048,
+        "y": 1.7542795493676726,
+        "z": 3.327846667795466
       },
       "rotation": {
         "qw": 1.0,
@@ -29,7 +29,6 @@
     "component": [
       "home",
       "sports",
-      "interaction",
       "dimmer",
       "rightdimmer"
     ]
@@ -47,7 +46,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__home_sports_interaction__Dimmer__RightDimmer__BrightnessStateService"
+              "value": "Hager_TYA663A__home_sports__Dimmer__RightDimmer__BrightnessStateService"
             }
           ]
         }
@@ -72,7 +71,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__home_sports_interaction__Dimmer__RightDimmer__BrightnessStateService"
+              "value": "Hager_TYA663A__home_sports__Dimmer__RightDimmer__BrightnessStateService"
             }
           ]
         }
@@ -97,7 +96,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__home_sports_interaction__Dimmer__RightDimmer__PowerStateService"
+              "value": "Hager_TYA663A__home_sports__Dimmer__RightDimmer__PowerStateService"
             }
           ]
         }
@@ -122,7 +121,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__home_sports_interaction__Dimmer__RightDimmer__PowerStateService"
+              "value": "Hager_TYA663A__home_sports__Dimmer__RightDimmer__PowerStateService"
             }
           ]
         }

@@ -1,0 +1,56 @@
+{
+  "id": "e0979cf3-ab66-4cc5-9128-6e01aff3aba4",
+  "label": "NightLight",
+  "alias": [
+    "App-4"
+  ],
+  "type": "APP",
+  "placement_config": {
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+    "transformation_frame_id": "NightLight",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "app",
+      "nightlight",
+      "nightlight"
+    ]
+  },
+  "service_config": [
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "e0979cf3-ab66-4cc5-9128-6e01aff3aba4",
+      "service_description": {
+        "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
+        "type": "ACTIVATION_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "e0979cf3-ab66-4cc5-9128-6e01aff3aba4",
+      "service_description": {
+        "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
+        "type": "ACTIVATION_STATE_SERVICE",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "app_config": {
+    "app_class_id": "32f56f9d-4197-4d97-9b73-5a35e9492b52",
+    "autostart": false
+  }
+}

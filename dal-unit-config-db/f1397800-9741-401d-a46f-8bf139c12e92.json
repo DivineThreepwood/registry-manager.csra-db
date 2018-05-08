@@ -3,7 +3,8 @@
   "unit_template_config_id": "Philips_KV01-18U_COLORABLE_LIGHT_0",
   "label": "TestUnit_0",
   "alias": [
-    "ColorableLight-7"
+    "ColorableLight-7",
+    "WaterNotifierLight"
   ],
   "unit_host_id": "e8f600ad-2443-4c19-85e0-fcb341e8f63d",
   "type": "COLORABLE_LIGHT",
