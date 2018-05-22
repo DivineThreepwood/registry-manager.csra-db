@@ -10,6 +10,19 @@
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
     "transformation_frame_id": "Outside",
+    "position": {
+      "translation": {
+        "x": 2.188907090428765,
+        "y": -0.5762701146871407,
+        "z": 1.4202217423626928
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
     "shape": {}
   },
   "scope": {
