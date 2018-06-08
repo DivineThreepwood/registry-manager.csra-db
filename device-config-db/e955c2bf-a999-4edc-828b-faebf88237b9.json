@@ -7,7 +7,7 @@
   "type": "DEVICE",
   "placement_config": {
     "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
-    "transformation_frame_id": "Entrance"
+    "transformation_frame_id": "Bath_Entrance"
   },
   "scope": {
     "component": [

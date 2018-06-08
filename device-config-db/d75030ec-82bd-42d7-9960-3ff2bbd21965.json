@@ -7,7 +7,7 @@
   "type": "DEVICE",
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
-    "transformation_frame_id": "Control_Entrance",
+    "transformation_frame_id": "Entrance",
     "shape": {}
   },
   "scope": {
