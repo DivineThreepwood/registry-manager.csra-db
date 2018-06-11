@@ -13,6 +13,8 @@
   },
   "scope": {
     "component": [
+      "citec",
+      "csra",
       "home",
       "audiosource",
       "asus_90iw0122-b01ua_e3iwbda33884"

@@ -9,7 +9,7 @@
   "type": "VIDEO_DEPTH_SOURCE",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-    "transformation_frame_id": "Wardrobe_ASUS_90IW0122-B01UA_E3IWBDA33551",
+    "transformation_frame_id": "Hallway_ASUS_90IW0122-B01UA_E3IWBDA33551",
     "position": {
       "translation": {
         "x": 0.62,
@@ -26,8 +26,10 @@
   },
   "scope": {
     "component": [
+      "citec",
+      "csra",
       "home",
-      "wardrobe",
+      "hallway",
       "videodepthsource",
       "asus_90iw0122-b01ua_e3iwbda33551"
     ]

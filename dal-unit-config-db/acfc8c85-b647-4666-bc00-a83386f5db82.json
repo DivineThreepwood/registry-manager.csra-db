@@ -14,6 +14,8 @@
   },
   "scope": {
     "component": [
+      "citec",
+      "csra",
       "home",
       "bath",
       "dimmer",
@@ -33,7 +35,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__home_bath__Dimmer__Dimmer__BrightnessStateService"
+              "value": "Hager_TYA663A__citec_csra_home_bath__Dimmer__Dimmer__BrightnessStateService"
             }
           ]
         }
@@ -58,7 +60,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__home_bath__Dimmer__Dimmer__BrightnessStateService"
+              "value": "Hager_TYA663A__citec_csra_home_bath__Dimmer__Dimmer__BrightnessStateService"
             }
           ]
         }
@@ -83,7 +85,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__home_bath__Dimmer__Dimmer__PowerStateService"
+              "value": "Hager_TYA663A__citec_csra_home_bath__Dimmer__Dimmer__PowerStateService"
             }
           ]
         }
@@ -108,7 +110,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__home_bath__Dimmer__Dimmer__PowerStateService"
+              "value": "Hager_TYA663A__citec_csra_home_bath__Dimmer__Dimmer__PowerStateService"
             }
           ]
         }

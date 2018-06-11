@@ -12,6 +12,8 @@
   },
   "scope": {
     "component": [
+      "citec",
+      "csra",
       "home",
       "device",
       "asus_90iw0122-b01ua_e3iwbda33553"

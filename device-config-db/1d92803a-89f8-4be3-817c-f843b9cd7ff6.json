@@ -12,7 +12,8 @@
   },
   "scope": {
     "component": [
-      "home",
+      "citec",
+      "csra",
       "control",
       "device",
       "leftwindowreedswitch"

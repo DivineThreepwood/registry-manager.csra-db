@@ -14,6 +14,8 @@
   },
   "scope": {
     "component": [
+      "citec",
+      "csra",
       "home",
       "living",
       "rollershutter",
@@ -34,7 +36,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA628C__home_living__RollerShutter__RightInside__BlindStateService"
+              "value": "Hager_TYA628C__citec_csra_home_living__RollerShutter__RightInside__BlindStateService"
             }
           ]
         }
@@ -58,7 +60,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA628C__home_living__RollerShutter__RightInside__BlindStateService"
+              "value": "Hager_TYA628C__citec_csra_home_living__RollerShutter__RightInside__BlindStateService"
             }
           ]
         }

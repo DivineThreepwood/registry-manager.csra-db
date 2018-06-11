@@ -14,7 +14,8 @@
   },
   "scope": {
     "component": [
-      "home",
+      "citec",
+      "csra",
       "control",
       "powerswitch",
       "s2_c7"
@@ -29,7 +30,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_1046__home_control__PowerSwitch__S2_C7__PowerStateService"
+              "value": "Gira_1046__citec_csra_control__PowerSwitch__S2_C7__PowerStateService"
             }
           ]
         }
@@ -48,12 +49,12 @@
         "meta_config": {
           "entry": [
             {
-              "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_1046__home_control__PowerSwitch__S2_C7__PowerStateService"
-            },
-            {
               "key": "OPENHAB_BINDING_CONFIG",
               "value": "5/1/30+5/1/38"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_1046__citec_csra_control__PowerSwitch__S2_C7__PowerStateService"
             }
           ]
         }

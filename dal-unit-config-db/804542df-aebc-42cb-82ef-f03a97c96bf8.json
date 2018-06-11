@@ -27,6 +27,8 @@
   },
   "scope": {
     "component": [
+      "citec",
+      "csra",
       "home",
       "living",
       "powerswitch",
@@ -43,7 +45,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_1046__home_living__PowerSwitch__BeleuchtungZwischendecke__PowerStateService"
+              "value": "Gira_1046__citec_csra_home_living__PowerSwitch__BeleuchtungZwischendecke__PowerStateService"
             }
           ]
         }
@@ -67,7 +69,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_1046__home_living__PowerSwitch__BeleuchtungZwischendecke__PowerStateService"
+              "value": "Gira_1046__citec_csra_home_living__PowerSwitch__BeleuchtungZwischendecke__PowerStateService"
             }
           ]
         }

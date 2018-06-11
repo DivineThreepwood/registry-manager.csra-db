@@ -9,7 +9,7 @@
   "type": "AUDIO_SOURCE",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-    "transformation_frame_id": "Wardrobe_ASUS_90IW0122-B01UA_E3IWBDA34151",
+    "transformation_frame_id": "Hallway_ASUS_90IW0122-B01UA_E3IWBDA34151",
     "position": {
       "translation": {
         "x": 0.69,
@@ -26,8 +26,10 @@
   },
   "scope": {
     "component": [
+      "citec",
+      "csra",
       "home",
-      "wardrobe",
+      "hallway",
       "audiosource",
       "asus_90iw0122-b01ua_e3iwbda34151"
     ]

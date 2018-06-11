@@ -14,7 +14,8 @@
   },
   "scope": {
     "component": [
-      "home",
+      "citec",
+      "csra",
       "control",
       "powerconsumptionsensor",
       "s6_c1_consumption"
@@ -28,12 +29,12 @@
         "meta_config": {
           "entry": [
             {
-              "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_1046__home_control__PowerConsumptionSensor__S6_C1_Consumption__PowerConsumptionStateService"
-            },
-            {
               "key": "OPENHAB_BINDING_CONFIG",
               "value": "5/1/137"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_1046__citec_csra_control__PowerConsumptionSensor__S6_C1_Consumption__PowerConsumptionStateService"
             }
           ]
         }

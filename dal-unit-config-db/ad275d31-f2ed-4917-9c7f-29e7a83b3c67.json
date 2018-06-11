@@ -14,6 +14,8 @@
   },
   "scope": {
     "component": [
+      "citec",
+      "csra",
       "home",
       "bath",
       "powerswitch",
@@ -30,7 +32,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_1046__home_bath__PowerSwitch__S8_C7__PowerStateService"
+              "value": "Gira_1046__citec_csra_home_bath__PowerSwitch__S8_C7__PowerStateService"
             }
           ]
         }
@@ -54,7 +56,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_1046__home_bath__PowerSwitch__S8_C7__PowerStateService"
+              "value": "Gira_1046__citec_csra_home_bath__PowerSwitch__S8_C7__PowerStateService"
             }
           ]
         }

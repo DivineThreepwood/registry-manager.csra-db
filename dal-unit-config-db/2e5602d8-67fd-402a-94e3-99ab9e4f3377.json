@@ -14,6 +14,8 @@
   },
   "scope": {
     "component": [
+      "citec",
+      "csra",
       "home",
       "kitchen",
       "tamperdetector",
@@ -29,7 +31,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Motion_Sensor__home_kitchen__TamperDetector__Global__TamperStateService"
+              "value": "Motion_Sensor__citec_csra_home_kitchen__TamperDetector__Global__TamperStateService"
             }
           ]
         }

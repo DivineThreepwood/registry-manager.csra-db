@@ -14,6 +14,8 @@
   },
   "scope": {
     "component": [
+      "citec",
+      "csra",
       "home",
       "bath",
       "button",
@@ -33,7 +35,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_5142__home_bath__Button__Button_2__ButtonStateService"
+              "value": "Gira_5142__citec_csra_home_bath__Button__Button_2__ButtonStateService"
             }
           ]
         }

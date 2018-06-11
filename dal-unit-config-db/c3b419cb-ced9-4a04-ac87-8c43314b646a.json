@@ -13,6 +13,8 @@
   },
   "scope": {
     "component": [
+      "citec",
+      "csra",
       "home",
       "living",
       "battery",
@@ -28,7 +30,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Homematic_Sec_RHS__home_living__Battery__LeftWindowHandleSensor__BatteryStateService"
+              "value": "Homematic_Sec_RHS__citec_csra_home_living__Battery__LeftWindowHandleSensor__BatteryStateService"
             }
           ]
         }

@@ -9,12 +9,14 @@
   "type": "MOTION_DETECTOR",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-    "transformation_frame_id": "Wardrobe_Hallway"
+    "transformation_frame_id": "Hallway_Hallway"
   },
   "scope": {
     "component": [
+      "citec",
+      "csra",
       "home",
-      "wardrobe",
+      "hallway",
       "motiondetector",
       "hallway"
     ]
@@ -28,7 +30,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Motion_Sensor__home_wardrobe__MotionDetector__Hallway__MotionStateService"
+              "value": "Motion_Sensor__citec_csra_home_hallway__MotionDetector__Hallway__MotionStateService"
             }
           ]
         }

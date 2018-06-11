@@ -7,13 +7,15 @@
   "type": "DEVICE",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-    "transformation_frame_id": "Wardrobe_EntranceButtons",
+    "transformation_frame_id": "Hallway_EntranceButtons",
     "shape": {}
   },
   "scope": {
     "component": [
+      "citec",
+      "csra",
       "home",
-      "wardrobe",
+      "hallway",
       "device",
       "entrancebuttons"
     ]

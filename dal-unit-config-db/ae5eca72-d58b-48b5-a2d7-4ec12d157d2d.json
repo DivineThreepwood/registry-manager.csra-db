@@ -13,7 +13,8 @@
   },
   "scope": {
     "component": [
-      "home",
+      "citec",
+      "csra",
       "control",
       "battery",
       "controldoorreedswitch"
@@ -28,7 +29,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Homematic_Sec_SC_2__home_control__Battery__ControlDoorReedSwitch__BatteryStateService"
+              "value": "Homematic_Sec_SC_2__citec_csra_control__Battery__ControlDoorReedSwitch__BatteryStateService"
             }
           ]
         }

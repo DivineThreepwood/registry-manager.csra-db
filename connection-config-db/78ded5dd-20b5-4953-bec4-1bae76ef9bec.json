@@ -58,6 +58,8 @@
   },
   "scope": {
     "component": [
+      "citec",
+      "csra",
       "home",
       "connection",
       "living_to_sports_door"

@@ -13,6 +13,8 @@
   },
   "scope": {
     "component": [
+      "citec",
+      "csra",
       "home",
       "bath",
       "colorablelight",
@@ -28,7 +30,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_GU10__home_bath__ColorableLight__Global_3__BrightnessStateService"
+              "value": "Philips_Hue_GU10__citec_csra_home_bath__ColorableLight__Global_3__BrightnessStateService"
             }
           ]
         }
@@ -48,7 +50,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_GU10__home_bath__ColorableLight__Global_3__BrightnessStateService"
+              "value": "Philips_Hue_GU10__citec_csra_home_bath__ColorableLight__Global_3__BrightnessStateService"
             }
           ]
         }
@@ -68,7 +70,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_GU10__home_bath__ColorableLight__Global_3__ColorStateService"
+              "value": "Philips_Hue_GU10__citec_csra_home_bath__ColorableLight__Global_3__ColorStateService"
             }
           ]
         }
@@ -88,7 +90,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_GU10__home_bath__ColorableLight__Global_3__ColorStateService"
+              "value": "Philips_Hue_GU10__citec_csra_home_bath__ColorableLight__Global_3__ColorStateService"
             }
           ]
         }
@@ -108,7 +110,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_GU10__home_bath__ColorableLight__Global_3__PowerStateService"
+              "value": "Philips_Hue_GU10__citec_csra_home_bath__ColorableLight__Global_3__PowerStateService"
             }
           ]
         }
@@ -128,7 +130,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_GU10__home_bath__ColorableLight__Global_3__PowerStateService"
+              "value": "Philips_Hue_GU10__citec_csra_home_bath__ColorableLight__Global_3__PowerStateService"
             }
           ]
         }

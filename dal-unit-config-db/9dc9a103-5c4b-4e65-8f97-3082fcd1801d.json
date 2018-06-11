@@ -27,6 +27,8 @@
   },
   "scope": {
     "component": [
+      "citec",
+      "csra",
       "home",
       "bath",
       "colorablelight",
@@ -42,7 +44,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__home_bath__ColorableLight__SLamp1__BrightnessStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_bath__ColorableLight__SLamp1__BrightnessStateService"
             }
           ]
         }
@@ -62,7 +64,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__home_bath__ColorableLight__SLamp1__BrightnessStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_bath__ColorableLight__SLamp1__BrightnessStateService"
             }
           ]
         }
@@ -82,7 +84,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__home_bath__ColorableLight__SLamp1__ColorStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_bath__ColorableLight__SLamp1__ColorStateService"
             }
           ]
         }
@@ -102,7 +104,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__home_bath__ColorableLight__SLamp1__ColorStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_bath__ColorableLight__SLamp1__ColorStateService"
             }
           ]
         }
@@ -122,7 +124,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__home_bath__ColorableLight__SLamp1__PowerStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_bath__ColorableLight__SLamp1__PowerStateService"
             }
           ]
         }
@@ -142,7 +144,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__home_bath__ColorableLight__SLamp1__PowerStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_bath__ColorableLight__SLamp1__PowerStateService"
             }
           ]
         }

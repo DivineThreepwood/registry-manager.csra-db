@@ -12,7 +12,8 @@
   },
   "scope": {
     "component": [
-      "home",
+      "citec",
+      "csra",
       "control",
       "device",
       "hager_tya628c_397290922010000"

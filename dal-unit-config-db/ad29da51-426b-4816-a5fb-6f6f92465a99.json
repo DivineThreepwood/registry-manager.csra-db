@@ -13,7 +13,7 @@
   },
   "scope": {
     "component": [
-      "home",
+      "citec",
       "outdoor",
       "lightsensor",
       "entrance"
@@ -28,7 +28,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Motion_Sensor__home_outdoor__LightSensor__Entrance__IlluminanceStateService"
+              "value": "Motion_Sensor__citec_outdoor__LightSensor__Entrance__IlluminanceStateService"
             }
           ]
         }

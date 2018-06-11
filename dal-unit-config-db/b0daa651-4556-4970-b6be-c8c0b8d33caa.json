@@ -13,8 +13,10 @@
   },
   "scope": {
     "component": [
+      "citec",
+      "csra",
       "home",
-      "wardrobe",
+      "hallway",
       "dimmer",
       "pathwaydimmer"
     ]
@@ -32,7 +34,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__home_wardrobe__Dimmer__PathwayDimmer__BrightnessStateService"
+              "value": "Hager_TYA663A__citec_csra_home_hallway__Dimmer__PathwayDimmer__BrightnessStateService"
             }
           ]
         }
@@ -56,7 +58,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__home_wardrobe__Dimmer__PathwayDimmer__BrightnessStateService"
+              "value": "Hager_TYA663A__citec_csra_home_hallway__Dimmer__PathwayDimmer__BrightnessStateService"
             }
           ]
         }
@@ -80,7 +82,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__home_wardrobe__Dimmer__PathwayDimmer__PowerStateService"
+              "value": "Hager_TYA663A__citec_csra_home_hallway__Dimmer__PathwayDimmer__PowerStateService"
             }
           ]
         }
@@ -104,7 +106,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__home_wardrobe__Dimmer__PathwayDimmer__PowerStateService"
+              "value": "Hager_TYA663A__citec_csra_home_hallway__Dimmer__PathwayDimmer__PowerStateService"
             }
           ]
         }

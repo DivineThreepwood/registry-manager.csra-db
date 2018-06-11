@@ -13,6 +13,8 @@
   },
   "scope": {
     "component": [
+      "citec",
+      "csra",
       "home",
       "living",
       "lightsensor",
@@ -28,7 +30,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Motion_Sensor__home_living__LightSensor__Couch__IlluminanceStateService"
+              "value": "Motion_Sensor__citec_csra_home_living__LightSensor__Couch__IlluminanceStateService"
             }
           ]
         }

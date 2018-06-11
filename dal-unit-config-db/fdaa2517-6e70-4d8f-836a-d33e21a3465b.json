@@ -13,6 +13,8 @@
   },
   "scope": {
     "component": [
+      "citec",
+      "csra",
       "home",
       "living",
       "dining",
@@ -33,7 +35,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_5142__home_living_dining__TemperatureController__TemperatureControllerLiving__TemperatureStateService"
+              "value": "Gira_5142__citec_csra_home_living_dining__TemperatureController__TemperatureControllerLiving__TemperatureStateService"
             }
           ]
         }
@@ -57,7 +59,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_5142__home_living_dining__TemperatureController__TemperatureControllerLiving__TargetTemperatureStateService"
+              "value": "Gira_5142__citec_csra_home_living_dining__TemperatureController__TemperatureControllerLiving__TargetTemperatureStateService"
             }
           ]
         }
@@ -85,7 +87,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_5142__home_living_dining__TemperatureController__TemperatureControllerLiving__TargetTemperatureStateService"
+              "value": "Gira_5142__citec_csra_home_living_dining__TemperatureController__TemperatureControllerLiving__TargetTemperatureStateService"
             }
           ]
         }

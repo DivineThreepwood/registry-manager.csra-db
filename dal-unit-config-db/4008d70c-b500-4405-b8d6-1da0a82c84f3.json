@@ -14,7 +14,8 @@
   },
   "scope": {
     "component": [
-      "home",
+      "citec",
+      "csra",
       "control",
       "powerconsumptionsensor",
       "s3_c3_consumption"
@@ -33,7 +34,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_1046__home_control__PowerConsumptionSensor__S3_C3_Consumption__PowerConsumptionStateService"
+              "value": "Gira_1046__citec_csra_control__PowerConsumptionSensor__S3_C3_Consumption__PowerConsumptionStateService"
             }
           ]
         }

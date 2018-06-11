@@ -9,13 +9,15 @@
   "type": "REED_CONTACT",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-    "transformation_frame_id": "Wardrobe_EntranceDoorReedSwitch",
+    "transformation_frame_id": "Hallway_EntranceDoorReedSwitch",
     "shape": {}
   },
   "scope": {
     "component": [
+      "citec",
+      "csra",
       "home",
-      "wardrobe",
+      "hallway",
       "reedcontact",
       "entrancedoorreedswitch"
     ]
@@ -29,7 +31,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Homematic_Sec_SC_2__home_wardrobe__ReedContact__EntranceDoorReedSwitch__ContactStateService"
+              "value": "Homematic_Sec_SC_2__citec_csra_home_hallway__ReedContact__EntranceDoorReedSwitch__ContactStateService"
             }
           ]
         }

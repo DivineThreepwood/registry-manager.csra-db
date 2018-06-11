@@ -14,6 +14,8 @@
   },
   "scope": {
     "component": [
+      "citec",
+      "csra",
       "home",
       "living",
       "dining",
@@ -34,7 +36,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_5133__home_living_dining__Button__Default_Lounge__ButtonStateService"
+              "value": "Gira_5133__citec_csra_home_living_dining__Button__Default_Lounge__ButtonStateService"
             }
           ]
         }

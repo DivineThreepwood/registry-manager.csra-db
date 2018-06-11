@@ -13,6 +13,8 @@
   },
   "scope": {
     "component": [
+      "citec",
+      "csra",
       "home",
       "kitchen",
       "colorablelight",
@@ -28,7 +30,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_GU10__home_kitchen__ColorableLight__CeilingLamp_1__BrightnessStateService"
+              "value": "Philips_Hue_GU10__citec_csra_home_kitchen__ColorableLight__CeilingLamp_1__BrightnessStateService"
             }
           ]
         }
@@ -48,7 +50,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_GU10__home_kitchen__ColorableLight__CeilingLamp_1__BrightnessStateService"
+              "value": "Philips_Hue_GU10__citec_csra_home_kitchen__ColorableLight__CeilingLamp_1__BrightnessStateService"
             }
           ]
         }
@@ -68,7 +70,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_GU10__home_kitchen__ColorableLight__CeilingLamp_1__ColorStateService"
+              "value": "Philips_Hue_GU10__citec_csra_home_kitchen__ColorableLight__CeilingLamp_1__ColorStateService"
             }
           ]
         }
@@ -88,7 +90,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_GU10__home_kitchen__ColorableLight__CeilingLamp_1__ColorStateService"
+              "value": "Philips_Hue_GU10__citec_csra_home_kitchen__ColorableLight__CeilingLamp_1__ColorStateService"
             }
           ]
         }
@@ -108,7 +110,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_GU10__home_kitchen__ColorableLight__CeilingLamp_1__PowerStateService"
+              "value": "Philips_Hue_GU10__citec_csra_home_kitchen__ColorableLight__CeilingLamp_1__PowerStateService"
             }
           ]
         }
@@ -128,7 +130,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_GU10__home_kitchen__ColorableLight__CeilingLamp_1__PowerStateService"
+              "value": "Philips_Hue_GU10__citec_csra_home_kitchen__ColorableLight__CeilingLamp_1__PowerStateService"
             }
           ]
         }

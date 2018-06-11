@@ -14,7 +14,8 @@
   },
   "scope": {
     "component": [
-      "home",
+      "citec",
+      "csra",
       "control",
       "reedcontact",
       "controldoorreedswitch"
@@ -29,7 +30,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Homematic_Sec_SC_2__home_control__ReedContact__ControlDoorReedSwitch__ContactStateService"
+              "value": "Homematic_Sec_SC_2__citec_csra_control__ReedContact__ControlDoorReedSwitch__ContactStateService"
             }
           ]
         }

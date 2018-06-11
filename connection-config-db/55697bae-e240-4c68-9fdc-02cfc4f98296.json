@@ -58,6 +58,8 @@
   },
   "scope": {
     "component": [
+      "citec",
+      "csra",
       "home",
       "connection",
       "wardrobe_passage"

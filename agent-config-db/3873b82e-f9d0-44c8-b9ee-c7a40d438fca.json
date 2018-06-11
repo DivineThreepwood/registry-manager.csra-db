@@ -12,6 +12,8 @@
   },
   "scope": {
     "component": [
+      "citec",
+      "csra",
       "home",
       "agent",
       "powerstatesynchroniser",

@@ -12,8 +12,10 @@
   },
   "scope": {
     "component": [
+      "citec",
+      "csra",
       "home",
-      "wardrobe",
+      "hallway",
       "agent",
       "absenceenergysaving",
       "wardrobeenergysaving"

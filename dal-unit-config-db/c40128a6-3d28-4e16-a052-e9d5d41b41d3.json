@@ -14,6 +14,8 @@
   },
   "scope": {
     "component": [
+      "citec",
+      "csra",
       "home",
       "videodepthsource",
       "asus_90iw0122-b01ua_e3iwbda34182"

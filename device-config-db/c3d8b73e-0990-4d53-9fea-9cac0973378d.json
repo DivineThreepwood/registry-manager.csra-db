@@ -24,8 +24,10 @@
   },
   "scope": {
     "component": [
+      "citec",
+      "csra",
       "home",
-      "wardrobe",
+      "hallway",
       "device",
       "hallway_1"
     ]

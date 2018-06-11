@@ -24,8 +24,10 @@
   },
   "scope": {
     "component": [
+      "citec",
+      "csra",
       "home",
-      "wardrobe",
+      "hallway",
       "device",
       "asus_90iw0122-b01ua_e3iwbda33551"
     ]
