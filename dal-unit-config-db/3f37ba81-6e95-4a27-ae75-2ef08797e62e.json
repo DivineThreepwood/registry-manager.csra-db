@@ -15,8 +15,7 @@
     "component": [
       "citec",
       "csra",
-      "home",
-      "sports",
+      "robotroom",
       "battery",
       "windowreedswitch"
     ]
@@ -30,7 +29,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Homematic_Sec_SC_2__citec_csra_home_sports__Battery__WindowReedSwitch__BatteryStateService"
+              "value": "Homematic_Sec_SC_2__citec_csra_robotroom__Battery__WindowReedSwitch__BatteryStateService"
             }
           ]
         }

@@ -274,6 +274,9 @@
   "location_config": {
     "type": "TILE",
     "root": false,
+    "child_id": [
+      "016a98c6-f0d3-4f79-9feb-874807798480"
+    ],
     "unit_id": [
       "e4b0503e-4a3a-40f4-9a80-61e89d6874d2",
       "ad29da51-426b-4816-a5fb-6f6f92465a99",

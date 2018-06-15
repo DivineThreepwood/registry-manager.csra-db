@@ -9,14 +9,13 @@
   "type": "HANDLE",
   "placement_config": {
     "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
-    "transformation_frame_id": "Sports_WindowHandleSensor"
+    "transformation_frame_id": "RobotRoom_WindowHandleSensor"
   },
   "scope": {
     "component": [
       "citec",
       "csra",
-      "home",
-      "sports",
+      "robotroom",
       "handle",
       "windowhandlesensor"
     ]
@@ -30,7 +29,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Homematic_Sec_RHS__citec_csra_home_sports__Handle__WindowHandleSensor__HandleStateService"
+              "value": "Homematic_Sec_RHS__citec_csra_robotroom__Handle__WindowHandleSensor__HandleStateService"
             }
           ]
         }

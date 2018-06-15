@@ -16,8 +16,7 @@
     "component": [
       "citec",
       "csra",
-      "home",
-      "sports",
+      "robotroom",
       "button",
       "button_4"
     ]
@@ -35,7 +34,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_5142__citec_csra_home_sports__Button__Button_4__ButtonStateService"
+              "value": "Gira_5142__citec_csra_robotroom__Button__Button_4__ButtonStateService"
             }
           ]
         }

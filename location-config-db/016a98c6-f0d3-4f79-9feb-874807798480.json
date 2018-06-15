@@ -1,17 +1,17 @@
 {
-  "id": "dae2ee74-5748-46bb-a95a-1054ce40ea0a",
-  "label": "Interaction",
+  "id": "016a98c6-f0d3-4f79-9feb-874807798480",
+  "label": "Corridor",
   "alias": [
-    "Location-14"
+    "Location-24"
   ],
   "type": "LOCATION",
   "placement_config": {
-    "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
-    "transformation_frame_id": "Interaction",
+    "location_id": "9be1344a-41f1-406b-bdae-41bfd5368f13",
+    "transformation_frame_id": "Corridor",
     "position": {
       "translation": {
-        "x": 0.837,
-        "y": 0.177,
+        "x": 0.0,
+        "y": 0.0,
         "z": 0.0
       },
       "rotation": {
@@ -21,93 +21,19 @@
         "qz": 0.0
       }
     },
-    "shape": {
-      "bounding_box": {
-        "left_front_bottom": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
-        },
-        "width": 2.248,
-        "depth": 3.229,
-        "height": 2.79
-      },
-      "floor": [
-        {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
-        },
-        {
-          "x": 0.0,
-          "y": 3.229,
-          "z": 0.0
-        },
-        {
-          "x": 2.248,
-          "y": 3.229,
-          "z": 0.0
-        },
-        {
-          "x": 2.248,
-          "y": 0.0,
-          "z": 0.0
-        }
-      ],
-      "ceiling": [
-        {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 2.79
-        },
-        {
-          "x": 0.0,
-          "y": 3.229,
-          "z": 2.79
-        },
-        {
-          "x": 2.248,
-          "y": 3.229,
-          "z": 2.79
-        },
-        {
-          "x": 2.248,
-          "y": 0.0,
-          "z": 2.79
-        }
-      ],
-      "floor_ceiling_edge": [
-        {
-          "floor_index": 0,
-          "ceiling_index": 0
-        },
-        {
-          "floor_index": 1,
-          "ceiling_index": 1
-        },
-        {
-          "floor_index": 2,
-          "ceiling_index": 2
-        },
-        {
-          "floor_index": 3,
-          "ceiling_index": 3
-        }
-      ]
-    }
+    "shape": {}
   },
   "scope": {
     "component": [
       "citec",
-      "csra",
-      "robotroom",
-      "interaction"
+      "outdoor",
+      "corridor"
     ]
   },
   "service_config": [
     {
       "binding_config": {},
-      "unit_id": "dae2ee74-5748-46bb-a95a-1054ce40ea0a",
+      "unit_id": "016a98c6-f0d3-4f79-9feb-874807798480",
       "service_description": {
         "service_template_id": "a2175895-7dcf-4d51-96aa-dcb01b47ed04",
         "type": "BLIND_STATE_SERVICE",
@@ -116,7 +42,7 @@
     },
     {
       "binding_config": {},
-      "unit_id": "dae2ee74-5748-46bb-a95a-1054ce40ea0a",
+      "unit_id": "016a98c6-f0d3-4f79-9feb-874807798480",
       "service_description": {
         "service_template_id": "0f9527d7-d6f8-4a09-af14-1a8d91c264bd",
         "type": "COLOR_STATE_SERVICE",
@@ -126,7 +52,7 @@
     },
     {
       "binding_config": {},
-      "unit_id": "dae2ee74-5748-46bb-a95a-1054ce40ea0a",
+      "unit_id": "016a98c6-f0d3-4f79-9feb-874807798480",
       "service_description": {
         "service_template_id": "b7cec81b-6387-4b77-a2c2-2d97726a4476",
         "type": "POWER_CONSUMPTION_STATE_SERVICE",
@@ -135,7 +61,7 @@
     },
     {
       "binding_config": {},
-      "unit_id": "dae2ee74-5748-46bb-a95a-1054ce40ea0a",
+      "unit_id": "016a98c6-f0d3-4f79-9feb-874807798480",
       "service_description": {
         "service_template_id": "f33ce258-1d4d-4c0b-8721-8793494ea035",
         "type": "SMOKE_ALARM_STATE_SERVICE",
@@ -144,7 +70,7 @@
     },
     {
       "binding_config": {},
-      "unit_id": "dae2ee74-5748-46bb-a95a-1054ce40ea0a",
+      "unit_id": "016a98c6-f0d3-4f79-9feb-874807798480",
       "service_description": {
         "service_template_id": "0512aab5-78cf-4464-b699-078f6f3dfdc9",
         "type": "TEMPERATURE_STATE_SERVICE",
@@ -153,7 +79,7 @@
     },
     {
       "binding_config": {},
-      "unit_id": "dae2ee74-5748-46bb-a95a-1054ce40ea0a",
+      "unit_id": "016a98c6-f0d3-4f79-9feb-874807798480",
       "service_description": {
         "service_template_id": "a2175895-7dcf-4d51-96aa-dcb01b47ed04",
         "type": "BLIND_STATE_SERVICE",
@@ -163,7 +89,7 @@
     },
     {
       "binding_config": {},
-      "unit_id": "dae2ee74-5748-46bb-a95a-1054ce40ea0a",
+      "unit_id": "016a98c6-f0d3-4f79-9feb-874807798480",
       "service_description": {
         "service_template_id": "0f9527d7-d6f8-4a09-af14-1a8d91c264bd",
         "type": "COLOR_STATE_SERVICE",
@@ -173,7 +99,7 @@
     },
     {
       "binding_config": {},
-      "unit_id": "dae2ee74-5748-46bb-a95a-1054ce40ea0a",
+      "unit_id": "016a98c6-f0d3-4f79-9feb-874807798480",
       "service_description": {
         "service_template_id": "4ebe8edc-01be-4500-83a1-f753b306aa0f",
         "type": "MOTION_STATE_SERVICE",
@@ -182,7 +108,7 @@
     },
     {
       "binding_config": {},
-      "unit_id": "dae2ee74-5748-46bb-a95a-1054ce40ea0a",
+      "unit_id": "016a98c6-f0d3-4f79-9feb-874807798480",
       "service_description": {
         "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
         "type": "POWER_STATE_SERVICE",
@@ -192,7 +118,7 @@
     },
     {
       "binding_config": {},
-      "unit_id": "dae2ee74-5748-46bb-a95a-1054ce40ea0a",
+      "unit_id": "016a98c6-f0d3-4f79-9feb-874807798480",
       "service_description": {
         "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
         "type": "POWER_STATE_SERVICE",
@@ -201,7 +127,7 @@
     },
     {
       "binding_config": {},
-      "unit_id": "dae2ee74-5748-46bb-a95a-1054ce40ea0a",
+      "unit_id": "016a98c6-f0d3-4f79-9feb-874807798480",
       "service_description": {
         "service_template_id": "5d664e5a-6fa3-433a-a1e0-ca81d79aacff",
         "type": "PRESENCE_STATE_SERVICE",
@@ -211,7 +137,7 @@
     },
     {
       "binding_config": {},
-      "unit_id": "dae2ee74-5748-46bb-a95a-1054ce40ea0a",
+      "unit_id": "016a98c6-f0d3-4f79-9feb-874807798480",
       "service_description": {
         "service_template_id": "ce7fedbe-e6b1-41ae-993e-e07acfa58344",
         "type": "SMOKE_STATE_SERVICE",
@@ -220,7 +146,7 @@
     },
     {
       "binding_config": {},
-      "unit_id": "dae2ee74-5748-46bb-a95a-1054ce40ea0a",
+      "unit_id": "016a98c6-f0d3-4f79-9feb-874807798480",
       "service_description": {
         "service_template_id": "f36cd89a-a3c6-4ca9-9bb0-972ab5ed4cec",
         "type": "STANDBY_STATE_SERVICE",
@@ -229,7 +155,7 @@
     },
     {
       "binding_config": {},
-      "unit_id": "dae2ee74-5748-46bb-a95a-1054ce40ea0a",
+      "unit_id": "016a98c6-f0d3-4f79-9feb-874807798480",
       "service_description": {
         "service_template_id": "f36cd89a-a3c6-4ca9-9bb0-972ab5ed4cec",
         "type": "STANDBY_STATE_SERVICE",
@@ -239,7 +165,7 @@
     },
     {
       "binding_config": {},
-      "unit_id": "dae2ee74-5748-46bb-a95a-1054ce40ea0a",
+      "unit_id": "016a98c6-f0d3-4f79-9feb-874807798480",
       "service_description": {
         "service_template_id": "84e48be2-8d6d-451f-ab0b-42597b0f258b",
         "type": "TARGET_TEMPERATURE_STATE_SERVICE",
@@ -248,7 +174,7 @@
     },
     {
       "binding_config": {},
-      "unit_id": "dae2ee74-5748-46bb-a95a-1054ce40ea0a",
+      "unit_id": "016a98c6-f0d3-4f79-9feb-874807798480",
       "service_description": {
         "service_template_id": "84e48be2-8d6d-451f-ab0b-42597b0f258b",
         "type": "TARGET_TEMPERATURE_STATE_SERVICE",
@@ -258,7 +184,7 @@
     },
     {
       "binding_config": {},
-      "unit_id": "dae2ee74-5748-46bb-a95a-1054ce40ea0a",
+      "unit_id": "016a98c6-f0d3-4f79-9feb-874807798480",
       "service_description": {
         "service_template_id": "02342f5f-357c-4636-8f52-3eefcb65d060",
         "type": "ILLUMINANCE_STATE_SERVICE",
@@ -267,7 +193,7 @@
     },
     {
       "binding_config": {},
-      "unit_id": "dae2ee74-5748-46bb-a95a-1054ce40ea0a",
+      "unit_id": "016a98c6-f0d3-4f79-9feb-874807798480",
       "service_description": {
         "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
         "type": "BRIGHTNESS_STATE_SERVICE",
@@ -276,7 +202,7 @@
     },
     {
       "binding_config": {},
-      "unit_id": "dae2ee74-5748-46bb-a95a-1054ce40ea0a",
+      "unit_id": "016a98c6-f0d3-4f79-9feb-874807798480",
       "service_description": {
         "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
         "type": "BRIGHTNESS_STATE_SERVICE",
@@ -292,9 +218,6 @@
   "location_config": {
     "type": "REGION",
     "root": false,
-    "unit_id": [
-      "fec3cb67-ab1a-4f5d-8ea3-7e3c5d68a287"
-    ],
     "tile_config": {
       "meta_config": {}
     }

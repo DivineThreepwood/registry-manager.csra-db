@@ -6,7 +6,7 @@
   ],
   "type": "CONNECTION",
   "placement_config": {
-    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+    "location_id": "7a5cb343-cfaa-4ae8-8170-4637834ca0ab",
     "transformation_frame_id": "Living_to_Sports_Door",
     "position": {
       "translation": {
@@ -60,7 +60,6 @@
     "component": [
       "citec",
       "csra",
-      "home",
       "connection",
       "living_to_sports_door"
     ]

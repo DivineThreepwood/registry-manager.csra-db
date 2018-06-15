@@ -2,7 +2,9 @@
   "id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
   "label": "Hallway",
   "alias": [
-    "Location-13"
+    "Location-13",
+    "Hallway",
+    "Wardrobe"
   ],
   "type": "LOCATION",
   "placement_config": {

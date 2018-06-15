@@ -9,15 +9,14 @@
   "type": "REED_CONTACT",
   "placement_config": {
     "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
-    "transformation_frame_id": "Sports_SportsToLivingReedSwitch",
+    "transformation_frame_id": "RobotRoom_SportsToLivingReedSwitch",
     "shape": {}
   },
   "scope": {
     "component": [
       "citec",
       "csra",
-      "home",
-      "sports",
+      "robotroom",
       "reedcontact",
       "sportstolivingreedswitch"
     ]
@@ -31,7 +30,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Homematic_Sec_SC_2__citec_csra_home_sports__ReedContact__SportsToLivingReedSwitch__ContactStateService"
+              "value": "Homematic_Sec_SC_2__citec_csra_robotroom__ReedContact__SportsToLivingReedSwitch__ContactStateService"
             }
           ]
         }

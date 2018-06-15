@@ -8,8 +8,8 @@
   "unit_host_id": "a33d0c22-346c-42ca-bed5-c72019700729",
   "type": "BUTTON",
   "placement_config": {
-    "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-    "transformation_frame_id": "Hallway_AllOff_Apartment",
+    "location_id": "cff20d86-c7e8-4d12-87e1-ebc67c7e0c93",
+    "transformation_frame_id": "Entrance_AllOff_Apartment",
     "shape": {}
   },
   "scope": {
@@ -18,11 +18,12 @@
       "csra",
       "home",
       "hallway",
+      "entrance",
       "button",
       "alloff_apartment"
     ]
   },
-  "bound_to_unit_host": false,
+  "bound_to_unit_host": true,
   "service_config": [
     {
       "binding_config": {
@@ -35,7 +36,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_5133__citec_csra_home_hallway__Button__AllOff_Apartment__ButtonStateService"
+              "value": "Gira_5133__citec_csra_home_hallway_entrance__Button__AllOff_Apartment__ButtonStateService"
             }
           ]
         }

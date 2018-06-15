@@ -6,8 +6,8 @@
   ],
   "type": "DEVICE",
   "placement_config": {
-    "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-    "transformation_frame_id": "Hallway_EntranceButtons",
+    "location_id": "cff20d86-c7e8-4d12-87e1-ebc67c7e0c93",
+    "transformation_frame_id": "Entrance_EntranceButtons",
     "shape": {}
   },
   "scope": {
@@ -16,11 +16,12 @@
       "csra",
       "home",
       "hallway",
+      "entrance",
       "device",
       "entrancebuttons"
     ]
   },
-  "bound_to_unit_host": false,
+  "bound_to_unit_host": true,
   "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"
@@ -29,7 +30,7 @@
     "serial_number": "433826759820000",
     "inventory_state": {
       "value": "INSTALLED",
-      "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+      "location_id": "cff20d86-c7e8-4d12-87e1-ebc67c7e0c93",
       "timestamp": {
         "time": 1440772899216
       },

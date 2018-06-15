@@ -9,15 +9,14 @@
   "type": "ROLLER_SHUTTER",
   "placement_config": {
     "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
-    "transformation_frame_id": "Sports_Outside",
+    "transformation_frame_id": "RobotRoom_Outside",
     "shape": {}
   },
   "scope": {
     "component": [
       "citec",
       "csra",
-      "home",
-      "sports",
+      "robotroom",
       "rollershutter",
       "outside"
     ]
@@ -36,7 +35,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA628C__citec_csra_home_sports__RollerShutter__Outside__BlindStateService"
+              "value": "Hager_TYA628C__citec_csra_robotroom__RollerShutter__Outside__BlindStateService"
             }
           ]
         }
@@ -61,7 +60,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA628C__citec_csra_home_sports__RollerShutter__Outside__BlindStateService"
+              "value": "Hager_TYA628C__citec_csra_robotroom__RollerShutter__Outside__BlindStateService"
             }
           ]
         }

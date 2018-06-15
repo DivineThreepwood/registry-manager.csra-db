@@ -9,7 +9,7 @@
   "type": "VIDEO_DEPTH_SOURCE",
   "placement_config": {
     "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
-    "transformation_frame_id": "Sports_ASUS_90IW0122-B01UA_E3IWBDA34149",
+    "transformation_frame_id": "RobotRoom_ASUS_90IW0122-B01UA_E3IWBDA34149",
     "position": {
       "translation": {
         "x": 2.53,
@@ -28,8 +28,7 @@
     "component": [
       "citec",
       "csra",
-      "home",
-      "sports",
+      "robotroom",
       "videodepthsource",
       "asus_90iw0122-b01ua_e3iwbda34149"
     ]
