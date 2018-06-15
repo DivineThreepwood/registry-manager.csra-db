@@ -6,7 +6,7 @@
   ],
   "type": "AGENT",
   "placement_config": {
-    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+    "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
     "transformation_frame_id": "BathDimmerPowerStateSynchroniser",
     "shape": {}
   },
@@ -15,6 +15,7 @@
       "citec",
       "csra",
       "home",
+      "bath",
       "agent",
       "powerstatesynchroniser",
       "bathdimmerpowerstatesynchroniser"

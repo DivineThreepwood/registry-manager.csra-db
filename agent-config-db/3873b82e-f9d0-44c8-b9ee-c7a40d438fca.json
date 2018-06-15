@@ -6,7 +6,7 @@
   ],
   "type": "AGENT",
   "placement_config": {
-    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+    "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
     "transformation_frame_id": "TableDimmerPowerStateSynchroniser",
     "shape": {}
   },
@@ -15,6 +15,8 @@
       "citec",
       "csra",
       "home",
+      "living",
+      "dining",
       "agent",
       "powerstatesynchroniser",
       "tabledimmerpowerstatesynchroniser"

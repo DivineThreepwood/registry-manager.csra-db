@@ -454,8 +454,8 @@
       "3e189be5-1e78-47dd-9507-b17b6b282e24",
       "0fb97659-299a-4da9-8dfb-ece4ac0bee00",
       "c3d8b73e-0990-4d53-9fea-9cac0973378d",
-      "cb2d3e9f-e5a1-4950-b4d6-786be5eeef47",
       "51a38d12-35d5-49a4-9f73-35822c8aeb89",
+      "cb2d3e9f-e5a1-4950-b4d6-786be5eeef47",
       "b4af10fe-115c-4b23-a6f7-5033071c1655",
       "7e3043fb-b942-4bd0-9fe1-5b8ccadb6926",
       "72f220fd-5b35-4979-8b3b-0ccabe4d98a3",
@@ -464,7 +464,9 @@
       "053019e3-51aa-48be-bd16-b16da6e99519",
       "6673d527-ae60-492f-bb43-85d00b700238",
       "6b631f75-febe-47ec-8ec1-a8234f0eb3e7",
-      "b0daa651-4556-4970-b6be-c8c0b8d33caa"
+      "122389cd-907f-4e7c-84de-aaa2a3f81771",
+      "b0daa651-4556-4970-b6be-c8c0b8d33caa",
+      "0a514c2d-3b2c-4303-a4b6-d90f0284fc83"
     ],
     "tile_config": {
       "type": "INDOOR",

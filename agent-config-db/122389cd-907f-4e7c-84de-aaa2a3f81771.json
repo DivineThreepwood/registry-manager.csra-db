@@ -6,7 +6,7 @@
   ],
   "type": "AGENT",
   "placement_config": {
-    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+    "location_id": "cff20d86-c7e8-4d12-87e1-ebc67c7e0c93",
     "transformation_frame_id": "EntranceDimmerPowerStateSynchroniser",
     "shape": {}
   },
@@ -15,6 +15,8 @@
       "citec",
       "csra",
       "home",
+      "hallway",
+      "entrance",
       "agent",
       "powerstatesynchroniser",
       "entrancedimmerpowerstatesynchroniser"
