@@ -15,4 +15,4 @@
 	url = https://github.com/openbase/bco.registry.service-template-db.git
 [submodule "activity-template-db"]
 	path = activity-template-db
-	url = https://github.com/openbase/bco.activity-template-db.git
+	url = https://github.com/openbase/bco.registry.activity-template-db.git
