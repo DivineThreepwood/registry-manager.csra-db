@@ -1,15 +1,24 @@
 {
   "id": "37a1f9a7-57ab-4dfb-8061-2774eeffaf4e",
   "unit_template_config_id": "Fibaro_FGMS-001_LIGHT_SENSOR_0",
-  "label": "Shower",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Shower"
+        ]
+      }
+    ]
+  },
   "alias": [
     "LightSensor-1"
   ],
   "unit_host_id": "2ccf07ae-51fa-4b7f-83b2-08b978eaf082",
-  "type": "LIGHT_SENSOR",
+  "unit_type": "LIGHT_SENSOR",
   "placement_config": {
     "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
-    "transformation_frame_id": "Shower"
+    "transformation_frame_id": "LightSensor-1"
   },
   "scope": {
     "component": [
@@ -38,10 +47,9 @@
       "unit_id": "37a1f9a7-57ab-4dfb-8061-2774eeffaf4e",
       "service_description": {
         "service_template_id": "02342f5f-357c-4636-8f52-3eefcb65d060",
-        "type": "ILLUMINANCE_STATE_SERVICE",
+        "service_type": "ILLUMINANCE_STATE_SERVICE",
         "pattern": "PROVIDER"
-      },
-      "meta_config": {}
+      }
     }
   ],
   "meta_config": {},

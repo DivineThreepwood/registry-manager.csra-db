@@ -1,13 +1,22 @@
 {
   "id": "96f07007-bcbd-4168-aee3-4f4413dfd768",
-  "label": "LoungeLamp",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "LoungeLamp"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-8"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "0df5bbb8-2d17-4f81-9b34-314a26ae713a",
-    "transformation_frame_id": "LoungeLamp",
+    "transformation_frame_id": "Device-8",
     "position": {
       "translation": {
         "x": 1.9139420745390558,
@@ -52,12 +61,14 @@
       "location_id": "0df5bbb8-2d17-4f81-9b34-314a26ae713a",
       "timestamp": {
         "time": 1441014803255
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "6f661f5b-3906-452a-adb6-a4e5fb94eee4",
     "unit_id": [
       "47e63f5a-ff30-4b0d-905a-815f94aa8b50"
     ]
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

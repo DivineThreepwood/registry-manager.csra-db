@@ -1,13 +1,22 @@
 {
   "id": "a0e7ef4c-8011-4b61-963f-26f9e716d3cd",
-  "label": "EntranceButtons",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "EntranceButtons"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-59"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
-    "transformation_frame_id": "EntranceButtons",
+    "transformation_frame_id": "Device-59",
     "shape": {}
   },
   "scope": {
@@ -32,8 +41,7 @@
       "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
       "timestamp": {
         "time": 1449246977912
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "a34b128b-866d-48a5-8024-4982017492f9",
     "unit_id": [
@@ -43,5 +51,8 @@
       "4819dd50-5b6a-435e-b5f2-65326e0dde8b",
       "e0f39112-17a1-48aa-b8b2-58bb79e92738"
     ]
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

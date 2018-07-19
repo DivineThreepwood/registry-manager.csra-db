@@ -1,13 +1,22 @@
 {
   "id": "1b8384ec-4eda-4e03-93db-035afc9defbb",
-  "label": "Default Apartment",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Default Apartment"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Scene-30"
   ],
-  "type": "SCENE",
+  "unit_type": "SCENE",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
-    "transformation_frame_id": "Default_Apartment",
+    "transformation_frame_id": "Scene-30",
     "shape": {}
   },
   "scope": {
@@ -21,29 +30,23 @@
   },
   "service_config": [
     {
-      "binding_config": {
-        "meta_config": {}
-      },
+      "binding_config": {},
       "unit_id": "1b8384ec-4eda-4e03-93db-035afc9defbb",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
-      },
-      "meta_config": {}
+      }
     },
     {
-      "binding_config": {
-        "meta_config": {}
-      },
+      "binding_config": {},
       "unit_id": "1b8384ec-4eda-4e03-93db-035afc9defbb",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "meta_config": {}
-      },
-      "meta_config": {}
+      }
     }
   ],
   "meta_config": {},

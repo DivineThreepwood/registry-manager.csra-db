@@ -1,13 +1,22 @@
 {
   "id": "b94e86fd-9606-4c8c-9a0b-2ca9ac7f6d44",
-  "label": "Dinner",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Dinner"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Scene-14"
   ],
-  "type": "SCENE",
+  "unit_type": "SCENE",
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-    "transformation_frame_id": "Dinner"
+    "transformation_frame_id": "Scene-14"
   },
   "scope": {
     "component": [
@@ -25,7 +34,7 @@
       "unit_id": "b94e86fd-9606-4c8c-9a0b-2ca9ac7f6d44",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
       }
@@ -35,7 +44,7 @@
       "unit_id": "b94e86fd-9606-4c8c-9a0b-2ca9ac7f6d44",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "meta_config": {}
       }
     }

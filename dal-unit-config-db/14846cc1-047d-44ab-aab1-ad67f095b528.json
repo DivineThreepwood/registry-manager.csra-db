@@ -1,15 +1,24 @@
 {
   "id": "14846cc1-047d-44ab-aab1-ad67f095b528",
   "unit_template_config_id": "Gira_429496730210000_BUTTON_0",
-  "label": "Task: NextInScene",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Task: NextInScene"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Button-47"
   ],
   "unit_host_id": "d9e491b1-27b3-4736-9ce0-c52476e827d3",
-  "type": "BUTTON",
+  "unit_type": "BUTTON",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-    "transformation_frame_id": "Task_NextInScene",
+    "transformation_frame_id": "Button-47",
     "shape": {}
   },
   "scope": {
@@ -30,10 +39,6 @@
         "meta_config": {
           "entry": [
             {
-              "key": "OPENHAB_BINDING_CONFIG",
-              "value": "1/2/12"
-            },
-            {
               "key": "OPENHAB_BINDING_ITEM_ID",
               "value": "Gira_5133__citec_csra_home_hallway__Button__Task_NextInScene__ButtonStateService"
             }
@@ -43,11 +48,9 @@
       "unit_id": "14846cc1-047d-44ab-aab1-ad67f095b528",
       "service_description": {
         "service_template_id": "1d50901a-5cc1-4595-9180-334c3f3317dc",
-        "type": "BUTTON_STATE_SERVICE",
-        "pattern": "PROVIDER",
-        "meta_config": {}
-      },
-      "meta_config": {}
+        "service_type": "BUTTON_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      }
     }
   ],
   "meta_config": {},

@@ -1,13 +1,22 @@
 {
   "id": "3f38da45-1f93-4744-be05-6facf7fcb1df",
-  "label": "SLamp2",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "SLamp2"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-29"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
-    "transformation_frame_id": "SLamp2",
+    "transformation_frame_id": "Device-29",
     "position": {
       "translation": {
         "x": 1.9256712949325507,
@@ -52,12 +61,14 @@
       "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
       "timestamp": {
         "time": 1453713789800
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "6f661f5b-3906-452a-adb6-a4e5fb94eee4",
     "unit_id": [
       "020cf35d-e6a9-4af8-9f3c-16184dff8d36"
     ]
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

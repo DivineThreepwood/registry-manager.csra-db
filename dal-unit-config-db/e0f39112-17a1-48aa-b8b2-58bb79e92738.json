@@ -1,15 +1,24 @@
 {
   "id": "e0f39112-17a1-48aa-b8b2-58bb79e92738",
   "unit_template_config_id": "Gira_429496730250000_BUTTON_3",
-  "label": "AllOff Bath",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "AllOff Bath"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Button-19"
   ],
   "unit_host_id": "a0e7ef4c-8011-4b61-963f-26f9e716d3cd",
-  "type": "BUTTON",
+  "unit_type": "BUTTON",
   "placement_config": {
     "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
-    "transformation_frame_id": "AllOff_Bath",
+    "transformation_frame_id": "Button-19",
     "shape": {}
   },
   "scope": {
@@ -30,10 +39,6 @@
         "meta_config": {
           "entry": [
             {
-              "key": "OPENHAB_BINDING_CONFIG",
-              "value": "3/2/3"
-            },
-            {
               "key": "OPENHAB_BINDING_ITEM_ID",
               "value": "Gira_5142__citec_csra_home_bath__Button__AllOff_Bath__ButtonStateService"
             }
@@ -43,11 +48,9 @@
       "unit_id": "e0f39112-17a1-48aa-b8b2-58bb79e92738",
       "service_description": {
         "service_template_id": "1d50901a-5cc1-4595-9180-334c3f3317dc",
-        "type": "BUTTON_STATE_SERVICE",
-        "pattern": "PROVIDER",
-        "meta_config": {}
-      },
-      "meta_config": {}
+        "service_type": "BUTTON_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      }
     }
   ],
   "meta_config": {

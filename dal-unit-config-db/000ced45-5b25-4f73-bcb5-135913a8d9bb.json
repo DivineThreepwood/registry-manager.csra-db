@@ -1,15 +1,24 @@
 {
   "id": "000ced45-5b25-4f73-bcb5-135913a8d9bb",
   "unit_template_config_id": "Fibaro_FGMS-001_MOTION_DETECTOR_0",
-  "label": "Global",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Global"
+        ]
+      }
+    ]
+  },
   "alias": [
     "MotionDetector-12"
   ],
   "unit_host_id": "720a0d91-3653-46b4-acce-2f02432c25e6",
-  "type": "MOTION_DETECTOR",
+  "unit_type": "MOTION_DETECTOR",
   "placement_config": {
     "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
-    "transformation_frame_id": "Bath_Global"
+    "transformation_frame_id": "MotionDetector-12"
   },
   "scope": {
     "component": [
@@ -38,10 +47,9 @@
       "unit_id": "000ced45-5b25-4f73-bcb5-135913a8d9bb",
       "service_description": {
         "service_template_id": "4ebe8edc-01be-4500-83a1-f753b306aa0f",
-        "type": "MOTION_STATE_SERVICE",
+        "service_type": "MOTION_STATE_SERVICE",
         "pattern": "PROVIDER"
-      },
-      "meta_config": {}
+      }
     }
   ],
   "meta_config": {},

@@ -1,15 +1,24 @@
 {
   "id": "ede77f1d-0737-4011-861b-f47121137c57",
   "unit_template_config_id": "Fibaro_FGMS-001_TEMPERATURE_SENSOR_0",
-  "label": "Global",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Global"
+        ]
+      }
+    ]
+  },
   "alias": [
     "TemperatureSensor-8"
   ],
   "unit_host_id": "720a0d91-3653-46b4-acce-2f02432c25e6",
-  "type": "TEMPERATURE_SENSOR",
+  "unit_type": "TEMPERATURE_SENSOR",
   "placement_config": {
     "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
-    "transformation_frame_id": "Bath_Global"
+    "transformation_frame_id": "TemperatureSensor-8"
   },
   "scope": {
     "component": [
@@ -30,26 +39,6 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Motion_Sensor__citec_csra_home_bath__TemperatureSensor__Global__TemperatureStateService"
-            }
-          ]
-        }
-      },
-      "unit_id": "ede77f1d-0737-4011-861b-f47121137c57",
-      "service_description": {
-        "service_template_id": "0512aab5-78cf-4464-b699-078f6f3dfdc9",
-        "type": "TEMPERATURE_STATE_SERVICE",
-        "pattern": "PROVIDER"
-      },
-      "meta_config": {}
-    },
-    {
-      "binding_config": {
-        "binding_id": "OPENHAB",
-        "meta_config": {
-          "entry": [
-            {
-              "key": "OPENHAB_BINDING_ITEM_ID",
               "value": "Motion_Sensor__citec_csra_home_bath__TemperatureSensor__Global__TemperatureAlarmStateService"
             }
           ]
@@ -58,7 +47,26 @@
       "unit_id": "ede77f1d-0737-4011-861b-f47121137c57",
       "service_description": {
         "service_template_id": "14f52fce-8ec0-4f9d-8279-47547381473a",
-        "type": "TEMPERATURE_ALARM_STATE_SERVICE",
+        "service_type": "TEMPERATURE_ALARM_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      }
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Motion_Sensor__citec_csra_home_bath__TemperatureSensor__Global__TemperatureStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "ede77f1d-0737-4011-861b-f47121137c57",
+      "service_description": {
+        "service_template_id": "0512aab5-78cf-4464-b699-078f6f3dfdc9",
+        "service_type": "TEMPERATURE_STATE_SERVICE",
         "pattern": "PROVIDER"
       }
     }

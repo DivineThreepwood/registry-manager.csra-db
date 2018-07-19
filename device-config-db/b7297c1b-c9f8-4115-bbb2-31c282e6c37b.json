@@ -1,13 +1,22 @@
 {
   "id": "b7297c1b-c9f8-4115-bbb2-31c282e6c37b",
-  "label": "ControlTablet1",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "ControlTablet1"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-53"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
-    "transformation_frame_id": "ControlTablet1"
+    "transformation_frame_id": "Device-53"
   },
   "scope": {
     "component": [
@@ -29,9 +38,11 @@
       "value": "IN_STOCK",
       "timestamp": {
         "time": 1441979257396
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "033fce01-57da-411f-8df2-eccc0b9b9bc3"
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

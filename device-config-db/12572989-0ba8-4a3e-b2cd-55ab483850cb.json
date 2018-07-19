@@ -1,13 +1,22 @@
 {
   "id": "12572989-0ba8-4a3e-b2cd-55ab483850cb",
-  "label": "Media",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Media"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-19"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "Media"
+    "transformation_frame_id": "Device-19"
   },
   "scope": {
     "component": [
@@ -42,8 +51,7 @@
       "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
       "timestamp": {
         "time": 1440770729277
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "79e16e8f-7c8d-48ec-b59b-84ba75ed593b",
     "unit_id": [
@@ -53,5 +61,8 @@
       "daf24096-6420-43f2-b289-f2605acbdcbb",
       "b4978623-f8f5-4724-90db-243494223b6f"
     ]
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

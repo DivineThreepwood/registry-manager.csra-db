@@ -1,13 +1,22 @@
 {
   "id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
-  "label": "Citec",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Citec"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Location-18"
   ],
-  "type": "LOCATION",
+  "unit_type": "LOCATION",
   "placement_config": {
     "location_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
-    "transformation_frame_id": "Citec",
+    "transformation_frame_id": "Location-18",
     "position": {
       "translation": {
         "x": 0.0,
@@ -131,183 +140,240 @@
   },
   "service_config": [
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
       "service_description": {
         "service_template_id": "a2175895-7dcf-4d51-96aa-dcb01b47ed04",
-        "type": "BLIND_STATE_SERVICE",
+        "service_type": "BLIND_STATE_SERVICE",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     },
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
       "service_description": {
         "service_template_id": "0f9527d7-d6f8-4a09-af14-1a8d91c264bd",
-        "type": "COLOR_STATE_SERVICE",
+        "service_type": "COLOR_STATE_SERVICE",
         "pattern": "PROVIDER",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     },
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
       "service_description": {
         "service_template_id": "b7cec81b-6387-4b77-a2c2-2d97726a4476",
-        "type": "POWER_CONSUMPTION_STATE_SERVICE",
+        "service_type": "POWER_CONSUMPTION_STATE_SERVICE",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     },
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
       "service_description": {
         "service_template_id": "f33ce258-1d4d-4c0b-8721-8793494ea035",
-        "type": "SMOKE_ALARM_STATE_SERVICE",
+        "service_type": "SMOKE_ALARM_STATE_SERVICE",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     },
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
       "service_description": {
         "service_template_id": "0512aab5-78cf-4464-b699-078f6f3dfdc9",
-        "type": "TEMPERATURE_STATE_SERVICE",
+        "service_type": "TEMPERATURE_STATE_SERVICE",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     },
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
       "service_description": {
         "service_template_id": "a2175895-7dcf-4d51-96aa-dcb01b47ed04",
-        "type": "BLIND_STATE_SERVICE",
+        "service_type": "BLIND_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     },
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
       "service_description": {
         "service_template_id": "0f9527d7-d6f8-4a09-af14-1a8d91c264bd",
-        "type": "COLOR_STATE_SERVICE",
+        "service_type": "COLOR_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     },
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
       "service_description": {
         "service_template_id": "4ebe8edc-01be-4500-83a1-f753b306aa0f",
-        "type": "MOTION_STATE_SERVICE",
+        "service_type": "MOTION_STATE_SERVICE",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     },
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
       "service_description": {
         "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
-        "type": "POWER_STATE_SERVICE",
+        "service_type": "POWER_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     },
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
       "service_description": {
         "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
-        "type": "POWER_STATE_SERVICE",
+        "service_type": "POWER_STATE_SERVICE",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     },
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
       "service_description": {
         "service_template_id": "5d664e5a-6fa3-433a-a1e0-ca81d79aacff",
-        "type": "PRESENCE_STATE_SERVICE",
+        "service_type": "PRESENCE_STATE_SERVICE",
         "pattern": "PROVIDER",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     },
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
       "service_description": {
         "service_template_id": "ce7fedbe-e6b1-41ae-993e-e07acfa58344",
-        "type": "SMOKE_STATE_SERVICE",
+        "service_type": "SMOKE_STATE_SERVICE",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     },
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
       "service_description": {
         "service_template_id": "f36cd89a-a3c6-4ca9-9bb0-972ab5ed4cec",
-        "type": "STANDBY_STATE_SERVICE",
+        "service_type": "STANDBY_STATE_SERVICE",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     },
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
       "service_description": {
         "service_template_id": "f36cd89a-a3c6-4ca9-9bb0-972ab5ed4cec",
-        "type": "STANDBY_STATE_SERVICE",
+        "service_type": "STANDBY_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     },
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
       "service_description": {
         "service_template_id": "84e48be2-8d6d-451f-ab0b-42597b0f258b",
-        "type": "TARGET_TEMPERATURE_STATE_SERVICE",
+        "service_type": "TARGET_TEMPERATURE_STATE_SERVICE",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     },
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
       "service_description": {
         "service_template_id": "84e48be2-8d6d-451f-ab0b-42597b0f258b",
-        "type": "TARGET_TEMPERATURE_STATE_SERVICE",
+        "service_type": "TARGET_TEMPERATURE_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     },
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
       "service_description": {
         "service_template_id": "02342f5f-357c-4636-8f52-3eefcb65d060",
-        "type": "ILLUMINANCE_STATE_SERVICE",
+        "service_type": "ILLUMINANCE_STATE_SERVICE",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     },
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
       "service_description": {
         "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
-        "type": "BRIGHTNESS_STATE_SERVICE",
+        "service_type": "BRIGHTNESS_STATE_SERVICE",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     },
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
       "service_description": {
         "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
-        "type": "BRIGHTNESS_STATE_SERVICE",
+        "service_type": "BRIGHTNESS_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     }
   ],
   "meta_config": {},
@@ -326,6 +392,7 @@
       "00eed9c5-bfb1-4664-91b6-f8234399504d",
       "4d350be1-3f09-48f8-8796-d336d7b10dfe",
       "ae5eca72-d58b-48b5-a2d7-4ec12d157d2d",
+      "98572168-60ab-4e5f-929d-a8763654ecdd",
       "932b4f48-59d9-474a-b83e-82c4218b5ecf",
       "0602b2c4-1abf-439f-bdcb-f5684694240b",
       "46897193-9372-437c-9688-d5c29eb58aaa",
@@ -358,7 +425,6 @@
       "d26af27e-81d6-4659-8c8e-a4ae6256e44c",
       "d75030ec-82bd-42d7-9960-3ff2bbd21965",
       "f65b09c6-b14b-4da6-9d3d-47b4c3ba10ff",
-      "0bcc7fe2-c336-47a0-9446-7767e9076fdb",
       "78ded5dd-20b5-4953-bec4-1bae76ef9bec",
       "2855e6f8-5591-43ab-aadd-a36ffc85e1af",
       "59a219ed-6f69-41f7-908c-2066faac97c8",
@@ -507,6 +573,7 @@
       "a0f696f1-ae5d-4c9a-b67e-f052212ab970",
       "68937f67-107c-487a-a3a0-7b3761ad8e55",
       "02bd0cd8-5158-4d65-a716-b54cdd0812bb",
+      "ad484d00-2684-4d67-b506-9f1fab5f7af9",
       "3b4c23f2-162f-4556-a13a-ed71434c08e8",
       "6a2501d7-f625-4eb6-b46e-6e4f5c6001be",
       "d289248e-38f7-4b07-bb9d-c0b657800ae5",
@@ -671,6 +738,7 @@
       "461a85e4-a688-4cc9-b7ae-3634caf1169c",
       "1d92803a-89f8-4be3-817c-f843b9cd7ff6",
       "e83686fd-99bc-44a0-9170-e6166598a95c",
+      "da60acf5-d1aa-4f41-8fc0-7266f5e34338",
       "01841d35-68b0-46ee-8248-f21fb7e464c3",
       "0b3237bc-38e5-44dc-8b5c-2d337759ceb8",
       "465abe03-c0fc-4481-a6ce-e0a4cf4c4b00",
@@ -788,6 +856,7 @@
       "9dc9a103-5c4b-4e65-8f97-3082fcd1801d",
       "cbe3a9cc-2869-463f-b217-7c6f8e2650b6",
       "1e828d2d-9b1b-4f17-8a0e-261b0cfee163",
+      "d8b60702-885c-4b60-b568-7cadc5189a5f",
       "f870b339-76c8-4d29-bada-abb04f75956d",
       "f7f9ebc3-ff3c-47f9-9442-c9e2713b5bdb",
       "ad9c25be-c7d0-4e58-bf28-38acb4861efe",
@@ -848,6 +917,7 @@
       "168952c1-1821-4aa6-b742-3d2213709d17",
       "1505075c-a4a9-41d7-958a-556cdf7b73ac",
       "55697bae-e240-4c68-9fdc-02cfc4f98296",
+      "243dc2fa-c826-4951-84e5-826eda3c1451",
       "46f1f139-5a7d-48ac-92f8-ded806a888d2",
       "47ffc799-f1c6-4068-a289-49f2020b318c",
       "1ff369af-efb3-473b-9e4f-c8338b332ae1",
@@ -917,5 +987,36 @@
     "tile_config": {
       "meta_config": {}
     }
+  },
+  "permission_config": {
+    "owner_id": "ad484d00-2684-4d67-b506-9f1fab5f7af9",
+    "owner_permission": {
+      "read": true,
+      "write": true,
+      "access": true
+    },
+    "other_permission": {
+      "read": true,
+      "write": false,
+      "access": true
+    },
+    "group_permission": [
+      {
+        "group_id": "98572168-60ab-4e5f-929d-a8763654ecdd",
+        "permission": {
+          "read": true,
+          "write": true,
+          "access": true
+        }
+      },
+      {
+        "group_id": "da60acf5-d1aa-4f41-8fc0-7266f5e34338",
+        "permission": {
+          "read": true,
+          "write": true,
+          "access": true
+        }
+      }
+    ]
   }
 }

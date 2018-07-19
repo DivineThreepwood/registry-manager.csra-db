@@ -1,15 +1,24 @@
 {
   "id": "9f5e28a1-e085-4b15-9640-faecaa7a8c6c",
   "unit_template_config_id": "Homematic_Sec_SC_2_REED_CONTACT_0",
-  "label": "SportsToControlReedSwitch",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "SportsToControlReedSwitch"
+        ]
+      }
+    ]
+  },
   "alias": [
     "ReedContact-10"
   ],
   "unit_host_id": "5c3b78f4-2ea0-44b0-84ac-3d2ed211f412",
-  "type": "REED_CONTACT",
+  "unit_type": "REED_CONTACT",
   "placement_config": {
     "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
-    "transformation_frame_id": "SportsToControlReedSwitch",
+    "transformation_frame_id": "ReedContact-10",
     "shape": {}
   },
   "scope": {
@@ -38,11 +47,9 @@
       "unit_id": "9f5e28a1-e085-4b15-9640-faecaa7a8c6c",
       "service_description": {
         "service_template_id": "7a3eaa02-2d76-4c93-9c66-4da45ea7bafa",
-        "type": "CONTACT_STATE_SERVICE",
-        "pattern": "PROVIDER",
-        "meta_config": {}
-      },
-      "meta_config": {}
+        "service_type": "CONTACT_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      }
     }
   ],
   "meta_config": {

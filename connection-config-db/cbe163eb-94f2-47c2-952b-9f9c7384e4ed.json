@@ -1,13 +1,22 @@
 {
   "id": "cbe163eb-94f2-47c2-952b-9f9c7384e4ed",
-  "label": "Sports to Control Door",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Sports to Control Door"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Connection-2"
   ],
-  "type": "CONNECTION",
+  "unit_type": "CONNECTION",
   "placement_config": {
     "location_id": "7a5cb343-cfaa-4ae8-8170-4637834ca0ab",
-    "transformation_frame_id": "Sports_to_Control_Door",
+    "transformation_frame_id": "Connection-2",
     "position": {
       "translation": {
         "x": 6.9036,
@@ -66,40 +75,31 @@
   },
   "service_config": [
     {
-      "binding_config": {
-        "meta_config": {}
-      },
+      "binding_config": {},
       "unit_id": "cbe163eb-94f2-47c2-952b-9f9c7384e4ed",
       "service_description": {
         "service_template_id": "eb544f83-26c3-45f6-93da-5b9599de6049",
-        "type": "DOOR_STATE_SERVICE",
+        "service_type": "DOOR_STATE_SERVICE",
         "meta_config": {}
-      },
-      "meta_config": {}
+      }
     },
     {
-      "binding_config": {
-        "meta_config": {}
-      },
+      "binding_config": {},
       "unit_id": "cbe163eb-94f2-47c2-952b-9f9c7384e4ed",
       "service_description": {
         "service_template_id": "a2400b26-4cee-47a8-b78c-8511f37e2359",
-        "type": "PASSAGE_STATE_SERVICE",
+        "service_type": "PASSAGE_STATE_SERVICE",
         "meta_config": {}
-      },
-      "meta_config": {}
+      }
     },
     {
-      "binding_config": {
-        "meta_config": {}
-      },
+      "binding_config": {},
       "unit_id": "cbe163eb-94f2-47c2-952b-9f9c7384e4ed",
       "service_description": {
         "service_template_id": "355916ac-6a3e-45c3-878c-ef5786ccb223",
-        "type": "WINDOW_STATE_SERVICE",
+        "service_type": "WINDOW_STATE_SERVICE",
         "meta_config": {}
-      },
-      "meta_config": {}
+      }
     }
   ],
   "meta_config": {},

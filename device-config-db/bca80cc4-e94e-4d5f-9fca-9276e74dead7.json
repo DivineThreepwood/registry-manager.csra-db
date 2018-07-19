@@ -1,13 +1,22 @@
 {
   "id": "bca80cc4-e94e-4d5f-9fca-9276e74dead7",
-  "label": "DoorReedSwitch",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "DoorReedSwitch"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-71"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
-    "transformation_frame_id": "DoorReedSwitch",
+    "transformation_frame_id": "Device-71",
     "shape": {}
   },
   "scope": {
@@ -39,13 +48,15 @@
       "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
       "timestamp": {
         "time": 1441013960569
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "569ff797-09f1-4437-8404-391017776796",
     "unit_id": [
       "22295f56-ed80-4a36-8933-bf81d7d92eb7",
       "33a6608e-6c3a-4ab9-9f0d-0e128b1ecd1c"
     ]
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

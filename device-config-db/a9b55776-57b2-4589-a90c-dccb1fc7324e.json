@@ -1,13 +1,22 @@
 {
   "id": "a9b55776-57b2-4589-a90c-dccb1fc7324e",
-  "label": "DoorButtons",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "DoorButtons"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-80"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-    "transformation_frame_id": "DoorButtons",
+    "transformation_frame_id": "Device-80",
     "shape": {}
   },
   "scope": {
@@ -32,8 +41,7 @@
       "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
       "timestamp": {
         "time": 1440773979205
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "e40b8bbd-9e23-4288-9c15-05b8e90ca8e1",
     "unit_id": [
@@ -44,5 +52,8 @@
       "4f602ace-928a-4d0b-8853-d0bbe4d3fc74",
       "c82b515d-7b9f-4a66-8f89-77af9cbd3c71"
     ]
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

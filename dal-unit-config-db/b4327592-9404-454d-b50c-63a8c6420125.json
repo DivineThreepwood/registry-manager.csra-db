@@ -1,15 +1,24 @@
 {
   "id": "b4327592-9404-454d-b50c-63a8c6420125",
   "unit_template_config_id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_CONSUMPTION_SENSOR_3",
-  "label": "S3_C4 Consumption",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "S3_C4 Consumption"
+        ]
+      }
+    ]
+  },
   "alias": [
     "PowerConsumptionSensor-30"
   ],
   "unit_host_id": "64da2fb2-aca7-4791-a5c1-e389a7361c05",
-  "type": "POWER_CONSUMPTION_SENSOR",
+  "unit_type": "POWER_CONSUMPTION_SENSOR",
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
-    "transformation_frame_id": "S3_C4_Consumption",
+    "transformation_frame_id": "PowerConsumptionSensor-30",
     "shape": {}
   },
   "scope": {
@@ -29,10 +38,6 @@
         "meta_config": {
           "entry": [
             {
-              "key": "OPENHAB_BINDING_CONFIG",
-              "value": "5/1/68"
-            },
-            {
               "key": "OPENHAB_BINDING_ITEM_ID",
               "value": "Gira_1046__citec_csra_control__PowerConsumptionSensor__S3_C4_Consumption__PowerConsumptionStateService"
             }
@@ -42,10 +47,9 @@
       "unit_id": "b4327592-9404-454d-b50c-63a8c6420125",
       "service_description": {
         "service_template_id": "b7cec81b-6387-4b77-a2c2-2d97726a4476",
-        "type": "POWER_CONSUMPTION_STATE_SERVICE",
-        "meta_config": {}
-      },
-      "meta_config": {}
+        "service_type": "POWER_CONSUMPTION_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      }
     }
   ],
   "meta_config": {},

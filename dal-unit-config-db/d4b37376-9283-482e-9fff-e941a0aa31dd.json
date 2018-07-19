@@ -1,15 +1,24 @@
 {
   "id": "d4b37376-9283-482e-9fff-e941a0aa31dd",
   "unit_template_config_id": "Hager_TYA628C_ROLLER_SHUTTER_7",
-  "label": "Roller Shutter 4",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Roller Shutter 4"
+        ]
+      }
+    ]
+  },
   "alias": [
     "RollerShutter-2"
   ],
   "unit_host_id": "f3857eeb-c0c5-466c-afe6-c7693212c96f",
-  "type": "ROLLER_SHUTTER",
+  "unit_type": "ROLLER_SHUTTER",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "Roller_Shutter_4",
+    "transformation_frame_id": "RollerShutter-2",
     "shape": {}
   },
   "scope": {
@@ -31,10 +40,6 @@
         "meta_config": {
           "entry": [
             {
-              "key": "OPENHAB_BINDING_CONFIG",
-              "value": "2/2/20, 2/2/21, 2/2/22+2/2/23"
-            },
-            {
               "key": "OPENHAB_BINDING_ITEM_ID",
               "value": "Hager_TYA628C__citec_csra_home_living__RollerShutter__Roller_Shutter_4__BlindStateService"
             }
@@ -44,11 +49,9 @@
       "unit_id": "d4b37376-9283-482e-9fff-e941a0aa31dd",
       "service_description": {
         "service_template_id": "a2175895-7dcf-4d51-96aa-dcb01b47ed04",
-        "type": "BLIND_STATE_SERVICE",
-        "pattern": "PROVIDER",
-        "meta_config": {}
-      },
-      "meta_config": {}
+        "service_type": "BLIND_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      }
     },
     {
       "binding_config": {
@@ -56,10 +59,6 @@
         "meta_config": {
           "entry": [
             {
-              "key": "OPENHAB_BINDING_CONFIG",
-              "value": "2/2/20, 2/2/21, 2/2/22+2/2/23"
-            },
-            {
               "key": "OPENHAB_BINDING_ITEM_ID",
               "value": "Hager_TYA628C__citec_csra_home_living__RollerShutter__Roller_Shutter_4__BlindStateService"
             }
@@ -69,11 +68,9 @@
       "unit_id": "d4b37376-9283-482e-9fff-e941a0aa31dd",
       "service_description": {
         "service_template_id": "a2175895-7dcf-4d51-96aa-dcb01b47ed04",
-        "type": "BLIND_STATE_SERVICE",
-        "pattern": "OPERATION",
-        "meta_config": {}
-      },
-      "meta_config": {}
+        "service_type": "BLIND_STATE_SERVICE",
+        "pattern": "OPERATION"
+      }
     }
   ],
   "meta_config": {},

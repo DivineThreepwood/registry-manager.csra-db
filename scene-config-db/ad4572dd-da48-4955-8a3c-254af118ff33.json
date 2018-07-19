@@ -1,13 +1,22 @@
 {
   "id": "ad4572dd-da48-4955-8a3c-254af118ff33",
-  "label": "AllOff Kitchen",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "AllOff Kitchen"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Scene-26"
   ],
-  "type": "SCENE",
+  "unit_type": "SCENE",
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-    "transformation_frame_id": "AllOff_Kitchen"
+    "transformation_frame_id": "Scene-26"
   },
   "scope": {
     "component": [
@@ -25,7 +34,7 @@
       "unit_id": "ad4572dd-da48-4955-8a3c-254af118ff33",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
       }
@@ -35,7 +44,7 @@
       "unit_id": "ad4572dd-da48-4955-8a3c-254af118ff33",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "meta_config": {}
       }
     }

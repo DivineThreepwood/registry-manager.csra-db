@@ -1,15 +1,24 @@
 {
   "id": "00eed9c5-bfb1-4664-91b6-f8234399504d",
   "unit_template_config_id": "Gira_429496730210000_BUTTON_5",
-  "label": "Task: LightOff",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Task: LightOff"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Button-1"
   ],
   "unit_host_id": "d9e491b1-27b3-4736-9ce0-c52476e827d3",
-  "type": "BUTTON",
+  "unit_type": "BUTTON",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-    "transformation_frame_id": "Task_LightOff",
+    "transformation_frame_id": "Button-1",
     "shape": {}
   },
   "scope": {
@@ -30,10 +39,6 @@
         "meta_config": {
           "entry": [
             {
-              "key": "OPENHAB_BINDING_CONFIG",
-              "value": "1/2/17"
-            },
-            {
               "key": "OPENHAB_BINDING_ITEM_ID",
               "value": "Gira_5133__citec_csra_home_hallway__Button__Task_LightOff__ButtonStateService"
             }
@@ -43,11 +48,9 @@
       "unit_id": "00eed9c5-bfb1-4664-91b6-f8234399504d",
       "service_description": {
         "service_template_id": "1d50901a-5cc1-4595-9180-334c3f3317dc",
-        "type": "BUTTON_STATE_SERVICE",
-        "pattern": "PROVIDER",
-        "meta_config": {}
-      },
-      "meta_config": {}
+        "service_type": "BUTTON_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      }
     }
   ],
   "meta_config": {},

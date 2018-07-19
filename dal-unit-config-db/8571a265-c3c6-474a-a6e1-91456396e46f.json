@@ -1,15 +1,24 @@
 {
   "id": "8571a265-c3c6-474a-a6e1-91456396e46f",
   "unit_template_config_id": "Gira_429496730250000_TEMPERATURE_CONTROLLER_0",
-  "label": "TemperatureControllerSports",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "TemperatureControllerSports"
+        ]
+      }
+    ]
+  },
   "alias": [
     "TemperatureController-3"
   ],
   "unit_host_id": "1fb25195-1d78-447f-a1aa-3fb1db979245",
-  "type": "TEMPERATURE_CONTROLLER",
+  "unit_type": "TEMPERATURE_CONTROLLER",
   "placement_config": {
     "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
-    "transformation_frame_id": "TemperatureControllerSports"
+    "transformation_frame_id": "TemperatureController-3"
   },
   "scope": {
     "component": [
@@ -28,10 +37,6 @@
         "meta_config": {
           "entry": [
             {
-              "key": "OPENHAB_BINDING_CONFIG",
-              "value": "4/4/4"
-            },
-            {
               "key": "OPENHAB_BINDING_ITEM_ID",
               "value": "Gira_5142__citec_csra_robotroom__TemperatureController__TemperatureControllerSports__TemperatureStateService"
             }
@@ -41,17 +46,15 @@
       "unit_id": "8571a265-c3c6-474a-a6e1-91456396e46f",
       "service_description": {
         "service_template_id": "0512aab5-78cf-4464-b699-078f6f3dfdc9",
-        "type": "TEMPERATURE_STATE_SERVICE",
+        "service_type": "TEMPERATURE_STATE_SERVICE",
         "pattern": "PROVIDER"
-      },
-      "meta_config": {}
+      }
     },
     {
       "binding_config": {
         "binding_id": "OPENHAB",
         "meta_config": {
           "entry": [
-            {},
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
               "value": "Gira_5142__citec_csra_robotroom__TemperatureController__TemperatureControllerSports__TargetTemperatureStateService"
@@ -62,17 +65,15 @@
       "unit_id": "8571a265-c3c6-474a-a6e1-91456396e46f",
       "service_description": {
         "service_template_id": "84e48be2-8d6d-451f-ab0b-42597b0f258b",
-        "type": "TARGET_TEMPERATURE_STATE_SERVICE",
+        "service_type": "TARGET_TEMPERATURE_STATE_SERVICE",
         "pattern": "PROVIDER"
-      },
-      "meta_config": {}
+      }
     },
     {
       "binding_config": {
         "binding_id": "OPENHAB",
         "meta_config": {
           "entry": [
-            {},
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
               "value": "Gira_5142__citec_csra_robotroom__TemperatureController__TemperatureControllerSports__TargetTemperatureStateService"
@@ -83,10 +84,9 @@
       "unit_id": "8571a265-c3c6-474a-a6e1-91456396e46f",
       "service_description": {
         "service_template_id": "84e48be2-8d6d-451f-ab0b-42597b0f258b",
-        "type": "TARGET_TEMPERATURE_STATE_SERVICE",
+        "service_type": "TARGET_TEMPERATURE_STATE_SERVICE",
         "pattern": "OPERATION"
-      },
-      "meta_config": {}
+      }
     }
   ],
   "meta_config": {},

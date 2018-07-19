@@ -1,0 +1,54 @@
+{
+  "id": "98572168-60ab-4e5f-929d-a8763654ecdd",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "BCO"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "BCOGroup"
+  ],
+  "unit_type": "AUTHORIZATION_GROUP",
+  "placement_config": {
+    "location_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
+    "transformation_frame_id": "BCOGroup"
+  },
+  "scope": {
+    "component": [
+      "manager",
+      "authorization",
+      "group",
+      "bco"
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "authorization_group_config": {
+    "member_id": [
+      "243dc2fa-c826-4951-84e5-826eda3c1451"
+    ]
+  },
+  "permission_config": {
+    "other_permission": {
+      "read": false,
+      "write": false,
+      "access": false
+    },
+    "group_permission": [
+      {
+        "group_id": "98572168-60ab-4e5f-929d-a8763654ecdd",
+        "permission": {
+          "read": true,
+          "write": true,
+          "access": true
+        }
+      }
+    ]
+  }
+}

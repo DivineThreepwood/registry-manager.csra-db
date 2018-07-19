@@ -1,15 +1,24 @@
 {
   "id": "deebbd1a-4db5-4125-84c9-b25c56e945fa",
   "unit_template_config_id": "Fibaro_FGMS-001_LIGHT_SENSOR_0",
-  "label": "Media",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Media"
+        ]
+      }
+    ]
+  },
   "alias": [
     "LightSensor-14"
   ],
   "unit_host_id": "12572989-0ba8-4a3e-b2cd-55ab483850cb",
-  "type": "LIGHT_SENSOR",
+  "unit_type": "LIGHT_SENSOR",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "Living_Media"
+    "transformation_frame_id": "LightSensor-14"
   },
   "scope": {
     "component": [
@@ -38,10 +47,9 @@
       "unit_id": "deebbd1a-4db5-4125-84c9-b25c56e945fa",
       "service_description": {
         "service_template_id": "02342f5f-357c-4636-8f52-3eefcb65d060",
-        "type": "ILLUMINANCE_STATE_SERVICE",
+        "service_type": "ILLUMINANCE_STATE_SERVICE",
         "pattern": "PROVIDER"
-      },
-      "meta_config": {}
+      }
     }
   ],
   "meta_config": {},

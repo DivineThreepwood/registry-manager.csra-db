@@ -1,13 +1,22 @@
 {
   "id": "e4b0503e-4a3a-40f4-9a80-61e89d6874d2",
-  "label": "Entrance",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Entrance"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-65"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "9be1344a-41f1-406b-bdae-41bfd5368f13",
-    "transformation_frame_id": "Outdoor_Entrance"
+    "transformation_frame_id": "Device-65"
   },
   "scope": {
     "component": [
@@ -40,8 +49,7 @@
       "location_id": "9be1344a-41f1-406b-bdae-41bfd5368f13",
       "timestamp": {
         "time": 1440771175655
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "79e16e8f-7c8d-48ec-b59b-84ba75ed593b",
     "unit_id": [
@@ -51,5 +59,8 @@
       "9408f3eb-a56d-49d5-abb1-4c380eb5c334",
       "cba4f819-9318-464f-86f9-af354c92d2d1"
     ]
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

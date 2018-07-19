@@ -1,15 +1,24 @@
 {
   "id": "acfc8c85-b647-4666-bc00-a83386f5db82",
   "unit_template_config_id": "Hager_TYA663A_DIMMER_2",
-  "label": "Dimmer",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Dimmer"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Dimmer-8"
   ],
   "unit_host_id": "f34a0c05-df62-41a8-a282-774390baa660",
-  "type": "DIMMER",
+  "unit_type": "DIMMER",
   "placement_config": {
     "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
-    "transformation_frame_id": "Bath_Dimmer",
+    "transformation_frame_id": "Dimmer-8",
     "shape": {}
   },
   "scope": {
@@ -30,9 +39,25 @@
         "meta_config": {
           "entry": [
             {
-              "key": "OPENHAB_BINDING_CONFIG",
-              "value": "3/0/1+3/0/4"
-            },
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Hager_TYA663A__citec_csra_home_bath__Dimmer__Dimmer__BrightnessStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "acfc8c85-b647-4666-bc00-a83386f5db82",
+      "service_description": {
+        "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
+        "service_type": "BRIGHTNESS_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
               "value": "Hager_TYA663A__citec_csra_home_bath__Dimmer__Dimmer__BrightnessStateService"
@@ -43,46 +68,16 @@
       "unit_id": "acfc8c85-b647-4666-bc00-a83386f5db82",
       "service_description": {
         "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
-        "type": "BRIGHTNESS_STATE_SERVICE",
-        "pattern": "PROVIDER",
-        "meta_config": {}
-      },
-      "meta_config": {}
-    },
-    {
-      "binding_config": {
-        "binding_id": "OPENHAB",
-        "meta_config": {
-          "entry": [
-            {
-              "key": "OPENHAB_BINDING_CONFIG",
-              "value": "3/0/1+3/0/4"
-            },
-            {
-              "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__citec_csra_home_bath__Dimmer__Dimmer__BrightnessStateService"
-            }
-          ]
-        }
-      },
-      "unit_id": "acfc8c85-b647-4666-bc00-a83386f5db82",
-      "service_description": {
-        "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
-        "type": "BRIGHTNESS_STATE_SERVICE",
+        "service_type": "BRIGHTNESS_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
-      },
-      "meta_config": {}
+      }
     },
     {
       "binding_config": {
         "binding_id": "OPENHAB",
         "meta_config": {
           "entry": [
-            {
-              "key": "OPENHAB_BINDING_CONFIG",
-              "value": "3/0/0+3/0/3"
-            },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
               "value": "Hager_TYA663A__citec_csra_home_bath__Dimmer__Dimmer__PowerStateService"
@@ -93,21 +88,16 @@
       "unit_id": "acfc8c85-b647-4666-bc00-a83386f5db82",
       "service_description": {
         "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
-        "type": "POWER_STATE_SERVICE",
+        "service_type": "POWER_STATE_SERVICE",
         "pattern": "PROVIDER",
         "meta_config": {}
-      },
-      "meta_config": {}
+      }
     },
     {
       "binding_config": {
         "binding_id": "OPENHAB",
         "meta_config": {
           "entry": [
-            {
-              "key": "OPENHAB_BINDING_CONFIG",
-              "value": "3/0/0+3/0/3"
-            },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
               "value": "Hager_TYA663A__citec_csra_home_bath__Dimmer__Dimmer__PowerStateService"
@@ -118,11 +108,10 @@
       "unit_id": "acfc8c85-b647-4666-bc00-a83386f5db82",
       "service_description": {
         "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
-        "type": "POWER_STATE_SERVICE",
+        "service_type": "POWER_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
-      },
-      "meta_config": {}
+      }
     }
   ],
   "meta_config": {},

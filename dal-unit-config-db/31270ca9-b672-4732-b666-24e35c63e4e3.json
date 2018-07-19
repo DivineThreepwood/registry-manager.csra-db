@@ -1,15 +1,24 @@
 {
   "id": "31270ca9-b672-4732-b666-24e35c63e4e3",
   "unit_template_config_id": "Fibaro_FGMS-001_MOTION_DETECTOR_0",
-  "label": "Control",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Control"
+        ]
+      }
+    ]
+  },
   "alias": [
     "MotionDetector-9"
   ],
   "unit_host_id": "3269e1e7-28fc-4bdb-9ff7-33ce1b751364",
-  "type": "MOTION_DETECTOR",
+  "unit_type": "MOTION_DETECTOR",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "Living_Control"
+    "transformation_frame_id": "MotionDetector-9"
   },
   "scope": {
     "component": [
@@ -38,10 +47,9 @@
       "unit_id": "31270ca9-b672-4732-b666-24e35c63e4e3",
       "service_description": {
         "service_template_id": "4ebe8edc-01be-4500-83a1-f753b306aa0f",
-        "type": "MOTION_STATE_SERVICE",
+        "service_type": "MOTION_STATE_SERVICE",
         "pattern": "PROVIDER"
-      },
-      "meta_config": {}
+      }
     }
   ],
   "meta_config": {},
