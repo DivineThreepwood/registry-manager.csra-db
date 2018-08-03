@@ -7,7 +7,8 @@
   "type": "DEVICE",
   "placement_config": {
     "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
-    "transformation_frame_id": "Bath_Global"
+    "transformation_frame_id": "Bath_Global",
+    "shape": {}
   },
   "scope": {
     "component": [
@@ -22,7 +23,7 @@
     "entry": [
       {
         "key": "OPENHAB_BINDING_DEVICE_ID",
-        "value": "36"
+        "value": "13"
       },
       {
         "key": "SENSOR_BOUNDINGBOX",

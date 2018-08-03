@@ -23,7 +23,7 @@
     "entry": [
       {
         "key": "OPENHAB_BINDING_DEVICE_ID",
-        "value": "43"
+        "value": "10"
       },
       {
         "key": "SENSOR_BOUNDINGBOX",

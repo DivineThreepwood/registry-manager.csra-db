@@ -7,7 +7,8 @@
   "type": "DEVICE",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "Couch"
+    "transformation_frame_id": "Couch",
+    "shape": {}
   },
   "scope": {
     "component": [
@@ -22,7 +23,7 @@
     "entry": [
       {
         "key": "OPENHAB_BINDING_DEVICE_ID",
-        "value": "32"
+        "value": "14"
       },
       {
         "key": "SENSOR_BOUNDINGBOX",

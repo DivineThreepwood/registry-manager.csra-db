@@ -7,7 +7,8 @@
   "type": "DEVICE",
   "placement_config": {
     "location_id": "9be1344a-41f1-406b-bdae-41bfd5368f13",
-    "transformation_frame_id": "Outdoor_Entrance"
+    "transformation_frame_id": "Outdoor_Entrance",
+    "shape": {}
   },
   "scope": {
     "component": [
@@ -22,7 +23,7 @@
     "entry": [
       {
         "key": "OPENHAB_BINDING_DEVICE_ID",
-        "value": "44"
+        "value": "18"
       },
       {
         "key": "SENSOR_BOUNDINGBOX",
