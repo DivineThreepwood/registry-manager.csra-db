@@ -7,7 +7,8 @@
   "type": "DEVICE",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-    "transformation_frame_id": "Hallway"
+    "transformation_frame_id": "Hallway",
+    "shape": {}
   },
   "scope": {
     "component": [
@@ -24,7 +25,7 @@
     "entry": [
       {
         "key": "OPENHAB_BINDING_DEVICE_ID",
-        "value": "30"
+        "value": "7"
       },
       {
         "key": "SENSOR_BOUNDINGBOX",
