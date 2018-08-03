@@ -1,34 +1,44 @@
 {
   "id": "079e8c07-7c69-4d84-bc5d-da84ebcf51df",
-  "label": "BorrowdUnit-1",
+  "label": "Terminal",
   "alias": [
     "Device-47"
   ],
   "type": "DEVICE",
   "placement_config": {
-    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
-    "transformation_frame_id": "BorrowdUnit-1"
+    "location_id": "76b8481c-72ed-4bf0-b35e-578c64f90265",
+    "transformation_frame_id": "Terminal",
+    "shape": {}
   },
   "scope": {
     "component": [
       "citec",
       "csra",
       "control",
+      "terminal",
       "device",
-      "borrowdunit-1"
+      "terminal"
     ]
   },
   "bound_to_unit_host": true,
-  "meta_config": {},
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "20"
+      }
+    ]
+  },
   "enabling_state": {
-    "value": "DISABLED"
+    "value": "ENABLED"
   },
   "device_config": {
     "serial_number": "FMS017",
     "inventory_state": {
-      "value": "BORROWED",
+      "value": "INSTALLED",
+      "location_id": "76b8481c-72ed-4bf0-b35e-578c64f90265",
       "timestamp": {
-        "time": 1443201942883
+        "time": 1533290759335000
       },
       "owner_id": ""
     },

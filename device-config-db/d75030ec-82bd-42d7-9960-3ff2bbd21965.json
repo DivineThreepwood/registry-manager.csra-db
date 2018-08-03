@@ -6,8 +6,8 @@
   ],
   "type": "DEVICE",
   "placement_config": {
-    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
-    "transformation_frame_id": "Control_Entrance",
+    "location_id": "0254b92b-1996-4e4d-818c-a7a8fc2f6981",
+    "transformation_frame_id": "Control_Entrance_Entrance",
     "shape": {}
   },
   "scope": {
@@ -15,6 +15,7 @@
       "citec",
       "csra",
       "control",
+      "entrance",
       "device",
       "entrance"
     ]
@@ -39,7 +40,7 @@
     "serial_number": "FMS001",
     "inventory_state": {
       "value": "INSTALLED",
-      "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+      "location_id": "0254b92b-1996-4e4d-818c-a7a8fc2f6981",
       "timestamp": {
         "time": 1440769843840
       },

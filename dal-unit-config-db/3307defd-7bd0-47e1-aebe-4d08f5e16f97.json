@@ -1,24 +1,24 @@
 {
-  "id": "43379f1f-4406-4004-b1a9-689b2774a02e",
+  "id": "3307defd-7bd0-47e1-aebe-4d08f5e16f97",
   "unit_template_config_id": "Fibaro_FGMS-001_LIGHT_SENSOR_0",
-  "label": "Terminal",
+  "label": "Window",
   "alias": [
-    "LightSensor-12"
+    "LightSensor-19"
   ],
-  "unit_host_id": "079e8c07-7c69-4d84-bc5d-da84ebcf51df",
+  "unit_host_id": "91fd0efe-8c5a-42e1-942e-69da07dfa380",
   "type": "LIGHT_SENSOR",
   "placement_config": {
-    "location_id": "76b8481c-72ed-4bf0-b35e-578c64f90265",
-    "transformation_frame_id": "Terminal_Terminal"
+    "location_id": "485c5820-4da4-48b8-8221-ed59738b3dbb",
+    "transformation_frame_id": "Window"
   },
   "scope": {
     "component": [
       "citec",
       "csra",
       "control",
-      "terminal",
+      "window",
       "lightsensor",
-      "terminal"
+      "window"
     ]
   },
   "bound_to_unit_host": true,
@@ -30,21 +30,18 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Motion_Sensor__citec_csra_control_terminal__LightSensor__Terminal__IlluminanceStateService"
+              "value": "Motion_Sensor__citec_csra_control_window__LightSensor__Window__IlluminanceStateService"
             }
           ]
         }
       },
-      "unit_id": "43379f1f-4406-4004-b1a9-689b2774a02e",
+      "unit_id": "3307defd-7bd0-47e1-aebe-4d08f5e16f97",
       "service_description": {
         "service_template_id": "02342f5f-357c-4636-8f52-3eefcb65d060",
-        "type": "ILLUMINANCE_STATE_SERVICE",
-        "pattern": "PROVIDER"
-      },
-      "meta_config": {}
+        "type": "ILLUMINANCE_STATE_SERVICE"
+      }
     }
   ],
-  "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"
   }

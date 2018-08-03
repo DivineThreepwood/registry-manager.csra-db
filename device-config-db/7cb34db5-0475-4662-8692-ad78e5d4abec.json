@@ -1,0 +1,49 @@
+{
+  "id": "7cb34db5-0475-4662-8692-ad78e5d4abec",
+  "label": "Center",
+  "alias": [
+    "Device-129"
+  ],
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "5964181e-adad-4306-a1bb-c89eb86b4d82",
+    "transformation_frame_id": "Center",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "citec",
+      "csra",
+      "control",
+      "center",
+      "device",
+      "center"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "4"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "5964181e-adad-4306-a1bb-c89eb86b4d82"
+    },
+    "device_class_id": "79e16e8f-7c8d-48ec-b59b-84ba75ed593b",
+    "unit_id": [
+      "ec7c6425-08b9-4d00-baee-89f7864d5697",
+      "a2e12d4d-2ff1-470b-9801-255d7324f33f",
+      "e1cc3c59-24da-4ece-bf3a-ca75b5dcef74",
+      "3ff1d1fc-dbf2-4093-9358-ca76975735c8",
+      "c88d41a8-486f-47c5-b77f-699fe6abebb8"
+    ]
+  }
+}

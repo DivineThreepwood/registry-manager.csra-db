@@ -1,23 +1,24 @@
 {
   "id": "f898b244-aebc-47d8-9502-b667c505e583",
   "unit_template_config_id": "Fibaro_FGMS-001_BATTERY_0",
-  "label": "BorrowdUnit-1",
+  "label": "Terminal",
   "alias": [
     "Battery-32"
   ],
   "unit_host_id": "079e8c07-7c69-4d84-bc5d-da84ebcf51df",
   "type": "BATTERY",
   "placement_config": {
-    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
-    "transformation_frame_id": "Control_BorrowdUnit-1"
+    "location_id": "76b8481c-72ed-4bf0-b35e-578c64f90265",
+    "transformation_frame_id": "Terminal_Terminal"
   },
   "scope": {
     "component": [
       "citec",
       "csra",
       "control",
+      "terminal",
       "battery",
-      "borrowdunit-1"
+      "terminal"
     ]
   },
   "bound_to_unit_host": true,
@@ -29,7 +30,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Motion_Sensor__citec_csra_control__Battery__BorrowdUnit-1__BatteryStateService"
+              "value": "Motion_Sensor__citec_csra_control_terminal__Battery__Terminal__BatteryStateService"
             }
           ]
         }
@@ -45,6 +46,6 @@
   ],
   "meta_config": {},
   "enabling_state": {
-    "value": "DISABLED"
+    "value": "ENABLED"
   }
 }
