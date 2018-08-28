@@ -1,13 +1,22 @@
 {
   "id": "5a83b039-a374-4829-a40c-75505ef1476f",
-  "label": "Sink",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Sink"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-67"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
-    "transformation_frame_id": "Sink",
+    "transformation_frame_id": "Device-67",
     "shape": {}
   },
   "scope": {
@@ -43,8 +52,7 @@
       "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
       "timestamp": {
         "time": 1440770366619
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "79e16e8f-7c8d-48ec-b59b-84ba75ed593b",
     "unit_id": [
@@ -54,5 +62,8 @@
       "385d4f0e-f7e3-48b0-a8a1-450687f78db6",
       "7eb843b9-543d-4bcd-a90f-527438e8873e"
     ]
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

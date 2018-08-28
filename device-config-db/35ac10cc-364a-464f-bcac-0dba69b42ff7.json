@@ -1,13 +1,22 @@
 {
   "id": "35ac10cc-364a-464f-bcac-0dba69b42ff7",
-  "label": "Pathway",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Pathway"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-75"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
-    "transformation_frame_id": "Pathway",
+    "transformation_frame_id": "Device-75",
     "shape": {}
   },
   "scope": {
@@ -42,8 +51,7 @@
       "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
       "timestamp": {
         "time": 1440770891694
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "79e16e8f-7c8d-48ec-b59b-84ba75ed593b",
     "unit_id": [
@@ -53,5 +61,8 @@
       "e0f96204-9494-428c-979b-8a50a87986f8",
       "e6901e9e-d975-4332-88df-f7e4b5f2f82e"
     ]
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

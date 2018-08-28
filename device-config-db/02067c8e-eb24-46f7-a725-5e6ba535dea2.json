@@ -1,13 +1,22 @@
 {
   "id": "02067c8e-eb24-46f7-a725-5e6ba535dea2",
-  "label": "CeilingLamp 1",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "CeilingLamp 1"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-18"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-    "transformation_frame_id": "CeilingLamp_1",
+    "transformation_frame_id": "Device-18",
     "shape": {}
   },
   "scope": {
@@ -39,12 +48,14 @@
       "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
       "timestamp": {
         "time": 1441017275627
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "a9977a4a-ef9c-4280-81a3-79bf6b8069b4",
     "unit_id": [
       "8d310f30-d60a-4627-8884-373c5e2dcbdd"
     ]
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

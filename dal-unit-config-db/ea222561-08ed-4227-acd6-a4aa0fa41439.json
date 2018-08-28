@@ -1,15 +1,24 @@
 {
   "id": "ea222561-08ed-4227-acd6-a4aa0fa41439",
   "unit_template_config_id": "e18d2b16-1969-4e5b-b40c-8b255c2cdb8c_VIDEO_DEPTH_SOURCE_0",
-  "label": "Kinect pug",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Kinect pug"
+        ]
+      }
+    ]
+  },
   "alias": [
     "VideoDepthSource-20"
   ],
   "unit_host_id": "d32f99bf-dc57-456e-9510-1146eba29bc4",
-  "type": "VIDEO_DEPTH_SOURCE",
+  "unit_type": "VIDEO_DEPTH_SOURCE",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
-    "transformation_frame_id": "Home_Kinect_pug"
+    "transformation_frame_id": "VideoDepthSource-20"
   },
   "scope": {
     "component": [

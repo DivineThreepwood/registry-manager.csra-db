@@ -1,15 +1,24 @@
 {
   "id": "f08a94ae-79e3-4de7-a0b6-f167cdeb49b0",
   "unit_template_config_id": "Homematic_Sec_SC_2_REED_CONTACT_0",
-  "label": "RightWindowReedSwitch",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "RightWindowReedSwitch"
+        ]
+      }
+    ]
+  },
   "alias": [
     "ReedContact-9"
   ],
   "unit_host_id": "2f9003c9-e87d-425e-9601-4ae6360e2d7a",
-  "type": "REED_CONTACT",
+  "unit_type": "REED_CONTACT",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "RightWindowReedSwitch"
+    "transformation_frame_id": "ReedContact-9"
   },
   "scope": {
     "component": [
@@ -38,10 +47,9 @@
       "unit_id": "f08a94ae-79e3-4de7-a0b6-f167cdeb49b0",
       "service_description": {
         "service_template_id": "7a3eaa02-2d76-4c93-9c66-4da45ea7bafa",
-        "type": "CONTACT_STATE_SERVICE",
+        "service_type": "CONTACT_STATE_SERVICE",
         "pattern": "PROVIDER"
-      },
-      "meta_config": {}
+      }
     }
   ],
   "meta_config": {},

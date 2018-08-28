@@ -1,13 +1,22 @@
 {
   "id": "878616f0-538f-4eae-9db5-3e78a3adb74b",
-  "label": "StudTestLamp",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "StudTestLamp"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-31"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
-    "transformation_frame_id": "StudTestLamp"
+    "transformation_frame_id": "Device-31"
   },
   "scope": {
     "component": [
@@ -29,12 +38,14 @@
       "value": "IN_STOCK",
       "timestamp": {
         "time": 1445609543043
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "6f661f5b-3906-452a-adb6-a4e5fb94eee4",
     "unit_id": [
       "844a5b35-4b9c-4db2-9d22-4842db77bc95"
     ]
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

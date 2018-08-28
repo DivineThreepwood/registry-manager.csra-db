@@ -1,13 +1,22 @@
 {
   "id": "2661efe0-93c4-4574-8393-e7ad49e4db77",
-  "label": "LivingAbsenceEnergySaving",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "LivingAbsenceEnergySaving"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Agent-3"
   ],
-  "type": "AGENT",
+  "unit_type": "AGENT",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "LivingAbsenceEnergySaving",
+    "transformation_frame_id": "Agent-3",
     "shape": {}
   },
   "scope": {
@@ -23,29 +32,23 @@
   },
   "service_config": [
     {
-      "binding_config": {
-        "meta_config": {}
-      },
+      "binding_config": {},
       "unit_id": "2661efe0-93c4-4574-8393-e7ad49e4db77",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
-      },
-      "meta_config": {}
+      }
     },
     {
-      "binding_config": {
-        "meta_config": {}
-      },
+      "binding_config": {},
       "unit_id": "2661efe0-93c4-4574-8393-e7ad49e4db77",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "meta_config": {}
-      },
-      "meta_config": {}
+      }
     }
   ],
   "meta_config": {},

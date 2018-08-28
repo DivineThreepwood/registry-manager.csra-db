@@ -1,13 +1,22 @@
 {
   "id": "c6e58def-b52e-47e0-bf68-1988d2b7d4e9",
-  "label": "Chill",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Chill"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Scene-21"
   ],
-  "type": "SCENE",
+  "unit_type": "SCENE",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
-    "transformation_frame_id": "Chill"
+    "transformation_frame_id": "Scene-21"
   },
   "scope": {
     "component": [
@@ -24,7 +33,7 @@
       "unit_id": "c6e58def-b52e-47e0-bf68-1988d2b7d4e9",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
       }
@@ -34,7 +43,7 @@
       "unit_id": "c6e58def-b52e-47e0-bf68-1988d2b7d4e9",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "meta_config": {}
       }
     }

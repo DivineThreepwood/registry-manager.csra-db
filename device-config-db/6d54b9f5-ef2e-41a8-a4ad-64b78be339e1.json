@@ -1,13 +1,22 @@
 {
   "id": "6d54b9f5-ef2e-41a8-a4ad-64b78be339e1",
-  "label": "ControlDoorReedSwitch",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "ControlDoorReedSwitch"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-86"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
-    "transformation_frame_id": "ControlDoorReedSwitch",
+    "transformation_frame_id": "Device-86",
     "shape": {}
   },
   "scope": {
@@ -38,13 +47,15 @@
       "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
       "timestamp": {
         "time": 1441014120177
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "569ff797-09f1-4437-8404-391017776796",
     "unit_id": [
       "ae5eca72-d58b-48b5-a2d7-4ec12d157d2d",
       "47558be4-2abf-4795-939b-9ed3748c1dd4"
     ]
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

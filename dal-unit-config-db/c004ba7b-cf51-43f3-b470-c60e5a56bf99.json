@@ -1,15 +1,24 @@
 {
   "id": "c004ba7b-cf51-43f3-b470-c60e5a56bf99",
   "unit_template_config_id": "e18d2b16-1969-4e5b-b40c-8b255c2cdb8c_VIDEO_RGB_SOURCE_0",
-  "label": "Kinect atl",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Kinect atl"
+        ]
+      }
+    ]
+  },
   "alias": [
     "VideoRgbSource-10"
   ],
   "unit_host_id": "6678a48f-05a1-47f1-b962-35227c396675",
-  "type": "VIDEO_RGB_SOURCE",
+  "unit_type": "VIDEO_RGB_SOURCE",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "Kinect_atl",
+    "transformation_frame_id": "VideoRgbSource-10",
     "position": {
       "translation": {
         "x": 1.226136533322924,

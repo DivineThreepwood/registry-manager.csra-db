@@ -1,13 +1,22 @@
 {
   "id": "d8b33eec-41ff-4a4e-b3a6-af8ed44750ad",
-  "label": "ASUS_90IW0122-B01UA_E3IWBDA33551",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "ASUS_90IW0122-B01UA_E3IWBDA33551"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-77"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-    "transformation_frame_id": "ASUS_90IW0122-B01UA_E3IWBDA33551",
+    "transformation_frame_id": "Device-77",
     "position": {
       "translation": {
         "x": 0.62,
@@ -45,8 +54,7 @@
       "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
       "timestamp": {
         "time": 1441985354037
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "3069a4e2-25c9-4873-bee2-43df7a77e44c",
     "unit_id": [
@@ -54,5 +62,8 @@
       "72f220fd-5b35-4979-8b3b-0ccabe4d98a3",
       "d0493f5e-872a-465c-8e4b-2ab1160be28e"
     ]
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

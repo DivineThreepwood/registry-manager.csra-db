@@ -1,13 +1,22 @@
 {
   "id": "01bbbce7-fa7d-4215-9105-fc44f9d6ead1",
-  "label": "S1",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "S1"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-98"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
-    "transformation_frame_id": "S1",
+    "transformation_frame_id": "Device-98",
     "shape": {}
   },
   "scope": {

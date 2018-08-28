@@ -1,13 +1,22 @@
 {
   "id": "0b0c5679-1eb5-4a2c-986d-e8f994818263",
-  "label": "Party",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Party"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Scene-9"
   ],
-  "type": "SCENE",
+  "unit_type": "SCENE",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
-    "transformation_frame_id": "Party"
+    "transformation_frame_id": "Scene-9"
   },
   "scope": {
     "component": [
@@ -24,7 +33,7 @@
       "unit_id": "0b0c5679-1eb5-4a2c-986d-e8f994818263",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
       }
@@ -34,7 +43,7 @@
       "unit_id": "0b0c5679-1eb5-4a2c-986d-e8f994818263",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "meta_config": {}
       }
     }

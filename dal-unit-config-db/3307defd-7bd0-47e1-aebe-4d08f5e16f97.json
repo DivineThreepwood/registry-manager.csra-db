@@ -1,15 +1,24 @@
 {
   "id": "3307defd-7bd0-47e1-aebe-4d08f5e16f97",
   "unit_template_config_id": "Fibaro_FGMS-001_LIGHT_SENSOR_0",
-  "label": "Window",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Window"
+        ]
+      }
+    ]
+  },
   "alias": [
     "LightSensor-19"
   ],
   "unit_host_id": "91fd0efe-8c5a-42e1-942e-69da07dfa380",
-  "type": "LIGHT_SENSOR",
+  "unit_type": "LIGHT_SENSOR",
   "placement_config": {
     "location_id": "485c5820-4da4-48b8-8221-ed59738b3dbb",
-    "transformation_frame_id": "Window"
+    "transformation_frame_id": "LightSensor-19"
   },
   "scope": {
     "component": [
@@ -38,7 +47,8 @@
       "unit_id": "3307defd-7bd0-47e1-aebe-4d08f5e16f97",
       "service_description": {
         "service_template_id": "02342f5f-357c-4636-8f52-3eefcb65d060",
-        "type": "ILLUMINANCE_STATE_SERVICE"
+        "service_type": "ILLUMINANCE_STATE_SERVICE",
+        "pattern": "PROVIDER"
       }
     }
   ],

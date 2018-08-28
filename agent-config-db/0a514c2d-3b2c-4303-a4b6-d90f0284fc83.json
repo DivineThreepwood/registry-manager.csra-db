@@ -1,13 +1,22 @@
 {
   "id": "0a514c2d-3b2c-4303-a4b6-d90f0284fc83",
-  "label": "HallwayDimmerPowerStateSynchroniser",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "HallwayDimmerPowerStateSynchroniser"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Agent-21"
   ],
-  "type": "AGENT",
+  "unit_type": "AGENT",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-    "transformation_frame_id": "HallwayDimmerPowerStateSynchroniser",
+    "transformation_frame_id": "Agent-21",
     "shape": {}
   },
   "scope": {
@@ -23,29 +32,23 @@
   },
   "service_config": [
     {
-      "binding_config": {
-        "meta_config": {}
-      },
+      "binding_config": {},
       "unit_id": "0a514c2d-3b2c-4303-a4b6-d90f0284fc83",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
-      },
-      "meta_config": {}
+      }
     },
     {
-      "binding_config": {
-        "meta_config": {}
-      },
+      "binding_config": {},
       "unit_id": "0a514c2d-3b2c-4303-a4b6-d90f0284fc83",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "meta_config": {}
-      },
-      "meta_config": {}
+      }
     }
   ],
   "meta_config": {

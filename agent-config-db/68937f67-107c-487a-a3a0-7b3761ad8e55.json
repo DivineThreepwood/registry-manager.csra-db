@@ -1,13 +1,22 @@
 {
   "id": "68937f67-107c-487a-a3a0-7b3761ad8e55",
-  "label": "WardrobePresenceLight",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "WardrobePresenceLight"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Agent-14"
   ],
-  "type": "AGENT",
+  "unit_type": "AGENT",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-    "transformation_frame_id": "WardrobePresenceLight",
+    "transformation_frame_id": "Agent-14",
     "shape": {}
   },
   "scope": {
@@ -23,29 +32,23 @@
   },
   "service_config": [
     {
-      "binding_config": {
-        "meta_config": {}
-      },
+      "binding_config": {},
       "unit_id": "68937f67-107c-487a-a3a0-7b3761ad8e55",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
-      },
-      "meta_config": {}
+      }
     },
     {
-      "binding_config": {
-        "meta_config": {}
-      },
+      "binding_config": {},
       "unit_id": "68937f67-107c-487a-a3a0-7b3761ad8e55",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "meta_config": {}
-      },
-      "meta_config": {}
+      }
     }
   ],
   "meta_config": {},

@@ -1,13 +1,22 @@
 {
   "id": "8db4a9cb-b8b9-4b88-964e-d5be15e5bb39",
-  "label": "Reading",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Reading"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Scene-11"
   ],
-  "type": "SCENE",
+  "unit_type": "SCENE",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "Reading"
+    "transformation_frame_id": "Scene-11"
   },
   "scope": {
     "component": [
@@ -25,7 +34,7 @@
       "unit_id": "8db4a9cb-b8b9-4b88-964e-d5be15e5bb39",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
       }
@@ -35,7 +44,7 @@
       "unit_id": "8db4a9cb-b8b9-4b88-964e-d5be15e5bb39",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "meta_config": {}
       }
     }

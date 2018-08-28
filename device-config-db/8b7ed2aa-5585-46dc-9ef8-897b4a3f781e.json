@@ -1,13 +1,22 @@
 {
   "id": "8b7ed2aa-5585-46dc-9ef8-897b4a3f781e",
-  "label": "S6",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "S6"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-52"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
-    "transformation_frame_id": "S6",
+    "transformation_frame_id": "Device-52",
     "shape": {}
   },
   "scope": {

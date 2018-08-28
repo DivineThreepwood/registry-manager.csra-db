@@ -1,13 +1,22 @@
 {
   "id": "91fd0efe-8c5a-42e1-942e-69da07dfa380",
-  "label": "Window",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Window"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-127"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "485c5820-4da4-48b8-8221-ed59738b3dbb",
-    "transformation_frame_id": "Window",
+    "transformation_frame_id": "Device-127",
     "shape": {}
   },
   "scope": {

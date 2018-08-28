@@ -1,13 +1,22 @@
 {
   "id": "d32f99bf-dc57-456e-9510-1146eba29bc4",
-  "label": "Kinect pug",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Kinect pug"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-15"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "Kinect_pug",
+    "transformation_frame_id": "Device-15",
     "position": {
       "translation": {
         "x": 0.7120163229277754,

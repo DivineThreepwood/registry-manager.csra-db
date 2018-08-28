@@ -1,13 +1,22 @@
 {
   "id": "3a600e53-132a-46f0-ba7c-4882cbfca1af",
-  "label": "Intel_D4250WYKH_G6YK42002587",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Intel_D4250WYKH_G6YK42002587"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-40"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "9be1344a-41f1-406b-bdae-41bfd5368f13",
-    "transformation_frame_id": "Intel_D4250WYKH_G6YK42002587"
+    "transformation_frame_id": "Device-40"
   },
   "scope": {
     "component": [
@@ -29,9 +38,11 @@
       "value": "BORROWED",
       "timestamp": {
         "time": 1442512262253
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "135013fd-80f2-436f-8652-d7790a7fff38"
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

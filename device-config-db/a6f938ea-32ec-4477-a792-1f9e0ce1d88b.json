@@ -1,13 +1,22 @@
 {
   "id": "a6f938ea-32ec-4477-a792-1f9e0ce1d88b",
-  "label": "Global_3",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Global_3"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-60"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
-    "transformation_frame_id": "Global_3"
+    "transformation_frame_id": "Device-60"
   },
   "scope": {
     "component": [
@@ -38,12 +47,14 @@
       "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
       "timestamp": {
         "time": 1441017035923
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "a9977a4a-ef9c-4280-81a3-79bf6b8069b4",
     "unit_id": [
       "efa33b37-8809-4483-beed-480fd9b50446"
     ]
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

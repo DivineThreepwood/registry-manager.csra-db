@@ -1,13 +1,22 @@
 {
   "id": "e8815586-ddf8-490a-99e1-5592a2014b55",
-  "label": "PathwayBelowButtons",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "PathwayBelowButtons"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-81"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
-    "transformation_frame_id": "PathwayBelowButtons",
+    "transformation_frame_id": "Device-81",
     "shape": {}
   },
   "scope": {
@@ -31,8 +40,7 @@
       "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
       "timestamp": {
         "time": 1440775049019
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "e40b8bbd-9e23-4288-9c15-05b8e90ca8e1",
     "unit_id": [
@@ -43,5 +51,8 @@
       "f1e12c87-8072-47f9-a71f-658fafe85056",
       "8a38a631-9ced-4b38-97b7-680b5db36adb"
     ]
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

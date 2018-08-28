@@ -1,15 +1,24 @@
 {
   "id": "29593e74-096f-4b79-8810-c0cbcb5b67ae",
   "unit_template_config_id": "Fibaro_FGMS-001_TEMPERATURE_SENSOR_0",
-  "label": "Terminal",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Terminal"
+        ]
+      }
+    ]
+  },
   "alias": [
     "TemperatureSensor-5"
   ],
   "unit_host_id": "079e8c07-7c69-4d84-bc5d-da84ebcf51df",
-  "type": "TEMPERATURE_SENSOR",
+  "unit_type": "TEMPERATURE_SENSOR",
   "placement_config": {
     "location_id": "76b8481c-72ed-4bf0-b35e-578c64f90265",
-    "transformation_frame_id": "Terminal"
+    "transformation_frame_id": "TemperatureSensor-5"
   },
   "scope": {
     "component": [
@@ -30,26 +39,6 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Motion_Sensor__citec_csra_control_terminal__TemperatureSensor__Terminal__TemperatureStateService"
-            }
-          ]
-        }
-      },
-      "unit_id": "29593e74-096f-4b79-8810-c0cbcb5b67ae",
-      "service_description": {
-        "service_template_id": "0512aab5-78cf-4464-b699-078f6f3dfdc9",
-        "type": "TEMPERATURE_STATE_SERVICE",
-        "pattern": "PROVIDER"
-      },
-      "meta_config": {}
-    },
-    {
-      "binding_config": {
-        "binding_id": "OPENHAB",
-        "meta_config": {
-          "entry": [
-            {
-              "key": "OPENHAB_BINDING_ITEM_ID",
               "value": "Motion_Sensor__citec_csra_control_terminal__TemperatureSensor__Terminal__TemperatureAlarmStateService"
             }
           ]
@@ -58,7 +47,26 @@
       "unit_id": "29593e74-096f-4b79-8810-c0cbcb5b67ae",
       "service_description": {
         "service_template_id": "14f52fce-8ec0-4f9d-8279-47547381473a",
-        "type": "TEMPERATURE_ALARM_STATE_SERVICE",
+        "service_type": "TEMPERATURE_ALARM_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      }
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Motion_Sensor__citec_csra_control_terminal__TemperatureSensor__Terminal__TemperatureStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "29593e74-096f-4b79-8810-c0cbcb5b67ae",
+      "service_description": {
+        "service_template_id": "0512aab5-78cf-4464-b699-078f6f3dfdc9",
+        "service_type": "TEMPERATURE_STATE_SERVICE",
         "pattern": "PROVIDER"
       }
     }

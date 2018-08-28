@@ -1,15 +1,24 @@
 {
   "id": "033b4aa5-9bcf-47ae-b38e-b2540011c0ea",
   "unit_template_config_id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_SWITCH_3",
-  "label": "S5_C4",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "S5_C4"
+        ]
+      }
+    ]
+  },
   "alias": [
     "PowerSwitch-25"
   ],
   "unit_host_id": "4864704e-34dc-4123-acb8-fd1abbb90108",
-  "type": "POWER_SWITCH",
+  "unit_type": "POWER_SWITCH",
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
-    "transformation_frame_id": "S5_C4",
+    "transformation_frame_id": "PowerSwitch-25",
     "shape": {}
   },
   "scope": {
@@ -38,20 +47,15 @@
       "unit_id": "033b4aa5-9bcf-47ae-b38e-b2540011c0ea",
       "service_description": {
         "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
-        "type": "POWER_STATE_SERVICE",
-        "meta_config": {}
-      },
-      "meta_config": {}
+        "service_type": "POWER_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      }
     },
     {
       "binding_config": {
         "binding_id": "OPENHAB",
         "meta_config": {
           "entry": [
-            {
-              "key": "OPENHAB_BINDING_CONFIG",
-              "value": "5/1/100+5/1/108"
-            },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
               "value": "Gira_1046__citec_csra_control__PowerSwitch__S5_C4__PowerStateService"
@@ -62,11 +66,9 @@
       "unit_id": "033b4aa5-9bcf-47ae-b38e-b2540011c0ea",
       "service_description": {
         "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
-        "type": "POWER_STATE_SERVICE",
-        "pattern": "OPERATION",
-        "meta_config": {}
-      },
-      "meta_config": {}
+        "service_type": "POWER_STATE_SERVICE",
+        "pattern": "OPERATION"
+      }
     }
   ],
   "meta_config": {},

@@ -1,15 +1,24 @@
 {
   "id": "7e479546-e973-42cc-bc03-8a673bfceb70",
   "unit_template_config_id": "Hager_TYA663A_DIMMER_0",
-  "label": "CeilingWindowDimmer",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "CeilingWindowDimmer"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Dimmer-9"
   ],
   "unit_host_id": "d7f45b8f-f3b3-4d1a-b107-3231b4b33f3b",
-  "type": "DIMMER",
+  "unit_type": "DIMMER",
   "placement_config": {
     "location_id": "0df5bbb8-2d17-4f81-9b34-314a26ae713a",
-    "transformation_frame_id": "CeilingWindowDimmer",
+    "transformation_frame_id": "Dimmer-9",
     "position": {
       "translation": {
         "x": 1.996966724599532,
@@ -44,9 +53,25 @@
         "meta_config": {
           "entry": [
             {
-              "key": "OPENHAB_BINDING_CONFIG",
-              "value": "2/0/10+2/0/19"
-            },
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Hager_TYA663A__citec_csra_home_living_lounge__Dimmer__CeilingWindowDimmer__BrightnessStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "7e479546-e973-42cc-bc03-8a673bfceb70",
+      "service_description": {
+        "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
+        "service_type": "BRIGHTNESS_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
               "value": "Hager_TYA663A__citec_csra_home_living_lounge__Dimmer__CeilingWindowDimmer__BrightnessStateService"
@@ -57,46 +82,16 @@
       "unit_id": "7e479546-e973-42cc-bc03-8a673bfceb70",
       "service_description": {
         "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
-        "type": "BRIGHTNESS_STATE_SERVICE",
-        "pattern": "PROVIDER",
-        "meta_config": {}
-      },
-      "meta_config": {}
-    },
-    {
-      "binding_config": {
-        "binding_id": "OPENHAB",
-        "meta_config": {
-          "entry": [
-            {
-              "key": "OPENHAB_BINDING_CONFIG",
-              "value": "2/0/10+2/0/19"
-            },
-            {
-              "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__citec_csra_home_living_lounge__Dimmer__CeilingWindowDimmer__BrightnessStateService"
-            }
-          ]
-        }
-      },
-      "unit_id": "7e479546-e973-42cc-bc03-8a673bfceb70",
-      "service_description": {
-        "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
-        "type": "BRIGHTNESS_STATE_SERVICE",
+        "service_type": "BRIGHTNESS_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
-      },
-      "meta_config": {}
+      }
     },
     {
       "binding_config": {
         "binding_id": "OPENHAB",
         "meta_config": {
           "entry": [
-            {
-              "key": "OPENHAB_BINDING_CONFIG",
-              "value": "2/0/3+2/0/18"
-            },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
               "value": "Hager_TYA663A__citec_csra_home_living_lounge__Dimmer__CeilingWindowDimmer__PowerStateService"
@@ -107,21 +102,16 @@
       "unit_id": "7e479546-e973-42cc-bc03-8a673bfceb70",
       "service_description": {
         "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
-        "type": "POWER_STATE_SERVICE",
+        "service_type": "POWER_STATE_SERVICE",
         "pattern": "PROVIDER",
         "meta_config": {}
-      },
-      "meta_config": {}
+      }
     },
     {
       "binding_config": {
         "binding_id": "OPENHAB",
         "meta_config": {
           "entry": [
-            {
-              "key": "OPENHAB_BINDING_CONFIG",
-              "value": "2/0/3+2/0/18"
-            },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
               "value": "Hager_TYA663A__citec_csra_home_living_lounge__Dimmer__CeilingWindowDimmer__PowerStateService"
@@ -132,11 +122,10 @@
       "unit_id": "7e479546-e973-42cc-bc03-8a673bfceb70",
       "service_description": {
         "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
-        "type": "POWER_STATE_SERVICE",
+        "service_type": "POWER_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
-      },
-      "meta_config": {}
+      }
     }
   ],
   "meta_config": {

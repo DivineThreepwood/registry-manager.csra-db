@@ -1,15 +1,24 @@
 {
   "id": "6b86d96d-72cd-46ce-8012-434c06d721f5",
   "unit_template_config_id": "Fibaro_FGMS-001_TAMPER_DETECTOR_0",
-  "label": "Shower",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Shower"
+        ]
+      }
+    ]
+  },
   "alias": [
     "TamperDetector-7"
   ],
   "unit_host_id": "2ccf07ae-51fa-4b7f-83b2-08b978eaf082",
-  "type": "TAMPER_DETECTOR",
+  "unit_type": "TAMPER_DETECTOR",
   "placement_config": {
     "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
-    "transformation_frame_id": "Bath_Shower"
+    "transformation_frame_id": "TamperDetector-7"
   },
   "scope": {
     "component": [
@@ -38,10 +47,9 @@
       "unit_id": "6b86d96d-72cd-46ce-8012-434c06d721f5",
       "service_description": {
         "service_template_id": "cf6dbca4-a12b-4eea-b842-dff75a53c68c",
-        "type": "TAMPER_STATE_SERVICE",
+        "service_type": "TAMPER_STATE_SERVICE",
         "pattern": "PROVIDER"
-      },
-      "meta_config": {}
+      }
     }
   ],
   "meta_config": {},

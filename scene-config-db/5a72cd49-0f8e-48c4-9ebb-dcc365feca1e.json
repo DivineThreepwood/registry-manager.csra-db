@@ -1,13 +1,22 @@
 {
   "id": "5a72cd49-0f8e-48c4-9ebb-dcc365feca1e",
-  "label": "Cooking",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Cooking"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Scene-15"
   ],
-  "type": "SCENE",
+  "unit_type": "SCENE",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
-    "transformation_frame_id": "Cooking"
+    "transformation_frame_id": "Scene-15"
   },
   "scope": {
     "component": [
@@ -24,7 +33,7 @@
       "unit_id": "5a72cd49-0f8e-48c4-9ebb-dcc365feca1e",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
       }
@@ -34,7 +43,7 @@
       "unit_id": "5a72cd49-0f8e-48c4-9ebb-dcc365feca1e",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "meta_config": {}
       }
     }

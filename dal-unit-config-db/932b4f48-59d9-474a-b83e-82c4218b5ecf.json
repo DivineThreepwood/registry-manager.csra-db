@@ -1,15 +1,24 @@
 {
   "id": "932b4f48-59d9-474a-b83e-82c4218b5ecf",
   "unit_template_config_id": "Philips_KV01-18U_COLORABLE_LIGHT_0",
-  "label": "Table Corner Lamp Bottom",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Table Corner Lamp Bottom"
+        ]
+      }
+    ]
+  },
   "alias": [
     "ColorableLight-1"
   ],
   "unit_host_id": "6bf6c556-1312-462f-baaf-447effcfd6b8",
-  "type": "COLORABLE_LIGHT",
+  "unit_type": "COLORABLE_LIGHT",
   "placement_config": {
     "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
-    "transformation_frame_id": "Table_Corner_Lamp_Bottom",
+    "transformation_frame_id": "ColorableLight-1",
     "position": {
       "translation": {
         "x": -0.0413345477008642,
@@ -50,10 +59,10 @@
       "unit_id": "932b4f48-59d9-474a-b83e-82c4218b5ecf",
       "service_description": {
         "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
-        "type": "BRIGHTNESS_STATE_SERVICE",
-        "pattern": "PROVIDER"
-      },
-      "meta_config": {}
+        "service_type": "BRIGHTNESS_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
+      }
     },
     {
       "binding_config": {
@@ -70,10 +79,10 @@
       "unit_id": "932b4f48-59d9-474a-b83e-82c4218b5ecf",
       "service_description": {
         "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
-        "type": "BRIGHTNESS_STATE_SERVICE",
-        "pattern": "OPERATION"
-      },
-      "meta_config": {}
+        "service_type": "BRIGHTNESS_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
     },
     {
       "binding_config": {
@@ -90,10 +99,10 @@
       "unit_id": "932b4f48-59d9-474a-b83e-82c4218b5ecf",
       "service_description": {
         "service_template_id": "0f9527d7-d6f8-4a09-af14-1a8d91c264bd",
-        "type": "COLOR_STATE_SERVICE",
-        "pattern": "PROVIDER"
-      },
-      "meta_config": {}
+        "service_type": "COLOR_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
+      }
     },
     {
       "binding_config": {
@@ -110,10 +119,10 @@
       "unit_id": "932b4f48-59d9-474a-b83e-82c4218b5ecf",
       "service_description": {
         "service_template_id": "0f9527d7-d6f8-4a09-af14-1a8d91c264bd",
-        "type": "COLOR_STATE_SERVICE",
-        "pattern": "OPERATION"
-      },
-      "meta_config": {}
+        "service_type": "COLOR_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
     },
     {
       "binding_config": {
@@ -130,10 +139,10 @@
       "unit_id": "932b4f48-59d9-474a-b83e-82c4218b5ecf",
       "service_description": {
         "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
-        "type": "POWER_STATE_SERVICE",
-        "pattern": "PROVIDER"
-      },
-      "meta_config": {}
+        "service_type": "POWER_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
+      }
     },
     {
       "binding_config": {
@@ -150,10 +159,10 @@
       "unit_id": "932b4f48-59d9-474a-b83e-82c4218b5ecf",
       "service_description": {
         "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
-        "type": "POWER_STATE_SERVICE",
-        "pattern": "OPERATION"
-      },
-      "meta_config": {}
+        "service_type": "POWER_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
     }
   ],
   "meta_config": {},

@@ -1,13 +1,22 @@
 {
   "id": "acb2a103-1c5c-4023-96d5-c88b8a9a042c",
-  "label": "HallwayAboveButtons",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "HallwayAboveButtons"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-36"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-    "transformation_frame_id": "HallwayAboveButtons"
+    "transformation_frame_id": "Device-36"
   },
   "scope": {
     "component": [
@@ -31,8 +40,7 @@
       "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
       "timestamp": {
         "time": 1440775443898
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "e40b8bbd-9e23-4288-9c15-05b8e90ca8e1",
     "unit_id": [
@@ -43,5 +51,8 @@
       "03e2302e-8879-4989-b305-211ebd127cc8",
       "68f6544b-d805-4bf4-bc51-45e344ed830d"
     ]
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

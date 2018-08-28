@@ -1,13 +1,22 @@
 {
   "id": "f9ab18d8-60bf-4ad8-933c-0686d6e9d19f",
-  "label": "Maintenance",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Maintenance"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Scene-22"
   ],
-  "type": "SCENE",
+  "unit_type": "SCENE",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
-    "transformation_frame_id": "Maintenance",
+    "transformation_frame_id": "Scene-22",
     "shape": {}
   },
   "scope": {
@@ -21,29 +30,23 @@
   },
   "service_config": [
     {
-      "binding_config": {
-        "meta_config": {}
-      },
+      "binding_config": {},
       "unit_id": "f9ab18d8-60bf-4ad8-933c-0686d6e9d19f",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
-      },
-      "meta_config": {}
+      }
     },
     {
-      "binding_config": {
-        "meta_config": {}
-      },
+      "binding_config": {},
       "unit_id": "f9ab18d8-60bf-4ad8-933c-0686d6e9d19f",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "meta_config": {}
-      },
-      "meta_config": {}
+      }
     }
   ],
   "meta_config": {},

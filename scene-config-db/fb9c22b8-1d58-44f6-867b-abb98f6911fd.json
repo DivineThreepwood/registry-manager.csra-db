@@ -1,13 +1,22 @@
 {
   "id": "fb9c22b8-1d58-44f6-867b-abb98f6911fd",
-  "label": "Reset",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Reset"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Scene-13"
   ],
-  "type": "SCENE",
+  "unit_type": "SCENE",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
-    "transformation_frame_id": "Reset",
+    "transformation_frame_id": "Scene-13",
     "shape": {}
   },
   "scope": {
@@ -21,29 +30,23 @@
   },
   "service_config": [
     {
-      "binding_config": {
-        "meta_config": {}
-      },
+      "binding_config": {},
       "unit_id": "fb9c22b8-1d58-44f6-867b-abb98f6911fd",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
-      },
-      "meta_config": {}
+      }
     },
     {
-      "binding_config": {
-        "meta_config": {}
-      },
+      "binding_config": {},
       "unit_id": "fb9c22b8-1d58-44f6-867b-abb98f6911fd",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "meta_config": {}
-      },
-      "meta_config": {}
+      }
     }
   ],
   "meta_config": {},

@@ -1,15 +1,24 @@
 {
   "id": "b4af10fe-115c-4b23-a6f7-5033071c1655",
   "unit_template_config_id": "Fibaro_FGMS-001_LIGHT_SENSOR_0",
-  "label": "Hallway",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Hallway"
+        ]
+      }
+    ]
+  },
   "alias": [
     "LightSensor-5"
   ],
   "unit_host_id": "7e3043fb-b942-4bd0-9fe1-5b8ccadb6926",
-  "type": "LIGHT_SENSOR",
+  "unit_type": "LIGHT_SENSOR",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-    "transformation_frame_id": "Hallway_Hallway"
+    "transformation_frame_id": "LightSensor-5"
   },
   "scope": {
     "component": [
@@ -38,10 +47,9 @@
       "unit_id": "b4af10fe-115c-4b23-a6f7-5033071c1655",
       "service_description": {
         "service_template_id": "02342f5f-357c-4636-8f52-3eefcb65d060",
-        "type": "ILLUMINANCE_STATE_SERVICE",
+        "service_type": "ILLUMINANCE_STATE_SERVICE",
         "pattern": "PROVIDER"
-      },
-      "meta_config": {}
+      }
     }
   ],
   "meta_config": {},

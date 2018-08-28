@@ -1,13 +1,22 @@
 {
   "id": "3873b82e-f9d0-44c8-b9ee-c7a40d438fca",
-  "label": "TableDimmerPowerStateSynchroniser",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "TableDimmerPowerStateSynchroniser"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Agent-20"
   ],
-  "type": "AGENT",
+  "unit_type": "AGENT",
   "placement_config": {
     "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
-    "transformation_frame_id": "TableDimmerPowerStateSynchroniser",
+    "transformation_frame_id": "Agent-20",
     "shape": {}
   },
   "scope": {
@@ -24,29 +33,23 @@
   },
   "service_config": [
     {
-      "binding_config": {
-        "meta_config": {}
-      },
+      "binding_config": {},
       "unit_id": "3873b82e-f9d0-44c8-b9ee-c7a40d438fca",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
-      },
-      "meta_config": {}
+      }
     },
     {
-      "binding_config": {
-        "meta_config": {}
-      },
+      "binding_config": {},
       "unit_id": "3873b82e-f9d0-44c8-b9ee-c7a40d438fca",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "meta_config": {}
-      },
-      "meta_config": {}
+      }
     }
   ],
   "meta_config": {

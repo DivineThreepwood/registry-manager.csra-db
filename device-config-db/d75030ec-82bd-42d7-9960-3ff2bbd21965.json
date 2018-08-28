@@ -1,13 +1,22 @@
 {
   "id": "d75030ec-82bd-42d7-9960-3ff2bbd21965",
-  "label": "Entrance",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Entrance"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-26"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "0254b92b-1996-4e4d-818c-a7a8fc2f6981",
-    "transformation_frame_id": "Control_Entrance_Entrance",
+    "transformation_frame_id": "Device-26",
     "shape": {}
   },
   "scope": {
@@ -43,8 +52,7 @@
       "location_id": "0254b92b-1996-4e4d-818c-a7a8fc2f6981",
       "timestamp": {
         "time": 1440769843840
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "79e16e8f-7c8d-48ec-b59b-84ba75ed593b",
     "unit_id": [
@@ -54,5 +62,8 @@
       "b099fa1e-a4b8-4665-b7cf-e01701161eb3",
       "08e54371-ed6d-4d87-9328-7a9e2c82666f"
     ]
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

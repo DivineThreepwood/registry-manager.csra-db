@@ -1,15 +1,24 @@
 {
   "id": "5f8cafff-2a65-44d2-8da6-ffccaea5ee15",
-  "label": "InfoPlant",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "InfoPlant"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Object-2",
     "Plant"
   ],
   "unit_host_id": "5f8cafff-2a65-44d2-8da6-ffccaea5ee15",
-  "type": "OBJECT",
+  "unit_type": "OBJECT",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "InfoPlant",
+    "transformation_frame_id": "Object-2",
     "position": {
       "translation": {
         "x": 3.4336966876361625,

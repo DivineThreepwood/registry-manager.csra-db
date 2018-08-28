@@ -1,13 +1,22 @@
 {
   "id": "c9b69cd9-a9d9-43f1-be87-fbf0fdd51103",
-  "label": "floor",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "floor"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-24"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-    "transformation_frame_id": "floor",
+    "transformation_frame_id": "Device-24",
     "shape": {}
   },
   "scope": {
@@ -39,9 +48,11 @@
       "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
       "timestamp": {
         "time": 1440771353784
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "18f5ee7f-23ba-48f7-a0a8-59713cf256fd"
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

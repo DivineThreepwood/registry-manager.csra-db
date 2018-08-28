@@ -1,15 +1,24 @@
 {
   "id": "d788455f-0a3b-4742-97d4-93c4ede56e6f",
   "unit_template_config_id": "ASUS_90IW0122-B01UA_VIDEO_DEPTH_SOURCE_0",
-  "label": "ASUS_90IW0122-B01UA_E3IWBDA33553",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "ASUS_90IW0122-B01UA_E3IWBDA33553"
+        ]
+      }
+    ]
+  },
   "alias": [
     "VideoDepthSource-12"
   ],
   "unit_host_id": "d56ea74f-4c40-40f8-88fd-ff97234454a4",
-  "type": "VIDEO_DEPTH_SOURCE",
+  "unit_type": "VIDEO_DEPTH_SOURCE",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
-    "transformation_frame_id": "ASUS_90IW0122-B01UA_E3IWBDA33553"
+    "transformation_frame_id": "VideoDepthSource-12"
   },
   "scope": {
     "component": [

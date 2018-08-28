@@ -1,13 +1,22 @@
 {
   "id": "61015a31-89ec-4a8f-9f43-95830ebe9cc3",
-  "label": "Right Control Window",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Right Control Window"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Connection-14"
   ],
-  "type": "CONNECTION",
+  "unit_type": "CONNECTION",
   "placement_config": {
     "location_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
-    "transformation_frame_id": "Right_Control_Window",
+    "transformation_frame_id": "Connection-14",
     "shape": {}
   },
   "scope": {
@@ -23,7 +32,7 @@
       "unit_id": "61015a31-89ec-4a8f-9f43-95830ebe9cc3",
       "service_description": {
         "service_template_id": "eb544f83-26c3-45f6-93da-5b9599de6049",
-        "type": "DOOR_STATE_SERVICE",
+        "service_type": "DOOR_STATE_SERVICE",
         "meta_config": {}
       }
     },
@@ -32,7 +41,7 @@
       "unit_id": "61015a31-89ec-4a8f-9f43-95830ebe9cc3",
       "service_description": {
         "service_template_id": "a2400b26-4cee-47a8-b78c-8511f37e2359",
-        "type": "PASSAGE_STATE_SERVICE",
+        "service_type": "PASSAGE_STATE_SERVICE",
         "meta_config": {}
       }
     },
@@ -41,7 +50,7 @@
       "unit_id": "61015a31-89ec-4a8f-9f43-95830ebe9cc3",
       "service_description": {
         "service_template_id": "355916ac-6a3e-45c3-878c-ef5786ccb223",
-        "type": "WINDOW_STATE_SERVICE",
+        "service_type": "WINDOW_STATE_SERVICE",
         "meta_config": {}
       }
     }

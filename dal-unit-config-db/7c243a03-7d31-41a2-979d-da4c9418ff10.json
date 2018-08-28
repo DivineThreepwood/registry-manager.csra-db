@@ -1,15 +1,24 @@
 {
   "id": "7c243a03-7d31-41a2-979d-da4c9418ff10",
   "unit_template_config_id": "Fibaro_FGMS-001_MOTION_DETECTOR_0",
-  "label": "Hallway",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Hallway"
+        ]
+      }
+    ]
+  },
   "alias": [
     "MotionDetector-13"
   ],
   "unit_host_id": "7e3043fb-b942-4bd0-9fe1-5b8ccadb6926",
-  "type": "MOTION_DETECTOR",
+  "unit_type": "MOTION_DETECTOR",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-    "transformation_frame_id": "Hallway_Hallway"
+    "transformation_frame_id": "MotionDetector-13"
   },
   "scope": {
     "component": [
@@ -38,10 +47,9 @@
       "unit_id": "7c243a03-7d31-41a2-979d-da4c9418ff10",
       "service_description": {
         "service_template_id": "4ebe8edc-01be-4500-83a1-f753b306aa0f",
-        "type": "MOTION_STATE_SERVICE",
+        "service_type": "MOTION_STATE_SERVICE",
         "pattern": "PROVIDER"
-      },
-      "meta_config": {}
+      }
     }
   ],
   "meta_config": {},

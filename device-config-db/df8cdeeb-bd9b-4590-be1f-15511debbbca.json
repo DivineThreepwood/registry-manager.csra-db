@@ -1,13 +1,22 @@
 {
   "id": "df8cdeeb-bd9b-4590-be1f-15511debbbca",
-  "label": "Table_0",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Table_0"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-55"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
-    "transformation_frame_id": "Table_0",
+    "transformation_frame_id": "Device-55",
     "position": {
       "translation": {
         "x": 0.845933486649072,
@@ -52,12 +61,14 @@
       "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
       "timestamp": {
         "time": 1441015675342
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "6f661f5b-3906-452a-adb6-a4e5fb94eee4",
     "unit_id": [
       "e0ed255a-21c1-4293-9283-f0ddc3aa242a"
     ]
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

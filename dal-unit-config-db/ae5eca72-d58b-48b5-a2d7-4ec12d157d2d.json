@@ -1,15 +1,24 @@
 {
   "id": "ae5eca72-d58b-48b5-a2d7-4ec12d157d2d",
   "unit_template_config_id": "Homematic_Sec_SC_2_BATTERY_0",
-  "label": "ControlDoorReedSwitch",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "ControlDoorReedSwitch"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Battery-1"
   ],
   "unit_host_id": "6d54b9f5-ef2e-41a8-a4ad-64b78be339e1",
-  "type": "BATTERY",
+  "unit_type": "BATTERY",
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
-    "transformation_frame_id": "ControlDoorReedSwitch"
+    "transformation_frame_id": "Battery-1"
   },
   "scope": {
     "component": [
@@ -37,10 +46,9 @@
       "unit_id": "ae5eca72-d58b-48b5-a2d7-4ec12d157d2d",
       "service_description": {
         "service_template_id": "d1dd033f-9dae-46fb-9355-a32b0b898db7",
-        "type": "BATTERY_STATE_SERVICE",
+        "service_type": "BATTERY_STATE_SERVICE",
         "pattern": "PROVIDER"
-      },
-      "meta_config": {}
+      }
     }
   ],
   "meta_config": {},
