@@ -1,0 +1,66 @@
+{
+  "id": "9b897359-8f0d-416b-a2fe-2ca1df94618f",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "AmbientColorAuthorizationGroup"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "AuthorizationGroup-8"
+  ],
+  "unit_type": "AUTHORIZATION_GROUP",
+  "placement_config": {
+    "location_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
+    "transformation_frame_id": "AuthorizationGroup-8"
+  },
+  "scope": {
+    "component": [
+      "manager",
+      "authorization",
+      "group",
+      "ambientcolorauthorizationgroup"
+    ]
+  },
+  "meta_config": {
+    "entry": [
+      {
+        "key": "AGENT_CLASS_ID",
+        "value": "ff76a0a9-7977-435a-bca1-04669731ed8f"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "authorization_group_config": {
+    "member_id": [
+      "f391d843-7c15-4411-a3ec-d7c29b9fa215",
+      "3d16b843-6802-4071-aa72-f5699b442b0c",
+      "25f887ee-9465-4958-9766-788e6130b79f",
+      "4b1f6d83-d3dc-46d9-a4a5-c3efb037276a",
+      "032c6ce8-5175-4a87-8be5-f25332703c98"
+    ]
+  },
+  "permission_config": {
+    "other_permission": {
+      "read": false,
+      "write": false,
+      "access": false
+    },
+    "group_permission": [
+      {
+        "group_id": "9b897359-8f0d-416b-a2fe-2ca1df94618f",
+        "permission": {
+          "read": true,
+          "write": true,
+          "access": true
+        }
+      }
+    ]
+  }
+}

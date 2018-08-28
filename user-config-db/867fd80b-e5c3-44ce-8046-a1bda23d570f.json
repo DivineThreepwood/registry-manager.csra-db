@@ -1,0 +1,115 @@
+{
+  "id": "867fd80b-e5c3-44ce-8046-a1bda23d570f",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "KitchenAbsenceEnergySaving@Kitchen"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "User-19"
+  ],
+  "unit_type": "USER",
+  "placement_config": {
+    "location_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
+    "transformation_frame_id": "User-19"
+  },
+  "scope": {
+    "component": [
+      "manager",
+      "user",
+      "kitchenabsenceenergysaving_kitchen"
+    ]
+  },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "867fd80b-e5c3-44ce-8046-a1bda23d570f",
+      "service_description": {
+        "service_template_id": "14bf74e2-dce4-47c7-9c58-cc85dea24ed5",
+        "service_type": "ACTIVITY_MULTI_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "867fd80b-e5c3-44ce-8046-a1bda23d570f",
+      "service_description": {
+        "service_template_id": "14bf74e2-dce4-47c7-9c58-cc85dea24ed5",
+        "service_type": "ACTIVITY_MULTI_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "867fd80b-e5c3-44ce-8046-a1bda23d570f",
+      "service_description": {
+        "service_template_id": "5d664e5a-6fa3-433a-a1e0-ca81d79aacff",
+        "service_type": "PRESENCE_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "867fd80b-e5c3-44ce-8046-a1bda23d570f",
+      "service_description": {
+        "service_template_id": "5d664e5a-6fa3-433a-a1e0-ca81d79aacff",
+        "service_type": "PRESENCE_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "867fd80b-e5c3-44ce-8046-a1bda23d570f",
+      "service_description": {
+        "service_template_id": "4537a330-af91-4499-bc3b-3c559e9b6ea0",
+        "service_type": "USER_TRANSIT_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "867fd80b-e5c3-44ce-8046-a1bda23d570f",
+      "service_description": {
+        "service_template_id": "4537a330-af91-4499-bc3b-3c559e9b6ea0",
+        "service_type": "USER_TRANSIT_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "UNIT_ID",
+        "value": "c1df1059-7823-4c24-8943-04db2bb04271"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "user_config": {
+    "user_name": "KitchenAbsenceEnergySaving@Kitchen",
+    "is_system_user": true
+  },
+  "permission_config": {
+    "owner_id": "867fd80b-e5c3-44ce-8046-a1bda23d570f",
+    "owner_permission": {
+      "read": true,
+      "write": true,
+      "access": true
+    },
+    "other_permission": {
+      "read": false,
+      "write": false,
+      "access": false
+    }
+  }
+}
