@@ -8,7 +8,7 @@
   "unit_host_id": "12572989-0ba8-4a3e-b2cd-55ab483850cb",
   "type": "TEMPERATURE_SENSOR",
   "placement_config": {
-    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "location_id": "eb89de19-36db-4f26-b8a5-a75df850892e",
     "transformation_frame_id": "Media"
   },
   "scope": {
@@ -17,6 +17,7 @@
       "csra",
       "home",
       "living",
+      "hometheater",
       "temperaturesensor",
       "media"
     ]
@@ -30,7 +31,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Motion_Sensor__citec_csra_home_living__TemperatureSensor__Media__TemperatureStateService"
+              "value": "Motion_Sensor__citec_csra_home_living_hometheater__TemperatureSensor__Media__TemperatureStateService"
             }
           ]
         }
@@ -50,7 +51,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Motion_Sensor__citec_csra_home_living__TemperatureSensor__Media__TemperatureAlarmStateService"
+              "value": "Motion_Sensor__citec_csra_home_living_hometheater__TemperatureSensor__Media__TemperatureAlarmStateService"
             }
           ]
         }

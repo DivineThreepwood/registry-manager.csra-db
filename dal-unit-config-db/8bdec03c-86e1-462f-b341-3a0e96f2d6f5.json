@@ -8,8 +8,8 @@
   "unit_host_id": "2ccf07ae-51fa-4b7f-83b2-08b978eaf082",
   "type": "TEMPERATURE_SENSOR",
   "placement_config": {
-    "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
-    "transformation_frame_id": "Bath_Shower"
+    "location_id": "cd696027-fb4f-497c-af30-144859a462da",
+    "transformation_frame_id": "Shower_Shower"
   },
   "scope": {
     "component": [
@@ -17,6 +17,7 @@
       "csra",
       "home",
       "bath",
+      "shower",
       "temperaturesensor",
       "shower"
     ]
@@ -30,7 +31,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Motion_Sensor__citec_csra_home_bath__TemperatureSensor__Shower__TemperatureStateService"
+              "value": "Motion_Sensor__citec_csra_home_bath_shower__TemperatureSensor__Shower__TemperatureStateService"
             }
           ]
         }
@@ -50,7 +51,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Motion_Sensor__citec_csra_home_bath__TemperatureSensor__Shower__TemperatureAlarmStateService"
+              "value": "Motion_Sensor__citec_csra_home_bath_shower__TemperatureSensor__Shower__TemperatureAlarmStateService"
             }
           ]
         }

@@ -8,8 +8,8 @@
   "unit_host_id": "88f06270-9441-4afc-8a8d-54a7ab4aaef6",
   "type": "TEMPERATURE_SENSOR",
   "placement_config": {
-    "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-    "transformation_frame_id": "Hallway_Entrance"
+    "location_id": "cff20d86-c7e8-4d12-87e1-ebc67c7e0c93",
+    "transformation_frame_id": "Entrance_Entrance"
   },
   "scope": {
     "component": [
@@ -17,6 +17,7 @@
       "csra",
       "home",
       "hallway",
+      "entrance",
       "temperaturesensor",
       "entrance"
     ]
@@ -30,7 +31,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Motion_Sensor__citec_csra_home_hallway__TemperatureSensor__Entrance__TemperatureStateService"
+              "value": "Motion_Sensor__citec_csra_home_hallway_entrance__TemperatureSensor__Entrance__TemperatureStateService"
             }
           ]
         }
@@ -50,7 +51,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Motion_Sensor__citec_csra_home_hallway__TemperatureSensor__Entrance__TemperatureAlarmStateService"
+              "value": "Motion_Sensor__citec_csra_home_hallway_entrance__TemperatureSensor__Entrance__TemperatureAlarmStateService"
             }
           ]
         }

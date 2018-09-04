@@ -6,7 +6,7 @@
   ],
   "type": "DEVICE",
   "placement_config": {
-    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
     "transformation_frame_id": "Table",
     "shape": {}
   },
@@ -16,6 +16,7 @@
       "csra",
       "home",
       "living",
+      "dining",
       "device",
       "table"
     ]
@@ -40,7 +41,7 @@
     "serial_number": "FMS012",
     "inventory_state": {
       "value": "INSTALLED",
-      "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+      "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
       "timestamp": {
         "time": 1440770780917
       },

@@ -6,7 +6,7 @@
   ],
   "type": "DEVICE",
   "placement_config": {
-    "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+    "location_id": "dae2ee74-5748-46bb-a95a-1054ce40ea0a",
     "transformation_frame_id": "Interaction",
     "shape": {}
   },
@@ -15,6 +15,7 @@
       "citec",
       "csra",
       "robotroom",
+      "interaction",
       "device",
       "interaction"
     ]
@@ -39,7 +40,7 @@
     "serial_number": "FMS013",
     "inventory_state": {
       "value": "INSTALLED",
-      "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+      "location_id": "dae2ee74-5748-46bb-a95a-1054ce40ea0a",
       "timestamp": {
         "time": 1440770835477
       },

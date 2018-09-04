@@ -6,7 +6,7 @@
   ],
   "type": "DEVICE",
   "placement_config": {
-    "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+    "location_id": "f5dd3070-a8fc-46ae-9a18-e0adc7130c73",
     "transformation_frame_id": "Sink",
     "shape": {}
   },
@@ -16,6 +16,7 @@
       "csra",
       "home",
       "bath",
+      "basin",
       "device",
       "sink"
     ]
@@ -40,7 +41,7 @@
     "serial_number": "FMS005",
     "inventory_state": {
       "value": "INSTALLED",
-      "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+      "location_id": "f5dd3070-a8fc-46ae-9a18-e0adc7130c73",
       "timestamp": {
         "time": 1440770366619
       },

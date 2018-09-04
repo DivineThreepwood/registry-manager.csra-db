@@ -8,14 +8,15 @@
   "unit_host_id": "80de8bfe-04a0-455a-94b8-f27b2ffabd16",
   "type": "LIGHT_SENSOR",
   "placement_config": {
-    "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
-    "transformation_frame_id": "RobotRoom_Interaction"
+    "location_id": "dae2ee74-5748-46bb-a95a-1054ce40ea0a",
+    "transformation_frame_id": "Interaction_Interaction"
   },
   "scope": {
     "component": [
       "citec",
       "csra",
       "robotroom",
+      "interaction",
       "lightsensor",
       "interaction"
     ]
@@ -29,7 +30,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Motion_Sensor__citec_csra_robotroom__LightSensor__Interaction__IlluminanceStateService"
+              "value": "Motion_Sensor__citec_csra_robotroom_interaction__LightSensor__Interaction__IlluminanceStateService"
             }
           ]
         }

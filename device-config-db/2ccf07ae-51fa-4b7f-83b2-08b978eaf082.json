@@ -6,7 +6,7 @@
   ],
   "type": "DEVICE",
   "placement_config": {
-    "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+    "location_id": "cd696027-fb4f-497c-af30-144859a462da",
     "transformation_frame_id": "Shower",
     "shape": {}
   },
@@ -16,6 +16,7 @@
       "csra",
       "home",
       "bath",
+      "shower",
       "device",
       "shower"
     ]
@@ -40,7 +41,7 @@
     "serial_number": "FMS003",
     "inventory_state": {
       "value": "INSTALLED",
-      "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+      "location_id": "cd696027-fb4f-497c-af30-144859a462da",
       "timestamp": {
         "time": 1440770194218
       },

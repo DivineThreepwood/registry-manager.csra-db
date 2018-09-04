@@ -3,8 +3,7 @@
   "unit_template_config_id": "SimonProduction_HandleRev1_COLORABLE_LIGHT_0",
   "label": "503",
   "alias": [
-    "ColorableLight-23",
-    "cupboard1"
+    "ColorableLight-23"
   ],
   "unit_host_id": "9735550c-bfc0-422f-b26b-ba2ae2fc3bcb",
   "type": "COLORABLE_LIGHT",

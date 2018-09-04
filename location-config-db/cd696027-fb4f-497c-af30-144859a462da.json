@@ -293,6 +293,14 @@
   "location_config": {
     "type": "REGION",
     "root": false,
+    "unit_id": [
+      "37a1f9a7-57ab-4dfb-8061-2774eeffaf4e",
+      "2ccf07ae-51fa-4b7f-83b2-08b978eaf082",
+      "5ab9159f-b057-40f7-94fc-579fc4f283d3",
+      "8bdec03c-86e1-462f-b341-3a0e96f2d6f5",
+      "1826c9d3-931e-41ac-a37d-f0e57b4697d9",
+      "6b86d96d-72cd-46ce-8012-434c06d721f5"
+    ],
     "tile_config": {
       "meta_config": {}
     }

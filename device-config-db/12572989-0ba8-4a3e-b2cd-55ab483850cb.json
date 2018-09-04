@@ -6,7 +6,7 @@
   ],
   "type": "DEVICE",
   "placement_config": {
-    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "location_id": "eb89de19-36db-4f26-b8a5-a75df850892e",
     "transformation_frame_id": "Media",
     "shape": {}
   },
@@ -16,6 +16,7 @@
       "csra",
       "home",
       "living",
+      "hometheater",
       "device",
       "media"
     ]
@@ -40,7 +41,7 @@
     "serial_number": "FMS011",
     "inventory_state": {
       "value": "INSTALLED",
-      "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+      "location_id": "eb89de19-36db-4f26-b8a5-a75df850892e",
       "timestamp": {
         "time": 1440770729277
       },

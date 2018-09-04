@@ -1,7 +1,7 @@
 {
   "id": "6a347801-c3e6-4893-a841-9b8d3577abfa",
   "unit_template_config_id": "SimonProduction_HandleRev1_COLORABLE_LIGHT_0",
-  "label": "507",
+  "label": "504",
   "alias": [
     "ColorableLight-2",
     "drawer2"
@@ -10,7 +10,7 @@
   "type": "COLORABLE_LIGHT",
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-    "transformation_frame_id": "507",
+    "transformation_frame_id": "504",
     "position": {
       "translation": {
         "x": 0.6891246590360736,
@@ -33,7 +33,7 @@
       "home",
       "kitchen",
       "colorablelight",
-      "507"
+      "504"
     ]
   },
   "bound_to_unit_host": true,

@@ -6,7 +6,7 @@
   ],
   "type": "DEVICE",
   "placement_config": {
-    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "location_id": "23771e28-3fbe-4753-8f1e-38f0deb16326",
     "transformation_frame_id": "Control",
     "shape": {}
   },
@@ -16,6 +16,7 @@
       "csra",
       "home",
       "living",
+      "info",
       "device",
       "control"
     ]
@@ -40,7 +41,7 @@
     "serial_number": "FMS002",
     "inventory_state": {
       "value": "INSTALLED",
-      "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+      "location_id": "23771e28-3fbe-4753-8f1e-38f0deb16326",
       "timestamp": {
         "time": 1440770084786
       },

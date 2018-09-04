@@ -73,23 +73,29 @@
       "meta_config": {}
     },
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "2c95255e-a491-46d7-a6a6-f66d5e6c2d3b",
       "service_description": {
         "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
         "type": "POWER_STATE_SERVICE",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     },
     {
-      "binding_config": {},
+      "binding_config": {
+        "meta_config": {}
+      },
       "unit_id": "2c95255e-a491-46d7-a6a6-f66d5e6c2d3b",
       "service_description": {
         "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
         "type": "POWER_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     }
   ],
   "meta_config": {},
@@ -102,7 +108,8 @@
       "72ad4c6b-80f7-431a-bf2e-31ff58066426",
       "e83686fd-99bc-44a0-9170-e6166598a95c",
       "79c495a1-cb54-4eb8-9047-f09a3b97b720",
-      "6a347801-c3e6-4893-a841-9b8d3577abfa"
+      "6a347801-c3e6-4893-a841-9b8d3577abfa",
+      "8e919ea0-26ca-4e31-b650-b00a2101320a"
     ],
     "unit_type": "COLORABLE_LIGHT",
     "service_description": [

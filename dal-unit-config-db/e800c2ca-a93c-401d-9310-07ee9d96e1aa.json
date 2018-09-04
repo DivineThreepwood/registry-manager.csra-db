@@ -8,8 +8,8 @@
   "unit_host_id": "f79b60b8-168c-4bf7-9b1b-87fb0c999224",
   "type": "TAMPER_DETECTOR",
   "placement_config": {
-    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "Living_Table"
+    "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
+    "transformation_frame_id": "Dining_Table"
   },
   "scope": {
     "component": [
@@ -17,6 +17,7 @@
       "csra",
       "home",
       "living",
+      "dining",
       "tamperdetector",
       "table"
     ]
@@ -30,7 +31,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Motion_Sensor__citec_csra_home_living__TamperDetector__Table__TamperStateService"
+              "value": "Motion_Sensor__citec_csra_home_living_dining__TamperDetector__Table__TamperStateService"
             }
           ]
         }

@@ -3,8 +3,7 @@
   "unit_template_config_id": "SimonProduction_HandleRev1_COLORABLE_LIGHT_0",
   "label": "502",
   "alias": [
-    "ColorableLight-22",
-    "drawer1"
+    "ColorableLight-22"
   ],
   "unit_host_id": "713eccd9-8a4d-4a69-89e8-aa39bd1235e6",
   "type": "COLORABLE_LIGHT",
@@ -132,6 +131,6 @@
     ]
   },
   "enabling_state": {
-    "value": "ENABLED"
+    "value": "DISABLED"
   }
 }

@@ -8,8 +8,8 @@
   "unit_host_id": "5a83b039-a374-4829-a40c-75505ef1476f",
   "type": "TAMPER_DETECTOR",
   "placement_config": {
-    "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
-    "transformation_frame_id": "Bath_Sink"
+    "location_id": "f5dd3070-a8fc-46ae-9a18-e0adc7130c73",
+    "transformation_frame_id": "Basin_Sink"
   },
   "scope": {
     "component": [
@@ -17,6 +17,7 @@
       "csra",
       "home",
       "bath",
+      "basin",
       "tamperdetector",
       "sink"
     ]
@@ -30,7 +31,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Motion_Sensor__citec_csra_home_bath__TamperDetector__Sink__TamperStateService"
+              "value": "Motion_Sensor__citec_csra_home_bath_basin__TamperDetector__Sink__TamperStateService"
             }
           ]
         }
