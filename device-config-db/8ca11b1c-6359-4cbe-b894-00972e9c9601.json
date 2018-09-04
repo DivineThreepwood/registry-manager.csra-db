@@ -1,0 +1,39 @@
+{
+  "id": "8ca11b1c-6359-4cbe-b894-00972e9c9601",
+  "label": "501",
+  "alias": [
+    "Device-131"
+  ],
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+    "transformation_frame_id": "501",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "citec",
+      "csra",
+      "home",
+      "kitchen",
+      "device",
+      "501"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001"
+    },
+    "device_class_id": "7d6d56c2-9bd7-45cf-a3fd-26bce7804e0a",
+    "unit_id": [
+      "8e919ea0-26ca-4e31-b650-b00a2101320a",
+      "27340ccd-340a-45a5-92f4-96fbc7040b91"
+    ]
+  }
+}
