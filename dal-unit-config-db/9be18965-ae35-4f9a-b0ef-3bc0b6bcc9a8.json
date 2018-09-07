@@ -6,7 +6,7 @@
       {
         "key": "en",
         "value": [
-          "S6_C6 Consumption"
+          "S6 C6 Consumption"
         ]
       }
     ]
@@ -27,7 +27,7 @@
       "csra",
       "control",
       "powerconsumptionsensor",
-      "s6_c6_consumption"
+      "s6c6consumption"
     ]
   },
   "bound_to_unit_host": false,

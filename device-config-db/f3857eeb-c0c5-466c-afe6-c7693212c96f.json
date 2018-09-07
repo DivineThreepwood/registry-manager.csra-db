@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "Hager_TYA628C_397290922010000"
+          "Hager TYA628C 397290922010000"
         ]
       }
     ]
@@ -25,7 +25,7 @@
       "csra",
       "control",
       "device",
-      "hager_tya628c_397290922010000"
+      "hagertya628c397290922010000"
     ]
   },
   "bound_to_unit_host": false,

@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "BathAmbientColorNight@Bath"
+          "Bath Ambient Color Night@Bath"
         ]
       }
     ]
@@ -22,7 +22,7 @@
     "component": [
       "manager",
       "user",
-      "bathambientcolornight_bath"
+      "bathambientcolornightbath"
     ]
   },
   "service_config": [

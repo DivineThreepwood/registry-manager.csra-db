@@ -23,7 +23,7 @@
     "component": [
       "citec",
       "connection",
-      "control_entrance_door"
+      "controlentrancedoor"
     ]
   },
   "service_config": [

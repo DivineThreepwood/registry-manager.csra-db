@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "SLampLeft Living"
+          "SLamp Left Living"
         ]
       }
     ]
@@ -50,7 +50,7 @@
       "home",
       "living",
       "unitgroup",
-      "slampleft_living"
+      "slampleftliving"
     ]
   },
   "description": "This group condenses the SLampLeft lights in living",

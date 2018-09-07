@@ -6,7 +6,7 @@
       {
         "key": "en",
         "value": [
-          "S8_C7 Consumption"
+          "S8 C7 Consumption"
         ]
       }
     ]
@@ -28,7 +28,7 @@
       "home",
       "bath",
       "powerconsumptionsensor",
-      "s8_c7_consumption"
+      "s8c7consumption"
     ]
   },
   "description": "Bath Main Light",

@@ -28,7 +28,7 @@
       "home",
       "bath",
       "button",
-      "default_bath"
+      "defaultbath"
     ]
   },
   "bound_to_unit_host": false,

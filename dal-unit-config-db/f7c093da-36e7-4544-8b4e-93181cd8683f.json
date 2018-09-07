@@ -6,7 +6,7 @@
       {
         "key": "en",
         "value": [
-          "LeftWindowReedSwitch"
+          "Left Window Reed Switch"
         ]
       }
     ]
@@ -39,7 +39,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Homematic_Sec_SC_2__citec_csra_home_living__Battery__LeftWindowReedSwitch__BatteryStateService"
+              "value": "Homematic_Sec_SC_2__citec_csra_home_living__Battery__Left_Window_Reed_Switch__BatteryStateService"
             }
           ]
         }

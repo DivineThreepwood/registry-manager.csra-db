@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "BathDimmerPowerStateSynchroniser@Bath"
+          "Bath Dimmer Power State Synchroniser@Bath"
         ]
       }
     ]
@@ -22,7 +22,7 @@
     "component": [
       "manager",
       "user",
-      "bathdimmerpowerstatesynchroniser_bath"
+      "bathdimmerpowerstatesynchroniserbath"
     ]
   },
   "service_config": [

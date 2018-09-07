@@ -53,22 +53,5 @@
   "enabling_state": {
     "value": "ENABLED"
   },
-  "scene_config": {
-    "required_service_state_description": [
-      {
-        "unit_id": "a56d44a7-c798-44e2-a2b6-65cf41e69daf",
-        "service_type": "ACTIVATION_STATE_SERVICE",
-        "unit_type": "UNKNOWN",
-        "service_attribute_type": "rst.domotic.state.ActivationStateType$ActivationState",
-        "service_attribute": "{\"value\": \"ACTIVE\"}"
-      },
-      {
-        "unit_id": "6f6dce7d-e959-49ff-9bf9-6b15dcde3082",
-        "service_type": "POWER_STATE_SERVICE",
-        "unit_type": "UNKNOWN",
-        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
-        "service_attribute": "{\"value\": \"ON\"}"
-      }
-    ]
-  }
+  "scene_config": {}
 }

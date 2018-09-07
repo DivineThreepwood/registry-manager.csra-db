@@ -6,7 +6,7 @@
       {
         "key": "en",
         "value": [
-          "Global_1"
+          "Global 1"
         ]
       }
     ]
@@ -40,7 +40,7 @@
       "home",
       "bath",
       "colorablelight",
-      "global_1"
+      "global1"
     ]
   },
   "bound_to_unit_host": true,

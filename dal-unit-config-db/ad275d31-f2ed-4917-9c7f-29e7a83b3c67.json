@@ -6,7 +6,7 @@
       {
         "key": "en",
         "value": [
-          "S8_C7"
+          "S8 C7"
         ]
       }
     ]
@@ -28,7 +28,7 @@
       "home",
       "bath",
       "powerswitch",
-      "s8_c7"
+      "s8c7"
     ]
   },
   "description": "Bath Main Light",

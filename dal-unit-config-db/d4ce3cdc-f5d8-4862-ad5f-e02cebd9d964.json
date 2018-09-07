@@ -6,7 +6,7 @@
       {
         "key": "en",
         "value": [
-          "Task: AutoLight"
+          "Task: Auto Light"
         ]
       }
     ]
@@ -28,7 +28,7 @@
       "home",
       "hallway",
       "button",
-      "task_autolight"
+      "taskautolight"
     ]
   },
   "bound_to_unit_host": false,
@@ -40,7 +40,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_5133__citec_csra_home_hallway__Button__Task_AutoLight__ButtonStateService"
+              "value": "Gira_5133__citec_csra_home_hallway__Button__Task_Auto_Light__ButtonStateService"
             }
           ]
         }

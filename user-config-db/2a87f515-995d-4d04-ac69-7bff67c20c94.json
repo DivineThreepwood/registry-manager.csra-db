@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "NightLight@Home"
+          "Night Light@Home"
         ]
       }
     ]
@@ -22,7 +22,7 @@
     "component": [
       "manager",
       "user",
-      "nightlight_home"
+      "nightlighthome"
     ]
   },
   "service_config": [

@@ -6,7 +6,7 @@
       {
         "key": "en",
         "value": [
-          "SportsToControlReedSwitch"
+          "Sports To Control Reed Switch"
         ]
       }
     ]
@@ -39,7 +39,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Homematic_Sec_SC_2__citec_csra_robotroom__ReedContact__SportsToControlReedSwitch__ContactStateService"
+              "value": "Homematic_Sec_SC_2__citec_csra_robotroom__ReedContact__Sports_To_Control_Reed_Switch__ContactStateService"
             }
           ]
         }

@@ -6,7 +6,7 @@
       {
         "key": "en",
         "value": [
-          "RightDimmer"
+          "Right Dimmer"
         ]
       }
     ]
@@ -52,7 +52,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__citec_csra_robotroom__Dimmer__RightDimmer__BrightnessStateService"
+              "value": "Hager_TYA663A__citec_csra_robotroom__Dimmer__Right_Dimmer__BrightnessStateService"
             }
           ]
         }
@@ -72,7 +72,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__citec_csra_robotroom__Dimmer__RightDimmer__BrightnessStateService"
+              "value": "Hager_TYA663A__citec_csra_robotroom__Dimmer__Right_Dimmer__BrightnessStateService"
             }
           ]
         }
@@ -92,7 +92,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__citec_csra_robotroom__Dimmer__RightDimmer__PowerStateService"
+              "value": "Hager_TYA663A__citec_csra_robotroom__Dimmer__Right_Dimmer__PowerStateService"
             }
           ]
         }
@@ -112,7 +112,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__citec_csra_robotroom__Dimmer__RightDimmer__PowerStateService"
+              "value": "Hager_TYA663A__citec_csra_robotroom__Dimmer__Right_Dimmer__PowerStateService"
             }
           ]
         }

@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "AllOff Robot Room"
+          "All Off Robot Room"
         ]
       }
     ]
@@ -25,7 +25,7 @@
       "csra",
       "robotroom",
       "scene",
-      "alloff_robot_room"
+      "alloffrobotroom"
     ]
   },
   "service_config": [
@@ -53,15 +53,5 @@
   "enabling_state": {
     "value": "ENABLED"
   },
-  "scene_config": {
-    "required_service_state_description": [
-      {
-        "unit_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
-        "service_type": "POWER_STATE_SERVICE",
-        "unit_type": "UNKNOWN",
-        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
-        "service_attribute": "{\"value\": \"OFF\",\"timestamp\": {\"time\": 1519995439769000}}"
-      }
-    ]
-  }
+  "scene_config": {}
 }

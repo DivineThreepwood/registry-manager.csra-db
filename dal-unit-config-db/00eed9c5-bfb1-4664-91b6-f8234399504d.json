@@ -6,7 +6,7 @@
       {
         "key": "en",
         "value": [
-          "Task: LightOff"
+          "Task: Light Off"
         ]
       }
     ]
@@ -28,7 +28,7 @@
       "home",
       "hallway",
       "button",
-      "task_lightoff"
+      "tasklightoff"
     ]
   },
   "bound_to_unit_host": false,
@@ -40,7 +40,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_5133__citec_csra_home_hallway__Button__Task_LightOff__ButtonStateService"
+              "value": "Gira_5133__citec_csra_home_hallway__Button__Task_Light_Off__ButtonStateService"
             }
           ]
         }

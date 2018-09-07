@@ -6,7 +6,7 @@
       {
         "key": "en",
         "value": [
-          "DoorReedSwitch"
+          "Door Reed Switch"
         ]
       }
     ]
@@ -39,7 +39,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Homematic_Sec_SC_2__citec_csra_home_bath__Battery__DoorReedSwitch__BatteryStateService"
+              "value": "Homematic_Sec_SC_2__citec_csra_home_bath__Battery__Door_Reed_Switch__BatteryStateService"
             }
           ]
         }

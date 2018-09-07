@@ -28,7 +28,7 @@
       "home",
       "hallway",
       "button",
-      "scene_debug"
+      "scenedebug"
     ]
   },
   "bound_to_unit_host": false,

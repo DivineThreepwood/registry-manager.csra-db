@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "Table_0"
+          "Table 0"
         ]
       }
     ]
@@ -39,7 +39,7 @@
       "living",
       "dining",
       "device",
-      "table_0"
+      "table0"
     ]
   },
   "bound_to_unit_host": true,

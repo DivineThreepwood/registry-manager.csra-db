@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "TestUnit_0"
+          "Test Unit 0"
         ]
       }
     ]
@@ -25,7 +25,7 @@
       "csra",
       "control",
       "device",
-      "testunit_0"
+      "testunit0"
     ]
   },
   "bound_to_unit_host": true,

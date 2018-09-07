@@ -29,7 +29,7 @@
       "hallway",
       "entrance",
       "button",
-      "scenario_learnface"
+      "scenariolearnface"
     ]
   },
   "bound_to_unit_host": true,

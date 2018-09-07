@@ -28,7 +28,7 @@
       "home",
       "hallway",
       "button",
-      "scene_reading"
+      "scenereading"
     ]
   },
   "bound_to_unit_host": false,

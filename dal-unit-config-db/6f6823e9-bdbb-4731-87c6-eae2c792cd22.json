@@ -6,7 +6,7 @@
       {
         "key": "en",
         "value": [
-          "WindowReedSwitch"
+          "Window Reed Switch"
         ]
       }
     ]
@@ -38,7 +38,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Homematic_Sec_SC_2__citec_csra_robotroom__ReedContact__WindowReedSwitch__ContactStateService"
+              "value": "Homematic_Sec_SC_2__citec_csra_robotroom__ReedContact__Window_Reed_Switch__ContactStateService"
             }
           ]
         }

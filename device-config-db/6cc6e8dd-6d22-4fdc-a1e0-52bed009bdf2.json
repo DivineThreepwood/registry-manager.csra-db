@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "Future-Shape_SE3-P_02848000"
+          "Future Shape SE3 P 02848000"
         ]
       }
     ]
@@ -25,7 +25,7 @@
       "csra",
       "robotroom",
       "device",
-      "future-shape_se3-p_02848000"
+      "futureshapese3p02848000"
     ]
   },
   "bound_to_unit_host": true,

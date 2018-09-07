@@ -25,7 +25,7 @@
       "csra",
       "home",
       "scene",
-      "default_apartment"
+      "defaultapartment"
     ]
   },
   "service_config": [
@@ -53,15 +53,5 @@
   "enabling_state": {
     "value": "ENABLED"
   },
-  "scene_config": {
-    "required_service_state_description": [
-      {
-        "unit_id": "a56d44a7-c798-44e2-a2b6-65cf41e69daf",
-        "service_type": "ACTIVATION_STATE_SERVICE",
-        "unit_type": "UNKNOWN",
-        "service_attribute_type": "rst.domotic.state.ActivationStateType$ActivationState",
-        "service_attribute": "{\"value\": \"ACTIVE\",\"timestamp\": {\"time\": 1520354438625000},\"responsible_action\": {\"transaction_id\": 14}}"
-      }
-    ]
-  }
+  "scene_config": {}
 }

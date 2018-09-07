@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "EntranceDimmerPowerStateSynchroniser@Entrance"
+          "Entrance Dimmer Power State Synchroniser@Entrance"
         ]
       }
     ]
@@ -22,7 +22,7 @@
     "component": [
       "manager",
       "user",
-      "entrancedimmerpowerstatesynchroniser_entrance"
+      "entrancedimmerpowerstatesynchroniserentrance"
     ]
   },
   "service_config": [

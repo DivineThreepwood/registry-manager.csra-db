@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "LivingPresenceLight@Living"
+          "Living Presence Light@Living"
         ]
       }
     ]
@@ -22,7 +22,7 @@
     "component": [
       "manager",
       "user",
-      "livingpresencelight_living"
+      "livingpresencelightliving"
     ]
   },
   "service_config": [

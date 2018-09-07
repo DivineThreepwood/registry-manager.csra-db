@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "KitchenAbsenceEnergySaving@Kitchen"
+          "Kitchen Absence Energy Saving@Kitchen"
         ]
       }
     ]
@@ -22,7 +22,7 @@
     "component": [
       "manager",
       "user",
-      "kitchenabsenceenergysaving_kitchen"
+      "kitchenabsenceenergysavingkitchen"
     ]
   },
   "service_config": [

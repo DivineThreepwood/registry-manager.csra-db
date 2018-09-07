@@ -28,7 +28,7 @@
       "home",
       "kitchen",
       "button",
-      "scenario_cleanup"
+      "scenariocleanup"
     ]
   },
   "bound_to_unit_host": false,

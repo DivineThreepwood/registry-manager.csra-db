@@ -6,7 +6,7 @@
       {
         "key": "en",
         "value": [
-          "LLamp1"
+          "LLamp 1"
         ]
       }
     ]
@@ -64,7 +64,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living__ColorableLight__LLamp1__BrightnessStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living__ColorableLight__LLamp_1__BrightnessStateService"
             }
           ]
         }
@@ -84,7 +84,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living__ColorableLight__LLamp1__BrightnessStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living__ColorableLight__LLamp_1__BrightnessStateService"
             }
           ]
         }
@@ -104,7 +104,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living__ColorableLight__LLamp1__ColorStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living__ColorableLight__LLamp_1__ColorStateService"
             }
           ]
         }
@@ -124,7 +124,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living__ColorableLight__LLamp1__ColorStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living__ColorableLight__LLamp_1__ColorStateService"
             }
           ]
         }
@@ -144,7 +144,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living__ColorableLight__LLamp1__PowerStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living__ColorableLight__LLamp_1__PowerStateService"
             }
           ]
         }
@@ -164,7 +164,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living__ColorableLight__LLamp1__PowerStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living__ColorableLight__LLamp_1__PowerStateService"
             }
           ]
         }

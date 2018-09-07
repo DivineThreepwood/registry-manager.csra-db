@@ -29,7 +29,7 @@
       "home",
       "kitchen",
       "powerconsumptionsensor",
-      "s3_a2"
+      "s3a2"
     ]
   },
   "description": "Kettle and Coffee Machine",

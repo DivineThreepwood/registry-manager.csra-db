@@ -6,7 +6,7 @@
       {
         "key": "en",
         "value": [
-          "DoorButton 3"
+          "Door Button 3"
         ]
       }
     ]
@@ -28,7 +28,7 @@
       "home",
       "kitchen",
       "button",
-      "doorbutton_3"
+      "doorbutton3"
     ]
   },
   "bound_to_unit_host": false,
@@ -40,7 +40,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_5133__citec_csra_home_kitchen__Button__DoorButton_3__ButtonStateService"
+              "value": "Gira_5133__citec_csra_home_kitchen__Button__Door_Button_3__ButtonStateService"
             }
           ]
         }

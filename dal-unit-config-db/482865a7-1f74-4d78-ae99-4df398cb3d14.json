@@ -6,7 +6,7 @@
       {
         "key": "en",
         "value": [
-          "S3_C4"
+          "S3 C4"
         ]
       }
     ]
@@ -27,7 +27,7 @@
       "csra",
       "control",
       "powerswitch",
-      "s3_c4"
+      "s3c4"
     ]
   },
   "bound_to_unit_host": false,

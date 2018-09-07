@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "TableDimmerPowerStateSynchroniser@Dining"
+          "Table Dimmer Power State Synchroniser@Dining"
         ]
       }
     ]
@@ -22,7 +22,7 @@
     "component": [
       "manager",
       "user",
-      "tabledimmerpowerstatesynchroniser_dining"
+      "tabledimmerpowerstatesynchroniserdining"
     ]
   },
   "service_config": [

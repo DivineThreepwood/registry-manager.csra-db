@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "StandbyHallway@Hallway"
+          "Standby Hallway@Hallway"
         ]
       }
     ]
@@ -22,7 +22,7 @@
     "component": [
       "manager",
       "user",
-      "standbyhallway_hallway"
+      "standbyhallwayhallway"
     ]
   },
   "service_config": [

@@ -6,7 +6,7 @@
       {
         "key": "en",
         "value": [
-          "AllOff Robot Room"
+          "All Off Robot Room"
         ]
       }
     ]
@@ -27,7 +27,7 @@
       "csra",
       "robotroom",
       "button",
-      "alloff_robot_room"
+      "alloffrobotroom"
     ]
   },
   "bound_to_unit_host": false,
@@ -39,7 +39,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_5133__citec_csra_robotroom__Button__AllOff_Robot_Room__ButtonStateService"
+              "value": "Gira_5133__citec_csra_robotroom__Button__All_Off_Robot_Room__ButtonStateService"
             }
           ]
         }

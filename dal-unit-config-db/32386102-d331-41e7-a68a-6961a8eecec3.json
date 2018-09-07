@@ -6,7 +6,7 @@
       {
         "key": "en",
         "value": [
-          "S1_C8"
+          "S1 C8"
         ]
       }
     ]
@@ -27,7 +27,7 @@
       "csra",
       "control",
       "powerswitch",
-      "s1_c8"
+      "s1c8"
     ]
   },
   "bound_to_unit_host": false,

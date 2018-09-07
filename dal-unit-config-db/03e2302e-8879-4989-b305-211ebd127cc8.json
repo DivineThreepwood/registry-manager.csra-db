@@ -28,7 +28,7 @@
       "home",
       "hallway",
       "button",
-      "scene_party"
+      "sceneparty"
     ]
   },
   "bound_to_unit_host": false,

@@ -50,7 +50,7 @@
       "home",
       "living",
       "unitgroup",
-      "llamp_living"
+      "llampliving"
     ]
   },
   "description": "This group condenses all LLamp lights in living",

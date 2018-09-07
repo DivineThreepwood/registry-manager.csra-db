@@ -6,7 +6,7 @@
       {
         "key": "en",
         "value": [
-          "S8_C6"
+          "S8 C6"
         ]
       }
     ]
@@ -28,7 +28,7 @@
       "home",
       "kitchen",
       "powerswitch",
-      "s8_c6"
+      "s8c6"
     ]
   },
   "description": "Kitchen Main Light",

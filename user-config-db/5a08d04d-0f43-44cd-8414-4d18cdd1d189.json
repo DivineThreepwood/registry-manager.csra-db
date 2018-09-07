@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "KitchenPresenceLight@Kitchen"
+          "Kitchen Presence Light@Kitchen"
         ]
       }
     ]
@@ -22,7 +22,7 @@
     "component": [
       "manager",
       "user",
-      "kitchenpresencelight_kitchen"
+      "kitchenpresencelightkitchen"
     ]
   },
   "service_config": [

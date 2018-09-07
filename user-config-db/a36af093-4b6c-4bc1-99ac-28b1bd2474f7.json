@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "WardrobeEnergySaving@Hallway"
+          "Wardrobe Energy Saving@Hallway"
         ]
       }
     ]
@@ -22,7 +22,7 @@
     "component": [
       "manager",
       "user",
-      "wardrobeenergysaving_hallway"
+      "wardrobeenergysavinghallway"
     ]
   },
   "service_config": [

@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "AllOff Living"
+          "All Off Living"
         ]
       }
     ]
@@ -26,7 +26,7 @@
       "home",
       "living",
       "scene",
-      "alloff_living"
+      "alloffliving"
     ]
   },
   "service_config": [
@@ -54,22 +54,5 @@
   "enabling_state": {
     "value": "ENABLED"
   },
-  "scene_config": {
-    "required_service_state_description": [
-      {
-        "unit_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-        "service_type": "POWER_STATE_SERVICE",
-        "unit_type": "UNKNOWN",
-        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
-        "service_attribute": "{\"value\": \"OFF\",\"timestamp\": {\"time\": 1520349825867000}}"
-      },
-      {
-        "unit_id": "804542df-aebc-42cb-82ef-f03a97c96bf8",
-        "service_type": "POWER_STATE_SERVICE",
-        "unit_type": "UNKNOWN",
-        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
-        "service_attribute": "{\"value\": \"OFF\",\"timestamp\": {\"time\": 1520348014608000},\"responsible_action\": {\"transaction_id\": 76}}"
-      }
-    ]
-  }
+  "scene_config": {}
 }

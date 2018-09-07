@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "KitchenDimmerPowerStateSynchroniser@Kitchen"
+          "Kitchen Dimmer Power State Synchroniser@Kitchen"
         ]
       }
     ]
@@ -22,7 +22,7 @@
     "component": [
       "manager",
       "user",
-      "kitchendimmerpowerstatesynchroniser_kitchen"
+      "kitchendimmerpowerstatesynchroniserkitchen"
     ]
   },
   "service_config": [

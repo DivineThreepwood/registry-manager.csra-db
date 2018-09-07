@@ -29,7 +29,7 @@
       "living",
       "dining",
       "button",
-      "default_lounge"
+      "defaultlounge"
     ]
   },
   "bound_to_unit_host": false,

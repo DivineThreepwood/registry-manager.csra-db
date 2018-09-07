@@ -6,7 +6,7 @@
       {
         "key": "en",
         "value": [
-          "Button 2 "
+          "Button 2"
         ]
       }
     ]
@@ -28,7 +28,7 @@
       "home",
       "bath",
       "button",
-      "button_2"
+      "button2"
     ]
   },
   "bound_to_unit_host": false,

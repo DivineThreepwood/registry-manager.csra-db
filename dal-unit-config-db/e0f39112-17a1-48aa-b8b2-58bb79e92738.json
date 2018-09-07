@@ -6,7 +6,7 @@
       {
         "key": "en",
         "value": [
-          "AllOff Bath"
+          "All Off Bath"
         ]
       }
     ]
@@ -28,7 +28,7 @@
       "home",
       "bath",
       "button",
-      "alloff_bath"
+      "alloffbath"
     ]
   },
   "bound_to_unit_host": false,
@@ -40,7 +40,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_5142__citec_csra_home_bath__Button__AllOff_Bath__ButtonStateService"
+              "value": "Gira_5142__citec_csra_home_bath__Button__All_Off_Bath__ButtonStateService"
             }
           ]
         }

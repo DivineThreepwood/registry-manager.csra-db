@@ -6,7 +6,7 @@
       {
         "key": "en",
         "value": [
-          "LeftDimmer"
+          "Left Dimmer"
         ]
       }
     ]
@@ -53,7 +53,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__citec_csra_robotroom_interaction__Dimmer__LeftDimmer__BrightnessStateService"
+              "value": "Hager_TYA663A__citec_csra_robotroom_interaction__Dimmer__Left_Dimmer__BrightnessStateService"
             }
           ]
         }
@@ -73,7 +73,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__citec_csra_robotroom_interaction__Dimmer__LeftDimmer__BrightnessStateService"
+              "value": "Hager_TYA663A__citec_csra_robotroom_interaction__Dimmer__Left_Dimmer__BrightnessStateService"
             }
           ]
         }
@@ -93,7 +93,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__citec_csra_robotroom_interaction__Dimmer__LeftDimmer__PowerStateService"
+              "value": "Hager_TYA663A__citec_csra_robotroom_interaction__Dimmer__Left_Dimmer__PowerStateService"
             }
           ]
         }
@@ -113,7 +113,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__citec_csra_robotroom_interaction__Dimmer__LeftDimmer__PowerStateService"
+              "value": "Hager_TYA663A__citec_csra_robotroom_interaction__Dimmer__Left_Dimmer__PowerStateService"
             }
           ]
         }

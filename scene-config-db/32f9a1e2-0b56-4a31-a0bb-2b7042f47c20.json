@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "AllOff Dining"
+          "All Off Dining"
         ]
       }
     ]
@@ -26,7 +26,7 @@
       "living",
       "dining",
       "scene",
-      "alloff_dining"
+      "alloffdining"
     ]
   },
   "service_config": [
@@ -53,15 +53,5 @@
   "enabling_state": {
     "value": "ENABLED"
   },
-  "scene_config": {
-    "required_service_state_description": [
-      {
-        "unit_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
-        "service_type": "POWER_STATE_SERVICE",
-        "unit_type": "UNKNOWN",
-        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
-        "service_attribute": "{\"value\": \"OFF\",\"timestamp\": {\"time\": 1520341925535000}}"
-      }
-    ]
-  }
+  "scene_config": {}
 }

@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "Global_2"
+          "Global 2"
         ]
       }
     ]
@@ -25,7 +25,7 @@
       "home",
       "bath",
       "device",
-      "global_2"
+      "global2"
     ]
   },
   "bound_to_unit_host": true,

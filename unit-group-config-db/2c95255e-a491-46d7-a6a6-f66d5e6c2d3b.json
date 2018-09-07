@@ -50,7 +50,7 @@
       "home",
       "kitchen",
       "unitgroup",
-      "handle_group"
+      "handlegroup"
     ]
   },
   "description": "This group condenses all handles.",

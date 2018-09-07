@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "BathAmbientColorForest@Bath"
+          "Bath Ambient Color Forest@Bath"
         ]
       }
     ]
@@ -22,7 +22,7 @@
     "component": [
       "manager",
       "user",
-      "bathambientcolorforest_bath"
+      "bathambientcolorforestbath"
     ]
   },
   "service_config": [

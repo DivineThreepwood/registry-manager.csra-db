@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "SoundScape@Bath"
+          "Sound Scape@Bath"
         ]
       }
     ]
@@ -22,7 +22,7 @@
     "component": [
       "manager",
       "user",
-      "soundscape_bath"
+      "soundscapebath"
     ]
   },
   "service_config": [

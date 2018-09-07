@@ -6,7 +6,7 @@
       {
         "key": "en",
         "value": [
-          "S8_C2 Consumption"
+          "S8 C2 Consumption"
         ]
       }
     ]
@@ -27,7 +27,7 @@
       "csra",
       "control",
       "powerconsumptionsensor",
-      "s8_c2_consumption"
+      "s8c2consumption"
     ]
   },
   "bound_to_unit_host": false,

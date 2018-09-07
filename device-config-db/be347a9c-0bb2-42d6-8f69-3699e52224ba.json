@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "CeilingLamp 3"
+          "Ceiling Lamp 3"
         ]
       }
     ]
@@ -25,7 +25,7 @@
       "home",
       "kitchen",
       "device",
-      "ceilinglamp_3"
+      "ceilinglamp3"
     ]
   },
   "bound_to_unit_host": true,

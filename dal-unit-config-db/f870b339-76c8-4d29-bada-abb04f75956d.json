@@ -6,7 +6,7 @@
       {
         "key": "en",
         "value": [
-          "Hallway_1"
+          "Hallway 1"
         ]
       }
     ]
@@ -40,7 +40,7 @@
       "home",
       "hallway",
       "colorablelight",
-      "hallway_1"
+      "hallway1"
     ]
   },
   "bound_to_unit_host": true,

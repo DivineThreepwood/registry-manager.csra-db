@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "WardrobePresenceLight@Hallway"
+          "Wardrobe Presence Light@Hallway"
         ]
       }
     ]
@@ -22,7 +22,7 @@
     "component": [
       "manager",
       "user",
-      "wardrobepresencelight_hallway"
+      "wardrobepresencelighthallway"
     ]
   },
   "service_config": [

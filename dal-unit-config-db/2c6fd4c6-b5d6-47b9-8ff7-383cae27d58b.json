@@ -6,7 +6,7 @@
       {
         "key": "en",
         "value": [
-          "SportsToLivingReedSwitch"
+          "Sports To Living Reed Switch"
         ]
       }
     ]
@@ -38,7 +38,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Homematic_Sec_SC_2__citec_csra_robotroom__Battery__SportsToLivingReedSwitch__BatteryStateService"
+              "value": "Homematic_Sec_SC_2__citec_csra_robotroom__Battery__Sports_To_Living_Reed_Switch__BatteryStateService"
             }
           ]
         }

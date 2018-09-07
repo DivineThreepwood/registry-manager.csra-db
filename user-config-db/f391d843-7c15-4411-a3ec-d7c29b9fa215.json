@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "BathAmbientColorBeachCeiling@Bath"
+          "Bath Ambient Color Beach Ceiling@Bath"
         ]
       }
     ]
@@ -22,7 +22,7 @@
     "component": [
       "manager",
       "user",
-      "bathambientcolorbeachceiling_bath"
+      "bathambientcolorbeachceilingbath"
     ]
   },
   "service_config": [

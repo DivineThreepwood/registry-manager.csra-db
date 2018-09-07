@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "CeilingWindowLampPowerSynchroniser@Living"
+          "Ceiling Window Lamp Power Synchroniser@Living"
         ]
       }
     ]
@@ -22,7 +22,7 @@
     "component": [
       "manager",
       "user",
-      "ceilingwindowlamppowersynchroniser_living"
+      "ceilingwindowlamppowersynchroniserliving"
     ]
   },
   "service_config": [

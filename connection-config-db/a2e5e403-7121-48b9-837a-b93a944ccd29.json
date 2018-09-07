@@ -69,7 +69,7 @@
     "component": [
       "citec",
       "connection",
-      "apartment_entrance_door"
+      "apartmententrancedoor"
     ]
   },
   "service_config": [

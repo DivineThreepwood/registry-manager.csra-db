@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "StandbyKitchen@Kitchen"
+          "Standby Kitchen@Kitchen"
         ]
       }
     ]
@@ -22,7 +22,7 @@
     "component": [
       "manager",
       "user",
-      "standbykitchen_kitchen"
+      "standbykitchenkitchen"
     ]
   },
   "service_config": [

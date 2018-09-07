@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "StandbyControlRoom@Control"
+          "Standby Control Room@Control"
         ]
       }
     ]
@@ -22,7 +22,7 @@
     "component": [
       "manager",
       "user",
-      "standbycontrolroom_control"
+      "standbycontrolroomcontrol"
     ]
   },
   "service_config": [

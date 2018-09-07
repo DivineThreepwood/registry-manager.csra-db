@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "LivingAbsenceEnergySaving@Living"
+          "Living Absence Energy Saving@Living"
         ]
       }
     ]
@@ -22,7 +22,7 @@
     "component": [
       "manager",
       "user",
-      "livingabsenceenergysaving_living"
+      "livingabsenceenergysavingliving"
     ]
   },
   "service_config": [

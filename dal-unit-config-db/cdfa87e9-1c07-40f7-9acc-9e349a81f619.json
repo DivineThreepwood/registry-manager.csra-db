@@ -6,7 +6,7 @@
       {
         "key": "en",
         "value": [
-          "Table_1"
+          "Table 1"
         ]
       }
     ]
@@ -41,7 +41,7 @@
       "living",
       "dining",
       "colorablelight",
-      "table_1"
+      "table1"
     ]
   },
   "bound_to_unit_host": true,

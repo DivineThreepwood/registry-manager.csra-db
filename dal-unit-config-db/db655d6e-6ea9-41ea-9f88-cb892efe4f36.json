@@ -6,7 +6,7 @@
       {
         "key": "en",
         "value": [
-          "RightInside"
+          "Right Inside"
         ]
       }
     ]
@@ -41,7 +41,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA628C__citec_csra_home_living__RollerShutter__RightInside__BlindStateService"
+              "value": "Hager_TYA628C__citec_csra_home_living__RollerShutter__Right_Inside__BlindStateService"
             }
           ]
         }
@@ -60,7 +60,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA628C__citec_csra_home_living__RollerShutter__RightInside__BlindStateService"
+              "value": "Hager_TYA628C__citec_csra_home_living__RollerShutter__Right_Inside__BlindStateService"
             }
           ]
         }

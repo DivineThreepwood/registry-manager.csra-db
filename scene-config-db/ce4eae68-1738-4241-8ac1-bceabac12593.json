@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "AllOff Entrance"
+          "All Off Entrance"
         ]
       }
     ]
@@ -26,7 +26,7 @@
       "home",
       "hallway",
       "scene",
-      "alloff_entrance"
+      "alloffentrance"
     ]
   },
   "service_config": [
@@ -54,15 +54,5 @@
   "enabling_state": {
     "value": "ENABLED"
   },
-  "scene_config": {
-    "required_service_state_description": [
-      {
-        "unit_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-        "service_type": "POWER_STATE_SERVICE",
-        "unit_type": "UNKNOWN",
-        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
-        "service_attribute": "{\"value\": \"OFF\",\"timestamp\": {\"time\": 1519995334326000}}"
-      }
-    ]
-  }
+  "scene_config": {}
 }

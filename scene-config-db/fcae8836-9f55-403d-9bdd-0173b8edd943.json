@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "AllOff Bath"
+          "All Off Bath"
         ]
       }
     ]
@@ -26,7 +26,7 @@
       "home",
       "bath",
       "scene",
-      "alloff_bath"
+      "alloffbath"
     ]
   },
   "service_config": [
@@ -54,15 +54,5 @@
   "enabling_state": {
     "value": "ENABLED"
   },
-  "scene_config": {
-    "required_service_state_description": [
-      {
-        "unit_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
-        "service_type": "POWER_STATE_SERVICE",
-        "unit_type": "UNKNOWN",
-        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
-        "service_attribute": "{\"value\": \"OFF\",\"timestamp\": {\"time\": 1519995408649000}}"
-      }
-    ]
-  }
+  "scene_config": {}
 }

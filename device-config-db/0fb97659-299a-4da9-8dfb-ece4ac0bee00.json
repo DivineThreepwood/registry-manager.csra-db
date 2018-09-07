@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "Hallway_0"
+          "Hallway 0"
         ]
       }
     ]
@@ -38,7 +38,7 @@
       "home",
       "hallway",
       "device",
-      "hallway_0"
+      "hallway0"
     ]
   },
   "bound_to_unit_host": true,

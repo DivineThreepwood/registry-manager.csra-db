@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "HallwayDimmerPowerStateSynchroniser@Hallway"
+          "Hallway Dimmer Power State Synchroniser@Hallway"
         ]
       }
     ]
@@ -22,7 +22,7 @@
     "component": [
       "manager",
       "user",
-      "hallwaydimmerpowerstatesynchroniser_hallway"
+      "hallwaydimmerpowerstatesynchroniserhallway"
     ]
   },
   "service_config": [

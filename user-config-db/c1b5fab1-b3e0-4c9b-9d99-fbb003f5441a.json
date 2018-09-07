@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "StandbyLiving@Living"
+          "Standby Living@Living"
         ]
       }
     ]
@@ -22,7 +22,7 @@
     "component": [
       "manager",
       "user",
-      "standbyliving_living"
+      "standbylivingliving"
     ]
   },
   "service_config": [

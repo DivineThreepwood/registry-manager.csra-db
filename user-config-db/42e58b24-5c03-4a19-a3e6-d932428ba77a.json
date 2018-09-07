@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "PartyLightFollower@Kitchen"
+          "Party Light Follower@Kitchen"
         ]
       }
     ]
@@ -22,7 +22,7 @@
     "component": [
       "manager",
       "user",
-      "partylightfollower_kitchen"
+      "partylightfollowerkitchen"
     ]
   },
   "service_config": [

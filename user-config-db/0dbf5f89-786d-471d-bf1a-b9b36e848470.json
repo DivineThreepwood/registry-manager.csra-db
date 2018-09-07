@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "StandbyBath@Bath"
+          "Standby Bath@Bath"
         ]
       }
     ]
@@ -22,7 +22,7 @@
     "component": [
       "manager",
       "user",
-      "standbybath_bath"
+      "standbybathbath"
     ]
   },
   "service_config": [

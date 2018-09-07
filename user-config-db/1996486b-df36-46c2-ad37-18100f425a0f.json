@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "StandyRobotRoom@RobotRoom"
+          "Standy Robot Room@Robot Room"
         ]
       }
     ]
@@ -22,7 +22,7 @@
     "component": [
       "manager",
       "user",
-      "standyrobotroom_robotroom"
+      "standyrobotroomrobotroom"
     ]
   },
   "service_config": [

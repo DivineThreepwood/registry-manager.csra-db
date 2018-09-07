@@ -23,7 +23,7 @@
     "component": [
       "citec",
       "connection",
-      "left_control_window"
+      "leftcontrolwindow"
     ]
   },
   "service_config": [
