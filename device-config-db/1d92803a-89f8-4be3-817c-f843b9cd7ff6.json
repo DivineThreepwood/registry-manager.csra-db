@@ -1,13 +1,22 @@
 {
   "id": "1d92803a-89f8-4be3-817c-f843b9cd7ff6",
-  "label": "LeftWindowReedSwitch",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Left Window Reed Switch"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-33"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
-    "transformation_frame_id": "LeftWindowReedSwitch",
+    "transformation_frame_id": "Device-33",
     "shape": {}
   },
   "scope": {
@@ -38,13 +47,15 @@
       "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
       "timestamp": {
         "time": 1447242662054
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "569ff797-09f1-4437-8404-391017776796",
     "unit_id": [
       "daa2afcd-a0b2-4b50-a124-daa7d8eee96e",
       "f9ad39dd-4a4b-41fc-8f94-e431f9822de2"
     ]
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

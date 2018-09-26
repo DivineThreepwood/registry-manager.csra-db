@@ -1,15 +1,24 @@
 {
   "id": "804542df-aebc-42cb-82ef-f03a97c96bf8",
   "unit_template_config_id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_SWITCH_1",
-  "label": "BeleuchtungZwischendecke",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Beleuchtung Zwischendecke"
+        ]
+      }
+    ]
+  },
   "alias": [
     "PowerSwitch-27"
   ],
   "unit_host_id": "37a90769-5743-47fc-b843-3367bd531db9",
-  "type": "POWER_SWITCH",
+  "unit_type": "POWER_SWITCH",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "BeleuchtungZwischendecke",
+    "transformation_frame_id": "PowerSwitch-27",
     "position": {
       "translation": {
         "x": 2.338542350166102,
@@ -35,7 +44,14 @@
       "beleuchtungzwischendecke"
     ]
   },
-  "description": "S4_C2",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "S4_C2"
+      }
+    ]
+  },
   "bound_to_unit_host": false,
   "service_config": [
     {
@@ -45,7 +61,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_1046__citec_csra_home_living__PowerSwitch__BeleuchtungZwischendecke__PowerStateService"
+              "value": "Gira_1046__citec_csra_home_living__PowerSwitch__Beleuchtung_Zwischendecke__PowerStateService"
             }
           ]
         }
@@ -53,7 +69,7 @@
       "unit_id": "804542df-aebc-42cb-82ef-f03a97c96bf8",
       "service_description": {
         "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
-        "type": "POWER_STATE_SERVICE",
+        "service_type": "POWER_STATE_SERVICE",
         "meta_config": {}
       },
       "meta_config": {}
@@ -69,7 +85,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_1046__citec_csra_home_living__PowerSwitch__BeleuchtungZwischendecke__PowerStateService"
+              "value": "Gira_1046__citec_csra_home_living__PowerSwitch__Beleuchtung_Zwischendecke__PowerStateService"
             }
           ]
         }
@@ -77,7 +93,7 @@
       "unit_id": "804542df-aebc-42cb-82ef-f03a97c96bf8",
       "service_description": {
         "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
-        "type": "POWER_STATE_SERVICE",
+        "service_type": "POWER_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
       },

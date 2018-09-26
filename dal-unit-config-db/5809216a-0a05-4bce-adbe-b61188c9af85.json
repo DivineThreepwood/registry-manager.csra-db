@@ -1,16 +1,25 @@
 {
   "id": "5809216a-0a05-4bce-adbe-b61188c9af85",
   "unit_template_config_id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_CONSUMPTION_SENSOR_1",
-  "label": "S3 A2",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "S3 A2"
+        ]
+      }
+    ]
+  },
   "alias": [
     "PowerConsumptionSensor-52",
     "KettlePowerConsumptionSensor"
   ],
   "unit_host_id": "64da2fb2-aca7-4791-a5c1-e389a7361c05",
-  "type": "POWER_CONSUMPTION_SENSOR",
+  "unit_type": "POWER_CONSUMPTION_SENSOR",
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-    "transformation_frame_id": "S3_A2",
+    "transformation_frame_id": "PowerConsumptionSensor-52",
     "shape": {}
   },
   "scope": {
@@ -20,10 +29,17 @@
       "home",
       "kitchen",
       "powerconsumptionsensor",
-      "s3_a2"
+      "s3a2"
     ]
   },
-  "description": "Kettle and Coffee Machine",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "Kettle and Coffee Machine"
+      }
+    ]
+  },
   "bound_to_unit_host": false,
   "service_config": [
     {
@@ -45,7 +61,7 @@
       "unit_id": "5809216a-0a05-4bce-adbe-b61188c9af85",
       "service_description": {
         "service_template_id": "b7cec81b-6387-4b77-a2c2-2d97726a4476",
-        "type": "POWER_CONSUMPTION_STATE_SERVICE",
+        "service_type": "POWER_CONSUMPTION_STATE_SERVICE",
         "meta_config": {}
       },
       "meta_config": {}

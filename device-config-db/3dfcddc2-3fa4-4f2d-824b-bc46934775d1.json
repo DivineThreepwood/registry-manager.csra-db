@@ -1,13 +1,22 @@
 {
   "id": "3dfcddc2-3fa4-4f2d-824b-bc46934775d1",
-  "label": "ASUS_90IW0122-B01UA_E3IWBDA33883",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "ASUS 90IW0122 B01UA E3IWBDA33883"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-16"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "ASUS_90IW0122-B01UA_E3IWBDA33883",
+    "transformation_frame_id": "Device-16",
     "position": {
       "translation": {
         "x": 1.17,
@@ -29,10 +38,17 @@
       "home",
       "living",
       "device",
-      "asus_90iw0122-b01ua_e3iwbda33883"
+      "asus90iw0122b01uae3iwbda33883"
     ]
   },
-  "description": "LIVING4 @ BKK",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "LIVING4 @ BKK"
+      }
+    ]
+  },
   "bound_to_unit_host": true,
   "meta_config": {},
   "enabling_state": {
@@ -45,8 +61,7 @@
       "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
       "timestamp": {
         "time": 1441984471480
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "3069a4e2-25c9-4873-bee2-43df7a77e44c",
     "unit_id": [
@@ -54,5 +69,8 @@
       "4643aa2d-36eb-40c5-8c7f-ad96caaa2ce1",
       "6649d120-54ea-4979-98be-5aca38ea4392"
     ]
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

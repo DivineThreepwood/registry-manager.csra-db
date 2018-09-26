@@ -1,13 +1,22 @@
 {
   "id": "7f44a613-d427-4ad4-a5d0-6e3948ba5903",
-  "label": "LLamp3",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "LLamp 3"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-63"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
-    "transformation_frame_id": "LLamp3",
+    "transformation_frame_id": "Device-63",
     "position": {
       "translation": {
         "x": 0.2100842415811357,
@@ -52,12 +61,14 @@
       "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
       "timestamp": {
         "time": 1490809912739000
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "6f661f5b-3906-452a-adb6-a4e5fb94eee4",
     "unit_id": [
       "ec3c5b11-a915-49fa-ae54-787c2fa006c9"
     ]
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

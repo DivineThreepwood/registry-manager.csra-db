@@ -1,15 +1,24 @@
 {
   "id": "3d399924-f10a-4115-8fac-4435faabfd64",
   "unit_template_config_id": "e18d2b16-1969-4e5b-b40c-8b255c2cdb8c_AUDIO_SOURCE_0",
-  "label": "Kinect atl",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Kinect atl"
+        ]
+      }
+    ]
+  },
   "alias": [
     "AudioSource-17"
   ],
   "unit_host_id": "6678a48f-05a1-47f1-b962-35227c396675",
-  "type": "AUDIO_SOURCE",
+  "unit_type": "AUDIO_SOURCE",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "Living_Kinect_atl",
+    "transformation_frame_id": "AudioSource-17",
     "position": {
       "translation": {
         "x": 1.226136533322924,
@@ -31,7 +40,7 @@
       "home",
       "living",
       "audiosource",
-      "kinect_atl"
+      "kinectatl"
     ]
   },
   "bound_to_unit_host": true,

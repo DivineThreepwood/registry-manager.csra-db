@@ -1,15 +1,24 @@
 {
   "id": "f7c093da-36e7-4544-8b4e-93181cd8683f",
   "unit_template_config_id": "Homematic_Sec_SC_2_BATTERY_0",
-  "label": "LeftWindowReedSwitch",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Left Window Reed Switch"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Battery-17"
   ],
   "unit_host_id": "9420f93f-6236-44ff-ae31-2ce98e1db7e9",
-  "type": "BATTERY",
+  "unit_type": "BATTERY",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "Living_LeftWindowReedSwitch"
+    "transformation_frame_id": "Battery-17"
   },
   "scope": {
     "component": [
@@ -30,7 +39,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Homematic_Sec_SC_2__citec_csra_home_living__Battery__LeftWindowReedSwitch__BatteryStateService"
+              "value": "Homematic_Sec_SC_2__citec_csra_home_living__Battery__Left_Window_Reed_Switch__BatteryStateService"
             }
           ]
         }
@@ -38,7 +47,7 @@
       "unit_id": "f7c093da-36e7-4544-8b4e-93181cd8683f",
       "service_description": {
         "service_template_id": "d1dd033f-9dae-46fb-9355-a32b0b898db7",
-        "type": "BATTERY_STATE_SERVICE",
+        "service_type": "BATTERY_STATE_SERVICE",
         "pattern": "PROVIDER"
       },
       "meta_config": {}

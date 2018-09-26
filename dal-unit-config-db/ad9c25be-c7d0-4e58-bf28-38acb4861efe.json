@@ -1,15 +1,24 @@
 {
   "id": "ad9c25be-c7d0-4e58-bf28-38acb4861efe",
   "unit_template_config_id": "Fibaro_FGMS-001_BATTERY_0",
-  "label": "Couch",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Couch"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Battery-25"
   ],
   "unit_host_id": "3b0602c8-6524-4d08-b8c5-5d4f2e97b91b",
-  "type": "BATTERY",
+  "unit_type": "BATTERY",
   "placement_config": {
     "location_id": "0df5bbb8-2d17-4f81-9b34-314a26ae713a",
-    "transformation_frame_id": "Lounge_Couch"
+    "transformation_frame_id": "Battery-25"
   },
   "scope": {
     "component": [
@@ -39,7 +48,7 @@
       "unit_id": "ad9c25be-c7d0-4e58-bf28-38acb4861efe",
       "service_description": {
         "service_template_id": "d1dd033f-9dae-46fb-9355-a32b0b898db7",
-        "type": "BATTERY_STATE_SERVICE",
+        "service_type": "BATTERY_STATE_SERVICE",
         "pattern": "PROVIDER"
       },
       "meta_config": {}

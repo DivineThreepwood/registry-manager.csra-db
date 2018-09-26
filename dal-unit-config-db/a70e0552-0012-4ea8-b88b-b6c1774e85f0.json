@@ -1,15 +1,24 @@
 {
   "id": "a70e0552-0012-4ea8-b88b-b6c1774e85f0",
   "unit_template_config_id": "Hager_TYA663A_DIMMER_0",
-  "label": "EntranceDimmer",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Entrance Dimmer"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Dimmer-3"
   ],
   "unit_host_id": "f34a0c05-df62-41a8-a282-774390baa660",
-  "type": "DIMMER",
+  "unit_type": "DIMMER",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-    "transformation_frame_id": "EntranceDimmer"
+    "transformation_frame_id": "Dimmer-3"
   },
   "scope": {
     "component": [
@@ -34,7 +43,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__citec_csra_home_hallway__Dimmer__EntranceDimmer__BrightnessStateService"
+              "value": "Hager_TYA663A__citec_csra_home_hallway__Dimmer__Entrance_Dimmer__BrightnessStateService"
             }
           ]
         }
@@ -42,7 +51,7 @@
       "unit_id": "a70e0552-0012-4ea8-b88b-b6c1774e85f0",
       "service_description": {
         "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
-        "type": "BRIGHTNESS_STATE_SERVICE",
+        "service_type": "BRIGHTNESS_STATE_SERVICE",
         "pattern": "PROVIDER"
       },
       "meta_config": {
@@ -65,7 +74,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__citec_csra_home_hallway__Dimmer__EntranceDimmer__BrightnessStateService"
+              "value": "Hager_TYA663A__citec_csra_home_hallway__Dimmer__Entrance_Dimmer__BrightnessStateService"
             }
           ]
         }
@@ -73,7 +82,7 @@
       "unit_id": "a70e0552-0012-4ea8-b88b-b6c1774e85f0",
       "service_description": {
         "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
-        "type": "BRIGHTNESS_STATE_SERVICE",
+        "service_type": "BRIGHTNESS_STATE_SERVICE",
         "pattern": "OPERATION"
       },
       "meta_config": {
@@ -96,7 +105,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__citec_csra_home_hallway__Dimmer__EntranceDimmer__PowerStateService"
+              "value": "Hager_TYA663A__citec_csra_home_hallway__Dimmer__Entrance_Dimmer__PowerStateService"
             }
           ]
         }
@@ -104,7 +113,7 @@
       "unit_id": "a70e0552-0012-4ea8-b88b-b6c1774e85f0",
       "service_description": {
         "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
-        "type": "POWER_STATE_SERVICE",
+        "service_type": "POWER_STATE_SERVICE",
         "pattern": "PROVIDER"
       },
       "meta_config": {}
@@ -120,7 +129,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__citec_csra_home_hallway__Dimmer__EntranceDimmer__PowerStateService"
+              "value": "Hager_TYA663A__citec_csra_home_hallway__Dimmer__Entrance_Dimmer__PowerStateService"
             }
           ]
         }
@@ -128,7 +137,7 @@
       "unit_id": "a70e0552-0012-4ea8-b88b-b6c1774e85f0",
       "service_description": {
         "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
-        "type": "POWER_STATE_SERVICE",
+        "service_type": "POWER_STATE_SERVICE",
         "pattern": "OPERATION"
       },
       "meta_config": {}

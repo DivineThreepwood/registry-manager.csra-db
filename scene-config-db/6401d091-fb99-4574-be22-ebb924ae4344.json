@@ -1,13 +1,22 @@
 {
   "id": "6401d091-fb99-4574-be22-ebb924ae4344",
-  "label": "AllOff Living",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "All Off Living"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Scene-10"
   ],
-  "type": "SCENE",
+  "unit_type": "SCENE",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "AllOff_Living",
+    "transformation_frame_id": "Scene-10",
     "shape": {}
   },
   "scope": {
@@ -17,7 +26,7 @@
       "home",
       "living",
       "scene",
-      "alloff_living"
+      "alloffliving"
     ]
   },
   "service_config": [
@@ -28,7 +37,7 @@
       "unit_id": "6401d091-fb99-4574-be22-ebb924ae4344",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
       },
@@ -41,7 +50,7 @@
       "unit_id": "6401d091-fb99-4574-be22-ebb924ae4344",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "meta_config": {}
       },
       "meta_config": {}
@@ -58,14 +67,14 @@
         "service_type": "POWER_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
-        "service_attribute": "{\"value\": \"OFF\",\"timestamp\": {\"time\": 1520349825867000}}"
+        "service_attribute": "{\"value\":\"OFF\"}"
       },
       {
         "unit_id": "804542df-aebc-42cb-82ef-f03a97c96bf8",
         "service_type": "POWER_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
-        "service_attribute": "{\"value\": \"OFF\",\"timestamp\": {\"time\": 1520348014608000},\"responsible_action\": {\"transaction_id\": 76}}"
+        "service_attribute": "{\"value\":\"OFF\"}"
       }
     ]
   }

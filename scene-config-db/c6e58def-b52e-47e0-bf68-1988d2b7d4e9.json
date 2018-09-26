@@ -1,13 +1,22 @@
 {
   "id": "c6e58def-b52e-47e0-bf68-1988d2b7d4e9",
-  "label": "Chill",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Chill"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Scene-21"
   ],
-  "type": "SCENE",
+  "unit_type": "SCENE",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
-    "transformation_frame_id": "Chill"
+    "transformation_frame_id": "Scene-21"
   },
   "scope": {
     "component": [
@@ -24,7 +33,7 @@
       "unit_id": "c6e58def-b52e-47e0-bf68-1988d2b7d4e9",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
       }
@@ -34,7 +43,7 @@
       "unit_id": "c6e58def-b52e-47e0-bf68-1988d2b7d4e9",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "meta_config": {}
       }
     }
@@ -49,14 +58,14 @@
         "service_type": "POWER_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
-        "service_attribute": "{\"value\": \"OFF\"}"
+        "service_attribute": "{\"value\":\"OFF\"}"
       },
       {
         "unit_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState",
-        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 44.92890930175781,\"saturation\": 92.95154571533203,\"brightness\": 89.01960754394531}},\"timestamp\": {\"time\": 0}}"
+        "service_attribute": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":44.92890930175781,\"saturation\":92.95154571533203,\"brightness\":89.01960754394531}}}"
       }
     ]
   }

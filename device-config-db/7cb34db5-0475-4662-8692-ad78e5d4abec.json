@@ -1,13 +1,22 @@
 {
   "id": "7cb34db5-0475-4662-8692-ad78e5d4abec",
-  "label": "Center",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Center"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-129"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "5964181e-adad-4306-a1bb-c89eb86b4d82",
-    "transformation_frame_id": "Center",
+    "transformation_frame_id": "Device-129",
     "shape": {}
   },
   "scope": {

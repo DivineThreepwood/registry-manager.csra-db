@@ -1,15 +1,24 @@
 {
   "id": "b4978623-f8f5-4724-90db-243494223b6f",
   "unit_template_config_id": "Fibaro_FGMS-001_TEMPERATURE_SENSOR_0",
-  "label": "Media",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Media"
+        ]
+      }
+    ]
+  },
   "alias": [
     "TemperatureSensor-1"
   ],
   "unit_host_id": "12572989-0ba8-4a3e-b2cd-55ab483850cb",
-  "type": "TEMPERATURE_SENSOR",
+  "unit_type": "TEMPERATURE_SENSOR",
   "placement_config": {
     "location_id": "eb89de19-36db-4f26-b8a5-a75df850892e",
-    "transformation_frame_id": "Media"
+    "transformation_frame_id": "TemperatureSensor-1"
   },
   "scope": {
     "component": [
@@ -39,7 +48,7 @@
       "unit_id": "b4978623-f8f5-4724-90db-243494223b6f",
       "service_description": {
         "service_template_id": "0512aab5-78cf-4464-b699-078f6f3dfdc9",
-        "type": "TEMPERATURE_STATE_SERVICE",
+        "service_type": "TEMPERATURE_STATE_SERVICE",
         "pattern": "PROVIDER"
       },
       "meta_config": {}
@@ -59,7 +68,7 @@
       "unit_id": "b4978623-f8f5-4724-90db-243494223b6f",
       "service_description": {
         "service_template_id": "14f52fce-8ec0-4f9d-8279-47547381473a",
-        "type": "TEMPERATURE_ALARM_STATE_SERVICE",
+        "service_type": "TEMPERATURE_ALARM_STATE_SERVICE",
         "pattern": "PROVIDER"
       }
     }

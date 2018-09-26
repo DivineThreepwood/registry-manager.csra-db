@@ -1,15 +1,24 @@
 {
   "id": "c14c2888-08a2-4341-846e-668924214e70",
   "unit_template_config_id": "Fibaro_FGMS-001_LIGHT_SENSOR_0",
-  "label": "Entrance",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Entrance"
+        ]
+      }
+    ]
+  },
   "alias": [
     "LightSensor-10"
   ],
   "unit_host_id": "e955c2bf-a999-4edc-828b-faebf88237b9",
-  "type": "LIGHT_SENSOR",
+  "unit_type": "LIGHT_SENSOR",
   "placement_config": {
     "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
-    "transformation_frame_id": "Bath_Entrance"
+    "transformation_frame_id": "LightSensor-10"
   },
   "scope": {
     "component": [
@@ -38,7 +47,7 @@
       "unit_id": "c14c2888-08a2-4341-846e-668924214e70",
       "service_description": {
         "service_template_id": "02342f5f-357c-4636-8f52-3eefcb65d060",
-        "type": "ILLUMINANCE_STATE_SERVICE",
+        "service_type": "ILLUMINANCE_STATE_SERVICE",
         "pattern": "PROVIDER"
       },
       "meta_config": {}

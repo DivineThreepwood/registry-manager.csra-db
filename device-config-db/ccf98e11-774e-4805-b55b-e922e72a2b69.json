@@ -1,13 +1,22 @@
 {
   "id": "ccf98e11-774e-4805-b55b-e922e72a2b69",
-  "label": "LeftWindowHandleSensor",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Left Window Handle Sensor"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-116"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
-    "transformation_frame_id": "Control_LeftWindowHandleSensor",
+    "transformation_frame_id": "Device-116",
     "shape": {}
   },
   "scope": {
@@ -38,13 +47,15 @@
       "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
       "timestamp": {
         "time": 1447243098630
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "afee3bdb-873c-4bd3-bbb1-c918091bef85",
     "unit_id": [
       "0139a90c-2969-4dc7-8597-7185dbe4d3e8",
       "67f8009d-7930-4edc-bd38-efb750c07a97"
     ]
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

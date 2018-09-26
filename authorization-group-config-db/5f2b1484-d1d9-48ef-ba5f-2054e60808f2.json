@@ -1,0 +1,67 @@
+{
+  "id": "5f2b1484-d1d9-48ef-ba5f-2054e60808f2",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Standby Authorization Group"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "AuthorizationGroup-10"
+  ],
+  "unit_type": "AUTHORIZATION_GROUP",
+  "placement_config": {
+    "location_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
+    "transformation_frame_id": "AuthorizationGroup-10"
+  },
+  "scope": {
+    "component": [
+      "manager",
+      "authorization",
+      "group",
+      "standbyauthorizationgroup"
+    ]
+  },
+  "meta_config": {
+    "entry": [
+      {
+        "key": "AGENT_CLASS_ID",
+        "value": "77eeb0d9-bc62-468c-8f2a-f2ff1bd7eb21"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "authorization_group_config": {
+    "member_id": [
+      "4df995cd-b717-4c8c-8dc0-2a773f84cd5e",
+      "b5888382-63b1-46f9-9609-1eab266179ce",
+      "45969e8e-a187-4cf4-be04-4ed190ab8ca2",
+      "ae74c525-6bd4-4f1d-9fe0-2821b12dd42f",
+      "f17ad780-aa0a-4685-8cae-5bbfb65caee9",
+      "1d14a223-f7f6-454c-94a4-7e5c1905e371"
+    ]
+  },
+  "permission_config": {
+    "other_permission": {
+      "read": false,
+      "write": false,
+      "access": false
+    },
+    "group_permission": [
+      {
+        "group_id": "5f2b1484-d1d9-48ef-ba5f-2054e60808f2",
+        "permission": {
+          "read": true,
+          "write": true,
+          "access": true
+        }
+      }
+    ]
+  }
+}

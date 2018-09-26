@@ -1,13 +1,22 @@
 {
   "id": "0fb97659-299a-4da9-8dfb-ece4ac0bee00",
-  "label": "Hallway_0",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Hallway 0"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-46"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-    "transformation_frame_id": "Hallway_0",
+    "transformation_frame_id": "Device-46",
     "position": {
       "translation": {
         "x": 0.6782195193016092,
@@ -29,7 +38,7 @@
       "home",
       "hallway",
       "device",
-      "hallway_0"
+      "hallway0"
     ]
   },
   "bound_to_unit_host": true,
@@ -51,12 +60,14 @@
       "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
       "timestamp": {
         "time": 1441014391960
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "6f661f5b-3906-452a-adb6-a4e5fb94eee4",
     "unit_id": [
       "51a38d12-35d5-49a4-9f73-35822c8aeb89"
     ]
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

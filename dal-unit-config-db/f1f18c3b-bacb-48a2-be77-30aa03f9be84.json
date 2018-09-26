@@ -1,15 +1,24 @@
 {
   "id": "f1f18c3b-bacb-48a2-be77-30aa03f9be84",
   "unit_template_config_id": "Fibaro_FGMS-001_MOTION_DETECTOR_0",
-  "label": "Media",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Media"
+        ]
+      }
+    ]
+  },
   "alias": [
     "MotionDetector-11"
   ],
   "unit_host_id": "12572989-0ba8-4a3e-b2cd-55ab483850cb",
-  "type": "MOTION_DETECTOR",
+  "unit_type": "MOTION_DETECTOR",
   "placement_config": {
     "location_id": "eb89de19-36db-4f26-b8a5-a75df850892e",
-    "transformation_frame_id": "Hometheater_Media"
+    "transformation_frame_id": "MotionDetector-11"
   },
   "scope": {
     "component": [
@@ -39,7 +48,7 @@
       "unit_id": "f1f18c3b-bacb-48a2-be77-30aa03f9be84",
       "service_description": {
         "service_template_id": "4ebe8edc-01be-4500-83a1-f753b306aa0f",
-        "type": "MOTION_STATE_SERVICE",
+        "service_type": "MOTION_STATE_SERVICE",
         "pattern": "PROVIDER"
       },
       "meta_config": {}

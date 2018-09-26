@@ -1,15 +1,24 @@
 {
   "id": "d09c4086-89fc-4b22-9196-2d458bb9d500",
   "unit_template_config_id": "Gira_429496730250000_BUTTON_1",
-  "label": "Button 2 ",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Button 2"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Button-15"
   ],
   "unit_host_id": "a0e7ef4c-8011-4b61-963f-26f9e716d3cd",
-  "type": "BUTTON",
+  "unit_type": "BUTTON",
   "placement_config": {
     "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
-    "transformation_frame_id": "Button_2",
+    "transformation_frame_id": "Button-15",
     "shape": {}
   },
   "scope": {
@@ -19,7 +28,7 @@
       "home",
       "bath",
       "button",
-      "button_2"
+      "button2"
     ]
   },
   "bound_to_unit_host": false,
@@ -43,7 +52,7 @@
       "unit_id": "d09c4086-89fc-4b22-9196-2d458bb9d500",
       "service_description": {
         "service_template_id": "1d50901a-5cc1-4595-9180-334c3f3317dc",
-        "type": "BUTTON_STATE_SERVICE",
+        "service_type": "BUTTON_STATE_SERVICE",
         "pattern": "PROVIDER"
       },
       "meta_config": {}

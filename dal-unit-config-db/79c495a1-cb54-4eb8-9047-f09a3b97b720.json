@@ -1,16 +1,25 @@
 {
   "id": "79c495a1-cb54-4eb8-9047-f09a3b97b720",
   "unit_template_config_id": "SimonProduction_HandleRev1_COLORABLE_LIGHT_0",
-  "label": "506",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "506"
+        ]
+      }
+    ]
+  },
   "alias": [
     "ColorableLight-18",
     "cupboard2"
   ],
   "unit_host_id": "9c2a6435-f605-4468-b125-be540b65b96f",
-  "type": "COLORABLE_LIGHT",
+  "unit_type": "COLORABLE_LIGHT",
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-    "transformation_frame_id": "506",
+    "transformation_frame_id": "ColorableLight-18",
     "position": {
       "translation": {
         "x": 0.6903007926252462,
@@ -46,7 +55,7 @@
       "unit_id": "79c495a1-cb54-4eb8-9047-f09a3b97b720",
       "service_description": {
         "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
-        "type": "BRIGHTNESS_STATE_SERVICE",
+        "service_type": "BRIGHTNESS_STATE_SERVICE",
         "pattern": "PROVIDER",
         "meta_config": {}
       },
@@ -60,7 +69,7 @@
       "unit_id": "79c495a1-cb54-4eb8-9047-f09a3b97b720",
       "service_description": {
         "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
-        "type": "BRIGHTNESS_STATE_SERVICE",
+        "service_type": "BRIGHTNESS_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
       },
@@ -74,7 +83,7 @@
       "unit_id": "79c495a1-cb54-4eb8-9047-f09a3b97b720",
       "service_description": {
         "service_template_id": "0f9527d7-d6f8-4a09-af14-1a8d91c264bd",
-        "type": "COLOR_STATE_SERVICE",
+        "service_type": "COLOR_STATE_SERVICE",
         "pattern": "PROVIDER",
         "meta_config": {}
       },
@@ -88,7 +97,7 @@
       "unit_id": "79c495a1-cb54-4eb8-9047-f09a3b97b720",
       "service_description": {
         "service_template_id": "0f9527d7-d6f8-4a09-af14-1a8d91c264bd",
-        "type": "COLOR_STATE_SERVICE",
+        "service_type": "COLOR_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
       },
@@ -102,7 +111,7 @@
       "unit_id": "79c495a1-cb54-4eb8-9047-f09a3b97b720",
       "service_description": {
         "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
-        "type": "POWER_STATE_SERVICE",
+        "service_type": "POWER_STATE_SERVICE",
         "pattern": "PROVIDER",
         "meta_config": {}
       },
@@ -116,7 +125,7 @@
       "unit_id": "79c495a1-cb54-4eb8-9047-f09a3b97b720",
       "service_description": {
         "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
-        "type": "POWER_STATE_SERVICE",
+        "service_type": "POWER_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
       },

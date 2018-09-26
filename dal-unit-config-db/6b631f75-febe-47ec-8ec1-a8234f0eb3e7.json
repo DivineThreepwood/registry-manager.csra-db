@@ -1,15 +1,24 @@
 {
   "id": "6b631f75-febe-47ec-8ec1-a8234f0eb3e7",
   "unit_template_config_id": "Fibaro_FGMS-001_BATTERY_0",
-  "label": "Hallway",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Hallway"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Battery-6"
   ],
   "unit_host_id": "7e3043fb-b942-4bd0-9fe1-5b8ccadb6926",
-  "type": "BATTERY",
+  "unit_type": "BATTERY",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-    "transformation_frame_id": "Hallway"
+    "transformation_frame_id": "Battery-6"
   },
   "scope": {
     "component": [
@@ -38,7 +47,7 @@
       "unit_id": "6b631f75-febe-47ec-8ec1-a8234f0eb3e7",
       "service_description": {
         "service_template_id": "d1dd033f-9dae-46fb-9355-a32b0b898db7",
-        "type": "BATTERY_STATE_SERVICE",
+        "service_type": "BATTERY_STATE_SERVICE",
         "pattern": "PROVIDER"
       },
       "meta_config": {}

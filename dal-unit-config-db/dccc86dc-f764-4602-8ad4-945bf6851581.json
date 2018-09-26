@@ -1,15 +1,24 @@
 {
   "id": "dccc86dc-f764-4602-8ad4-945bf6851581",
   "unit_template_config_id": "Hager_TYA663A_DIMMER_2",
-  "label": "CeilingCentralDimmer",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Ceiling Central Dimmer"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Dimmer-7"
   ],
   "unit_host_id": "168952c1-1821-4aa6-b742-3d2213709d17",
-  "type": "DIMMER",
+  "unit_type": "DIMMER",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "CeilingCentralDimmer",
+    "transformation_frame_id": "Dimmer-7",
     "shape": {}
   },
   "scope": {
@@ -35,7 +44,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__citec_csra_home_living__Dimmer__CeilingCentralDimmer__BrightnessStateService"
+              "value": "Hager_TYA663A__citec_csra_home_living__Dimmer__Ceiling_Central_Dimmer__BrightnessStateService"
             }
           ]
         }
@@ -43,7 +52,7 @@
       "unit_id": "dccc86dc-f764-4602-8ad4-945bf6851581",
       "service_description": {
         "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
-        "type": "BRIGHTNESS_STATE_SERVICE",
+        "service_type": "BRIGHTNESS_STATE_SERVICE",
         "pattern": "PROVIDER",
         "meta_config": {}
       },
@@ -60,7 +69,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__citec_csra_home_living__Dimmer__CeilingCentralDimmer__BrightnessStateService"
+              "value": "Hager_TYA663A__citec_csra_home_living__Dimmer__Ceiling_Central_Dimmer__BrightnessStateService"
             }
           ]
         }
@@ -68,7 +77,7 @@
       "unit_id": "dccc86dc-f764-4602-8ad4-945bf6851581",
       "service_description": {
         "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
-        "type": "BRIGHTNESS_STATE_SERVICE",
+        "service_type": "BRIGHTNESS_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
       },
@@ -85,7 +94,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__citec_csra_home_living__Dimmer__CeilingCentralDimmer__PowerStateService"
+              "value": "Hager_TYA663A__citec_csra_home_living__Dimmer__Ceiling_Central_Dimmer__PowerStateService"
             }
           ]
         }
@@ -93,7 +102,7 @@
       "unit_id": "dccc86dc-f764-4602-8ad4-945bf6851581",
       "service_description": {
         "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
-        "type": "POWER_STATE_SERVICE",
+        "service_type": "POWER_STATE_SERVICE",
         "pattern": "PROVIDER",
         "meta_config": {}
       },
@@ -110,7 +119,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__citec_csra_home_living__Dimmer__CeilingCentralDimmer__PowerStateService"
+              "value": "Hager_TYA663A__citec_csra_home_living__Dimmer__Ceiling_Central_Dimmer__PowerStateService"
             }
           ]
         }
@@ -118,7 +127,7 @@
       "unit_id": "dccc86dc-f764-4602-8ad4-945bf6851581",
       "service_description": {
         "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
-        "type": "POWER_STATE_SERVICE",
+        "service_type": "POWER_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
       },

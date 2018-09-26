@@ -1,13 +1,22 @@
 {
   "id": "87c4aba8-e227-45c9-8e5b-6a4888373729",
-  "label": "505",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "505"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-76"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-    "transformation_frame_id": "505",
+    "transformation_frame_id": "Device-76",
     "position": {
       "translation": {
         "x": 0.31731901933731876,
@@ -52,13 +61,15 @@
       "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
       "timestamp": {
         "time": 1441020243060
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "7d6d56c2-9bd7-45cf-a3fd-26bce7804e0a",
     "unit_id": [
       "e83686fd-99bc-44a0-9170-e6166598a95c",
       "cbe3a9cc-2869-463f-b217-7c6f8e2650b6"
     ]
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

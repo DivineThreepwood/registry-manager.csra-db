@@ -1,0 +1,115 @@
+{
+  "id": "688f90f5-98ea-4cf2-b890-cd4ae0cb5b2e",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Ceiling Window Lamp Power Synchroniser@Living"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "User-18"
+  ],
+  "unit_type": "USER",
+  "placement_config": {
+    "location_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
+    "transformation_frame_id": "User-18"
+  },
+  "scope": {
+    "component": [
+      "manager",
+      "user",
+      "ceilingwindowlamppowersynchroniserliving"
+    ]
+  },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "688f90f5-98ea-4cf2-b890-cd4ae0cb5b2e",
+      "service_description": {
+        "service_template_id": "14bf74e2-dce4-47c7-9c58-cc85dea24ed5",
+        "service_type": "ACTIVITY_MULTI_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "688f90f5-98ea-4cf2-b890-cd4ae0cb5b2e",
+      "service_description": {
+        "service_template_id": "14bf74e2-dce4-47c7-9c58-cc85dea24ed5",
+        "service_type": "ACTIVITY_MULTI_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "688f90f5-98ea-4cf2-b890-cd4ae0cb5b2e",
+      "service_description": {
+        "service_template_id": "5d664e5a-6fa3-433a-a1e0-ca81d79aacff",
+        "service_type": "PRESENCE_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "688f90f5-98ea-4cf2-b890-cd4ae0cb5b2e",
+      "service_description": {
+        "service_template_id": "5d664e5a-6fa3-433a-a1e0-ca81d79aacff",
+        "service_type": "PRESENCE_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "688f90f5-98ea-4cf2-b890-cd4ae0cb5b2e",
+      "service_description": {
+        "service_template_id": "4537a330-af91-4499-bc3b-3c559e9b6ea0",
+        "service_type": "USER_TRANSIT_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "688f90f5-98ea-4cf2-b890-cd4ae0cb5b2e",
+      "service_description": {
+        "service_template_id": "4537a330-af91-4499-bc3b-3c559e9b6ea0",
+        "service_type": "USER_TRANSIT_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "UNIT_ID",
+        "value": "e4250019-2c88-4340-b0a0-8bea71cbe2ac"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "user_config": {
+    "user_name": "CeilingWindowLampPowerSynchroniser@Living",
+    "system_user": true
+  },
+  "permission_config": {
+    "owner_id": "688f90f5-98ea-4cf2-b890-cd4ae0cb5b2e",
+    "owner_permission": {
+      "read": true,
+      "write": true,
+      "access": true
+    },
+    "other_permission": {
+      "read": false,
+      "write": false,
+      "access": false
+    }
+  }
+}

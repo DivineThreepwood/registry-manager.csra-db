@@ -1,13 +1,22 @@
 {
   "id": "73641725-f39c-47d0-8129-6d8967b43f89",
-  "label": "ASUS_90IW0122-B01UA_E3IWBDA34149",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "ASUS 90IW0122 B01UA E3IWBDA34149"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-99"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
-    "transformation_frame_id": "ASUS_90IW0122-B01UA_E3IWBDA34149",
+    "transformation_frame_id": "Device-99",
     "position": {
       "translation": {
         "x": 2.53,
@@ -28,10 +37,17 @@
       "csra",
       "robotroom",
       "device",
-      "asus_90iw0122-b01ua_e3iwbda34149"
+      "asus90iw0122b01uae3iwbda34149"
     ]
   },
-  "description": "SPORT4 @ BCN",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "SPORT4 @ BCN"
+      }
+    ]
+  },
   "bound_to_unit_host": true,
   "meta_config": {},
   "enabling_state": {
@@ -44,8 +60,7 @@
       "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
       "timestamp": {
         "time": 1441984189722
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "3069a4e2-25c9-4873-bee2-43df7a77e44c",
     "unit_id": [
@@ -53,5 +68,8 @@
       "e9af3e32-8c3a-43b0-af0d-2122b9f37b90",
       "0b3237bc-38e5-44dc-8b5c-2d337759ceb8"
     ]
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

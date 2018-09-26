@@ -1,15 +1,24 @@
 {
   "id": "8bdec03c-86e1-462f-b341-3a0e96f2d6f5",
   "unit_template_config_id": "Fibaro_FGMS-001_TEMPERATURE_SENSOR_0",
-  "label": "Shower",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Shower"
+        ]
+      }
+    ]
+  },
   "alias": [
     "TemperatureSensor-7"
   ],
   "unit_host_id": "2ccf07ae-51fa-4b7f-83b2-08b978eaf082",
-  "type": "TEMPERATURE_SENSOR",
+  "unit_type": "TEMPERATURE_SENSOR",
   "placement_config": {
     "location_id": "cd696027-fb4f-497c-af30-144859a462da",
-    "transformation_frame_id": "Shower_Shower"
+    "transformation_frame_id": "TemperatureSensor-7"
   },
   "scope": {
     "component": [
@@ -39,7 +48,7 @@
       "unit_id": "8bdec03c-86e1-462f-b341-3a0e96f2d6f5",
       "service_description": {
         "service_template_id": "0512aab5-78cf-4464-b699-078f6f3dfdc9",
-        "type": "TEMPERATURE_STATE_SERVICE",
+        "service_type": "TEMPERATURE_STATE_SERVICE",
         "pattern": "PROVIDER"
       },
       "meta_config": {}
@@ -59,7 +68,7 @@
       "unit_id": "8bdec03c-86e1-462f-b341-3a0e96f2d6f5",
       "service_description": {
         "service_template_id": "14f52fce-8ec0-4f9d-8279-47547381473a",
-        "type": "TEMPERATURE_ALARM_STATE_SERVICE",
+        "service_type": "TEMPERATURE_ALARM_STATE_SERVICE",
         "pattern": "PROVIDER"
       }
     }

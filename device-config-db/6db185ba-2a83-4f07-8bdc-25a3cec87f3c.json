@@ -1,13 +1,22 @@
 {
   "id": "6db185ba-2a83-4f07-8bdc-25a3cec87f3c",
-  "label": "MediaHue",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Media Hue"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-118"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "0df5bbb8-2d17-4f81-9b34-314a26ae713a",
-    "transformation_frame_id": "MediaHue",
+    "transformation_frame_id": "Device-118",
     "position": {
       "translation": {
         "x": 1.872101056033997,
@@ -52,12 +61,14 @@
       "location_id": "0df5bbb8-2d17-4f81-9b34-314a26ae713a",
       "timestamp": {
         "time": 1441016284790
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "6f661f5b-3906-452a-adb6-a4e5fb94eee4",
     "unit_id": [
       "2ca1b701-cfde-4570-83de-46610e6718fc"
     ]
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

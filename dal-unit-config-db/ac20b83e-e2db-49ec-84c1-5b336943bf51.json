@@ -1,15 +1,24 @@
 {
   "id": "ac20b83e-e2db-49ec-84c1-5b336943bf51",
   "unit_template_config_id": "Logitech_C910_VIDEO_RGB_SOURCE_0",
-  "label": "FlobiCam",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Flobi Cam"
+        ]
+      }
+    ]
+  },
   "alias": [
     "VideoRgbSource-13"
   ],
   "unit_host_id": "f65b09c6-b14b-4da6-9d3d-47b4c3ba10ff",
-  "type": "VIDEO_RGB_SOURCE",
+  "unit_type": "VIDEO_RGB_SOURCE",
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-    "transformation_frame_id": "FlobiCam",
+    "transformation_frame_id": "VideoRgbSource-13",
     "shape": {}
   },
   "scope": {

@@ -1,13 +1,22 @@
 {
   "id": "fac04544-0148-4969-adae-a96e94f5faac",
-  "label": "CeilingLamp 4",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Ceiling Lamp 4"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-113"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-    "transformation_frame_id": "CeilingLamp_4",
+    "transformation_frame_id": "Device-113",
     "shape": {}
   },
   "scope": {
@@ -17,7 +26,7 @@
       "home",
       "kitchen",
       "device",
-      "ceilinglamp_4"
+      "ceilinglamp4"
     ]
   },
   "bound_to_unit_host": true,
@@ -39,12 +48,14 @@
       "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
       "timestamp": {
         "time": 1441017140147
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "a9977a4a-ef9c-4280-81a3-79bf6b8069b4",
     "unit_id": [
       "9c3561a1-e6ce-476e-9bff-0d35807d2607"
     ]
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

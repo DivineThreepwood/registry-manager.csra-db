@@ -1,0 +1,115 @@
+{
+  "id": "45969e8e-a187-4cf4-be04-4ed190ab8ca2",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Standby Hallway@Hallway"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "User-17"
+  ],
+  "unit_type": "USER",
+  "placement_config": {
+    "location_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
+    "transformation_frame_id": "User-17"
+  },
+  "scope": {
+    "component": [
+      "manager",
+      "user",
+      "standbyhallwayhallway"
+    ]
+  },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "45969e8e-a187-4cf4-be04-4ed190ab8ca2",
+      "service_description": {
+        "service_template_id": "14bf74e2-dce4-47c7-9c58-cc85dea24ed5",
+        "service_type": "ACTIVITY_MULTI_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "45969e8e-a187-4cf4-be04-4ed190ab8ca2",
+      "service_description": {
+        "service_template_id": "14bf74e2-dce4-47c7-9c58-cc85dea24ed5",
+        "service_type": "ACTIVITY_MULTI_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "45969e8e-a187-4cf4-be04-4ed190ab8ca2",
+      "service_description": {
+        "service_template_id": "5d664e5a-6fa3-433a-a1e0-ca81d79aacff",
+        "service_type": "PRESENCE_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "45969e8e-a187-4cf4-be04-4ed190ab8ca2",
+      "service_description": {
+        "service_template_id": "5d664e5a-6fa3-433a-a1e0-ca81d79aacff",
+        "service_type": "PRESENCE_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "45969e8e-a187-4cf4-be04-4ed190ab8ca2",
+      "service_description": {
+        "service_template_id": "4537a330-af91-4499-bc3b-3c559e9b6ea0",
+        "service_type": "USER_TRANSIT_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "45969e8e-a187-4cf4-be04-4ed190ab8ca2",
+      "service_description": {
+        "service_template_id": "4537a330-af91-4499-bc3b-3c559e9b6ea0",
+        "service_type": "USER_TRANSIT_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "UNIT_ID",
+        "value": "59a219ed-6f69-41f7-908c-2066faac97c8"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "user_config": {
+    "user_name": "StandbyHallway@Hallway",
+    "system_user": true
+  },
+  "permission_config": {
+    "owner_id": "45969e8e-a187-4cf4-be04-4ed190ab8ca2",
+    "owner_permission": {
+      "read": true,
+      "write": true,
+      "access": true
+    },
+    "other_permission": {
+      "read": false,
+      "write": false,
+      "access": false
+    }
+  }
+}

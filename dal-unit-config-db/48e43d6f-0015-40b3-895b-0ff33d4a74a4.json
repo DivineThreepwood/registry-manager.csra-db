@@ -1,15 +1,24 @@
 {
   "id": "48e43d6f-0015-40b3-895b-0ff33d4a74a4",
   "unit_template_config_id": "Philips_KV01-18Y_COLORABLE_LIGHT_0",
-  "label": "CeilingLamp 3",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Ceiling Lamp 3"
+        ]
+      }
+    ]
+  },
   "alias": [
     "ColorableLight-5"
   ],
   "unit_host_id": "be347a9c-0bb2-42d6-8f69-3699e52224ba",
-  "type": "COLORABLE_LIGHT",
+  "unit_type": "COLORABLE_LIGHT",
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-    "transformation_frame_id": "CeilingLamp_3"
+    "transformation_frame_id": "ColorableLight-5"
   },
   "scope": {
     "component": [
@@ -18,7 +27,7 @@
       "home",
       "kitchen",
       "colorablelight",
-      "ceilinglamp_3"
+      "ceilinglamp3"
     ]
   },
   "bound_to_unit_host": true,
@@ -30,7 +39,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_GU10__citec_csra_home_kitchen__ColorableLight__CeilingLamp_3__BrightnessStateService"
+              "value": "Philips_Hue_GU10__citec_csra_home_kitchen__ColorableLight__Ceiling_Lamp_3__BrightnessStateService"
             }
           ]
         }
@@ -38,7 +47,7 @@
       "unit_id": "48e43d6f-0015-40b3-895b-0ff33d4a74a4",
       "service_description": {
         "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
-        "type": "BRIGHTNESS_STATE_SERVICE",
+        "service_type": "BRIGHTNESS_STATE_SERVICE",
         "pattern": "PROVIDER"
       },
       "meta_config": {}
@@ -50,7 +59,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_GU10__citec_csra_home_kitchen__ColorableLight__CeilingLamp_3__BrightnessStateService"
+              "value": "Philips_Hue_GU10__citec_csra_home_kitchen__ColorableLight__Ceiling_Lamp_3__BrightnessStateService"
             }
           ]
         }
@@ -58,7 +67,7 @@
       "unit_id": "48e43d6f-0015-40b3-895b-0ff33d4a74a4",
       "service_description": {
         "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
-        "type": "BRIGHTNESS_STATE_SERVICE",
+        "service_type": "BRIGHTNESS_STATE_SERVICE",
         "pattern": "OPERATION"
       },
       "meta_config": {}
@@ -70,7 +79,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_GU10__citec_csra_home_kitchen__ColorableLight__CeilingLamp_3__ColorStateService"
+              "value": "Philips_Hue_GU10__citec_csra_home_kitchen__ColorableLight__Ceiling_Lamp_3__ColorStateService"
             }
           ]
         }
@@ -78,7 +87,7 @@
       "unit_id": "48e43d6f-0015-40b3-895b-0ff33d4a74a4",
       "service_description": {
         "service_template_id": "0f9527d7-d6f8-4a09-af14-1a8d91c264bd",
-        "type": "COLOR_STATE_SERVICE",
+        "service_type": "COLOR_STATE_SERVICE",
         "pattern": "PROVIDER"
       },
       "meta_config": {}
@@ -90,7 +99,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_GU10__citec_csra_home_kitchen__ColorableLight__CeilingLamp_3__ColorStateService"
+              "value": "Philips_Hue_GU10__citec_csra_home_kitchen__ColorableLight__Ceiling_Lamp_3__ColorStateService"
             }
           ]
         }
@@ -98,7 +107,7 @@
       "unit_id": "48e43d6f-0015-40b3-895b-0ff33d4a74a4",
       "service_description": {
         "service_template_id": "0f9527d7-d6f8-4a09-af14-1a8d91c264bd",
-        "type": "COLOR_STATE_SERVICE",
+        "service_type": "COLOR_STATE_SERVICE",
         "pattern": "OPERATION"
       },
       "meta_config": {}
@@ -110,7 +119,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_GU10__citec_csra_home_kitchen__ColorableLight__CeilingLamp_3__PowerStateService"
+              "value": "Philips_Hue_GU10__citec_csra_home_kitchen__ColorableLight__Ceiling_Lamp_3__PowerStateService"
             }
           ]
         }
@@ -118,7 +127,7 @@
       "unit_id": "48e43d6f-0015-40b3-895b-0ff33d4a74a4",
       "service_description": {
         "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
-        "type": "POWER_STATE_SERVICE",
+        "service_type": "POWER_STATE_SERVICE",
         "pattern": "PROVIDER"
       },
       "meta_config": {}
@@ -130,7 +139,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_GU10__citec_csra_home_kitchen__ColorableLight__CeilingLamp_3__PowerStateService"
+              "value": "Philips_Hue_GU10__citec_csra_home_kitchen__ColorableLight__Ceiling_Lamp_3__PowerStateService"
             }
           ]
         }
@@ -138,7 +147,7 @@
       "unit_id": "48e43d6f-0015-40b3-895b-0ff33d4a74a4",
       "service_description": {
         "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
-        "type": "POWER_STATE_SERVICE",
+        "service_type": "POWER_STATE_SERVICE",
         "pattern": "OPERATION"
       },
       "meta_config": {}

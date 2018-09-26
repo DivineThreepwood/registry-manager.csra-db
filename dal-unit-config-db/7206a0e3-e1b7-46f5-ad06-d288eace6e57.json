@@ -1,15 +1,24 @@
 {
   "id": "7206a0e3-e1b7-46f5-ad06-d288eace6e57",
   "unit_template_config_id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_SWITCH_0",
-  "label": "S8_C1",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "S8 C1"
+        ]
+      }
+    ]
+  },
   "alias": [
     "PowerSwitch-3"
   ],
   "unit_host_id": "1505075c-a4a9-41d7-958a-556cdf7b73ac",
-  "type": "POWER_SWITCH",
+  "unit_type": "POWER_SWITCH",
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
-    "transformation_frame_id": "S8_C1",
+    "transformation_frame_id": "PowerSwitch-3",
     "shape": {}
   },
   "scope": {
@@ -18,7 +27,7 @@
       "csra",
       "control",
       "powerswitch",
-      "s8_c1"
+      "s8c1"
     ]
   },
   "bound_to_unit_host": false,
@@ -38,7 +47,7 @@
       "unit_id": "7206a0e3-e1b7-46f5-ad06-d288eace6e57",
       "service_description": {
         "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
-        "type": "POWER_STATE_SERVICE",
+        "service_type": "POWER_STATE_SERVICE",
         "meta_config": {}
       },
       "meta_config": {}
@@ -62,7 +71,7 @@
       "unit_id": "7206a0e3-e1b7-46f5-ad06-d288eace6e57",
       "service_description": {
         "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
-        "type": "POWER_STATE_SERVICE",
+        "service_type": "POWER_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
       },

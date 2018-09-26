@@ -1,15 +1,24 @@
 {
   "id": "03e2302e-8879-4989-b305-211ebd127cc8",
   "unit_template_config_id": "Gira_429496730210000_BUTTON_4",
-  "label": "Scene: Party",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Scene: Party"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Button-29"
   ],
   "unit_host_id": "acb2a103-1c5c-4023-96d5-c88b8a9a042c",
-  "type": "BUTTON",
+  "unit_type": "BUTTON",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-    "transformation_frame_id": "Scene_Party",
+    "transformation_frame_id": "Button-29",
     "shape": {}
   },
   "scope": {
@@ -19,7 +28,7 @@
       "home",
       "hallway",
       "button",
-      "scene_party"
+      "sceneparty"
     ]
   },
   "bound_to_unit_host": false,
@@ -43,7 +52,7 @@
       "unit_id": "03e2302e-8879-4989-b305-211ebd127cc8",
       "service_description": {
         "service_template_id": "1d50901a-5cc1-4595-9180-334c3f3317dc",
-        "type": "BUTTON_STATE_SERVICE",
+        "service_type": "BUTTON_STATE_SERVICE",
         "pattern": "PROVIDER",
         "meta_config": {}
       },

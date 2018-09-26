@@ -1,15 +1,24 @@
 {
   "id": "e9af3e32-8c3a-43b0-af0d-2122b9f37b90",
   "unit_template_config_id": "ASUS_90IW0122-B01UA_VIDEO_DEPTH_SOURCE_0",
-  "label": "ASUS_90IW0122-B01UA_E3IWBDA34149",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "ASUS 90IW0122 B01UA E3IWBDA34149"
+        ]
+      }
+    ]
+  },
   "alias": [
     "VideoDepthSource-9"
   ],
   "unit_host_id": "73641725-f39c-47d0-8129-6d8967b43f89",
-  "type": "VIDEO_DEPTH_SOURCE",
+  "unit_type": "VIDEO_DEPTH_SOURCE",
   "placement_config": {
     "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
-    "transformation_frame_id": "RobotRoom_ASUS_90IW0122-B01UA_E3IWBDA34149",
+    "transformation_frame_id": "VideoDepthSource-9",
     "position": {
       "translation": {
         "x": 2.53,
@@ -30,7 +39,7 @@
       "csra",
       "robotroom",
       "videodepthsource",
-      "asus_90iw0122-b01ua_e3iwbda34149"
+      "asus90iw0122b01uae3iwbda34149"
     ]
   },
   "bound_to_unit_host": true,

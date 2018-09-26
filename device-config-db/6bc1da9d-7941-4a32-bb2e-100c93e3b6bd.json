@@ -1,13 +1,22 @@
 {
   "id": "6bc1da9d-7941-4a32-bb2e-100c93e3b6bd",
-  "label": "ControlBelowButtons",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Control Below Buttons"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-123"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
-    "transformation_frame_id": "ControlBelowButtons",
+    "transformation_frame_id": "Device-123",
     "shape": {}
   },
   "scope": {
@@ -33,8 +42,7 @@
       "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
       "timestamp": {
         "time": 1440772632159
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "e40b8bbd-9e23-4288-9c15-05b8e90ca8e1",
     "unit_id": [
@@ -45,5 +53,8 @@
       "7d47fffe-96b8-4e85-9465-ec2baa4284c3",
       "b59bd1f5-0775-478a-b722-a2edbebf1b80"
     ]
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

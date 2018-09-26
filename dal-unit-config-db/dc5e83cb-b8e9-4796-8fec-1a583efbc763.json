@@ -1,15 +1,24 @@
 {
   "id": "dc5e83cb-b8e9-4796-8fec-1a583efbc763",
   "unit_template_config_id": "Hager_TYA628C_ROLLER_SHUTTER_2",
-  "label": "LeftInside",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Left Inside"
+        ]
+      }
+    ]
+  },
   "alias": [
     "RollerShutter-5"
   ],
   "unit_host_id": "f3857eeb-c0c5-466c-afe6-c7693212c96f",
-  "type": "ROLLER_SHUTTER",
+  "unit_type": "ROLLER_SHUTTER",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "LeftInside",
+    "transformation_frame_id": "RollerShutter-5",
     "position": {
       "translation": {
         "x": 0.7593205841622366,
@@ -35,7 +44,14 @@
       "leftinside"
     ]
   },
-  "description": "The left inside rollershutter of the living room.",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "The left inside rollershutter of the living room."
+      }
+    ]
+  },
   "bound_to_unit_host": false,
   "service_config": [
     {
@@ -49,7 +65,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA628C__citec_csra_home_living__RollerShutter__LeftInside__BlindStateService"
+              "value": "Hager_TYA628C__citec_csra_home_living__RollerShutter__Left_Inside__BlindStateService"
             }
           ]
         }
@@ -57,7 +73,7 @@
       "unit_id": "dc5e83cb-b8e9-4796-8fec-1a583efbc763",
       "service_description": {
         "service_template_id": "a2175895-7dcf-4d51-96aa-dcb01b47ed04",
-        "type": "BLIND_STATE_SERVICE",
+        "service_type": "BLIND_STATE_SERVICE",
         "pattern": "PROVIDER"
       },
       "meta_config": {}
@@ -73,7 +89,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA628C__citec_csra_home_living__RollerShutter__LeftInside__BlindStateService"
+              "value": "Hager_TYA628C__citec_csra_home_living__RollerShutter__Left_Inside__BlindStateService"
             }
           ]
         }
@@ -81,7 +97,7 @@
       "unit_id": "dc5e83cb-b8e9-4796-8fec-1a583efbc763",
       "service_description": {
         "service_template_id": "a2175895-7dcf-4d51-96aa-dcb01b47ed04",
-        "type": "BLIND_STATE_SERVICE",
+        "service_type": "BLIND_STATE_SERVICE",
         "pattern": "OPERATION"
       },
       "meta_config": {}

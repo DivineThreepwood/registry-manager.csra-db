@@ -1,15 +1,24 @@
 {
   "id": "fd3443a8-8c3e-4894-ae1b-32c5dcb1b095",
   "unit_template_config_id": "Hager_TYA663A_DIMMER_2",
-  "label": "RightDimmer",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Right Dimmer"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Dimmer-2"
   ],
   "unit_host_id": "d7f45b8f-f3b3-4d1a-b107-3231b4b33f3b",
-  "type": "DIMMER",
+  "unit_type": "DIMMER",
   "placement_config": {
     "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
-    "transformation_frame_id": "RightDimmer",
+    "transformation_frame_id": "Dimmer-2",
     "position": {
       "translation": {
         "x": 0.7598140642329048,
@@ -47,7 +56,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__citec_csra_robotroom__Dimmer__RightDimmer__BrightnessStateService"
+              "value": "Hager_TYA663A__citec_csra_robotroom__Dimmer__Right_Dimmer__BrightnessStateService"
             }
           ]
         }
@@ -55,7 +64,7 @@
       "unit_id": "fd3443a8-8c3e-4894-ae1b-32c5dcb1b095",
       "service_description": {
         "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
-        "type": "BRIGHTNESS_STATE_SERVICE",
+        "service_type": "BRIGHTNESS_STATE_SERVICE",
         "pattern": "PROVIDER",
         "meta_config": {}
       },
@@ -72,7 +81,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__citec_csra_robotroom__Dimmer__RightDimmer__BrightnessStateService"
+              "value": "Hager_TYA663A__citec_csra_robotroom__Dimmer__Right_Dimmer__BrightnessStateService"
             }
           ]
         }
@@ -80,7 +89,7 @@
       "unit_id": "fd3443a8-8c3e-4894-ae1b-32c5dcb1b095",
       "service_description": {
         "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
-        "type": "BRIGHTNESS_STATE_SERVICE",
+        "service_type": "BRIGHTNESS_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
       },
@@ -97,7 +106,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__citec_csra_robotroom__Dimmer__RightDimmer__PowerStateService"
+              "value": "Hager_TYA663A__citec_csra_robotroom__Dimmer__Right_Dimmer__PowerStateService"
             }
           ]
         }
@@ -105,7 +114,7 @@
       "unit_id": "fd3443a8-8c3e-4894-ae1b-32c5dcb1b095",
       "service_description": {
         "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
-        "type": "POWER_STATE_SERVICE",
+        "service_type": "POWER_STATE_SERVICE",
         "pattern": "PROVIDER",
         "meta_config": {}
       },
@@ -122,7 +131,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__citec_csra_robotroom__Dimmer__RightDimmer__PowerStateService"
+              "value": "Hager_TYA663A__citec_csra_robotroom__Dimmer__Right_Dimmer__PowerStateService"
             }
           ]
         }
@@ -130,7 +139,7 @@
       "unit_id": "fd3443a8-8c3e-4894-ae1b-32c5dcb1b095",
       "service_description": {
         "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
-        "type": "POWER_STATE_SERVICE",
+        "service_type": "POWER_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
       },

@@ -1,13 +1,22 @@
 {
   "id": "502bdaaf-8d98-4563-9e13-200d33ced339",
-  "label": "LivingPresenceLight",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Living Presence Light"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Agent-19"
   ],
-  "type": "AGENT",
+  "unit_type": "AGENT",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "LivingPresenceLight",
+    "transformation_frame_id": "Agent-19",
     "shape": {}
   },
   "scope": {
@@ -29,7 +38,7 @@
       "unit_id": "502bdaaf-8d98-4563-9e13-200d33ced339",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
       },
@@ -42,7 +51,7 @@
       "unit_id": "502bdaaf-8d98-4563-9e13-200d33ced339",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "meta_config": {}
       },
       "meta_config": {}

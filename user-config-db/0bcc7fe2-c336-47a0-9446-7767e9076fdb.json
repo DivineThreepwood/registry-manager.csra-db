@@ -1,13 +1,22 @@
 {
   "id": "0bcc7fe2-c336-47a0-9446-7767e9076fdb",
-  "label": "pLeminoq (Tamino Huxohl)",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "p Leminoq (Tamino Huxohl)"
+        ]
+      }
+    ]
+  },
   "alias": [
     "User-2"
   ],
-  "type": "USER",
+  "unit_type": "USER",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
-    "transformation_frame_id": "pLeminoq_Tamino_Huxohl",
+    "transformation_frame_id": "User-2",
     "shape": {}
   },
   "scope": {
@@ -17,6 +26,65 @@
       "pleminoq"
     ]
   },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "0bcc7fe2-c336-47a0-9446-7767e9076fdb",
+      "service_description": {
+        "service_template_id": "14bf74e2-dce4-47c7-9c58-cc85dea24ed5",
+        "service_type": "ACTIVITY_MULTI_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "0bcc7fe2-c336-47a0-9446-7767e9076fdb",
+      "service_description": {
+        "service_template_id": "14bf74e2-dce4-47c7-9c58-cc85dea24ed5",
+        "service_type": "ACTIVITY_MULTI_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "0bcc7fe2-c336-47a0-9446-7767e9076fdb",
+      "service_description": {
+        "service_template_id": "5d664e5a-6fa3-433a-a1e0-ca81d79aacff",
+        "service_type": "PRESENCE_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "0bcc7fe2-c336-47a0-9446-7767e9076fdb",
+      "service_description": {
+        "service_template_id": "5d664e5a-6fa3-433a-a1e0-ca81d79aacff",
+        "service_type": "PRESENCE_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "0bcc7fe2-c336-47a0-9446-7767e9076fdb",
+      "service_description": {
+        "service_template_id": "4537a330-af91-4499-bc3b-3c559e9b6ea0",
+        "service_type": "USER_TRANSIT_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "0bcc7fe2-c336-47a0-9446-7767e9076fdb",
+      "service_description": {
+        "service_template_id": "4537a330-af91-4499-bc3b-3c559e9b6ea0",
+        "service_type": "USER_TRANSIT_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
   "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"

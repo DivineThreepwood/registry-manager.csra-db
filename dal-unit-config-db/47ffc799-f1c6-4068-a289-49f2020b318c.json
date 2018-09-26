@@ -1,15 +1,24 @@
 {
   "id": "47ffc799-f1c6-4068-a289-49f2020b318c",
   "unit_template_config_id": "e18d2b16-1969-4e5b-b40c-8b255c2cdb8c_AUDIO_SOURCE_0",
-  "label": "Kinect pug",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Kinect pug"
+        ]
+      }
+    ]
+  },
   "alias": [
     "AudioSource-19"
   ],
   "unit_host_id": "d32f99bf-dc57-456e-9510-1146eba29bc4",
-  "type": "AUDIO_SOURCE",
+  "unit_type": "AUDIO_SOURCE",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
-    "transformation_frame_id": "Home_Kinect_pug"
+    "transformation_frame_id": "AudioSource-19"
   },
   "scope": {
     "component": [
@@ -17,7 +26,7 @@
       "csra",
       "home",
       "audiosource",
-      "kinect_pug"
+      "kinectpug"
     ]
   },
   "bound_to_unit_host": false,

@@ -1,13 +1,22 @@
 {
   "id": "933f4d62-769a-4975-ad8d-45d36912b68b",
-  "label": "SportsDoorButtons",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Sports Door Buttons"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-114"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "SportsDoorButtons",
+    "transformation_frame_id": "Device-114",
     "shape": {}
   },
   "scope": {
@@ -32,8 +41,7 @@
       "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
       "timestamp": {
         "time": 1440772203636
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "e40b8bbd-9e23-4288-9c15-05b8e90ca8e1",
     "unit_id": [
@@ -44,5 +52,8 @@
       "2f192f3f-1b57-477a-9812-421631d227ba",
       "0f50577f-3a2a-43c1-aaed-1741c1c597d0"
     ]
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

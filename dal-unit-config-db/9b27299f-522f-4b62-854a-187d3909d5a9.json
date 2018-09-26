@@ -1,15 +1,24 @@
 {
   "id": "9b27299f-522f-4b62-854a-187d3909d5a9",
   "unit_template_config_id": "Hager_TYA663A_DIMMER_1",
-  "label": "TableDimmer",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Table Dimmer"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Dimmer-1"
   ],
   "unit_host_id": "168952c1-1821-4aa6-b742-3d2213709d17",
-  "type": "DIMMER",
+  "unit_type": "DIMMER",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "TableDimmer"
+    "transformation_frame_id": "Dimmer-1"
   },
   "scope": {
     "component": [
@@ -34,7 +43,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__citec_csra_home_living__Dimmer__TableDimmer__BrightnessStateService"
+              "value": "Hager_TYA663A__citec_csra_home_living__Dimmer__Table_Dimmer__BrightnessStateService"
             }
           ]
         }
@@ -42,7 +51,7 @@
       "unit_id": "9b27299f-522f-4b62-854a-187d3909d5a9",
       "service_description": {
         "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
-        "type": "BRIGHTNESS_STATE_SERVICE",
+        "service_type": "BRIGHTNESS_STATE_SERVICE",
         "pattern": "PROVIDER"
       },
       "meta_config": {}
@@ -58,7 +67,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__citec_csra_home_living__Dimmer__TableDimmer__BrightnessStateService"
+              "value": "Hager_TYA663A__citec_csra_home_living__Dimmer__Table_Dimmer__BrightnessStateService"
             }
           ]
         }
@@ -66,7 +75,7 @@
       "unit_id": "9b27299f-522f-4b62-854a-187d3909d5a9",
       "service_description": {
         "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
-        "type": "BRIGHTNESS_STATE_SERVICE",
+        "service_type": "BRIGHTNESS_STATE_SERVICE",
         "pattern": "OPERATION"
       },
       "meta_config": {}
@@ -82,7 +91,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__citec_csra_home_living__Dimmer__TableDimmer__PowerStateService"
+              "value": "Hager_TYA663A__citec_csra_home_living__Dimmer__Table_Dimmer__PowerStateService"
             }
           ]
         }
@@ -90,7 +99,7 @@
       "unit_id": "9b27299f-522f-4b62-854a-187d3909d5a9",
       "service_description": {
         "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
-        "type": "POWER_STATE_SERVICE",
+        "service_type": "POWER_STATE_SERVICE",
         "pattern": "PROVIDER"
       },
       "meta_config": {}
@@ -106,7 +115,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Hager_TYA663A__citec_csra_home_living__Dimmer__TableDimmer__PowerStateService"
+              "value": "Hager_TYA663A__citec_csra_home_living__Dimmer__Table_Dimmer__PowerStateService"
             }
           ]
         }
@@ -114,7 +123,7 @@
       "unit_id": "9b27299f-522f-4b62-854a-187d3909d5a9",
       "service_description": {
         "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
-        "type": "POWER_STATE_SERVICE",
+        "service_type": "POWER_STATE_SERVICE",
         "pattern": "OPERATION"
       },
       "meta_config": {}

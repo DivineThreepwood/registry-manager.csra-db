@@ -1,13 +1,22 @@
 {
   "id": "4d350be1-3f09-48f8-8796-d336d7b10dfe",
-  "label": "DoorClosed",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Door Closed"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-3"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-    "transformation_frame_id": "DoorClosed",
+    "transformation_frame_id": "Device-3",
     "shape": {}
   },
   "scope": {
@@ -39,13 +48,15 @@
       "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
       "timestamp": {
         "time": 1441014086145
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "569ff797-09f1-4437-8404-391017776796",
     "unit_id": [
       "46897193-9372-437c-9688-d5c29eb58aaa",
       "7246780e-97db-4863-83eb-203ae1b6e362"
     ]
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

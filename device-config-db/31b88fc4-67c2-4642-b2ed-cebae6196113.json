@@ -1,13 +1,22 @@
 {
   "id": "31b88fc4-67c2-4642-b2ed-cebae6196113",
-  "label": "ControlButtons",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Control Buttons"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-6"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
-    "transformation_frame_id": "ControlButtons"
+    "transformation_frame_id": "Device-6"
   },
   "scope": {
     "component": [
@@ -32,8 +41,7 @@
       "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
       "timestamp": {
         "time": 1442764130272
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "a34b128b-866d-48a5-8024-4982017492f9",
     "unit_id": [
@@ -43,5 +51,8 @@
       "045b1d5c-1109-43e6-b5f6-dcf2b0b2ffdc",
       "8a17706f-f479-46ab-bdeb-ad7ec59dfacc"
     ]
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

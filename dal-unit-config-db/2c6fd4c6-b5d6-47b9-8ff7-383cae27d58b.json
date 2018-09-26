@@ -1,15 +1,24 @@
 {
   "id": "2c6fd4c6-b5d6-47b9-8ff7-383cae27d58b",
   "unit_template_config_id": "Homematic_Sec_SC_2_BATTERY_0",
-  "label": "SportsToLivingReedSwitch",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Sports To Living Reed Switch"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Battery-4"
   ],
   "unit_host_id": "9f7dc1ba-7059-4823-a8d7-61ed4ef58cfa",
-  "type": "BATTERY",
+  "unit_type": "BATTERY",
   "placement_config": {
     "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
-    "transformation_frame_id": "SportsToLivingReedSwitch"
+    "transformation_frame_id": "Battery-4"
   },
   "scope": {
     "component": [
@@ -29,7 +38,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Homematic_Sec_SC_2__citec_csra_robotroom__Battery__SportsToLivingReedSwitch__BatteryStateService"
+              "value": "Homematic_Sec_SC_2__citec_csra_robotroom__Battery__Sports_To_Living_Reed_Switch__BatteryStateService"
             }
           ]
         }
@@ -37,7 +46,7 @@
       "unit_id": "2c6fd4c6-b5d6-47b9-8ff7-383cae27d58b",
       "service_description": {
         "service_template_id": "d1dd033f-9dae-46fb-9355-a32b0b898db7",
-        "type": "BATTERY_STATE_SERVICE",
+        "service_type": "BATTERY_STATE_SERVICE",
         "pattern": "PROVIDER"
       },
       "meta_config": {}

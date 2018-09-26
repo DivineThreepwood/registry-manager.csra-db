@@ -1,15 +1,24 @@
 {
   "id": "f11a9399-3d0b-4745-b5e6-1145e87fb034",
   "unit_template_config_id": "Hager_TYA628C_ROLLER_SHUTTER_5",
-  "label": "Roller Shutter 6",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Roller Shutter 6"
+        ]
+      }
+    ]
+  },
   "alias": [
     "RollerShutter-4"
   ],
   "unit_host_id": "f3857eeb-c0c5-466c-afe6-c7693212c96f",
-  "type": "ROLLER_SHUTTER",
+  "unit_type": "ROLLER_SHUTTER",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "Roller_Shutter_6",
+    "transformation_frame_id": "RollerShutter-4",
     "shape": {}
   },
   "scope": {
@@ -19,10 +28,17 @@
       "home",
       "living",
       "rollershutter",
-      "roller_shutter_6"
+      "rollershutter6"
     ]
   },
-  "description": "Not Connected",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "Not Connected"
+      }
+    ]
+  },
   "bound_to_unit_host": false,
   "service_config": [
     {
@@ -44,7 +60,7 @@
       "unit_id": "f11a9399-3d0b-4745-b5e6-1145e87fb034",
       "service_description": {
         "service_template_id": "a2175895-7dcf-4d51-96aa-dcb01b47ed04",
-        "type": "BLIND_STATE_SERVICE",
+        "service_type": "BLIND_STATE_SERVICE",
         "pattern": "PROVIDER",
         "meta_config": {}
       },
@@ -69,7 +85,7 @@
       "unit_id": "f11a9399-3d0b-4745-b5e6-1145e87fb034",
       "service_description": {
         "service_template_id": "a2175895-7dcf-4d51-96aa-dcb01b47ed04",
-        "type": "BLIND_STATE_SERVICE",
+        "service_type": "BLIND_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
       },

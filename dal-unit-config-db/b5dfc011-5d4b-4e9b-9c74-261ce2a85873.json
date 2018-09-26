@@ -1,15 +1,24 @@
 {
   "id": "b5dfc011-5d4b-4e9b-9c74-261ce2a85873",
   "unit_template_config_id": "ASUS_90IW0122-B01UA_VIDEO_RGB_SOURCE_0",
-  "label": "ASUS_90IW0122-B01UA_E3IWBDA34183",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "ASUS 90IW0122 B01UA E3IWBDA34183"
+        ]
+      }
+    ]
+  },
   "alias": [
     "VideoRgbSource-6"
   ],
   "unit_host_id": "e7eb4c9e-253f-4cf1-b08d-591ba35c1ffe",
-  "type": "VIDEO_RGB_SOURCE",
+  "unit_type": "VIDEO_RGB_SOURCE",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "Living_ASUS_90IW0122-B01UA_E3IWBDA34183",
+    "transformation_frame_id": "VideoRgbSource-6",
     "position": {
       "translation": {
         "x": 1.26,
@@ -31,7 +40,7 @@
       "home",
       "living",
       "videorgbsource",
-      "asus_90iw0122-b01ua_e3iwbda34183"
+      "asus90iw0122b01uae3iwbda34183"
     ]
   },
   "bound_to_unit_host": true,

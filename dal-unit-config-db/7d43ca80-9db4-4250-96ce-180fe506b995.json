@@ -1,15 +1,24 @@
 {
   "id": "7d43ca80-9db4-4250-96ce-180fe506b995",
   "unit_template_config_id": "Fibaro_FGMS-001_MOTION_DETECTOR_0",
-  "label": "Sink",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Sink"
+        ]
+      }
+    ]
+  },
   "alias": [
     "MotionDetector-8"
   ],
   "unit_host_id": "5a83b039-a374-4829-a40c-75505ef1476f",
-  "type": "MOTION_DETECTOR",
+  "unit_type": "MOTION_DETECTOR",
   "placement_config": {
     "location_id": "f5dd3070-a8fc-46ae-9a18-e0adc7130c73",
-    "transformation_frame_id": "Basin_Sink"
+    "transformation_frame_id": "MotionDetector-8"
   },
   "scope": {
     "component": [
@@ -39,7 +48,7 @@
       "unit_id": "7d43ca80-9db4-4250-96ce-180fe506b995",
       "service_description": {
         "service_template_id": "4ebe8edc-01be-4500-83a1-f753b306aa0f",
-        "type": "MOTION_STATE_SERVICE",
+        "service_type": "MOTION_STATE_SERVICE",
         "pattern": "PROVIDER"
       },
       "meta_config": {}

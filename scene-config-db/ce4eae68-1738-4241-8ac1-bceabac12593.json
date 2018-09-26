@@ -1,13 +1,22 @@
 {
   "id": "ce4eae68-1738-4241-8ac1-bceabac12593",
-  "label": "AllOff Entrance",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "All Off Entrance"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Scene-19"
   ],
-  "type": "SCENE",
+  "unit_type": "SCENE",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-    "transformation_frame_id": "AllOff_Entrance",
+    "transformation_frame_id": "Scene-19",
     "shape": {}
   },
   "scope": {
@@ -17,7 +26,7 @@
       "home",
       "hallway",
       "scene",
-      "alloff_entrance"
+      "alloffentrance"
     ]
   },
   "service_config": [
@@ -28,7 +37,7 @@
       "unit_id": "ce4eae68-1738-4241-8ac1-bceabac12593",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
       },
@@ -41,7 +50,7 @@
       "unit_id": "ce4eae68-1738-4241-8ac1-bceabac12593",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "meta_config": {}
       },
       "meta_config": {}
@@ -58,7 +67,7 @@
         "service_type": "POWER_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
-        "service_attribute": "{\"value\": \"OFF\",\"timestamp\": {\"time\": 1519995334326000}}"
+        "service_attribute": "{\"value\":\"OFF\"}"
       }
     ]
   }

@@ -1,15 +1,24 @@
 {
   "id": "240cf6f8-4feb-47f7-a00f-50dfad08610b",
   "unit_template_config_id": "ASUS_90IW0122-B01UA_AUDIO_SOURCE_0",
-  "label": "ASUS_90IW0122-B01UA_E3IWBDA34180",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "ASUS 90IW0122 B01UA E3IWBDA34180"
+        ]
+      }
+    ]
+  },
   "alias": [
     "AudioSource-13"
   ],
   "unit_host_id": "e27167d8-d661-46aa-a79c-3ee5dbdcce5e",
-  "type": "AUDIO_SOURCE",
+  "unit_type": "AUDIO_SOURCE",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
-    "transformation_frame_id": "Home_ASUS_90IW0122-B01UA_E3IWBDA34180",
+    "transformation_frame_id": "AudioSource-13",
     "shape": {}
   },
   "scope": {
@@ -18,7 +27,7 @@
       "csra",
       "home",
       "audiosource",
-      "asus_90iw0122-b01ua_e3iwbda34180"
+      "asus90iw0122b01uae3iwbda34180"
     ]
   },
   "bound_to_unit_host": true,

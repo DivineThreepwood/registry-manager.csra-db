@@ -1,13 +1,22 @@
 {
   "id": "5dd3fc5f-3282-4796-89a8-cbca57c129fa",
-  "label": "ASUS_90IW0122-B01UA_E3IWBDA34182",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "ASUS 90IW0122 B01UA E3IWBDA34182"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-95"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
-    "transformation_frame_id": "ASUS_90IW0122-B01UA_E3IWBDA34182",
+    "transformation_frame_id": "Device-95",
     "shape": {}
   },
   "scope": {
@@ -16,10 +25,17 @@
       "csra",
       "home",
       "device",
-      "asus_90iw0122-b01ua_e3iwbda34182"
+      "asus90iw0122b01uae3iwbda34182"
     ]
   },
-  "description": "Firmware updated! Installed version: 5.8.22",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "Firmware updated! Installed version: 5.8.22"
+      }
+    ]
+  },
   "bound_to_unit_host": true,
   "meta_config": {},
   "enabling_state": {
@@ -31,8 +47,7 @@
       "value": "BORROWED",
       "timestamp": {
         "time": 1449590316755
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "3069a4e2-25c9-4873-bee2-43df7a77e44c",
     "unit_id": [
@@ -40,5 +55,8 @@
       "c40128a6-3d28-4e16-a052-e9d5d41b41d3",
       "ab2bffe0-7ee0-4a5b-86d4-169d77e5fb3d"
     ]
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

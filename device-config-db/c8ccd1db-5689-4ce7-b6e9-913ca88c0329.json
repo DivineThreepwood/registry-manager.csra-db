@@ -1,13 +1,22 @@
 {
   "id": "c8ccd1db-5689-4ce7-b6e9-913ca88c0329",
-  "label": "EntranceDoorReedSwitch",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Entrance Door Reed Switch"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-28"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-    "transformation_frame_id": "EntranceDoorReedSwitch",
+    "transformation_frame_id": "Device-28",
     "shape": {}
   },
   "scope": {
@@ -39,13 +48,15 @@
       "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
       "timestamp": {
         "time": 1441013828977
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "569ff797-09f1-4437-8404-391017776796",
     "unit_id": [
       "6673d527-ae60-492f-bb43-85d00b700238",
       "6e589084-a3a5-4789-af7a-28925e28eeb6"
     ]
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

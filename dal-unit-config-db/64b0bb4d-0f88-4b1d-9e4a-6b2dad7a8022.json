@@ -1,15 +1,24 @@
 {
   "id": "64b0bb4d-0f88-4b1d-9e4a-6b2dad7a8022",
   "unit_template_config_id": "Gira_429496730250000_BUTTON_2",
-  "label": "Button 3",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Button 3"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Button-50"
   ],
   "unit_host_id": "1fb25195-1d78-447f-a1aa-3fb1db979245",
-  "type": "BUTTON",
+  "unit_type": "BUTTON",
   "placement_config": {
     "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
-    "transformation_frame_id": "RobotRoom_Button_3",
+    "transformation_frame_id": "Button-50",
     "shape": {}
   },
   "scope": {
@@ -18,7 +27,7 @@
       "csra",
       "robotroom",
       "button",
-      "button_3"
+      "button3"
     ]
   },
   "bound_to_unit_host": false,
@@ -42,7 +51,7 @@
       "unit_id": "64b0bb4d-0f88-4b1d-9e4a-6b2dad7a8022",
       "service_description": {
         "service_template_id": "1d50901a-5cc1-4595-9180-334c3f3317dc",
-        "type": "BUTTON_STATE_SERVICE",
+        "service_type": "BUTTON_STATE_SERVICE",
         "pattern": "PROVIDER",
         "meta_config": {}
       },

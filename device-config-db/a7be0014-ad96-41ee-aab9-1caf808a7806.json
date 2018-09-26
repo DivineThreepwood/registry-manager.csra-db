@@ -1,13 +1,22 @@
 {
   "id": "a7be0014-ad96-41ee-aab9-1caf808a7806",
-  "label": "ASUS_90IW0122-B01UA_E3IWBDA34151",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "ASUS 90IW0122 B01UA E3IWBDA34151"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-21"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
-    "transformation_frame_id": "ASUS_90IW0122-B01UA_E3IWBDA34151",
+    "transformation_frame_id": "Device-21",
     "position": {
       "translation": {
         "x": 0.69,
@@ -30,10 +39,17 @@
       "home",
       "hallway",
       "device",
-      "asus_90iw0122-b01ua_e3iwbda34151"
+      "asus90iw0122b01uae3iwbda34151"
     ]
   },
-  "description": "FLOOR2 @ IOM",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "FLOOR2 @ IOM"
+      }
+    ]
+  },
   "bound_to_unit_host": true,
   "meta_config": {},
   "enabling_state": {
@@ -46,8 +62,7 @@
       "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
       "timestamp": {
         "time": 1433776984190
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "3069a4e2-25c9-4873-bee2-43df7a77e44c",
     "unit_id": [
@@ -55,5 +70,8 @@
       "7e878a47-f310-4d8f-a18c-223c4c4544e5",
       "ac8e8bee-70e6-45b3-a0ca-51928312df5b"
     ]
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

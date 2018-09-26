@@ -1,13 +1,22 @@
 {
   "id": "d2d7b31e-b69c-4c10-967e-a3ec2b8dd2e2",
-  "label": "LLampEntrance6",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "LLamp Entrance 6"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-105"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
-    "transformation_frame_id": "LLampEntrance6",
+    "transformation_frame_id": "Device-105",
     "shape": {}
   },
   "scope": {
@@ -42,12 +51,14 @@
       "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
       "timestamp": {
         "time": 1441016453612
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "6f661f5b-3906-452a-adb6-a4e5fb94eee4",
     "unit_id": [
       "bc243f30-f924-4348-b48e-2328aeb39da1"
     ]
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

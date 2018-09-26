@@ -1,15 +1,24 @@
 {
   "id": "6f6dce7d-e959-49ff-9bf9-6b15dcde3082",
   "unit_template_config_id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_SWITCH_3",
-  "label": "TV",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "TV"
+        ]
+      }
+    ]
+  },
   "alias": [
     "PowerSwitch-11"
   ],
   "unit_host_id": "cd51b92f-3429-4666-8418-079f81af4ecb",
-  "type": "POWER_SWITCH",
+  "unit_type": "POWER_SWITCH",
   "placement_config": {
     "location_id": "eb89de19-36db-4f26-b8a5-a75df850892e",
-    "transformation_frame_id": "TV",
+    "transformation_frame_id": "PowerSwitch-11",
     "position": {
       "translation": {
         "x": 0.756288909727322,
@@ -36,7 +45,14 @@
       "tv"
     ]
   },
-  "description": "S7_C4",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "S7_C4"
+      }
+    ]
+  },
   "bound_to_unit_host": false,
   "service_config": [
     {
@@ -54,7 +70,7 @@
       "unit_id": "6f6dce7d-e959-49ff-9bf9-6b15dcde3082",
       "service_description": {
         "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
-        "type": "POWER_STATE_SERVICE",
+        "service_type": "POWER_STATE_SERVICE",
         "meta_config": {}
       },
       "meta_config": {}
@@ -78,7 +94,7 @@
       "unit_id": "6f6dce7d-e959-49ff-9bf9-6b15dcde3082",
       "service_description": {
         "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
-        "type": "POWER_STATE_SERVICE",
+        "service_type": "POWER_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
       },

@@ -1,15 +1,24 @@
 {
   "id": "6a2501d7-f625-4eb6-b46e-6e4f5c6001be",
   "unit_template_config_id": "Hager_TYA628C_ROLLER_SHUTTER_3",
-  "label": "Outside",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Outside"
+        ]
+      }
+    ]
+  },
   "alias": [
     "RollerShutter-3"
   ],
   "unit_host_id": "f3857eeb-c0c5-466c-afe6-c7693212c96f",
-  "type": "ROLLER_SHUTTER",
+  "unit_type": "ROLLER_SHUTTER",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "Outside",
+    "transformation_frame_id": "RollerShutter-3",
     "position": {
       "translation": {
         "x": 2.188907090428765,
@@ -35,7 +44,14 @@
       "outside"
     ]
   },
-  "description": "The outside rollershutter of the living room.",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "The outside rollershutter of the living room."
+      }
+    ]
+  },
   "bound_to_unit_host": false,
   "service_config": [
     {
@@ -57,7 +73,7 @@
       "unit_id": "6a2501d7-f625-4eb6-b46e-6e4f5c6001be",
       "service_description": {
         "service_template_id": "a2175895-7dcf-4d51-96aa-dcb01b47ed04",
-        "type": "BLIND_STATE_SERVICE",
+        "service_type": "BLIND_STATE_SERVICE",
         "pattern": "PROVIDER",
         "meta_config": {}
       },
@@ -82,7 +98,7 @@
       "unit_id": "6a2501d7-f625-4eb6-b46e-6e4f5c6001be",
       "service_description": {
         "service_template_id": "a2175895-7dcf-4d51-96aa-dcb01b47ed04",
-        "type": "BLIND_STATE_SERVICE",
+        "service_type": "BLIND_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
       },

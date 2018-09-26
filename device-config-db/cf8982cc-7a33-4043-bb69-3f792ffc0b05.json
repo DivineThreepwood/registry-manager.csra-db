@@ -1,13 +1,22 @@
 {
   "id": "cf8982cc-7a33-4043-bb69-3f792ffc0b05",
-  "label": "RightWindowHandleSensor",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Right Window Handle Sensor"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-68"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "RightWindowHandleSensor",
+    "transformation_frame_id": "Device-68",
     "shape": {}
   },
   "scope": {
@@ -39,13 +48,15 @@
       "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
       "timestamp": {
         "time": 1441013708433
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "afee3bdb-873c-4bd3-bbb1-c918091bef85",
     "unit_id": [
       "02c23816-6c38-4f09-9543-221bbcc64482",
       "c79208cf-21f7-427d-8552-cd527481735f"
     ]
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

@@ -1,15 +1,24 @@
 {
   "id": "8db53c2d-2c98-4b0d-b0b0-2e0f0127741c",
   "unit_template_config_id": "Gira_429496730210000_BUTTON_2",
-  "label": "Scenario: Register",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Scenario: Register"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Button-9"
   ],
   "unit_host_id": "a33d0c22-346c-42ca-bed5-c72019700729",
-  "type": "BUTTON",
+  "unit_type": "BUTTON",
   "placement_config": {
     "location_id": "cff20d86-c7e8-4d12-87e1-ebc67c7e0c93",
-    "transformation_frame_id": "Scenario_Register",
+    "transformation_frame_id": "Button-9",
     "shape": {}
   },
   "scope": {
@@ -20,7 +29,7 @@
       "hallway",
       "entrance",
       "button",
-      "scenario_register"
+      "scenarioregister"
     ]
   },
   "bound_to_unit_host": true,
@@ -44,7 +53,7 @@
       "unit_id": "8db53c2d-2c98-4b0d-b0b0-2e0f0127741c",
       "service_description": {
         "service_template_id": "1d50901a-5cc1-4595-9180-334c3f3317dc",
-        "type": "BUTTON_STATE_SERVICE",
+        "service_type": "BUTTON_STATE_SERVICE",
         "pattern": "PROVIDER",
         "meta_config": {}
       },

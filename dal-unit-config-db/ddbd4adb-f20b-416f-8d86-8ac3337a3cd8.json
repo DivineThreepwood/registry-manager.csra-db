@@ -1,15 +1,24 @@
 {
   "id": "ddbd4adb-f20b-416f-8d86-8ac3337a3cd8",
   "unit_template_config_id": "Fibaro_FGMS-001_TAMPER_DETECTOR_0",
-  "label": "Couch",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Couch"
+        ]
+      }
+    ]
+  },
   "alias": [
     "TamperDetector-3"
   ],
   "unit_host_id": "3b0602c8-6524-4d08-b8c5-5d4f2e97b91b",
-  "type": "TAMPER_DETECTOR",
+  "unit_type": "TAMPER_DETECTOR",
   "placement_config": {
     "location_id": "0df5bbb8-2d17-4f81-9b34-314a26ae713a",
-    "transformation_frame_id": "Lounge_Couch"
+    "transformation_frame_id": "TamperDetector-3"
   },
   "scope": {
     "component": [
@@ -39,7 +48,7 @@
       "unit_id": "ddbd4adb-f20b-416f-8d86-8ac3337a3cd8",
       "service_description": {
         "service_template_id": "cf6dbca4-a12b-4eea-b842-dff75a53c68c",
-        "type": "TAMPER_STATE_SERVICE",
+        "service_type": "TAMPER_STATE_SERVICE",
         "pattern": "PROVIDER"
       },
       "meta_config": {}

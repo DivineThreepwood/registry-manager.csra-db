@@ -1,15 +1,24 @@
 {
   "id": "ad275d31-f2ed-4917-9c7f-29e7a83b3c67",
   "unit_template_config_id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_SWITCH_6",
-  "label": "S8_C7",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "S8 C7"
+        ]
+      }
+    ]
+  },
   "alias": [
     "PowerSwitch-16"
   ],
   "unit_host_id": "1505075c-a4a9-41d7-958a-556cdf7b73ac",
-  "type": "POWER_SWITCH",
+  "unit_type": "POWER_SWITCH",
   "placement_config": {
     "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
-    "transformation_frame_id": "S8_C7",
+    "transformation_frame_id": "PowerSwitch-16",
     "shape": {}
   },
   "scope": {
@@ -19,10 +28,17 @@
       "home",
       "bath",
       "powerswitch",
-      "s8_c7"
+      "s8c7"
     ]
   },
-  "description": "Bath Main Light",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "Bath Main Light"
+      }
+    ]
+  },
   "bound_to_unit_host": false,
   "service_config": [
     {
@@ -40,7 +56,7 @@
       "unit_id": "ad275d31-f2ed-4917-9c7f-29e7a83b3c67",
       "service_description": {
         "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
-        "type": "POWER_STATE_SERVICE",
+        "service_type": "POWER_STATE_SERVICE",
         "meta_config": {}
       },
       "meta_config": {}
@@ -64,7 +80,7 @@
       "unit_id": "ad275d31-f2ed-4917-9c7f-29e7a83b3c67",
       "service_description": {
         "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
-        "type": "POWER_STATE_SERVICE",
+        "service_type": "POWER_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
       },

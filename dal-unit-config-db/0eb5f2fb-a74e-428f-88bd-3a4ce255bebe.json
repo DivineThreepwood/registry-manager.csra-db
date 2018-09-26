@@ -1,15 +1,24 @@
 {
   "id": "0eb5f2fb-a74e-428f-88bd-3a4ce255bebe",
   "unit_template_config_id": "e18d2b16-1969-4e5b-b40c-8b255c2cdb8c_VIDEO_RGB_SOURCE_0",
-  "label": "Kinect pug",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Kinect pug"
+        ]
+      }
+    ]
+  },
   "alias": [
     "VideoRgbSource-11"
   ],
   "unit_host_id": "d32f99bf-dc57-456e-9510-1146eba29bc4",
-  "type": "VIDEO_RGB_SOURCE",
+  "unit_type": "VIDEO_RGB_SOURCE",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
-    "transformation_frame_id": "Kinect_pug"
+    "transformation_frame_id": "VideoRgbSource-11"
   },
   "scope": {
     "component": [
@@ -17,7 +26,7 @@
       "csra",
       "home",
       "videorgbsource",
-      "kinect_pug"
+      "kinectpug"
     ]
   },
   "bound_to_unit_host": false,

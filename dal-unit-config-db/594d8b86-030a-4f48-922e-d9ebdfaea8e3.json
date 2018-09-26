@@ -1,15 +1,24 @@
 {
   "id": "594d8b86-030a-4f48-922e-d9ebdfaea8e3",
   "unit_template_config_id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_CONSUMPTION_SENSOR_7",
-  "label": "S1_C8 Consumption",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "S1 C8 Consumption"
+        ]
+      }
+    ]
+  },
   "alias": [
     "PowerConsumptionSensor-20"
   ],
   "unit_host_id": "01bbbce7-fa7d-4215-9105-fc44f9d6ead1",
-  "type": "POWER_CONSUMPTION_SENSOR",
+  "unit_type": "POWER_CONSUMPTION_SENSOR",
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
-    "transformation_frame_id": "S1_C8_Consumption",
+    "transformation_frame_id": "PowerConsumptionSensor-20",
     "shape": {}
   },
   "scope": {
@@ -18,7 +27,7 @@
       "csra",
       "control",
       "powerconsumptionsensor",
-      "s1_c8_consumption"
+      "s1c8consumption"
     ]
   },
   "bound_to_unit_host": false,
@@ -42,7 +51,7 @@
       "unit_id": "594d8b86-030a-4f48-922e-d9ebdfaea8e3",
       "service_description": {
         "service_template_id": "b7cec81b-6387-4b77-a2c2-2d97726a4476",
-        "type": "POWER_CONSUMPTION_STATE_SERVICE",
+        "service_type": "POWER_CONSUMPTION_STATE_SERVICE",
         "meta_config": {}
       },
       "meta_config": {}

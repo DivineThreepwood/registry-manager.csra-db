@@ -1,15 +1,24 @@
 {
   "id": "34084c5f-46bf-4e88-84f4-0110530f6e47",
   "unit_template_config_id": "Gira_429496730210000_BUTTON_3",
-  "label": "Scenario: Learnface",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Scenario: Learnface"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Button-31"
   ],
   "unit_host_id": "a33d0c22-346c-42ca-bed5-c72019700729",
-  "type": "BUTTON",
+  "unit_type": "BUTTON",
   "placement_config": {
     "location_id": "cff20d86-c7e8-4d12-87e1-ebc67c7e0c93",
-    "transformation_frame_id": "Scenario_Learnface",
+    "transformation_frame_id": "Button-31",
     "shape": {}
   },
   "scope": {
@@ -20,7 +29,7 @@
       "hallway",
       "entrance",
       "button",
-      "scenario_learnface"
+      "scenariolearnface"
     ]
   },
   "bound_to_unit_host": true,
@@ -44,7 +53,7 @@
       "unit_id": "34084c5f-46bf-4e88-84f4-0110530f6e47",
       "service_description": {
         "service_template_id": "1d50901a-5cc1-4595-9180-334c3f3317dc",
-        "type": "BUTTON_STATE_SERVICE",
+        "service_type": "BUTTON_STATE_SERVICE",
         "pattern": "PROVIDER",
         "meta_config": {}
       },

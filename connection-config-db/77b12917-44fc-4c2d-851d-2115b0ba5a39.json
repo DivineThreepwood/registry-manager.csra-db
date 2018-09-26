@@ -1,13 +1,22 @@
 {
   "id": "77b12917-44fc-4c2d-851d-2115b0ba5a39",
-  "label": "Kitchen Door",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Kitchen Door"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Connection-7"
   ],
-  "type": "CONNECTION",
+  "unit_type": "CONNECTION",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
-    "transformation_frame_id": "Kitchen_Door",
+    "transformation_frame_id": "Connection-7",
     "position": {
       "translation": {
         "x": 2.45,
@@ -62,7 +71,7 @@
       "csra",
       "home",
       "connection",
-      "kitchen_door"
+      "kitchendoor"
     ]
   },
   "service_config": [
@@ -73,7 +82,7 @@
       "unit_id": "77b12917-44fc-4c2d-851d-2115b0ba5a39",
       "service_description": {
         "service_template_id": "eb544f83-26c3-45f6-93da-5b9599de6049",
-        "type": "DOOR_STATE_SERVICE",
+        "service_type": "DOOR_STATE_SERVICE",
         "meta_config": {}
       },
       "meta_config": {}
@@ -85,7 +94,7 @@
       "unit_id": "77b12917-44fc-4c2d-851d-2115b0ba5a39",
       "service_description": {
         "service_template_id": "a2400b26-4cee-47a8-b78c-8511f37e2359",
-        "type": "PASSAGE_STATE_SERVICE",
+        "service_type": "PASSAGE_STATE_SERVICE",
         "meta_config": {}
       },
       "meta_config": {}
@@ -97,7 +106,7 @@
       "unit_id": "77b12917-44fc-4c2d-851d-2115b0ba5a39",
       "service_description": {
         "service_template_id": "355916ac-6a3e-45c3-878c-ef5786ccb223",
-        "type": "WINDOW_STATE_SERVICE",
+        "service_type": "WINDOW_STATE_SERVICE",
         "meta_config": {}
       },
       "meta_config": {}

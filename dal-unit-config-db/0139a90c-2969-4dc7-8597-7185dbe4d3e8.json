@@ -1,15 +1,24 @@
 {
   "id": "0139a90c-2969-4dc7-8597-7185dbe4d3e8",
   "unit_template_config_id": "Homematic_Sec_RHS_BATTERY_0",
-  "label": "LeftWindowHandleSensor",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Left Window Handle Sensor"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Battery-27"
   ],
   "unit_host_id": "ccf98e11-774e-4805-b55b-e922e72a2b69",
-  "type": "BATTERY",
+  "unit_type": "BATTERY",
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
-    "transformation_frame_id": "Control_LeftWindowHandleSensor"
+    "transformation_frame_id": "Battery-27"
   },
   "scope": {
     "component": [
@@ -29,7 +38,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Homematic_Sec_RHS__citec_csra_control__Battery__LeftWindowHandleSensor__BatteryStateService"
+              "value": "Homematic_Sec_RHS__citec_csra_control__Battery__Left_Window_Handle_Sensor__BatteryStateService"
             }
           ]
         }
@@ -37,7 +46,7 @@
       "unit_id": "0139a90c-2969-4dc7-8597-7185dbe4d3e8",
       "service_description": {
         "service_template_id": "d1dd033f-9dae-46fb-9355-a32b0b898db7",
-        "type": "BATTERY_STATE_SERVICE",
+        "service_type": "BATTERY_STATE_SERVICE",
         "pattern": "PROVIDER"
       },
       "meta_config": {}

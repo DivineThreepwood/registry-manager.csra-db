@@ -1,13 +1,22 @@
 {
   "id": "2b242fea-bf6c-40df-a763-eb1ba0515560",
-  "label": "Socializing",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Socializing"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Scene-24"
   ],
-  "type": "SCENE",
+  "unit_type": "SCENE",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
-    "transformation_frame_id": "Socializing"
+    "transformation_frame_id": "Scene-24"
   },
   "scope": {
     "component": [
@@ -24,7 +33,7 @@
       "unit_id": "2b242fea-bf6c-40df-a763-eb1ba0515560",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
       }
@@ -34,7 +43,7 @@
       "unit_id": "2b242fea-bf6c-40df-a763-eb1ba0515560",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "meta_config": {}
       }
     }
@@ -49,49 +58,49 @@
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState",
-        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 80.0,\"saturation\": 60.0,\"brightness\": 100.0}}}"
+        "service_attribute": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":80.0,\"saturation\":60.0,\"brightness\":100.0}}}"
       },
       {
         "unit_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState",
-        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 240.0,\"saturation\": 60.0,\"brightness\": 100.0}}}"
+        "service_attribute": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":240.0,\"saturation\":60.0,\"brightness\":100.0}}}"
       },
       {
         "unit_id": "98acc701-87b9-4cf2-b79b-3eb6c166e2fe",
         "service_type": "ACTIVATION_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.ActivationStateType$ActivationState",
-        "service_attribute": "{\"value\": \"DEACTIVE\"}"
+        "service_attribute": "{\"value\":\"DEACTIVE\"}"
       },
       {
         "unit_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState",
-        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 80.0,\"brightness\": 100.0}}}"
+        "service_attribute": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":60.0,\"saturation\":80.0,\"brightness\":100.0}}}"
       },
       {
         "unit_id": "804542df-aebc-42cb-82ef-f03a97c96bf8",
         "service_type": "POWER_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
-        "service_attribute": "{\"value\": \"OFF\"}"
+        "service_attribute": "{\"value\":\"OFF\"}"
       },
       {
         "unit_id": "6f6dce7d-e959-49ff-9bf9-6b15dcde3082",
         "service_type": "POWER_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
-        "service_attribute": "{\"value\": \"ON\"}"
+        "service_attribute": "{\"value\":\"ON\"}"
       },
       {
         "unit_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState",
-        "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 53.68421052631579,\"saturation\": 81.96078431372548,\"brightness\": 100.0}}}"
+        "service_attribute": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":53.68421052631579,\"saturation\":81.96078431372548,\"brightness\":100.0}}}"
       }
     ]
   }

@@ -1,13 +1,22 @@
 {
   "id": "cd51b92f-3429-4666-8418-079f81af4ecb",
-  "label": "S7",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "S7"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-41"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
-    "transformation_frame_id": "S7",
+    "transformation_frame_id": "Device-41",
     "shape": {}
   },
   "scope": {

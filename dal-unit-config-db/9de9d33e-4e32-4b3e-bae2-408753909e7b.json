@@ -1,15 +1,24 @@
 {
   "id": "9de9d33e-4e32-4b3e-bae2-408753909e7b",
   "unit_template_config_id": "Fibaro_FGMS-001_BATTERY_0",
-  "label": "Entrance",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Entrance"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Battery-33"
   ],
   "unit_host_id": "d75030ec-82bd-42d7-9960-3ff2bbd21965",
-  "type": "BATTERY",
+  "unit_type": "BATTERY",
   "placement_config": {
     "location_id": "0254b92b-1996-4e4d-818c-a7a8fc2f6981",
-    "transformation_frame_id": "Control_Entrance_Entrance"
+    "transformation_frame_id": "Battery-33"
   },
   "scope": {
     "component": [
@@ -38,7 +47,7 @@
       "unit_id": "9de9d33e-4e32-4b3e-bae2-408753909e7b",
       "service_description": {
         "service_template_id": "d1dd033f-9dae-46fb-9355-a32b0b898db7",
-        "type": "BATTERY_STATE_SERVICE",
+        "service_type": "BATTERY_STATE_SERVICE",
         "pattern": "PROVIDER"
       },
       "meta_config": {}

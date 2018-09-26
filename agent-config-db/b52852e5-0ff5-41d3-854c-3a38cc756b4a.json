@@ -1,13 +1,22 @@
 {
   "id": "b52852e5-0ff5-41d3-854c-3a38cc756b4a",
-  "label": "StandbyKitchen",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Standby Kitchen"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Agent-12"
   ],
-  "type": "AGENT",
+  "unit_type": "AGENT",
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-    "transformation_frame_id": "StandbyKitchen",
+    "transformation_frame_id": "Agent-12",
     "shape": {}
   },
   "scope": {
@@ -27,7 +36,7 @@
       "unit_id": "b52852e5-0ff5-41d3-854c-3a38cc756b4a",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
       }
@@ -37,7 +46,7 @@
       "unit_id": "b52852e5-0ff5-41d3-854c-3a38cc756b4a",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "meta_config": {}
       }
     }

@@ -1,13 +1,22 @@
 {
   "id": "7fa744b1-7bf1-42d5-b7e6-d603e54418dd",
-  "label": "SoundScape",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Sound Scape"
+        ]
+      }
+    ]
+  },
   "alias": [
     "App-1"
   ],
-  "type": "APP",
+  "unit_type": "APP",
   "placement_config": {
     "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
-    "transformation_frame_id": "SoundScape",
+    "transformation_frame_id": "App-1",
     "shape": {}
   },
   "scope": {
@@ -27,7 +36,7 @@
       "unit_id": "7fa744b1-7bf1-42d5-b7e6-d603e54418dd",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
       }
@@ -37,7 +46,7 @@
       "unit_id": "7fa744b1-7bf1-42d5-b7e6-d603e54418dd",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "meta_config": {}
       }
     }

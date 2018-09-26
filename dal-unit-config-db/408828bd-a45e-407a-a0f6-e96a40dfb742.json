@@ -1,14 +1,23 @@
 {
   "id": "408828bd-a45e-407a-a0f6-e96a40dfb742",
-  "label": "Moving Head",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Moving Head"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Object-4"
   ],
   "unit_host_id": "408828bd-a45e-407a-a0f6-e96a40dfb742",
-  "type": "OBJECT",
+  "unit_type": "OBJECT",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "Moving_Head",
+    "transformation_frame_id": "Object-4",
     "position": {
       "translation": {
         "x": 2.53,
@@ -31,7 +40,7 @@
       "home",
       "living",
       "object",
-      "moving_head"
+      "movinghead"
     ]
   },
   "meta_config": {},

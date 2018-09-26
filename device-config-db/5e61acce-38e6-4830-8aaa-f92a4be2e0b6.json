@@ -1,13 +1,22 @@
 {
   "id": "5e61acce-38e6-4830-8aaa-f92a4be2e0b6",
-  "label": "Table_1",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Table 1"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-23"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
-    "transformation_frame_id": "Table_1",
+    "transformation_frame_id": "Device-23",
     "position": {
       "translation": {
         "x": 0.6263055643551959,
@@ -31,7 +40,7 @@
       "living",
       "dining",
       "device",
-      "table_1"
+      "table1"
     ]
   },
   "bound_to_unit_host": true,
@@ -53,12 +62,14 @@
       "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
       "timestamp": {
         "time": 1441015778813
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "6f661f5b-3906-452a-adb6-a4e5fb94eee4",
     "unit_id": [
       "cdfa87e9-1c07-40f7-9acc-9e349a81f619"
     ]
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

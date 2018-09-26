@@ -1,0 +1,54 @@
+{
+  "id": "98eaaa5a-f2b9-4af4-aed4-8f24fa68dcbd",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Admin"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "AdminGroup"
+  ],
+  "unit_type": "AUTHORIZATION_GROUP",
+  "placement_config": {
+    "location_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
+    "transformation_frame_id": "AdminGroup"
+  },
+  "scope": {
+    "component": [
+      "manager",
+      "authorization",
+      "group",
+      "admin"
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "authorization_group_config": {
+    "member_id": [
+      "f87e0e62-f390-4d78-bed3-13244ecc13a2"
+    ]
+  },
+  "permission_config": {
+    "other_permission": {
+      "read": false,
+      "write": false,
+      "access": false
+    },
+    "group_permission": [
+      {
+        "group_id": "98eaaa5a-f2b9-4af4-aed4-8f24fa68dcbd",
+        "permission": {
+          "read": true,
+          "write": true,
+          "access": true
+        }
+      }
+    ]
+  }
+}

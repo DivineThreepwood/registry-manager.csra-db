@@ -1,13 +1,22 @@
 {
   "id": "0a4a7efd-1e28-47b1-b631-56293de8d455",
-  "label": "Future-Shape_SE3-P_02858000",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Future Shape SE3 P 02858000"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-92"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-    "transformation_frame_id": "Future-Shape_SE3-P_02858000",
+    "transformation_frame_id": "Device-92",
     "shape": {}
   },
   "scope": {
@@ -17,7 +26,7 @@
       "home",
       "kitchen",
       "device",
-      "future-shape_se3-p_02858000"
+      "futureshapese3p02858000"
     ]
   },
   "bound_to_unit_host": true,
@@ -39,9 +48,11 @@
       "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
       "timestamp": {
         "time": 1440771271472
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "e526554b-de4c-43fa-8898-ad6c09a8ed99"
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

@@ -1,13 +1,22 @@
 {
   "id": "1fb25195-1d78-447f-a1aa-3fb1db979245",
-  "label": "PathwayButtons1",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Pathway Buttons 1"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-43"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
-    "transformation_frame_id": "PathwayButtons1",
+    "transformation_frame_id": "Device-43",
     "shape": {}
   },
   "scope": {
@@ -31,8 +40,7 @@
       "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
       "timestamp": {
         "time": 1520346690570000
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "a34b128b-866d-48a5-8024-4982017492f9",
     "unit_id": [
@@ -42,5 +50,8 @@
       "64b0bb4d-0f88-4b1d-9e4a-6b2dad7a8022",
       "d01ca6db-1a56-46ed-8d44-0629fcf5e4cf"
     ]
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

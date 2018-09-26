@@ -1,15 +1,24 @@
 {
   "id": "02385583-abdb-4aba-9e34-1a17cd4c2c3d",
   "unit_template_config_id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_CONSUMPTION_SENSOR_1",
-  "label": "BeleuchtungZwischendecke",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Beleuchtung Zwischendecke"
+        ]
+      }
+    ]
+  },
   "alias": [
     "PowerConsumptionSensor-47"
   ],
   "unit_host_id": "37a90769-5743-47fc-b843-3367bd531db9",
-  "type": "POWER_CONSUMPTION_SENSOR",
+  "unit_type": "POWER_CONSUMPTION_SENSOR",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "Living_BeleuchtungZwischendecke",
+    "transformation_frame_id": "PowerConsumptionSensor-47",
     "shape": {}
   },
   "scope": {
@@ -22,7 +31,14 @@
       "beleuchtungzwischendecke"
     ]
   },
-  "description": "S4_C2 Consumption",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "S4_C2 Consumption"
+      }
+    ]
+  },
   "bound_to_unit_host": false,
   "service_config": [
     {
@@ -36,7 +52,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_1046__citec_csra_home_living__PowerConsumptionSensor__BeleuchtungZwischendecke__PowerConsumptionStateService"
+              "value": "Gira_1046__citec_csra_home_living__PowerConsumptionSensor__Beleuchtung_Zwischendecke__PowerConsumptionStateService"
             }
           ]
         }
@@ -44,7 +60,7 @@
       "unit_id": "02385583-abdb-4aba-9e34-1a17cd4c2c3d",
       "service_description": {
         "service_template_id": "b7cec81b-6387-4b77-a2c2-2d97726a4476",
-        "type": "POWER_CONSUMPTION_STATE_SERVICE",
+        "service_type": "POWER_CONSUMPTION_STATE_SERVICE",
         "meta_config": {}
       },
       "meta_config": {}

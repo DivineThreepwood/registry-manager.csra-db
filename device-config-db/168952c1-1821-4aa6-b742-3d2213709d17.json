@@ -1,13 +1,22 @@
 {
   "id": "168952c1-1821-4aa6-b742-3d2213709d17",
-  "label": "DimmActuator1",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Dimm Actuator 1"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Device-69"
   ],
-  "type": "DEVICE",
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
-    "transformation_frame_id": "DimmActuator1",
+    "transformation_frame_id": "Device-69",
     "shape": {}
   },
   "scope": {
@@ -31,8 +40,7 @@
       "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
       "timestamp": {
         "time": 1441012859722
-      },
-      "owner_id": ""
+      }
     },
     "device_class_id": "22a869e9-de2f-4e85-9503-5e5cacd39309",
     "unit_id": [
@@ -40,5 +48,8 @@
       "9b27299f-522f-4b62-854a-187d3909d5a9",
       "dccc86dc-f764-4602-8ad4-945bf6851581"
     ]
+  },
+  "permission_config": {
+    "owner_id": ""
   }
 }

@@ -1,13 +1,22 @@
 {
   "id": "a2e5e403-7121-48b9-837a-b93a944ccd29",
-  "label": "Apartment Entrance Door",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Apartment Entrance Door"
+        ]
+      }
+    ]
+  },
   "alias": [
     "Connection-1"
   ],
-  "type": "CONNECTION",
+  "unit_type": "CONNECTION",
   "placement_config": {
     "location_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
-    "transformation_frame_id": "Apartment_Entrance_Door",
+    "transformation_frame_id": "Connection-1",
     "position": {
       "translation": {
         "x": 2.718,
@@ -60,7 +69,7 @@
     "component": [
       "citec",
       "connection",
-      "apartment_entrance_door"
+      "apartmententrancedoor"
     ]
   },
   "service_config": [
@@ -71,7 +80,7 @@
       "unit_id": "a2e5e403-7121-48b9-837a-b93a944ccd29",
       "service_description": {
         "service_template_id": "eb544f83-26c3-45f6-93da-5b9599de6049",
-        "type": "DOOR_STATE_SERVICE",
+        "service_type": "DOOR_STATE_SERVICE",
         "meta_config": {}
       },
       "meta_config": {}
@@ -83,7 +92,7 @@
       "unit_id": "a2e5e403-7121-48b9-837a-b93a944ccd29",
       "service_description": {
         "service_template_id": "a2400b26-4cee-47a8-b78c-8511f37e2359",
-        "type": "PASSAGE_STATE_SERVICE",
+        "service_type": "PASSAGE_STATE_SERVICE",
         "meta_config": {}
       },
       "meta_config": {}
@@ -95,7 +104,7 @@
       "unit_id": "a2e5e403-7121-48b9-837a-b93a944ccd29",
       "service_description": {
         "service_template_id": "355916ac-6a3e-45c3-878c-ef5786ccb223",
-        "type": "WINDOW_STATE_SERVICE",
+        "service_type": "WINDOW_STATE_SERVICE",
         "meta_config": {}
       },
       "meta_config": {}
