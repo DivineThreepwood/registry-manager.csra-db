@@ -39,6 +39,10 @@
       {
         "key": "SENSOR_BOUNDINGBOX",
         "value": "1.7,2.6,2.7,1.7"
+      },
+      {
+        "key": "OPENHAB_THING_UID",
+        "value": "zwave:device:e5693b4e:node7"
       }
     ]
   },

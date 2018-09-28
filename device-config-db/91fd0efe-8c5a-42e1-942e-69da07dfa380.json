@@ -15,7 +15,7 @@
   ],
   "unit_type": "DEVICE",
   "placement_config": {
-    "location_id": "485c5820-4da4-48b8-8221-ed59738b3dbb",
+    "location_id": "0aad7cdf-6192-4f01-96cf-17bdf2bd6410",
     "transformation_frame_id": "Device-127",
     "shape": {}
   },
@@ -23,7 +23,8 @@
     "component": [
       "citec",
       "csra",
-      "control",
+      "home",
+      "living",
       "window",
       "device",
       "window"
@@ -35,6 +36,10 @@
       {
         "key": "OPENHAB_BINDING_DEVICE_ID",
         "value": "2"
+      },
+      {
+        "key": "OPENHAB_THING_UID",
+        "value": "zwave:device:e5693b4e:node2"
       }
     ]
   },
@@ -44,7 +49,10 @@
   "device_config": {
     "inventory_state": {
       "value": "INSTALLED",
-      "location_id": "485c5820-4da4-48b8-8221-ed59738b3dbb"
+      "location_id": "0aad7cdf-6192-4f01-96cf-17bdf2bd6410",
+      "timestamp": {
+        "time": 1538136877207000
+      }
     },
     "device_class_id": "79e16e8f-7c8d-48ec-b59b-84ba75ed593b",
     "unit_id": [

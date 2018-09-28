@@ -29,7 +29,14 @@
     ]
   },
   "bound_to_unit_host": false,
-  "meta_config": {},
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_THING_UID",
+        "value": "knx:device:d9e491b1-27b3-4736-9ce0-c52476e827d3"
+      }
+    ]
+  },
   "enabling_state": {
     "value": "ENABLED"
   },

@@ -38,6 +38,10 @@
       {
         "key": "INFRASTRUCTURE",
         "value": "true"
+      },
+      {
+        "key": "OPENHAB_THING_UID",
+        "value": "hue:0210:00178821671c:34"
       }
     ]
   },

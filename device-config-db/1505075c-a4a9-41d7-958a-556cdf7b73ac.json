@@ -34,6 +34,10 @@
       {
         "key": "INFRASTRUCTURE",
         "value": "true"
+      },
+      {
+        "key": "OPENHAB_THING_UID",
+        "value": "knx:device:1505075c-a4a9-41d7-958a-556cdf7b73ac"
       }
     ]
   },

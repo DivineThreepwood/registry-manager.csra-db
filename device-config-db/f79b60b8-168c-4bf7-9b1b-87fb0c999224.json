@@ -40,6 +40,10 @@
       {
         "key": "SENSOR_BOUNDINGBOX",
         "value": "3.4,0.0,1.6,1.8"
+      },
+      {
+        "key": "OPENHAB_THING_UID",
+        "value": "zwave:device:e5693b4e:node9"
       }
     ]
   },
