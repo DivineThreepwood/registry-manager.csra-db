@@ -5,7 +5,13 @@
       {
         "key": "en",
         "value": [
-          "Global 3"
+          "Ceiling Lamp 3"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Deckenlampe 3"
         ]
       }
     ]
@@ -16,7 +22,8 @@
   "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
-    "transformation_frame_id": "Device-60"
+    "transformation_frame_id": "Device-60",
+    "shape": {}
   },
   "scope": {
     "component": [
@@ -25,9 +32,10 @@
       "home",
       "bath",
       "device",
-      "global3"
+      "ceilinglamp3"
     ]
   },
+  "description": {},
   "bound_to_unit_host": true,
   "meta_config": {
     "entry": [
@@ -59,6 +67,8 @@
     ]
   },
   "permission_config": {
-    "owner_id": ""
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

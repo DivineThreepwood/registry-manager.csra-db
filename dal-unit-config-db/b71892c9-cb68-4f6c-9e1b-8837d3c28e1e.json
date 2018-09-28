@@ -6,7 +6,13 @@
       {
         "key": "en",
         "value": [
-          "Global 2"
+          "Ceiling Lamp 2"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Deckenlampe 2"
         ]
       }
     ]
@@ -27,7 +33,7 @@
       "home",
       "bath",
       "colorablelight",
-      "global2"
+      "ceilinglamp2"
     ]
   },
   "bound_to_unit_host": true,
@@ -39,7 +45,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_GU10__citec_csra_home_bath__ColorableLight__Global_2__BrightnessStateService"
+              "value": "Philips_Hue_GU10__citec_csra_home_bath__ColorableLight__Ceiling_Lamp_2__BrightnessStateService"
             }
           ]
         }
@@ -59,7 +65,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_GU10__citec_csra_home_bath__ColorableLight__Global_2__BrightnessStateService"
+              "value": "Philips_Hue_GU10__citec_csra_home_bath__ColorableLight__Ceiling_Lamp_2__BrightnessStateService"
             }
           ]
         }
@@ -79,7 +85,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_GU10__citec_csra_home_bath__ColorableLight__Global_2__ColorStateService"
+              "value": "Philips_Hue_GU10__citec_csra_home_bath__ColorableLight__Ceiling_Lamp_2__ColorStateService"
             }
           ]
         }
@@ -99,7 +105,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_GU10__citec_csra_home_bath__ColorableLight__Global_2__ColorStateService"
+              "value": "Philips_Hue_GU10__citec_csra_home_bath__ColorableLight__Ceiling_Lamp_2__ColorStateService"
             }
           ]
         }
@@ -119,7 +125,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_GU10__citec_csra_home_bath__ColorableLight__Global_2__PowerStateService"
+              "value": "Philips_Hue_GU10__citec_csra_home_bath__ColorableLight__Ceiling_Lamp_2__PowerStateService"
             }
           ]
         }
@@ -139,7 +145,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_GU10__citec_csra_home_bath__ColorableLight__Global_2__PowerStateService"
+              "value": "Philips_Hue_GU10__citec_csra_home_bath__ColorableLight__Ceiling_Lamp_2__PowerStateService"
             }
           ]
         }

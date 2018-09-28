@@ -7,6 +7,12 @@
         "value": [
           "Ceiling Lamp 1"
         ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Deckenlampe 1"
+        ]
       }
     ]
   },
@@ -29,6 +35,7 @@
       "ceilinglamp1"
     ]
   },
+  "description": {},
   "bound_to_unit_host": true,
   "meta_config": {
     "entry": [
@@ -60,6 +67,8 @@
     ]
   },
   "permission_config": {
-    "owner_id": ""
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }
