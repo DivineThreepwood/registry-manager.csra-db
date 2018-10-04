@@ -42,6 +42,7 @@
       "505"
     ]
   },
+  "description": {},
   "bound_to_unit_host": true,
   "meta_config": {
     "entry": [
@@ -52,7 +53,7 @@
     ]
   },
   "enabling_state": {
-    "value": "ENABLED"
+    "value": "DISABLED"
   },
   "device_config": {
     "serial_number": "Handle505",
@@ -70,6 +71,8 @@
     ]
   },
   "permission_config": {
-    "owner_id": ""
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }
