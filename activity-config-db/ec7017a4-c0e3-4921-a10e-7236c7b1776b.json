@@ -1,0 +1,18 @@
+{
+  "id": "ec7017a4-c0e3-4921-a10e-7236c7b1776b",
+  "label": {
+    "entry": [
+      {
+        "key": "de",
+        "value": [
+          "Entspannen",
+          "Relaxen",
+          "Chillen"
+        ]
+      }
+    ]
+  },
+  "activity_template_id": "2161d364-7226-41c8-b79a-f06beb21da52",
+  "meta_config": {},
+  "description": {}
+}
