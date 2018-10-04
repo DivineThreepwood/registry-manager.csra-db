@@ -91,7 +91,8 @@
   "user_config": {
     "first_name": "Marian",
     "last_name": "Pohling",
-    "user_name": "Divine"
+    "user_name": "Divine",
+    "language": "en"
   },
   "permission_config": {
     "owner_id": "ef171da7-95ad-4f16-979d-fa94daaf1031",

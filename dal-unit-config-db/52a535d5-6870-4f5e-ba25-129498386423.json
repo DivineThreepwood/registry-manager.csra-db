@@ -6,7 +6,13 @@
       {
         "key": "en",
         "value": [
-          "Window"
+          "Motion Sensor Window"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Bewegungsmelder Fenster"
         ]
       }
     ]
@@ -28,7 +34,7 @@
       "living",
       "window",
       "temperaturesensor",
-      "window"
+      "motionsensorwindow"
     ]
   },
   "bound_to_unit_host": true,
@@ -40,7 +46,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Motion_Sensor__citec_csra_home_living_window__TemperatureSensor__Window__TemperatureStateService"
+              "value": "Motion_Sensor__citec_csra_home_living_window__TemperatureSensor__Motion_Sensor_Window__TemperatureStateService"
             }
           ]
         }
@@ -58,7 +64,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Motion_Sensor__citec_csra_home_living_window__TemperatureSensor__Window__TemperatureAlarmStateService"
+              "value": "Motion_Sensor__citec_csra_home_living_window__TemperatureSensor__Motion_Sensor_Window__TemperatureAlarmStateService"
             }
           ]
         }

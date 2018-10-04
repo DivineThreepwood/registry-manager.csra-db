@@ -8,6 +8,18 @@
         "value": [
           "Kettle"
         ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Wasserkocher"
+        ]
+      },
+      {
+        "key": "technical",
+        "value": [
+          "S3 A2"
+        ]
       }
     ]
   },
@@ -17,9 +29,21 @@
   "unit_host_id": "64da2fb2-aca7-4791-a5c1-e389a7361c05",
   "unit_type": "POWER_SWITCH",
   "placement_config": {
-    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+    "location_id": "8b787be0-45c2-4c7f-b3a3-7a6b73040df0",
     "transformation_frame_id": "PowerSwitch-59",
-    "shape": {}
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "frame_id": ""
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
+      }
+    }
   },
   "scope": {
     "component": [
@@ -27,6 +51,7 @@
       "csra",
       "home",
       "kitchen",
+      "assistance",
       "powerswitch",
       "kettle"
     ]
@@ -35,7 +60,11 @@
     "entry": [
       {
         "key": "en",
-        "value": "Kettle and Coffee Machine"
+        "value": "Kettle and Coffee Machine, is monitored by the plant"
+      },
+      {
+        "key": "de",
+        "value": "Für den Wasserkocher und die Kaffeemaschine, wird von der Pflanze überwacht"
       }
     ]
   },
@@ -52,7 +81,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_1046__citec_csra_home_kitchen__PowerSwitch__Kettle__PowerStateService"
+              "value": "Gira_1046__citec_csra_home_kitchen_assistance__PowerSwitch__Kettle__PowerStateService"
             }
           ]
         }
@@ -76,7 +105,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_1046__citec_csra_home_kitchen__PowerSwitch__Kettle__PowerStateService"
+              "value": "Gira_1046__citec_csra_home_kitchen_assistance__PowerSwitch__Kettle__PowerStateService"
             }
           ]
         }
@@ -101,5 +130,10 @@
   },
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

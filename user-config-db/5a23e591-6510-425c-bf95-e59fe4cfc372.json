@@ -97,7 +97,8 @@
   },
   "user_config": {
     "user_name": "BathAmbientColorForest@Bath",
-    "system_user": true
+    "system_user": true,
+    "language": "en"
   },
   "permission_config": {
     "owner_id": "5a23e591-6510-425c-bf95-e59fe4cfc372",

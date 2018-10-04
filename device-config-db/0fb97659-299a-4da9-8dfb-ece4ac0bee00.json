@@ -5,7 +5,13 @@
       {
         "key": "en",
         "value": [
-          "Hallway 0"
+          "Ceiling Ball Lamp"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Kugellampe"
         ]
       }
     ]
@@ -29,7 +35,8 @@
         "qy": 0.0,
         "qz": 0.0
       }
-    }
+    },
+    "shape": {}
   },
   "scope": {
     "component": [
@@ -38,9 +45,10 @@
       "home",
       "hallway",
       "device",
-      "hallway0"
+      "ceilingballlamp"
     ]
   },
+  "description": {},
   "bound_to_unit_host": true,
   "meta_config": {
     "entry": [
@@ -72,6 +80,8 @@
     ]
   },
   "permission_config": {
-    "owner_id": ""
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

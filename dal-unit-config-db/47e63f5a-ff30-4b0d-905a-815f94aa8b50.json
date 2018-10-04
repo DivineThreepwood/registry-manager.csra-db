@@ -6,7 +6,13 @@
       {
         "key": "en",
         "value": [
-          "Ceiling Central Lamp"
+          "Small Ceiling Lamp"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Kleine Deckenlampe"
         ]
       }
     ]
@@ -42,9 +48,10 @@
       "living",
       "lounge",
       "colorablelight",
-      "ceilingcentrallamp"
+      "smallceilinglamp"
     ]
   },
+  "description": {},
   "bound_to_unit_host": true,
   "service_config": [
     {
@@ -54,7 +61,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_lounge__ColorableLight__Ceiling_Central_Lamp__BrightnessStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_lounge__ColorableLight__Small_Ceiling_Lamp__BrightnessStateService"
             }
           ]
         }
@@ -75,7 +82,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_lounge__ColorableLight__Ceiling_Central_Lamp__BrightnessStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_lounge__ColorableLight__Small_Ceiling_Lamp__BrightnessStateService"
             }
           ]
         }
@@ -96,7 +103,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_lounge__ColorableLight__Ceiling_Central_Lamp__ColorStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_lounge__ColorableLight__Small_Ceiling_Lamp__ColorStateService"
             }
           ]
         }
@@ -117,7 +124,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_lounge__ColorableLight__Ceiling_Central_Lamp__ColorStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_lounge__ColorableLight__Small_Ceiling_Lamp__ColorStateService"
             }
           ]
         }
@@ -138,7 +145,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_lounge__ColorableLight__Ceiling_Central_Lamp__PowerStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_lounge__ColorableLight__Small_Ceiling_Lamp__PowerStateService"
             }
           ]
         }
@@ -159,7 +166,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_lounge__ColorableLight__Ceiling_Central_Lamp__PowerStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_lounge__ColorableLight__Small_Ceiling_Lamp__PowerStateService"
             }
           ]
         }

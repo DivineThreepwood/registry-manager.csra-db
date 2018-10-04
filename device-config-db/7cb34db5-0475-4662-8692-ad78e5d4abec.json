@@ -5,7 +5,13 @@
       {
         "key": "en",
         "value": [
-          "Center"
+          "Motion Sensor Center"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Bewegungsmelder Zentral"
         ]
       }
     ]
@@ -26,9 +32,10 @@
       "control",
       "center",
       "device",
-      "center"
+      "motionsensorcenter"
     ]
   },
+  "description": {},
   "bound_to_unit_host": true,
   "meta_config": {
     "entry": [
@@ -46,6 +53,7 @@
     "value": "ENABLED"
   },
   "device_config": {
+    "serial_number": "",
     "inventory_state": {
       "value": "INSTALLED",
       "location_id": "5964181e-adad-4306-a1bb-c89eb86b4d82"
@@ -58,5 +66,10 @@
       "3ff1d1fc-dbf2-4093-9358-ca76975735c8",
       "c88d41a8-486f-47c5-b77f-699fe6abebb8"
     ]
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

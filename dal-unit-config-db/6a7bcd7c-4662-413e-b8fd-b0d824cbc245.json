@@ -6,7 +6,13 @@
       {
         "key": "en",
         "value": [
-          "Interaction"
+          "Motion Sensor Interaction"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Bewegungsmelder Interaktion"
         ]
       }
     ]
@@ -27,7 +33,7 @@
       "robotroom",
       "interaction",
       "temperaturesensor",
-      "interaction"
+      "motionsensorinteraction"
     ]
   },
   "bound_to_unit_host": true,
@@ -39,7 +45,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Motion_Sensor__citec_csra_robotroom_interaction__TemperatureSensor__Interaction__TemperatureStateService"
+              "value": "Motion_Sensor__citec_csra_robotroom_interaction__TemperatureSensor__Motion_Sensor_Interaction__TemperatureStateService"
             }
           ]
         }
@@ -59,7 +65,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Motion_Sensor__citec_csra_robotroom_interaction__TemperatureSensor__Interaction__TemperatureAlarmStateService"
+              "value": "Motion_Sensor__citec_csra_robotroom_interaction__TemperatureSensor__Motion_Sensor_Interaction__TemperatureAlarmStateService"
             }
           ]
         }

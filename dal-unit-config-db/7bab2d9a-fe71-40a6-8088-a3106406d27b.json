@@ -6,7 +6,13 @@
       {
         "key": "en",
         "value": [
-          "506"
+          "Hanging Cupboard Left"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Hängeschrank Links"
         ]
       }
     ]
@@ -17,7 +23,7 @@
   "unit_host_id": "9c2a6435-f605-4468-b125-be540b65b96f",
   "unit_type": "REED_CONTACT",
   "placement_config": {
-    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+    "location_id": "8b787be0-45c2-4c7f-b3a3-7a6b73040df0",
     "transformation_frame_id": "ReedContact-14",
     "position": {
       "translation": {
@@ -39,8 +45,9 @@
       "csra",
       "home",
       "kitchen",
+      "assistance",
       "reedcontact",
-      "506"
+      "hangingcupboardleft"
     ]
   },
   "bound_to_unit_host": true,

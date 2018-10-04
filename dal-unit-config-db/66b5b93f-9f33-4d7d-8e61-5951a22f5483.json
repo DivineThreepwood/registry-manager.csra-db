@@ -23,7 +23,7 @@
   "unit_host_id": "623f21e0-ff32-4e08-94cc-7052b5355abc",
   "unit_type": "COLORABLE_LIGHT",
   "placement_config": {
-    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "location_id": "0df5bbb8-2d17-4f81-9b34-314a26ae713a",
     "transformation_frame_id": "ColorableLight-17",
     "position": {
       "translation": {
@@ -45,6 +45,7 @@
       "csra",
       "home",
       "living",
+      "lounge",
       "colorablelight",
       "readinglamp"
     ]
@@ -58,7 +59,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_GU10__citec_csra_home_living__ColorableLight__Reading_Lamp__BrightnessStateService"
+              "value": "Philips_Hue_GU10__citec_csra_home_living_lounge__ColorableLight__Reading_Lamp__BrightnessStateService"
             }
           ]
         }
@@ -78,7 +79,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_GU10__citec_csra_home_living__ColorableLight__Reading_Lamp__BrightnessStateService"
+              "value": "Philips_Hue_GU10__citec_csra_home_living_lounge__ColorableLight__Reading_Lamp__BrightnessStateService"
             }
           ]
         }
@@ -98,7 +99,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_GU10__citec_csra_home_living__ColorableLight__Reading_Lamp__ColorStateService"
+              "value": "Philips_Hue_GU10__citec_csra_home_living_lounge__ColorableLight__Reading_Lamp__ColorStateService"
             }
           ]
         }
@@ -118,7 +119,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_GU10__citec_csra_home_living__ColorableLight__Reading_Lamp__ColorStateService"
+              "value": "Philips_Hue_GU10__citec_csra_home_living_lounge__ColorableLight__Reading_Lamp__ColorStateService"
             }
           ]
         }
@@ -138,7 +139,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_GU10__citec_csra_home_living__ColorableLight__Reading_Lamp__PowerStateService"
+              "value": "Philips_Hue_GU10__citec_csra_home_living_lounge__ColorableLight__Reading_Lamp__PowerStateService"
             }
           ]
         }
@@ -158,7 +159,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_GU10__citec_csra_home_living__ColorableLight__Reading_Lamp__PowerStateService"
+              "value": "Philips_Hue_GU10__citec_csra_home_living_lounge__ColorableLight__Reading_Lamp__PowerStateService"
             }
           ]
         }

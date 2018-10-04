@@ -92,7 +92,8 @@
   "user_config": {
     "first_name": "Patrick",
     "last_name": "Holthaus",
-    "user_name": "pholthau"
+    "user_name": "pholthau",
+    "language": "en"
   },
   "permission_config": {
     "owner_id": "cc1ec50b-9582-469f-a8fc-54a6bffbcc9b",

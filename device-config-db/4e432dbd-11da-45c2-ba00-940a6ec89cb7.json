@@ -5,7 +5,13 @@
       {
         "key": "en",
         "value": [
-          "Table Corner Lamp Top"
+          "Table Corner Lamp Bottom"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Tischlampe Ecke Unten"
         ]
       }
     ]
@@ -38,9 +44,10 @@
       "csra",
       "robotroom",
       "device",
-      "tablecornerlamptop"
+      "tablecornerlampbottom"
     ]
   },
+  "description": {},
   "bound_to_unit_host": true,
   "meta_config": {
     "entry": [
@@ -72,6 +79,8 @@
     ]
   },
   "permission_config": {
-    "owner_id": ""
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

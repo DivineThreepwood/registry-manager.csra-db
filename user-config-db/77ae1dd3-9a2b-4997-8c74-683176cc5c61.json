@@ -97,7 +97,8 @@
   },
   "user_config": {
     "user_name": "PartyLightFollower@Kitchen",
-    "system_user": true
+    "system_user": true,
+    "language": "en"
   },
   "permission_config": {
     "owner_id": "77ae1dd3-9a2b-4997-8c74-683176cc5c61",

@@ -5,7 +5,13 @@
       {
         "key": "en",
         "value": [
-          "SLamp Right 2"
+          "Windowlamp Right Top"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Fensterlampe Rechts Oben"
         ]
       }
     ]
@@ -15,7 +21,7 @@
   ],
   "unit_type": "DEVICE",
   "placement_config": {
-    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "location_id": "0aad7cdf-6192-4f01-96cf-17bdf2bd6410",
     "transformation_frame_id": "Device-72",
     "position": {
       "translation": {
@@ -29,7 +35,8 @@
         "qy": 0.0,
         "qz": 0.0
       }
-    }
+    },
+    "shape": {}
   },
   "scope": {
     "component": [
@@ -37,10 +44,12 @@
       "csra",
       "home",
       "living",
+      "window",
       "device",
-      "slampright2"
+      "windowlamprighttop"
     ]
   },
+  "description": {},
   "bound_to_unit_host": true,
   "meta_config": {
     "entry": [
@@ -61,7 +70,7 @@
     "serial_number": "DA7775",
     "inventory_state": {
       "value": "INSTALLED",
-      "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+      "location_id": "0aad7cdf-6192-4f01-96cf-17bdf2bd6410",
       "timestamp": {
         "time": 1441016176949
       }
@@ -72,6 +81,8 @@
     ]
   },
   "permission_config": {
-    "owner_id": ""
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

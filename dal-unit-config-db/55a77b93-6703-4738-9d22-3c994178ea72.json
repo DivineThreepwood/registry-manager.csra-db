@@ -6,7 +6,13 @@
       {
         "key": "en",
         "value": [
-          "Sink"
+          "Motion Sensor Basin"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Bewegungsmelder Becken"
         ]
       }
     ]
@@ -28,7 +34,7 @@
       "bath",
       "basin",
       "lightsensor",
-      "sink"
+      "motionsensorbasin"
     ]
   },
   "bound_to_unit_host": true,
@@ -40,7 +46,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Motion_Sensor__citec_csra_home_bath_basin__LightSensor__Sink__IlluminanceStateService"
+              "value": "Motion_Sensor__citec_csra_home_bath_basin__LightSensor__Motion_Sensor_Basin__IlluminanceStateService"
             }
           ]
         }

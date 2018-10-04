@@ -5,7 +5,13 @@
       {
         "key": "en",
         "value": [
-          "Media"
+          "Motion Sensor Media"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Bewegungsmelder Media"
         ]
       }
     ]
@@ -27,9 +33,10 @@
       "living",
       "hometheater",
       "device",
-      "media"
+      "motionsensormedia"
     ]
   },
+  "description": {},
   "bound_to_unit_host": true,
   "meta_config": {
     "entry": [
@@ -69,6 +76,8 @@
     ]
   },
   "permission_config": {
-    "owner_id": ""
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

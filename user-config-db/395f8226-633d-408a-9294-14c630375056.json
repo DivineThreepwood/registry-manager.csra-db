@@ -90,9 +90,16 @@
   "user_config": {
     "first_name": "System",
     "last_name": "User",
-    "user_name": "BCO"
+    "user_name": "BCO",
+    "language": "en"
   },
   "permission_config": {
+    "owner_id": "395f8226-633d-408a-9294-14c630375056",
+    "owner_permission": {
+      "read": true,
+      "write": true,
+      "access": true
+    },
     "other_permission": {
       "read": true,
       "write": true,

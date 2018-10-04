@@ -5,7 +5,13 @@
       {
         "key": "en",
         "value": [
-          "SLamp Window 2"
+          "Table Lamp Right Top"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Tischlampe Rechts Oben"
         ]
       }
     ]
@@ -29,7 +35,8 @@
         "qy": 0.0,
         "qz": 0.0
       }
-    }
+    },
+    "shape": {}
   },
   "scope": {
     "component": [
@@ -37,9 +44,10 @@
       "csra",
       "robotroom",
       "device",
-      "slampwindow2"
+      "tablelamprighttop"
     ]
   },
+  "description": {},
   "bound_to_unit_host": true,
   "meta_config": {
     "entry": [
@@ -71,6 +79,8 @@
     ]
   },
   "permission_config": {
-    "owner_id": ""
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

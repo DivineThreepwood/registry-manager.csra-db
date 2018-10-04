@@ -5,7 +5,13 @@
       {
         "key": "en",
         "value": [
-          "Lounge Lamp"
+          "Small Ceiling Lamp"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Kleine Deckenlampe"
         ]
       }
     ]
@@ -29,7 +35,8 @@
         "qy": 0.0,
         "qz": 0.0
       }
-    }
+    },
+    "shape": {}
   },
   "scope": {
     "component": [
@@ -39,9 +46,10 @@
       "living",
       "lounge",
       "device",
-      "loungelamp"
+      "smallceilinglamp"
     ]
   },
+  "description": {},
   "bound_to_unit_host": true,
   "meta_config": {
     "entry": [
@@ -73,6 +81,8 @@
     ]
   },
   "permission_config": {
-    "owner_id": ""
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

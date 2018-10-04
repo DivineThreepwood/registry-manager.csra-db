@@ -5,7 +5,14 @@
       {
         "key": "en",
         "value": [
-          "LLamp 3"
+          "Standard Lamp Middle",
+          "Standard Lamp Center"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Stehlampe Mitte"
         ]
       }
     ]
@@ -39,9 +46,10 @@
       "home",
       "living",
       "device",
-      "llamp3"
+      "standardlampmiddle"
     ]
   },
+  "description": {},
   "bound_to_unit_host": true,
   "meta_config": {
     "entry": [
@@ -73,6 +81,8 @@
     ]
   },
   "permission_config": {
-    "owner_id": ""
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

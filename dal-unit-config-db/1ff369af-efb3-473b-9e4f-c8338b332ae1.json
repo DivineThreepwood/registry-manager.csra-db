@@ -6,14 +6,19 @@
       {
         "key": "en",
         "value": [
-          "Standard Lamp",
-          "S1 A2"
+          "Standard Lamp"
         ]
       },
       {
         "key": "de",
         "value": [
           "Steckdose Stehlampe"
+        ]
+      },
+      {
+        "key": "technical",
+        "value": [
+          "S1 A2"
         ]
       }
     ]
@@ -26,7 +31,19 @@
   "placement_config": {
     "location_id": "eb89de19-36db-4f26-b8a5-a75df850892e",
     "transformation_frame_id": "PowerSwitch-54",
-    "shape": {}
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "frame_id": ""
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
+      }
+    }
   },
   "scope": {
     "component": [
@@ -91,5 +108,10 @@
   "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

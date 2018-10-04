@@ -5,7 +5,13 @@
       {
         "key": "en",
         "value": [
-          "Table 1"
+          "Ceiling Lamp 2"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Deckenlampe 2"
         ]
       }
     ]
@@ -40,9 +46,10 @@
       "living",
       "dining",
       "device",
-      "table1"
+      "ceilinglamp2"
     ]
   },
+  "description": {},
   "bound_to_unit_host": true,
   "meta_config": {
     "entry": [
@@ -74,6 +81,8 @@
     ]
   },
   "permission_config": {
-    "owner_id": ""
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

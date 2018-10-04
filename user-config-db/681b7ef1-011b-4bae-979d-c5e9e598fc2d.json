@@ -92,7 +92,8 @@
   "user_config": {
     "first_name": "Sebastian",
     "last_name": "MZB",
-    "user_name": "MZB"
+    "user_name": "MZB",
+    "language": "en"
   },
   "permission_config": {
     "owner_id": "681b7ef1-011b-4bae-979d-c5e9e598fc2d",

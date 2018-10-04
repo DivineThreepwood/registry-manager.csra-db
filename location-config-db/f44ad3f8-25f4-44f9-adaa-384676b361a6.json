@@ -7,6 +7,13 @@
         "value": [
           "Bath"
         ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Badezimmer",
+          "Bad"
+        ]
       }
     ]
   },
@@ -170,6 +177,7 @@
       "bath"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {
@@ -484,6 +492,7 @@
         "6d7e9b9b-c9b8-4fd5-b56b-ff5319a603be"
       ],
       "meta_config": {}
-    }
+    },
+    "global_position": {}
   }
 }

@@ -4,9 +4,21 @@
   "label": {
     "entry": [
       {
+        "key": "technical",
+        "value": [
+          "S2 A7"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Doppelsteckdose Links"
+        ]
+      },
+      {
         "key": "en",
         "value": [
-          "S2 C7"
+          "Double Socket Left"
         ]
       }
     ]
@@ -17,19 +29,34 @@
   "unit_host_id": "16e01132-facc-4138-b658-8cd6ef565885",
   "unit_type": "POWER_SWITCH",
   "placement_config": {
-    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+    "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
     "transformation_frame_id": "PowerSwitch-26",
-    "shape": {}
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "frame_id": ""
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
+      }
+    }
   },
   "scope": {
     "component": [
       "citec",
       "csra",
-      "control",
+      "home",
+      "living",
+      "dining",
       "powerswitch",
-      "s2c7"
+      "s2a7"
     ]
   },
+  "description": {},
   "bound_to_unit_host": false,
   "service_config": [
     {
@@ -39,7 +66,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_1046__citec_csra_control__PowerSwitch__S2_C7__PowerStateService"
+              "value": "Gira_1046__citec_csra_home_living_dining__PowerSwitch__Double_Socket_Left__PowerStateService"
             }
           ]
         }
@@ -63,7 +90,7 @@
             },
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Gira_1046__citec_csra_control__PowerSwitch__S2_C7__PowerStateService"
+              "value": "Gira_1046__citec_csra_home_living_dining__PowerSwitch__Double_Socket_Left__PowerStateService"
             }
           ]
         }
@@ -81,5 +108,10 @@
   "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

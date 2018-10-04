@@ -6,7 +6,14 @@
       {
         "key": "en",
         "value": [
-          "LLamp 3"
+          "Standard Lamp Middle",
+          "Standard Lamp Center"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Stehlampe Mitte"
         ]
       }
     ]
@@ -40,7 +47,7 @@
       "home",
       "living",
       "colorablelight",
-      "llamp3"
+      "standardlampmiddle"
     ]
   },
   "bound_to_unit_host": true,
@@ -52,7 +59,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living__ColorableLight__LLamp_3__BrightnessStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living__ColorableLight__Standard_Lamp_Middle__BrightnessStateService"
             }
           ]
         }
@@ -72,7 +79,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living__ColorableLight__LLamp_3__BrightnessStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living__ColorableLight__Standard_Lamp_Middle__BrightnessStateService"
             }
           ]
         }
@@ -92,7 +99,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living__ColorableLight__LLamp_3__ColorStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living__ColorableLight__Standard_Lamp_Middle__ColorStateService"
             }
           ]
         }
@@ -112,7 +119,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living__ColorableLight__LLamp_3__ColorStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living__ColorableLight__Standard_Lamp_Middle__ColorStateService"
             }
           ]
         }
@@ -132,7 +139,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living__ColorableLight__LLamp_3__PowerStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living__ColorableLight__Standard_Lamp_Middle__PowerStateService"
             }
           ]
         }
@@ -152,7 +159,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living__ColorableLight__LLamp_3__PowerStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living__ColorableLight__Standard_Lamp_Middle__PowerStateService"
             }
           ]
         }

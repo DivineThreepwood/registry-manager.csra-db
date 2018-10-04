@@ -5,7 +5,13 @@
       {
         "key": "en",
         "value": [
-          "501"
+          "Hanging Cupboard Right"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Hängeschrank Rechts"
         ]
       }
     ]
@@ -15,7 +21,7 @@
   ],
   "unit_type": "DEVICE",
   "placement_config": {
-    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+    "location_id": "8b787be0-45c2-4c7f-b3a3-7a6b73040df0",
     "transformation_frame_id": "Device-131",
     "shape": {}
   },
@@ -25,10 +31,12 @@
       "csra",
       "home",
       "kitchen",
+      "assistance",
       "device",
-      "501"
+      "hangingcupboardright"
     ]
   },
+  "description": {},
   "bound_to_unit_host": true,
   "meta_config": {},
   "enabling_state": {
@@ -37,7 +45,7 @@
   "device_config": {
     "inventory_state": {
       "value": "INSTALLED",
-      "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001"
+      "location_id": "8b787be0-45c2-4c7f-b3a3-7a6b73040df0"
     },
     "device_class_id": "7d6d56c2-9bd7-45cf-a3fd-26bce7804e0a",
     "unit_id": [

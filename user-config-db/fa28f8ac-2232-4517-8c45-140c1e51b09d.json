@@ -97,7 +97,8 @@
   },
   "user_config": {
     "user_name": "HallwayDimmerPowerStateSynchroniser@Hallway",
-    "system_user": true
+    "system_user": true,
+    "language": "en"
   },
   "permission_config": {
     "owner_id": "fa28f8ac-2232-4517-8c45-140c1e51b09d",

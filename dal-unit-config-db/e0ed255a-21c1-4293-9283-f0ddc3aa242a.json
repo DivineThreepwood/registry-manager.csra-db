@@ -6,7 +6,13 @@
       {
         "key": "en",
         "value": [
-          "Table 0"
+          "Ceiling Lamp 1"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Decḱenlampe 1"
         ]
       }
     ]
@@ -41,7 +47,7 @@
       "living",
       "dining",
       "colorablelight",
-      "table0"
+      "ceilinglamp1"
     ]
   },
   "bound_to_unit_host": true,
@@ -53,7 +59,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_dining__ColorableLight__Table_0__BrightnessStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_dining__ColorableLight__Ceiling_Lamp_1__BrightnessStateService"
             }
           ]
         }
@@ -73,7 +79,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_dining__ColorableLight__Table_0__BrightnessStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_dining__ColorableLight__Ceiling_Lamp_1__BrightnessStateService"
             }
           ]
         }
@@ -93,7 +99,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_dining__ColorableLight__Table_0__ColorStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_dining__ColorableLight__Ceiling_Lamp_1__ColorStateService"
             }
           ]
         }
@@ -113,7 +119,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_dining__ColorableLight__Table_0__ColorStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_dining__ColorableLight__Ceiling_Lamp_1__ColorStateService"
             }
           ]
         }
@@ -133,7 +139,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_dining__ColorableLight__Table_0__PowerStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_dining__ColorableLight__Ceiling_Lamp_1__PowerStateService"
             }
           ]
         }
@@ -153,7 +159,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_dining__ColorableLight__Table_0__PowerStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_dining__ColorableLight__Ceiling_Lamp_1__PowerStateService"
             }
           ]
         }

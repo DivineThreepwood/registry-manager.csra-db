@@ -5,7 +5,13 @@
       {
         "key": "en",
         "value": [
-          "506"
+          "Hanging Cupboard Left"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Hängeschrank Links"
         ]
       }
     ]
@@ -15,7 +21,7 @@
   ],
   "unit_type": "DEVICE",
   "placement_config": {
-    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+    "location_id": "8b787be0-45c2-4c7f-b3a3-7a6b73040df0",
     "transformation_frame_id": "Device-73",
     "position": {
       "translation": {
@@ -38,10 +44,12 @@
       "csra",
       "home",
       "kitchen",
+      "assistance",
       "device",
-      "506"
+      "hangingcupboardleft"
     ]
   },
+  "description": {},
   "bound_to_unit_host": true,
   "meta_config": {},
   "enabling_state": {
@@ -51,7 +59,7 @@
     "serial_number": "Handle506",
     "inventory_state": {
       "value": "INSTALLED",
-      "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+      "location_id": "8b787be0-45c2-4c7f-b3a3-7a6b73040df0",
       "timestamp": {
         "time": 1441020278852
       }
@@ -63,6 +71,8 @@
     ]
   },
   "permission_config": {
-    "owner_id": ""
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

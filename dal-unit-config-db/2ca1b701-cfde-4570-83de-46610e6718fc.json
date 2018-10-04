@@ -6,7 +6,13 @@
       {
         "key": "en",
         "value": [
-          "Ceiling Window Lamp"
+          "Ceiling Ball Lamp"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Kugellampe"
         ]
       }
     ]
@@ -42,9 +48,10 @@
       "living",
       "lounge",
       "colorablelight",
-      "ceilingwindowlamp"
+      "ceilingballlamp"
     ]
   },
+  "description": {},
   "bound_to_unit_host": true,
   "service_config": [
     {
@@ -54,7 +61,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_lounge__ColorableLight__Ceiling_Window_Lamp__BrightnessStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_lounge__ColorableLight__Ceiling_Ball_Lamp__BrightnessStateService"
             }
           ]
         }
@@ -75,7 +82,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_lounge__ColorableLight__Ceiling_Window_Lamp__BrightnessStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_lounge__ColorableLight__Ceiling_Ball_Lamp__BrightnessStateService"
             }
           ]
         }
@@ -96,7 +103,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_lounge__ColorableLight__Ceiling_Window_Lamp__ColorStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_lounge__ColorableLight__Ceiling_Ball_Lamp__ColorStateService"
             }
           ]
         }
@@ -117,7 +124,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_lounge__ColorableLight__Ceiling_Window_Lamp__ColorStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_lounge__ColorableLight__Ceiling_Ball_Lamp__ColorStateService"
             }
           ]
         }
@@ -138,7 +145,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_lounge__ColorableLight__Ceiling_Window_Lamp__PowerStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_lounge__ColorableLight__Ceiling_Ball_Lamp__PowerStateService"
             }
           ]
         }
@@ -159,7 +166,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_lounge__ColorableLight__Ceiling_Window_Lamp__PowerStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_lounge__ColorableLight__Ceiling_Ball_Lamp__PowerStateService"
             }
           ]
         }

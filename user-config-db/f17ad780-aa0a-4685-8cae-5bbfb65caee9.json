@@ -97,7 +97,8 @@
   },
   "user_config": {
     "user_name": "StandbyKitchen@Kitchen",
-    "system_user": true
+    "system_user": true,
+    "language": "en"
   },
   "permission_config": {
     "owner_id": "f17ad780-aa0a-4685-8cae-5bbfb65caee9",

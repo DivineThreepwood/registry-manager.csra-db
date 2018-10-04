@@ -35,6 +35,10 @@
       {
         "key": "OPENHAB_BINDING_DEVICE_ID",
         "value": "LEQ0174339"
+      },
+      {
+        "key": "OPENHAB_THING_UID",
+        "value": "homematic:HM-Sec-SC-2:1cab663c:LEQ0174339"
       }
     ]
   },

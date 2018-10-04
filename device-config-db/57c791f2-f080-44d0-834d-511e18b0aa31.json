@@ -3,9 +3,15 @@
   "label": {
     "entry": [
       {
+        "key": "de",
+        "value": [
+          "Fensterlampe Links Unten"
+        ]
+      },
+      {
         "key": "en",
         "value": [
-          "SLamp Left 1"
+          "Windowlamp Left Bottom"
         ]
       }
     ]
@@ -15,7 +21,7 @@
   ],
   "unit_type": "DEVICE",
   "placement_config": {
-    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "location_id": "0aad7cdf-6192-4f01-96cf-17bdf2bd6410",
     "transformation_frame_id": "Device-106",
     "position": {
       "translation": {
@@ -38,10 +44,12 @@
       "csra",
       "home",
       "living",
+      "window",
       "device",
-      "slampleft1"
+      "windowlampleftbottom"
     ]
   },
+  "description": {},
   "bound_to_unit_host": true,
   "meta_config": {
     "entry": [
@@ -62,7 +70,7 @@
     "serial_number": "27E533",
     "inventory_state": {
       "value": "INSTALLED",
-      "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+      "location_id": "0aad7cdf-6192-4f01-96cf-17bdf2bd6410",
       "timestamp": {
         "time": 1490809826943000
       }
@@ -73,6 +81,8 @@
     ]
   },
   "permission_config": {
-    "owner_id": ""
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

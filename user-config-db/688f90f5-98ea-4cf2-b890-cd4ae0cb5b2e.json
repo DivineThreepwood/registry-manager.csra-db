@@ -97,7 +97,8 @@
   },
   "user_config": {
     "user_name": "CeilingWindowLampPowerSynchroniser@Living",
-    "system_user": true
+    "system_user": true,
+    "language": "en"
   },
   "permission_config": {
     "owner_id": "688f90f5-98ea-4cf2-b890-cd4ae0cb5b2e",

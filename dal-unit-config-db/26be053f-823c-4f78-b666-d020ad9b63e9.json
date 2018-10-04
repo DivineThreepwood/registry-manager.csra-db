@@ -6,7 +6,13 @@
       {
         "key": "en",
         "value": [
-          "Table"
+          "Motion Sensor Table"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Bewegungsmelder Tisch"
         ]
       }
     ]
@@ -28,7 +34,7 @@
       "living",
       "dining",
       "lightsensor",
-      "table"
+      "motionsensortable"
     ]
   },
   "bound_to_unit_host": true,
@@ -40,7 +46,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Motion_Sensor__citec_csra_home_living_dining__LightSensor__Table__IlluminanceStateService"
+              "value": "Motion_Sensor__citec_csra_home_living_dining__LightSensor__Motion_Sensor_Table__IlluminanceStateService"
             }
           ]
         }

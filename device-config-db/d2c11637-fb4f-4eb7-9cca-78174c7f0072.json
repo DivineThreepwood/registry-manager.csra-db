@@ -5,7 +5,14 @@
       {
         "key": "en",
         "value": [
-          "LLamp Entrance 3"
+          "Standard Lamp Middle",
+          "Standard Lamp Center"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Stehlampe Mitte"
         ]
       }
     ]
@@ -15,7 +22,7 @@
   ],
   "unit_type": "DEVICE",
   "placement_config": {
-    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+    "location_id": "cff20d86-c7e8-4d12-87e1-ebc67c7e0c93",
     "transformation_frame_id": "Device-42",
     "shape": {}
   },
@@ -23,11 +30,14 @@
     "component": [
       "citec",
       "csra",
-      "control",
+      "home",
+      "hallway",
+      "entrance",
       "device",
-      "llampentrance3"
+      "standardlampmiddle"
     ]
   },
+  "description": {},
   "bound_to_unit_host": true,
   "meta_config": {
     "entry": [
@@ -52,9 +62,9 @@
     "serial_number": "4D5FEB",
     "inventory_state": {
       "value": "INSTALLED",
-      "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+      "location_id": "cff20d86-c7e8-4d12-87e1-ebc67c7e0c93",
       "timestamp": {
-        "time": 1441014702903
+        "time": 1538405718241000
       }
     },
     "device_class_id": "6f661f5b-3906-452a-adb6-a4e5fb94eee4",
@@ -63,6 +73,8 @@
     ]
   },
   "permission_config": {
-    "owner_id": ""
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

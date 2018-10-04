@@ -97,7 +97,8 @@
   },
   "user_config": {
     "user_name": "WardrobePresenceLight@Hallway",
-    "system_user": true
+    "system_user": true,
+    "language": "en"
   },
   "permission_config": {
     "owner_id": "cb501c5b-26cc-4fb4-b347-56a692a5f59a",

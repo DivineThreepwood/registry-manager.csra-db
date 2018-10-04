@@ -5,7 +5,13 @@
       {
         "key": "en",
         "value": [
-          "Window"
+          "Motion Sensor Window"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Bewegungsmelder Fenster"
         ]
       }
     ]
@@ -27,9 +33,10 @@
       "living",
       "window",
       "device",
-      "window"
+      "motionsensorwindow"
     ]
   },
+  "description": {},
   "bound_to_unit_host": true,
   "meta_config": {
     "entry": [
@@ -47,6 +54,7 @@
     "value": "ENABLED"
   },
   "device_config": {
+    "serial_number": "",
     "inventory_state": {
       "value": "INSTALLED",
       "location_id": "0aad7cdf-6192-4f01-96cf-17bdf2bd6410",
@@ -62,5 +70,10 @@
       "91bc23cc-9fdc-4873-b9f3-ce67bcaec525",
       "52a535d5-6870-4f5e-ba25-129498386423"
     ]
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

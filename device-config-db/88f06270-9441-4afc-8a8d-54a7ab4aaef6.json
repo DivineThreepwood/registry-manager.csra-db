@@ -5,7 +5,13 @@
       {
         "key": "en",
         "value": [
-          "Entrance"
+          "Motion Sensor Entrance Hallway"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Bewegungsmelder Eingang Flur"
         ]
       }
     ]
@@ -27,9 +33,10 @@
       "hallway",
       "entrance",
       "device",
-      "entrance"
+      "motionsensorentrancehallway"
     ]
   },
+  "description": {},
   "bound_to_unit_host": true,
   "meta_config": {
     "entry": [
@@ -69,6 +76,8 @@
     ]
   },
   "permission_config": {
-    "owner_id": ""
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

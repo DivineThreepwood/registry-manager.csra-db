@@ -6,7 +6,13 @@
       {
         "key": "en",
         "value": [
-          "SLamp 1"
+          "Mirror Lamp Bottom"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Spiegellampe Unten"
         ]
       }
     ]
@@ -41,7 +47,7 @@
       "home",
       "bath",
       "colorablelight",
-      "slamp1"
+      "mirrorlampbottom"
     ]
   },
   "bound_to_unit_host": true,
@@ -53,7 +59,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_bath__ColorableLight__SLamp_1__BrightnessStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_bath__ColorableLight__Mirror_Lamp_Bottom__BrightnessStateService"
             }
           ]
         }
@@ -73,7 +79,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_bath__ColorableLight__SLamp_1__BrightnessStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_bath__ColorableLight__Mirror_Lamp_Bottom__BrightnessStateService"
             }
           ]
         }
@@ -93,7 +99,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_bath__ColorableLight__SLamp_1__ColorStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_bath__ColorableLight__Mirror_Lamp_Bottom__ColorStateService"
             }
           ]
         }
@@ -113,7 +119,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_bath__ColorableLight__SLamp_1__ColorStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_bath__ColorableLight__Mirror_Lamp_Bottom__ColorStateService"
             }
           ]
         }
@@ -133,7 +139,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_bath__ColorableLight__SLamp_1__PowerStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_bath__ColorableLight__Mirror_Lamp_Bottom__PowerStateService"
             }
           ]
         }
@@ -153,7 +159,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_bath__ColorableLight__SLamp_1__PowerStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_bath__ColorableLight__Mirror_Lamp_Bottom__PowerStateService"
             }
           ]
         }

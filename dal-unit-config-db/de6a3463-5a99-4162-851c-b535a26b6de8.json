@@ -6,7 +6,14 @@
       {
         "key": "en",
         "value": [
-          "LLamp Entrance 3"
+          "Standard Lamp Middle",
+          "Standard Lamp Center"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Stehlampe Mitte"
         ]
       }
     ]
@@ -17,7 +24,7 @@
   "unit_host_id": "d2c11637-fb4f-4eb7-9cca-78174c7f0072",
   "unit_type": "COLORABLE_LIGHT",
   "placement_config": {
-    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+    "location_id": "cff20d86-c7e8-4d12-87e1-ebc67c7e0c93",
     "transformation_frame_id": "ColorableLight-8",
     "shape": {}
   },
@@ -25,9 +32,11 @@
     "component": [
       "citec",
       "csra",
-      "control",
+      "home",
+      "hallway",
+      "entrance",
       "colorablelight",
-      "llampentrance3"
+      "standardlampmiddle"
     ]
   },
   "bound_to_unit_host": true,
@@ -39,7 +48,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_control__ColorableLight__LLamp_Entrance_3__BrightnessStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_hallway_entrance__ColorableLight__Standard_Lamp_Middle__BrightnessStateService"
             }
           ]
         }
@@ -60,7 +69,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_control__ColorableLight__LLamp_Entrance_3__BrightnessStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_hallway_entrance__ColorableLight__Standard_Lamp_Middle__BrightnessStateService"
             }
           ]
         }
@@ -81,7 +90,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_control__ColorableLight__LLamp_Entrance_3__ColorStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_hallway_entrance__ColorableLight__Standard_Lamp_Middle__ColorStateService"
             }
           ]
         }
@@ -102,7 +111,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_control__ColorableLight__LLamp_Entrance_3__ColorStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_hallway_entrance__ColorableLight__Standard_Lamp_Middle__ColorStateService"
             }
           ]
         }
@@ -123,7 +132,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_control__ColorableLight__LLamp_Entrance_3__PowerStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_hallway_entrance__ColorableLight__Standard_Lamp_Middle__PowerStateService"
             }
           ]
         }
@@ -144,7 +153,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_control__ColorableLight__LLamp_Entrance_3__PowerStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_hallway_entrance__ColorableLight__Standard_Lamp_Middle__PowerStateService"
             }
           ]
         }

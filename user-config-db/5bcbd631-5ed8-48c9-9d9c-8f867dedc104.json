@@ -97,7 +97,8 @@
   },
   "user_config": {
     "user_name": "LivingAbsenceEnergySaving@Living",
-    "system_user": true
+    "system_user": true,
+    "language": "en"
   },
   "permission_config": {
     "owner_id": "5bcbd631-5ed8-48c9-9d9c-8f867dedc104",

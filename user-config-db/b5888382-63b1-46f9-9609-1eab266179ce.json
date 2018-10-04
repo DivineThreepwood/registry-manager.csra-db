@@ -97,7 +97,8 @@
   },
   "user_config": {
     "user_name": "StandbyControlRoom@Control",
-    "system_user": true
+    "system_user": true,
+    "language": "en"
   },
   "permission_config": {
     "owner_id": "b5888382-63b1-46f9-9609-1eab266179ce",

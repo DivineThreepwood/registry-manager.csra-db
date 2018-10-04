@@ -5,7 +5,13 @@
       {
         "key": "en",
         "value": [
-          "Test Unit 0"
+          "Recordstate Lamp"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Aufnahmestatus Lampe"
         ]
       }
     ]
@@ -15,7 +21,7 @@
   ],
   "unit_type": "DEVICE",
   "placement_config": {
-    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+    "location_id": "5964181e-adad-4306-a1bb-c89eb86b4d82",
     "transformation_frame_id": "Device-48",
     "shape": {}
   },
@@ -24,10 +30,12 @@
       "citec",
       "csra",
       "control",
+      "center",
       "device",
-      "testunit0"
+      "recordstatelamp"
     ]
   },
+  "description": {},
   "bound_to_unit_host": true,
   "meta_config": {
     "entry": [
@@ -52,7 +60,7 @@
     "serial_number": "3DC76B",
     "inventory_state": {
       "value": "INSTALLED",
-      "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+      "location_id": "5964181e-adad-4306-a1bb-c89eb86b4d82",
       "timestamp": {
         "time": 1441014652631
       }
@@ -63,6 +71,8 @@
     ]
   },
   "permission_config": {
-    "owner_id": ""
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

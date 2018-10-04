@@ -97,7 +97,8 @@
   },
   "user_config": {
     "user_name": "BathAmbientColorBeachBottom@Bath",
-    "system_user": true
+    "system_user": true,
+    "language": "en"
   },
   "permission_config": {
     "owner_id": "e8d82f39-443a-4a96-b904-88b169e5ddac",

@@ -6,7 +6,13 @@
       {
         "key": "en",
         "value": [
-          "Entrance"
+          "Motion Sensor Entrance Control"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Bewegungsmelder Eingang Kontrollraum"
         ]
       }
     ]
@@ -17,17 +23,18 @@
   "unit_host_id": "d75030ec-82bd-42d7-9960-3ff2bbd21965",
   "unit_type": "BATTERY",
   "placement_config": {
-    "location_id": "0254b92b-1996-4e4d-818c-a7a8fc2f6981",
+    "location_id": "cff20d86-c7e8-4d12-87e1-ebc67c7e0c93",
     "transformation_frame_id": "Battery-33"
   },
   "scope": {
     "component": [
       "citec",
       "csra",
-      "control",
+      "home",
+      "hallway",
       "entrance",
       "battery",
-      "entrance"
+      "motionsensorentrancecontrol"
     ]
   },
   "bound_to_unit_host": true,
@@ -39,7 +46,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Motion_Sensor__citec_csra_control_entrance__Battery__Entrance__BatteryStateService"
+              "value": "Motion_Sensor__citec_csra_home_hallway_entrance__Battery__Motion_Sensor_Entrance_Control__BatteryStateService"
             }
           ]
         }

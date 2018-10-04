@@ -6,7 +6,14 @@
       {
         "key": "en",
         "value": [
-          "LLamp Entrance 6"
+          "Standard Lamp Top",
+          "Recording Lamp"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Stehlampe Oben"
         ]
       }
     ]
@@ -17,7 +24,7 @@
   "unit_host_id": "d2d7b31e-b69c-4c10-967e-a3ec2b8dd2e2",
   "unit_type": "COLORABLE_LIGHT",
   "placement_config": {
-    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+    "location_id": "0254b92b-1996-4e4d-818c-a7a8fc2f6981",
     "transformation_frame_id": "ColorableLight-6",
     "shape": {}
   },
@@ -26,8 +33,9 @@
       "citec",
       "csra",
       "control",
+      "entrance",
       "colorablelight",
-      "llampentrance6"
+      "standardlamptop"
     ]
   },
   "bound_to_unit_host": true,
@@ -39,7 +47,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_control__ColorableLight__LLamp_Entrance_6__BrightnessStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_control_entrance__ColorableLight__Standard_Lamp_Top__BrightnessStateService"
             }
           ]
         }
@@ -60,7 +68,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_control__ColorableLight__LLamp_Entrance_6__BrightnessStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_control_entrance__ColorableLight__Standard_Lamp_Top__BrightnessStateService"
             }
           ]
         }
@@ -81,7 +89,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_control__ColorableLight__LLamp_Entrance_6__ColorStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_control_entrance__ColorableLight__Standard_Lamp_Top__ColorStateService"
             }
           ]
         }
@@ -102,7 +110,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_control__ColorableLight__LLamp_Entrance_6__ColorStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_control_entrance__ColorableLight__Standard_Lamp_Top__ColorStateService"
             }
           ]
         }
@@ -123,7 +131,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_control__ColorableLight__LLamp_Entrance_6__PowerStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_control_entrance__ColorableLight__Standard_Lamp_Top__PowerStateService"
             }
           ]
         }
@@ -144,7 +152,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_control__ColorableLight__LLamp_Entrance_6__PowerStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_control_entrance__ColorableLight__Standard_Lamp_Top__PowerStateService"
             }
           ]
         }

@@ -5,7 +5,13 @@
       {
         "key": "en",
         "value": [
-          "SLamp 1"
+          "Mirror Lamp Bottom"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Spiegellampe Unten"
         ]
       }
     ]
@@ -39,9 +45,10 @@
       "home",
       "bath",
       "device",
-      "slamp1"
+      "mirrorlampbottom"
     ]
   },
+  "description": {},
   "bound_to_unit_host": true,
   "meta_config": {
     "entry": [
@@ -73,6 +80,8 @@
     ]
   },
   "permission_config": {
-    "owner_id": ""
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

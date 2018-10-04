@@ -5,7 +5,14 @@
       {
         "key": "en",
         "value": [
-          "LLamp 6"
+          "Standard Lamp Top",
+          "Recording Lamp"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Stehlampe Oben"
         ]
       }
     ]
@@ -39,7 +46,19 @@
       "home",
       "living",
       "device",
-      "llamp6"
+      "standardlamptop"
+    ]
+  },
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "This lamp shows the status of recording, red: recording started, purple: recording stopped"
+      },
+      {
+        "key": "de",
+        "value": "Diese Lampe zeigt den Aufnahmestatus an, rot: Aufnahme gestartet, lila: Aufnahme gestoppt"
+      }
     ]
   },
   "bound_to_unit_host": true,
@@ -73,6 +92,8 @@
     ]
   },
   "permission_config": {
-    "owner_id": ""
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

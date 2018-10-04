@@ -37,6 +37,11 @@
   "enabling_state": {
     "value": "ENABLED"
   },
+  "authorization_group_config": {
+    "member_id": [
+      "5b96fbaa-07ca-4553-afbc-da38fe9b22dd"
+    ]
+  },
   "permission_config": {
     "other_permission": {
       "read": false,

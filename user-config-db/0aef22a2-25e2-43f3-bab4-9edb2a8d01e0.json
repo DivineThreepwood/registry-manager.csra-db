@@ -97,7 +97,8 @@
   },
   "user_config": {
     "user_name": "KitchenPresenceLight@Kitchen",
-    "system_user": true
+    "system_user": true,
+    "language": "en"
   },
   "permission_config": {
     "owner_id": "0aef22a2-25e2-43f3-bab4-9edb2a8d01e0",

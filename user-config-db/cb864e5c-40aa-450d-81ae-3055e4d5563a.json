@@ -97,7 +97,8 @@
   },
   "user_config": {
     "user_name": "NightLight@Home",
-    "system_user": true
+    "system_user": true,
+    "language": "en"
   },
   "permission_config": {
     "owner_id": "cb864e5c-40aa-450d-81ae-3055e4d5563a",

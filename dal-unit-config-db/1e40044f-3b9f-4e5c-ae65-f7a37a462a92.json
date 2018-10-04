@@ -6,7 +6,13 @@
       {
         "key": "en",
         "value": [
-          "SLamp Right 1"
+          "Windowlamp Right Bottom"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Fensterlampe Rechts Unten"
         ]
       }
     ]
@@ -17,7 +23,7 @@
   "unit_host_id": "9a22c198-89fb-41b7-81d2-79c76737ac6f",
   "unit_type": "COLORABLE_LIGHT",
   "placement_config": {
-    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "location_id": "0aad7cdf-6192-4f01-96cf-17bdf2bd6410",
     "transformation_frame_id": "ColorableLight-40",
     "position": {
       "translation": {
@@ -39,8 +45,9 @@
       "csra",
       "home",
       "living",
+      "window",
       "colorablelight",
-      "slampright1"
+      "windowlamprightbottom"
     ]
   },
   "bound_to_unit_host": true,
@@ -52,7 +59,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living__ColorableLight__SLamp_Right_1__BrightnessStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_window__ColorableLight__Windowlamp_Right_Bottom__BrightnessStateService"
             }
           ]
         }
@@ -72,7 +79,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living__ColorableLight__SLamp_Right_1__BrightnessStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_window__ColorableLight__Windowlamp_Right_Bottom__BrightnessStateService"
             }
           ]
         }
@@ -92,7 +99,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living__ColorableLight__SLamp_Right_1__ColorStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_window__ColorableLight__Windowlamp_Right_Bottom__ColorStateService"
             }
           ]
         }
@@ -112,7 +119,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living__ColorableLight__SLamp_Right_1__ColorStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_window__ColorableLight__Windowlamp_Right_Bottom__ColorStateService"
             }
           ]
         }
@@ -132,7 +139,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living__ColorableLight__SLamp_Right_1__PowerStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_window__ColorableLight__Windowlamp_Right_Bottom__PowerStateService"
             }
           ]
         }
@@ -152,7 +159,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living__ColorableLight__SLamp_Right_1__PowerStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_living_window__ColorableLight__Windowlamp_Right_Bottom__PowerStateService"
             }
           ]
         }

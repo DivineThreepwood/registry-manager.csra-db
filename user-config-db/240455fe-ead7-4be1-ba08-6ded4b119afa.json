@@ -97,7 +97,8 @@
   },
   "user_config": {
     "user_name": "LivingPresenceLight@Living",
-    "system_user": true
+    "system_user": true,
+    "language": "en"
   },
   "permission_config": {
     "owner_id": "240455fe-ead7-4be1-ba08-6ded4b119afa",

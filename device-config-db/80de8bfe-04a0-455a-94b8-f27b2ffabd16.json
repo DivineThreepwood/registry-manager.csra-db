@@ -5,7 +5,13 @@
       {
         "key": "en",
         "value": [
-          "Interaction"
+          "Motion Sensor Interaction"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Bewegungsmelder Interaktion"
         ]
       }
     ]
@@ -26,9 +32,10 @@
       "robotroom",
       "interaction",
       "device",
-      "interaction"
+      "motionsensorinteraction"
     ]
   },
+  "description": {},
   "bound_to_unit_host": true,
   "meta_config": {
     "entry": [
@@ -68,6 +75,8 @@
     ]
   },
   "permission_config": {
-    "owner_id": ""
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

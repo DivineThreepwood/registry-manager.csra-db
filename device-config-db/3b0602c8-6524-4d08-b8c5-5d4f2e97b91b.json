@@ -5,7 +5,13 @@
       {
         "key": "en",
         "value": [
-          "Couch"
+          "Motion Sensor Couch"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Bewegungsmelder Sofa"
         ]
       }
     ]
@@ -27,9 +33,10 @@
       "living",
       "lounge",
       "device",
-      "couch"
+      "motionsensorcouch"
     ]
   },
+  "description": {},
   "bound_to_unit_host": true,
   "meta_config": {
     "entry": [
@@ -69,6 +76,8 @@
     ]
   },
   "permission_config": {
-    "owner_id": ""
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

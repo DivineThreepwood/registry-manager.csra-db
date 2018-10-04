@@ -6,7 +6,13 @@
       {
         "key": "en",
         "value": [
-          "Hallway 0"
+          "Ceiling Ball Lamp"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Kugellampe"
         ]
       }
     ]
@@ -40,7 +46,7 @@
       "home",
       "hallway",
       "colorablelight",
-      "hallway0"
+      "ceilingballlamp"
     ]
   },
   "bound_to_unit_host": true,
@@ -52,7 +58,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_hallway__ColorableLight__Hallway_0__BrightnessStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_hallway__ColorableLight__Ceiling_Ball_Lamp__BrightnessStateService"
             }
           ]
         }
@@ -72,7 +78,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_hallway__ColorableLight__Hallway_0__BrightnessStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_hallway__ColorableLight__Ceiling_Ball_Lamp__BrightnessStateService"
             }
           ]
         }
@@ -92,7 +98,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_hallway__ColorableLight__Hallway_0__ColorStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_hallway__ColorableLight__Ceiling_Ball_Lamp__ColorStateService"
             }
           ]
         }
@@ -112,7 +118,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_hallway__ColorableLight__Hallway_0__ColorStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_hallway__ColorableLight__Ceiling_Ball_Lamp__ColorStateService"
             }
           ]
         }
@@ -132,7 +138,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_hallway__ColorableLight__Hallway_0__PowerStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_hallway__ColorableLight__Ceiling_Ball_Lamp__PowerStateService"
             }
           ]
         }
@@ -152,7 +158,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_home_hallway__ColorableLight__Hallway_0__PowerStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_home_hallway__ColorableLight__Ceiling_Ball_Lamp__PowerStateService"
             }
           ]
         }

@@ -6,7 +6,13 @@
       {
         "key": "en",
         "value": [
-          "Pathway"
+          "Motion Sensor Pathway"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Bewegungsmelder Pfad"
         ]
       }
     ]
@@ -26,7 +32,7 @@
       "csra",
       "robotroom",
       "temperaturesensor",
-      "pathway"
+      "motionsensorpathway"
     ]
   },
   "bound_to_unit_host": true,
@@ -38,7 +44,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Motion_Sensor__citec_csra_robotroom__TemperatureSensor__Pathway__TemperatureStateService"
+              "value": "Motion_Sensor__citec_csra_robotroom__TemperatureSensor__Motion_Sensor_Pathway__TemperatureStateService"
             }
           ]
         }
@@ -58,7 +64,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Motion_Sensor__citec_csra_robotroom__TemperatureSensor__Pathway__TemperatureAlarmStateService"
+              "value": "Motion_Sensor__citec_csra_robotroom__TemperatureSensor__Motion_Sensor_Pathway__TemperatureAlarmStateService"
             }
           ]
         }

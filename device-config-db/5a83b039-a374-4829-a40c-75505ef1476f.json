@@ -5,7 +5,13 @@
       {
         "key": "en",
         "value": [
-          "Sink"
+          "Motion Sensor Basin"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Bewegungsmelder Becken"
         ]
       }
     ]
@@ -27,9 +33,10 @@
       "bath",
       "basin",
       "device",
-      "sink"
+      "motionsensorbasin"
     ]
   },
+  "description": {},
   "bound_to_unit_host": true,
   "meta_config": {
     "entry": [
@@ -69,6 +76,8 @@
     ]
   },
   "permission_config": {
-    "owner_id": ""
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

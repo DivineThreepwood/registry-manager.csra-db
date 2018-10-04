@@ -6,7 +6,13 @@
       {
         "key": "en",
         "value": [
-          "Global"
+          "Motion Sensor Global"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Bewegungsmelder Global"
         ]
       }
     ]
@@ -28,7 +34,7 @@
       "home",
       "kitchen",
       "lightsensor",
-      "global"
+      "motionsensorglobal"
     ]
   },
   "bound_to_unit_host": true,
@@ -40,7 +46,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Motion_Sensor__citec_csra_home_kitchen__LightSensor__Global__IlluminanceStateService"
+              "value": "Motion_Sensor__citec_csra_home_kitchen__LightSensor__Motion_Sensor_Global__IlluminanceStateService"
             }
           ]
         }

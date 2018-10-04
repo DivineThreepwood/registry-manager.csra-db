@@ -9,7 +9,12 @@
           "Ceiling Lamp 1"
         ]
       },
-      {}
+      {
+        "key": "de",
+        "value": [
+          "Deckenlampe 1"
+        ]
+      }
     ]
   },
   "alias": [

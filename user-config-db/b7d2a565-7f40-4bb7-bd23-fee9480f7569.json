@@ -92,7 +92,8 @@
   "user_config": {
     "first_name": "Norman",
     "last_name": "Köster",
-    "user_name": "nkoester"
+    "user_name": "nkoester",
+    "language": "en"
   },
   "permission_config": {
     "owner_id": "b7d2a565-7f40-4bb7-bd23-fee9480f7569",

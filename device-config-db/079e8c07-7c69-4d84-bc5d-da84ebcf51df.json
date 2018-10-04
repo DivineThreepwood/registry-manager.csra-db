@@ -5,7 +5,13 @@
       {
         "key": "en",
         "value": [
-          "Terminal"
+          "Motion Sensor Terminal"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Bewegungsmelder Terminal"
         ]
       }
     ]
@@ -26,9 +32,10 @@
       "control",
       "terminal",
       "device",
-      "terminal"
+      "motionsensorterminal"
     ]
   },
+  "description": {},
   "bound_to_unit_host": true,
   "meta_config": {
     "entry": [
@@ -64,6 +71,8 @@
     ]
   },
   "permission_config": {
-    "owner_id": ""
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

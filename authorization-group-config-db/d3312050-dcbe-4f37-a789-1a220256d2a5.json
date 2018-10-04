@@ -1,0 +1,49 @@
+{
+  "id": "d3312050-dcbe-4f37-a789-1a220256d2a5",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "CSRAControl Group"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "AuthorizationGroup-18"
+  ],
+  "unit_type": "AUTHORIZATION_GROUP",
+  "placement_config": {
+    "location_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
+    "transformation_frame_id": "AuthorizationGroup-18",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "manager",
+      "authorization",
+      "group",
+      "csracontrolgroup"
+    ]
+  },
+  "description": {},
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "authorization_group_config": {
+    "member_id": [
+      "47308019-a8c9-40e9-abd0-a2c4deef163a"
+    ]
+  },
+  "permission_config": {
+    "owner_id": "47308019-a8c9-40e9-abd0-a2c4deef163a",
+    "owner_permission": {
+      "read": true,
+      "write": true,
+      "access": true
+    },
+    "other_permission": {}
+  }
+}

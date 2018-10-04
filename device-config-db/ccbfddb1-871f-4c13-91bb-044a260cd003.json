@@ -5,7 +5,13 @@
       {
         "key": "en",
         "value": [
-          "LLamp 6"
+          "Standard Lamp Top"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Stehlampe Oben"
         ]
       }
     ]
@@ -39,9 +45,10 @@
       "home",
       "bath",
       "device",
-      "llamp6"
+      "standardlamptop"
     ]
   },
+  "description": {},
   "bound_to_unit_host": true,
   "meta_config": {
     "entry": [
@@ -73,6 +80,8 @@
     ]
   },
   "permission_config": {
-    "owner_id": ""
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

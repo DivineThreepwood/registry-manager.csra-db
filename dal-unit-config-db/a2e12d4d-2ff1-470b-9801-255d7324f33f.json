@@ -6,7 +6,13 @@
       {
         "key": "en",
         "value": [
-          "Center"
+          "Motion Sensor Center"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Bewegungsmelder Zentral"
         ]
       }
     ]
@@ -27,7 +33,7 @@
       "control",
       "center",
       "lightsensor",
-      "center"
+      "motionsensorcenter"
     ]
   },
   "bound_to_unit_host": true,
@@ -39,7 +45,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Motion_Sensor__citec_csra_control_center__LightSensor__Center__IlluminanceStateService"
+              "value": "Motion_Sensor__citec_csra_control_center__LightSensor__Motion_Sensor_Center__IlluminanceStateService"
             }
           ]
         }

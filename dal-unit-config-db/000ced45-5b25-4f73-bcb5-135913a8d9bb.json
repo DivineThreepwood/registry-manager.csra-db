@@ -6,7 +6,13 @@
       {
         "key": "en",
         "value": [
-          "Global"
+          "Motion Sensor Global"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Bewegungsmelder Global"
         ]
       }
     ]
@@ -27,7 +33,7 @@
       "home",
       "bath",
       "motiondetector",
-      "global"
+      "motionsensorglobal"
     ]
   },
   "bound_to_unit_host": true,
@@ -39,7 +45,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Motion_Sensor__citec_csra_home_bath__MotionDetector__Global__MotionStateService"
+              "value": "Motion_Sensor__citec_csra_home_bath__MotionDetector__Motion_Sensor_Global__MotionStateService"
             }
           ]
         }

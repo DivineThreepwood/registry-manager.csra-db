@@ -92,7 +92,8 @@
   "user_config": {
     "first_name": "Viktor",
     "last_name": "Richter",
-    "user_name": "vrichter"
+    "user_name": "vrichter",
+    "language": "en"
   },
   "permission_config": {
     "owner_id": "bb0ad996-407a-44c2-9c89-2c9ac22fa67c",

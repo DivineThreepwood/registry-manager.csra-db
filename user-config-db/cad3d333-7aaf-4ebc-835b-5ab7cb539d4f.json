@@ -92,7 +92,8 @@
   "user_config": {
     "first_name": "Rene",
     "last_name": "Zorn",
-    "user_name": "rzorn"
+    "user_name": "rzorn",
+    "language": "en"
   },
   "permission_config": {
     "owner_id": "cad3d333-7aaf-4ebc-835b-5ab7cb539d4f",

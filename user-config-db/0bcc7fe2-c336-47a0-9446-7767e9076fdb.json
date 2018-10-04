@@ -92,7 +92,8 @@
   "user_config": {
     "first_name": "Tamino",
     "last_name": "Huxohl",
-    "user_name": "pLeminoq"
+    "user_name": "pLeminoq",
+    "language": "en"
   },
   "permission_config": {
     "owner_id": "0bcc7fe2-c336-47a0-9446-7767e9076fdb",

@@ -6,7 +6,13 @@
       {
         "key": "en",
         "value": [
-          "Test Unit 0"
+          "Recordstate Lamp"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Aufnahmestatus Lampe"
         ]
       }
     ]
@@ -18,7 +24,7 @@
   "unit_host_id": "e8f600ad-2443-4c19-85e0-fcb341e8f63d",
   "unit_type": "COLORABLE_LIGHT",
   "placement_config": {
-    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+    "location_id": "5964181e-adad-4306-a1bb-c89eb86b4d82",
     "transformation_frame_id": "ColorableLight-7",
     "shape": {}
   },
@@ -27,8 +33,9 @@
       "citec",
       "csra",
       "control",
+      "center",
       "colorablelight",
-      "testunit0"
+      "recordstatelamp"
     ]
   },
   "bound_to_unit_host": true,
@@ -40,7 +47,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_control__ColorableLight__Test_Unit_0__BrightnessStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_control_center__ColorableLight__Recordstate_Lamp__BrightnessStateService"
             }
           ]
         }
@@ -61,7 +68,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_control__ColorableLight__Test_Unit_0__BrightnessStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_control_center__ColorableLight__Recordstate_Lamp__BrightnessStateService"
             }
           ]
         }
@@ -82,7 +89,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_control__ColorableLight__Test_Unit_0__ColorStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_control_center__ColorableLight__Recordstate_Lamp__ColorStateService"
             }
           ]
         }
@@ -103,7 +110,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_control__ColorableLight__Test_Unit_0__ColorStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_control_center__ColorableLight__Recordstate_Lamp__ColorStateService"
             }
           ]
         }
@@ -124,7 +131,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_control__ColorableLight__Test_Unit_0__PowerStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_control_center__ColorableLight__Recordstate_Lamp__PowerStateService"
             }
           ]
         }
@@ -145,7 +152,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_control__ColorableLight__Test_Unit_0__PowerStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_control_center__ColorableLight__Recordstate_Lamp__PowerStateService"
             }
           ]
         }

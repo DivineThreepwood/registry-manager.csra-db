@@ -5,7 +5,13 @@
       {
         "key": "en",
         "value": [
-          "Entrance"
+          "Motion Sensor Entrance Control"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Bewegungsmelder Eingang Kontrollraum"
         ]
       }
     ]
@@ -15,7 +21,7 @@
   ],
   "unit_type": "DEVICE",
   "placement_config": {
-    "location_id": "0254b92b-1996-4e4d-818c-a7a8fc2f6981",
+    "location_id": "cff20d86-c7e8-4d12-87e1-ebc67c7e0c93",
     "transformation_frame_id": "Device-26",
     "shape": {}
   },
@@ -23,12 +29,14 @@
     "component": [
       "citec",
       "csra",
-      "control",
+      "home",
+      "hallway",
       "entrance",
       "device",
-      "entrance"
+      "motionsensorentrancecontrol"
     ]
   },
+  "description": {},
   "bound_to_unit_host": true,
   "meta_config": {
     "entry": [
@@ -53,9 +61,9 @@
     "serial_number": "FMS001",
     "inventory_state": {
       "value": "INSTALLED",
-      "location_id": "0254b92b-1996-4e4d-818c-a7a8fc2f6981",
+      "location_id": "cff20d86-c7e8-4d12-87e1-ebc67c7e0c93",
       "timestamp": {
-        "time": 1440769843840
+        "time": 1538405717950000
       }
     },
     "device_class_id": "79e16e8f-7c8d-48ec-b59b-84ba75ed593b",
@@ -68,6 +76,8 @@
     ]
   },
   "permission_config": {
-    "owner_id": ""
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

@@ -6,7 +6,13 @@
       {
         "key": "en",
         "value": [
-          "SLamp Window 2"
+          "Table Lamp Right Top"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Tischlampe Rechts Oben"
         ]
       }
     ]
@@ -39,7 +45,7 @@
       "csra",
       "robotroom",
       "colorablelight",
-      "slampwindow2"
+      "tablelamprighttop"
     ]
   },
   "bound_to_unit_host": true,
@@ -51,7 +57,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_robotroom__ColorableLight__SLamp_Window_2__BrightnessStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_robotroom__ColorableLight__Table_Lamp_Right_Top__BrightnessStateService"
             }
           ]
         }
@@ -71,7 +77,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_robotroom__ColorableLight__SLamp_Window_2__BrightnessStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_robotroom__ColorableLight__Table_Lamp_Right_Top__BrightnessStateService"
             }
           ]
         }
@@ -91,7 +97,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_robotroom__ColorableLight__SLamp_Window_2__ColorStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_robotroom__ColorableLight__Table_Lamp_Right_Top__ColorStateService"
             }
           ]
         }
@@ -111,7 +117,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_robotroom__ColorableLight__SLamp_Window_2__ColorStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_robotroom__ColorableLight__Table_Lamp_Right_Top__ColorStateService"
             }
           ]
         }
@@ -131,7 +137,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_robotroom__ColorableLight__SLamp_Window_2__PowerStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_robotroom__ColorableLight__Table_Lamp_Right_Top__PowerStateService"
             }
           ]
         }
@@ -151,7 +157,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__citec_csra_robotroom__ColorableLight__SLamp_Window_2__PowerStateService"
+              "value": "Philips_Hue_E27_Gen1__citec_csra_robotroom__ColorableLight__Table_Lamp_Right_Top__PowerStateService"
             }
           ]
         }

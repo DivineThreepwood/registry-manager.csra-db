@@ -35,6 +35,10 @@
       {
         "key": "OPENHAB_BINDING_DEVICE_ID",
         "value": "KEQ1096155"
+      },
+      {
+        "key": "OPENHAB_THING_UID",
+        "value": "homematic:HM-Sec-RHS:1cab663c:KEQ1096155"
       }
     ]
   },

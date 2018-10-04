@@ -6,7 +6,13 @@
       {
         "key": "en",
         "value": [
-          "Entrance"
+          "Motion Sensor Entrance Hallway"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Bewegungsmelder Eingang Flur"
         ]
       }
     ]
@@ -28,7 +34,7 @@
       "hallway",
       "entrance",
       "battery",
-      "entrance"
+      "motionsensorentrancehallway"
     ]
   },
   "bound_to_unit_host": true,
@@ -40,7 +46,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Motion_Sensor__citec_csra_home_hallway_entrance__Battery__Entrance__BatteryStateService"
+              "value": "Motion_Sensor__citec_csra_home_hallway_entrance__Battery__Motion_Sensor_Entrance_Hallway__BatteryStateService"
             }
           ]
         }

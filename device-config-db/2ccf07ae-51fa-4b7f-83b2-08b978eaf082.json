@@ -5,7 +5,13 @@
       {
         "key": "en",
         "value": [
-          "Shower"
+          "Motion Sensor Shower"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Bewegungsmelder Dusche"
         ]
       }
     ]
@@ -27,9 +33,10 @@
       "bath",
       "shower",
       "device",
-      "shower"
+      "motionsensorshower"
     ]
   },
+  "description": {},
   "bound_to_unit_host": true,
   "meta_config": {
     "entry": [
@@ -69,6 +76,8 @@
     ]
   },
   "permission_config": {
-    "owner_id": ""
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

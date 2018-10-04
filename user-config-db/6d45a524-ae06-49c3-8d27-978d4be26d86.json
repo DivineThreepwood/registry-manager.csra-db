@@ -97,7 +97,8 @@
   },
   "user_config": {
     "user_name": "SoundScape@Bath",
-    "system_user": true
+    "system_user": true,
+    "language": "en"
   },
   "permission_config": {
     "owner_id": "6d45a524-ae06-49c3-8d27-978d4be26d86",

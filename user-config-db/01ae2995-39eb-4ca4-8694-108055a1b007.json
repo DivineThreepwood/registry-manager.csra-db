@@ -92,7 +92,8 @@
   "user_config": {
     "first_name": "Birte",
     "last_name": "Carlmeyer",
-    "user_name": "bcarlmey"
+    "user_name": "bcarlmey",
+    "language": "en"
   },
   "permission_config": {
     "owner_id": "01ae2995-39eb-4ca4-8694-108055a1b007",
