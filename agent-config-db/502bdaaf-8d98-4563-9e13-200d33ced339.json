@@ -30,6 +30,7 @@
       "livingpresencelight"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {
@@ -59,7 +60,7 @@
   ],
   "meta_config": {},
   "enabling_state": {
-    "value": "ENABLED"
+    "value": "DISABLED"
   },
   "agent_config": {
     "agent_class_id": "c2cb8f89-0426-467f-83e6-cd231a31ae93",

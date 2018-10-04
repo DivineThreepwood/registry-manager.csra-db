@@ -112,7 +112,7 @@
     ]
   },
   "enabling_state": {
-    "value": "ENABLED"
+    "value": "DISABLED"
   },
   "unit_group_config": {
     "member_id": [
@@ -158,5 +158,10 @@
         "meta_config": {}
       }
     ]
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }
