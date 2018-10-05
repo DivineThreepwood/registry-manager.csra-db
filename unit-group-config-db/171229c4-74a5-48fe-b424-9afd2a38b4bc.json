@@ -104,6 +104,25 @@
         "meta_config": {}
       },
       "meta_config": {}
+    },
+    {
+      "binding_config": {},
+      "unit_id": "171229c4-74a5-48fe-b424-9afd2a38b4bc",
+      "service_description": {
+        "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
+        "service_type": "BRIGHTNESS_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "171229c4-74a5-48fe-b424-9afd2a38b4bc",
+      "service_description": {
+        "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
+        "service_type": "BRIGHTNESS_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
     }
   ],
   "meta_config": {},
