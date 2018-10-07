@@ -196,6 +196,7 @@
       "robotroom"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {
@@ -523,6 +524,21 @@
         "461a85e4-a688-4cc9-b7ae-3634caf1169c"
       ],
       "meta_config": {}
-    }
+    },
+    "global_position": {}
+  },
+  "permission_config": {
+    "owner_permission": {},
+    "other_permission": {},
+    "group_permission": [
+      {
+        "group_id": "d3312050-dcbe-4f37-a789-1a220256d2a5",
+        "permission": {
+          "read": true,
+          "write": true,
+          "access": true
+        }
+      }
+    ]
   }
 }

@@ -34,7 +34,8 @@
   },
   "authorization_group_config": {
     "member_id": [
-      "47308019-a8c9-40e9-abd0-a2c4deef163a"
+      "47308019-a8c9-40e9-abd0-a2c4deef163a",
+      "0bcc7fe2-c336-47a0-9446-7767e9076fdb"
     ]
   },
   "permission_config": {

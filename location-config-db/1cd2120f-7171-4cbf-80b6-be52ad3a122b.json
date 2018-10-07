@@ -21,7 +21,8 @@
       "translation": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0
+        "z": 0.0,
+        "frame_id": ""
       },
       "rotation": {
         "qw": 1.0,
@@ -974,7 +975,37 @@
     "tile_config": {
       "meta_config": {}
     },
-    "global_position": {}
+    "global_position": {
+      "latitude": 0.0,
+      "longitude": 0.0,
+      "elevation": 0.0,
+      "responsible_action": {
+        "id": "",
+        "label": {},
+        "description": {},
+        "action_initiator": {
+          "initiator_id": "",
+          "initiator_type": "SYSTEM",
+          "authorized_by": "",
+          "authenticated_by": ""
+        },
+        "action_state": {
+          "value": "UNKNOWN"
+        },
+        "service_state_description": {
+          "unit_id": "",
+          "service_type": "UNKNOWN",
+          "unit_type": "UNKNOWN",
+          "service_attribute_type": "",
+          "service_attribute": ""
+        },
+        "priority": "NORMAL",
+        "execution_time_period": 0,
+        "cancel": false,
+        "interruptible": true,
+        "schedulable": true
+      }
+    }
   },
   "permission_config": {
     "owner_id": "f87e0e62-f390-4d78-bed3-13244ecc13a2",
@@ -999,14 +1030,6 @@
       },
       {
         "group_id": "3597ef4f-40b8-45a2-9598-18310a115854",
-        "permission": {
-          "read": true,
-          "write": true,
-          "access": true
-        }
-      },
-      {
-        "group_id": "d3312050-dcbe-4f37-a789-1a220256d2a5",
         "permission": {
           "read": true,
           "write": true,

@@ -15,7 +15,7 @@
   ],
   "unit_type": "USER",
   "placement_config": {
-    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+    "location_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
     "transformation_frame_id": "User-2",
     "shape": {}
   },
@@ -26,6 +26,7 @@
       "pleminoq"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {},
@@ -93,7 +94,7 @@
     "first_name": "Tamino",
     "last_name": "Huxohl",
     "user_name": "pLeminoq",
-    "language": "en"
+    "language": "de"
   },
   "permission_config": {
     "owner_id": "0bcc7fe2-c336-47a0-9446-7767e9076fdb",

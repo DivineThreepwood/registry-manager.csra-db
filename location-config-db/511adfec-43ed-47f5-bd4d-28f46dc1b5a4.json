@@ -50,6 +50,7 @@
       "control"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {
@@ -470,6 +471,21 @@
         "80ab9ff7-9b18-4d3d-a960-0b5d28d908a6"
       ],
       "meta_config": {}
-    }
+    },
+    "global_position": {}
+  },
+  "permission_config": {
+    "owner_permission": {},
+    "other_permission": {},
+    "group_permission": [
+      {
+        "group_id": "d3312050-dcbe-4f37-a789-1a220256d2a5",
+        "permission": {
+          "read": true,
+          "write": true,
+          "access": true
+        }
+      }
+    ]
   }
 }
