@@ -1,0 +1,115 @@
+{
+  "id": "cba53d22-bfa1-4e14-84cc-9d2eaea43d5d",
+  "label": {
+    "entry": [
+      {
+        "key": "de",
+        "value": [
+          "Strom für Lampen"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Scene-31"
+  ],
+  "unit_type": "SCENE",
+  "placement_config": {
+    "location_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
+    "transformation_frame_id": "Scene-31",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "citec",
+      "scene",
+      "stromfuerlampen"
+    ]
+  },
+  "description": {
+    "entry": [
+      {
+        "key": "de",
+        "value": "Eine Szene die alle Stromqullen anmacht, die sonst von PowerStateSynchronizern angemacht werden."
+      }
+    ]
+  },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "cba53d22-bfa1-4e14-84cc-9d2eaea43d5d",
+      "service_description": {
+        "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
+        "service_type": "ACTIVATION_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "cba53d22-bfa1-4e14-84cc-9d2eaea43d5d",
+      "service_description": {
+        "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
+        "service_type": "ACTIVATION_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "scene_config": {
+    "required_service_state_description": [
+      {
+        "unit_id": "ad275d31-f2ed-4917-9c7f-29e7a83b3c67",
+        "service_type": "POWER_STATE_SERVICE",
+        "unit_type": "POWER_SWITCH",
+        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
+        "service_attribute": "{\"value\": \"ON\"}"
+      },
+      {
+        "unit_id": "dccc86dc-f764-4602-8ad4-945bf6851581",
+        "service_type": "POWER_STATE_SERVICE",
+        "unit_type": "DIMMER",
+        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
+        "service_attribute": "{\"value\": \"ON\"}"
+      },
+      {
+        "unit_id": "7e479546-e973-42cc-bc03-8a673bfceb70",
+        "service_type": "POWER_STATE_SERVICE",
+        "unit_type": "DIMMER",
+        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
+        "service_attribute": "{\"value\": \"ON\"}"
+      },
+      {
+        "unit_id": "a70e0552-0012-4ea8-b88b-b6c1774e85f0",
+        "service_type": "POWER_STATE_SERVICE",
+        "unit_type": "DIMMER",
+        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
+        "service_attribute": "{\"value\": \"ON\"}"
+      },
+      {
+        "unit_id": "b0daa651-4556-4970-b6be-c8c0b8d33caa",
+        "service_type": "POWER_STATE_SERVICE",
+        "unit_type": "DIMMER",
+        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
+        "service_attribute": "{\"value\": \"ON\"}"
+      },
+      {
+        "unit_id": "8d92ec6f-889a-47be-8e47-00f838855cd7",
+        "service_type": "POWER_STATE_SERVICE",
+        "unit_type": "POWER_SWITCH",
+        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
+        "service_attribute": "{\"value\": \"ON\"}"
+      },
+      {
+        "unit_id": "9b27299f-522f-4b62-854a-187d3909d5a9",
+        "service_type": "POWER_STATE_SERVICE",
+        "unit_type": "DIMMER",
+        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
+        "service_attribute": "{\"value\": \"ON\"}"
+      }
+    ]
+  }
+}

@@ -19,7 +19,7 @@
       "service_type": "COLOR_STATE_SERVICE",
       "unit_type": "COLORABLE_LIGHT",
       "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState",
-      "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 0.5999999940395355,\"brightness\": 1.0}}}"
+      "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 49.8039186000824,\"brightness\": 100.0}}}"
     },
     {
       "unit_id": "2ca1b701-cfde-4570-83de-46610e6718fc",
