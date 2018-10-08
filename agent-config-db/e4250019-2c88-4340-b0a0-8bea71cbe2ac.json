@@ -17,7 +17,19 @@
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
     "transformation_frame_id": "Agent-9",
-    "shape": {}
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "frame_id": ""
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
+      }
+    }
   },
   "scope": {
     "component": [
@@ -30,6 +42,7 @@
       "ceilingwindowlamppowersynchroniser"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {
@@ -78,10 +91,15 @@
     ]
   },
   "enabling_state": {
-    "value": "ENABLED"
+    "value": "DISABLED"
   },
   "agent_config": {
     "agent_class_id": "96aed98a-e9d4-402e-a4c4-b0655d448a21",
     "autostart": true
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }
