@@ -12,5 +12,28 @@
   },
   "activity_template_id": "83cfb4e3-cce7-4b4d-a421-7356e4478b8b",
   "meta_config": {},
-  "description": {}
+  "description": {},
+  "service_state_description": [
+    {
+      "unit_id": "66b5b93f-9f33-4d7d-8e61-5951a22f5483",
+      "service_type": "COLOR_STATE_SERVICE",
+      "unit_type": "COLORABLE_LIGHT",
+      "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState",
+      "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 0.5999999940395355,\"brightness\": 1.0}}}"
+    },
+    {
+      "unit_id": "2ca1b701-cfde-4570-83de-46610e6718fc",
+      "service_type": "POWER_STATE_SERVICE",
+      "unit_type": "COLORABLE_LIGHT",
+      "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
+      "service_attribute": "{\"value\": \"OFF\"}"
+    },
+    {
+      "unit_id": "47e63f5a-ff30-4b0d-905a-815f94aa8b50",
+      "service_type": "POWER_STATE_SERVICE",
+      "unit_type": "COLORABLE_LIGHT",
+      "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
+      "service_attribute": "{\"value\": \"OFF\"}"
+    }
+  ]
 }
