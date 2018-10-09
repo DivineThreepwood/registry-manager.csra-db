@@ -43,16 +43,23 @@
       "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 60.0,\"saturation\": 49.8039186000824,\"brightness\": 100.0}}}"
     },
     {
-      "unit_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+      "unit_id": "51a38d12-35d5-49a4-9f73-35822c8aeb89",
       "service_type": "POWER_STATE_SERVICE",
-      "unit_type": "LOCATION",
+      "unit_type": "COLORABLE_LIGHT",
       "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
       "service_attribute": "{\"value\": \"OFF\"}"
     },
     {
-      "unit_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+      "unit_id": "f870b339-76c8-4d29-bada-abb04f75956d",
       "service_type": "POWER_STATE_SERVICE",
-      "unit_type": "LOCATION",
+      "unit_type": "COLORABLE_LIGHT",
+      "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
+      "service_attribute": "{\"value\": \"OFF\"}"
+    },
+    {
+      "unit_id": "66b5b93f-9f33-4d7d-8e61-5951a22f5483",
+      "service_type": "POWER_STATE_SERVICE",
+      "unit_type": "COLORABLE_LIGHT",
       "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
       "service_attribute": "{\"value\": \"OFF\"}"
     }

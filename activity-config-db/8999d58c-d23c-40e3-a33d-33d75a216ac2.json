@@ -36,16 +36,58 @@
       "service_attribute": "{\"value\": \"OFF\"}"
     },
     {
-      "unit_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+      "unit_id": "51a38d12-35d5-49a4-9f73-35822c8aeb89",
       "service_type": "POWER_STATE_SERVICE",
-      "unit_type": "LOCATION",
+      "unit_type": "COLORABLE_LIGHT",
       "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
       "service_attribute": "{\"value\": \"OFF\"}"
     },
     {
-      "unit_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+      "unit_id": "f870b339-76c8-4d29-bada-abb04f75956d",
       "service_type": "POWER_STATE_SERVICE",
-      "unit_type": "LOCATION",
+      "unit_type": "COLORABLE_LIGHT",
+      "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
+      "service_attribute": "{\"value\": \"OFF\"}"
+    },
+    {
+      "unit_id": "8d310f30-d60a-4627-8884-373c5e2dcbdd",
+      "service_type": "POWER_STATE_SERVICE",
+      "unit_type": "COLORABLE_LIGHT",
+      "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
+      "service_attribute": "{\"value\": \"OFF\"}"
+    },
+    {
+      "unit_id": "96891f9d-e7f2-449d-9871-a2d317214295",
+      "service_type": "POWER_STATE_SERVICE",
+      "unit_type": "COLORABLE_LIGHT",
+      "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
+      "service_attribute": "{\"value\": \"OFF\"}"
+    },
+    {
+      "unit_id": "48e43d6f-0015-40b3-895b-0ff33d4a74a4",
+      "service_type": "POWER_STATE_SERVICE",
+      "unit_type": "COLORABLE_LIGHT",
+      "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
+      "service_attribute": "{\"value\": \"OFF\"}"
+    },
+    {
+      "unit_id": "31b4fd8f-6355-49c2-90bc-039e92d602f0",
+      "service_type": "POWER_STATE_SERVICE",
+      "unit_type": "COLORABLE_LIGHT",
+      "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
+      "service_attribute": "{\"value\": \"OFF\"}"
+    },
+    {
+      "unit_id": "e0ed255a-21c1-4293-9283-f0ddc3aa242a",
+      "service_type": "POWER_STATE_SERVICE",
+      "unit_type": "COLORABLE_LIGHT",
+      "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
+      "service_attribute": "{\"value\": \"OFF\"}"
+    },
+    {
+      "unit_id": "cdfa87e9-1c07-40f7-9acc-9e349a81f619",
+      "service_type": "POWER_STATE_SERVICE",
+      "unit_type": "COLORABLE_LIGHT",
       "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
       "service_attribute": "{\"value\": \"OFF\"}"
     }
