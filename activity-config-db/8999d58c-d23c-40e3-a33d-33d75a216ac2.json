@@ -71,7 +71,7 @@
       "service_attribute": "{\"value\": \"OFF\"}"
     },
     {
-      "unit_id": "31b4fd8f-6355-49c2-90bc-039e92d602f0",
+      "unit_id": "9c3561a1-e6ce-476e-9bff-0d35807d2607",
       "service_type": "POWER_STATE_SERVICE",
       "unit_type": "COLORABLE_LIGHT",
       "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
