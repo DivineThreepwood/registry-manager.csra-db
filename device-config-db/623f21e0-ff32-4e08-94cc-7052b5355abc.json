@@ -11,7 +11,7 @@
       {
         "key": "de",
         "value": [
-          "Stehlampe"
+          "Leselampe"
         ]
       }
     ]
@@ -21,7 +21,7 @@
   ],
   "unit_type": "DEVICE",
   "placement_config": {
-    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
     "transformation_frame_id": "Device-108",
     "position": {
       "translation": {
@@ -44,7 +44,7 @@
       "citec",
       "csra",
       "home",
-      "living",
+      "hallway",
       "device",
       "readinglamp"
     ]
@@ -70,7 +70,7 @@
     "serial_number": "BCCDEE",
     "inventory_state": {
       "value": "INSTALLED",
-      "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+      "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
       "timestamp": {
         "time": 1441017180211
       }
