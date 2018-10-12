@@ -37,6 +37,7 @@
   "enabling_state": {
     "value": "ENABLED"
   },
+  "authorization_group_config": {},
   "permission_config": {
     "other_permission": {
       "read": false,
