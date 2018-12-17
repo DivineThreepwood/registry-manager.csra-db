@@ -37,7 +37,7 @@
     "entry": [
       {
         "key": "OPENHAB_BINDING_DEVICE_ID",
-        "value": "50"
+        "value": "51"
       }
     ]
   },
