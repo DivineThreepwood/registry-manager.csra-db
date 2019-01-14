@@ -12,7 +12,8 @@
     ]
   },
   "alias": [
-    "PowerSwitch-28"
+    "PowerSwitch-28",
+    "PowerSwitch-Win-Kinect-Tracking"
   ],
   "unit_host_id": "8b7ed2aa-5585-46dc-9ef8-897b4a3f781e",
   "unit_type": "POWER_SWITCH",
