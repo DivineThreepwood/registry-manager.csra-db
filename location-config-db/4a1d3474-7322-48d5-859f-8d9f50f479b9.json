@@ -25,7 +25,7 @@
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
     "transformation_frame_id": "Location-13",
-    "position": {
+    "pose": {
       "translation": {
         "x": 2.543,
         "y": 0.0,
@@ -414,6 +414,25 @@
         "meta_config": {}
       },
       "meta_config": {}
+    },
+    {
+      "binding_config": {},
+      "unit_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+      "service_description": {
+        "service_template_id": "11fab7b2-65d2-43b4-897e-fb698cc92c8e",
+        "service_type": "EMPHASIS_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+      "service_description": {
+        "service_template_id": "11fab7b2-65d2-43b4-897e-fb698cc92c8e",
+        "service_type": "EMPHASIS_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
     }
   ],
   "meta_config": {},
@@ -421,7 +440,7 @@
     "value": "ENABLED"
   },
   "location_config": {
-    "type": "TILE",
+    "location_type": "TILE",
     "root": false,
     "child_id": [
       "cff20d86-c7e8-4d12-87e1-ebc67c7e0c93"
@@ -492,7 +511,7 @@
       "0a514c2d-3b2c-4303-a4b6-d90f0284fc83"
     ],
     "tile_config": {
-      "type": "INDOOR",
+      "tile_type": "INDOOR",
       "connection_id": [
         "a2e5e403-7121-48b9-837a-b93a944ccd29",
         "77b12917-44fc-4c2d-851d-2115b0ba5a39",
@@ -511,6 +530,40 @@
   "permission_config": {
     "owner_id": "",
     "owner_permission": {},
-    "other_permission": {}
+    "other_permission": {},
+    "group_permission": [
+      {
+        "group_id": "7aaf768f-35f4-4bb8-976c-0911d06194fa",
+        "permission": {
+          "read": true,
+          "write": false,
+          "access": true
+        }
+      },
+      {
+        "group_id": "45969e8e-a187-4cf4-be04-4ed190ab8ca2",
+        "permission": {
+          "read": true,
+          "write": false,
+          "access": true
+        }
+      },
+      {
+        "group_id": "cb501c5b-26cc-4fb4-b347-56a692a5f59a",
+        "permission": {
+          "read": true,
+          "write": false,
+          "access": true
+        }
+      },
+      {
+        "group_id": "fa28f8ac-2232-4517-8c45-140c1e51b09d",
+        "permission": {
+          "read": true,
+          "write": false,
+          "access": true
+        }
+      }
+    ]
   }
 }

@@ -26,7 +26,7 @@
   "placement_config": {
     "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
     "transformation_frame_id": "ColorableLight-25",
-    "position": {
+    "pose": {
       "translation": {
         "x": 0.2100842415811357,
         "y": 2.312594127224645,

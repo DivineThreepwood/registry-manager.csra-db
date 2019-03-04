@@ -17,7 +17,7 @@
   "placement_config": {
     "location_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
     "transformation_frame_id": "Location-18",
-    "position": {
+    "pose": {
       "translation": {
         "x": 0.0,
         "y": 0.0,
@@ -318,6 +318,25 @@
         "pattern": "OPERATION",
         "meta_config": {}
       }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
+      "service_description": {
+        "service_template_id": "11fab7b2-65d2-43b4-897e-fb698cc92c8e",
+        "service_type": "EMPHASIS_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
+      "service_description": {
+        "service_template_id": "11fab7b2-65d2-43b4-897e-fb698cc92c8e",
+        "service_type": "EMPHASIS_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
     }
   ],
   "meta_config": {},
@@ -325,7 +344,7 @@
     "value": "ENABLED"
   },
   "location_config": {
-    "type": "ZONE",
+    "location_type": "ZONE",
     "root": true,
     "child_id": [
       "7a5cb343-cfaa-4ae8-8170-4637834ca0ab",
@@ -843,6 +862,7 @@
       "a0e5db25-4698-416d-87c1-6f9f4e14261a",
       "0fd58bf2-fec4-4675-8388-24d1fe42f9c1",
       "fa28f8ac-2232-4517-8c45-140c1e51b09d",
+      "df27f13a-fb4e-4e52-9cda-1b772cb30cb1",
       "fce6203a-1e30-41e0-ac5b-a864031fd1b1",
       "e955c2bf-a999-4edc-828b-faebf88237b9",
       "97288345-80a8-4805-b1d6-9d92196f1457",
@@ -937,7 +957,6 @@
       "aed87a02-7a77-49ff-b8f7-7e6db819c285",
       "c69dc31e-4a40-44f9-9abc-5cccc111a8b5",
       "e476bdfa-c206-40fb-aa28-a1d42dcc6fec",
-      "4483339e-95f6-4731-afe4-d441744f4ce0",
       "cda58193-a8a5-4795-a69d-66e9b400160c",
       "49b1851b-8691-4ada-a98d-4ad361ec2e4d",
       "4b75a113-3daa-4a01-b553-ec5009a63715",
@@ -1012,6 +1031,22 @@
         "permission": {
           "read": true,
           "write": true,
+          "access": true
+        }
+      },
+      {
+        "group_id": "df27f13a-fb4e-4e52-9cda-1b772cb30cb1",
+        "permission": {
+          "read": true,
+          "write": true,
+          "access": true
+        }
+      },
+      {
+        "group_id": "5b96fbaa-07ca-4553-afbc-da38fe9b22dd",
+        "permission": {
+          "read": true,
+          "write": false,
           "access": true
         }
       }

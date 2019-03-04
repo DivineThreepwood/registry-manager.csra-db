@@ -19,7 +19,7 @@
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
     "transformation_frame_id": "PowerConsumptionSensor-27",
-    "position": {
+    "pose": {
       "translation": {
         "x": 0.3284034110808649,
         "y": 2.085182363024797,

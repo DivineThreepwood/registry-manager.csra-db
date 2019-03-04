@@ -31,7 +31,7 @@
   "placement_config": {
     "location_id": "8b787be0-45c2-4c7f-b3a3-7a6b73040df0",
     "transformation_frame_id": "PowerSwitch-61",
-    "position": {
+    "pose": {
       "translation": {
         "x": 0.3183085702761178,
         "y": 2.039992140006348,

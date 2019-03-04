@@ -19,7 +19,7 @@
   "placement_config": {
     "location_id": "0df5bbb8-2d17-4f81-9b34-314a26ae713a",
     "transformation_frame_id": "Dimmer-9",
-    "position": {
+    "pose": {
       "translation": {
         "x": 1.996966724599532,
         "y": 0.6178665372512251,

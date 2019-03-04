@@ -17,7 +17,7 @@
   "placement_config": {
     "location_id": "7a5cb343-cfaa-4ae8-8170-4637834ca0ab",
     "transformation_frame_id": "Connection-2",
-    "position": {
+    "pose": {
       "translation": {
         "x": 6.9036,
         "y": 3.9402,
@@ -116,7 +116,7 @@
     "value": "ENABLED"
   },
   "connection_config": {
-    "type": "DOOR",
+    "connection_type": "DOOR",
     "tile_id": [
       "7ad72d61-e398-414b-9c5a-173242912ce6",
       "511adfec-43ed-47f5-bd4d-28f46dc1b5a4"

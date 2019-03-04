@@ -25,7 +25,7 @@
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
     "transformation_frame_id": "Location-10",
-    "position": {
+    "pose": {
       "translation": {
         "x": 4.3256,
         "y": 0.2522,
@@ -414,6 +414,25 @@
         "meta_config": {}
       },
       "meta_config": {}
+    },
+    {
+      "binding_config": {},
+      "unit_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+      "service_description": {
+        "service_template_id": "11fab7b2-65d2-43b4-897e-fb698cc92c8e",
+        "service_type": "EMPHASIS_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+      "service_description": {
+        "service_template_id": "11fab7b2-65d2-43b4-897e-fb698cc92c8e",
+        "service_type": "EMPHASIS_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
     }
   ],
   "meta_config": {},
@@ -421,7 +440,7 @@
     "value": "ENABLED"
   },
   "location_config": {
-    "type": "TILE",
+    "location_type": "TILE",
     "root": false,
     "child_id": [
       "f5dd3070-a8fc-46ae-9a18-e0adc7130c73",
@@ -486,12 +505,80 @@
       "e940159f-7e14-4c91-92d5-c279742f9e01"
     ],
     "tile_config": {
-      "type": "INDOOR",
+      "tile_type": "INDOOR",
       "connection_id": [
         "6d7e9b9b-c9b8-4fd5-b56b-ff5319a603be"
       ],
       "meta_config": {}
     },
     "global_position": {}
+  },
+  "permission_config": {
+    "group_permission": [
+      {
+        "group_id": "16b5a5ef-b43e-47ef-b269-4b9fbc4eaab5",
+        "permission": {
+          "read": true,
+          "write": false,
+          "access": true
+        }
+      },
+      {
+        "group_id": "e8d82f39-443a-4a96-b904-88b169e5ddac",
+        "permission": {
+          "read": true,
+          "write": false,
+          "access": true
+        }
+      },
+      {
+        "group_id": "680b7b4b-35ef-45d4-a788-f29a1c9a9c71",
+        "permission": {
+          "read": true,
+          "write": false,
+          "access": true
+        }
+      },
+      {
+        "group_id": "4df995cd-b717-4c8c-8dc0-2a773f84cd5e",
+        "permission": {
+          "read": true,
+          "write": false,
+          "access": true
+        }
+      },
+      {
+        "group_id": "5a23e591-6510-425c-bf95-e59fe4cfc372",
+        "permission": {
+          "read": true,
+          "write": false,
+          "access": true
+        }
+      },
+      {
+        "group_id": "afc07255-597e-4042-9135-100ca3c9dccd",
+        "permission": {
+          "read": true,
+          "write": false,
+          "access": true
+        }
+      },
+      {
+        "group_id": "ba182b40-7d18-4071-9d6d-944be78f1ef2",
+        "permission": {
+          "read": true,
+          "write": false,
+          "access": true
+        }
+      },
+      {
+        "group_id": "6d45a524-ae06-49c3-8d27-978d4be26d86",
+        "permission": {
+          "read": true,
+          "write": false,
+          "access": true
+        }
+      }
+    ]
   }
 }

@@ -19,7 +19,7 @@
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
     "transformation_frame_id": "Object-2",
-    "position": {
+    "pose": {
       "translation": {
         "x": 3.4336966876361625,
         "y": 0.2790804347031042,

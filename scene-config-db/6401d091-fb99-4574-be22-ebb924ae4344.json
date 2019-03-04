@@ -61,20 +61,20 @@
     "value": "ENABLED"
   },
   "scene_config": {
-    "required_service_state_description": [
+    "optional_service_state_description": [
       {
         "unit_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
         "service_type": "POWER_STATE_SERVICE",
         "unit_type": "UNKNOWN",
-        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
-        "service_attribute": "{\"value\":\"OFF\"}"
+        "service_state_class_name": "org.openbase.type.domotic.state.PowerStateType$PowerState",
+        "service_state": "{\"value\":\"OFF\"}"
       },
       {
         "unit_id": "804542df-aebc-42cb-82ef-f03a97c96bf8",
         "service_type": "POWER_STATE_SERVICE",
         "unit_type": "UNKNOWN",
-        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
-        "service_attribute": "{\"value\":\"OFF\"}"
+        "service_state_class_name": "org.openbase.type.domotic.state.PowerStateType$PowerState",
+        "service_state": "{\"value\":\"OFF\"}"
       }
     ]
   }

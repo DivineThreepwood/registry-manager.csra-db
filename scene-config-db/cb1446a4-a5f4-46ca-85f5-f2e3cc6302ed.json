@@ -52,34 +52,34 @@
     "value": "ENABLED"
   },
   "scene_config": {
-    "required_service_state_description": [
+    "optional_service_state_description": [
       {
         "unit_id": "98acc701-87b9-4cf2-b79b-3eb6c166e2fe",
         "service_type": "ACTIVATION_STATE_SERVICE",
         "unit_type": "UNKNOWN",
-        "service_attribute_type": "rst.domotic.state.ActivationStateType$ActivationState",
-        "service_attribute": "{\"value\":\"DEACTIVE\"}"
+        "service_state_class_name": "org.openbase.type.domotic.state.ActivationStateType$ActivationState",
+        "service_state": "{\"value\":\"DEACTIVE\"}"
       },
       {
         "unit_id": "6a2501d7-f625-4eb6-b46e-6e4f5c6001be",
         "service_type": "BLIND_STATE_SERVICE",
         "unit_type": "UNKNOWN",
-        "service_attribute_type": "rst.domotic.state.BlindStateType$BlindState",
-        "service_attribute": "{\"movement_state\":\"DOWN\"}"
+        "service_state_class_name": "org.openbase.type.domotic.state.BlindStateType$BlindState",
+        "service_state": "{\"movement_state\":\"DOWN\"}"
       },
       {
         "unit_id": "804542df-aebc-42cb-82ef-f03a97c96bf8",
         "service_type": "POWER_STATE_SERVICE",
         "unit_type": "UNKNOWN",
-        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
-        "service_attribute": "{\"value\":\"OFF\"}"
+        "service_state_class_name": "org.openbase.type.domotic.state.PowerStateType$PowerState",
+        "service_state": "{\"value\":\"OFF\"}"
       },
       {
         "unit_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
-        "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState",
-        "service_attribute": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":0.0,\"saturation\":0.0,\"brightness\":0.0}}}"
+        "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":0.0,\"saturation\":0.0,\"brightness\":0.0}}}"
       }
     ]
   }

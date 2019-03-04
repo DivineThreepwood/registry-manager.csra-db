@@ -17,7 +17,7 @@
   "placement_config": {
     "location_id": "7a5cb343-cfaa-4ae8-8170-4637834ca0ab",
     "transformation_frame_id": "Location-12",
-    "position": {
+    "pose": {
       "translation": {
         "x": -1.6936737068542445,
         "y": 0.06679169584178624,
@@ -286,6 +286,25 @@
         "meta_config": {}
       },
       "meta_config": {}
+    },
+    {
+      "binding_config": {},
+      "unit_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+      "service_description": {
+        "service_template_id": "11fab7b2-65d2-43b4-897e-fb698cc92c8e",
+        "service_type": "EMPHASIS_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+      "service_description": {
+        "service_template_id": "11fab7b2-65d2-43b4-897e-fb698cc92c8e",
+        "service_type": "EMPHASIS_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
     }
   ],
   "meta_config": {},
@@ -293,7 +312,7 @@
     "value": "ENABLED"
   },
   "location_config": {
-    "type": "TILE",
+    "location_type": "TILE",
     "root": false,
     "child_id": [
       "485c5820-4da4-48b8-8221-ed59738b3dbb",
@@ -461,7 +480,7 @@
       "43379f1f-4406-4004-b1a9-689b2774a02e"
     ],
     "tile_config": {
-      "type": "INDOOR",
+      "tile_type": "INDOOR",
       "connection_id": [
         "cbe163eb-94f2-47c2-952b-9f9c7384e4ed",
         "4d9e02bd-2164-4a78-954d-490de4c51b19",
@@ -471,5 +490,17 @@
       ],
       "meta_config": {}
     }
+  },
+  "permission_config": {
+    "group_permission": [
+      {
+        "group_id": "b5888382-63b1-46f9-9609-1eab266179ce",
+        "permission": {
+          "read": true,
+          "write": false,
+          "access": true
+        }
+      }
+    ]
   }
 }

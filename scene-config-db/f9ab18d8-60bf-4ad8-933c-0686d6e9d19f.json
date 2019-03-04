@@ -60,20 +60,20 @@
     "value": "ENABLED"
   },
   "scene_config": {
-    "required_service_state_description": [
+    "optional_service_state_description": [
       {
         "unit_id": "70926b9f-916d-4718-9328-5f98bab5e8f2",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
-        "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState",
-        "service_attribute": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":180.0,\"saturation\":20.0,\"brightness\":100.0}}}"
+        "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":180.0,\"saturation\":20.0,\"brightness\":100.0}}}"
       },
       {
         "unit_id": "6f6dce7d-e959-49ff-9bf9-6b15dcde3082",
         "service_type": "POWER_STATE_SERVICE",
         "unit_type": "UNKNOWN",
-        "service_attribute_type": "rst.domotic.state.PowerStateType$PowerState",
-        "service_attribute": "{\"value\":\"OFF\"}"
+        "service_state_class_name": "org.openbase.type.domotic.state.PowerStateType$PowerState",
+        "service_state": "{\"value\":\"OFF\"}"
       }
     ]
   }

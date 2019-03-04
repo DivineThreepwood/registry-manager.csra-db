@@ -69,7 +69,7 @@
     "value": "ENABLED"
   },
   "connection_config": {
-    "type": "DOOR",
+    "connection_type": "DOOR",
     "tile_id": [
       "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
       "9be1344a-41f1-406b-bdae-41bfd5368f13"

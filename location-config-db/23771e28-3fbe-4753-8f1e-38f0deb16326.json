@@ -17,7 +17,7 @@
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
     "transformation_frame_id": "Location-28",
-    "position": {
+    "pose": {
       "translation": {
         "x": 0.0,
         "y": 0.0,
@@ -220,6 +220,25 @@
         "pattern": "OPERATION",
         "meta_config": {}
       }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "23771e28-3fbe-4753-8f1e-38f0deb16326",
+      "service_description": {
+        "service_template_id": "11fab7b2-65d2-43b4-897e-fb698cc92c8e",
+        "service_type": "EMPHASIS_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "23771e28-3fbe-4753-8f1e-38f0deb16326",
+      "service_description": {
+        "service_template_id": "11fab7b2-65d2-43b4-897e-fb698cc92c8e",
+        "service_type": "EMPHASIS_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
     }
   ],
   "meta_config": {},
@@ -227,7 +246,7 @@
     "value": "ENABLED"
   },
   "location_config": {
-    "type": "REGION",
+    "location_type": "REGION",
     "root": false,
     "unit_id": [
       "2d68dad7-e96e-4da3-955f-56b8dc261a5a",

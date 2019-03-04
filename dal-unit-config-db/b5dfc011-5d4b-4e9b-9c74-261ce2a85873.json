@@ -19,7 +19,7 @@
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
     "transformation_frame_id": "VideoRgbSource-6",
-    "position": {
+    "pose": {
       "translation": {
         "x": 1.26,
         "y": 3.15,

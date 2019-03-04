@@ -17,16 +17,12 @@
     {
       "unit_id": "8d310f30-d60a-4627-8884-373c5e2dcbdd",
       "service_type": "COLOR_STATE_SERVICE",
-      "unit_type": "COLORABLE_LIGHT",
-      "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState",
-      "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 0.0,\"saturation\": 0.8547486050715347,\"brightness\": 0.7019608020782471}}}"
+      "unit_type": "COLORABLE_LIGHT"
     },
     {
       "unit_id": "96891f9d-e7f2-449d-9871-a2d317214295",
       "service_type": "COLOR_STATE_SERVICE",
-      "unit_type": "COLORABLE_LIGHT",
-      "service_attribute_type": "rst.domotic.state.ColorStateType$ColorState",
-      "service_attribute": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 0.0,\"saturation\": 0.8547486050715347,\"brightness\": 0.7019608020782471}}}"
+      "unit_type": "COLORABLE_LIGHT"
     }
   ]
 }

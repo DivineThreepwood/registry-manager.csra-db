@@ -60,13 +60,13 @@
     "value": "ENABLED"
   },
   "scene_config": {
-    "required_service_state_description": [
+    "optional_service_state_description": [
       {
         "unit_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
         "service_type": "STANDBY_STATE_SERVICE",
         "unit_type": "UNKNOWN",
-        "service_attribute_type": "rst.domotic.state.StandbyStateType$StandbyState",
-        "service_attribute": "{\"value\":\"STANDBY\"}"
+        "service_state_class_name": "org.openbase.type.domotic.state.StandbyStateType$StandbyState",
+        "service_state": "{\"value\":\"STANDBY\"}"
       }
     ]
   }

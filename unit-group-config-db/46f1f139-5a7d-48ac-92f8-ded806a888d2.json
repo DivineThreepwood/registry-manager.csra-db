@@ -17,7 +17,7 @@
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
     "transformation_frame_id": "UnitGroup-5",
-    "position": {
+    "pose": {
       "translation": {
         "x": 0.2726361398197228,
         "y": -0.275082675047269,

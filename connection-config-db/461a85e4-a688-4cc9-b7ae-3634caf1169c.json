@@ -17,7 +17,7 @@
   "placement_config": {
     "location_id": "7a5cb343-cfaa-4ae8-8170-4637834ca0ab",
     "transformation_frame_id": "Connection-11",
-    "position": {
+    "pose": {
       "translation": {
         "x": 7.9275,
         "y": 5.5542,
@@ -116,7 +116,7 @@
     "value": "ENABLED"
   },
   "connection_config": {
-    "type": "WINDOW",
+    "connection_type": "WINDOW",
     "tile_id": [
       "7ad72d61-e398-414b-9c5a-173242912ce6",
       "511adfec-43ed-47f5-bd4d-28f46dc1b5a4"

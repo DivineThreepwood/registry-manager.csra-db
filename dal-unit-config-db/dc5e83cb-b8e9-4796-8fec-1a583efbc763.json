@@ -19,7 +19,7 @@
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
     "transformation_frame_id": "RollerShutter-5",
-    "position": {
+    "pose": {
       "translation": {
         "x": 0.7593205841622366,
         "y": -0.5215500142991267,
