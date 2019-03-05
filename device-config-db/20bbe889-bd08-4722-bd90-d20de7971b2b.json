@@ -41,11 +41,7 @@
     "entry": [
       {
         "key": "OPENHAB_BINDING_DEVICE_ID",
-        "value": "17"
-      },
-      {
-        "key": "OPENHAB_THING_UID",
-        "value": "hue:0210:00178821671c:17"
+        "value": "60"
       }
     ]
   },
