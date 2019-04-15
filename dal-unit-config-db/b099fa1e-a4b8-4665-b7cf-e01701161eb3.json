@@ -23,15 +23,14 @@
   "unit_host_id": "d75030ec-82bd-42d7-9960-3ff2bbd21965",
   "unit_type": "TAMPER_DETECTOR",
   "placement_config": {
-    "location_id": "cff20d86-c7e8-4d12-87e1-ebc67c7e0c93",
+    "location_id": "0254b92b-1996-4e4d-818c-a7a8fc2f6981",
     "transformation_frame_id": "TamperDetector-13"
   },
   "scope": {
     "component": [
       "citec",
       "csra",
-      "home",
-      "hallway",
+      "control",
       "entrance",
       "tamperdetector",
       "motionsensorentrancecontrol"

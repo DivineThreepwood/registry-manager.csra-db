@@ -513,6 +513,7 @@
       "52a535d5-6870-4f5e-ba25-129498386423",
       "22295f56-ed80-4a36-8933-bf81d7d92eb7",
       "6649d120-54ea-4979-98be-5aca38ea4392",
+      "8f47eec3-64b4-4f08-b0dc-bd901d051858",
       "43fa2241-b9ee-4650-be7b-05eeffdd050c",
       "8e04b5f9-2164-430b-9de8-f2208019971d",
       "fcae8836-9f55-403d-9bdd-0173b8edd943",
@@ -676,6 +677,7 @@
       "ff0a60a0-4df0-4249-b23b-05478b70ef22",
       "ddbd4adb-f20b-416f-8d86-8ac3337a3cd8",
       "9be18965-ae35-4f9a-b0ef-3bc0b6bcc9a8",
+      "fd9a1072-367e-44a5-a54d-a4f00523ea8f",
       "5c91aeb3-8e1d-4154-a7db-084c07a0c47e",
       "2c95255e-a491-46d7-a6a6-f66d5e6c2d3b",
       "807f30a3-f9b6-424c-8c1c-9127f12a905c",
@@ -1006,8 +1008,8 @@
     },
     "other_permission": {
       "read": true,
-      "write": false,
-      "access": false
+      "write": true,
+      "access": true
     },
     "group_permission": [
       {

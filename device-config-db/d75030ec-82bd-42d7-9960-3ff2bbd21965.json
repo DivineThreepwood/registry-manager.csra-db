@@ -21,7 +21,7 @@
   ],
   "unit_type": "DEVICE",
   "placement_config": {
-    "location_id": "cff20d86-c7e8-4d12-87e1-ebc67c7e0c93",
+    "location_id": "0254b92b-1996-4e4d-818c-a7a8fc2f6981",
     "transformation_frame_id": "Device-26",
     "shape": {}
   },
@@ -29,8 +29,7 @@
     "component": [
       "citec",
       "csra",
-      "home",
-      "hallway",
+      "control",
       "entrance",
       "device",
       "motionsensorentrancecontrol"
@@ -61,9 +60,9 @@
     "serial_number": "FMS001",
     "inventory_state": {
       "value": "INSTALLED",
-      "location_id": "cff20d86-c7e8-4d12-87e1-ebc67c7e0c93",
+      "location_id": "0254b92b-1996-4e4d-818c-a7a8fc2f6981",
       "timestamp": {
-        "time": 1538405717950000
+        "time": 1551863702277000
       }
     },
     "device_class_id": "79e16e8f-7c8d-48ec-b59b-84ba75ed593b",
