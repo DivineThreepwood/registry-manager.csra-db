@@ -1,62 +1,61 @@
 {
-  "id": "502bdaaf-8d98-4563-9e13-200d33ced339",
+  "id": "45e18d97-8ec2-4c89-ae12-5ebd23d44e6f",
   "label": {
     "entry": [
       {
         "key": "en",
         "value": [
-          "Living Presence Light"
+          "Bath Economy"
         ]
       }
     ]
   },
   "alias": [
-    "Agent-19"
+    "Agent-28"
   ],
   "unit_type": "AGENT",
   "placement_config": {
-    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "Agent-19",
-    "pose": {},
-    "shape": {}
+    "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+    "transformation_frame_id": "Agent-28",
+    "pose": {
+      "translation": {},
+      "rotation": {}
+    },
+    "shape": {
+      "bounding_box": {}
+    }
   },
   "scope": {
     "component": [
       "citec",
       "csra",
       "home",
-      "living",
+      "bath",
       "agent",
-      "presencelight",
-      "livingpresencelight"
+      "absenceenergysaving",
+      "batheconomy"
     ]
   },
   "description": {},
   "service_config": [
     {
-      "binding_config": {
-        "meta_config": {}
-      },
-      "unit_id": "502bdaaf-8d98-4563-9e13-200d33ced339",
+      "binding_config": {},
+      "unit_id": "45e18d97-8ec2-4c89-ae12-5ebd23d44e6f",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
         "service_type": "ACTIVATION_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
-      },
-      "meta_config": {}
+      }
     },
     {
-      "binding_config": {
-        "meta_config": {}
-      },
-      "unit_id": "502bdaaf-8d98-4563-9e13-200d33ced339",
+      "binding_config": {},
+      "unit_id": "45e18d97-8ec2-4c89-ae12-5ebd23d44e6f",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
         "service_type": "ACTIVATION_STATE_SERVICE",
         "meta_config": {}
-      },
-      "meta_config": {}
+      }
     }
   ],
   "meta_config": {},
@@ -64,7 +63,7 @@
     "value": "ENABLED"
   },
   "agent_config": {
-    "agent_class_id": "c2cb8f89-0426-467f-83e6-cd231a31ae93",
-    "autostart": false
+    "agent_class_id": "2c6cccee-6d27-44cf-bbcb-1ca1cf366a2c",
+    "autostart": true
   }
 }

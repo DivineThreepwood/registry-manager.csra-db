@@ -87,7 +87,14 @@
       }
     }
   ],
-  "meta_config": {},
+  "meta_config": {
+    "entry": [
+      {
+        "key": "NET_DEVICE_1",
+        "value": "129.70.140.86"
+      }
+    ]
+  },
   "enabling_state": {
     "value": "ENABLED"
   },
@@ -96,6 +103,8 @@
     "last_name": "Küche",
     "user_name": "flobikitchen",
     "occupant": true,
+    "email": "",
+    "mobile_phone_number": "",
     "system_user": true,
     "language": "en"
   },

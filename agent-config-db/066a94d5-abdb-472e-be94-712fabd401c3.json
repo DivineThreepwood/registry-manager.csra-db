@@ -17,6 +17,7 @@
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
     "transformation_frame_id": "Agent-22",
+    "pose": {},
     "shape": {}
   },
   "scope": {
@@ -30,6 +31,7 @@
       "ceilinglampcentralpowersynchroniser"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {
@@ -78,7 +80,7 @@
     ]
   },
   "enabling_state": {
-    "value": "ENABLED"
+    "value": "DISABLED"
   },
   "agent_config": {
     "agent_class_id": "96aed98a-e9d4-402e-a4c4-b0655d448a21",

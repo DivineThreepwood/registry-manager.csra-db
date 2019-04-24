@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "Wardrobe Energy Saving"
+          "Wardrobe Economy"
         ]
       }
     ]
@@ -17,6 +17,7 @@
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
     "transformation_frame_id": "Agent-5",
+    "pose": {},
     "shape": {}
   },
   "scope": {
@@ -27,7 +28,7 @@
       "hallway",
       "agent",
       "absenceenergysaving",
-      "wardrobeenergysaving"
+      "wardrobeeconomy"
     ]
   },
   "description": {},
@@ -54,7 +55,7 @@
   ],
   "meta_config": {},
   "enabling_state": {
-    "value": "DISABLED"
+    "value": "ENABLED"
   },
   "agent_config": {
     "agent_class_id": "2c6cccee-6d27-44cf-bbcb-1ca1cf366a2c",

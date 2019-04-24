@@ -481,6 +481,7 @@
       "8fc89ba5-8ead-4a9b-9098-6e085d0805d7",
       "8e04b5f9-2164-430b-9de8-f2208019971d",
       "c5dc11df-87a6-42cb-b43c-c8d02d2a36d0",
+      "c8badacd-9ee8-4399-9e20-d65d92378f28",
       "4008d70c-b500-4405-b8d6-1da0a82c84f3",
       "7f5a8af0-0033-4947-bb85-a6600f3eb92d",
       "43379f1f-4406-4004-b1a9-689b2774a02e"
@@ -501,6 +502,14 @@
     "group_permission": [
       {
         "group_id": "b5888382-63b1-46f9-9609-1eab266179ce",
+        "permission": {
+          "read": true,
+          "write": false,
+          "access": true
+        }
+      },
+      {
+        "group_id": "9d96db31-fa4f-4249-af18-ef60d9085aee",
         "permission": {
           "read": true,
           "write": false,

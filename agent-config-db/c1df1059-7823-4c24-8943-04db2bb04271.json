@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "Kitchen Absence Energy Saving"
+          "Kitchen Economy"
         ]
       }
     ]
@@ -17,6 +17,7 @@
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
     "transformation_frame_id": "Agent-11",
+    "pose": {},
     "shape": {}
   },
   "scope": {
@@ -27,7 +28,7 @@
       "kitchen",
       "agent",
       "absenceenergysaving",
-      "kitchenabsenceenergysaving"
+      "kitcheneconomy"
     ]
   },
   "description": {},
@@ -60,10 +61,15 @@
   ],
   "meta_config": {},
   "enabling_state": {
-    "value": "DISABLED"
+    "value": "ENABLED"
   },
   "agent_config": {
     "agent_class_id": "2c6cccee-6d27-44cf-bbcb-1ca1cf366a2c",
     "autostart": false
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

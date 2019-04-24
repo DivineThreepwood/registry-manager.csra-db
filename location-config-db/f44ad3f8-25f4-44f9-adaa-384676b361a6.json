@@ -461,7 +461,6 @@
       "bca80cc4-e94e-4d5f-9fca-9276e74dead7",
       "7d43ca80-9db4-4250-96ce-180fe506b995",
       "b85f6cfd-056b-4f19-8109-35c28b6713af",
-      "4b0a86a3-d7b1-4cf3-b67b-75a4d049e7a2",
       "9dc9a103-5c4b-4e65-8f97-3082fcd1801d",
       "37a1f9a7-57ab-4dfb-8061-2774eeffaf4e",
       "385d4f0e-f7e3-48b0-a8a1-450687f78db6",
@@ -475,6 +474,8 @@
       "d289248e-38f7-4b07-bb9d-c0b657800ae5",
       "d09c4086-89fc-4b22-9196-2d458bb9d500",
       "efa33b37-8809-4483-beed-480fd9b50446",
+      "e5ad417c-46ad-4075-8958-d3e8309745b3",
+      "45e18d97-8ec2-4c89-ae12-5ebd23d44e6f",
       "fce6203a-1e30-41e0-ac5b-a864031fd1b1",
       "e955c2bf-a999-4edc-828b-faebf88237b9",
       "ccbfddb1-871f-4c13-91bb-044a260cd003",
@@ -573,6 +574,22 @@
       },
       {
         "group_id": "6d45a524-ae06-49c3-8d27-978d4be26d86",
+        "permission": {
+          "read": true,
+          "write": false,
+          "access": true
+        }
+      },
+      {
+        "group_id": "5096ef8e-485c-47f5-b105-078f2492b3f4",
+        "permission": {
+          "read": true,
+          "write": false,
+          "access": true
+        }
+      },
+      {
+        "group_id": "6e531fe0-4a59-4b8b-808c-8b6f2f1ceaee",
         "permission": {
           "read": true,
           "write": false,

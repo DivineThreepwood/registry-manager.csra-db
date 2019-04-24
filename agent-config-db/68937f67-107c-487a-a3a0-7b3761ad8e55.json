@@ -17,6 +17,7 @@
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
     "transformation_frame_id": "Agent-14",
+    "pose": {},
     "shape": {}
   },
   "scope": {
@@ -60,7 +61,7 @@
   ],
   "meta_config": {},
   "enabling_state": {
-    "value": "DISABLED"
+    "value": "ENABLED"
   },
   "agent_config": {
     "agent_class_id": "c2cb8f89-0426-467f-83e6-cd231a31ae93",

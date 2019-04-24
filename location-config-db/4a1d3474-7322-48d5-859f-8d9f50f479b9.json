@@ -453,6 +453,7 @@
       "95ba2da1-ffb9-4bcc-b533-df9365ebb759",
       "ae8242cc-63cf-4fd9-a31a-4304d52504b2",
       "9b6a783a-fb57-4237-be45-b2477d83da9d",
+      "d3e46543-b154-47ff-936d-e57056b85496",
       "7c243a03-7d31-41a2-979d-da4c9418ff10",
       "d4ce3cdc-f5d8-4862-ad5f-e02cebd9d964",
       "8db53c2d-2c98-4b0d-b0b0-2e0f0127741c",
@@ -468,6 +469,7 @@
       "14846cc1-047d-44ab-aab1-ad67f095b528",
       "cb97582a-43fa-42bc-bcf1-4977cf090070",
       "34084c5f-46bf-4e88-84f4-0110530f6e47",
+      "68937f67-107c-487a-a3a0-7b3761ad8e55",
       "a7be0014-ad96-41ee-aab9-1caf808a7806",
       "250c65fe-ba19-4fbc-a0e5-a98b8b3f6b4a",
       "228917d8-f347-4aa2-a7f1-4971c0498dbc",
@@ -500,9 +502,7 @@
       "053019e3-51aa-48be-bd16-b16da6e99519",
       "6673d527-ae60-492f-bb43-85d00b700238",
       "6b631f75-febe-47ec-8ec1-a8234f0eb3e7",
-      "122389cd-907f-4e7c-84de-aaa2a3f81771",
-      "b0daa651-4556-4970-b6be-c8c0b8d33caa",
-      "0a514c2d-3b2c-4303-a4b6-d90f0284fc83"
+      "b0daa651-4556-4970-b6be-c8c0b8d33caa"
     ],
     "tile_config": {
       "tile_type": "INDOOR",

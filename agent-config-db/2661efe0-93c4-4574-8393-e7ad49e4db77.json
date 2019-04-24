@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "Living Absence Energy Saving"
+          "Living Economy"
         ]
       }
     ]
@@ -17,6 +17,7 @@
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
     "transformation_frame_id": "Agent-3",
+    "pose": {},
     "shape": {}
   },
   "scope": {
@@ -27,7 +28,7 @@
       "living",
       "agent",
       "absenceenergysaving",
-      "livingabsenceenergysaving"
+      "livingeconomy"
     ]
   },
   "description": {},
@@ -60,10 +61,15 @@
   ],
   "meta_config": {},
   "enabling_state": {
-    "value": "DISABLED"
+    "value": "ENABLED"
   },
   "agent_config": {
     "agent_class_id": "2c6cccee-6d27-44cf-bbcb-1ca1cf366a2c",
     "autostart": false
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

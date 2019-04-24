@@ -1,22 +1,22 @@
 {
-  "id": "8f47eec3-64b4-4f08-b0dc-bd901d051858",
+  "id": "819ed669-0b6e-4b07-a72b-f0a7190b072a",
   "label": {
     "entry": [
       {
         "key": "en",
         "value": [
-          "flobientrance (Flobi Eingang)"
+          "Floka (Mr Robot)"
         ]
       }
     ]
   },
   "alias": [
-    "User-39"
+    "User-40"
   ],
   "unit_type": "USER",
   "placement_config": {
     "location_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
-    "transformation_frame_id": "User-39",
+    "transformation_frame_id": "User-40",
     "pose": {},
     "shape": {}
   },
@@ -24,14 +24,14 @@
     "component": [
       "manager",
       "user",
-      "flobientrance"
+      "floka"
     ]
   },
   "description": {},
   "service_config": [
     {
       "binding_config": {},
-      "unit_id": "8f47eec3-64b4-4f08-b0dc-bd901d051858",
+      "unit_id": "819ed669-0b6e-4b07-a72b-f0a7190b072a",
       "service_description": {
         "service_template_id": "14bf74e2-dce4-47c7-9c58-cc85dea24ed5",
         "service_type": "ACTIVITY_MULTI_STATE_SERVICE",
@@ -40,7 +40,7 @@
     },
     {
       "binding_config": {},
-      "unit_id": "8f47eec3-64b4-4f08-b0dc-bd901d051858",
+      "unit_id": "819ed669-0b6e-4b07-a72b-f0a7190b072a",
       "service_description": {
         "service_template_id": "14bf74e2-dce4-47c7-9c58-cc85dea24ed5",
         "service_type": "ACTIVITY_MULTI_STATE_SERVICE",
@@ -50,7 +50,7 @@
     },
     {
       "binding_config": {},
-      "unit_id": "8f47eec3-64b4-4f08-b0dc-bd901d051858",
+      "unit_id": "819ed669-0b6e-4b07-a72b-f0a7190b072a",
       "service_description": {
         "service_template_id": "5d664e5a-6fa3-433a-a1e0-ca81d79aacff",
         "service_type": "PRESENCE_STATE_SERVICE",
@@ -59,7 +59,7 @@
     },
     {
       "binding_config": {},
-      "unit_id": "8f47eec3-64b4-4f08-b0dc-bd901d051858",
+      "unit_id": "819ed669-0b6e-4b07-a72b-f0a7190b072a",
       "service_description": {
         "service_template_id": "5d664e5a-6fa3-433a-a1e0-ca81d79aacff",
         "service_type": "PRESENCE_STATE_SERVICE",
@@ -69,7 +69,7 @@
     },
     {
       "binding_config": {},
-      "unit_id": "8f47eec3-64b4-4f08-b0dc-bd901d051858",
+      "unit_id": "819ed669-0b6e-4b07-a72b-f0a7190b072a",
       "service_description": {
         "service_template_id": "4537a330-af91-4499-bc3b-3c559e9b6ea0",
         "service_type": "USER_TRANSIT_STATE_SERVICE",
@@ -79,7 +79,7 @@
     },
     {
       "binding_config": {},
-      "unit_id": "8f47eec3-64b4-4f08-b0dc-bd901d051858",
+      "unit_id": "819ed669-0b6e-4b07-a72b-f0a7190b072a",
       "service_description": {
         "service_template_id": "4537a330-af91-4499-bc3b-3c559e9b6ea0",
         "service_type": "USER_TRANSIT_STATE_SERVICE",
@@ -91,7 +91,7 @@
     "entry": [
       {
         "key": "NET_DEVICE_1",
-        "value": "129.70.140.85"
+        "value": "meka-matter"
       }
     ]
   },
@@ -99,15 +99,17 @@
     "value": "ENABLED"
   },
   "user_config": {
-    "first_name": "Flobi",
-    "last_name": "Eingang",
-    "user_name": "flobientrance",
+    "first_name": "Floka",
+    "last_name": "Service Robot",
+    "user_name": "Floka",
     "occupant": true,
-    "system_user": true,
-    "language": "de"
+    "email": "",
+    "mobile_phone_number": "",
+    "system_user": false,
+    "language": "en"
   },
   "permission_config": {
-    "owner_id": "8f47eec3-64b4-4f08-b0dc-bd901d051858",
+    "owner_id": "819ed669-0b6e-4b07-a72b-f0a7190b072a",
     "owner_permission": {
       "read": true,
       "write": true,

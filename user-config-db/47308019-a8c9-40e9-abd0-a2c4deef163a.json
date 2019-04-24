@@ -17,6 +17,7 @@
   "placement_config": {
     "location_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
     "transformation_frame_id": "User-37",
+    "pose": {},
     "shape": {}
   },
   "scope": {
@@ -91,10 +92,13 @@
     "value": "ENABLED"
   },
   "user_config": {
-    "first_name": "",
+    "first_name": "CSRA",
+    "last_name": "Control",
     "user_name": "csracontrol",
-    "occupant": true,
+    "occupant": false,
     "email": "unibi.lsp.csra@gmail.com",
+    "mobile_phone_number": "",
+    "system_user": false,
     "language": "de"
   },
   "permission_config": {
