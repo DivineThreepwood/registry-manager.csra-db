@@ -26,7 +26,13 @@
   "placement_config": {
     "location_id": "0254b92b-1996-4e4d-818c-a7a8fc2f6981",
     "transformation_frame_id": "ColorableLight-6",
-    "shape": {}
+    "pose": {
+      "translation": {},
+      "rotation": {}
+    },
+    "shape": {
+      "bounding_box": {}
+    }
   },
   "scope": {
     "component": [
@@ -38,6 +44,7 @@
       "standardlamptop"
     ]
   },
+  "description": {},
   "bound_to_unit_host": true,
   "service_config": [
     {
@@ -171,7 +178,7 @@
     "entry": [
       {
         "key": "INFRASTRUCTURE",
-        "value": "true"
+        "value": "false"
       }
     ]
   },

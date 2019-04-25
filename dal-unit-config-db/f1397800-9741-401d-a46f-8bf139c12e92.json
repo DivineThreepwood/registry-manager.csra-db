@@ -26,7 +26,13 @@
   "placement_config": {
     "location_id": "5964181e-adad-4306-a1bb-c89eb86b4d82",
     "transformation_frame_id": "ColorableLight-7",
-    "shape": {}
+    "pose": {
+      "translation": {},
+      "rotation": {}
+    },
+    "shape": {
+      "bounding_box": {}
+    }
   },
   "scope": {
     "component": [
@@ -38,6 +44,7 @@
       "recordstatelamp"
     ]
   },
+  "description": {},
   "bound_to_unit_host": true,
   "service_config": [
     {
@@ -167,14 +174,7 @@
       "meta_config": {}
     }
   ],
-  "meta_config": {
-    "entry": [
-      {
-        "key": "INFRASTRUCTURE",
-        "value": "true"
-      }
-    ]
-  },
+  "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"
   }

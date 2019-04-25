@@ -23,21 +23,27 @@
   "unit_host_id": "92f01101-0577-4f49-8ca1-cfb5e6486874",
   "unit_type": "COLORABLE_LIGHT",
   "placement_config": {
-    "location_id": "cff20d86-c7e8-4d12-87e1-ebc67c7e0c93",
+    "location_id": "0254b92b-1996-4e4d-818c-a7a8fc2f6981",
     "transformation_frame_id": "ColorableLight-4",
-    "shape": {}
+    "pose": {
+      "translation": {},
+      "rotation": {}
+    },
+    "shape": {
+      "bounding_box": {}
+    }
   },
   "scope": {
     "component": [
       "citec",
       "csra",
-      "home",
-      "hallway",
+      "control",
       "entrance",
       "colorablelight",
       "standardlampbottom"
     ]
   },
+  "description": {},
   "bound_to_unit_host": true,
   "service_config": [
     {
@@ -171,7 +177,7 @@
     "entry": [
       {
         "key": "INFRASTRUCTURE",
-        "value": "true"
+        "value": "false"
       }
     ]
   },

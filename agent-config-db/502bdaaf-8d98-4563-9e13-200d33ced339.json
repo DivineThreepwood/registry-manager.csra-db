@@ -65,6 +65,6 @@
   },
   "agent_config": {
     "agent_class_id": "c2cb8f89-0426-467f-83e6-cd231a31ae93",
-    "autostart": false
+    "autostart": true
   }
 }

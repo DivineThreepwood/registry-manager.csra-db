@@ -24,6 +24,10 @@
   "placement_config": {
     "location_id": "0254b92b-1996-4e4d-818c-a7a8fc2f6981",
     "transformation_frame_id": "Device-105",
+    "pose": {
+      "translation": {},
+      "rotation": {}
+    },
     "shape": {}
   },
   "scope": {
