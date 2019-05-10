@@ -58,14 +58,14 @@
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":290.0,\"saturation\":100.0,\"brightness\":50.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":290.0,\"saturation\":1.0,\"brightness\":0.5}}}"
       },
       {
         "unit_id": "0529ab14-ea69-4c54-9e7a-2288f7b0a5ec",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":290.0,\"saturation\":100.0,\"brightness\":50.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":290.0,\"saturation\":1.0,\"brightness\":0.5}}}"
       },
       {
         "unit_id": "6a2501d7-f625-4eb6-b46e-6e4f5c6001be",
@@ -79,63 +79,63 @@
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":290.0,\"saturation\":100.0,\"brightness\":50.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":290.0,\"saturation\":1.0,\"brightness\":0.5}}}"
       },
       {
         "unit_id": "51a38d12-35d5-49a4-9f73-35822c8aeb89",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":290.0,\"saturation\":100.0,\"brightness\":50.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":290.0,\"saturation\":1.0,\"brightness\":0.5}}}"
       },
       {
         "unit_id": "48e43d6f-0015-40b3-895b-0ff33d4a74a4",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":290.0,\"saturation\":100.0,\"brightness\":50.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":290.0,\"saturation\":1.0,\"brightness\":0.5}}}"
       },
       {
         "unit_id": "31b4fd8f-6355-49c2-90bc-039e92d602f0",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":290.0,\"saturation\":100.0,\"brightness\":50.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":290.0,\"saturation\":1.0,\"brightness\":0.5}}}"
       },
       {
         "unit_id": "2ca1b701-cfde-4570-83de-46610e6718fc",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":290.0,\"saturation\":100.0,\"brightness\":50.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":290.0,\"saturation\":1.0,\"brightness\":0.5}}}"
       },
       {
         "unit_id": "efa33b37-8809-4483-beed-480fd9b50446",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":290.0,\"saturation\":100.0,\"brightness\":50.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":290.0,\"saturation\":1.0,\"brightness\":0.5}}}"
       },
       {
         "unit_id": "96891f9d-e7f2-449d-9871-a2d317214295",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":290.0,\"saturation\":100.0,\"brightness\":50.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":290.0,\"saturation\":1.0,\"brightness\":0.5}}}"
       },
       {
         "unit_id": "9c3561a1-e6ce-476e-9bff-0d35807d2607",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":290.0,\"saturation\":100.0,\"brightness\":50.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":290.0,\"saturation\":1.0,\"brightness\":0.5}}}"
       },
       {
         "unit_id": "b71892c9-cb68-4f6c-9e1b-8837d3c28e1e",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":290.0,\"saturation\":100.0,\"brightness\":50.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":290.0,\"saturation\":1.0,\"brightness\":0.5}}}"
       },
       {
         "unit_id": "98acc701-87b9-4cf2-b79b-3eb6c166e2fe",
@@ -156,7 +156,7 @@
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":290.0,\"saturation\":100.0,\"brightness\":50.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":290.0,\"saturation\":1.0,\"brightness\":0.5}}}"
       }
     ]
   }

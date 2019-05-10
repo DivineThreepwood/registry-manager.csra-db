@@ -1,0 +1,98 @@
+{
+  "id": "db33efb9-4864-4a60-a1f2-f75ef28ea158",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Influxdb Connector"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "App-6"
+  ],
+  "unit_type": "APP",
+  "placement_config": {
+    "location_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
+    "transformation_frame_id": "App-6",
+    "pose": {
+      "translation": {},
+      "rotation": {}
+    },
+    "shape": {
+      "bounding_box": {}
+    }
+  },
+  "scope": {
+    "component": [
+      "citec",
+      "app",
+      "influxdbconnector",
+      "influxdbconnector"
+    ]
+  },
+  "description": {},
+  "service_config": [
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "db33efb9-4864-4a60-a1f2-f75ef28ea158",
+      "service_description": {
+        "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
+        "service_type": "ACTIVATION_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {},
+      "unit_id": "db33efb9-4864-4a60-a1f2-f75ef28ea158",
+      "service_description": {
+        "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
+        "service_type": "ACTIVATION_STATE_SERVICE",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "INFLUXDB_URL",
+        "value": "http://localhost:8086"
+      },
+      {
+        "key": "INFLUXDB_NAME",
+        "value": "bco"
+      },
+      {
+        "key": "INFLUXDB_BATCH_TIME",
+        "value": "1000"
+      },
+      {
+        "key": "INFLUXDB_BATCH_LIMIT",
+        "value": "100"
+      },
+      {
+        "key": "INFLUXDB_RETENTION_POLICY_DURATION",
+        "value": "360d"
+      },
+      {
+        "key": "INFLUXDB_RETENTION_POLICY_NAME",
+        "value": "default_policy"
+      },
+      {}
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "app_config": {
+    "app_class_id": "e6d9a242-58de-4e44-8e56-64c8da560fe4",
+    "autostart": true
+  }
+}

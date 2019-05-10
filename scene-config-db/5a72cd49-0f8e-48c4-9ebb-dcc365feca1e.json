@@ -79,7 +79,7 @@
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":82.19178009033203,\"saturation\":57.254905700683594,\"brightness\":100.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":82.19178009033203,\"saturation\":0.5725490570068359,\"brightness\":1.0}}}"
       },
       {
         "unit_id": "66b5b93f-9f33-4d7d-8e61-5951a22f5483",

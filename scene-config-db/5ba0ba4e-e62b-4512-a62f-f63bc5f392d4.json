@@ -72,14 +72,14 @@
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":180.0,\"saturation\":20.0,\"brightness\":100.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":180.0,\"saturation\":0.2,\"brightness\":1.0}}}"
       },
       {
         "unit_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":0.0,\"saturation\":0.0,\"brightness\":80.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":0.0,\"saturation\":0.0,\"brightness\":0.8}}}"
       },
       {
         "unit_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",

@@ -1,0 +1,62 @@
+{
+  "id": "c52a58fc-0c55-4aca-990e-02b94f82717c",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Influx DB Connector Authorization Group"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "AuthorizationGroup-19"
+  ],
+  "unit_type": "AUTHORIZATION_GROUP",
+  "placement_config": {
+    "location_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
+    "transformation_frame_id": "AuthorizationGroup-19"
+  },
+  "scope": {
+    "component": [
+      "manager",
+      "authorization",
+      "group",
+      "influxdbconnectorauthorizationgroup"
+    ]
+  },
+  "meta_config": {
+    "entry": [
+      {
+        "key": "APP_CLASS_ID",
+        "value": "e6d9a242-58de-4e44-8e56-64c8da560fe4"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "authorization_group_config": {
+    "member_id": [
+      "b432492c-a06c-410e-bc7c-058e17975f23"
+    ]
+  },
+  "permission_config": {
+    "other_permission": {
+      "read": false,
+      "write": false,
+      "access": false
+    },
+    "group_permission": [
+      {
+        "group_id": "c52a58fc-0c55-4aca-990e-02b94f82717c",
+        "permission": {
+          "read": true,
+          "write": true,
+          "access": true
+        }
+      }
+    ]
+  }
+}

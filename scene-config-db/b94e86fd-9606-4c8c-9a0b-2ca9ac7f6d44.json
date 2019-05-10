@@ -59,14 +59,14 @@
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":60.0,\"saturation\":100.0,\"brightness\":20.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":60.0,\"saturation\":1.0,\"brightness\":0.2}}}"
       },
       {
         "unit_id": "2ca45216-ac17-4086-9e6c-f2a656f8b28d",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":60.0,\"saturation\":100.0,\"brightness\":20.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":60.0,\"saturation\":1.0,\"brightness\":0.2}}}"
       },
       {
         "unit_id": "8d310f30-d60a-4627-8884-373c5e2dcbdd",
@@ -87,7 +87,7 @@
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":60.0,\"saturation\":100.0,\"brightness\":20.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":60.0,\"saturation\":1.0,\"brightness\":0.2}}}"
       },
       {
         "unit_id": "98acc701-87b9-4cf2-b79b-3eb6c166e2fe",
@@ -101,7 +101,7 @@
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":60.0,\"saturation\":100.0,\"brightness\":20.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":60.0,\"saturation\":1.0,\"brightness\":0.2}}}"
       },
       {
         "unit_id": "9c3561a1-e6ce-476e-9bff-0d35807d2607",
@@ -115,7 +115,7 @@
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":60.0,\"saturation\":100.0,\"brightness\":20.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":60.0,\"saturation\":1.0,\"brightness\":0.2}}}"
       },
       {
         "unit_id": "66b5b93f-9f33-4d7d-8e61-5951a22f5483",
@@ -143,21 +143,21 @@
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":60.0,\"saturation\":100.0,\"brightness\":20.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":60.0,\"saturation\":1.0,\"brightness\":0.2}}}"
       },
       {
         "unit_id": "cdfa87e9-1c07-40f7-9acc-9e349a81f619",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":60.0,\"saturation\":80.0,\"brightness\":100.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":60.0,\"saturation\":0.8,\"brightness\":1.0}}}"
       },
       {
         "unit_id": "1e40044f-3b9f-4e5c-ae65-f7a37a462a92",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":60.0,\"saturation\":100.0,\"brightness\":20.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":60.0,\"saturation\":1.0,\"brightness\":0.2}}}"
       },
       {
         "unit_id": "804542df-aebc-42cb-82ef-f03a97c96bf8",
@@ -171,14 +171,14 @@
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":60.0,\"saturation\":80.0,\"brightness\":100.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":60.0,\"saturation\":0.8,\"brightness\":1.0}}}"
       },
       {
         "unit_id": "34ca3b1a-417b-4c6c-bca0-3e8e77aacf9a",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":60.0,\"saturation\":100.0,\"brightness\":20.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":60.0,\"saturation\":1.0,\"brightness\":0.2}}}"
       },
       {
         "unit_id": "47e63f5a-ff30-4b0d-905a-815f94aa8b50",

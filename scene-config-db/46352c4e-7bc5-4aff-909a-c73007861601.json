@@ -58,21 +58,21 @@
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":255.0,\"saturation\":100.0,\"brightness\":80.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":255.0,\"saturation\":1.0,\"brightness\":0.8}}}"
       },
       {
         "unit_id": "0b26889b-ff0a-4ba0-98ac-51a481c6b559",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":60.0,\"saturation\":100.0,\"brightness\":100.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":60.0,\"saturation\":1.0,\"brightness\":1.0}}}"
       },
       {
         "unit_id": "471470f4-2f37-4cef-9b6b-0299631b0690",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":252.0,\"saturation\":100.0,\"brightness\":100.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":252.0,\"saturation\":1.0,\"brightness\":1.0}}}"
       },
       {
         "unit_id": "fd3443a8-8c3e-4894-ae1b-32c5dcb1b095",
@@ -93,7 +93,7 @@
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":60.0,\"saturation\":80.0,\"brightness\":100.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":60.0,\"saturation\":0.8,\"brightness\":1.0}}}"
       }
     ]
   }

@@ -66,21 +66,21 @@
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":80.0,\"saturation\":60.0,\"brightness\":100.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":80.0,\"saturation\":0.6,\"brightness\":1.0}}}"
       },
       {
         "unit_id": "96891f9d-e7f2-449d-9871-a2d317214295",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":80.0,\"saturation\":60.0,\"brightness\":100.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":80.0,\"saturation\":0.6,\"brightness\":1.0}}}"
       },
       {
         "unit_id": "9c3561a1-e6ce-476e-9bff-0d35807d2607",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":79.99999237060547,\"saturation\":60.0,\"brightness\":100.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":79.99999237060547,\"saturation\":0.6,\"brightness\":1.0}}}"
       },
       {
         "unit_id": "98acc701-87b9-4cf2-b79b-3eb6c166e2fe",
@@ -101,7 +101,7 @@
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":79.99999237060547,\"saturation\":60.0,\"brightness\":100.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":79.99999237060547,\"saturation\":0.6,\"brightness\":1.0}}}"
       },
       {
         "unit_id": "2c95255e-a491-46d7-a6a6-f66d5e6c2d3b",
@@ -115,21 +115,21 @@
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":80.0,\"saturation\":60.0,\"brightness\":100.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":80.0,\"saturation\":0.6,\"brightness\":1.0}}}"
       },
       {
         "unit_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":80.0,\"saturation\":60.0,\"brightness\":100.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":80.0,\"saturation\":0.6,\"brightness\":1.0}}}"
       },
       {
         "unit_id": "48e43d6f-0015-40b3-895b-0ff33d4a74a4",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":80.0,\"saturation\":60.0,\"brightness\":100.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":80.0,\"saturation\":0.6,\"brightness\":1.0}}}"
       },
       {
         "unit_id": "6f6dce7d-e959-49ff-9bf9-6b15dcde3082",
@@ -143,7 +143,7 @@
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":80.0,\"saturation\":60.0,\"brightness\":100.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":80.0,\"saturation\":0.6,\"brightness\":1.0}}}"
       }
     ]
   }

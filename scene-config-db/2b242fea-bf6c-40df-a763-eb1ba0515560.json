@@ -58,14 +58,14 @@
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":80.0,\"saturation\":60.0,\"brightness\":100.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":80.0,\"saturation\":0.6,\"brightness\":1.0}}}"
       },
       {
         "unit_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":240.0,\"saturation\":60.0,\"brightness\":100.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":240.0,\"saturation\":0.6,\"brightness\":1.0}}}"
       },
       {
         "unit_id": "98acc701-87b9-4cf2-b79b-3eb6c166e2fe",
@@ -79,7 +79,7 @@
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":60.0,\"saturation\":80.0,\"brightness\":100.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":60.0,\"saturation\":0.8,\"brightness\":1.0}}}"
       },
       {
         "unit_id": "804542df-aebc-42cb-82ef-f03a97c96bf8",
@@ -100,7 +100,7 @@
         "service_type": "COLOR_STATE_SERVICE",
         "unit_type": "UNKNOWN",
         "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
-        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":53.68421052631579,\"saturation\":81.96078431372548,\"brightness\":100.0}}}"
+        "service_state": "{\"color\":{\"type\":\"HSB\",\"hsb_color\":{\"hue\":53.68421052631579,\"saturation\":0.8196078431372549,\"brightness\":1.0}}}"
       }
     ]
   }
