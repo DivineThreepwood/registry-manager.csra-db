@@ -23,15 +23,18 @@
   "unit_host_id": "91fd0efe-8c5a-42e1-942e-69da07dfa380",
   "unit_type": "BATTERY",
   "placement_config": {
-    "location_id": "0aad7cdf-6192-4f01-96cf-17bdf2bd6410",
-    "transformation_frame_id": "Battery-36"
+    "location_id": "485c5820-4da4-48b8-8221-ed59738b3dbb",
+    "transformation_frame_id": "Battery-36",
+    "pose": {
+      "translation": {},
+      "rotation": {}
+    }
   },
   "scope": {
     "component": [
       "citec",
       "csra",
-      "home",
-      "living",
+      "control",
       "window",
       "battery",
       "motionsensorwindow"

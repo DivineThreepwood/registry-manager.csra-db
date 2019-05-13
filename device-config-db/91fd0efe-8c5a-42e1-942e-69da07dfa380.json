@@ -21,16 +21,21 @@
   ],
   "unit_type": "DEVICE",
   "placement_config": {
-    "location_id": "0aad7cdf-6192-4f01-96cf-17bdf2bd6410",
+    "location_id": "485c5820-4da4-48b8-8221-ed59738b3dbb",
     "transformation_frame_id": "Device-127",
-    "shape": {}
+    "pose": {
+      "translation": {},
+      "rotation": {}
+    },
+    "shape": {
+      "bounding_box": {}
+    }
   },
   "scope": {
     "component": [
       "citec",
       "csra",
-      "home",
-      "living",
+      "control",
       "window",
       "device",
       "motionsensorwindow"
@@ -57,7 +62,7 @@
     "serial_number": "",
     "inventory_state": {
       "value": "INSTALLED",
-      "location_id": "0aad7cdf-6192-4f01-96cf-17bdf2bd6410",
+      "location_id": "485c5820-4da4-48b8-8221-ed59738b3dbb",
       "timestamp": {
         "time": 1538136877207000
       }
