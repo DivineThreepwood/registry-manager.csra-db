@@ -62,30 +62,9 @@
   "meta_config": {
     "entry": [
       {
-        "key": "INFLUXDB_URL",
-        "value": "http://localhost:8086"
-      },
-      {
-        "key": "INFLUXDB_NAME",
-        "value": "bco"
-      },
-      {
-        "key": "INFLUXDB_BATCH_TIME",
-        "value": "1000"
-      },
-      {
-        "key": "INFLUXDB_BATCH_LIMIT",
-        "value": "100"
-      },
-      {
-        "key": "INFLUXDB_RETENTION_POLICY_DURATION",
-        "value": "360d"
-      },
-      {
-        "key": "INFLUXDB_RETENTION_POLICY_NAME",
-        "value": "default_policy"
-      },
-      {}
+        "key": "INFLUXDB_TOKEN",
+        "value": "JwXkUyMvJIUVQU-itwGljVALbbliYnAsjitO1HUeHaOXi6f0KHenVQyGGbH8pWMgQ1RG8mqJJRZu_PfnIS-p4w\u003d\u003d"
+      }
     ]
   },
   "enabling_state": {
