@@ -4,9 +4,21 @@
   "label": {
     "entry": [
       {
-        "key": "en",
+        "key": "technical",
         "value": [
           "S4 C7 Consumption"
+        ]
+      },
+      {
+        "key": "en",
+        "value": [
+          "Machine 2 Ceiling"
+        ]
+      },
+      {
+        "key": "en",
+        "value": [
+          "Rechner 2 Decke"
         ]
       }
     ]
@@ -17,19 +29,27 @@
   "unit_host_id": "37a90769-5743-47fc-b843-3367bd531db9",
   "unit_type": "POWER_CONSUMPTION_SENSOR",
   "placement_config": {
-    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
     "transformation_frame_id": "PowerConsumptionSensor-5",
-    "shape": {}
+    "pose": {
+      "translation": {},
+      "rotation": {}
+    },
+    "shape": {
+      "bounding_box": {}
+    }
   },
   "scope": {
     "component": [
       "citec",
       "csra",
-      "control",
+      "home",
+      "living",
       "powerconsumptionsensor",
       "s4c7consumption"
     ]
   },
+  "description": {},
   "bound_to_unit_host": false,
   "service_config": [
     {
@@ -57,8 +77,20 @@
       "meta_config": {}
     }
   ],
-  "meta_config": {},
+  "meta_config": {
+    "entry": [
+      {
+        "key": "INFRASTRUCTURE",
+        "value": "false"
+      }
+    ]
+  },
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

@@ -23,7 +23,8 @@
       "translation": {
         "x": 1.996966724599532,
         "y": 0.6178665372512251,
-        "z": -2.3089266038229908
+        "z": -2.3089266038229908,
+        "frame_id": ""
       },
       "rotation": {
         "qw": 1.0,
@@ -32,7 +33,19 @@
         "qz": 0.0
       }
     },
-    "shape": {}
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "frame_id": ""
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
+      }
+    }
   },
   "scope": {
     "component": [
@@ -45,6 +58,7 @@
       "ceilingwindowdimmer"
     ]
   },
+  "description": {},
   "bound_to_unit_host": false,
   "service_config": [
     {
@@ -148,15 +162,13 @@
       "meta_config": {}
     }
   ],
-  "meta_config": {
-    "entry": [
-      {
-        "key": "POINTING_GESTURE",
-        "value": "true"
-      }
-    ]
-  },
+  "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

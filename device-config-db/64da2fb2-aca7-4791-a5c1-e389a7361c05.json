@@ -17,7 +17,15 @@
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
     "transformation_frame_id": "Device-56",
-    "shape": {}
+    "pose": {
+      "translation": {},
+      "rotation": {}
+    },
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {}
+      }
+    }
   },
   "scope": {
     "component": [
@@ -28,6 +36,7 @@
       "s3"
     ]
   },
+  "description": {},
   "bound_to_unit_host": false,
   "meta_config": {
     "entry": [
@@ -47,7 +56,8 @@
   "device_config": {
     "inventory_state": {
       "value": "INSTALLED",
-      "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4"
+      "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+      "timestamp": {}
     },
     "device_class_id": "b129b706-5d0f-4909-a027-8338a4446f91",
     "unit_id": [

@@ -29,7 +29,8 @@
       "translation": {
         "x": 1.872101056033997,
         "y": 0.5734885182284755,
-        "z": -2.2723207688620533
+        "z": -2.2723207688620533,
+        "frame_id": ""
       },
       "rotation": {
         "qw": 1.0,
@@ -38,7 +39,19 @@
         "qz": 0.0
       }
     },
-    "shape": {}
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "frame_id": ""
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
+      }
+    }
   },
   "scope": {
     "component": [
@@ -181,8 +194,20 @@
       "meta_config": {}
     }
   ],
-  "meta_config": {},
+  "meta_config": {
+    "entry": [
+      {
+        "key": "POINTING_GESTURE",
+        "value": "true"
+      }
+    ]
+  },
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

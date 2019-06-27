@@ -4,9 +4,21 @@
   "label": {
     "entry": [
       {
-        "key": "en",
+        "key": "technical",
         "value": [
           "S3 A2"
+        ]
+      },
+      {
+        "key": "en",
+        "value": [
+          "Kettle"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Wasserkocher"
         ]
       }
     ]
@@ -18,9 +30,15 @@
   "unit_host_id": "64da2fb2-aca7-4791-a5c1-e389a7361c05",
   "unit_type": "POWER_CONSUMPTION_SENSOR",
   "placement_config": {
-    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+    "location_id": "8b787be0-45c2-4c7f-b3a3-7a6b73040df0",
     "transformation_frame_id": "PowerConsumptionSensor-52",
-    "shape": {}
+    "pose": {
+      "translation": {},
+      "rotation": {}
+    },
+    "shape": {
+      "bounding_box": {}
+    }
   },
   "scope": {
     "component": [
@@ -28,6 +46,7 @@
       "csra",
       "home",
       "kitchen",
+      "assistance",
       "powerconsumptionsensor",
       "s3a2"
     ]
@@ -67,8 +86,20 @@
       "meta_config": {}
     }
   ],
-  "meta_config": {},
+  "meta_config": {
+    "entry": [
+      {
+        "key": "INFRASTRUCTURE",
+        "value": "false"
+      }
+    ]
+  },
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

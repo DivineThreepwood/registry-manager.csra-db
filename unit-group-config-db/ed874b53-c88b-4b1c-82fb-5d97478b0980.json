@@ -131,7 +131,7 @@
     ]
   },
   "enabling_state": {
-    "value": "DISABLED"
+    "value": "ENABLED"
   },
   "unit_group_config": {
     "member_id": [

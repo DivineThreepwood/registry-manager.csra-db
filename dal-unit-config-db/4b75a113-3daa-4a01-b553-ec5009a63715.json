@@ -19,6 +19,7 @@
   "placement_config": {
     "location_id": "eb89de19-36db-4f26-b8a5-a75df850892e",
     "transformation_frame_id": "PowerConsumptionSensor-66",
+    "pose": {},
     "shape": {}
   },
   "scope": {
@@ -32,6 +33,7 @@
       "tv"
     ]
   },
+  "description": {},
   "bound_to_unit_host": false,
   "service_config": [
     {
@@ -59,7 +61,14 @@
       "meta_config": {}
     }
   ],
-  "meta_config": {},
+  "meta_config": {
+    "entry": [
+      {
+        "key": "INFRASTRUCTURE",
+        "value": "false"
+      }
+    ]
+  },
   "enabling_state": {
     "value": "ENABLED"
   }
