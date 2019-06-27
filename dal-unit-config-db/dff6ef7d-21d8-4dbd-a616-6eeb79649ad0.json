@@ -6,19 +6,19 @@
       {
         "key": "technical",
         "value": [
-          "S6 C4 Consumption"
+          "S6 A4 Consumption"
         ]
       },
       {
         "key": "en",
         "value": [
-          "Machines Ceiling Consumption"
+          "Machines Ceiling"
         ]
       },
       {
         "key": "de",
         "value": [
-          "Rechner Decke Stromverbrauch"
+          "Rechner Decke"
         ]
       }
     ]
@@ -46,7 +46,7 @@
       "home",
       "living",
       "powerconsumptionsensor",
-      "s6c4consumption"
+      "s6a4consumption"
     ]
   },
   "description": {},
@@ -87,5 +87,10 @@
   },
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }
