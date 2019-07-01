@@ -12,13 +12,15 @@
     ]
   },
   "alias": [
-    "Button-52"
+    "Button-52",
+    "Scene: Meeting"
   ],
   "unit_host_id": "acb2a103-1c5c-4023-96d5-c88b8a9a042c",
   "unit_type": "BUTTON",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
     "transformation_frame_id": "Button-52",
+    "pose": {},
     "shape": {}
   },
   "scope": {
@@ -31,6 +33,7 @@
       "scenemeeting"
     ]
   },
+  "description": {},
   "bound_to_unit_host": false,
   "service_config": [
     {
@@ -62,5 +65,10 @@
   "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

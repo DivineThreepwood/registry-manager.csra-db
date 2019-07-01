@@ -12,7 +12,8 @@
     ]
   },
   "alias": [
-    "Button-25"
+    "Button-25",
+    "Task: Elan"
   ],
   "unit_host_id": "d9e491b1-27b3-4736-9ce0-c52476e827d3",
   "unit_type": "BUTTON",
@@ -44,6 +45,7 @@
       "taskelan"
     ]
   },
+  "description": {},
   "bound_to_unit_host": false,
   "service_config": [
     {

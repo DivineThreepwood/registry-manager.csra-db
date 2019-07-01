@@ -12,13 +12,15 @@
     ]
   },
   "alias": [
-    "Button-30"
+    "Button-30",
+    "Scene: Dinner"
   ],
   "unit_host_id": "a9b55776-57b2-4589-a90c-dccb1fc7324e",
   "unit_type": "BUTTON",
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
     "transformation_frame_id": "Button-30",
+    "pose": {},
     "shape": {}
   },
   "scope": {
@@ -31,6 +33,7 @@
       "scenedinner"
     ]
   },
+  "description": {},
   "bound_to_unit_host": false,
   "service_config": [
     {

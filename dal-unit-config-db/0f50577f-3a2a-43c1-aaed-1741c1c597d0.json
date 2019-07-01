@@ -12,13 +12,15 @@
     ]
   },
   "alias": [
-    "Button-13"
+    "Button-13",
+    "Default Apartment"
   ],
   "unit_host_id": "933f4d62-769a-4975-ad8d-45d36912b68b",
   "unit_type": "BUTTON",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
     "transformation_frame_id": "Button-13",
+    "pose": {},
     "shape": {}
   },
   "scope": {
@@ -31,6 +33,7 @@
       "defaultapartment"
     ]
   },
+  "description": {},
   "bound_to_unit_host": false,
   "service_config": [
     {

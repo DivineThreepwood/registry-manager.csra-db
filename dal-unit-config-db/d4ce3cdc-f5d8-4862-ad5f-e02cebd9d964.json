@@ -12,13 +12,15 @@
     ]
   },
   "alias": [
-    "Button-26"
+    "Button-26",
+    "Task: Auto Light"
   ],
   "unit_host_id": "d9e491b1-27b3-4736-9ce0-c52476e827d3",
   "unit_type": "BUTTON",
   "placement_config": {
     "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
     "transformation_frame_id": "Button-26",
+    "pose": {},
     "shape": {}
   },
   "scope": {
@@ -31,6 +33,7 @@
       "taskautolight"
     ]
   },
+  "description": {},
   "bound_to_unit_host": false,
   "service_config": [
     {

@@ -1,0 +1,171 @@
+{
+  "id": "a62b7654-45f3-4e44-93c5-a7e4254d4458",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Test Group"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "UnitGroup-9"
+  ],
+  "unit_type": "UNIT_GROUP",
+  "placement_config": {
+    "location_id": "5964181e-adad-4306-a1bb-c89eb86b4d82",
+    "transformation_frame_id": "UnitGroup-9",
+    "pose": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "citec",
+      "csra",
+      "control",
+      "center",
+      "unitgroup",
+      "testgroup"
+    ]
+  },
+  "description": {},
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "a62b7654-45f3-4e44-93c5-a7e4254d4458",
+      "service_description": {
+        "service_template_id": "0f9527d7-d6f8-4a09-af14-1a8d91c264bd",
+        "service_type": "COLOR_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "aggregated": true,
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "a62b7654-45f3-4e44-93c5-a7e4254d4458",
+      "service_description": {
+        "service_template_id": "0f9527d7-d6f8-4a09-af14-1a8d91c264bd",
+        "service_type": "COLOR_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "aggregated": true,
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "a62b7654-45f3-4e44-93c5-a7e4254d4458",
+      "service_description": {
+        "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
+        "service_type": "POWER_STATE_SERVICE",
+        "aggregated": true,
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "a62b7654-45f3-4e44-93c5-a7e4254d4458",
+      "service_description": {
+        "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
+        "service_type": "POWER_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "aggregated": true,
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "a62b7654-45f3-4e44-93c5-a7e4254d4458",
+      "service_description": {
+        "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
+        "service_type": "BRIGHTNESS_STATE_SERVICE",
+        "aggregated": true,
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "a62b7654-45f3-4e44-93c5-a7e4254d4458",
+      "service_description": {
+        "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
+        "service_type": "BRIGHTNESS_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "aggregated": true,
+        "meta_config": {}
+      }
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "unit_group_config": {
+    "member_id": [
+      "f1397800-9741-401d-a46f-8bf139c12e92"
+    ],
+    "unit_type": "COLORABLE_LIGHT",
+    "service_description": [
+      {
+        "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
+        "service_type": "BRIGHTNESS_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
+      },
+      {
+        "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
+        "service_type": "BRIGHTNESS_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      },
+      {
+        "service_template_id": "0f9527d7-d6f8-4a09-af14-1a8d91c264bd",
+        "service_type": "COLOR_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
+      },
+      {
+        "service_template_id": "0f9527d7-d6f8-4a09-af14-1a8d91c264bd",
+        "service_type": "COLOR_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      },
+      {
+        "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
+        "service_type": "POWER_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
+      },
+      {
+        "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
+        "service_type": "POWER_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    ]
+  }
+}

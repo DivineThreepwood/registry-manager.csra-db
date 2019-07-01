@@ -23,6 +23,7 @@
   "placement_config": {
     "location_id": "8b787be0-45c2-4c7f-b3a3-7a6b73040df0",
     "transformation_frame_id": "Device-131",
+    "pose": {},
     "shape": {}
   },
   "scope": {
@@ -40,7 +41,7 @@
   "bound_to_unit_host": true,
   "meta_config": {},
   "enabling_state": {
-    "value": "DISABLED"
+    "value": "ENABLED"
   },
   "device_config": {
     "inventory_state": {
