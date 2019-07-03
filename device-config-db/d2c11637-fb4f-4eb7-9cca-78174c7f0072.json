@@ -50,7 +50,7 @@
       },
       {
         "key": "INFRASTRUCTURE",
-        "value": "true"
+        "value": "false"
       },
       {
         "key": "OPENHAB_THING_UID",

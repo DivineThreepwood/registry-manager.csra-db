@@ -11,12 +11,15 @@
     ]
   },
   "alias": [
-    "Scene-14"
+    "Scene-14",
+    "Dinner"
   ],
   "unit_type": "SCENE",
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
-    "transformation_frame_id": "Scene-14"
+    "transformation_frame_id": "Scene-14",
+    "pose": {},
+    "shape": {}
   },
   "scope": {
     "component": [
@@ -28,6 +31,7 @@
       "dinner"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {},
@@ -49,6 +53,7 @@
       }
     }
   ],
+  "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"
   },

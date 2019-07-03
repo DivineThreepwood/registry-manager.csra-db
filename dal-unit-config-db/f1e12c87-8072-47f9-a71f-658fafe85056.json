@@ -12,13 +12,15 @@
     ]
   },
   "alias": [
-    "Button-51"
+    "Button-51",
+    "Scene: Default - Robot"
   ],
   "unit_host_id": "e8815586-ddf8-490a-99e1-5592a2014b55",
   "unit_type": "BUTTON",
   "placement_config": {
     "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
     "transformation_frame_id": "Button-51",
+    "pose": {},
     "shape": {}
   },
   "scope": {
@@ -30,6 +32,7 @@
       "defaultapartment"
     ]
   },
+  "description": {},
   "bound_to_unit_host": false,
   "service_config": [
     {

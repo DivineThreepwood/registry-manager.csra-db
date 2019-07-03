@@ -11,12 +11,15 @@
     ]
   },
   "alias": [
-    "Scene-21"
+    "Scene-21",
+    "Chill"
   ],
   "unit_type": "SCENE",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
-    "transformation_frame_id": "Scene-21"
+    "transformation_frame_id": "Scene-21",
+    "pose": {},
+    "shape": {}
   },
   "scope": {
     "component": [
@@ -27,6 +30,7 @@
       "chill"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {},
@@ -48,6 +52,7 @@
       }
     }
   ],
+  "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"
   },

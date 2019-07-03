@@ -1,0 +1,116 @@
+{
+  "id": "1fd9b233-9dd5-49ed-b8b2-67fb9239290e",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Control Room Rresence Light@Control"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "User-47"
+  ],
+  "unit_type": "USER",
+  "placement_config": {
+    "location_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
+    "transformation_frame_id": "User-47"
+  },
+  "scope": {
+    "component": [
+      "manager",
+      "user",
+      "controlroomrresencelightcontrol"
+    ]
+  },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "1fd9b233-9dd5-49ed-b8b2-67fb9239290e",
+      "service_description": {
+        "service_template_id": "14bf74e2-dce4-47c7-9c58-cc85dea24ed5",
+        "service_type": "ACTIVITY_MULTI_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "1fd9b233-9dd5-49ed-b8b2-67fb9239290e",
+      "service_description": {
+        "service_template_id": "14bf74e2-dce4-47c7-9c58-cc85dea24ed5",
+        "service_type": "ACTIVITY_MULTI_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "1fd9b233-9dd5-49ed-b8b2-67fb9239290e",
+      "service_description": {
+        "service_template_id": "5d664e5a-6fa3-433a-a1e0-ca81d79aacff",
+        "service_type": "PRESENCE_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "1fd9b233-9dd5-49ed-b8b2-67fb9239290e",
+      "service_description": {
+        "service_template_id": "5d664e5a-6fa3-433a-a1e0-ca81d79aacff",
+        "service_type": "PRESENCE_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "1fd9b233-9dd5-49ed-b8b2-67fb9239290e",
+      "service_description": {
+        "service_template_id": "4537a330-af91-4499-bc3b-3c559e9b6ea0",
+        "service_type": "USER_TRANSIT_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "1fd9b233-9dd5-49ed-b8b2-67fb9239290e",
+      "service_description": {
+        "service_template_id": "4537a330-af91-4499-bc3b-3c559e9b6ea0",
+        "service_type": "USER_TRANSIT_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "UNIT_ID",
+        "value": "e2141634-cb91-4c22-9114-95603502f6d4"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "user_config": {
+    "user_name": "Control Room Rresence Light@Control",
+    "system_user": true,
+    "language": "en"
+  },
+  "permission_config": {
+    "owner_id": "1fd9b233-9dd5-49ed-b8b2-67fb9239290e",
+    "owner_permission": {
+      "read": true,
+      "write": true,
+      "access": true
+    },
+    "other_permission": {
+      "read": false,
+      "write": false,
+      "access": false
+    }
+  }
+}

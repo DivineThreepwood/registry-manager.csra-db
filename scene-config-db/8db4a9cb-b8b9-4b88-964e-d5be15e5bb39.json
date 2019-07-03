@@ -11,12 +11,15 @@
     ]
   },
   "alias": [
-    "Scene-11"
+    "Scene-11",
+    "Reading"
   ],
   "unit_type": "SCENE",
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
-    "transformation_frame_id": "Scene-11"
+    "transformation_frame_id": "Scene-11",
+    "pose": {},
+    "shape": {}
   },
   "scope": {
     "component": [
@@ -28,6 +31,7 @@
       "reading"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {},
@@ -49,6 +53,7 @@
       }
     }
   ],
+  "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"
   },

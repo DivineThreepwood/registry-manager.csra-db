@@ -12,7 +12,8 @@
     ]
   },
   "alias": [
-    "Button-33"
+    "Button-33",
+    "Scene: Default - Entrance"
   ],
   "unit_host_id": "a33d0c22-346c-42ca-bed5-c72019700729",
   "unit_type": "BUTTON",
@@ -41,6 +42,7 @@
       "defaultapartment"
     ]
   },
+  "description": {},
   "bound_to_unit_host": true,
   "service_config": [
     {

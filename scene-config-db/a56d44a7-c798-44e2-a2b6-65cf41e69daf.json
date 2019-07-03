@@ -11,12 +11,14 @@
     ]
   },
   "alias": [
-    "Scene-23"
+    "Scene-23",
+    "Default"
   ],
   "unit_type": "SCENE",
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
     "transformation_frame_id": "Scene-23",
+    "pose": {},
     "shape": {}
   },
   "scope": {
@@ -28,6 +30,7 @@
       "default"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {
