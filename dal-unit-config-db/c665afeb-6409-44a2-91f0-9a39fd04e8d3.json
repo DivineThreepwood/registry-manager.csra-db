@@ -4,9 +4,21 @@
   "label": {
     "entry": [
       {
-        "key": "en",
+        "key": "technical",
         "value": [
           "S1 C7 Consumption"
+        ]
+      },
+      {
+        "key": "en",
+        "value": [
+          "Fridge"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Kühlschrank"
         ]
       }
     ]
@@ -17,19 +29,33 @@
   "unit_host_id": "01bbbce7-fa7d-4215-9105-fc44f9d6ead1",
   "unit_type": "POWER_CONSUMPTION_SENSOR",
   "placement_config": {
-    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
     "transformation_frame_id": "PowerConsumptionSensor-67",
-    "shape": {}
+    "pose": {
+      "translation": {
+        "x": 2.1,
+        "y": 0.3,
+        "z": 2.0
+      },
+      "rotation": {}
+    },
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {}
+      }
+    }
   },
   "scope": {
     "component": [
       "citec",
       "csra",
-      "control",
+      "home",
+      "kitchen",
       "powerconsumptionsensor",
       "s1c7consumption"
     ]
   },
+  "description": {},
   "bound_to_unit_host": false,
   "service_config": [
     {
