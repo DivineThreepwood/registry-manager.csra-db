@@ -7,6 +7,12 @@
         "value": [
           "Interaction"
         ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Interaktionsinsel"
+        ]
       }
     ]
   },
@@ -113,6 +119,7 @@
       "interaction"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {},
@@ -321,16 +328,33 @@
     "location_type": "REGION",
     "root": false,
     "unit_id": [
-      "65a22ae1-d80c-4b34-b1a0-9f3319718bfd",
       "e0816dc4-f3a1-40e5-bc2d-c490a818eff4",
+      "1e828d2d-9b1b-4f17-8a0e-261b0cfee163",
       "6a7bcd7c-4662-413e-b8fd-b0d824cbc245",
+      "e1f041d0-f2fc-4347-a44f-519638c3f106",
+      "f1533557-43df-4bbe-9795-47afb0734639",
       "fec3cb67-ab1a-4f5d-8ea3-7e3c5d68a287",
+      "2987896f-8994-4887-9778-f44abb767392",
+      "370f5eab-dbd8-4adc-acbb-dcc2a5433b05",
+      "66463782-645c-4a5b-a357-8e3e78fadd6e",
+      "37786046-c8ff-4458-82e7-9305da25879f",
+      "e9613a00-1cee-4d14-93a9-873d98ab206c",
       "80de8bfe-04a0-455a-94b8-f27b2ffabd16",
+      "f1463d78-654a-43c7-987b-88b6c85e2b91",
+      "704a1425-34c0-442d-b2e7-ccbe9127e31e",
+      "f7f9ebc3-ff3c-47f9-9442-c9e2713b5bdb",
       "d42de094-e6f5-434e-a443-cd1ec3d81ef9",
-      "4d4bc135-b6d8-4e21-82fa-57509403bef3"
+      "4d4bc135-b6d8-4e21-82fa-57509403bef3",
+      "2b409749-ae78-4b57-8cc2-f3a6e09c6de7",
+      "65a22ae1-d80c-4b34-b1a0-9f3319718bfd",
+      "a85d3935-eea4-4109-adca-a41d6d2b3226",
+      "7f61cec5-75b6-4a07-b4ab-d6c5b22d7744",
+      "38303686-aee6-42f7-bfb5-308a3ae4d032",
+      "0ce9f67b-4e60-47c6-b00f-6e7626e2e17a"
     ],
     "tile_config": {
       "meta_config": {}
-    }
+    },
+    "global_position": {}
   }
 }

@@ -4,9 +4,9 @@
   "label": {
     "entry": [
       {
-        "key": "en",
+        "key": "technical",
         "value": [
-          "S9 C1"
+          "S9 A1"
         ]
       }
     ]
@@ -19,7 +19,28 @@
   "placement_config": {
     "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
     "transformation_frame_id": "PowerSwitch-21",
-    "shape": {}
+    "pose": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "frame_id": ""
+      },
+      "rotation": {}
+    },
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "frame_id": ""
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
+      }
+    }
   },
   "scope": {
     "component": [
@@ -27,7 +48,19 @@
       "csra",
       "control",
       "powerswitch",
-      "s9c1"
+      "s9a1"
+    ]
+  },
+  "description": {
+    "entry": [
+      {
+        "key": "de",
+        "value": "nicht angechlossen, nicht verwendet"
+      },
+      {
+        "key": "en",
+        "value": "not connected, not used"
+      }
     ]
   },
   "bound_to_unit_host": false,
@@ -81,5 +114,10 @@
   "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

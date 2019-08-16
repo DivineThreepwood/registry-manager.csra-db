@@ -1,0 +1,57 @@
+{
+  "id": "d2206d93-fe75-48ce-8b99-df0cba9fea33",
+  "label": {
+    "entry": [
+      {
+        "key": "technical",
+        "value": [
+          "7"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Device-133"
+  ],
+  "unit_type": "DEVICE",
+  "placement_config": {
+    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+    "transformation_frame_id": "Device-133",
+    "pose": {
+      "translation": {},
+      "rotation": {}
+    },
+    "shape": {
+      "bounding_box": {}
+    }
+  },
+  "scope": {
+    "component": [
+      "citec",
+      "csra",
+      "home",
+      "kitchen",
+      "device",
+      "7"
+    ]
+  },
+  "description": {},
+  "bound_to_unit_host": true,
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "7",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+      "timestamp": {}
+    },
+    "device_class_id": "7d6d56c2-9bd7-45cf-a3fd-26bce7804e0a",
+    "unit_id": [
+      "952b3968-4afa-4015-9649-03437f9f436c",
+      "2433fa0f-5b2a-48d0-bbf0-63acfbf14eeb"
+    ]
+  }
+}

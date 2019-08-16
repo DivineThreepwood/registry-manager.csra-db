@@ -12,13 +12,13 @@
       {
         "key": "de",
         "value": [
-          "Doppelsteckdose Links"
+          "Doppelsteckdose links"
         ]
       },
       {
         "key": "en",
         "value": [
-          "Double Socket Left"
+          "Double socket left"
         ]
       }
     ]
@@ -31,6 +31,15 @@
   "placement_config": {
     "location_id": "eb89de19-36db-4f26-b8a5-a75df850892e",
     "transformation_frame_id": "PowerSwitch-39",
+    "pose": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "frame_id": ""
+      },
+      "rotation": {}
+    },
     "shape": {
       "bounding_box": {
         "left_front_bottom": {

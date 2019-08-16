@@ -4,9 +4,21 @@
   "label": {
     "entry": [
       {
+        "key": "technical",
+        "value": [
+          "S3 A6"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Neben Spiegel"
+        ]
+      },
+      {
         "key": "en",
         "value": [
-          "S3 C6"
+          "Next to mirror"
         ]
       }
     ]
@@ -17,19 +29,43 @@
   "unit_host_id": "64da2fb2-aca7-4791-a5c1-e389a7361c05",
   "unit_type": "POWER_SWITCH",
   "placement_config": {
-    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+    "location_id": "f5dd3070-a8fc-46ae-9a18-e0adc7130c73",
     "transformation_frame_id": "PowerSwitch-9",
-    "shape": {}
+    "pose": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "frame_id": ""
+      },
+      "rotation": {}
+    },
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "frame_id": ""
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
+      }
+    }
   },
   "scope": {
     "component": [
       "citec",
       "csra",
-      "control",
+      "home",
+      "bath",
+      "basin",
       "powerswitch",
-      "s3c6"
+      "s3a6"
     ]
   },
+  "description": {},
   "bound_to_unit_host": false,
   "service_config": [
     {
@@ -82,8 +118,20 @@
       "meta_config": {}
     }
   ],
-  "meta_config": {},
+  "meta_config": {
+    "entry": [
+      {
+        "key": "INFRASTRUCTURE",
+        "value": "false"
+      }
+    ]
+  },
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

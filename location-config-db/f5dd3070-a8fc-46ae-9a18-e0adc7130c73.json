@@ -7,6 +7,12 @@
         "value": [
           "Basin"
         ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Waschbecken"
+        ]
       }
     ]
   },
@@ -114,6 +120,7 @@
       "basin"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {},
@@ -322,15 +329,22 @@
     "location_type": "REGION",
     "root": false,
     "unit_id": [
+      "2fbc5fed-3b96-4cdb-b6f6-7c54c41ff409",
       "55a77b93-6703-4738-9d22-3c994178ea72",
       "4a4938b3-72c3-4bd2-8c19-0e30a6e7f472",
+      "d9609f82-0cfc-4ae2-b6ca-b08ade0372cb",
       "385d4f0e-f7e3-48b0-a8a1-450687f78db6",
       "7eb843b9-543d-4bcd-a90f-527438e8873e",
+      "f2054772-83be-4f6e-be3f-908e161d64a2",
+      "dbc8745d-241d-4381-b91d-d352311a99f2",
       "7d43ca80-9db4-4250-96ce-180fe506b995",
-      "5a83b039-a374-4829-a40c-75505ef1476f"
+      "a4e87ef0-6fd3-4f07-9f54-5eac3554727e",
+      "5a83b039-a374-4829-a40c-75505ef1476f",
+      "c69dc31e-4a40-44f9-9abc-5cccc111a8b5"
     ],
     "tile_config": {
       "meta_config": {}
-    }
+    },
+    "global_position": {}
   }
 }

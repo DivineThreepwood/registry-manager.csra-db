@@ -6,19 +6,19 @@
       {
         "key": "technical",
         "value": [
-          "S4 C7 Consumption"
+          "S4 C7"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "BSK 4 rechts"
         ]
       },
       {
         "key": "en",
         "value": [
-          "Machine 2 Ceiling"
-        ]
-      },
-      {
-        "key": "en",
-        "value": [
-          "Rechner 2 Decke"
+          "Parapet channel 4 right"
         ]
       }
     ]
@@ -29,24 +29,38 @@
   "unit_host_id": "37a90769-5743-47fc-b843-3367bd531db9",
   "unit_type": "POWER_CONSUMPTION_SENSOR",
   "placement_config": {
-    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
     "transformation_frame_id": "PowerConsumptionSensor-5",
     "pose": {
-      "translation": {},
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "frame_id": ""
+      },
       "rotation": {}
     },
     "shape": {
-      "bounding_box": {}
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "frame_id": ""
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
+      }
     }
   },
   "scope": {
     "component": [
       "citec",
       "csra",
-      "home",
-      "living",
+      "robotroom",
       "powerconsumptionsensor",
-      "s4c7consumption"
+      "s4c7"
     ]
   },
   "description": {},

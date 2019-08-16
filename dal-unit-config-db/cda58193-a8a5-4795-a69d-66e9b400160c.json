@@ -4,9 +4,21 @@
   "label": {
     "entry": [
       {
+        "key": "technical",
+        "value": [
+          "S1 A1"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Tuer Rechts"
+        ]
+      },
+      {
         "key": "en",
         "value": [
-          "S1 C1"
+          "Door Right"
         ]
       }
     ]
@@ -17,19 +29,41 @@
   "unit_host_id": "01bbbce7-fa7d-4215-9105-fc44f9d6ead1",
   "unit_type": "POWER_SWITCH",
   "placement_config": {
-    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+    "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
     "transformation_frame_id": "PowerSwitch-62",
-    "shape": {}
+    "pose": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "frame_id": ""
+      },
+      "rotation": {}
+    },
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "frame_id": ""
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
+      }
+    }
   },
   "scope": {
     "component": [
       "citec",
       "csra",
-      "control",
+      "robotroom",
       "powerswitch",
-      "s1c1"
+      "s1a1"
     ]
   },
+  "description": {},
   "bound_to_unit_host": false,
   "service_config": [
     {
@@ -78,8 +112,20 @@
       "meta_config": {}
     }
   ],
-  "meta_config": {},
+  "meta_config": {
+    "entry": [
+      {
+        "key": "INFRASTRUCTURE",
+        "value": "false"
+      }
+    ]
+  },
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

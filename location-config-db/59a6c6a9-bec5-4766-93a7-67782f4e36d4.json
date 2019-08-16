@@ -7,6 +7,12 @@
         "value": [
           "Dining"
         ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Essecke"
+        ]
       }
     ]
   },
@@ -115,6 +121,7 @@
       "dining"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {
@@ -387,16 +394,22 @@
       "646e0296-d189-4d31-b051-676979dcf1c3",
       "e0ed255a-21c1-4293-9283-f0ddc3aa242a",
       "807f30a3-f9b6-424c-8c1c-9127f12a905c",
+      "2a136b80-936e-43f0-a0e9-80ce35a3183b",
       "8a17706f-f479-46ab-bdeb-ad7ec59dfacc",
       "f2039c78-b344-494c-9f99-f7c8ad4a04f8",
+      "7012a0f7-f9c2-4b8c-87c4-695fe61fa9a4",
       "045b1d5c-1109-43e6-b5f6-dcf2b0b2ffdc",
       "b59bd1f5-0775-478a-b722-a2edbebf1b80",
+      "dff6ef7d-21d8-4dbd-a616-6eeb79649ad0",
       "65fcfdba-64bb-4d33-b37c-bbe7f6f807f3",
       "7d47fffe-96b8-4e85-9465-ec2baa4284c3",
+      "e1b431de-be4d-424b-9abd-4136c151c206",
       "335b96cd-b2a5-4066-8a20-1aae7bc60a18",
+      "93235376-795e-41ac-a43a-c44ed9fb30c5",
       "26be053f-823c-4f78-b666-d020ad9b63e9",
       "e800c2ca-a93c-401d-9310-07ee9d96e1aa",
       "fdaa2517-6e70-4d8f-836a-d33e21a3465b",
+      "b735b5bf-601e-44de-8979-9b9565940e06",
       "a0f696f1-ae5d-4c9a-b67e-f052212ab970",
       "ce0cf493-3785-43c5-9069-3e8ff2ba640a",
       "76ed8aec-fcc7-4e3b-a09b-f723b38ea5ab",
@@ -410,9 +423,12 @@
     ],
     "tile_config": {
       "meta_config": {}
-    }
+    },
+    "global_position": {}
   },
   "permission_config": {
+    "owner_permission": {},
+    "other_permission": {},
     "group_permission": [
       {
         "group_id": "ce6cf133-1f8f-4544-847b-0c28683b5455",

@@ -4,9 +4,21 @@
   "label": {
     "entry": [
       {
+        "key": "technical",
+        "value": [
+          "S8 A6"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Deckenleuchte"
+        ]
+      },
+      {
         "key": "en",
         "value": [
-          "S8 C6"
+          "Ceiling light"
         ]
       }
     ]
@@ -19,7 +31,28 @@
   "placement_config": {
     "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
     "transformation_frame_id": "PowerSwitch-34",
-    "shape": {}
+    "pose": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "frame_id": ""
+      },
+      "rotation": {}
+    },
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "frame_id": ""
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
+      }
+    }
   },
   "scope": {
     "component": [
@@ -28,7 +61,7 @@
       "home",
       "kitchen",
       "powerswitch",
-      "s8c6"
+      "s8a6"
     ]
   },
   "description": {
@@ -97,5 +130,10 @@
   },
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

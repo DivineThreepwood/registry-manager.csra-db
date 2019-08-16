@@ -7,6 +7,12 @@
         "value": [
           "All Off Apartment"
         ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Alles ausschalten Apartment"
+        ]
       }
     ]
   },
@@ -17,7 +23,13 @@
   "placement_config": {
     "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
     "transformation_frame_id": "Scene-17",
-    "shape": {}
+    "pose": {
+      "translation": {},
+      "rotation": {}
+    },
+    "shape": {
+      "bounding_box": {}
+    }
   },
   "scope": {
     "component": [
@@ -28,6 +40,7 @@
       "alloffapartment"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {
@@ -97,5 +110,10 @@
         "service_state": "{\"value\":\"OFF\"}"
       }
     ]
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

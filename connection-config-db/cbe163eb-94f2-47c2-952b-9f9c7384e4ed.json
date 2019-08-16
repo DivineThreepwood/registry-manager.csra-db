@@ -5,7 +5,13 @@
       {
         "key": "en",
         "value": [
-          "Sports to Control Door"
+          "Robotroom to Control Door"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Roboterraum Kontrollraum Tür"
         ]
       }
     ]
@@ -70,9 +76,10 @@
       "citec",
       "csra",
       "connection",
-      "sportstocontroldoor"
+      "robotroomtocontroldoor"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {

@@ -7,6 +7,12 @@
         "value": [
           "Shower"
         ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Dusche"
+        ]
       }
     ]
   },
@@ -114,6 +120,7 @@
       "shower"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {},
@@ -331,6 +338,7 @@
     ],
     "tile_config": {
       "meta_config": {}
-    }
+    },
+    "global_position": {}
   }
 }

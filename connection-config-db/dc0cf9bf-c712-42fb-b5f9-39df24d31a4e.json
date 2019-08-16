@@ -5,7 +5,13 @@
       {
         "key": "en",
         "value": [
-          "Sports Window"
+          "Robotroom Window"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Roboterraum Fenster"
         ]
       }
     ]
@@ -69,9 +75,10 @@
     "component": [
       "citec",
       "connection",
-      "sportswindow"
+      "robotroomwindow"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {

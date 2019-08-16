@@ -7,6 +7,12 @@
         "value": [
           "Entrance"
         ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Eingang"
+        ]
       }
     ]
   },
@@ -114,6 +120,7 @@
       "entrance"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {},
@@ -327,20 +334,26 @@
       "9b6a783a-fb57-4237-be45-b2477d83da9d",
       "cb2d3e9f-e5a1-4950-b4d6-786be5eeef47",
       "c0a82127-ab4f-4c75-9f61-96a2a208bf7a",
+      "613cfbee-c473-421e-96d0-ee1de531f7b5",
       "8db53c2d-2c98-4b0d-b0b0-2e0f0127741c",
       "34084c5f-46bf-4e88-84f4-0110530f6e47",
       "a721ee69-8a01-4567-982b-ee498be702cb",
       "e4b90f9a-923a-4300-80a5-e2e2aa10347d",
       "053019e3-51aa-48be-bd16-b16da6e99519",
+      "a7061002-3945-47e1-a346-6cb45b5fd3be",
       "c88db10a-8d41-4091-a301-508f4fba70a1",
       "88f06270-9441-4afc-8a8d-54a7ab4aaef6",
       "3e189be5-1e78-47dd-9507-b17b6b282e24"
     ],
     "tile_config": {
       "meta_config": {}
-    }
+    },
+    "global_position": {}
   },
   "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {},
     "group_permission": [
       {
         "group_id": "70187d0b-e654-4a67-9c2e-f1c7ea1ca9d1",

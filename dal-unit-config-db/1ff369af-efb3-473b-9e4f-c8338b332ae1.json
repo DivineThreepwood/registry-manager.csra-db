@@ -31,6 +31,15 @@
   "placement_config": {
     "location_id": "eb89de19-36db-4f26-b8a5-a75df850892e",
     "transformation_frame_id": "PowerSwitch-54",
+    "pose": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "frame_id": ""
+      },
+      "rotation": {}
+    },
     "shape": {
       "bounding_box": {
         "left_front_bottom": {
@@ -105,7 +114,14 @@
       "meta_config": {}
     }
   ],
-  "meta_config": {},
+  "meta_config": {
+    "entry": [
+      {
+        "key": "INFRASTRUCTURE",
+        "value": "false"
+      }
+    ]
+  },
   "enabling_state": {
     "value": "ENABLED"
   },

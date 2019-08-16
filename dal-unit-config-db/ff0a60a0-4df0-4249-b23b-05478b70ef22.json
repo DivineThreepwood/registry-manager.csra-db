@@ -4,9 +4,21 @@
   "label": {
     "entry": [
       {
+        "key": "technical",
+        "value": [
+          "S1 C4"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Tuer"
+        ]
+      },
+      {
         "key": "en",
         "value": [
-          "S1 C4 Consumption"
+          "Door"
         ]
       }
     ]
@@ -17,19 +29,42 @@
   "unit_host_id": "01bbbce7-fa7d-4215-9105-fc44f9d6ead1",
   "unit_type": "POWER_CONSUMPTION_SENSOR",
   "placement_config": {
-    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+    "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
     "transformation_frame_id": "PowerConsumptionSensor-34",
-    "shape": {}
+    "pose": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "frame_id": ""
+      },
+      "rotation": {}
+    },
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "frame_id": ""
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
+      }
+    }
   },
   "scope": {
     "component": [
       "citec",
       "csra",
-      "control",
+      "home",
+      "bath",
       "powerconsumptionsensor",
-      "s1c4consumption"
+      "s1c4"
     ]
   },
+  "description": {},
   "bound_to_unit_host": false,
   "service_config": [
     {
@@ -60,5 +95,10 @@
   "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

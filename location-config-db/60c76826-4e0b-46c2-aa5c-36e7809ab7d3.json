@@ -7,6 +7,12 @@
         "value": [
           "Sink"
         ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Spüle"
+        ]
       }
     ]
   },
@@ -30,7 +36,9 @@
         "qz": 0.0
       }
     },
-    "shape": {}
+    "shape": {
+      "bounding_box": {}
+    }
   },
   "scope": {
     "component": [
@@ -41,6 +49,7 @@
       "sink"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {},
@@ -248,8 +257,15 @@
   "location_config": {
     "location_type": "REGION",
     "root": false,
+    "unit_id": [
+      "2aeae649-08f5-4b7d-84cf-27e22c073119",
+      "7219729b-5ae7-41b7-b3ea-804ea07acd37",
+      "8e04b5f9-2164-430b-9de8-f2208019971d",
+      "3153bef6-7036-405c-9cb4-d23434c48648"
+    ],
     "tile_config": {
       "meta_config": {}
-    }
+    },
+    "global_position": {}
   }
 }

@@ -4,9 +4,21 @@
   "label": {
     "entry": [
       {
+        "key": "technical",
+        "value": [
+          "S6 C6"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Zwischendecke Infrastruktur"
+        ]
+      },
+      {
         "key": "en",
         "value": [
-          "S6 C6 Consumption"
+          "Ceiling infrastructure"
         ]
       }
     ]
@@ -17,19 +29,43 @@
   "unit_host_id": "8b7ed2aa-5585-46dc-9ef8-897b4a3f781e",
   "unit_type": "POWER_CONSUMPTION_SENSOR",
   "placement_config": {
-    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+    "location_id": "eb89de19-36db-4f26-b8a5-a75df850892e",
     "transformation_frame_id": "PowerConsumptionSensor-35",
-    "shape": {}
+    "pose": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "frame_id": ""
+      },
+      "rotation": {}
+    },
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "frame_id": ""
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
+      }
+    }
   },
   "scope": {
     "component": [
       "citec",
       "csra",
-      "control",
+      "home",
+      "living",
+      "hometheater",
       "powerconsumptionsensor",
-      "s6c6consumption"
+      "s6c6"
     ]
   },
+  "description": {},
   "bound_to_unit_host": false,
   "service_config": [
     {
@@ -57,8 +93,20 @@
       "meta_config": {}
     }
   ],
-  "meta_config": {},
+  "meta_config": {
+    "entry": [
+      {
+        "key": "INFRASTRUCTURE",
+        "value": "false"
+      }
+    ]
+  },
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

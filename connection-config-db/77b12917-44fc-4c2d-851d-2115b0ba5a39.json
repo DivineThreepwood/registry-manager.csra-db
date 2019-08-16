@@ -7,6 +7,12 @@
         "value": [
           "Kitchen Door"
         ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Küchentür"
+        ]
       }
     ]
   },
@@ -74,6 +80,7 @@
       "kitchendoor"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {

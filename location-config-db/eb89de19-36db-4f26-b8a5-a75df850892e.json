@@ -7,6 +7,12 @@
         "value": [
           "Hometheater"
         ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Heimkino"
+        ]
       }
     ]
   },
@@ -114,6 +120,7 @@
       "hometheater"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {},
@@ -322,17 +329,29 @@
     "location_type": "REGION",
     "root": false,
     "unit_id": [
+      "0773e288-9c36-47d3-ab6d-df4502281648",
+      "082fb5d5-bf66-416c-8411-eead1bf2bf23",
+      "48b54768-c058-421a-99a2-3be1cd28858c",
+      "9be18965-ae35-4f9a-b0ef-3bc0b6bcc9a8",
+      "32af46f5-a0c1-46b8-9650-8b79fa42f8f7",
+      "482865a7-1f74-4d78-ae99-4df398cb3d14",
+      "6f6dce7d-e959-49ff-9bf9-6b15dcde3082",
+      "b4327592-9404-454d-b50c-63a8c6420125",
+      "e7daf445-5938-417c-9797-acd2e80e89c1",
       "e462a253-18b0-40dc-abc9-29897d5cb5a2",
       "12572989-0ba8-4a3e-b2cd-55ab483850cb",
       "4b75a113-3daa-4a01-b553-ec5009a63715",
-      "0773e288-9c36-47d3-ab6d-df4502281648",
+      "2851cbd4-4c67-4555-8de1-284ad7707303",
       "daf24096-6420-43f2-b289-f2605acbdcbb",
+      "2a4b9d77-f1f7-4113-a622-7ebd67738da7",
+      "8fc89ba5-8ead-4a9b-9098-6e085d0805d7",
       "deebbd1a-4db5-4125-84c9-b25c56e945fa",
       "1ff369af-efb3-473b-9e4f-c8338b332ae1",
       "f1f18c3b-bacb-48a2-be77-30aa03f9be84",
-      "482865a7-1f74-4d78-ae99-4df398cb3d14",
       "b4978623-f8f5-4724-90db-243494223b6f",
-      "6f6dce7d-e959-49ff-9bf9-6b15dcde3082"
-    ]
+      "465abe03-c0fc-4481-a6ce-e0a4cf4c4b00",
+      "ffa1959a-d896-4774-8a5d-79cc7e2f37ba"
+    ],
+    "global_position": {}
   }
 }

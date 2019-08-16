@@ -4,9 +4,21 @@
   "label": {
     "entry": [
       {
+        "key": "technical",
+        "value": [
+          "S3 C1"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Arbeitsfläche"
+        ]
+      },
+      {
         "key": "en",
         "value": [
-          "S3C1"
+          "Worktop"
         ]
       }
     ]
@@ -17,13 +29,14 @@
   "unit_host_id": "64da2fb2-aca7-4791-a5c1-e389a7361c05",
   "unit_type": "POWER_CONSUMPTION_SENSOR",
   "placement_config": {
-    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+    "location_id": "8b787be0-45c2-4c7f-b3a3-7a6b73040df0",
     "transformation_frame_id": "PowerConsumptionSensor-27",
     "pose": {
       "translation": {
         "x": 0.3284034110808649,
         "y": 2.085182363024797,
-        "z": 1.0430562334978624
+        "z": 1.0430562334978624,
+        "frame_id": ""
       },
       "rotation": {
         "qw": 1.0,
@@ -32,7 +45,19 @@
         "qz": 0.0
       }
     },
-    "shape": {}
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "frame_id": ""
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
+      }
+    }
   },
   "scope": {
     "component": [
@@ -40,6 +65,7 @@
       "csra",
       "home",
       "kitchen",
+      "assistance",
       "powerconsumptionsensor",
       "s3c1"
     ]
@@ -82,5 +108,10 @@
   "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

@@ -7,6 +7,12 @@
         "value": [
           "Kitchen Window"
         ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Küchenfenster"
+        ]
       }
     ]
   },
@@ -72,6 +78,7 @@
       "kitchenwindow"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {},

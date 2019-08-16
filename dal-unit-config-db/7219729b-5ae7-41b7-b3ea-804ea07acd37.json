@@ -4,9 +4,21 @@
   "label": {
     "entry": [
       {
+        "key": "technical",
+        "value": [
+          "S1 C6"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Geschirrspüler"
+        ]
+      },
+      {
         "key": "en",
         "value": [
-          "S1 C6 Consumption"
+          "Dishwasher"
         ]
       }
     ]
@@ -17,19 +29,43 @@
   "unit_host_id": "01bbbce7-fa7d-4215-9105-fc44f9d6ead1",
   "unit_type": "POWER_CONSUMPTION_SENSOR",
   "placement_config": {
-    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+    "location_id": "60c76826-4e0b-46c2-aa5c-36e7809ab7d3",
     "transformation_frame_id": "PowerConsumptionSensor-10",
-    "shape": {}
+    "pose": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "frame_id": ""
+      },
+      "rotation": {}
+    },
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "frame_id": ""
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
+      }
+    }
   },
   "scope": {
     "component": [
       "citec",
       "csra",
-      "control",
+      "home",
+      "kitchen",
+      "sink",
       "powerconsumptionsensor",
-      "s1c6consumption"
+      "s1c6"
     ]
   },
+  "description": {},
   "bound_to_unit_host": false,
   "service_config": [
     {
@@ -60,5 +96,10 @@
   "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

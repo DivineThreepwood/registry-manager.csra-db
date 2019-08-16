@@ -7,6 +7,12 @@
         "value": [
           "Assistance"
         ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Arbeitsfläche"
+        ]
       }
     ]
   },
@@ -41,6 +47,7 @@
       "assistance"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {},
@@ -254,13 +261,21 @@
       "8e919ea0-26ca-4e31-b650-b00a2101320a",
       "7bab2d9a-fe71-40a6-8088-a3106406d27b",
       "5809216a-0a05-4bce-adbe-b61188c9af85",
-      "e763d6d4-8a91-4c56-a383-45b1a54cedbf",
       "8ca11b1c-6359-4cbe-b894-00972e9c9601",
+      "32386102-d331-41e7-a68a-6961a8eecec3",
+      "aed87a02-7a77-49ff-b8f7-7e6db819c285",
+      "594d8b86-030a-4f48-922e-d9ebdfaea8e3",
+      "e763d6d4-8a91-4c56-a383-45b1a54cedbf",
+      "443f15dc-2135-4787-9845-9c2eba71a3d0",
+      "4008d70c-b500-4405-b8d6-1da0a82c84f3",
+      "7f5a8af0-0033-4947-bb85-a6600f3eb92d",
       "9c2a6435-f605-4468-b125-be540b65b96f",
-      "aed87a02-7a77-49ff-b8f7-7e6db819c285"
+      "a69b3e90-f0be-4433-9a40-583b438a3b93",
+      "279ba1d0-fa1a-4711-9ed9-eaf2e7947132"
     ],
     "tile_config": {
       "meta_config": {}
-    }
+    },
+    "global_position": {}
   }
 }

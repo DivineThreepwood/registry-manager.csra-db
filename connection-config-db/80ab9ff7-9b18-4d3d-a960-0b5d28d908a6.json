@@ -7,6 +7,12 @@
         "value": [
           "Left Control Window"
         ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Linkes Kontrollraum Fenster"
+        ]
       }
     ]
   },
@@ -17,6 +23,7 @@
   "placement_config": {
     "location_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
     "transformation_frame_id": "Connection-16",
+    "pose": {},
     "shape": {}
   },
   "scope": {
@@ -26,6 +33,7 @@
       "leftcontrolwindow"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {

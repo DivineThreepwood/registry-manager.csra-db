@@ -4,9 +4,21 @@
   "label": {
     "entry": [
       {
+        "key": "technical",
+        "value": [
+          "S8 A7"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Deckenleuchte"
+        ]
+      },
+      {
         "key": "en",
         "value": [
-          "S8 C7"
+          "Ceiling light"
         ]
       }
     ]
@@ -19,7 +31,28 @@
   "placement_config": {
     "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
     "transformation_frame_id": "PowerSwitch-16",
-    "shape": {}
+    "pose": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "frame_id": ""
+      },
+      "rotation": {}
+    },
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "frame_id": ""
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
+      }
+    }
   },
   "scope": {
     "component": [
@@ -28,7 +61,7 @@
       "home",
       "bath",
       "powerswitch",
-      "s8c7"
+      "s8a7"
     ]
   },
   "description": {
@@ -97,5 +130,10 @@
   },
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

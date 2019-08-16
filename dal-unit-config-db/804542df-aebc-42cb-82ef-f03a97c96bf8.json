@@ -8,6 +8,18 @@
         "value": [
           "Beleuchtung Zwischendecke"
         ]
+      },
+      {
+        "key": "en",
+        "value": [
+          "Lighting ceiling"
+        ]
+      },
+      {
+        "key": "technical",
+        "value": [
+          "S4 A2"
+        ]
       }
     ]
   },
@@ -23,7 +35,8 @@
       "translation": {
         "x": 2.338542350166102,
         "y": 2.930902119479617,
-        "z": 0.1590315741574715
+        "z": 0.1590315741574715,
+        "frame_id": ""
       },
       "rotation": {
         "qw": 1.0,
@@ -32,7 +45,19 @@
         "qz": 0.0
       }
     },
-    "shape": {}
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "frame_id": ""
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
+      }
+    }
   },
   "scope": {
     "component": [
@@ -47,8 +72,8 @@
   "description": {
     "entry": [
       {
-        "key": "en",
-        "value": "S4_C2"
+        "key": "technical",
+        "value": "S4 A2"
       }
     ]
   },
@@ -103,5 +128,10 @@
   "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

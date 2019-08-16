@@ -4,9 +4,21 @@
   "label": {
     "entry": [
       {
+        "key": "technical",
+        "value": [
+          "S6 A6"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Zwischendecke Infrastruktur"
+        ]
+      },
+      {
         "key": "en",
         "value": [
-          "S6 C6"
+          "Ceiling infrastructure"
         ]
       }
     ]
@@ -17,19 +29,43 @@
   "unit_host_id": "8b7ed2aa-5585-46dc-9ef8-897b4a3f781e",
   "unit_type": "POWER_SWITCH",
   "placement_config": {
-    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+    "location_id": "eb89de19-36db-4f26-b8a5-a75df850892e",
     "transformation_frame_id": "PowerSwitch-66",
-    "shape": {}
+    "pose": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "frame_id": ""
+      },
+      "rotation": {}
+    },
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "frame_id": ""
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
+      }
+    }
   },
   "scope": {
     "component": [
       "citec",
       "csra",
-      "control",
+      "home",
+      "living",
+      "hometheater",
       "powerswitch",
-      "s6c6"
+      "s6a6"
     ]
   },
+  "description": {},
   "bound_to_unit_host": false,
   "service_config": [
     {
@@ -78,8 +114,28 @@
       "meta_config": {}
     }
   ],
-  "meta_config": {},
+  "meta_config": {
+    "entry": [
+      {
+        "key": "INFRASTRUCTURE",
+        "value": "true"
+      }
+    ]
+  },
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "f87e0e62-f390-4d78-bed3-13244ecc13a2",
+    "owner_permission": {
+      "read": true,
+      "write": true,
+      "access": true
+    },
+    "other_permission": {
+      "read": true,
+      "write": true,
+      "access": true
+    }
   }
 }

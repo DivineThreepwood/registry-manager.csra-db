@@ -6,7 +6,7 @@
       {
         "key": "technical",
         "value": [
-          "S3 A2"
+          "S3 C2"
         ]
       },
       {
@@ -33,11 +33,26 @@
     "location_id": "8b787be0-45c2-4c7f-b3a3-7a6b73040df0",
     "transformation_frame_id": "PowerConsumptionSensor-52",
     "pose": {
-      "translation": {},
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "frame_id": ""
+      },
       "rotation": {}
     },
     "shape": {
-      "bounding_box": {}
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "frame_id": ""
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
+      }
     }
   },
   "scope": {
@@ -48,7 +63,7 @@
       "kitchen",
       "assistance",
       "powerconsumptionsensor",
-      "s3a2"
+      "s3c2"
     ]
   },
   "description": {

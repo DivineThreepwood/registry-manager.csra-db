@@ -4,9 +4,21 @@
   "label": {
     "entry": [
       {
+        "key": "technical",
+        "value": [
+          "S9 A3"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Jalousie"
+        ]
+      },
+      {
         "key": "en",
         "value": [
-          "S9 C3"
+          "Blinds"
         ]
       }
     ]
@@ -17,19 +29,41 @@
   "unit_host_id": "b70175fd-6780-483e-98e1-3b4a17960a5b",
   "unit_type": "POWER_SWITCH",
   "placement_config": {
-    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+    "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
     "transformation_frame_id": "PowerSwitch-42",
-    "shape": {}
+    "pose": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "frame_id": ""
+      },
+      "rotation": {}
+    },
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "frame_id": ""
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
+      }
+    }
   },
   "scope": {
     "component": [
       "citec",
       "csra",
-      "control",
+      "robotroom",
       "powerswitch",
-      "s9c3"
+      "s9a3"
     ]
   },
+  "description": {},
   "bound_to_unit_host": false,
   "service_config": [
     {
@@ -81,5 +115,10 @@
   "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

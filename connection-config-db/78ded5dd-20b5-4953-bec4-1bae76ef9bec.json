@@ -5,7 +5,13 @@
       {
         "key": "en",
         "value": [
-          "Living to Sports Door"
+          "Living to Robotroom Door"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Wohnzimmer Roboterraum Tür"
         ]
       }
     ]
@@ -70,9 +76,10 @@
       "citec",
       "csra",
       "connection",
-      "livingtosportsdoor"
+      "livingtorobotroomdoor"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {

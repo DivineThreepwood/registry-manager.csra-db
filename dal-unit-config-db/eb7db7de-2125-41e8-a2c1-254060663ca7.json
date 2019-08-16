@@ -4,9 +4,27 @@
   "label": {
     "entry": [
       {
+        "key": "technical",
+        "value": [
+          "S7 C5",
+          "CDG",
+          "BOB"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Bodentank 2 unten rechts",
+          "Rechner CDG",
+          "Rechner BOB"
+        ]
+      },
+      {
         "key": "en",
         "value": [
-          "S7 C5 Consumption"
+          "Floorbox 2 bottom left",
+          "Machine CDG",
+          "Machine BOB"
         ]
       }
     ]
@@ -17,19 +35,43 @@
   "unit_host_id": "cd51b92f-3429-4666-8418-079f81af4ecb",
   "unit_type": "POWER_CONSUMPTION_SENSOR",
   "placement_config": {
-    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+    "location_id": "0df5bbb8-2d17-4f81-9b34-314a26ae713a",
     "transformation_frame_id": "PowerConsumptionSensor-42",
-    "shape": {}
+    "pose": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "frame_id": ""
+      },
+      "rotation": {}
+    },
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "frame_id": ""
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
+      }
+    }
   },
   "scope": {
     "component": [
       "citec",
       "csra",
-      "control",
+      "home",
+      "living",
+      "lounge",
       "powerconsumptionsensor",
-      "s7c5consumption"
+      "s7c5"
     ]
   },
+  "description": {},
   "bound_to_unit_host": false,
   "service_config": [
     {
@@ -57,8 +99,28 @@
       "meta_config": {}
     }
   ],
-  "meta_config": {},
+  "meta_config": {
+    "entry": [
+      {
+        "key": "INFRASTRUCTURE",
+        "value": "true"
+      }
+    ]
+  },
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "f87e0e62-f390-4d78-bed3-13244ecc13a2",
+    "owner_permission": {
+      "read": true,
+      "write": true,
+      "access": true
+    },
+    "other_permission": {
+      "read": true,
+      "write": false,
+      "access": false
+    }
   }
 }

@@ -7,6 +7,12 @@
         "value": [
           "Living Window Right"
         ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Wohnzimmerfenster Rechts"
+        ]
       }
     ]
   },
@@ -72,6 +78,7 @@
       "livingwindowright"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {

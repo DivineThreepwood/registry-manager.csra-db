@@ -4,9 +4,23 @@
   "label": {
     "entry": [
       {
+        "key": "technical",
+        "value": [
+          "S7 C6"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Bodentank 1 unten links",
+          "Tuerzarge"
+        ]
+      },
+      {
         "key": "en",
         "value": [
-          "S7 C6 Consumption"
+          "Floorbox 1 bottom left",
+          "Door frame"
         ]
       }
     ]
@@ -17,19 +31,43 @@
   "unit_host_id": "cd51b92f-3429-4666-8418-079f81af4ecb",
   "unit_type": "POWER_CONSUMPTION_SENSOR",
   "placement_config": {
-    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+    "location_id": "0df5bbb8-2d17-4f81-9b34-314a26ae713a",
     "transformation_frame_id": "PowerConsumptionSensor-3",
-    "shape": {}
+    "pose": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "frame_id": ""
+      },
+      "rotation": {}
+    },
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "frame_id": ""
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
+      }
+    }
   },
   "scope": {
     "component": [
       "citec",
       "csra",
-      "control",
+      "home",
+      "living",
+      "lounge",
       "powerconsumptionsensor",
-      "s7c6consumption"
+      "s7c6"
     ]
   },
+  "description": {},
   "bound_to_unit_host": false,
   "service_config": [
     {
@@ -57,8 +95,20 @@
       "meta_config": {}
     }
   ],
-  "meta_config": {},
+  "meta_config": {
+    "entry": [
+      {
+        "key": "INFRASTRUCTURE",
+        "value": "false"
+      }
+    ]
+  },
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

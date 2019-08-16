@@ -12,13 +12,13 @@
       {
         "key": "de",
         "value": [
-          "Doppelsteckdose Rechts"
+          "Doppelsteckdose rechts"
         ]
       },
       {
         "key": "en",
         "value": [
-          "Double Socket Right"
+          "Double socket right"
         ]
       }
     ]
@@ -31,6 +31,15 @@
   "placement_config": {
     "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
     "transformation_frame_id": "PowerSwitch-64",
+    "pose": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "frame_id": ""
+      },
+      "rotation": {}
+    },
     "shape": {
       "bounding_box": {
         "left_front_bottom": {

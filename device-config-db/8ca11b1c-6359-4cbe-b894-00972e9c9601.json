@@ -13,6 +13,12 @@
         "value": [
           "Hängeschrank Rechts"
         ]
+      },
+      {
+        "key": "technical",
+        "value": [
+          "1"
+        ]
       }
     ]
   },
@@ -44,14 +50,22 @@
     "value": "ENABLED"
   },
   "device_config": {
+    "serial_number": "",
     "inventory_state": {
       "value": "INSTALLED",
-      "location_id": "8b787be0-45c2-4c7f-b3a3-7a6b73040df0"
+      "location_id": "8b787be0-45c2-4c7f-b3a3-7a6b73040df0",
+      "timestamp": {},
+      "borrower_id": ""
     },
     "device_class_id": "7d6d56c2-9bd7-45cf-a3fd-26bce7804e0a",
     "unit_id": [
       "8e919ea0-26ca-4e31-b650-b00a2101320a",
       "27340ccd-340a-45a5-92f4-96fbc7040b91"
     ]
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

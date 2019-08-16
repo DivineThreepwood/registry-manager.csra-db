@@ -12,13 +12,15 @@
       {
         "key": "de",
         "value": [
-          "Dreifacksteckdose Links"
+          "Dreifacksteckdose links",
+          "Lautsprecher"
         ]
       },
       {
         "key": "en",
         "value": [
-          "Triple Socket Left"
+          "Triple Socket left",
+          "Speaker"
         ]
       }
     ]
@@ -31,6 +33,15 @@
   "placement_config": {
     "location_id": "0df5bbb8-2d17-4f81-9b34-314a26ae713a",
     "transformation_frame_id": "PowerSwitch-18",
+    "pose": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "frame_id": ""
+      },
+      "rotation": {}
+    },
     "shape": {
       "bounding_box": {
         "left_front_bottom": {

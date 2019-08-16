@@ -7,6 +7,12 @@
         "value": [
           "Apartment Entrance Door"
         ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Apartment Eingangstür"
+        ]
       }
     ]
   },
@@ -72,6 +78,7 @@
       "apartmententrancedoor"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {

@@ -7,6 +7,12 @@
         "value": [
           "Introspection Window"
         ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Beobachtungsfenster"
+        ]
       }
     ]
   },
@@ -73,6 +79,7 @@
       "introspectionwindow"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {

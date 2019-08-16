@@ -7,6 +7,12 @@
         "value": [
           "All Off Living"
         ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Alles ausschalten Wohnzimmer"
+        ]
       }
     ]
   },
@@ -17,6 +23,7 @@
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
     "transformation_frame_id": "Scene-10",
+    "pose": {},
     "shape": {}
   },
   "scope": {
@@ -29,6 +36,7 @@
       "alloffliving"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {

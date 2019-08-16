@@ -7,6 +7,12 @@
         "value": [
           "Bathroom Door"
         ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Badezimmertür"
+        ]
       }
     ]
   },
@@ -74,6 +80,7 @@
       "bathroomdoor"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {

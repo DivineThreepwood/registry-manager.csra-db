@@ -7,6 +7,12 @@
         "value": [
           "Cooking"
         ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Kochen"
+        ]
       }
     ]
   },
@@ -115,5 +121,10 @@
         "service_state": "{\"value\":\"OFF\"}"
       }
     ]
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

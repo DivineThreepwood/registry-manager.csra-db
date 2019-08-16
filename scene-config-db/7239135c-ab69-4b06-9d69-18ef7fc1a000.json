@@ -7,6 +7,12 @@
         "value": [
           "All Off Robot Room"
         ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Alles ausschalten Roboterraum"
+        ]
       }
     ]
   },
@@ -17,6 +23,7 @@
   "placement_config": {
     "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
     "transformation_frame_id": "Scene-2",
+    "pose": {},
     "shape": {}
   },
   "scope": {
@@ -28,6 +35,7 @@
       "alloffrobotroom"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {

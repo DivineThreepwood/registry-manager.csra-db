@@ -7,6 +7,12 @@
         "value": [
           "Living Window Center"
         ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Wohnzimmerfenster Mitte"
+        ]
       }
     ]
   },
@@ -72,6 +78,7 @@
       "livingwindowcenter"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {},

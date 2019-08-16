@@ -6,7 +6,14 @@
       {
         "key": "technical",
         "value": [
-          "S6 C4"
+          "S6 A4",
+          "BKK",
+          "BFE",
+          "BOS",
+          "OPP",
+          "ADL",
+          "LXR",
+          "MPC"
         ]
       },
       {
@@ -29,14 +36,29 @@
   "unit_host_id": "8b7ed2aa-5585-46dc-9ef8-897b4a3f781e",
   "unit_type": "POWER_SWITCH",
   "placement_config": {
-    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
     "transformation_frame_id": "PowerSwitch-41",
     "pose": {
-      "translation": {},
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "frame_id": ""
+      },
       "rotation": {}
     },
     "shape": {
-      "bounding_box": {}
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "frame_id": ""
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
+      }
     }
   },
   "scope": {
@@ -45,8 +67,9 @@
       "csra",
       "home",
       "living",
+      "dining",
       "powerswitch",
-      "s6c4"
+      "s6a4"
     ]
   },
   "description": {},
@@ -108,5 +131,18 @@
   },
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "f87e0e62-f390-4d78-bed3-13244ecc13a2",
+    "owner_permission": {
+      "read": true,
+      "write": true,
+      "access": true
+    },
+    "other_permission": {
+      "read": true,
+      "write": true,
+      "access": true
+    }
   }
 }

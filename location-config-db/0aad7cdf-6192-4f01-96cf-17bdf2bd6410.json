@@ -7,6 +7,12 @@
         "value": [
           "Window"
         ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Fenster"
+        ]
       }
     ]
   },
@@ -41,6 +47,7 @@
       "window"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {},
@@ -255,11 +262,14 @@
       "9a22c198-89fb-41b7-81d2-79c76737ac6f",
       "1e40044f-3b9f-4e5c-ae65-f7a37a462a92",
       "aff0965a-0b08-46c8-a9b8-757058ecf5da",
+      "dfa0a961-7071-4590-9fb4-4463226f421c",
+      "639ea164-463f-47c4-9b4e-7abcfbb06f57",
       "2ca48f76-c875-47a4-9c49-1f30bf1d64c4",
       "34ca3b1a-417b-4c6c-bca0-3e8e77aacf9a"
     ],
     "tile_config": {
       "meta_config": {}
-    }
+    },
+    "global_position": {}
   }
 }

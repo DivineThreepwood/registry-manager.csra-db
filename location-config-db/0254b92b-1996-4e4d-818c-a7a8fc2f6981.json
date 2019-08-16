@@ -7,6 +7,12 @@
         "value": [
           "Entrance"
         ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Eingang"
+        ]
       }
     ]
   },
@@ -30,7 +36,9 @@
         "qz": 0.0
       }
     },
-    "shape": {}
+    "shape": {
+      "bounding_box": {}
+    }
   },
   "scope": {
     "component": [
@@ -40,6 +48,7 @@
       "entrance"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {},
@@ -263,6 +272,12 @@
     ],
     "tile_config": {
       "meta_config": {}
-    }
+    },
+    "global_position": {}
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

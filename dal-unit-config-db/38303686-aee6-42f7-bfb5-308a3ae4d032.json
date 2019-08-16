@@ -4,9 +4,21 @@
   "label": {
     "entry": [
       {
+        "key": "technical",
+        "value": [
+          "S5 A8"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Bodentank 3 oben links"
+        ]
+      },
+      {
         "key": "en",
         "value": [
-          "S5 C8"
+          "Floorbox 3 top left"
         ]
       }
     ]
@@ -17,19 +29,42 @@
   "unit_host_id": "4864704e-34dc-4123-acb8-fd1abbb90108",
   "unit_type": "POWER_SWITCH",
   "placement_config": {
-    "location_id": "511adfec-43ed-47f5-bd4d-28f46dc1b5a4",
+    "location_id": "dae2ee74-5748-46bb-a95a-1054ce40ea0a",
     "transformation_frame_id": "PowerSwitch-43",
-    "shape": {}
+    "pose": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "frame_id": ""
+      },
+      "rotation": {}
+    },
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "frame_id": ""
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
+      }
+    }
   },
   "scope": {
     "component": [
       "citec",
       "csra",
-      "control",
+      "robotroom",
+      "interaction",
       "powerswitch",
-      "s5c8"
+      "s5a8"
     ]
   },
+  "description": {},
   "bound_to_unit_host": false,
   "service_config": [
     {
@@ -81,5 +116,10 @@
   "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

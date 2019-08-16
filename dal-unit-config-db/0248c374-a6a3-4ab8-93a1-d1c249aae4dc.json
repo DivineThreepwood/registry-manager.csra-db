@@ -4,9 +4,21 @@
   "label": {
     "entry": [
       {
+        "key": "technical",
+        "value": [
+          "S6 A3"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Pan Tilt Beamer"
+        ]
+      },
+      {
         "key": "en",
         "value": [
-          "S6C3"
+          "Pan tilt projector"
         ]
       }
     ]
@@ -19,7 +31,28 @@
   "placement_config": {
     "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
     "transformation_frame_id": "PowerSwitch-8",
-    "shape": {}
+    "pose": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "frame_id": ""
+      },
+      "rotation": {}
+    },
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "frame_id": ""
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
+      }
+    }
   },
   "scope": {
     "component": [
@@ -28,7 +61,7 @@
       "home",
       "living",
       "powerswitch",
-      "s6c3"
+      "s6a3"
     ]
   },
   "description": {
@@ -90,5 +123,10 @@
   "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

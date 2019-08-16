@@ -7,6 +7,12 @@
         "value": [
           "Kitchen Passage"
         ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Küchendurchgang"
+        ]
       }
     ]
   },
@@ -74,6 +80,7 @@
       "kitchenpassage"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {},

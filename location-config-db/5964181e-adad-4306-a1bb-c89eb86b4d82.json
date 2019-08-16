@@ -7,6 +7,12 @@
         "value": [
           "Center"
         ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Zentrum"
+        ]
       }
     ]
   },
@@ -40,6 +46,7 @@
       "center"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {},
@@ -260,6 +267,7 @@
     ],
     "tile_config": {
       "meta_config": {}
-    }
+    },
+    "global_position": {}
   }
 }

@@ -6,7 +6,19 @@
       {
         "key": "en",
         "value": [
-          "TV"
+          "Floorbox 2 bottom right TV"
+        ]
+      },
+      {
+        "key": "technical",
+        "value": [
+          "S7 A4"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Bodentank 2 unten rechts TV"
         ]
       }
     ]
@@ -23,7 +35,8 @@
       "translation": {
         "x": 0.756288909727322,
         "y": 0.7892151939641305,
-        "z": -1.5462552892887658
+        "z": -1.5462552892887658,
+        "frame_id": ""
       },
       "rotation": {
         "qw": 1.0,
@@ -32,7 +45,19 @@
         "qz": 0.0
       }
     },
-    "shape": {}
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "frame_id": ""
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
+      }
+    }
   },
   "scope": {
     "component": [
@@ -42,7 +67,7 @@
       "living",
       "hometheater",
       "powerswitch",
-      "tv"
+      "floorbox2bottomrighttv"
     ]
   },
   "description": {
@@ -111,5 +136,10 @@
   },
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

@@ -7,6 +7,12 @@
         "value": [
           "Wardrobe Passage"
         ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Flur Durchgang"
+        ]
       }
     ]
   },
@@ -74,6 +80,7 @@
       "wardrobepassage"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {},

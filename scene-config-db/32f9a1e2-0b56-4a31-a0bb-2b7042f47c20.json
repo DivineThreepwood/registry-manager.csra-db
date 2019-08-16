@@ -7,6 +7,12 @@
         "value": [
           "All Off Dining"
         ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Alles ausschalten Essecke"
+        ]
       }
     ]
   },
@@ -16,7 +22,9 @@
   "unit_type": "SCENE",
   "placement_config": {
     "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
-    "transformation_frame_id": "Scene-28"
+    "transformation_frame_id": "Scene-28",
+    "pose": {},
+    "shape": {}
   },
   "scope": {
     "component": [
@@ -29,6 +37,7 @@
       "alloffdining"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {},
@@ -50,6 +59,7 @@
       }
     }
   ],
+  "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"
   },

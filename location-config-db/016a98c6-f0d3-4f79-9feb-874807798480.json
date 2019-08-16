@@ -7,6 +7,12 @@
         "value": [
           "Corridor"
         ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Korridor"
+        ]
       }
     ]
   },
@@ -39,6 +45,7 @@
       "corridor"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {},
@@ -248,6 +255,7 @@
     "root": false,
     "tile_config": {
       "meta_config": {}
-    }
+    },
+    "global_position": {}
   }
 }

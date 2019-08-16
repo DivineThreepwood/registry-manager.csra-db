@@ -6,19 +6,22 @@
       {
         "key": "technical",
         "value": [
-          "S1 C7"
+          "S1 A7",
+          "ZIC"
         ]
       },
       {
         "key": "en",
         "value": [
-          "Fridge"
+          "Fridge",
+          "Machine"
         ]
       },
       {
         "key": "de",
         "value": [
-          "Kühlschrank"
+          "Kühlschrank",
+          "Rechner"
         ]
       }
     ]
@@ -35,13 +38,22 @@
       "translation": {
         "x": 2.1,
         "y": 0.3,
-        "z": 2.0
+        "z": 2.0,
+        "frame_id": ""
       },
       "rotation": {}
     },
     "shape": {
       "bounding_box": {
-        "left_front_bottom": {}
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "frame_id": ""
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
       }
     }
   },
@@ -52,7 +64,7 @@
       "home",
       "kitchen",
       "powerswitch",
-      "s1c7"
+      "s1a7"
     ]
   },
   "description": {},
@@ -104,8 +116,28 @@
       "meta_config": {}
     }
   ],
-  "meta_config": {},
+  "meta_config": {
+    "entry": [
+      {
+        "key": "INFRASTRUCTURE",
+        "value": "true"
+      }
+    ]
+  },
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "f87e0e62-f390-4d78-bed3-13244ecc13a2",
+    "owner_permission": {
+      "read": true,
+      "write": true,
+      "access": true
+    },
+    "other_permission": {
+      "read": true,
+      "write": true,
+      "access": true
+    }
   }
 }

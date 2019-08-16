@@ -7,6 +7,12 @@
         "value": [
           "Living Window Left"
         ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Wohnzimmerfenster Links"
+        ]
       }
     ]
   },
@@ -72,6 +78,7 @@
       "livingwindowleft"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {

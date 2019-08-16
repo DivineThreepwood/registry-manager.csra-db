@@ -7,6 +7,12 @@
         "value": [
           "Window"
         ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Fenster"
+        ]
       }
     ]
   },
@@ -40,6 +46,7 @@
       "window"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {},
@@ -257,6 +264,7 @@
     ],
     "tile_config": {
       "meta_config": {}
-    }
+    },
+    "global_position": {}
   }
 }
