@@ -116,7 +116,7 @@
     "entry": [
       {
         "key": "INFRASTRUCTURE",
-        "value": "false"
+        "value": "true"
       }
     ]
   },

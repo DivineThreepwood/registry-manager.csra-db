@@ -32,12 +32,25 @@
     "location_id": "dae2ee74-5748-46bb-a95a-1054ce40ea0a",
     "transformation_frame_id": "PowerSwitch-57",
     "pose": {
-      "translation": {},
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "frame_id": ""
+      },
       "rotation": {}
     },
     "shape": {
       "bounding_box": {
-        "left_front_bottom": {}
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "frame_id": ""
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
       }
     }
   },
@@ -100,8 +113,20 @@
       "meta_config": {}
     }
   ],
-  "meta_config": {},
+  "meta_config": {
+    "entry": [
+      {
+        "key": "INFRASTRUCTURE",
+        "value": "true"
+      }
+    ]
+  },
   "enabling_state": {
     "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }
