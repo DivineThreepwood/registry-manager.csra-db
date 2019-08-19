@@ -53,7 +53,7 @@
     ]
   },
   "enabling_state": {
-    "value": "ENABLED"
+    "value": "DISABLED"
   },
   "device_config": {
     "serial_number": "Handle503",

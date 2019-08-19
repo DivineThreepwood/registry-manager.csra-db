@@ -39,7 +39,7 @@
   "bound_to_unit_host": true,
   "meta_config": {},
   "enabling_state": {
-    "value": "ENABLED"
+    "value": "DISABLED"
   },
   "device_config": {
     "serial_number": "6",
@@ -53,5 +53,10 @@
       "adf6c852-e9e0-42d5-a6ff-3e69dac4af59",
       "eb406f4e-e773-4431-87f5-7cf2a22991e2"
     ]
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

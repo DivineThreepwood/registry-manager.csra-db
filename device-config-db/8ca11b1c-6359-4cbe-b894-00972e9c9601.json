@@ -47,7 +47,7 @@
   "bound_to_unit_host": true,
   "meta_config": {},
   "enabling_state": {
-    "value": "ENABLED"
+    "value": "DISABLED"
   },
   "device_config": {
     "serial_number": "",
