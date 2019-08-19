@@ -29,13 +29,13 @@
   "unit_host_id": "16e01132-facc-4138-b658-8cd6ef565885",
   "unit_type": "POWER_CONSUMPTION_SENSOR",
   "placement_config": {
-    "location_id": "8b787be0-45c2-4c7f-b3a3-7a6b73040df0",
+    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
     "transformation_frame_id": "PowerConsumptionSensor-31",
     "pose": {
       "translation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0,
+        "x": 0.5616703985150633,
+        "y": 1.56321771410874,
+        "z": 0.8504184279443698,
         "frame_id": ""
       },
       "rotation": {}
@@ -60,7 +60,6 @@
       "csra",
       "home",
       "kitchen",
-      "assistance",
       "powerconsumptionsensor",
       "s2c1"
     ]
