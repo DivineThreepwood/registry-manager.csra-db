@@ -21,9 +21,9 @@
     "transformation_frame_id": "PowerConsumptionSensor-66",
     "pose": {
       "translation": {
-        "x": 3.7,
-        "y": 1.7,
-        "z": 1.8,
+        "x": 0.6059946670104215,
+        "y": 0.8868980907205435,
+        "z": -1.4318781290056175,
         "frame_id": ""
       },
       "rotation": {}

@@ -6,19 +6,19 @@
       {
         "key": "en",
         "value": [
-          "Floorbox 2 bottom right TV"
+          "TV"
         ]
       },
       {
         "key": "technical",
         "value": [
-          "S7 A4"
+          "S7 A4 Bodentank Unten Rechts"
         ]
       },
       {
         "key": "de",
         "value": [
-          "Bodentank 2 unten rechts TV"
+          "Fernseher"
         ]
       }
     ]
@@ -33,9 +33,9 @@
     "transformation_frame_id": "PowerSwitch-11",
     "pose": {
       "translation": {
-        "x": 0.756288909727322,
-        "y": 0.7892151939641305,
-        "z": -1.5462552892887658,
+        "x": 0.8747833894453527,
+        "y": 1.1055581353729833,
+        "z": -1.4279829952718681,
         "frame_id": ""
       },
       "rotation": {
@@ -67,7 +67,7 @@
       "living",
       "hometheater",
       "powerswitch",
-      "floorbox2bottomrighttv"
+      "tv"
     ]
   },
   "description": {
