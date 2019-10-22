@@ -62,7 +62,7 @@
       "bath",
       "basin",
       "powerswitch",
-      "s3a6"
+      "nexttomirror"
     ]
   },
   "description": {},
@@ -122,7 +122,7 @@
     "entry": [
       {
         "key": "INFRASTRUCTURE",
-        "value": "false"
+        "value": "true"
       }
     ]
   },

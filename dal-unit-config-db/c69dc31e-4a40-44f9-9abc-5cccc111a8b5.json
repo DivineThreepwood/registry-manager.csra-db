@@ -62,7 +62,7 @@
       "bath",
       "basin",
       "powerconsumptionsensor",
-      "s3c7"
+      "mirrortopleft"
     ]
   },
   "description": {},

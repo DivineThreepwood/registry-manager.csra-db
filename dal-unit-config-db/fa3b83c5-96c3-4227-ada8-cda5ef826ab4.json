@@ -61,7 +61,7 @@
       "home",
       "bath",
       "powerswitch",
-      "s1a4"
+      "door"
     ]
   },
   "description": {},
@@ -117,7 +117,7 @@
     "entry": [
       {
         "key": "INFRASTRUCTURE",
-        "value": "false"
+        "value": "true"
       }
     ]
   },

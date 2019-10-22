@@ -61,7 +61,7 @@
       "robotroom",
       "interaction",
       "powerconsumptionsensor",
-      "s6c1"
+      "floorbox3topright"
     ]
   },
   "description": {},

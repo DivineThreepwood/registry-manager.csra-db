@@ -73,5 +73,10 @@
   "app_config": {
     "app_class_id": "e6d9a242-58de-4e44-8e56-64c8da560fe4",
     "autostart": true
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }
