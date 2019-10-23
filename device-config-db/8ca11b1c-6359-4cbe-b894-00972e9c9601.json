@@ -17,7 +17,7 @@
       {
         "key": "technical",
         "value": [
-          "1"
+          "Handle 1"
         ]
       }
     ]
@@ -29,8 +29,13 @@
   "placement_config": {
     "location_id": "8b787be0-45c2-4c7f-b3a3-7a6b73040df0",
     "transformation_frame_id": "Device-131",
-    "pose": {},
-    "shape": {}
+    "pose": {
+      "translation": {},
+      "rotation": {}
+    },
+    "shape": {
+      "bounding_box": {}
+    }
   },
   "scope": {
     "component": [
@@ -47,10 +52,10 @@
   "bound_to_unit_host": true,
   "meta_config": {},
   "enabling_state": {
-    "value": "DISABLED"
+    "value": "ENABLED"
   },
   "device_config": {
-    "serial_number": "",
+    "serial_number": "501",
     "inventory_state": {
       "value": "INSTALLED",
       "location_id": "8b787be0-45c2-4c7f-b3a3-7a6b73040df0",

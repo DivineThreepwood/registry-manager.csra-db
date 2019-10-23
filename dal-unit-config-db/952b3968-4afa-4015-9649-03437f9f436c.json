@@ -17,7 +17,7 @@
   "unit_host_id": "d2206d93-fe75-48ce-8b99-df0cba9fea33",
   "unit_type": "COLORABLE_LIGHT",
   "placement_config": {
-    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+    "location_id": "8b787be0-45c2-4c7f-b3a3-7a6b73040df0",
     "transformation_frame_id": "ColorableLight-45",
     "pose": {
       "translation": {},
@@ -30,6 +30,7 @@
       "csra",
       "home",
       "kitchen",
+      "assistance",
       "colorablelight",
       "7"
     ]
@@ -104,6 +105,6 @@
     }
   ],
   "enabling_state": {
-    "value": "DISABLED"
+    "value": "ENABLED"
   }
 }

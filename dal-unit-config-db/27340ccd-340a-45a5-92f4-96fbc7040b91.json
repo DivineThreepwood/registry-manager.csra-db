@@ -18,7 +18,7 @@
       {
         "key": "technical",
         "value": [
-          "1"
+          "Handle 1"
         ]
       }
     ]
@@ -30,7 +30,11 @@
   "unit_type": "REED_CONTACT",
   "placement_config": {
     "location_id": "8b787be0-45c2-4c7f-b3a3-7a6b73040df0",
-    "transformation_frame_id": "ReedContact-19"
+    "transformation_frame_id": "ReedContact-19",
+    "pose": {
+      "translation": {},
+      "rotation": {}
+    }
   },
   "scope": {
     "component": [
@@ -57,6 +61,6 @@
     }
   ],
   "enabling_state": {
-    "value": "DISABLED"
+    "value": "ENABLED"
   }
 }

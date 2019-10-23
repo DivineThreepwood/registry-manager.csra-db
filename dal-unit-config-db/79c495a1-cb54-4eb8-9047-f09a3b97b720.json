@@ -18,7 +18,7 @@
       {
         "key": "technical",
         "value": [
-          "2"
+          "Handle 6"
         ]
       }
     ]
@@ -154,6 +154,6 @@
     ]
   },
   "enabling_state": {
-    "value": "DISABLED"
+    "value": "ENABLED"
   }
 }

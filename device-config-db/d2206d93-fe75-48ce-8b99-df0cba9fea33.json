@@ -5,7 +5,7 @@
       {
         "key": "technical",
         "value": [
-          "7"
+          "Handle 7"
         ]
       }
     ]
@@ -15,7 +15,7 @@
   ],
   "unit_type": "DEVICE",
   "placement_config": {
-    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+    "location_id": "8b787be0-45c2-4c7f-b3a3-7a6b73040df0",
     "transformation_frame_id": "Device-133",
     "pose": {
       "translation": {},
@@ -31,21 +31,22 @@
       "csra",
       "home",
       "kitchen",
+      "assistance",
       "device",
-      "7"
+      "handle7"
     ]
   },
   "description": {},
   "bound_to_unit_host": true,
   "meta_config": {},
   "enabling_state": {
-    "value": "DISABLED"
+    "value": "ENABLED"
   },
   "device_config": {
-    "serial_number": "7",
+    "serial_number": "507",
     "inventory_state": {
       "value": "INSTALLED",
-      "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+      "location_id": "8b787be0-45c2-4c7f-b3a3-7a6b73040df0",
       "timestamp": {}
     },
     "device_class_id": "7d6d56c2-9bd7-45cf-a3fd-26bce7804e0a",
@@ -53,5 +54,10 @@
       "952b3968-4afa-4015-9649-03437f9f436c",
       "2433fa0f-5b2a-48d0-bbf0-63acfbf14eeb"
     ]
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
   }
 }

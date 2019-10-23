@@ -17,7 +17,7 @@
   "unit_host_id": "183064b1-3d6c-4c0e-ba0a-dfbeb5c71178",
   "unit_type": "REED_CONTACT",
   "placement_config": {
-    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+    "location_id": "8b787be0-45c2-4c7f-b3a3-7a6b73040df0",
     "transformation_frame_id": "ReedContact-20",
     "pose": {
       "translation": {},
@@ -30,6 +30,7 @@
       "csra",
       "home",
       "kitchen",
+      "assistance",
       "reedcontact",
       "6"
     ]
@@ -48,6 +49,6 @@
     }
   ],
   "enabling_state": {
-    "value": "DISABLED"
+    "value": "ENABLED"
   }
 }

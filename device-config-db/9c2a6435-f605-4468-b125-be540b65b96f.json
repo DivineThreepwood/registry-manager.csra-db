@@ -17,7 +17,7 @@
       {
         "key": "technical",
         "value": [
-          "2"
+          "Handle 6"
         ]
       }
     ]
@@ -59,16 +59,17 @@
   "bound_to_unit_host": true,
   "meta_config": {},
   "enabling_state": {
-    "value": "DISABLED"
+    "value": "ENABLED"
   },
   "device_config": {
-    "serial_number": "Handle506",
+    "serial_number": "506",
     "inventory_state": {
       "value": "INSTALLED",
       "location_id": "8b787be0-45c2-4c7f-b3a3-7a6b73040df0",
       "timestamp": {
         "time": 1441020278852
-      }
+      },
+      "borrower_id": ""
     },
     "device_class_id": "7d6d56c2-9bd7-45cf-a3fd-26bce7804e0a",
     "unit_id": [
